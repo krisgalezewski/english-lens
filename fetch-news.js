@@ -79,7 +79,7 @@ async function main() {
     articles,
   };
 
-  const outPath = path.join('public', 'news.json');
+  const outPath = 'news.json';
   await fs.writeFile(outPath, JSON.stringify(output, null, 2), 'utf8');
   console.log(`\n✨  Done! Wrote ${articles.length} articles to ${outPath}`);
 }
