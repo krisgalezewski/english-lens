@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English Lens — News for Learners</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#0f0f0e" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #0f0f0e;
+      --ink-soft: #3a3935;
+      --ink-muted: #7a7870;
+      --paper: #f7f5f0;
+      --paper-warm: #ede9e1;
+      --paper-card: #ffffff;
+      --rule: #d8d4cc;
+      --accent: #c84b2f;
+      --accent-soft: #f0ebe5;
+      --cat-politics: #1a4a6b;
+      --cat-technology: #2d5a3d;
+      --cat-environment: #4a6b2d;
+      --cat-culture: #6b2d5a;
+      --cat-business: #6b4a1a;
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body: 'DM Sans', system-ui, sans-serif;
+      --radius: 3px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--paper);
+      color: var(--ink);
+      min-height: 100vh;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    /* ── MASTHEAD ── */
+    .masthead {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 3px solid var(--accent);
+    }
+    .masthead-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .masthead-title {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: var(--paper);
+      white-space: nowrap;
+    }
+    .masthead-title span { color: var(--accent); }
+    .masthead-meta {
+      font-size: 11px;
+      color: #8a8780;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      white-space: nowrap;
+    }
+
+    /* ── CATEGORY BAR ── */
+    .cat-bar {
+      background: var(--paper-warm);
+      border-bottom: 1px solid var(--rule);
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .cat-bar::-webkit-scrollbar { display: none; }
+    .cat-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      gap: 0;
+    }
+    .cat-btn {
+      font-family: var(--font-body);
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--ink-muted);
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      padding: 11px 16px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .cat-btn:hover { color: var(--ink); }
+    .cat-btn.active { color: var(--ink); border-bottom-color: var(--accent); }
+
+    /* ── MAIN LAYOUT ── */
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+    }
+
+    .section-rule {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .section-rule h2 {
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--ink-muted);
+      white-space: nowrap;
+    }
+    .section-rule::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin-bottom: 48px;
+    }
+
+    /* ── ARTICLE CARD ── */
+    .card {
+      background: var(--paper-card);
+      padding: 24px;
+      cursor: pointer;
+      transition: background 0.15s;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .card:hover { background: #fdfcfa; }
+    .card.hidden { display: none; }
+
+    .card-cat {
+      font-size: 10px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 3px 8px;
+      border-radius: 2px;
+      display: inline-block;
+      align-self: flex-start;
+    }
+    .cat-politics .card-cat { background: #e8f0f7; color: var(--cat-politics); }
+    .cat-technology .card-cat { background: #e8f2ec; color: var(--cat-technology); }
+    .cat-environment .card-cat { background: #ecf2e8; color: var(--cat-environment); }
+    .cat-culture .card-cat { background: #f2e8f0; color: var(--cat-culture); }
+    .cat-business .card-cat { background: #f7f0e8; color: var(--cat-business); }
+
+    .card-title {
+      font-family: var(--font-display);
+      font-size: 19px;
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--ink);
+    }
+    .card-source {
+      font-size: 12px;
+      color: var(--ink-muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card-source::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+    .card-preview {
+      font-size: 13.5px;
+      color: var(--ink-soft);
+      line-height: 1.55;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-cta {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-top: auto;
+    }
+
+    /* ── MODAL ── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(15,15,14,0.72);
+      z-index: 200;
+      overflow-y: auto;
+      padding: 24px 16px;
+    }
+    .modal-overlay.open { display: flex; align-items: flex-start; justify-content: center; }
+    .modal {
+      background: var(--paper-card);
+      width: 100%;
+      max-width: 700px;
+      border-radius: 4px;
+      overflow: hidden;
+      animation: slideUp 0.22s ease;
+      margin: auto;
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .modal-head {
+      padding: 28px 28px 0;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 20px;
+    }
+    .modal-head .card-cat { margin-bottom: 10px; }
+    .modal-title {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 10px;
+      color: var(--ink);
+    }
+    .modal-byline {
+      font-size: 12px;
+      color: var(--ink-muted);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .modal-byline a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .modal-byline a:hover { text-decoration: underline; }
+
+    .modal-body { padding: 24px 28px 28px; }
+
+    /* Level tabs */
+    .tabs {
+      display: flex;
+      gap: 0;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .tab-btn {
+      font-family: var(--font-body);
+      font-size: 13px;
+      font-weight: 500;
+      padding: 10px 18px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      color: var(--ink-muted);
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tab-btn.active { color: var(--ink); border-bottom-color: var(--accent); }
+    .tab-btn:hover { color: var(--ink); }
+
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    .level-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 2px;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .level-b1 { background: #e8f2ec; color: #2d5a3d; }
+    .level-b2 { background: #e8f0f7; color: #1a4a6b; }
+
+    .summary-text {
+      font-size: 15px;
+      line-height: 1.75;
+      color: var(--ink-soft);
+    }
+
+    /* Vocab section */
+    .vocab-heading {
+      font-size: 11px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--ink-muted);
+      margin: 24px 0 12px;
+      padding-top: 20px;
+      border-top: 1px solid var(--rule);
+    }
+    .vocab-list { display: flex; flex-direction: column; gap: 8px; }
+    .vocab-item {
+      display: flex;
+      gap: 12px;
+      align-items: baseline;
+      padding: 10px 12px;
+      background: var(--paper);
+      border-radius: var(--radius);
+      border-left: 3px solid var(--accent);
+    }
+    .vocab-word {
+      font-weight: 500;
+      font-size: 14px;
+      color: var(--ink);
+      min-width: 130px;
+      font-family: var(--font-display);
+      font-style: italic;
+    }
+    .vocab-def {
+      font-size: 13.5px;
+      color: var(--ink-soft);
+      line-height: 1.5;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      width: 32px;
+      height: 32px;
+      border: none;
+      background: var(--paper-warm);
+      border-radius: 50%;
+      font-size: 18px;
+      cursor: pointer;
+      color: var(--ink-muted);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+    }
+    .modal-close:hover { background: var(--rule); color: var(--ink); }
+    .modal-wrapper { position: relative; }
+
+    /* ── EMPTY STATE ── */
+    .empty {
+      text-align: center;
+      padding: 64px 24px;
+      color: var(--ink-muted);
+      grid-column: 1 / -1;
+      background: var(--paper-card);
+    }
+    .empty p { font-size: 15px; margin-top: 8px; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--ink);
+      color: #6a6864;
+      font-size: 12px;
+      text-align: center;
+      padding: 20px 24px;
+      line-height: 1.7;
+    }
+
+    /* ── LOADING ── */
+    #loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      color: var(--ink-muted);
+      font-size: 14px;
+      letter-spacing: 0.04em;
+    }
+
+    @media (max-width: 600px) {
+      .masthead-title { font-size: 20px; }
+      .modal-title { font-size: 20px; }
+      .modal-head, .modal-body { padding-left: 20px; padding-right: 20px; }
+      .vocab-item { flex-direction: column; gap: 4px; }
+      .vocab-word { min-width: unset; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="masthead" role="banner">
+  <div class="masthead-inner">
+    <div class="masthead-title">English<span>Lens</span></div>
+    <div class="masthead-meta" id="week-label">Weekly edition</div>
+  </div>
+</header>
+
+<nav class="cat-bar" aria-label="Filter by category">
+  <div class="cat-inner">
+    <button class="cat-btn active" data-cat="all">All</button>
+    <button class="cat-btn" data-cat="politics">Politics</button>
+    <button class="cat-btn" data-cat="business">Business</button>
+    <button class="cat-btn" data-cat="technology">Technology</button>
+    <button class="cat-btn" data-cat="environment">Environment</button>
+    <button class="cat-btn" data-cat="culture">Culture</button>
+  </div>
+</nav>
+
+<main class="page" id="main-content">
+  <div id="loading" aria-live="polite">Loading this week's articles…</div>
+</main>
+
+<div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title-text">
+  <div class="modal-wrapper">
+    <div class="modal" id="modal">
+      <div class="modal-head" id="modal-head"></div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+    <button class="modal-close" id="modal-close" aria-label="Close article">✕</button>
+  </div>
+</div>
+
+<footer>
+  <strong style="color:#8a8780;">EnglishLens</strong> — curated weekly for Polish English learners<br>
+  Articles sourced from BBC, Reuters, Euronews, The Economist &amp; more
+</footer>
+
+<script>
+  const CAT_LABELS = {
+    politics: 'Politics', technology: 'Technology',
+    environment: 'Environment', culture: 'Culture', business: 'Business'
+  };
+
+  let allArticles = [];
+  let activeCategory = 'all';
+
+  async function loadNews() {
+    try {
+      const res = await fetch('news.json?v=' + Date.now());
+      const data = await res.json();
+      allArticles = data.articles;
+      const d = new Date(data.generated);
+      const opts = { day: 'numeric', month: 'long', year: 'numeric' };
+      document.getElementById('week-label').textContent =
+        'Week of ' + d.toLocaleDateString('en-GB', opts);
+      renderArticles();
+    } catch(e) {
+      document.getElementById('loading').innerHTML =
+        'Could not load articles. Please check your connection and refresh.';
+    }
+  }
+
+  function renderArticles() {
+    const main = document.getElementById('main-content');
+    const filtered = activeCategory === 'all'
+      ? allArticles
+      : allArticles.filter(a => a.category === activeCategory);
+
+    const grouped = {};
+    filtered.forEach(a => {
+      if (!grouped[a.category]) grouped[a.category] = [];
+      grouped[a.category].push(a);
+    });
+
+    if (filtered.length === 0) {
+      main.innerHTML = '<div class="grid"><div class="empty"><strong>No articles</strong><p>No articles in this category yet.</p></div></div>';
+      return;
+    }
+
+    let html = '';
+    const cats = activeCategory === 'all' ? Object.keys(grouped) : [activeCategory];
+
+    cats.forEach(cat => {
+      const arts = grouped[cat] || [];
+      if (!arts.length) return;
+      html += `<div class="section-rule"><h2>${CAT_LABELS[cat] || cat}</h2></div>`;
+      html += '<div class="grid">';
+      arts.forEach(a => {
+        html += `
+          <article class="card cat-${a.category}" data-id="${a.id}" tabindex="0" role="button" aria-label="Read article: ${escHtml(a.title)}">
+            <span class="card-cat">${CAT_LABELS[a.category] || a.category}</span>
+            <h3 class="card-title">${escHtml(a.title)}</h3>
+            <div class="card-source">${escHtml(a.source)} · ${formatDate(a.date)}</div>
+            <p class="card-preview">${escHtml(a.summaryB1)}</p>
+            <div class="card-cta">Read with summaries →</div>
+          </article>`;
+      });
+      html += '</div>';
+    });
+
+    main.innerHTML = html;
+
+    main.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('click', () => openModal(card.dataset.id));
+      card.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(card.dataset.id); }
+      });
+    });
+  }
+
+  function openModal(id) {
+    const a = allArticles.find(x => x.id === id);
+    if (!a) return;
+
+    document.getElementById('modal-head').innerHTML = `
+      <span class="card-cat" style="${catStyle(a.category)}">${CAT_LABELS[a.category] || a.category}</span>
+      <h2 class="modal-title" id="modal-title-text">${escHtml(a.title)}</h2>
+      <div class="modal-byline">
+        <span>${escHtml(a.source)}</span>
+        <span>${formatDate(a.date)}</span>
+        <a href="${escHtml(a.originalUrl)}" target="_blank" rel="noopener">Read original ↗</a>
+      </div>`;
+
+    const vocabHtml = a.vocabulary && a.vocabulary.length ? `
+      <div class="vocab-heading">Key vocabulary</div>
+      <div class="vocab-list">
+        ${a.vocabulary.map(v => `
+          <div class="vocab-item">
+            <span class="vocab-word">${escHtml(v.word)}</span>
+            <span class="vocab-def">${escHtml(v.definition)}</span>
+          </div>`).join('')}
+      </div>` : '';
+
+    document.getElementById('modal-body').innerHTML = `
+      <div class="tabs" role="tablist">
+        <button class="tab-btn active" role="tab" aria-selected="true" data-tab="b1">B1 — Intermediate</button>
+        <button class="tab-btn" role="tab" aria-selected="false" data-tab="b2">B2–C1 — Upper Intermediate</button>
+      </div>
+      <div class="tab-panel active" id="tab-b1" role="tabpanel">
+        <span class="level-badge level-b1">B1 · Intermediate</span>
+        <p class="summary-text">${escHtml(a.summaryB1)}</p>
+        ${vocabHtml}
+      </div>
+      <div class="tab-panel" id="tab-b2" role="tabpanel">
+        <span class="level-badge level-b2">B2–C1 · Upper Intermediate</span>
+        <p class="summary-text">${escHtml(a.summaryB2)}</p>
+        ${vocabHtml}
+      </div>`;
+
+    document.getElementById('modal-body').querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected','true');
+        document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+      });
+    });
+
+    document.getElementById('modal-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    document.getElementById('modal-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('modal-close').addEventListener('click', closeModal);
+  document.getElementById('modal-overlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('modal-overlay')) closeModal();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  document.querySelectorAll('.cat-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeCategory = btn.dataset.cat;
+      renderArticles();
+    });
+  });
+
+  function catStyle(cat) {
+    const styles = {
+      politics: 'background:#e8f0f7;color:#1a4a6b',
+      technology: 'background:#e8f2ec;color:#2d5a3d',
+      environment: 'background:#ecf2e8;color:#4a6b2d',
+      culture: 'background:#f2e8f0;color:#6b2d5a',
+      business: 'background:#f7f0e8;color:#6b4a1a'
+    };
+    return styles[cat] || '';
+  }
+
+  function formatDate(str) {
+    const d = new Date(str + 'T12:00:00');
+    return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+  }
+
+  function escHtml(str) {
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
+
+  loadNews();
+</script>
+</body>
+</html>

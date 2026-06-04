@@ -1,0 +1,120 @@
+{
+  "generated": "2026-06-02T07:30:00+02:00",
+  "week": "2026-W23",
+  "articles": [
+    {
+      "id": "1",
+      "title": "EU Moves to Strengthen Eastern Border Infrastructure",
+      "source": "Euronews",
+      "sourceUrl": "https://euronews.com",
+      "category": "politics",
+      "date": "2026-06-01",
+      "imageUrl": "",
+      "originalUrl": "https://euronews.com",
+      "summaryB1": "The European Union is planning to spend more money on roads and railways near its eastern borders. This will help countries like Poland, Lithuania and Romania to connect better with the rest of Europe. EU leaders met last week and agreed that better transport links will also help with security. The money will come from a special EU fund for infrastructure projects. Work is expected to start next year.",
+      "summaryB2": "The European Commission has unveiled a comprehensive package to bolster transport and logistical infrastructure along the EU's eastern flank, with particular emphasis on Poland, the Baltic states and Romania. The initiative, which draws on the Cohesion Fund and new defence-linked financing instruments, aims to dual-purpose civilian infrastructure for potential military mobility requirements — a concept increasingly central to NATO's strategic posture. Critics have raised questions about procurement timelines and environmental impact assessments.",
+      "vocabulary": [
+        { "word": "infrastructure", "definition": "Basic systems a country needs, like roads, railways and power supplies" },
+        { "word": "bolster", "definition": "To strengthen or improve something" },
+        { "word": "flank", "definition": "The side of something — here, the eastern edge of EU territory" },
+        { "word": "dual-purpose", "definition": "Designed to be used in two different ways" },
+        { "word": "procurement", "definition": "The process of buying or obtaining goods and services, especially for government" }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Tech Giants Face New EU Digital Rules This Autumn",
+      "source": "Reuters",
+      "sourceUrl": "https://reuters.com",
+      "category": "technology",
+      "date": "2026-06-02",
+      "imageUrl": "",
+      "originalUrl": "https://reuters.com",
+      "summaryB1": "Big technology companies like Google and Meta will have to follow new rules in Europe from this autumn. The rules are part of a plan to make the internet safer and more fair. Companies that break the rules can be fined a lot of money. European countries, including Poland, supported these new regulations. Users will have more control over their personal information.",
+      "summaryB2": "The Digital Markets Act enforcement timeline has been accelerated, with the European Commission confirming that designated 'gatekeepers' — including Alphabet, Meta and Apple — must demonstrate full compliance by October. The regulation targets anti-competitive behaviour, mandatory interoperability, and algorithmic transparency. Poland's digital ministry has been notably vocal in pushing for stricter enforcement, reflecting broader Central European frustration with the perceived dominance of American platforms in local media ecosystems.",
+      "vocabulary": [
+        { "word": "designated", "definition": "Officially chosen or named for a particular role" },
+        { "word": "gatekeepers", "definition": "Companies that control access to something important — here, large digital platforms" },
+        { "word": "interoperability", "definition": "The ability of different systems or apps to work together" },
+        { "word": "compliance", "definition": "Following rules or laws as required" },
+        { "word": "algorithmic transparency", "definition": "Making it clear how computer systems make decisions" }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Central European Cities Tackle Summer Heat With Green Spaces",
+      "source": "BBC News",
+      "sourceUrl": "https://bbc.com/news",
+      "category": "environment",
+      "date": "2026-05-31",
+      "imageUrl": "",
+      "originalUrl": "https://bbc.com",
+      "summaryB1": "Cities in Central Europe, including Warsaw and Prague, are planting more trees and creating new parks to deal with hot summers. Scientists say that cities are getting hotter because of climate change. Green spaces help to cool the air and make people feel better. Local governments are spending money on these projects. Residents say they are happy about the changes.",
+      "summaryB2": "Municipal authorities across Central Europe are implementing so-called 'sponge city' strategies as urban heat islands intensify under accelerating climate projections. Warsaw's latest masterplan earmarks 18% of new development land for permeable surfaces and tree canopy, while Kraków has introduced heat-resilience requirements into its building codes. Urban planners note a tension between densification pressures — driven by housing shortages — and the need to preserve or expand green corridors.",
+      "vocabulary": [
+        { "word": "urban heat islands", "definition": "Areas in cities that are significantly warmer than surrounding rural areas due to human activity" },
+        { "word": "permeable", "definition": "Allowing liquid to pass through — permeable surfaces absorb rainwater rather than letting it run off" },
+        { "word": "canopy", "definition": "The uppermost layer of branches and leaves in a group of trees" },
+        { "word": "densification", "definition": "The process of building more housing in a limited urban area" },
+        { "word": "resilience", "definition": "The ability to recover from or adapt to difficult conditions" }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Poland's Film Industry Gains International Recognition",
+      "source": "Notes from Poland",
+      "sourceUrl": "https://notesfrompoland.com",
+      "category": "culture",
+      "date": "2026-06-01",
+      "imageUrl": "",
+      "originalUrl": "https://notesfrompoland.com",
+      "summaryB1": "Polish films are becoming more popular around the world. Three Polish films were selected for important international festivals this year. Film makers from Poland say they want to tell stories about Polish history and modern life. Streaming services like Netflix are also interested in Polish content. More young people in Poland are studying film-making.",
+      "summaryB2": "Poland's cinematic output is attracting sustained international attention, with three features shortlisted for major festivals including Venice and Toronto. Analysts attribute the momentum partly to co-production frameworks with German and French broadcasters, and partly to a generational shift in domestic storytelling — younger directors are engaging with post-communist memory in formally adventurous ways. Netflix's Warsaw-based content team has reportedly doubled its commissioning budget, signalling confidence in Polish narratives translating across markets.",
+      "vocabulary": [
+        { "word": "cinematic", "definition": "Relating to film-making or the film industry" },
+        { "word": "shortlisted", "definition": "Included in a small group of final candidates for a prize or selection" },
+        { "word": "co-production", "definition": "A project made jointly by companies or organisations from different countries" },
+        { "word": "commissioning", "definition": "Ordering or contracting the creation of new work" },
+        { "word": "post-communist", "definition": "Relating to the period and societies after communist rule ended" }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "European Central Bank Signals Cautious Rate Path",
+      "source": "Financial Times",
+      "sourceUrl": "https://ft.com",
+      "category": "business",
+      "date": "2026-06-02",
+      "imageUrl": "",
+      "originalUrl": "https://ft.com",
+      "summaryB1": "The European Central Bank says it will be careful about changing interest rates this year. Interest rates affect how much it costs to borrow money. When rates are high, people pay more for mortgages and loans. The bank is worried about inflation, which means prices going up. Poland is not in the eurozone, but these decisions affect the whole region.",
+      "summaryB2": "The ECB's governing council has signalled a more cautious approach to further easing, citing persistent services inflation and wage growth that remains above pre-pandemic trends. The hawkish tone, delivered via ECB President Christine Lagarde's forward guidance, has prompted a modest repricing of rate expectations in swap markets. For Poland and other non-eurozone Central European economies, the ECB's stance indirectly constrains the NBP's room for manoeuvre, given the zloty's sensitivity to euro-area monetary conditions.",
+      "vocabulary": [
+        { "word": "easing", "definition": "In finance, reducing interest rates to stimulate economic activity" },
+        { "word": "hawkish", "definition": "In economics, favouring higher interest rates to control inflation" },
+        { "word": "forward guidance", "definition": "A central bank's communication about its likely future policy decisions" },
+        { "word": "repricing", "definition": "Adjusting the expected value or cost of financial instruments" },
+        { "word": "room for manoeuvre", "definition": "Freedom to act or make choices — here, flexibility in setting interest rates" }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "AI Tools Reshape Hiring Practices Across Europe",
+      "source": "The Economist",
+      "sourceUrl": "https://economist.com",
+      "category": "technology",
+      "date": "2026-05-30",
+      "imageUrl": "",
+      "originalUrl": "https://economist.com",
+      "summaryB1": "Many European companies are now using artificial intelligence to help them find new employees. AI tools can look through hundreds of job applications very quickly. Some people are worried that AI is not always fair when choosing candidates. In Poland, companies in IT and finance are using these tools the most. Workers are advised to adapt their CVs for AI screening systems.",
+      "summaryB2": "The adoption of AI-driven applicant tracking systems has accelerated sharply across European labour markets, with a recent survey indicating that 62% of companies with over 500 employees now use algorithmic screening at some stage of recruitment. The practice raises significant questions under the EU AI Act's high-risk classification for employment-related AI systems, which mandates human oversight and bias auditing. Polish labour lawyers note a gap between regulatory intent and enforcement capacity, particularly in mid-sized firms lacking dedicated compliance functions.",
+      "vocabulary": [
+        { "word": "applicant tracking systems", "definition": "Software used by companies to collect, sort and manage job applications" },
+        { "word": "algorithmic screening", "definition": "Using computer programs to automatically filter candidates based on set criteria" },
+        { "word": "mandates", "definition": "Officially requires or orders something to be done" },
+        { "word": "bias auditing", "definition": "Examining a system to find and correct unfair or discriminatory patterns" },
+        { "word": "compliance functions", "definition": "Departments or processes that ensure a company follows laws and regulations" }
+      ]
+    }
+  ]
+}
