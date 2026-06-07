@@ -23,15 +23,8 @@
       --paper-card: #ffffff;
       --rule: #d8d4cc;
       --accent: #c84b2f;
-      --accent-soft: #f0ebe5;
-      --cat-politics: #1a4a6b;
-      --cat-technology: #2d5a3d;
-      --cat-environment: #4a6b2d;
-      --cat-culture: #6b2d5a;
-      --cat-business: #6b4a1a;
       --font-display: 'Playfair Display', Georgia, serif;
       --font-body: 'DM Sans', system-ui, sans-serif;
-      --radius: 3px;
     }
 
     html { scroll-behavior: smooth; }
@@ -49,14 +42,13 @@
     .masthead {
       background: var(--ink);
       color: var(--paper);
-      padding: 0;
       position: sticky;
       top: 0;
       z-index: 100;
       border-bottom: 3px solid var(--accent);
     }
     .masthead-inner {
-      max-width: 1100px;
+      max-width: 1200px;
       margin: 0 auto;
       padding: 14px 24px;
       display: flex;
@@ -73,12 +65,21 @@
       white-space: nowrap;
     }
     .masthead-title span { color: var(--accent); }
-    .masthead-meta {
+    .masthead-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+    }
+    .masthead-edition {
       font-size: 11px;
       color: #8a8780;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      white-space: nowrap;
+    }
+    .masthead-count {
+      font-size: 11px;
+      color: #6a6864;
     }
 
     /* ── CATEGORY BAR ── */
@@ -91,11 +92,10 @@
     }
     .cat-bar::-webkit-scrollbar { display: none; }
     .cat-inner {
-      max-width: 1100px;
+      max-width: 1200px;
       margin: 0 auto;
       padding: 0 24px;
       display: flex;
-      gap: 0;
     }
     .cat-btn {
       font-family: var(--font-body);
@@ -115,56 +115,94 @@
     .cat-btn:hover { color: var(--ink); }
     .cat-btn.active { color: var(--ink); border-bottom-color: var(--accent); }
 
-    /* ── MAIN LAYOUT ── */
+    /* ── PAGE ── */
     .page {
-      max-width: 1100px;
+      max-width: 1200px;
       margin: 0 auto;
-      padding: 32px 24px 64px;
+      padding: 36px 24px 80px;
     }
 
-    .section-rule {
+    /* ── EDITION BLOCK ── */
+    .edition-block { margin-bottom: 56px; }
+
+    .edition-header {
       display: flex;
       align-items: center;
-      gap: 12px;
-      margin-bottom: 24px;
+      gap: 16px;
+      margin-bottom: 28px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--ink);
     }
-    .section-rule h2 {
+    .edition-label {
       font-family: var(--font-display);
-      font-size: 13px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--ink-muted);
+    }
+    .edition-date {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--ink);
+    }
+    .edition-pill {
+      font-size: 10px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 20px;
+      background: var(--accent);
+      color: white;
+      letter-spacing: 0.04em;
+      margin-left: auto;
+    }
+
+    /* ── CATEGORY SECTION ── */
+    .cat-section { margin-bottom: 40px; }
+    .cat-section-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .cat-section-head h3 {
+      font-family: var(--font-display);
+      font-size: 12px;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.12em;
       color: var(--ink-muted);
       white-space: nowrap;
     }
-    .section-rule::after {
+    .cat-section-head::after {
       content: '';
       flex: 1;
       height: 1px;
       background: var(--rule);
     }
 
+    /* ── GRID ── */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 1px;
       background: var(--rule);
       border: 1px solid var(--rule);
-      margin-bottom: 48px;
     }
 
     /* ── ARTICLE CARD ── */
     .card {
       background: var(--paper-card);
-      padding: 24px;
+      padding: 22px;
       cursor: pointer;
       transition: background 0.15s;
       display: flex;
       flex-direction: column;
       gap: 10px;
+      min-height: 200px;
     }
     .card:hover { background: #fdfcfa; }
-    .card.hidden { display: none; }
 
     .card-cat {
       font-size: 10px;
@@ -176,15 +214,15 @@
       display: inline-block;
       align-self: flex-start;
     }
-    .cat-politics .card-cat { background: #e8f0f7; color: var(--cat-politics); }
-    .cat-technology .card-cat { background: #e8f2ec; color: var(--cat-technology); }
-    .cat-environment .card-cat { background: #ecf2e8; color: var(--cat-environment); }
-    .cat-culture .card-cat { background: #f2e8f0; color: var(--cat-culture); }
-    .cat-business .card-cat { background: #f7f0e8; color: var(--cat-business); }
+    .cat-politics    .card-cat { background: #e8f0f7; color: #1a4a6b; }
+    .cat-technology  .card-cat { background: #e8f2ec; color: #2d5a3d; }
+    .cat-environment .card-cat { background: #ecf2e8; color: #4a6b2d; }
+    .cat-culture     .card-cat { background: #f2e8f0; color: #6b2d5a; }
+    .cat-business    .card-cat { background: #f7f0e8; color: #6b4a1a; }
 
     .card-title {
       font-family: var(--font-display);
-      font-size: 19px;
+      font-size: 17px;
       font-weight: 600;
       line-height: 1.3;
       color: var(--ink);
@@ -194,7 +232,7 @@
       color: var(--ink-muted);
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
     }
     .card-source::before {
       content: '';
@@ -203,23 +241,26 @@
       height: 4px;
       border-radius: 50%;
       background: var(--accent);
+      flex-shrink: 0;
     }
     .card-preview {
-      font-size: 13.5px;
+      font-size: 13px;
       color: var(--ink-soft);
-      line-height: 1.55;
+      line-height: 1.6;
+      flex: 1;
       display: -webkit-box;
-      -webkit-line-clamp: 3;
+      -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
     .card-cta {
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 500;
       color: var(--accent);
       text-transform: uppercase;
       letter-spacing: 0.06em;
-      margin-top: auto;
+      padding-top: 6px;
+      border-top: 1px solid var(--rule);
     }
 
     /* ── MODAL ── */
@@ -227,37 +268,35 @@
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(15,15,14,0.72);
+      background: rgba(15,15,14,0.75);
       z-index: 200;
       overflow-y: auto;
       padding: 24px 16px;
     }
     .modal-overlay.open { display: flex; align-items: flex-start; justify-content: center; }
+    .modal-wrapper { position: relative; width: 100%; max-width: 740px; margin: auto; }
     .modal {
       background: var(--paper-card);
       width: 100%;
-      max-width: 700px;
       border-radius: 4px;
       overflow: hidden;
       animation: slideUp 0.22s ease;
-      margin: auto;
     }
     @keyframes slideUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
     }
     .modal-head {
-      padding: 28px 28px 0;
+      padding: 28px 28px 20px;
       border-bottom: 1px solid var(--rule);
-      padding-bottom: 20px;
     }
-    .modal-head .card-cat { margin-bottom: 10px; }
+    .modal-head .card-cat { margin-bottom: 12px; }
     .modal-title {
       font-family: var(--font-display);
       font-size: 24px;
       font-weight: 700;
       line-height: 1.25;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
       color: var(--ink);
     }
     .modal-byline {
@@ -265,6 +304,7 @@
       color: var(--ink-muted);
       display: flex;
       align-items: center;
+      flex-wrap: wrap;
       gap: 12px;
     }
     .modal-byline a {
@@ -274,14 +314,13 @@
     }
     .modal-byline a:hover { text-decoration: underline; }
 
-    .modal-body { padding: 24px 28px 28px; }
+    .modal-body { padding: 24px 28px 32px; }
 
     /* Level tabs */
     .tabs {
       display: flex;
-      gap: 0;
-      margin-bottom: 20px;
       border-bottom: 1px solid var(--rule);
+      margin-bottom: 24px;
     }
     .tab-btn {
       font-family: var(--font-body);
@@ -308,7 +347,7 @@
       font-weight: 500;
       padding: 3px 10px;
       border-radius: 2px;
-      margin-bottom: 14px;
+      margin-bottom: 16px;
       text-transform: uppercase;
       letter-spacing: 0.06em;
     }
@@ -317,38 +356,39 @@
 
     .summary-text {
       font-size: 15px;
-      line-height: 1.75;
+      line-height: 1.8;
       color: var(--ink-soft);
     }
 
-    /* Vocab section */
+    /* Vocab */
     .vocab-heading {
       font-size: 11px;
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 0.1em;
       color: var(--ink-muted);
-      margin: 24px 0 12px;
+      margin: 28px 0 12px;
       padding-top: 20px;
       border-top: 1px solid var(--rule);
     }
     .vocab-list { display: flex; flex-direction: column; gap: 8px; }
     .vocab-item {
       display: flex;
-      gap: 12px;
+      gap: 14px;
       align-items: baseline;
-      padding: 10px 12px;
+      padding: 10px 14px;
       background: var(--paper);
-      border-radius: var(--radius);
+      border-radius: 2px;
       border-left: 3px solid var(--accent);
     }
     .vocab-word {
-      font-weight: 500;
-      font-size: 14px;
-      color: var(--ink);
-      min-width: 130px;
       font-family: var(--font-display);
       font-style: italic;
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--ink);
+      min-width: 140px;
+      flex-shrink: 0;
     }
     .vocab-def {
       font-size: 13.5px;
@@ -358,33 +398,41 @@
 
     .modal-close {
       position: absolute;
-      top: 16px;
-      right: 16px;
-      width: 32px;
-      height: 32px;
+      top: -14px;
+      right: -14px;
+      width: 34px;
+      height: 34px;
       border: none;
-      background: var(--paper-warm);
+      background: var(--ink);
       border-radius: 50%;
-      font-size: 18px;
+      font-size: 16px;
       cursor: pointer;
-      color: var(--ink-muted);
+      color: var(--paper);
       display: flex;
       align-items: center;
       justify-content: center;
-      line-height: 1;
     }
-    .modal-close:hover { background: var(--rule); color: var(--ink); }
-    .modal-wrapper { position: relative; }
+    .modal-close:hover { background: var(--accent); }
 
-    /* ── EMPTY STATE ── */
-    .empty {
-      text-align: center;
-      padding: 64px 24px;
+    /* ── LOADING / EMPTY ── */
+    #loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50vh;
       color: var(--ink-muted);
-      grid-column: 1 / -1;
-      background: var(--paper-card);
+      font-size: 14px;
+      letter-spacing: 0.04em;
     }
-    .empty p { font-size: 15px; margin-top: 8px; }
+    .empty-cat {
+      background: var(--paper-card);
+      border: 1px solid var(--rule);
+      padding: 40px;
+      text-align: center;
+      color: var(--ink-muted);
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
 
     /* ── FOOTER ── */
     footer {
@@ -392,27 +440,19 @@
       color: #6a6864;
       font-size: 12px;
       text-align: center;
-      padding: 20px 24px;
-      line-height: 1.7;
+      padding: 24px;
+      line-height: 1.9;
     }
+    footer strong { color: #9a9895; }
+    footer a { color: #8a8780; }
 
-    /* ── LOADING ── */
-    #loading {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 60vh;
-      color: var(--ink-muted);
-      font-size: 14px;
-      letter-spacing: 0.04em;
-    }
-
-    @media (max-width: 600px) {
-      .masthead-title { font-size: 20px; }
+    @media (max-width: 640px) {
+      .masthead-title { font-size: 21px; }
       .modal-title { font-size: 20px; }
-      .modal-head, .modal-body { padding-left: 20px; padding-right: 20px; }
+      .modal-head, .modal-body { padding-left: 18px; padding-right: 18px; }
       .vocab-item { flex-direction: column; gap: 4px; }
       .vocab-word { min-width: unset; }
+      .modal-close { top: -12px; right: -4px; }
     }
   </style>
 </head>
@@ -421,7 +461,10 @@
 <header class="masthead" role="banner">
   <div class="masthead-inner">
     <div class="masthead-title">English<span>Lens</span></div>
-    <div class="masthead-meta" id="week-label">Weekly edition</div>
+    <div class="masthead-right">
+      <div class="masthead-edition" id="week-label">Loading…</div>
+      <div class="masthead-count" id="article-count"></div>
+    </div>
   </div>
 </header>
 
@@ -437,22 +480,23 @@
 </nav>
 
 <main class="page" id="main-content">
-  <div id="loading" aria-live="polite">Loading this week's articles…</div>
+  <div id="loading" aria-live="polite">Loading articles…</div>
 </main>
 
 <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title-text">
   <div class="modal-wrapper">
+    <button class="modal-close" id="modal-close" aria-label="Close article">✕</button>
     <div class="modal" id="modal">
       <div class="modal-head" id="modal-head"></div>
       <div class="modal-body" id="modal-body"></div>
     </div>
-    <button class="modal-close" id="modal-close" aria-label="Close article">✕</button>
   </div>
 </div>
 
 <footer>
-  <strong style="color:#8a8780;">EnglishLens</strong> — curated weekly for Polish English learners<br>
-  Articles sourced from BBC, Reuters, Euronews, The Economist &amp; more
+  <strong>EnglishLens</strong> — curated weekly for English learners in Poland<br>
+  Made with care by <strong>Kris</strong> · for Kris's students 🎓<br>
+  <span style="font-size:11px;">Sources: BBC News · Reuters · Euronews · Politico Europe · Notes from Poland · The Guardian · Financial Times</span>
 </footer>
 
 <script>
@@ -461,75 +505,118 @@
     environment: 'Environment', culture: 'Culture', business: 'Business'
   };
 
-  let allArticles = [];
+  let allEditions = [];   // [{generated, week, articles:[...]}, ...]
   let activeCategory = 'all';
+
+  // ── LOAD ──────────────────────────────────────────────────────────────────
 
   async function loadNews() {
     try {
       const res = await fetch('news.json?v=' + Date.now());
       const data = await res.json();
-      allArticles = data.articles;
-      const d = new Date(data.generated);
-      const opts = { day: 'numeric', month: 'long', year: 'numeric' };
-      document.getElementById('week-label').textContent =
-        'Week of ' + d.toLocaleDateString('en-GB', opts);
+
+      // Support both new archive format and old single-edition format
+      if (data.editions) {
+        allEditions = data.editions;
+      } else if (data.articles) {
+        allEditions = [{ generated: data.generated, week: data.week, articles: data.articles }];
+      }
+
+      const latest = allEditions[0];
+      if (latest) {
+        const d = new Date(latest.generated);
+        document.getElementById('week-label').textContent =
+          'Week of ' + d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+      }
+
+      const total = allEditions.reduce((n, e) => n + (e.articles || []).length, 0);
+      document.getElementById('article-count').textContent =
+        total + ' article' + (total !== 1 ? 's' : '') + ' in archive';
+
       renderArticles();
-    } catch(e) {
-      document.getElementById('loading').innerHTML =
+    } catch (e) {
+      document.getElementById('loading').textContent =
         'Could not load articles. Please check your connection and refresh.';
     }
   }
 
+  // ── RENDER ────────────────────────────────────────────────────────────────
+
   function renderArticles() {
     const main = document.getElementById('main-content');
-    const filtered = activeCategory === 'all'
-      ? allArticles
-      : allArticles.filter(a => a.category === activeCategory);
-
-    const grouped = {};
-    filtered.forEach(a => {
-      if (!grouped[a.category]) grouped[a.category] = [];
-      grouped[a.category].push(a);
-    });
-
-    if (filtered.length === 0) {
-      main.innerHTML = '<div class="grid"><div class="empty"><strong>No articles</strong><p>No articles in this category yet.</p></div></div>';
-      return;
-    }
-
     let html = '';
-    const cats = activeCategory === 'all' ? Object.keys(grouped) : [activeCategory];
+    let totalShown = 0;
 
-    cats.forEach(cat => {
-      const arts = grouped[cat] || [];
-      if (!arts.length) return;
-      html += `<div class="section-rule"><h2>${CAT_LABELS[cat] || cat}</h2></div>`;
-      html += '<div class="grid">';
-      arts.forEach(a => {
-        html += `
-          <article class="card cat-${a.category}" data-id="${a.id}" tabindex="0" role="button" aria-label="Read article: ${escHtml(a.title)}">
+    allEditions.forEach((edition, ei) => {
+      const articles = (edition.articles || []).filter(a =>
+        activeCategory === 'all' || a.category === activeCategory
+      );
+      if (!articles.length) return;
+
+      const d = new Date(edition.generated);
+      const dateStr = d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+      const isLatest = ei === 0;
+
+      html += `<div class="edition-block">`;
+      html += `<div class="edition-header">
+        <span class="edition-label">Edition</span>
+        <span class="edition-date">${dateStr}</span>
+        ${isLatest ? '<span class="edition-pill">Latest</span>' : ''}
+      </div>`;
+
+      // Group by category within this edition
+      const byCat = {};
+      articles.forEach(a => {
+        if (!byCat[a.category]) byCat[a.category] = [];
+        byCat[a.category].push(a);
+      });
+
+      Object.keys(byCat).forEach(cat => {
+        const arts = byCat[cat];
+        html += `<div class="cat-section">`;
+        if (activeCategory === 'all') {
+          html += `<div class="cat-section-head"><h3>${CAT_LABELS[cat] || cat}</h3></div>`;
+        }
+        html += `<div class="grid">`;
+        arts.forEach(a => {
+          html += `<article class="card cat-${escAttr(a.category)}"
+            data-edition="${ei}" data-id="${escAttr(a.id)}"
+            tabindex="0" role="button"
+            aria-label="Read: ${escAttr(a.title)}">
             <span class="card-cat">${CAT_LABELS[a.category] || a.category}</span>
             <h3 class="card-title">${escHtml(a.title)}</h3>
             <div class="card-source">${escHtml(a.source)} · ${formatDate(a.date)}</div>
-            <p class="card-preview">${escHtml(a.summaryB1)}</p>
+            <p class="card-preview">${escHtml(a.summaryB1 || '')}</p>
             <div class="card-cta">Read with summaries →</div>
           </article>`;
+          totalShown++;
+        });
+        html += `</div></div>`;
       });
-      html += '</div>';
+
+      html += `</div>`;
     });
+
+    if (!totalShown) {
+      html = `<div class="empty-cat">No articles found${activeCategory !== 'all' ? ' in this category' : ''}.</div>`;
+    }
 
     main.innerHTML = html;
 
     main.querySelectorAll('.card').forEach(card => {
-      card.addEventListener('click', () => openModal(card.dataset.id));
+      card.addEventListener('click', () => openModal(+card.dataset.edition, card.dataset.id));
       card.addEventListener('keydown', e => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(card.dataset.id); }
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(+card.dataset.edition, card.dataset.id); }
       });
     });
   }
 
-  function openModal(id) {
-    const a = allArticles.find(x => x.id === id);
+  // ── MODAL ─────────────────────────────────────────────────────────────────
+
+  function openModal(editionIdx, id) {
+    const edition = allEditions[editionIdx];
+    if (!edition) return;
+    const a = (edition.articles || []).find(x => x.id === id);
     if (!a) return;
 
     document.getElementById('modal-head').innerHTML = `
@@ -538,18 +625,19 @@
       <div class="modal-byline">
         <span>${escHtml(a.source)}</span>
         <span>${formatDate(a.date)}</span>
-        <a href="${escHtml(a.originalUrl)}" target="_blank" rel="noopener">Read original ↗</a>
+        <a href="${escAttr(a.originalUrl)}" target="_blank" rel="noopener noreferrer">Read original article ↗</a>
       </div>`;
 
-    const vocabHtml = a.vocabulary && a.vocabulary.length ? `
-      <div class="vocab-heading">Key vocabulary</div>
-      <div class="vocab-list">
-        ${a.vocabulary.map(v => `
-          <div class="vocab-item">
+    function vocabBlock(items) {
+      if (!items || !items.length) return '';
+      return `<div class="vocab-heading">Key vocabulary</div>
+        <div class="vocab-list">
+          ${items.map(v => `<div class="vocab-item">
             <span class="vocab-word">${escHtml(v.word)}</span>
             <span class="vocab-def">${escHtml(v.definition)}</span>
           </div>`).join('')}
-      </div>` : '';
+        </div>`;
+    }
 
     document.getElementById('modal-body').innerHTML = `
       <div class="tabs" role="tablist">
@@ -558,26 +646,27 @@
       </div>
       <div class="tab-panel active" id="tab-b1" role="tabpanel">
         <span class="level-badge level-b1">B1 · Intermediate</span>
-        <p class="summary-text">${escHtml(a.summaryB1)}</p>
-        ${vocabHtml}
+        <p class="summary-text">${escHtml(a.summaryB1 || '')}</p>
+        ${vocabBlock(a.vocabularyB1)}
       </div>
       <div class="tab-panel" id="tab-b2" role="tabpanel">
         <span class="level-badge level-b2">B2–C1 · Upper Intermediate</span>
-        <p class="summary-text">${escHtml(a.summaryB2)}</p>
-        ${vocabHtml}
+        <p class="summary-text">${escHtml(a.summaryB2 || '')}</p>
+        ${vocabBlock(a.vocabularyB2)}
       </div>`;
 
     document.getElementById('modal-body').querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
-        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+        document.querySelectorAll('#modal-body .tab-btn').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
+        document.querySelectorAll('#modal-body .tab-panel').forEach(p => p.classList.remove('active'));
         btn.classList.add('active');
-        btn.setAttribute('aria-selected','true');
+        btn.setAttribute('aria-selected', 'true');
         document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
       });
     });
 
     document.getElementById('modal-overlay').classList.add('open');
+    document.getElementById('modal-overlay').scrollTop = 0;
     document.body.style.overflow = 'hidden';
   }
 
@@ -592,6 +681,8 @@
   });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
+  // ── CATEGORY FILTER ───────────────────────────────────────────────────────
+
   document.querySelectorAll('.cat-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
@@ -601,24 +692,33 @@
     });
   });
 
+  // ── HELPERS ───────────────────────────────────────────────────────────────
+
   function catStyle(cat) {
-    const styles = {
-      politics: 'background:#e8f0f7;color:#1a4a6b',
-      technology: 'background:#e8f2ec;color:#2d5a3d',
+    const s = {
+      politics:    'background:#e8f0f7;color:#1a4a6b',
+      technology:  'background:#e8f2ec;color:#2d5a3d',
       environment: 'background:#ecf2e8;color:#4a6b2d',
-      culture: 'background:#f2e8f0;color:#6b2d5a',
-      business: 'background:#f7f0e8;color:#6b4a1a'
+      culture:     'background:#f2e8f0;color:#6b2d5a',
+      business:    'background:#f7f0e8;color:#6b4a1a',
     };
-    return styles[cat] || '';
+    return s[cat] || '';
   }
 
   function formatDate(str) {
+    if (!str) return '';
     const d = new Date(str + 'T12:00:00');
     return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
   }
 
   function escHtml(str) {
-    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    return String(str)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function escAttr(str) {
+    return String(str).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
 
   if ('serviceWorker' in navigator) {
