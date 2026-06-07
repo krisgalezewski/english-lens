@@ -524,9 +524,12 @@
 
       const latest = allEditions[0];
       if (latest) {
-        const d = new Date(latest.generated);
-        document.getElementById('week-label').textContent =
-          'Week of ' + d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+        const raw = (latest.generated || '').replace(/\+\d{2}:\d{2}$/, 'Z');
+        const d = new Date(raw);
+        const label = isNaN(d.getTime())
+          ? (latest.week || 'Latest edition')
+          : 'Week of ' + d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+        document.getElementById('week-label').textContent = label;
       }
 
       const total = allEditions.reduce((n, e) => n + (e.articles || []).length, 0);
