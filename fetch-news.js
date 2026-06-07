@@ -11,8 +11,8 @@ import fs from 'fs/promises';
 
 // ── CONFIG ────────────────────────────────────────────────────────────────────
 
-const ARTICLES_PER_RUN = 20;  // Total articles per weekly edition
-const MAX_PER_CATEGORY = 4;   // No single category dominates
+const ARTICLES_PER_RUN = 12;  // Total articles per weekly edition
+const MAX_PER_CATEGORY = 3;   // No single category dominates
 
 const FEEDS = [
   // Politics / EU / Europe
@@ -25,6 +25,7 @@ const FEEDS = [
   // Business / Economy
   { url: 'https://feeds.bbci.co.uk/news/business/rss.xml',               category: 'business',     name: 'BBC Business' },
   { url: 'https://feeds.reuters.com/reuters/businessNews',                category: 'business',     name: 'Reuters Business' },
+  { url: 'https://rss.app/feeds/business-europe.xml',                        category: 'business',     name: 'Business Europe' },
   { url: 'https://www.ft.com/rss/home',                                   category: 'business',     name: 'Financial Times' },
 
   // Technology
@@ -123,7 +124,7 @@ async function fetchAllFeeds(parser) {
             date: item.pubDate
               ? new Date(item.pubDate).toISOString().split('T')[0]
               : new Date().toISOString().split('T')[0],
-            snippet: stripHtml(item.contentSnippet || item.summary || item.content || '').slice(0, 800),
+            snippet: stripHtml(item.contentSnippet || item.summary || item.content || '').slice(0, 1200),
           });
         }
       } catch (err) {

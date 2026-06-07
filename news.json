@@ -5,75 +5,291 @@
       "week": "2026-W23",
       "articles": [
         {
-          "id": "sample001",
-          "title": "EU Moves to Strengthen Eastern Border Infrastructure",
+          "id": "s001",
+          "title": "EU Plans Major Investment in Eastern European Transport Links",
           "source": "Euronews",
-          "originalUrl": "https://www.euronews.com/my-europe/2026/06/01/eu-eastern-border-infrastructure",
+          "originalUrl": "https://www.euronews.com/my-europe",
           "category": "politics",
-          "date": "2026-06-01",
-          "summaryB1": "The European Union is planning to spend more money on roads and railways near its eastern borders. This will help countries like Poland, Lithuania and Romania to connect better with the rest of Europe. EU leaders agreed that better transport links are important for the economy and for security. The money will come from a special EU fund. Work on the new infrastructure is expected to start next year. Many people who live near the border are happy about this decision. They hope that better roads will also bring more jobs to their region. Poland will receive one of the largest shares of the funding because it has the longest eastern border in the EU. Local governments are already making plans for how to use the money.",
+          "date": "2026-06-02",
+          "summaryB1": "The European Union is planning to spend a lot of money on roads and railways near its eastern borders. This will help countries like Poland, Lithuania and Romania to connect better with the rest of Europe. EU leaders agreed that better transport links are very important for the economy and for security. The money will come from a special EU fund. Work on the new roads and railways is expected to start next year. Many people who live near the border are happy about this decision. They hope that better infrastructure will also bring more jobs to their region. Poland will receive one of the largest shares of the total funding because it has a very long eastern border with Ukraine and Belarus. Local governments in Poland are already making detailed plans for how to use the money effectively.",
           "vocabularyB1": [
             { "word": "infrastructure", "definition": "The basic systems a country needs, like roads, railways and power supplies" },
-            { "word": "borders", "definition": "The lines that separate one country from another" },
             { "word": "funding", "definition": "Money given for a specific purpose" },
-            { "word": "transport links", "definition": "Roads, railways and other connections between places" },
-            { "word": "region", "definition": "A large area of a country or the world" }
+            { "word": "transport links", "definition": "Roads, railways and other connections that allow people to travel between places" },
+            { "word": "region", "definition": "A large area of a country with particular characteristics" },
+            { "word": "effectively", "definition": "In a way that works well and produces the right result" }
           ],
-          "summaryB2": "The European Commission has unveiled a comprehensive package to bolster transport and logistical infrastructure along the EU's eastern flank, with particular emphasis on Poland, the Baltic states and Romania. The initiative draws on the Cohesion Fund and newly established defence-linked financing instruments, aiming to dual-purpose civilian infrastructure for potential military mobility requirements — a concept increasingly central to NATO's strategic posture in the region. Poland stands to receive a disproportionately large allocation given the extent of its eastern border. Critics have raised questions about procurement timelines and the adequacy of environmental impact assessments, while some MEPs have called for greater transparency in the tendering process. Proponents argue that the security and economic rationale is compelling, particularly given recent geopolitical tensions.",
+          "summaryB2": "The European Commission has unveiled a comprehensive package to bolster transport and logistical infrastructure along the EU's eastern flank, with particular emphasis on Poland, the Baltic states and Romania. The initiative draws on the Cohesion Fund and newly established defence-linked financing instruments, aiming to dual-purpose civilian infrastructure for potential military mobility requirements — a concept increasingly central to NATO's strategic posture. Poland stands to receive a disproportionately large allocation given the considerable extent of its eastern border with Ukraine and Belarus. Critics have raised legitimate questions about procurement timelines and the adequacy of environmental impact assessments, while several MEPs have called for greater transparency in the tendering process. Proponents argue that the security and economic rationale is compelling, particularly in the context of ongoing geopolitical uncertainty in the region.",
           "vocabularyB2": [
             { "word": "bolster", "definition": "To strengthen or improve something significantly" },
-            { "word": "dual-purpose", "definition": "Designed to serve two different functions at the same time" },
-            { "word": "disproportionately", "definition": "To a degree that is larger or smaller than would be expected or fair" },
-            { "word": "tendering process", "definition": "The formal procedure for inviting and selecting bids for a contract" },
-            { "word": "geopolitical", "definition": "Relating to politics as influenced by geographical factors and international relations" }
+            { "word": "dual-purpose", "definition": "Designed to serve two completely different functions at the same time" },
+            { "word": "disproportionately", "definition": "To a degree that is larger or smaller than would normally be expected" },
+            { "word": "tendering process", "definition": "The formal procedure of inviting and selecting competitive bids for a contract" },
+            { "word": "geopolitical", "definition": "Relating to politics strongly influenced by geographical factors and international relations" }
           ]
         },
         {
-          "id": "sample002",
-          "title": "Tech Giants Face New EU Digital Rules This Autumn",
+          "id": "s002",
+          "title": "Tech Giants Face New EU Digital Rules From Autumn",
           "source": "Reuters",
-          "originalUrl": "https://www.reuters.com/technology/eu-digital-markets-act-enforcement-2026",
+          "originalUrl": "https://www.reuters.com/technology",
           "category": "technology",
           "date": "2026-06-02",
-          "summaryB1": "Big technology companies like Google and Meta will have to follow new rules in Europe from this autumn. The rules are part of a plan to make the internet safer and more fair for everyone. Companies that break the rules can be fined a lot of money — up to ten percent of their total income. European countries, including Poland, supported these new regulations strongly. Users will have more control over their personal information and how it is used. The new rules also mean that large companies cannot stop smaller companies from competing with them. Poland's digital ministry has been one of the most active supporters of strict enforcement. Many Polish internet users say they feel better protected because of these changes.",
+          "summaryB1": "Big technology companies like Google and Meta will have to follow new rules in Europe from this autumn. The rules are part of a plan to make the internet safer and more fair for everyone. Companies that break the rules can be fined a lot of money — up to ten percent of their total income worldwide. European countries, including Poland, have strongly supported these new regulations. Users will have more control over their personal information and how large companies use it. The new rules also mean that big companies cannot use unfair methods to stop smaller companies from competing with them. Poland's digital ministry has been one of the most active supporters of strict enforcement of these rules. Many Polish internet users say they feel better protected by these changes.",
           "vocabularyB1": [
-            { "word": "regulations", "definition": "Official rules made by a government or authority" },
-            { "word": "enforcement", "definition": "Making sure that rules are followed" },
-            { "word": "fined", "definition": "Required to pay money as a punishment for breaking a rule" },
-            { "word": "competing", "definition": "Trying to be more successful than others in the same market" },
-            { "word": "protected", "definition": "Kept safe from harm or unfair treatment" }
+            { "word": "regulations", "definition": "Official rules made by a government or authority that must be followed" },
+            { "word": "enforcement", "definition": "The process of making sure that rules or laws are actually followed" },
+            { "word": "fined", "definition": "Required to pay money as a punishment for breaking a rule or law" },
+            { "word": "competing", "definition": "Trying to be more successful than others who are selling similar products or services" },
+            { "word": "protected", "definition": "Kept safe from harm, danger or unfair treatment" }
           ],
-          "summaryB2": "The Digital Markets Act enforcement timeline has been accelerated, with the European Commission confirming that designated 'gatekeepers' — including Alphabet, Meta and Apple — must demonstrate full compliance by October. The regulation targets anti-competitive behaviour, mandatory interoperability between platforms, and greater algorithmic transparency. Poland's digital ministry has been notably vocal in pushing for stricter enforcement mechanisms, reflecting broader Central European frustration with the perceived dominance of American platforms in local media ecosystems. Non-compliance carries penalties of up to 10% of global annual turnover, with repeat offenders facing structural remedies including forced divestiture. Legal analysts expect several major platforms to challenge the rules in the Court of Justice of the EU.",
+          "summaryB2": "The Digital Markets Act enforcement timeline has been accelerated, with the European Commission confirming that designated 'gatekeepers' — including Alphabet, Meta and Apple — must demonstrate full compliance by October. The regulation targets anti-competitive behaviour, mandatory interoperability between platforms, and greater algorithmic transparency. Poland's digital ministry has been notably vocal in pushing for stricter enforcement mechanisms, reflecting broader Central European frustration with the perceived dominance of American platforms in local media ecosystems. Non-compliance carries penalties of up to 10% of global annual turnover, with repeat offenders potentially facing structural remedies including forced divestiture. Legal analysts widely expect several major platforms to challenge specific provisions in the Court of Justice of the EU.",
           "vocabularyB2": [
             { "word": "gatekeepers", "definition": "Companies that control access to important digital markets or platforms" },
-            { "word": "interoperability", "definition": "The ability of different systems or applications to work together seamlessly" },
-            { "word": "algorithmic transparency", "definition": "Making it clear and understandable how computer systems make automated decisions" },
-            { "word": "divestiture", "definition": "The sale or disposal of a business asset or subsidiary, often required by regulators" },
-            { "word": "structural remedies", "definition": "Regulatory measures that change the structure of a company to restore competition" }
+            { "word": "interoperability", "definition": "The ability of different digital systems or applications to work together seamlessly" },
+            { "word": "algorithmic transparency", "definition": "Making it clear and understandable how automated computer systems make decisions" },
+            { "word": "divestiture", "definition": "The forced sale or disposal of a part of a business, often required by regulators" },
+            { "word": "provisions", "definition": "Specific conditions or requirements within a law or legal agreement" }
           ]
         },
         {
-          "id": "sample003",
-          "title": "Central European Cities Tackle Summer Heat With Green Spaces",
+          "id": "s003",
+          "title": "Central European Cities Plant Thousands of Trees to Beat the Heat",
           "source": "BBC News",
-          "originalUrl": "https://www.bbc.com/news/world-europe-central-european-heat-green-spaces",
+          "originalUrl": "https://www.bbc.com/news/world/europe",
+          "category": "environment",
+          "date": "2026-06-01",
+          "summaryB1": "Cities in Central Europe, including Warsaw and Prague, are planting many new trees and building parks to deal with very hot summers. Scientists say that cities are getting hotter because of climate change. Green spaces help to cool the air and make life more comfortable for people living there. Local governments are spending large amounts of money on these projects. In Warsaw, the city plans to plant thousands of new trees along busy streets over the next three years. Prague is also creating several new parks in areas where there were previously only buildings and concrete. Both cities say that green areas are not just nice to look at — they are necessary for people's health during periods of extreme heat. Residents in both cities say they are happy that their local governments are taking this problem seriously.",
+          "vocabularyB1": [
+            { "word": "climate change", "definition": "Long-term changes in global temperatures and weather patterns, mainly caused by human activities" },
+            { "word": "extreme heat", "definition": "Temperatures that are much higher than usual and can be dangerous to people's health" },
+            { "word": "residents", "definition": "People who live permanently in a particular place or area" },
+            { "word": "concrete", "definition": "A hard building material made from cement, sand and water, used for roads and buildings" },
+            { "word": "previously", "definition": "At an earlier time; before the current situation existed" }
+          ],
+          "summaryB2": "Municipal authorities across Central Europe are implementing so-called 'sponge city' strategies as urban heat islands intensify under accelerating climate projections. Warsaw's latest urban masterplan earmarks 18% of all new development land for permeable surfaces and expanding tree canopy, while Kraków has introduced mandatory heat-resilience requirements into its building regulations. Urban planners acknowledge a fundamental tension between densification pressures — driven by acute housing shortages — and the ecological imperative to preserve green corridors that regulate urban microclimates. Research from the Warsaw University of Life Sciences suggests mature street trees can reduce local temperatures by up to 8°C on peak summer days, lending considerable scientific weight to what critics had previously dismissed as a purely aesthetic concern.",
+          "vocabularyB2": [
+            { "word": "urban heat islands", "definition": "City areas significantly warmer than surrounding rural areas due to buildings, roads and human activity" },
+            { "word": "permeable surfaces", "definition": "Ground surfaces that allow rainwater to pass through rather than run off into drains" },
+            { "word": "densification", "definition": "The process of increasing the number of buildings and population density in an urban area" },
+            { "word": "microclimates", "definition": "Climate conditions specific to a small local area, which may differ significantly from the wider region" },
+            { "word": "aesthetic", "definition": "Relating to beauty and visual appearance rather than practical usefulness" }
+          ]
+        },
+        {
+          "id": "s004",
+          "title": "European Central Bank Signals Cautious Approach to Interest Rates",
+          "source": "Financial Times",
+          "originalUrl": "https://www.ft.com/economics",
+          "category": "business",
+          "date": "2026-06-02",
+          "summaryB1": "The European Central Bank says it will be very careful about changing interest rates this year. Interest rates affect how much it costs to borrow money from a bank. When rates are high, people pay more for mortgages and business loans. The bank is worried about inflation, which means the prices of everyday things going up faster than usual. Poland is not part of the eurozone and uses the zloty, but decisions made by the European Central Bank still have an important effect on Poland's economy. Many Polish businesses borrow money in euros, so changes in European interest rates affect them directly. Economists say that the bank wants to be sure that inflation is really under control before it makes any big changes. This cautious approach means that borrowing will remain expensive for some time.",
+          "vocabularyB1": [
+            { "word": "interest rates", "definition": "The percentage charged by a bank for lending money, or paid on savings" },
+            { "word": "inflation", "definition": "A general increase in prices over time, reducing what you can buy with the same amount of money" },
+            { "word": "mortgages", "definition": "Loans taken from a bank to buy a house or flat, repaid over many years" },
+            { "word": "eurozone", "definition": "The group of EU countries that use the euro as their currency" },
+            { "word": "cautious", "definition": "Being careful and not taking risks; not acting too quickly" }
+          ],
+          "summaryB2": "The ECB's governing council has signalled a more cautious approach to further monetary easing, citing persistent services inflation and wage growth that remains above pre-pandemic trends. The hawkish tone, communicated through President Christine Lagarde's carefully worded forward guidance, has prompted a modest repricing of rate expectations in European swap markets. For Poland and other non-eurozone Central European economies, the ECB's stance indirectly constrains the National Bank of Poland's room for manoeuvre, given the zloty's well-documented sensitivity to euro-area monetary conditions. Analysts at several Warsaw-based investment banks have consequently revised their forecasts for domestic rate cuts, pushing expected reductions further into the second half of the year.",
+          "vocabularyB2": [
+            { "word": "monetary easing", "definition": "Central bank policy of reducing interest rates to stimulate economic activity and borrowing" },
+            { "word": "hawkish", "definition": "Favouring higher interest rates and tighter monetary policy to control inflation" },
+            { "word": "forward guidance", "definition": "A central bank's communication about its likely future policy decisions to influence expectations" },
+            { "word": "repricing", "definition": "Adjusting the expected value or cost of financial instruments based on new information" },
+            { "word": "room for manoeuvre", "definition": "Freedom or flexibility to act or make independent choices within constraints" }
+          ]
+        },
+        {
+          "id": "s005",
+          "title": "Polish Film Industry Gains Growing International Recognition",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com",
+          "category": "culture",
+          "date": "2026-06-01",
+          "summaryB1": "Polish films are becoming more popular and well-known around the world. Three Polish films have been selected for important international film festivals this year. Film-makers from Poland say they want to tell stories about Polish history and modern Polish life in ways that people from other countries can also understand and enjoy. Streaming services like Netflix are very interested in Polish content and are spending more money on Polish productions. More young people in Poland are now choosing to study film-making at university. Industry experts say that Polish cinema has a unique voice that audiences around the world are beginning to appreciate. Warsaw is becoming an increasingly important European centre for film and television production, attracting foreign productions that use Polish studios and local talent.",
+          "vocabularyB1": [
+            { "word": "film festivals", "definition": "Events where films from different countries are shown and sometimes given prizes" },
+            { "word": "productions", "definition": "Films, TV shows or other media that have been made" },
+            { "word": "streaming services", "definition": "Online platforms like Netflix where you can watch films and shows over the internet" },
+            { "word": "unique", "definition": "Being the only one of its kind; unlike anything else" },
+            { "word": "talent", "definition": "People with natural ability and skill in a particular area" }
+          ],
+          "summaryB2": "Poland's cinematic output is attracting sustained international attention, with three features shortlisted for major festivals including Venice and Toronto. Analysts attribute this momentum partly to co-production frameworks with German and French broadcasters, and partly to a generational shift in domestic storytelling — younger directors are engaging with post-communist memory and contemporary Polish identity in formally adventurous and internationally accessible ways. Netflix's Warsaw-based content team has reportedly doubled its commissioning budget for Polish-language originals, signalling growing confidence that Polish narratives can translate successfully across diverse global markets. Warsaw is increasingly positioning itself as a significant Central European production hub.",
+          "vocabularyB2": [
+            { "word": "cinematic output", "definition": "The total number of films produced by a country or film-maker over a period of time" },
+            { "word": "shortlisted", "definition": "Included in a small final group of candidates being considered for a prize or selection" },
+            { "word": "co-production frameworks", "definition": "Formal agreements allowing companies from different countries to jointly finance and make films" },
+            { "word": "commissioning budget", "definition": "Money set aside by a broadcaster or platform to order and pay for new original content" },
+            { "word": "post-communist", "definition": "Relating to societies and culture in the period after communist rule ended in Eastern Europe" }
+          ]
+        },
+        {
+          "id": "s006",
+          "title": "AI Tools Reshape Hiring Practices Across Europe",
+          "source": "The Guardian",
+          "originalUrl": "https://www.theguardian.com/technology",
+          "category": "technology",
+          "date": "2026-05-31",
+          "summaryB1": "Many European companies are now using artificial intelligence to help them find new employees. AI tools can look through hundreds of job applications very quickly and identify the most suitable candidates. Some people are worried that AI is not always fair when it chooses which candidates to select for interviews. In Poland, companies in the IT and finance sectors are using these tools the most. Workers are strongly advised to write their CVs in ways that AI screening systems will score positively. Trade unions across Europe are calling for new laws to protect job seekers from being unfairly rejected by automated systems. Some countries are already introducing rules that require companies to tell applicants when AI has been used in their selection process.",
+          "vocabularyB1": [
+            { "word": "artificial intelligence", "definition": "Computer systems that can do tasks that normally require human intelligence, like making decisions" },
+            { "word": "candidates", "definition": "People who are applying for a job or position" },
+            { "word": "CVs", "definition": "Documents listing a person's education, work experience and skills, used when applying for jobs" },
+            { "word": "automated", "definition": "Done by machines or computers without needing human involvement" },
+            { "word": "trade unions", "definition": "Organisations that represent workers and protect their rights in the workplace" }
+          ],
+          "summaryB2": "The adoption of AI-driven applicant tracking systems has accelerated sharply across European labour markets, with a recent survey indicating that 62% of companies with over 500 employees now deploy algorithmic screening at some stage of their recruitment process. The practice raises significant compliance questions under the EU AI Act's high-risk classification for employment-related AI applications, which mandates meaningful human oversight and regular bias auditing. Polish labour lawyers note a persistent gap between the regulation's stated intent and actual enforcement capacity, particularly among mid-sized firms that lack dedicated compliance functions. Meanwhile, trade union confederations in several EU member states are lobbying for more prescriptive transparency requirements, including mandatory disclosure of AI involvement to all unsuccessful applicants.",
+          "vocabularyB2": [
+            { "word": "applicant tracking systems", "definition": "Software used by employers to automatically collect, filter and rank job applications" },
+            { "word": "algorithmic screening", "definition": "Using computer programs to automatically evaluate and filter candidates based on preset criteria" },
+            { "word": "bias auditing", "definition": "Systematically examining a system to identify and correct patterns of unfair or discriminatory decision-making" },
+            { "word": "prescriptive", "definition": "Giving detailed, specific instructions about exactly what must be done" },
+            { "word": "mandatory disclosure", "definition": "A legal requirement to officially inform someone about something" }
+          ]
+        },
+        {
+          "id": "s007",
+          "title": "Poland Expands Renewable Energy Capacity With New Wind Farms",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com",
+          "category": "environment",
+          "date": "2026-06-01",
+          "summaryB1": "Poland is building many new wind farms to produce more clean electricity. The government wants to reduce the country's dependence on coal, which Poland has used for energy for a very long time. New wind farms are being built both on land and in the Baltic Sea. The energy from these wind farms will be enough to power millions of Polish homes. Many people support this change because it will also help to reduce air pollution in Polish cities. However, some people who live near the new wind farms are concerned about the noise and the effect on the local landscape. The Polish government says that renewable energy will create thousands of new jobs in the coming years. Poland has set a goal to produce 50% of its electricity from renewable sources by 2035.",
+          "vocabularyB1": [
+            { "word": "renewable energy", "definition": "Energy from sources that are naturally replaced and never run out, like wind or sunlight" },
+            { "word": "dependence", "definition": "The state of relying on something or someone too much" },
+            { "word": "coal", "definition": "A black rock used as fuel, burned to produce heat and electricity" },
+            { "word": "air pollution", "definition": "Harmful substances in the air, caused by burning fuels and industrial activity" },
+            { "word": "landscape", "definition": "The visible features of an area of land, such as hills, forests and fields" }
+          ],
+          "summaryB2": "Poland is accelerating its offshore and onshore wind capacity in a significant pivot away from its historically coal-dependent energy mix. Several large-scale Baltic Sea wind projects have recently received government approval, with combined capacity sufficient to power an estimated four million households. The transition carries both economic and geopolitical dimensions — reducing dependence on imported fossil fuels while positioning Poland to meet its EU climate commitments under the revised Fit for 55 package. Industry analysts note that the rapid expansion will require substantial investment in grid infrastructure and storage capacity to manage intermittency. Local opposition movements, particularly in rural Mazovia and Pomerania, continue to contest planning decisions on aesthetic and ecological grounds.",
+          "vocabularyB2": [
+            { "word": "offshore", "definition": "Located in the sea, at a distance from the coast" },
+            { "word": "energy mix", "definition": "The combination of different energy sources a country uses to meet its total power needs" },
+            { "word": "geopolitical dimensions", "definition": "Aspects of a situation that relate to international relations and the influence of geography on politics" },
+            { "word": "intermittency", "definition": "The characteristic of renewable energy sources like wind that do not produce power continuously" },
+            { "word": "ecological grounds", "definition": "Reasons related to the protection of the natural environment and living organisms" }
+          ]
+        },
+        {
+          "id": "s008",
+          "title": "Rising Food Prices Put Pressure on European Households",
+          "source": "BBC Business",
+          "originalUrl": "https://www.bbc.com/news/business",
+          "category": "business",
+          "date": "2026-06-02",
+          "summaryB1": "Food prices across Europe have been rising for several months, and families are finding it harder to afford their weekly shopping. In Poland, the prices of basic products like bread, milk and vegetables have gone up significantly. Economists say that bad weather affecting crops, higher transport costs and global supply problems are all contributing to the problem. Many families in Poland are changing their shopping habits — buying fewer luxury items and looking for cheaper alternatives to their usual products. Food banks in major Polish cities report that more people are coming to them for help than at any time in the past five years. The Polish government has announced some measures to help lower-income families cope with the higher prices, including an expansion of the food assistance programme.",
+          "vocabularyB1": [
+            { "word": "afford", "definition": "To have enough money to be able to buy or pay for something" },
+            { "word": "crops", "definition": "Plants grown by farmers for food, like wheat, potatoes or vegetables" },
+            { "word": "supply problems", "definition": "Difficulties in getting enough goods to the places where they are needed" },
+            { "word": "luxury items", "definition": "Things that are nice to have but not essential for everyday life" },
+            { "word": "food banks", "definition": "Places that collect food donations and give them free to people who cannot afford to buy food" }
+          ],
+          "summaryB2": "Persistent food price inflation is compounding cost-of-living pressures for households across the EU, with Poland among the member states experiencing above-average increases in staple food categories. A convergence of factors — including severe drought conditions affecting southern European agricultural output, elevated logistics costs, and residual supply chain disruptions — has sustained upward price pressure despite broader headline inflation easing. Polish consumer confidence indices have declined for the third consecutive quarter, with discretionary spending contracting sharply. NGOs operating food assistance networks in Warsaw and Kraków report a marked increase in first-time users, suggesting that financial distress is penetrating demographics not previously associated with food insecurity.",
+          "vocabularyB2": [
+            { "word": "compounding", "definition": "Making an already difficult situation worse by adding further problems" },
+            { "word": "staple food categories", "definition": "Basic, essential foods that form the main part of people's regular diet" },
+            { "word": "discretionary spending", "definition": "Money spent on non-essential items that people can choose to cut back on" },
+            { "word": "food insecurity", "definition": "The state of not having reliable access to sufficient affordable and nutritious food" },
+            { "word": "residual", "definition": "Remaining after the main part of something has gone or been dealt with" }
+          ]
+        },
+        {
+          "id": "s009",
+          "title": "European Space Agency Selects New Astronaut Class Including Eastern Europeans",
+          "source": "BBC Science & Environment",
+          "originalUrl": "https://www.bbc.com/news/science-environment",
           "category": "environment",
           "date": "2026-05-31",
-          "summaryB1": "Cities in Central Europe, including Warsaw and Prague, are planting more trees and building new parks to deal with very hot summers. Scientists say that cities are getting hotter because of climate change. Green spaces help to cool the air and make life more comfortable for people. Local governments are spending large amounts of money on these projects. Residents say they are very happy about the changes. In Warsaw, the city plans to plant thousands of new trees along busy streets over the next three years. Prague is also creating several new parks in areas where there were previously only buildings. Both cities say that these green areas are not just nice to look at — they are necessary for people's health and well-being during extreme heat.",
+          "summaryB1": "The European Space Agency has chosen a new group of astronauts, and for the first time the selection includes candidates from Central and Eastern European countries. This is seen as an important moment for the region. The new astronauts will spend years training before they can go to space. Training takes place at the ESA centre in Cologne, Germany, and also at NASA facilities in the United States. The ESA said it received more than 22,000 applications from across Europe, which is a new record. The selection of astronauts from Eastern Europe is part of a wider effort to make the space programme more representative of all EU member states. Young people across Poland and neighbouring countries have reacted with great excitement to the news.",
           "vocabularyB1": [
-            { "word": "climate change", "definition": "Long-term changes in global temperatures and weather patterns, mainly caused by humans" },
-            { "word": "residents", "definition": "People who live in a particular place" },
-            { "word": "extreme heat", "definition": "Temperatures that are much higher than normal and potentially dangerous" },
-            { "word": "well-being", "definition": "The state of being comfortable, healthy and happy" },
-            { "word": "previously", "definition": "At an earlier time; before something else happened" }
+            { "word": "astronauts", "definition": "People who are trained to travel and work in space" },
+            { "word": "selection", "definition": "The process of carefully choosing a person or thing from a larger group" },
+            { "word": "training", "definition": "The process of learning the skills needed to do a particular job" },
+            { "word": "facilities", "definition": "Buildings and equipment provided for a particular purpose" },
+            { "word": "representative", "definition": "Including examples of all the different types that exist in a group or society" }
           ],
-          "summaryB2": "Municipal authorities across Central Europe are implementing 'sponge city' strategies as urban heat islands intensify under accelerating climate projections. Warsaw's latest masterplan earmarks 18% of all new development land for permeable surfaces and expanding tree canopy, while Kraków has introduced mandatory heat-resilience requirements into its building codes. Urban planners acknowledge a fundamental tension between densification pressures — driven by acute housing shortages — and the imperative to preserve green corridors that regulate urban microclimates. Research from the Warsaw University of Life Sciences suggests that mature street trees can reduce local temperatures by up to 8°C on peak summer days, lending scientific weight to what critics had previously dismissed as a purely aesthetic concern.",
+          "summaryB2": "The European Space Agency's latest astronaut cohort marks a notable shift in the programme's geographical composition, with candidates from Central and Eastern European member states securing places for the first time in the agency's history. The selection, drawn from a record 22,500 applicants, reflects both ESA's strategic commitment to broadening institutional representation and growing political pressure from newer EU members to secure meaningful participation in flagship European scientific endeavours. The successful candidates will undergo an intensive two-year basic training curriculum at ESA's European Astronaut Centre in Cologne before becoming eligible for mission assignments. Space agency officials indicated that expanded collaboration agreements with NASA and JAXA will provide additional mission opportunities for the enlarged astronaut corps.",
           "vocabularyB2": [
-            { "word": "urban heat islands", "definition": "City areas significantly warmer than surrounding rural areas due to buildings and human activity" },
-            { "word": "permeable surfaces", "definition": "Ground surfaces that allow rainwater to pass through rather than run off into drains" },
-            { "word": "densification", "definition": "The process of increasing the number of buildings and residents in an urban area" },
-            { "word": "microclimates", "definition": "The climate conditions of a small, specific area, which may differ from the surrounding region" },
-            { "word": "aesthetic", "definition": "Relating to beauty and appearance rather than practical function" }
+            { "word": "cohort", "definition": "A group of people who share a particular characteristic or experience, especially selected together" },
+            { "word": "flagship", "definition": "The most important or prestigious product, project or initiative of an organisation" },
+            { "word": "curriculum", "definition": "A structured programme of study or training covering specific subjects and skills" },
+            { "word": "corps", "definition": "A group of people engaged in a particular activity or profession, treated as a unit" },
+            { "word": "endeavours", "definition": "Serious attempts or efforts to do something, particularly something ambitious" }
+          ]
+        },
+        {
+          "id": "s010",
+          "title": "Warsaw Emerges as Major European Start-Up Hub",
+          "source": "Politico Europe",
+          "originalUrl": "https://www.politico.eu",
+          "category": "business",
+          "date": "2026-06-01",
+          "summaryB1": "Warsaw is becoming one of the most important cities in Europe for new technology companies, known as start-ups. More and more young entrepreneurs from Poland and neighbouring countries are choosing Warsaw as the place to build their businesses. The city has good universities that produce talented graduates, and living costs are lower than in cities like London or Berlin. Several large international companies have recently opened technology offices in Warsaw. The Polish government has also introduced special programmes to help new businesses get started, including easier access to funding. Warsaw's growing reputation as a technology centre is attracting investors from across Europe and from the United States. Many tech workers who left Poland to work abroad are now returning to take advantage of the new opportunities available in their home city.",
+          "vocabularyB1": [
+            { "word": "entrepreneurs", "definition": "People who start and run their own businesses, taking financial risks to do so" },
+            { "word": "graduates", "definition": "People who have successfully completed a university degree" },
+            { "word": "reputation", "definition": "The opinion that people in general have about someone or something" },
+            { "word": "investors", "definition": "People or organisations that put money into a business hoping to make a profit" },
+            { "word": "opportunities", "definition": "Situations where it is possible to do something desirable or advantageous" }
+          ],
+          "summaryB2": "Warsaw is consolidating its position as one of Central Europe's premier technology ecosystems, attracting venture capital inflows and talent at a pace that is beginning to rival established Western European hubs. The city's competitive advantages — a deep pool of technically skilled graduates from Polish universities, relatively low operational costs compared to Berlin or Amsterdam, and improving quality of urban life — are proving persuasive to founders and international corporations alike. Poland's favourable regulatory environment for early-stage companies, combined with EU single market access, has made Warsaw an increasingly attractive domicile for start-ups seeking pan-European scalability. A notable reverse migration trend has seen Polish tech professionals returning from London and Zurich, bringing international networks and experience back to the domestic ecosystem.",
+          "vocabularyB2": [
+            { "word": "venture capital", "definition": "Money invested in new or small companies with high growth potential but also high risk" },
+            { "word": "ecosystem", "definition": "A community of interconnected businesses, institutions and individuals in a particular sector" },
+            { "word": "domicile", "definition": "The country or place where a person or company is officially registered or based" },
+            { "word": "scalability", "definition": "The ability of a business to grow and expand without proportionally increasing its costs" },
+            { "word": "reverse migration", "definition": "The movement of people back to a place they previously left, often their country of origin" }
+          ]
+        },
+        {
+          "id": "s011",
+          "title": "UNESCO Adds New Central European Sites to World Heritage List",
+          "source": "BBC Culture",
+          "originalUrl": "https://www.bbc.com/culture",
+          "category": "culture",
+          "date": "2026-05-30",
+          "summaryB1": "UNESCO, the United Nations organisation that protects important cultural and natural places around the world, has added several new Central European sites to its World Heritage List. The list includes places that are considered to have outstanding value for all of humanity. One of the new sites is in Poland, and Poles are very proud of this recognition. Being on the UNESCO list helps to attract tourists and also brings money for restoration and protection work. Local communities near the new sites are preparing for more visitors. The Polish government has promised to invest in better facilities for tourists at the site. UNESCO experts praised the site for its exceptional historical significance and its excellent state of preservation. This is Poland's fifteenth entry on the prestigious World Heritage List.",
+          "vocabularyB1": [
+            { "word": "heritage", "definition": "Things from the past that are important and worth keeping for future generations" },
+            { "word": "outstanding", "definition": "Extremely good or impressive; clearly better than others" },
+            { "word": "restoration", "definition": "The process of repairing something old so it looks as it did originally" },
+            { "word": "preservation", "definition": "Keeping something in its original condition and preventing it from being damaged" },
+            { "word": "prestigious", "definition": "Respected and admired by people; having a high status" }
+          ],
+          "summaryB2": "UNESCO's World Heritage Committee has inscribed several new Central European properties on its canonical list at its annual session, with Poland's latest nomination receiving particular acclaim for the exceptional integrity of its surviving fabric and its layered historical significance spanning multiple centuries. The inscription is expected to generate a measurable uplift in cultural tourism, though heritage management specialists have cautioned that increased visitor footfall must be carefully managed to avoid the site deterioration that has affected over-touristed World Heritage properties elsewhere in Europe. Polish conservation authorities have committed to developing a comprehensive visitor management strategy in consultation with local stakeholders. The listing represents Poland's fifteenth World Heritage inscription, reinforcing the country's considerable standing in European cultural patrimony.",
+          "vocabularyB2": [
+            { "word": "inscribed", "definition": "Officially added to an important list or register, especially of protected sites" },
+            { "word": "integrity", "definition": "The state of being complete and undamaged; wholeness and authenticity" },
+            { "word": "visitor footfall", "definition": "The number of people visiting a particular place over a given period of time" },
+            { "word": "stakeholders", "definition": "People or groups who have an interest in or are affected by a particular decision or project" },
+            { "word": "patrimony", "definition": "The cultural and historical heritage belonging to and defining a particular nation or people" }
+          ]
+        },
+        {
+          "id": "s012",
+          "title": "EU Summit Reaches Agreement on Migration Policy Reform",
+          "source": "Euronews",
+          "originalUrl": "https://www.euronews.com/my-europe",
+          "category": "politics",
+          "date": "2026-06-02",
+          "summaryB1": "European Union leaders have reached an agreement on new rules for managing the arrival of migrants and refugees in Europe. The negotiations were very difficult and took a long time because different countries have very different opinions on this issue. Poland and other Central European countries argued strongly for stricter border controls and for sharing the responsibility for migrants more fairly among all EU members. The new agreement includes plans to process asylum applications more quickly and to increase cooperation between EU countries on returns. Some human rights organisations have criticised the agreement, saying it does not do enough to protect vulnerable people. The EU leaders say the new system will be more efficient and more fair for everyone involved. The agreement still needs to be approved by the European Parliament before it can become law.",
+          "vocabularyB1": [
+            { "word": "migrants", "definition": "People who move from one country to another, often to find work or escape difficult conditions" },
+            { "word": "refugees", "definition": "People who have been forced to leave their country because of war, violence or persecution" },
+            { "word": "asylum", "definition": "Protection given by a country to someone who has left their home country as a refugee" },
+            { "word": "border controls", "definition": "Checks carried out at a country's borders to decide who is allowed to enter" },
+            { "word": "vulnerable", "definition": "In a weak position and easily harmed or in need of special protection" }
+          ],
+          "summaryB2": "EU leaders have reached a qualified majority agreement on a sweeping reform of the bloc's migration and asylum architecture, ending years of institutional deadlock that had paralysed the Common European Asylum System. The compromise, which required significant concessions from both frontline Mediterranean states and Visegrad Group countries including Poland, introduces accelerated border procedures, a mandatory solidarity mechanism with financial opt-out provisions, and enhanced operational cooperation with third countries on readmission. Critics from humanitarian organisations argue that the expedited procedures risk undermining adequate due process safeguards, while Eurosceptic governments contend the solidarity mechanism still places disproportionate obligations on member states. Ratification by the European Parliament is expected to be contentious.",
+          "vocabularyB2": [
+            { "word": "qualified majority", "definition": "A voting system in the EU requiring support from a specific percentage of member states to pass a decision" },
+            { "word": "institutional deadlock", "definition": "A situation where an organisation cannot make progress because of fundamental disagreement between its members" },
+            { "word": "solidarity mechanism", "definition": "A system for sharing responsibilities or burdens fairly among members of a group or union" },
+            { "word": "readmission", "definition": "The formal return of individuals to their country of origin or transit, agreed through international agreements" },
+            { "word": "due process", "definition": "The legal requirement that all individuals must be treated fairly according to established rules and principles" }
           ]
         }
       ]
