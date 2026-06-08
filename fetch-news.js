@@ -149,7 +149,7 @@ async function filterRelevant(client, candidates) {
     ).join('\n\n');
 
     const msg = await client.messages.create({
-      model: 'claude-sonnet-4-20250514',
+      model: 'claude-sonnet-4-6',
       max_tokens: 200,
       messages: [{
         role: 'user',
@@ -239,7 +239,7 @@ Critical rules:
 - Both summaries must be about the same story but written at clearly different language levels`;
 
   const msg = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: 'claude-sonnet-4-6',
     max_tokens: 1500,
     messages: [{ role: 'user', content: prompt }]
   });
