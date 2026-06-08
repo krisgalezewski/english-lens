@@ -757,12 +757,38 @@
 
     // Audio buttons → Web Speech API
     if ('speechSynthesis' in window) {
+      // Find the best available female British English voice
+      function getBritishFemaleVoice() {
+        const voices = window.speechSynthesis.getVoices();
+        // Preference order: named UK female voices first, then any en-GB, then any en
+        const preferred = [
+          'Google UK English Female',
+          'Microsoft Hazel Desktop - English (Great Britain)',
+          'Microsoft Susan Desktop - English (Great Britain)',
+          'Karen',   // macOS/iOS Australian — close accent, female
+          'Serena',  // macOS British female
+          'Martha',  // macOS British female
+          'Moira',   // macOS Irish female — acceptable fallback
+        ];
+        for (const name of preferred) {
+          const match = voices.find(v => v.name === name);
+          if (match) return match;
+        }
+        // Fallback: any female-sounding en-GB voice
+        const gbFemale = voices.find(v => v.lang === 'en-GB' && /female|woman/i.test(v.name));
+        if (gbFemale) return gbFemale;
+        // Fallback: any en-GB voice
+        const gb = voices.find(v => v.lang === 'en-GB');
+        if (gb) return gb;
+        // Last resort: any English voice
+        return voices.find(v => v.lang.startsWith('en')) || null;
+      }
+
       document.getElementById('modal-body').querySelectorAll('.vocab-audio').forEach(btn => {
         btn.addEventListener('click', e => {
           e.stopPropagation();
           const word = btn.dataset.word;
           window.speechSynthesis.cancel();
-          // If already speaking this word, just cancel (toggle off)
           if (btn.classList.contains('speaking')) {
             btn.classList.remove('speaking');
             return;
@@ -771,10 +797,20 @@
           const utt = new SpeechSynthesisUtterance(word);
           utt.lang = 'en-GB';
           utt.rate = 0.85;
-          btn.classList.add('speaking');
-          utt.onend = () => btn.classList.remove('speaking');
-          utt.onerror = () => btn.classList.remove('speaking');
-          window.speechSynthesis.speak(utt);
+          // Voices may not be loaded yet — wait if needed
+          const setVoiceAndSpeak = () => {
+            const voice = getBritishFemaleVoice();
+            if (voice) utt.voice = voice;
+            btn.classList.add('speaking');
+            utt.onend = () => btn.classList.remove('speaking');
+            utt.onerror = () => btn.classList.remove('speaking');
+            window.speechSynthesis.speak(utt);
+          };
+          if (window.speechSynthesis.getVoices().length) {
+            setVoiceAndSpeak();
+          } else {
+            window.speechSynthesis.onvoiceschanged = setVoiceAndSpeak;
+          }
         });
       });
     }
