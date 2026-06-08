@@ -359,6 +359,17 @@
       line-height: 1.8;
       color: var(--ink-soft);
     }
+    /* Highlighted word in summary */
+    .summary-text mark {
+      background: #fff0a0;
+      color: var(--ink);
+      border-radius: 2px;
+      padding: 0 2px;
+      transition: background 0.3s;
+    }
+    .summary-text mark.highlight-flash {
+      background: #ffd700;
+    }
 
     /* Vocab */
     .vocab-heading {
@@ -375,11 +386,18 @@
     .vocab-item {
       display: flex;
       gap: 14px;
-      align-items: baseline;
+      align-items: center;
       padding: 10px 14px;
       background: var(--paper);
       border-radius: 2px;
       border-left: 3px solid var(--accent);
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .vocab-item:hover { background: #eeeae0; }
+    .vocab-item.active {
+      background: #fff8dc;
+      border-left-color: #c8960f;
     }
     .vocab-word {
       font-family: var(--font-display);
@@ -394,7 +412,26 @@
       font-size: 13.5px;
       color: var(--ink-soft);
       line-height: 1.5;
+      flex: 1;
     }
+    /* Audio button */
+    .vocab-audio {
+      flex-shrink: 0;
+      width: 28px;
+      height: 28px;
+      border: none;
+      border-radius: 50%;
+      background: var(--paper-warm);
+      color: var(--ink-muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .vocab-audio:hover { background: var(--accent); color: white; }
+    .vocab-audio.speaking { background: var(--accent); color: white; }
 
     .modal-close {
       position: absolute;
@@ -631,13 +668,32 @@
         <a href="${escAttr(a.originalUrl)}" target="_blank" rel="noopener noreferrer">Read original article ↗</a>
       </div>`;
 
-    function vocabBlock(items) {
+    // Build summary HTML with each vocab word wrapped in a <mark> span
+    function buildSummaryHtml(text, vocabItems) {
+      if (!vocabItems || !vocabItems.length) return escHtml(text);
+      let html = escHtml(text);
+      // Sort by length descending so longer phrases match before shorter substrings
+      const sorted = [...vocabItems].sort((a, b) => b.word.length - a.word.length);
+      sorted.forEach((v, idx) => {
+        const escaped = escHtml(v.word);
+        // Case-insensitive replace of first occurrence, whole word/phrase preferred
+        const regex = new RegExp(escaped.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
+        html = html.replace(regex, match =>
+          `<mark class="vocab-mark" data-vocab-idx="${idx}" data-word="${escaped}">${match}</mark>`
+        );
+      });
+      return html;
+    }
+
+    function vocabBlock(items, panelId) {
       if (!items || !items.length) return '';
-      return `<div class="vocab-heading">Key vocabulary</div>
+      const hasSpeech = 'speechSynthesis' in window;
+      return `<div class="vocab-heading">Key vocabulary <span style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;">(click a word to find it in the text)</span></div>
         <div class="vocab-list">
-          ${items.map(v => `<div class="vocab-item">
+          ${items.map((v, idx) => `<div class="vocab-item" data-panel="${panelId}" data-idx="${idx}" tabindex="0" role="button" aria-label="Highlight ${escHtml(v.word)} in summary">
             <span class="vocab-word">${escHtml(v.word)}</span>
             <span class="vocab-def">${escHtml(v.definition)}</span>
+            ${hasSpeech ? `<button class="vocab-audio" data-word="${escHtml(v.word)}" aria-label="Hear pronunciation of ${escHtml(v.word)}" title="Listen">🔊</button>` : ''}
           </div>`).join('')}
         </div>`;
     }
@@ -649,15 +705,16 @@
       </div>
       <div class="tab-panel active" id="tab-b1" role="tabpanel">
         <span class="level-badge level-b1">B1 · Intermediate</span>
-        <p class="summary-text">${escHtml(a.summaryB1 || '')}</p>
-        ${vocabBlock(a.vocabularyB1)}
+        <p class="summary-text" id="summary-b1">${buildSummaryHtml(a.summaryB1 || '', a.vocabularyB1)}</p>
+        ${vocabBlock(a.vocabularyB1, 'b1')}
       </div>
       <div class="tab-panel" id="tab-b2" role="tabpanel">
         <span class="level-badge level-b2">B2–C1 · Upper Intermediate</span>
-        <p class="summary-text">${escHtml(a.summaryB2 || '')}</p>
-        ${vocabBlock(a.vocabularyB2)}
+        <p class="summary-text" id="summary-b2">${buildSummaryHtml(a.summaryB2 || '', a.vocabularyB2)}</p>
+        ${vocabBlock(a.vocabularyB2, 'b2')}
       </div>`;
 
+    // Tab switching
     document.getElementById('modal-body').querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('#modal-body .tab-btn').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
@@ -667,6 +724,60 @@
         document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
       });
     });
+
+    // Vocab item click → highlight word in summary
+    document.getElementById('modal-body').querySelectorAll('.vocab-item').forEach(item => {
+      function activate() {
+        const panel = item.dataset.panel;
+        const idx = item.dataset.idx;
+        const summaryEl = document.getElementById('summary-' + panel);
+        // Clear previous highlights
+        document.querySelectorAll(`#summary-${panel} .vocab-mark`).forEach(m => m.classList.remove('highlight-flash'));
+        document.querySelectorAll(`.vocab-item[data-panel="${panel}"]`).forEach(i => i.classList.remove('active'));
+        // Find matching mark
+        const mark = summaryEl ? summaryEl.querySelector(`.vocab-mark[data-vocab-idx="${idx}"]`) : null;
+        if (mark) {
+          item.classList.add('active');
+          mark.classList.add('highlight-flash');
+          mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          // Flash effect
+          setTimeout(() => mark.classList.remove('highlight-flash'), 1800);
+          setTimeout(() => mark.classList.add('highlight-flash'), 2100);
+          setTimeout(() => mark.classList.remove('highlight-flash'), 3000);
+        }
+      }
+      item.addEventListener('click', e => {
+        if (e.target.closest('.vocab-audio')) return; // don't trigger on audio btn
+        activate();
+      });
+      item.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
+      });
+    });
+
+    // Audio buttons → Web Speech API
+    if ('speechSynthesis' in window) {
+      document.getElementById('modal-body').querySelectorAll('.vocab-audio').forEach(btn => {
+        btn.addEventListener('click', e => {
+          e.stopPropagation();
+          const word = btn.dataset.word;
+          window.speechSynthesis.cancel();
+          // If already speaking this word, just cancel (toggle off)
+          if (btn.classList.contains('speaking')) {
+            btn.classList.remove('speaking');
+            return;
+          }
+          document.querySelectorAll('.vocab-audio.speaking').forEach(b => b.classList.remove('speaking'));
+          const utt = new SpeechSynthesisUtterance(word);
+          utt.lang = 'en-GB';
+          utt.rate = 0.85;
+          btn.classList.add('speaking');
+          utt.onend = () => btn.classList.remove('speaking');
+          utt.onerror = () => btn.classList.remove('speaking');
+          window.speechSynthesis.speak(utt);
+        });
+      });
+    }
 
     document.getElementById('modal-overlay').classList.add('open');
     document.getElementById('modal-overlay').scrollTop = 0;
