@@ -1,6 +1,660 @@
 {
   "editions": [
     {
+      "generated": "2026-06-08T07:43:06.014Z",
+      "week": "2026-W23",
+      "articles": [
+        {
+          "id": "1780904372552ubg6",
+          "title": "Rare footage captured of Great White shark in Mediterranean Sea",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.com/news/videos/cd6p6zqzj6do?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-06-08",
+          "summaryB1": "A volunteer diver had an incredible and frightening experience when he filmed a Great White shark in the Mediterranean Sea. The encounter happened in the waters between Tunisia, a country in North Africa, and Sicily, an island in southern Italy. The diver said he was shaking while he recorded the rare footage of the shark underwater.\n\nGreat White sharks are endangered animals, which means there are very few of them left in the world. Seeing one in the Mediterranean Sea is very unusual. Scientists and wildlife experts say that Great White sharks rarely appear in this part of the world, so this video is very important.\n\nThe footage that the diver captured is now helping people learn more about these animals and where they live. Great White sharks are often seen as dangerous, but they are also a protected species because their numbers have fallen so much over the years.\n\nMany people are excited about the video because it shows that Great White sharks still exist in the Mediterranean. Conservation groups hope that rare sightings like this one will help the public understand why it is important to protect these animals. The diver was brave to keep filming even though he was afraid. His video gives scientists a valuable chance to study the behaviour of this endangered creature in its natural habitat.",
+          "vocabularyB1": [
+            {
+              "word": "volunteer",
+              "definition": "A person who does work without being paid, by their own choice."
+            },
+            {
+              "word": "endangered",
+              "definition": "At serious risk of disappearing completely from the world."
+            },
+            {
+              "word": "footage",
+              "definition": "A recording of something on video or film."
+            },
+            {
+              "word": "sighting",
+              "definition": "An occasion when someone sees something rare or unusual."
+            },
+            {
+              "word": "habitat",
+              "definition": "The natural environment where an animal or plant normally lives."
+            }
+          ],
+          "summaryB2": "A volunteer diver has recounted the visceral experience of encountering an endangered Great White shark in the Mediterranean Sea, describing how his hands were shaking as he managed to film the rare creature. The sighting occurred in the stretch of water between Tunisia and Sicily — a region not typically associated with Great White shark activity — making the footage all the more remarkable.\n\nGreat White sharks are classified as an endangered species, their populations having declined sharply due to overfishing, habitat loss, and slow reproductive rates. Documented appearances in the Mediterranean are exceptionally uncommon, and marine biologists regard any confirmed sighting in these waters as scientifically significant. The diver's video, captured under what must have been considerable psychological pressure, offers researchers a rare opportunity to examine the species' range and behaviour in a region often overlooked in broader conservation discussions.\n\nThe encounter raises broader questions about shifting marine ecosystems and whether environmental changes may be prompting these apex predators to venture into less familiar territories. Conservation advocates argue that high-profile incidents like this one can galvanise public interest in protecting a species that, despite its fearsome reputation, is itself under serious threat.\n\nWhile the diver's instinct might understandably have been to retreat, his resolve to keep filming has yielded a document of genuine ecological value — a reminder that citizen science, however unintentional, can make a meaningful contribution to our understanding of the natural world.",
+          "vocabularyB2": [
+            {
+              "word": "visceral",
+              "definition": "Based on deep, instinctive feelings rather than thought; raw and physical."
+            },
+            {
+              "word": "apex predator",
+              "definition": "An animal at the top of the food chain with no natural enemies."
+            },
+            {
+              "word": "galvanise",
+              "definition": "To shock or excite people into taking action about something."
+            },
+            {
+              "word": "resolve",
+              "definition": "Strong determination to continue doing something despite difficulty."
+            },
+            {
+              "word": "ecological",
+              "definition": "Relating to the relationship between living things and their environment."
+            }
+          ]
+        },
+        {
+          "id": "178090439129970zw",
+          "title": "We need to stop AI developing without humans, says Anthropic co-founder",
+          "source": "BBC Business",
+          "originalUrl": "https://www.bbc.com/news/articles/cx2124z7g45o?at_medium=RSS&at_campaign=rss",
+          "category": "business",
+          "date": "2026-06-05",
+          "summaryB1": "A top person from an artificial intelligence company has warned that AI could soon develop on its own, without any help from humans. Jack Clark, one of the co-founders of Anthropic, an American AI company, spoke about this on BBC's Newsnight programme. He said that AI technology is growing very quickly and that this could become a serious problem if people do not take action now. Clark believes that humans must stay in control of how AI develops. If AI starts to improve itself without human input, it could become very powerful and difficult to control. This is a concern for many scientists and technology experts around the world. Anthropic is one of the leading companies working on AI safety, which means they try to make sure that AI systems are safe and do not cause harm. Clark's warning is important because it reminds us that AI is not just a useful tool – it also carries risks. Governments and companies need to work together to create rules and limits for AI development. Many people agree that without proper oversight, AI could develop in ways that are dangerous. Clark wants more people to understand these risks and to take them seriously before it is too late.",
+          "vocabularyB1": [
+            {
+              "word": "co-founder",
+              "definition": "A person who starts a company or organisation together with one or more other people."
+            },
+            {
+              "word": "input",
+              "definition": "Information, ideas, or effort that someone puts into something."
+            },
+            {
+              "word": "concern",
+              "definition": "A worry or something that people think could be a problem."
+            },
+            {
+              "word": "oversight",
+              "definition": "The act of watching and checking that something is being done correctly and safely."
+            },
+            {
+              "word": "limits",
+              "definition": "Rules or boundaries that control how far something can go."
+            }
+          ],
+          "summaryB2": "Jack Clark, co-founder of the AI safety company Anthropic, has issued a stark warning about the trajectory of artificial intelligence development, telling BBC's Newsnight that AI could eventually reach a point where it advances entirely without human input. Clark's remarks have reignited debate about whether the technology industry is moving too fast to implement adequate safeguards. Anthropic was founded with a specific focus on AI safety, distinguishing it from competitors who prioritise rapid capability growth. Clark's central argument is that once AI systems become capable of self-improvement, human oversight becomes exponentially harder to maintain. This prospect – often referred to in technical circles as recursive self-improvement – raises profound questions about accountability and control. Critics of the current pace of AI development argue that regulation has consistently lagged behind innovation, leaving governments ill-equipped to respond to emerging risks. Supporters of accelerated development, however, contend that slowing down could cede technological dominance to actors with fewer ethical constraints. Clark's intervention carries particular weight given his background: as someone embedded in the industry, his cautionary tone signals that concerns about runaway AI are not merely the domain of outside sceptics. His comments serve as a reminder that even those building these systems recognise the potential for consequences that could prove difficult to reverse. The call for greater human involvement in AI governance is growing louder across scientific and political communities worldwide.",
+          "vocabularyB2": [
+            {
+              "word": "stark",
+              "definition": "Very clear, strong, and often alarming or unpleasant in nature."
+            },
+            {
+              "word": "trajectory",
+              "definition": "The path or direction in which something develops over time."
+            },
+            {
+              "word": "safeguards",
+              "definition": "Rules or measures designed to protect against risk or harm."
+            },
+            {
+              "word": "lagged behind",
+              "definition": "Developed or progressed more slowly than something else."
+            },
+            {
+              "word": "cautionary",
+              "definition": "Intended to warn people about possible danger or negative outcomes."
+            }
+          ]
+        },
+        {
+          "id": "178090441269797cw",
+          "title": "The gamers taking on the industry to stop it switching off games",
+          "source": "BBC Technology",
+          "originalUrl": "https://www.bbc.com/news/articles/c8e8e7g0r82o?at_medium=RSS&at_campaign=rss",
+          "category": "technology",
+          "date": "2026-06-06",
+          "summaryB1": "A group of gamers is fighting against big video game companies. They want to stop companies from turning off online games permanently. When a company shuts down a game's servers, players can no longer play it, even if they paid a lot of money for it. This makes many people very angry.\n\nThe campaign is called Stop Killing Games. It is asking governments to create new rules that would force publishers to keep games playable after they close the official servers. For example, they want companies to release special software so players can run the game themselves.\n\nThis is becoming a bigger problem because many modern games need an internet connection to work. If the company decides to shut down the servers, the game simply stops working forever. Players feel this is unfair because they own the game but cannot use it.\n\nThe campaign has already collected hundreds of thousands of signatures across Europe. Supporters argue that when you buy something, you should be able to keep using it. Publishers, however, say that running servers costs money and they cannot do it forever.\n\nThis debate raises an important question about digital ownership. Do you really own a game if a company can switch it off? Many players believe that consumers deserve better protection. The outcome of this campaign could change how the gaming industry works in the future.",
+          "vocabularyB1": [
+            {
+              "word": "servers",
+              "definition": "Powerful computers that store data and let people connect to online games or websites"
+            },
+            {
+              "word": "publishers",
+              "definition": "Companies that produce and sell video games to the public"
+            },
+            {
+              "word": "campaign",
+              "definition": "An organised effort by a group of people to achieve a goal or change something"
+            },
+            {
+              "word": "signatures",
+              "definition": "People's names written or collected to show support for an idea or request"
+            },
+            {
+              "word": "consumers",
+              "definition": "People who buy and use products or services"
+            }
+          ],
+          "summaryB2": "A grassroots movement known as Stop Killing Games is mounting a significant challenge to the established practices of the video game industry, specifically targeting the widespread phenomenon of publishers permanently deactivating titles without ensuring any form of continued playability for consumers.\n\nThe core grievance is straightforward yet legally complex: when a publisher shuts down the servers that power an online game, the product becomes entirely non-functional, regardless of how much players originally paid for it. Critics argue this constitutes a fundamental breach of consumer rights, drawing a sharp distinction between merely discontinuing support and actively rendering a purchased product inoperable.\n\nThe campaign has gained considerable traction across Europe, amassing hundreds of thousands of signatures in support of regulatory intervention. Campaigners are not necessarily demanding that publishers maintain servers indefinitely; rather, they are calling for legislation that would compel companies to release tools or patches enabling players to host games independently once official support ends.\n\nThe movement touches on deeper tensions around digital ownership. Unlike physical media, digital products can be revoked or disabled remotely, raising uncomfortable questions about what consumers actually acquire when they purchase a game. Supporters contend that stronger legal safeguards are long overdue.\n\nPublishers, for their part, point to the prohibitive ongoing costs of server maintenance as justification for eventual shutdowns. Nevertheless, the momentum behind Stop Killing Games suggests that regulators may soon be forced to scrutinise industry practices that have, until now, gone largely unchallenged.",
+          "vocabularyB2": [
+            {
+              "word": "grassroots movement",
+              "definition": "An organised effort started by ordinary people rather than governments or large organisations"
+            },
+            {
+              "word": "traction",
+              "definition": "Growing support, attention, or progress towards achieving a goal"
+            },
+            {
+              "word": "regulatory intervention",
+              "definition": "Action taken by a government or official body to control or change an industry's behaviour"
+            },
+            {
+              "word": "inoperable",
+              "definition": "No longer able to function or be used; completely broken or disabled"
+            },
+            {
+              "word": "scrutinise",
+              "definition": "To examine something very carefully and critically, looking for problems or faults"
+            }
+          ]
+        },
+        {
+          "id": "1780904432832vr68",
+          "title": "I wanted to quit Eurovision twice - then won it, says Bangaranga singer Dara",
+          "source": "BBC Culture",
+          "originalUrl": "https://www.bbc.com/news/articles/c1k2dml10ezo?at_medium=RSS&at_campaign=rss",
+          "category": "culture",
+          "date": "2026-06-05",
+          "summaryB1": "A Bulgarian singer called Dara has won the Eurovision Song Contest 2025 in Vienna with her song 'Bangaranga'. This is a historic victory because it is Bulgaria's first ever win at Eurovision. However, Dara has revealed that she almost gave up before the competition even finished. She wanted to quit Eurovision twice during the process, but she decided to continue. In the end, her decision to stay paid off, and she won the contest.\n\nEurovision is a very popular music competition where singers from different European countries perform live on television. Millions of people watch it every year. Winning Eurovision can change a singer's career completely and make them famous across Europe and beyond.\n\nDara's victory is especially significant because Bulgaria has taken part in Eurovision many times without winning. Now, for the first time, the country has a champion. Dara has not shared every detail about why she wanted to quit, but she has admitted that the journey was very difficult. Her story shows that success is possible even when things feel very hard. Many fans and music lovers around the world have celebrated her win. Her determination to keep going, even when she felt like stopping, is something that many people find inspiring.",
+          "vocabularyB1": [
+            {
+              "word": "historic",
+              "definition": "Very important because it happens for the first time or is very special"
+            },
+            {
+              "word": "reveal",
+              "definition": "To tell people something that was not known before"
+            },
+            {
+              "word": "quit",
+              "definition": "To stop doing something or leave something before it is finished"
+            },
+            {
+              "word": "determination",
+              "definition": "The quality of continuing to do something even when it is difficult"
+            },
+            {
+              "word": "significant",
+              "definition": "Important or having a big meaning or effect"
+            }
+          ],
+          "summaryB2": "Bulgarian singer Dara has claimed victory at the Eurovision Song Contest 2025 in Vienna, winning with her track 'Bangaranga' in what marks a landmark moment for her country. The triumph is all the more remarkable given that Dara has openly admitted she came close to abandoning the competition not once but twice before eventually crossing the finish line.\n\nWhile the singer has not elaborated extensively on the precise reasons behind her moments of doubt, her candid admission sheds light on the intense pressure that Eurovision contestants face — pressure that often goes unseen by the millions of viewers who tune in each year to watch the spectacle unfold. The contest, one of the longest-running and most-watched televised events in the world, has a reputation for being both a springboard to international stardom and an emotionally gruelling experience for its participants.\n\nFor Bulgaria, Dara's win represents a milestone that has eluded the country throughout its participation in the competition. The victory is likely to generate significant national pride and renewed interest in Bulgarian popular music on the European stage.\n\nDara's story resonates beyond the world of pop music, touching on broader themes of resilience and self-doubt. Her willingness to persevere despite repeated urges to withdraw offers a compelling narrative — one that underscores the idea that the path to success is rarely straightforward, even for those who ultimately triumph.",
+          "vocabularyB2": [
+            {
+              "word": "landmark",
+              "definition": "Describing an event that is very important and marks a major change or first"
+            },
+            {
+              "word": "candid",
+              "definition": "Honest and open, saying what you really think or feel without hiding anything"
+            },
+            {
+              "word": "gruelling",
+              "definition": "Extremely difficult and tiring, requiring a lot of effort and strength"
+            },
+            {
+              "word": "eluded",
+              "definition": "Something that someone tried to achieve but was never able to get or reach"
+            },
+            {
+              "word": "resilience",
+              "definition": "The ability to recover and keep going after difficult or disappointing experiences"
+            }
+          ]
+        },
+        {
+          "id": "17809044495453jws",
+          "title": "Astronauts return to ISS after sheltering during air leak repair attempt",
+          "source": "BBC Science & Environment",
+          "originalUrl": "https://www.bbc.com/news/articles/c5y7yryg01mo?at_medium=RSS&at_campaign=rss",
+          "category": "environment",
+          "date": "2026-06-05",
+          "summaryB1": "Astronauts on the International Space Station (ISS) had to move to a safe area while Russian crew members tried to fix an air leak in a tunnel section of the station. The ISS is a large spacecraft where astronauts from different countries live and work together in space. An air leak means that air is slowly escaping from part of the station, which can be dangerous for the people inside. During the repair attempt, five astronauts were told to shelter in a protected part of the station. This is a standard safety procedure used when there is a potential risk onboard. The Russian team worked to seal the damaged area and stop the leak. After the repair attempt was completed, all five astronauts were able to return to the main areas of the station. Keeping the ISS safe is very important because astronauts depend on the station's air supply to survive. Air leaks on space stations are not common, but they do happen from time to time. Engineers on the ground and the crew onboard work closely together to deal with these problems quickly. This event reminds us how challenging and sometimes dangerous life in space can be, even during routine operations.",
+          "vocabularyB1": [
+            {
+              "word": "shelter",
+              "definition": "To move to a safe, protected place to avoid danger"
+            },
+            {
+              "word": "repair",
+              "definition": "To fix something that is broken or damaged"
+            },
+            {
+              "word": "seal",
+              "definition": "To close something tightly so that air or liquid cannot escape"
+            },
+            {
+              "word": "procedure",
+              "definition": "An official set of steps followed to deal with a situation"
+            },
+            {
+              "word": "supply",
+              "definition": "An amount of something available for use when needed"
+            }
+          ],
+          "summaryB2": "Five astronauts aboard the International Space Station were required to take refuge in a designated safe haven while Russian cosmonauts carried out an attempt to repair an air leak detected in one of the station's tunnel sections. The incident triggered a precautionary protocol, temporarily restricting the crew's access to certain areas of the station as a safeguard against any sudden deterioration in conditions. Air leaks, though relatively rare, pose a significant threat to the integrity of the ISS and the wellbeing of its inhabitants, since the station's pressurised environment is essential for survival in the vacuum of space. Russian engineers, both onboard and coordinating from the ground, worked methodically to identify and address the source of the leak. Once the repair attempt had been completed and the situation was deemed sufficiently stable, the five astronauts were cleared to return to the main sections of the station. The episode highlights the inherent hazards of long-duration spaceflight and underscores the critical importance of rapid, well-rehearsed emergency responses in an environment where mistakes can have severe consequences. It also draws attention to the ongoing operational challenges facing the ageing ISS, which relies on continuous maintenance to remain functional. International cooperation between crew members and ground teams remains a cornerstone of station safety.",
+          "vocabularyB2": [
+            {
+              "word": "take refuge",
+              "definition": "To move to a safe place in order to escape from danger"
+            },
+            {
+              "word": "precautionary protocol",
+              "definition": "An official procedure followed in advance to prevent possible harm or risk"
+            },
+            {
+              "word": "deterioration",
+              "definition": "The process of becoming worse or more dangerous over time"
+            },
+            {
+              "word": "inherent hazards",
+              "definition": "Dangers that are a natural, unavoidable part of a situation or activity"
+            },
+            {
+              "word": "cornerstone",
+              "definition": "The most important part of something that everything else depends on"
+            }
+          ]
+        },
+        {
+          "id": "1780904468237ohlj",
+          "title": "Zelensky's close European allies set out five conditions for peace talks",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.com/news/articles/cr7xr1g3nvvo?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-06-07",
+          "summaryB1": "Ukrainian President Volodymyr Zelensky recently met with some of his closest European supporters to discuss the ongoing war in Ukraine. During this meeting, his allies set out five conditions that they believe must be met before any peace talks with Russia can begin. These conditions are meant to protect Ukraine's interests and make sure that any agreement is fair and lasting. The meeting is important because it shows that Ukraine still has strong support from key European countries, even as the situation in the world changes. At the same time, US President Donald Trump seems to be paying less attention to the Ukraine conflict. His focus has shifted to another serious issue – the war involving Iran. This change in American attention worries some European leaders, who are concerned that Ukraine may lose crucial support from the United States. For Ukraine, having allies who agree on clear conditions for peace is very important. It means that European countries are trying to stay united and keep pressure on Russia. The outcome of these diplomatic efforts could have a big impact on how and when the war in Ukraine ends. People around the world are watching closely to see what happens next in this difficult and dangerous conflict.",
+          "vocabularyB1": [
+            {
+              "word": "allies",
+              "definition": "Countries or people who support and work together with you"
+            },
+            {
+              "word": "conditions",
+              "definition": "Things that must happen or be agreed before something else can take place"
+            },
+            {
+              "word": "conflict",
+              "definition": "A serious fight or war between groups or countries"
+            },
+            {
+              "word": "crucial",
+              "definition": "Extremely important, especially for the success of something"
+            },
+            {
+              "word": "shifted",
+              "definition": "Changed direction or moved attention from one thing to another"
+            }
+          ],
+          "summaryB2": "Ukrainian President Volodymyr Zelensky convened a high-level meeting with his staunchest European allies to outline five conditions that must be satisfied before any meaningful peace negotiations with Russia can take place. The gathering underscores Europe's determination to maintain a unified diplomatic stance, ensuring that any prospective ceasefire or settlement does not come at the expense of Ukraine's sovereignty or territorial integrity. The five conditions, though not fully detailed in initial reports, are widely understood to reflect core Ukrainian and European priorities, including security guarantees and the withdrawal of Russian forces. The timing of the meeting is particularly significant given the shifting geopolitical landscape. US President Donald Trump's attention appears to have pivoted away from the Ukraine conflict toward the escalating situation involving Iran, raising concerns among European leaders about the reliability of American engagement in European security matters. This perceived reorientation of Washington's focus has prompted Europe's key players to take a more assertive role in shaping the framework for any future peace process. Analysts warn that without sustained US involvement, diplomatic momentum could stall, leaving Ukraine in a vulnerable position at the negotiating table. The meeting signals that Europe is unwilling to allow the war's resolution to be dictated solely by external powers, and is actively working to ensure that Ukraine's voice remains central to any forthcoming settlement.",
+          "vocabularyB2": [
+            {
+              "word": "staunchest",
+              "definition": "Most loyal and committed; giving the strongest support"
+            },
+            {
+              "word": "sovereignty",
+              "definition": "A country's full right and power to govern itself without outside interference"
+            },
+            {
+              "word": "geopolitical",
+              "definition": "Relating to how geography and politics between countries influence world events"
+            },
+            {
+              "word": "pivoted",
+              "definition": "Shifted focus or strategy significantly in a new direction"
+            },
+            {
+              "word": "assertive",
+              "definition": "Confidently taking action or expressing opinions in a strong, clear way"
+            }
+          ]
+        },
+        {
+          "id": "1780904489146gz29",
+          "title": "Israel and Iran trade air strikes as ceasefire falters",
+          "source": "Financial Times",
+          "originalUrl": "https://www.ft.com/content/092e2c2a-2f3e-4139-83e8-06e066f76946",
+          "category": "business",
+          "date": "2026-06-08",
+          "summaryB1": "Israel and Iran have attacked each other with missiles and drones in a new exchange of air strikes. This has put a ceasefire agreement, which started about two months ago, in serious danger. A ceasefire is an agreement to stop fighting, but both countries are now breaking it with these attacks.\n\nThe situation is also making things more difficult for US President Donald Trump, who has been trying to negotiate a bigger peace deal in the region. A deal like this would affect many countries in the Middle East, so the new violence is very worrying for diplomats and world leaders.\n\nIsrael and Iran have been enemies for many years. They disagree strongly about politics, religion, and power in the Middle East. In the past year, they have attacked each other directly several times, which is unusual because for a long time their conflict was indirect, fought through other groups.\n\nThe new strikes are called retaliatory, which means each side says it is responding to something the other side did first. This makes it very hard to stop the cycle of violence.\n\nFor ordinary people in the region, the threat of war is frightening. For the rest of the world, rising tension between two powerful countries with large militaries is a serious concern. Many people hope that a lasting agreement can still be reached before the situation gets worse.",
+          "vocabularyB1": [
+            {
+              "word": "ceasefire",
+              "definition": "An agreement between two sides to stop fighting for a period of time"
+            },
+            {
+              "word": "negotiate",
+              "definition": "To talk with others to try to reach an agreement"
+            },
+            {
+              "word": "retaliatory",
+              "definition": "Done as a response or punishment for something the other side did first"
+            },
+            {
+              "word": "conflict",
+              "definition": "A serious disagreement or fight, often between countries or groups"
+            },
+            {
+              "word": "tension",
+              "definition": "A feeling of stress or worry caused by a difficult or dangerous situation"
+            }
+          ],
+          "summaryB2": "A fragile two-month ceasefire between Israel and Iran has been thrown into serious doubt after both countries exchanged retaliatory barrages of missiles and drones, dramatically escalating a conflict that has destabilised the broader Middle East for months. Each side claims its strikes were a direct response to the other's aggression, creating a dangerous cycle that diplomats fear could spiral into full-scale confrontation.\n\nThe renewed hostilities represent a significant setback for US President Donald Trump, who has been attempting to broker a sweeping regional deal that would reshape security arrangements across the Middle East. The collapse of the truce — or even its continued erosion — would substantially undermine those diplomatic ambitions, complicating Washington's ability to position itself as a credible mediator.\n\nIsrael and Iran have long waged a so-called shadow war, using proxy forces and covert operations rather than direct military engagement. However, the past year has seen an unprecedented shift toward open confrontation, with both nations launching direct strikes on each other's territory on multiple occasions.\n\nAnalysts warn that without a robust and enforceable framework, ceasefires between the two adversaries are inherently unstable. The latest exchange signals not only a failure of the current truce but also the broader difficulty of achieving durable peace in a region defined by deep ideological, geopolitical, and sectarian rivalries. International observers are urging renewed diplomatic intervention before the situation deteriorates beyond recovery.",
+          "vocabularyB2": [
+            {
+              "word": "fragile",
+              "definition": "Easily broken or damaged; used here to mean an agreement that could fail easily"
+            },
+            {
+              "word": "broker",
+              "definition": "To arrange or negotiate a deal or agreement between two or more parties"
+            },
+            {
+              "word": "proxy forces",
+              "definition": "Armed groups that fight on behalf of a more powerful country without direct involvement"
+            },
+            {
+              "word": "mediator",
+              "definition": "A neutral party that helps two sides in a dispute reach an agreement"
+            },
+            {
+              "word": "durable",
+              "definition": "Long-lasting and able to survive difficulties; not easily ended or broken"
+            }
+          ]
+        },
+        {
+          "id": "1780904507339fmby",
+          "title": "Trump to meet AI leaders to discuss US investment in their companies",
+          "source": "BBC Technology",
+          "originalUrl": "https://www.bbc.com/news/articles/c98r8r7dz5no?at_medium=RSS&at_campaign=rss",
+          "category": "technology",
+          "date": "2026-06-05",
+          "summaryB1": "US President Donald Trump has announced that he plans to meet with the leaders of some of the biggest artificial intelligence companies in the United States next week. The meetings are expected to focus on investment in these AI companies, which means the government may give or encourage large amounts of money to help them grow.\n\nArtificial intelligence, or AI, is technology that allows computers to think and learn in ways that are similar to humans. It is used in many areas of daily life, such as search engines, healthcare, and transport. AI is one of the fastest-growing industries in the world right now.\n\nThe US government is very interested in making sure that America stays ahead in the global AI race, especially compared to countries like China. By meeting with AI leaders, Trump wants to show that his administration supports the technology sector and wants to attract more business to the country.\n\nThis kind of high-level meeting between a president and company leaders is significant because it can lead to big changes in how money is spent and how new technology is developed. It also sends a message to the rest of the world that the US sees AI as a national priority. Many people are watching these developments closely, as decisions made now could shape the future of technology for years to come.",
+          "vocabularyB1": [
+            {
+              "word": "investment",
+              "definition": "Money put into something to help it grow and make a profit later."
+            },
+            {
+              "word": "artificial intelligence",
+              "definition": "Computer technology that can think, learn, and solve problems like humans."
+            },
+            {
+              "word": "administration",
+              "definition": "The group of people who run a country's government under a president."
+            },
+            {
+              "word": "priority",
+              "definition": "Something that is considered more important than other things."
+            },
+            {
+              "word": "significant",
+              "definition": "Important and likely to have a noticeable effect or meaning."
+            }
+          ],
+          "summaryB2": "President Donald Trump announced on Friday that he intends to convene meetings with the chief executives of leading artificial intelligence companies in the coming week, with discussions expected to centre on US investment in their respective organisations. While details remain scarce, the announcement signals the administration's intent to position itself as a key stakeholder in the rapidly evolving AI landscape.\n\nThe move reflects a broader strategic imperative: ensuring American dominance in a sector increasingly viewed as central to both economic competitiveness and national security. Washington's growing preoccupation with AI is set against a backdrop of intensifying rivalry with China, whose own AI industry has made considerable strides in recent years. By engaging directly with industry titans, Trump appears eager to demonstrate that his administration is actively fostering the conditions for technological leadership.\n\nCritics, however, may question the implications of such close ties between the executive branch and powerful private companies. Concerns around regulatory capture — where industries gain undue influence over the bodies meant to oversee them — are likely to resurface in this context.\n\nFrom a business perspective, high-level government endorsement can accelerate funding, reduce regulatory friction, and attract international talent. For AI firms, proximity to political power carries both opportunity and scrutiny. As governments worldwide grapple with how to regulate transformative technologies, the outcomes of these meetings could have far-reaching consequences for the future trajectory of AI development in the United States and beyond.",
+          "vocabularyB2": [
+            {
+              "word": "convene",
+              "definition": "To formally arrange and bring together a meeting or group of people."
+            },
+            {
+              "word": "imperative",
+              "definition": "Something that is absolutely necessary or urgently required."
+            },
+            {
+              "word": "regulatory capture",
+              "definition": "When an industry gains too much influence over the government bodies that regulate it."
+            },
+            {
+              "word": "trajectory",
+              "definition": "The path or direction in which something develops over time."
+            },
+            {
+              "word": "fostering",
+              "definition": "Encouraging or helping something to develop and grow."
+            }
+          ]
+        },
+        {
+          "id": "1780904527514gz9a",
+          "title": "Spyro the Dragon returns with a new game after almost two decades",
+          "source": "The Guardian Culture",
+          "originalUrl": "https://www.theguardian.com/games/2026/jun/07/spyro-the-dragon-returns-with-a-new-game-after-almost-two-decades",
+          "category": "culture",
+          "date": "2026-06-07",
+          "summaryB1": "Spyro the Dragon is coming back! A new video game called Spyro: A Realm Beyond was recently announced. This is exciting news for many people who grew up playing games in the 1990s. The game is being made by a studio called Toys for Bob, based in California, USA. It will be available in spring 2027 on several platforms, including Xbox, PlayStation 5, PC, and Nintendo Switch 2.\n\nSpyro is a purple dragon who first appeared on the PlayStation console in the late 1990s. He quickly became a popular mascot for a whole generation of young gamers. However, the last original Spyro game came out in 2008, so fans have been waiting a long time for something new.\n\nIn this new game, Spyro has a fresh new look but still has his trademark purple colour and iconic hairstyle. The original voice actor, Tom Kenny, is returning to give Spyro his voice. One exciting feature is that players can now fly freely at any time. The creative director explained that players can dive, flap their wings, and even use fire-breath to interact with the environment. The developers want the game to inspire feelings of joy and fun. This announcement has made many nostalgic fans very happy.",
+          "vocabularyB1": [
+            {
+              "word": "mascot",
+              "definition": "A character or animal that represents a group, team, or product"
+            },
+            {
+              "word": "platform",
+              "definition": "A gaming system or device, such as PlayStation or Xbox, that you play games on"
+            },
+            {
+              "word": "feature",
+              "definition": "An important or interesting part of something"
+            },
+            {
+              "word": "interact",
+              "definition": "To communicate with or have an effect on something or someone"
+            },
+            {
+              "word": "nostalgic",
+              "definition": "Feeling happy when you remember good things from the past"
+            }
+          ],
+          "summaryB2": "After nearly two decades of absence, Spyro the Dragon is set to make a triumphant return to gaming screens. Spyro: A Realm Beyond, developed by California-based studio Toys for Bob, was unveiled at Xbox's annual Game Showcase and is scheduled for release in spring 2027 across Xbox, PlayStation 5, PC, and Nintendo Switch 2.\n\nThe announcement marks a significant cultural moment. As gaming's most beloved millennial mascots have been systematically resuscitated — from Crash Bandicoot to Sonic — Spyro had remained conspicuously absent from the nostalgia-driven revival wave sweeping the industry. The last original title in the franchise dates back to 2008, making this new release long overdue for a devoted fanbase.\n\nWhile the game preserves Spyro's trademark aesthetic, including his iconic purple colouring and distinctive quiff, it introduces meaningful mechanical innovations. Most notably, players can take flight at any time, a departure from the more constrained movement of the original titles. Creative director Lou Studdert emphasised that the team is leaning into the authentic fantasy of dragon gameplay: dynamic aerial manoeuvres, strategic use of fire-breath to manipulate the environment, and momentum-based flying mechanics all feature prominently.\n\nVoice actor Tom Kenny, who originated the role, is reprising his performance — a detail likely to resonate strongly with long-term fans. With its stated ambition to inspire love, joy and laughter, the project positions itself not merely as a sequel, but as a heartfelt tribute to a defining era of gaming culture.",
+          "vocabularyB2": [
+            {
+              "word": "resuscitated",
+              "definition": "Brought back to life or activity after a long period of being forgotten or inactive"
+            },
+            {
+              "word": "conspicuously",
+              "definition": "In a way that is very easy to notice; obviously or remarkably"
+            },
+            {
+              "word": "departure",
+              "definition": "A clear change or move away from what was done before"
+            },
+            {
+              "word": "reprising",
+              "definition": "Performing or taking on a role again that you did previously"
+            },
+            {
+              "word": "manoeuvres",
+              "definition": "Skilful or controlled movements, especially ones requiring careful planning or coordination"
+            }
+          ]
+        },
+        {
+          "id": "17809045464555lib",
+          "title": "Next El Niño could be strongest in decades",
+          "source": "BBC Science & Environment",
+          "originalUrl": "https://www.bbc.com/news/videos/c8e8zzw30zyo?at_medium=RSS&at_campaign=rss",
+          "category": "environment",
+          "date": "2026-06-02",
+          "summaryB1": "The United Nations has warned that a new El Niño weather event could begin very soon, possibly within just a few weeks. El Niño is a natural weather pattern that happens in the Pacific Ocean. It occurs when ocean water becomes warmer than usual, and this change affects weather all around the world. El Niño can cause serious problems such as heavy rainfall in some regions and drought in others. Scientists are concerned because our planet is already experiencing the effects of climate change, which has been making temperatures rise for many years. When El Niño combines with climate change, the result could be even more extreme weather than normal. The UN believes this new phase could be one of the strongest El Niño events in decades. This is worrying for many countries because extreme weather can damage homes, destroy crops, and affect millions of people. Governments and scientists are monitoring the situation closely so they can warn communities in advance. It is important for people to understand that natural events like El Niño and human-caused climate change can work together to boost temperatures to dangerous levels. Experts say that reducing carbon emissions remains essential to limit future risks. This story reminds us why protecting our environment matters so much.",
+          "vocabularyB1": [
+            {
+              "word": "drought",
+              "definition": "A long period with very little or no rain, causing water shortages."
+            },
+            {
+              "word": "extreme weather",
+              "definition": "Very unusual and dangerous weather conditions, such as floods or heatwaves."
+            },
+            {
+              "word": "phase",
+              "definition": "A stage or period in a process or cycle."
+            },
+            {
+              "word": "monitor",
+              "definition": "To watch or check something carefully over a period of time."
+            },
+            {
+              "word": "boost",
+              "definition": "To increase or raise something to a higher level."
+            }
+          ],
+          "summaryB2": "The United Nations has issued a warning that a new El Niño cycle could emerge within weeks, raising fears that global temperatures — already elevated by decades of human-driven climate change — may climb to unprecedented levels. El Niño is a naturally occurring climatic phenomenon originating in the Pacific Ocean, characterised by an unusual warming of surface waters that disrupts atmospheric circulation patterns worldwide. Its consequences typically include intensified rainfall across parts of South America, severe drought across sub-Saharan Africa and Southeast Asia, and heightened hurricane activity in certain ocean basins. What makes this potential episode particularly alarming is its projected intensity. Scientists suggest it could rank among the most powerful El Niño events in several decades, a prospect that compounds existing anxieties about a planet already under considerable environmental strain. The convergence of a strong El Niño with the underlying warming trend driven by greenhouse gas emissions could push annual mean temperatures to record-breaking highs, with cascading effects on food security, water availability, and public health in vulnerable regions. Climate scientists emphasise that while El Niño is a natural phenomenon, its destructive potential is amplified by anthropogenic climate change, making adaptation strategies more urgent than ever. Authorities and humanitarian organisations are being urged to prepare contingency plans, as early warning systems may provide only a narrow window in which to act. The episode serves as a stark reminder of the accelerating intersection between natural climate variability and human-induced environmental disruption.",
+          "vocabularyB2": [
+            {
+              "word": "unprecedented",
+              "definition": "Never having happened before; at a level or scale not previously recorded."
+            },
+            {
+              "word": "convergence",
+              "definition": "The coming together of two or more different things at the same point or time."
+            },
+            {
+              "word": "anthropogenic",
+              "definition": "Caused or produced by human activity, especially in relation to environmental damage."
+            },
+            {
+              "word": "cascading effects",
+              "definition": "A series of consequences where one event triggers further connected problems."
+            },
+            {
+              "word": "contingency plans",
+              "definition": "Plans prepared in advance to deal with a possible emergency or unexpected situation."
+            }
+          ]
+        },
+        {
+          "id": "1780904565406ro0q",
+          "title": "'A World Cup for them not us': Fans' anger at US travel bans and visa restrictions",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.com/news/articles/cx212p8r28eo?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-06-07",
+          "summaryB1": "The 2026 FIFA World Cup will be held in the United States, Canada, and Mexico. It is one of the biggest sports events in the world, and millions of football fans want to travel to watch the games. However, many fans are angry because they cannot get permission to enter the United States. The US government has strict travel bans and visa rules that stop people from certain countries from visiting. A visa is an official document that allows you to enter a foreign country. Fans from countries affected by these bans say they feel excluded from the tournament. They believe the World Cup should be open to everyone, not just people from countries that have good relations with the US. Some fans have described the situation as unfair and deeply disappointing. Football supporters around the world have spoken out about this issue, saying it is wrong to hold a global event in a country where so many people are not welcome. FIFA, the organisation that runs world football, has faced questions about whether it made the right choice by selecting the US as a host country. For many fans, this World Cup feels like it was made for some people, but not for others. The situation has caused a lot of frustration and anger in the international football community.",
+          "vocabularyB1": [
+            {
+              "word": "permission",
+              "definition": "Official approval that allows you to do something or go somewhere"
+            },
+            {
+              "word": "visa",
+              "definition": "An official document allowing you to enter or stay in a foreign country"
+            },
+            {
+              "word": "excluded",
+              "definition": "Not allowed to join or take part in something; left out"
+            },
+            {
+              "word": "tournament",
+              "definition": "A sports competition where many teams play to find the best one"
+            },
+            {
+              "word": "frustration",
+              "definition": "The feeling of being upset because you cannot do what you want"
+            }
+          ],
+          "summaryB2": "The 2026 FIFA World Cup, co-hosted by the United States, Canada, and Mexico, is supposed to be a celebration of global football. Yet for vast numbers of fans, it is shaping up to be anything but inclusive. Supporters from countries subject to US travel bans and stringent visa restrictions say they feel systematically excluded from an event that markets itself as uniting the world through sport. The discontent is not merely logistical. Many fans view the situation as a fundamental contradiction: a tournament with global pretensions being staged in a country that actively bars entry to citizens of numerous nations. Critics argue that FIFA, football's governing body, failed to adequately scrutinise the implications of awarding hosting rights to the US at a time of increasingly restrictive immigration policy. The anger has been particularly acute among fans from Muslim-majority countries and other nations targeted by Washington's travel regulations. For them, obtaining a visa is not a bureaucratic inconvenience but an insurmountable barrier. Several supporters have described the World Cup as being designed for wealthy, passport-privileged fans rather than the global working-class base that sustains football culture. FIFA has so far offered little in the way of concrete reassurance, drawing accusations of prioritising commercial interests over the sport's inclusive values. The episode raises uncomfortable questions about the ethics of hosting mega-events in countries with exclusionary immigration frameworks.",
+          "vocabularyB2": [
+            {
+              "word": "stringent",
+              "definition": "Very strict and demanding, leaving little room for flexibility or exceptions"
+            },
+            {
+              "word": "discontent",
+              "definition": "A feeling of dissatisfaction and unhappiness about a situation"
+            },
+            {
+              "word": "scrutinise",
+              "definition": "To examine something very carefully and critically in great detail"
+            },
+            {
+              "word": "insurmountable",
+              "definition": "Impossible to overcome or deal with successfully"
+            },
+            {
+              "word": "exclusionary",
+              "definition": "Deliberately designed to keep certain people out or prevent their participation"
+            }
+          ]
+        },
+        {
+          "id": "1780904586013u4sn",
+          "title": "Trump says Netanyahu will have ‘no choice’ but to accept a deal with Iran",
+          "source": "Financial Times",
+          "originalUrl": "https://www.ft.com/content/a0ce59f9-fbde-49e8-9158-fba3d4079859",
+          "category": "business",
+          "date": "2026-06-07",
+          "summaryB1": "US President Donald Trump has said that Israeli Prime Minister Benjamin Netanyahu will have no choice but to accept a peace deal with Iran. Trump made these comments in an interview with the Financial Times. He said that he is the one who makes the important decisions, telling the newspaper that he 'calls the shots' when it comes to relations between the United States and other countries in the Middle East. Trump has been urging Netanyahu not to retaliate against Iran, meaning he does not want Israel to attack Iran in response to earlier actions. This is important because tensions between Israel and Iran have been very high recently, and many people are worried about a larger conflict starting in the region. Trump believes that a deal between Iran and Israel is the best way to bring peace and stability to the area. Netanyahu has not yet publicly agreed to follow Trump's advice, but Trump seems confident that the Israeli leader will eventually accept the agreement. This situation matters because the United States plays a very powerful role in Middle East politics, and Trump's strong language shows that he wants to be in control of how the situation develops. Many people around the world are watching closely to see what happens next.",
+          "vocabularyB1": [
+            {
+              "word": "accept",
+              "definition": "To agree to take or receive something that is offered to you"
+            },
+            {
+              "word": "retaliate",
+              "definition": "To do something harmful to someone because they harmed you first"
+            },
+            {
+              "word": "tensions",
+              "definition": "A feeling of worry and danger between people or countries who do not trust each other"
+            },
+            {
+              "word": "stability",
+              "definition": "A situation that is calm, safe, and not likely to change suddenly"
+            },
+            {
+              "word": "confident",
+              "definition": "Feeling sure that something will happen or that you can do something well"
+            }
+          ],
+          "summaryB2": "Donald Trump has declared that Israeli Prime Minister Benjamin Netanyahu will have 'no choice' but to accept a prospective nuclear deal with Iran, signalling a striking assertion of American dominance over its closest Middle Eastern ally. Speaking to the Financial Times, the US president insisted that he 'calls the shots' in the region, a remark widely interpreted as a pointed rebuke to Netanyahu, whom Trump had previously urged to refrain from retaliating against Tehran following recent hostilities. The statement underscores a notable shift in Washington's approach, with Trump appearing to prioritise diplomatic engagement with Iran over unconditional support for Israeli military objectives. This puts the two leaders on a potential collision course, as Netanyahu has long advocated a hardline stance towards Iran and has shown little appetite for concessions. Critics argue that Trump's blunt rhetoric risks undermining the credibility of the US-Israel alliance, while supporters contend that Washington must exert firm leverage to prevent a broader regional escalation. The situation is further complicated by Iran's ongoing nuclear programme, which Israel regards as an existential threat. By publicly pressuring Netanyahu in this manner, Trump appears to be staking out a unilateral position ahead of any formal negotiations, raising questions about how much genuine diplomatic groundwork has been laid and whether such a deal is genuinely achievable.",
+          "vocabularyB2": [
+            {
+              "word": "assertion",
+              "definition": "A confident and forceful statement or claim about something"
+            },
+            {
+              "word": "rebuke",
+              "definition": "A strong and official criticism directed at someone for their behaviour or actions"
+            },
+            {
+              "word": "concessions",
+              "definition": "Things you agree to give up or accept in order to reach an agreement"
+            },
+            {
+              "word": "escalation",
+              "definition": "A rapid increase in the seriousness or intensity of a conflict or problem"
+            },
+            {
+              "word": "unilateral",
+              "definition": "Done by only one country or person, without agreement from others involved"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "generated": "2026-06-02T07:30:00Z",
       "week": "2026-W23",
       "articles": [
@@ -13,19 +667,49 @@
           "date": "2026-06-02",
           "summaryB1": "The European Union is planning to spend a lot of money on roads and railways near its eastern borders. This will help countries like Poland, Lithuania and Romania to connect better with the rest of Europe. EU leaders agreed that better transport links are very important for the economy and for security. The money will come from a special EU fund. Work on the new roads and railways is expected to start next year. Many people who live near the border are happy about this decision. They hope that better infrastructure will also bring more jobs to their region. Poland will receive one of the largest shares of the total funding because it has a very long eastern border with Ukraine and Belarus. Local governments in Poland are already making detailed plans for how to use the money effectively.",
           "vocabularyB1": [
-            { "word": "infrastructure", "definition": "The basic systems a country needs, like roads, railways and power supplies" },
-            { "word": "funding", "definition": "Money given for a specific purpose" },
-            { "word": "transport links", "definition": "Roads, railways and other connections that allow people to travel between places" },
-            { "word": "region", "definition": "A large area of a country with particular characteristics" },
-            { "word": "effectively", "definition": "In a way that works well and produces the right result" }
+            {
+              "word": "infrastructure",
+              "definition": "The basic systems a country needs, like roads, railways and power supplies"
+            },
+            {
+              "word": "funding",
+              "definition": "Money given for a specific purpose"
+            },
+            {
+              "word": "transport links",
+              "definition": "Roads, railways and other connections that allow people to travel between places"
+            },
+            {
+              "word": "region",
+              "definition": "A large area of a country with particular characteristics"
+            },
+            {
+              "word": "effectively",
+              "definition": "In a way that works well and produces the right result"
+            }
           ],
           "summaryB2": "The European Commission has unveiled a comprehensive package to bolster transport and logistical infrastructure along the EU's eastern flank, with particular emphasis on Poland, the Baltic states and Romania. The initiative draws on the Cohesion Fund and newly established defence-linked financing instruments, aiming to dual-purpose civilian infrastructure for potential military mobility requirements — a concept increasingly central to NATO's strategic posture. Poland stands to receive a disproportionately large allocation given the considerable extent of its eastern border with Ukraine and Belarus. Critics have raised legitimate questions about procurement timelines and the adequacy of environmental impact assessments, while several MEPs have called for greater transparency in the tendering process. Proponents argue that the security and economic rationale is compelling, particularly in the context of ongoing geopolitical uncertainty in the region.",
           "vocabularyB2": [
-            { "word": "bolster", "definition": "To strengthen or improve something significantly" },
-            { "word": "dual-purpose", "definition": "Designed to serve two completely different functions at the same time" },
-            { "word": "disproportionately", "definition": "To a degree that is larger or smaller than would normally be expected" },
-            { "word": "tendering process", "definition": "The formal procedure of inviting and selecting competitive bids for a contract" },
-            { "word": "geopolitical", "definition": "Relating to politics strongly influenced by geographical factors and international relations" }
+            {
+              "word": "bolster",
+              "definition": "To strengthen or improve something significantly"
+            },
+            {
+              "word": "dual-purpose",
+              "definition": "Designed to serve two completely different functions at the same time"
+            },
+            {
+              "word": "disproportionately",
+              "definition": "To a degree that is larger or smaller than would normally be expected"
+            },
+            {
+              "word": "tendering process",
+              "definition": "The formal procedure of inviting and selecting competitive bids for a contract"
+            },
+            {
+              "word": "geopolitical",
+              "definition": "Relating to politics strongly influenced by geographical factors and international relations"
+            }
           ]
         },
         {
@@ -37,19 +721,49 @@
           "date": "2026-06-02",
           "summaryB1": "Big technology companies like Google and Meta will have to follow new rules in Europe from this autumn. The rules are part of a plan to make the internet safer and more fair for everyone. Companies that break the rules can be fined a lot of money — up to ten percent of their total income worldwide. European countries, including Poland, have strongly supported these new regulations. Users will have more control over their personal information and how large companies use it. The new rules also mean that big companies cannot use unfair methods to stop smaller companies from competing with them. Poland's digital ministry has been one of the most active supporters of strict enforcement of these rules. Many Polish internet users say they feel better protected by these changes.",
           "vocabularyB1": [
-            { "word": "regulations", "definition": "Official rules made by a government or authority that must be followed" },
-            { "word": "enforcement", "definition": "The process of making sure that rules or laws are actually followed" },
-            { "word": "fined", "definition": "Required to pay money as a punishment for breaking a rule or law" },
-            { "word": "competing", "definition": "Trying to be more successful than others who are selling similar products or services" },
-            { "word": "protected", "definition": "Kept safe from harm, danger or unfair treatment" }
+            {
+              "word": "regulations",
+              "definition": "Official rules made by a government or authority that must be followed"
+            },
+            {
+              "word": "enforcement",
+              "definition": "The process of making sure that rules or laws are actually followed"
+            },
+            {
+              "word": "fined",
+              "definition": "Required to pay money as a punishment for breaking a rule or law"
+            },
+            {
+              "word": "competing",
+              "definition": "Trying to be more successful than others who are selling similar products or services"
+            },
+            {
+              "word": "protected",
+              "definition": "Kept safe from harm, danger or unfair treatment"
+            }
           ],
           "summaryB2": "The Digital Markets Act enforcement timeline has been accelerated, with the European Commission confirming that designated 'gatekeepers' — including Alphabet, Meta and Apple — must demonstrate full compliance by October. The regulation targets anti-competitive behaviour, mandatory interoperability between platforms, and greater algorithmic transparency. Poland's digital ministry has been notably vocal in pushing for stricter enforcement mechanisms, reflecting broader Central European frustration with the perceived dominance of American platforms in local media ecosystems. Non-compliance carries penalties of up to 10% of global annual turnover, with repeat offenders potentially facing structural remedies including forced divestiture. Legal analysts widely expect several major platforms to challenge specific provisions in the Court of Justice of the EU.",
           "vocabularyB2": [
-            { "word": "gatekeepers", "definition": "Companies that control access to important digital markets or platforms" },
-            { "word": "interoperability", "definition": "The ability of different digital systems or applications to work together seamlessly" },
-            { "word": "algorithmic transparency", "definition": "Making it clear and understandable how automated computer systems make decisions" },
-            { "word": "divestiture", "definition": "The forced sale or disposal of a part of a business, often required by regulators" },
-            { "word": "provisions", "definition": "Specific conditions or requirements within a law or legal agreement" }
+            {
+              "word": "gatekeepers",
+              "definition": "Companies that control access to important digital markets or platforms"
+            },
+            {
+              "word": "interoperability",
+              "definition": "The ability of different digital systems or applications to work together seamlessly"
+            },
+            {
+              "word": "algorithmic transparency",
+              "definition": "Making it clear and understandable how automated computer systems make decisions"
+            },
+            {
+              "word": "divestiture",
+              "definition": "The forced sale or disposal of a part of a business, often required by regulators"
+            },
+            {
+              "word": "provisions",
+              "definition": "Specific conditions or requirements within a law or legal agreement"
+            }
           ]
         },
         {
@@ -61,19 +775,49 @@
           "date": "2026-06-01",
           "summaryB1": "Cities in Central Europe, including Warsaw and Prague, are planting many new trees and building parks to deal with very hot summers. Scientists say that cities are getting hotter because of climate change. Green spaces help to cool the air and make life more comfortable for people living there. Local governments are spending large amounts of money on these projects. In Warsaw, the city plans to plant thousands of new trees along busy streets over the next three years. Prague is also creating several new parks in areas where there were previously only buildings and concrete. Both cities say that green areas are not just nice to look at — they are necessary for people's health during periods of extreme heat. Residents in both cities say they are happy that their local governments are taking this problem seriously.",
           "vocabularyB1": [
-            { "word": "climate change", "definition": "Long-term changes in global temperatures and weather patterns, mainly caused by human activities" },
-            { "word": "extreme heat", "definition": "Temperatures that are much higher than usual and can be dangerous to people's health" },
-            { "word": "residents", "definition": "People who live permanently in a particular place or area" },
-            { "word": "concrete", "definition": "A hard building material made from cement, sand and water, used for roads and buildings" },
-            { "word": "previously", "definition": "At an earlier time; before the current situation existed" }
+            {
+              "word": "climate change",
+              "definition": "Long-term changes in global temperatures and weather patterns, mainly caused by human activities"
+            },
+            {
+              "word": "extreme heat",
+              "definition": "Temperatures that are much higher than usual and can be dangerous to people's health"
+            },
+            {
+              "word": "residents",
+              "definition": "People who live permanently in a particular place or area"
+            },
+            {
+              "word": "concrete",
+              "definition": "A hard building material made from cement, sand and water, used for roads and buildings"
+            },
+            {
+              "word": "previously",
+              "definition": "At an earlier time; before the current situation existed"
+            }
           ],
           "summaryB2": "Municipal authorities across Central Europe are implementing so-called 'sponge city' strategies as urban heat islands intensify under accelerating climate projections. Warsaw's latest urban masterplan earmarks 18% of all new development land for permeable surfaces and expanding tree canopy, while Kraków has introduced mandatory heat-resilience requirements into its building regulations. Urban planners acknowledge a fundamental tension between densification pressures — driven by acute housing shortages — and the ecological imperative to preserve green corridors that regulate urban microclimates. Research from the Warsaw University of Life Sciences suggests mature street trees can reduce local temperatures by up to 8°C on peak summer days, lending considerable scientific weight to what critics had previously dismissed as a purely aesthetic concern.",
           "vocabularyB2": [
-            { "word": "urban heat islands", "definition": "City areas significantly warmer than surrounding rural areas due to buildings, roads and human activity" },
-            { "word": "permeable surfaces", "definition": "Ground surfaces that allow rainwater to pass through rather than run off into drains" },
-            { "word": "densification", "definition": "The process of increasing the number of buildings and population density in an urban area" },
-            { "word": "microclimates", "definition": "Climate conditions specific to a small local area, which may differ significantly from the wider region" },
-            { "word": "aesthetic", "definition": "Relating to beauty and visual appearance rather than practical usefulness" }
+            {
+              "word": "urban heat islands",
+              "definition": "City areas significantly warmer than surrounding rural areas due to buildings, roads and human activity"
+            },
+            {
+              "word": "permeable surfaces",
+              "definition": "Ground surfaces that allow rainwater to pass through rather than run off into drains"
+            },
+            {
+              "word": "densification",
+              "definition": "The process of increasing the number of buildings and population density in an urban area"
+            },
+            {
+              "word": "microclimates",
+              "definition": "Climate conditions specific to a small local area, which may differ significantly from the wider region"
+            },
+            {
+              "word": "aesthetic",
+              "definition": "Relating to beauty and visual appearance rather than practical usefulness"
+            }
           ]
         },
         {
@@ -85,19 +829,49 @@
           "date": "2026-06-02",
           "summaryB1": "The European Central Bank says it will be very careful about changing interest rates this year. Interest rates affect how much it costs to borrow money from a bank. When rates are high, people pay more for mortgages and business loans. The bank is worried about inflation, which means the prices of everyday things going up faster than usual. Poland is not part of the eurozone and uses the zloty, but decisions made by the European Central Bank still have an important effect on Poland's economy. Many Polish businesses borrow money in euros, so changes in European interest rates affect them directly. Economists say that the bank wants to be sure that inflation is really under control before it makes any big changes. This cautious approach means that borrowing will remain expensive for some time.",
           "vocabularyB1": [
-            { "word": "interest rates", "definition": "The percentage charged by a bank for lending money, or paid on savings" },
-            { "word": "inflation", "definition": "A general increase in prices over time, reducing what you can buy with the same amount of money" },
-            { "word": "mortgages", "definition": "Loans taken from a bank to buy a house or flat, repaid over many years" },
-            { "word": "eurozone", "definition": "The group of EU countries that use the euro as their currency" },
-            { "word": "cautious", "definition": "Being careful and not taking risks; not acting too quickly" }
+            {
+              "word": "interest rates",
+              "definition": "The percentage charged by a bank for lending money, or paid on savings"
+            },
+            {
+              "word": "inflation",
+              "definition": "A general increase in prices over time, reducing what you can buy with the same amount of money"
+            },
+            {
+              "word": "mortgages",
+              "definition": "Loans taken from a bank to buy a house or flat, repaid over many years"
+            },
+            {
+              "word": "eurozone",
+              "definition": "The group of EU countries that use the euro as their currency"
+            },
+            {
+              "word": "cautious",
+              "definition": "Being careful and not taking risks; not acting too quickly"
+            }
           ],
           "summaryB2": "The ECB's governing council has signalled a more cautious approach to further monetary easing, citing persistent services inflation and wage growth that remains above pre-pandemic trends. The hawkish tone, communicated through President Christine Lagarde's carefully worded forward guidance, has prompted a modest repricing of rate expectations in European swap markets. For Poland and other non-eurozone Central European economies, the ECB's stance indirectly constrains the National Bank of Poland's room for manoeuvre, given the zloty's well-documented sensitivity to euro-area monetary conditions. Analysts at several Warsaw-based investment banks have consequently revised their forecasts for domestic rate cuts, pushing expected reductions further into the second half of the year.",
           "vocabularyB2": [
-            { "word": "monetary easing", "definition": "Central bank policy of reducing interest rates to stimulate economic activity and borrowing" },
-            { "word": "hawkish", "definition": "Favouring higher interest rates and tighter monetary policy to control inflation" },
-            { "word": "forward guidance", "definition": "A central bank's communication about its likely future policy decisions to influence expectations" },
-            { "word": "repricing", "definition": "Adjusting the expected value or cost of financial instruments based on new information" },
-            { "word": "room for manoeuvre", "definition": "Freedom or flexibility to act or make independent choices within constraints" }
+            {
+              "word": "monetary easing",
+              "definition": "Central bank policy of reducing interest rates to stimulate economic activity and borrowing"
+            },
+            {
+              "word": "hawkish",
+              "definition": "Favouring higher interest rates and tighter monetary policy to control inflation"
+            },
+            {
+              "word": "forward guidance",
+              "definition": "A central bank's communication about its likely future policy decisions to influence expectations"
+            },
+            {
+              "word": "repricing",
+              "definition": "Adjusting the expected value or cost of financial instruments based on new information"
+            },
+            {
+              "word": "room for manoeuvre",
+              "definition": "Freedom or flexibility to act or make independent choices within constraints"
+            }
           ]
         },
         {
@@ -109,19 +883,49 @@
           "date": "2026-06-01",
           "summaryB1": "Polish films are becoming more popular and well-known around the world. Three Polish films have been selected for important international film festivals this year. Film-makers from Poland say they want to tell stories about Polish history and modern Polish life in ways that people from other countries can also understand and enjoy. Streaming services like Netflix are very interested in Polish content and are spending more money on Polish productions. More young people in Poland are now choosing to study film-making at university. Industry experts say that Polish cinema has a unique voice that audiences around the world are beginning to appreciate. Warsaw is becoming an increasingly important European centre for film and television production, attracting foreign productions that use Polish studios and local talent.",
           "vocabularyB1": [
-            { "word": "film festivals", "definition": "Events where films from different countries are shown and sometimes given prizes" },
-            { "word": "productions", "definition": "Films, TV shows or other media that have been made" },
-            { "word": "streaming services", "definition": "Online platforms like Netflix where you can watch films and shows over the internet" },
-            { "word": "unique", "definition": "Being the only one of its kind; unlike anything else" },
-            { "word": "talent", "definition": "People with natural ability and skill in a particular area" }
+            {
+              "word": "film festivals",
+              "definition": "Events where films from different countries are shown and sometimes given prizes"
+            },
+            {
+              "word": "productions",
+              "definition": "Films, TV shows or other media that have been made"
+            },
+            {
+              "word": "streaming services",
+              "definition": "Online platforms like Netflix where you can watch films and shows over the internet"
+            },
+            {
+              "word": "unique",
+              "definition": "Being the only one of its kind; unlike anything else"
+            },
+            {
+              "word": "talent",
+              "definition": "People with natural ability and skill in a particular area"
+            }
           ],
           "summaryB2": "Poland's cinematic output is attracting sustained international attention, with three features shortlisted for major festivals including Venice and Toronto. Analysts attribute this momentum partly to co-production frameworks with German and French broadcasters, and partly to a generational shift in domestic storytelling — younger directors are engaging with post-communist memory and contemporary Polish identity in formally adventurous and internationally accessible ways. Netflix's Warsaw-based content team has reportedly doubled its commissioning budget for Polish-language originals, signalling growing confidence that Polish narratives can translate successfully across diverse global markets. Warsaw is increasingly positioning itself as a significant Central European production hub.",
           "vocabularyB2": [
-            { "word": "cinematic output", "definition": "The total number of films produced by a country or film-maker over a period of time" },
-            { "word": "shortlisted", "definition": "Included in a small final group of candidates being considered for a prize or selection" },
-            { "word": "co-production frameworks", "definition": "Formal agreements allowing companies from different countries to jointly finance and make films" },
-            { "word": "commissioning budget", "definition": "Money set aside by a broadcaster or platform to order and pay for new original content" },
-            { "word": "post-communist", "definition": "Relating to societies and culture in the period after communist rule ended in Eastern Europe" }
+            {
+              "word": "cinematic output",
+              "definition": "The total number of films produced by a country or film-maker over a period of time"
+            },
+            {
+              "word": "shortlisted",
+              "definition": "Included in a small final group of candidates being considered for a prize or selection"
+            },
+            {
+              "word": "co-production frameworks",
+              "definition": "Formal agreements allowing companies from different countries to jointly finance and make films"
+            },
+            {
+              "word": "commissioning budget",
+              "definition": "Money set aside by a broadcaster or platform to order and pay for new original content"
+            },
+            {
+              "word": "post-communist",
+              "definition": "Relating to societies and culture in the period after communist rule ended in Eastern Europe"
+            }
           ]
         },
         {
@@ -133,19 +937,49 @@
           "date": "2026-05-31",
           "summaryB1": "Many European companies are now using artificial intelligence to help them find new employees. AI tools can look through hundreds of job applications very quickly and identify the most suitable candidates. Some people are worried that AI is not always fair when it chooses which candidates to select for interviews. In Poland, companies in the IT and finance sectors are using these tools the most. Workers are strongly advised to write their CVs in ways that AI screening systems will score positively. Trade unions across Europe are calling for new laws to protect job seekers from being unfairly rejected by automated systems. Some countries are already introducing rules that require companies to tell applicants when AI has been used in their selection process.",
           "vocabularyB1": [
-            { "word": "artificial intelligence", "definition": "Computer systems that can do tasks that normally require human intelligence, like making decisions" },
-            { "word": "candidates", "definition": "People who are applying for a job or position" },
-            { "word": "CVs", "definition": "Documents listing a person's education, work experience and skills, used when applying for jobs" },
-            { "word": "automated", "definition": "Done by machines or computers without needing human involvement" },
-            { "word": "trade unions", "definition": "Organisations that represent workers and protect their rights in the workplace" }
+            {
+              "word": "artificial intelligence",
+              "definition": "Computer systems that can do tasks that normally require human intelligence, like making decisions"
+            },
+            {
+              "word": "candidates",
+              "definition": "People who are applying for a job or position"
+            },
+            {
+              "word": "CVs",
+              "definition": "Documents listing a person's education, work experience and skills, used when applying for jobs"
+            },
+            {
+              "word": "automated",
+              "definition": "Done by machines or computers without needing human involvement"
+            },
+            {
+              "word": "trade unions",
+              "definition": "Organisations that represent workers and protect their rights in the workplace"
+            }
           ],
           "summaryB2": "The adoption of AI-driven applicant tracking systems has accelerated sharply across European labour markets, with a recent survey indicating that 62% of companies with over 500 employees now deploy algorithmic screening at some stage of their recruitment process. The practice raises significant compliance questions under the EU AI Act's high-risk classification for employment-related AI applications, which mandates meaningful human oversight and regular bias auditing. Polish labour lawyers note a persistent gap between the regulation's stated intent and actual enforcement capacity, particularly among mid-sized firms that lack dedicated compliance functions. Meanwhile, trade union confederations in several EU member states are lobbying for more prescriptive transparency requirements, including mandatory disclosure of AI involvement to all unsuccessful applicants.",
           "vocabularyB2": [
-            { "word": "applicant tracking systems", "definition": "Software used by employers to automatically collect, filter and rank job applications" },
-            { "word": "algorithmic screening", "definition": "Using computer programs to automatically evaluate and filter candidates based on preset criteria" },
-            { "word": "bias auditing", "definition": "Systematically examining a system to identify and correct patterns of unfair or discriminatory decision-making" },
-            { "word": "prescriptive", "definition": "Giving detailed, specific instructions about exactly what must be done" },
-            { "word": "mandatory disclosure", "definition": "A legal requirement to officially inform someone about something" }
+            {
+              "word": "applicant tracking systems",
+              "definition": "Software used by employers to automatically collect, filter and rank job applications"
+            },
+            {
+              "word": "algorithmic screening",
+              "definition": "Using computer programs to automatically evaluate and filter candidates based on preset criteria"
+            },
+            {
+              "word": "bias auditing",
+              "definition": "Systematically examining a system to identify and correct patterns of unfair or discriminatory decision-making"
+            },
+            {
+              "word": "prescriptive",
+              "definition": "Giving detailed, specific instructions about exactly what must be done"
+            },
+            {
+              "word": "mandatory disclosure",
+              "definition": "A legal requirement to officially inform someone about something"
+            }
           ]
         },
         {
@@ -157,19 +991,49 @@
           "date": "2026-06-01",
           "summaryB1": "Poland is building many new wind farms to produce more clean electricity. The government wants to reduce the country's dependence on coal, which Poland has used for energy for a very long time. New wind farms are being built both on land and in the Baltic Sea. The energy from these wind farms will be enough to power millions of Polish homes. Many people support this change because it will also help to reduce air pollution in Polish cities. However, some people who live near the new wind farms are concerned about the noise and the effect on the local landscape. The Polish government says that renewable energy will create thousands of new jobs in the coming years. Poland has set a goal to produce 50% of its electricity from renewable sources by 2035.",
           "vocabularyB1": [
-            { "word": "renewable energy", "definition": "Energy from sources that are naturally replaced and never run out, like wind or sunlight" },
-            { "word": "dependence", "definition": "The state of relying on something or someone too much" },
-            { "word": "coal", "definition": "A black rock used as fuel, burned to produce heat and electricity" },
-            { "word": "air pollution", "definition": "Harmful substances in the air, caused by burning fuels and industrial activity" },
-            { "word": "landscape", "definition": "The visible features of an area of land, such as hills, forests and fields" }
+            {
+              "word": "renewable energy",
+              "definition": "Energy from sources that are naturally replaced and never run out, like wind or sunlight"
+            },
+            {
+              "word": "dependence",
+              "definition": "The state of relying on something or someone too much"
+            },
+            {
+              "word": "coal",
+              "definition": "A black rock used as fuel, burned to produce heat and electricity"
+            },
+            {
+              "word": "air pollution",
+              "definition": "Harmful substances in the air, caused by burning fuels and industrial activity"
+            },
+            {
+              "word": "landscape",
+              "definition": "The visible features of an area of land, such as hills, forests and fields"
+            }
           ],
           "summaryB2": "Poland is accelerating its offshore and onshore wind capacity in a significant pivot away from its historically coal-dependent energy mix. Several large-scale Baltic Sea wind projects have recently received government approval, with combined capacity sufficient to power an estimated four million households. The transition carries both economic and geopolitical dimensions — reducing dependence on imported fossil fuels while positioning Poland to meet its EU climate commitments under the revised Fit for 55 package. Industry analysts note that the rapid expansion will require substantial investment in grid infrastructure and storage capacity to manage intermittency. Local opposition movements, particularly in rural Mazovia and Pomerania, continue to contest planning decisions on aesthetic and ecological grounds.",
           "vocabularyB2": [
-            { "word": "offshore", "definition": "Located in the sea, at a distance from the coast" },
-            { "word": "energy mix", "definition": "The combination of different energy sources a country uses to meet its total power needs" },
-            { "word": "geopolitical dimensions", "definition": "Aspects of a situation that relate to international relations and the influence of geography on politics" },
-            { "word": "intermittency", "definition": "The characteristic of renewable energy sources like wind that do not produce power continuously" },
-            { "word": "ecological grounds", "definition": "Reasons related to the protection of the natural environment and living organisms" }
+            {
+              "word": "offshore",
+              "definition": "Located in the sea, at a distance from the coast"
+            },
+            {
+              "word": "energy mix",
+              "definition": "The combination of different energy sources a country uses to meet its total power needs"
+            },
+            {
+              "word": "geopolitical dimensions",
+              "definition": "Aspects of a situation that relate to international relations and the influence of geography on politics"
+            },
+            {
+              "word": "intermittency",
+              "definition": "The characteristic of renewable energy sources like wind that do not produce power continuously"
+            },
+            {
+              "word": "ecological grounds",
+              "definition": "Reasons related to the protection of the natural environment and living organisms"
+            }
           ]
         },
         {
@@ -181,19 +1045,49 @@
           "date": "2026-06-02",
           "summaryB1": "Food prices across Europe have been rising for several months, and families are finding it harder to afford their weekly shopping. In Poland, the prices of basic products like bread, milk and vegetables have gone up significantly. Economists say that bad weather affecting crops, higher transport costs and global supply problems are all contributing to the problem. Many families in Poland are changing their shopping habits — buying fewer luxury items and looking for cheaper alternatives to their usual products. Food banks in major Polish cities report that more people are coming to them for help than at any time in the past five years. The Polish government has announced some measures to help lower-income families cope with the higher prices, including an expansion of the food assistance programme.",
           "vocabularyB1": [
-            { "word": "afford", "definition": "To have enough money to be able to buy or pay for something" },
-            { "word": "crops", "definition": "Plants grown by farmers for food, like wheat, potatoes or vegetables" },
-            { "word": "supply problems", "definition": "Difficulties in getting enough goods to the places where they are needed" },
-            { "word": "luxury items", "definition": "Things that are nice to have but not essential for everyday life" },
-            { "word": "food banks", "definition": "Places that collect food donations and give them free to people who cannot afford to buy food" }
+            {
+              "word": "afford",
+              "definition": "To have enough money to be able to buy or pay for something"
+            },
+            {
+              "word": "crops",
+              "definition": "Plants grown by farmers for food, like wheat, potatoes or vegetables"
+            },
+            {
+              "word": "supply problems",
+              "definition": "Difficulties in getting enough goods to the places where they are needed"
+            },
+            {
+              "word": "luxury items",
+              "definition": "Things that are nice to have but not essential for everyday life"
+            },
+            {
+              "word": "food banks",
+              "definition": "Places that collect food donations and give them free to people who cannot afford to buy food"
+            }
           ],
           "summaryB2": "Persistent food price inflation is compounding cost-of-living pressures for households across the EU, with Poland among the member states experiencing above-average increases in staple food categories. A convergence of factors — including severe drought conditions affecting southern European agricultural output, elevated logistics costs, and residual supply chain disruptions — has sustained upward price pressure despite broader headline inflation easing. Polish consumer confidence indices have declined for the third consecutive quarter, with discretionary spending contracting sharply. NGOs operating food assistance networks in Warsaw and Kraków report a marked increase in first-time users, suggesting that financial distress is penetrating demographics not previously associated with food insecurity.",
           "vocabularyB2": [
-            { "word": "compounding", "definition": "Making an already difficult situation worse by adding further problems" },
-            { "word": "staple food categories", "definition": "Basic, essential foods that form the main part of people's regular diet" },
-            { "word": "discretionary spending", "definition": "Money spent on non-essential items that people can choose to cut back on" },
-            { "word": "food insecurity", "definition": "The state of not having reliable access to sufficient affordable and nutritious food" },
-            { "word": "residual", "definition": "Remaining after the main part of something has gone or been dealt with" }
+            {
+              "word": "compounding",
+              "definition": "Making an already difficult situation worse by adding further problems"
+            },
+            {
+              "word": "staple food categories",
+              "definition": "Basic, essential foods that form the main part of people's regular diet"
+            },
+            {
+              "word": "discretionary spending",
+              "definition": "Money spent on non-essential items that people can choose to cut back on"
+            },
+            {
+              "word": "food insecurity",
+              "definition": "The state of not having reliable access to sufficient affordable and nutritious food"
+            },
+            {
+              "word": "residual",
+              "definition": "Remaining after the main part of something has gone or been dealt with"
+            }
           ]
         },
         {
@@ -205,19 +1099,49 @@
           "date": "2026-05-31",
           "summaryB1": "The European Space Agency has chosen a new group of astronauts, and for the first time the selection includes candidates from Central and Eastern European countries. This is seen as an important moment for the region. The new astronauts will spend years training before they can go to space. Training takes place at the ESA centre in Cologne, Germany, and also at NASA facilities in the United States. The ESA said it received more than 22,000 applications from across Europe, which is a new record. The selection of astronauts from Eastern Europe is part of a wider effort to make the space programme more representative of all EU member states. Young people across Poland and neighbouring countries have reacted with great excitement to the news.",
           "vocabularyB1": [
-            { "word": "astronauts", "definition": "People who are trained to travel and work in space" },
-            { "word": "selection", "definition": "The process of carefully choosing a person or thing from a larger group" },
-            { "word": "training", "definition": "The process of learning the skills needed to do a particular job" },
-            { "word": "facilities", "definition": "Buildings and equipment provided for a particular purpose" },
-            { "word": "representative", "definition": "Including examples of all the different types that exist in a group or society" }
+            {
+              "word": "astronauts",
+              "definition": "People who are trained to travel and work in space"
+            },
+            {
+              "word": "selection",
+              "definition": "The process of carefully choosing a person or thing from a larger group"
+            },
+            {
+              "word": "training",
+              "definition": "The process of learning the skills needed to do a particular job"
+            },
+            {
+              "word": "facilities",
+              "definition": "Buildings and equipment provided for a particular purpose"
+            },
+            {
+              "word": "representative",
+              "definition": "Including examples of all the different types that exist in a group or society"
+            }
           ],
           "summaryB2": "The European Space Agency's latest astronaut cohort marks a notable shift in the programme's geographical composition, with candidates from Central and Eastern European member states securing places for the first time in the agency's history. The selection, drawn from a record 22,500 applicants, reflects both ESA's strategic commitment to broadening institutional representation and growing political pressure from newer EU members to secure meaningful participation in flagship European scientific endeavours. The successful candidates will undergo an intensive two-year basic training curriculum at ESA's European Astronaut Centre in Cologne before becoming eligible for mission assignments. Space agency officials indicated that expanded collaboration agreements with NASA and JAXA will provide additional mission opportunities for the enlarged astronaut corps.",
           "vocabularyB2": [
-            { "word": "cohort", "definition": "A group of people who share a particular characteristic or experience, especially selected together" },
-            { "word": "flagship", "definition": "The most important or prestigious product, project or initiative of an organisation" },
-            { "word": "curriculum", "definition": "A structured programme of study or training covering specific subjects and skills" },
-            { "word": "corps", "definition": "A group of people engaged in a particular activity or profession, treated as a unit" },
-            { "word": "endeavours", "definition": "Serious attempts or efforts to do something, particularly something ambitious" }
+            {
+              "word": "cohort",
+              "definition": "A group of people who share a particular characteristic or experience, especially selected together"
+            },
+            {
+              "word": "flagship",
+              "definition": "The most important or prestigious product, project or initiative of an organisation"
+            },
+            {
+              "word": "curriculum",
+              "definition": "A structured programme of study or training covering specific subjects and skills"
+            },
+            {
+              "word": "corps",
+              "definition": "A group of people engaged in a particular activity or profession, treated as a unit"
+            },
+            {
+              "word": "endeavours",
+              "definition": "Serious attempts or efforts to do something, particularly something ambitious"
+            }
           ]
         },
         {
@@ -229,19 +1153,49 @@
           "date": "2026-06-01",
           "summaryB1": "Warsaw is becoming one of the most important cities in Europe for new technology companies, known as start-ups. More and more young entrepreneurs from Poland and neighbouring countries are choosing Warsaw as the place to build their businesses. The city has good universities that produce talented graduates, and living costs are lower than in cities like London or Berlin. Several large international companies have recently opened technology offices in Warsaw. The Polish government has also introduced special programmes to help new businesses get started, including easier access to funding. Warsaw's growing reputation as a technology centre is attracting investors from across Europe and from the United States. Many tech workers who left Poland to work abroad are now returning to take advantage of the new opportunities available in their home city.",
           "vocabularyB1": [
-            { "word": "entrepreneurs", "definition": "People who start and run their own businesses, taking financial risks to do so" },
-            { "word": "graduates", "definition": "People who have successfully completed a university degree" },
-            { "word": "reputation", "definition": "The opinion that people in general have about someone or something" },
-            { "word": "investors", "definition": "People or organisations that put money into a business hoping to make a profit" },
-            { "word": "opportunities", "definition": "Situations where it is possible to do something desirable or advantageous" }
+            {
+              "word": "entrepreneurs",
+              "definition": "People who start and run their own businesses, taking financial risks to do so"
+            },
+            {
+              "word": "graduates",
+              "definition": "People who have successfully completed a university degree"
+            },
+            {
+              "word": "reputation",
+              "definition": "The opinion that people in general have about someone or something"
+            },
+            {
+              "word": "investors",
+              "definition": "People or organisations that put money into a business hoping to make a profit"
+            },
+            {
+              "word": "opportunities",
+              "definition": "Situations where it is possible to do something desirable or advantageous"
+            }
           ],
           "summaryB2": "Warsaw is consolidating its position as one of Central Europe's premier technology ecosystems, attracting venture capital inflows and talent at a pace that is beginning to rival established Western European hubs. The city's competitive advantages — a deep pool of technically skilled graduates from Polish universities, relatively low operational costs compared to Berlin or Amsterdam, and improving quality of urban life — are proving persuasive to founders and international corporations alike. Poland's favourable regulatory environment for early-stage companies, combined with EU single market access, has made Warsaw an increasingly attractive domicile for start-ups seeking pan-European scalability. A notable reverse migration trend has seen Polish tech professionals returning from London and Zurich, bringing international networks and experience back to the domestic ecosystem.",
           "vocabularyB2": [
-            { "word": "venture capital", "definition": "Money invested in new or small companies with high growth potential but also high risk" },
-            { "word": "ecosystem", "definition": "A community of interconnected businesses, institutions and individuals in a particular sector" },
-            { "word": "domicile", "definition": "The country or place where a person or company is officially registered or based" },
-            { "word": "scalability", "definition": "The ability of a business to grow and expand without proportionally increasing its costs" },
-            { "word": "reverse migration", "definition": "The movement of people back to a place they previously left, often their country of origin" }
+            {
+              "word": "venture capital",
+              "definition": "Money invested in new or small companies with high growth potential but also high risk"
+            },
+            {
+              "word": "ecosystem",
+              "definition": "A community of interconnected businesses, institutions and individuals in a particular sector"
+            },
+            {
+              "word": "domicile",
+              "definition": "The country or place where a person or company is officially registered or based"
+            },
+            {
+              "word": "scalability",
+              "definition": "The ability of a business to grow and expand without proportionally increasing its costs"
+            },
+            {
+              "word": "reverse migration",
+              "definition": "The movement of people back to a place they previously left, often their country of origin"
+            }
           ]
         },
         {
@@ -253,19 +1207,49 @@
           "date": "2026-05-30",
           "summaryB1": "UNESCO, the United Nations organisation that protects important cultural and natural places around the world, has added several new Central European sites to its World Heritage List. The list includes places that are considered to have outstanding value for all of humanity. One of the new sites is in Poland, and Poles are very proud of this recognition. Being on the UNESCO list helps to attract tourists and also brings money for restoration and protection work. Local communities near the new sites are preparing for more visitors. The Polish government has promised to invest in better facilities for tourists at the site. UNESCO experts praised the site for its exceptional historical significance and its excellent state of preservation. This is Poland's fifteenth entry on the prestigious World Heritage List.",
           "vocabularyB1": [
-            { "word": "heritage", "definition": "Things from the past that are important and worth keeping for future generations" },
-            { "word": "outstanding", "definition": "Extremely good or impressive; clearly better than others" },
-            { "word": "restoration", "definition": "The process of repairing something old so it looks as it did originally" },
-            { "word": "preservation", "definition": "Keeping something in its original condition and preventing it from being damaged" },
-            { "word": "prestigious", "definition": "Respected and admired by people; having a high status" }
+            {
+              "word": "heritage",
+              "definition": "Things from the past that are important and worth keeping for future generations"
+            },
+            {
+              "word": "outstanding",
+              "definition": "Extremely good or impressive; clearly better than others"
+            },
+            {
+              "word": "restoration",
+              "definition": "The process of repairing something old so it looks as it did originally"
+            },
+            {
+              "word": "preservation",
+              "definition": "Keeping something in its original condition and preventing it from being damaged"
+            },
+            {
+              "word": "prestigious",
+              "definition": "Respected and admired by people; having a high status"
+            }
           ],
           "summaryB2": "UNESCO's World Heritage Committee has inscribed several new Central European properties on its canonical list at its annual session, with Poland's latest nomination receiving particular acclaim for the exceptional integrity of its surviving fabric and its layered historical significance spanning multiple centuries. The inscription is expected to generate a measurable uplift in cultural tourism, though heritage management specialists have cautioned that increased visitor footfall must be carefully managed to avoid the site deterioration that has affected over-touristed World Heritage properties elsewhere in Europe. Polish conservation authorities have committed to developing a comprehensive visitor management strategy in consultation with local stakeholders. The listing represents Poland's fifteenth World Heritage inscription, reinforcing the country's considerable standing in European cultural patrimony.",
           "vocabularyB2": [
-            { "word": "inscribed", "definition": "Officially added to an important list or register, especially of protected sites" },
-            { "word": "integrity", "definition": "The state of being complete and undamaged; wholeness and authenticity" },
-            { "word": "visitor footfall", "definition": "The number of people visiting a particular place over a given period of time" },
-            { "word": "stakeholders", "definition": "People or groups who have an interest in or are affected by a particular decision or project" },
-            { "word": "patrimony", "definition": "The cultural and historical heritage belonging to and defining a particular nation or people" }
+            {
+              "word": "inscribed",
+              "definition": "Officially added to an important list or register, especially of protected sites"
+            },
+            {
+              "word": "integrity",
+              "definition": "The state of being complete and undamaged; wholeness and authenticity"
+            },
+            {
+              "word": "visitor footfall",
+              "definition": "The number of people visiting a particular place over a given period of time"
+            },
+            {
+              "word": "stakeholders",
+              "definition": "People or groups who have an interest in or are affected by a particular decision or project"
+            },
+            {
+              "word": "patrimony",
+              "definition": "The cultural and historical heritage belonging to and defining a particular nation or people"
+            }
           ]
         },
         {
@@ -277,19 +1261,49 @@
           "date": "2026-06-02",
           "summaryB1": "European Union leaders have reached an agreement on new rules for managing the arrival of migrants and refugees in Europe. The negotiations were very difficult and took a long time because different countries have very different opinions on this issue. Poland and other Central European countries argued strongly for stricter border controls and for sharing the responsibility for migrants more fairly among all EU members. The new agreement includes plans to process asylum applications more quickly and to increase cooperation between EU countries on returns. Some human rights organisations have criticised the agreement, saying it does not do enough to protect vulnerable people. The EU leaders say the new system will be more efficient and more fair for everyone involved. The agreement still needs to be approved by the European Parliament before it can become law.",
           "vocabularyB1": [
-            { "word": "migrants", "definition": "People who move from one country to another, often to find work or escape difficult conditions" },
-            { "word": "refugees", "definition": "People who have been forced to leave their country because of war, violence or persecution" },
-            { "word": "asylum", "definition": "Protection given by a country to someone who has left their home country as a refugee" },
-            { "word": "border controls", "definition": "Checks carried out at a country's borders to decide who is allowed to enter" },
-            { "word": "vulnerable", "definition": "In a weak position and easily harmed or in need of special protection" }
+            {
+              "word": "migrants",
+              "definition": "People who move from one country to another, often to find work or escape difficult conditions"
+            },
+            {
+              "word": "refugees",
+              "definition": "People who have been forced to leave their country because of war, violence or persecution"
+            },
+            {
+              "word": "asylum",
+              "definition": "Protection given by a country to someone who has left their home country as a refugee"
+            },
+            {
+              "word": "border controls",
+              "definition": "Checks carried out at a country's borders to decide who is allowed to enter"
+            },
+            {
+              "word": "vulnerable",
+              "definition": "In a weak position and easily harmed or in need of special protection"
+            }
           ],
           "summaryB2": "EU leaders have reached a qualified majority agreement on a sweeping reform of the bloc's migration and asylum architecture, ending years of institutional deadlock that had paralysed the Common European Asylum System. The compromise, which required significant concessions from both frontline Mediterranean states and Visegrad Group countries including Poland, introduces accelerated border procedures, a mandatory solidarity mechanism with financial opt-out provisions, and enhanced operational cooperation with third countries on readmission. Critics from humanitarian organisations argue that the expedited procedures risk undermining adequate due process safeguards, while Eurosceptic governments contend the solidarity mechanism still places disproportionate obligations on member states. Ratification by the European Parliament is expected to be contentious.",
           "vocabularyB2": [
-            { "word": "qualified majority", "definition": "A voting system in the EU requiring support from a specific percentage of member states to pass a decision" },
-            { "word": "institutional deadlock", "definition": "A situation where an organisation cannot make progress because of fundamental disagreement between its members" },
-            { "word": "solidarity mechanism", "definition": "A system for sharing responsibilities or burdens fairly among members of a group or union" },
-            { "word": "readmission", "definition": "The formal return of individuals to their country of origin or transit, agreed through international agreements" },
-            { "word": "due process", "definition": "The legal requirement that all individuals must be treated fairly according to established rules and principles" }
+            {
+              "word": "qualified majority",
+              "definition": "A voting system in the EU requiring support from a specific percentage of member states to pass a decision"
+            },
+            {
+              "word": "institutional deadlock",
+              "definition": "A situation where an organisation cannot make progress because of fundamental disagreement between its members"
+            },
+            {
+              "word": "solidarity mechanism",
+              "definition": "A system for sharing responsibilities or burdens fairly among members of a group or union"
+            },
+            {
+              "word": "readmission",
+              "definition": "The formal return of individuals to their country of origin or transit, agreed through international agreements"
+            },
+            {
+              "word": "due process",
+              "definition": "The legal requirement that all individuals must be treated fairly according to established rules and principles"
+            }
           ]
         }
       ]
