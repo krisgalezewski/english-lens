@@ -58,8 +58,30 @@ async function main() {
   const relevant = await filterRelevant(client, candidates);
   console.log(`✅  ${relevant.length} articles passed relevance filter`);
 
+  // 3. Load existing archive to build dedup set
+  let archive = { editions: [] };
+  try {
+    const existing = await fs.readFile('news.json', 'utf8');
+    archive = JSON.parse(existing);
+    if (!archive.editions) {
+      archive = { editions: archive.articles ? [{ generated: archive.generated, week: archive.week, articles: archive.articles }] : [] };
+    }
+  } catch {
+    console.log('No existing news.json — starting fresh archive.');
+  }
+
+  // Build set of already-seen titles (normalised) to prevent duplicates
+  const seenArchiveTitles = new Set();
+  for (const edition of archive.editions) {
+    for (const art of (edition.articles || [])) {
+      seenArchiveTitles.add(normaliseTitle(art.title));
+    }
+  }
+  const dedupedRelevant = relevant.filter(a => !seenArchiveTitles.has(normaliseTitle(a.title)));
+  console.log(`🔍  ${relevant.length - dedupedRelevant.length} duplicate(s) removed from archive`);
+
   // 3. Select a balanced set across categories
-  const selected = selectBalanced(relevant, ARTICLES_PER_RUN, MAX_PER_CATEGORY);
+  const selected = selectBalanced(dedupedRelevant, ARTICLES_PER_RUN, MAX_PER_CATEGORY);
   console.log(`🎯  Selected ${selected.length} articles for this week`);
 
   // 4. Generate summaries and vocabulary for each
@@ -75,19 +97,7 @@ async function main() {
     }
   }
 
-  // 5. Load existing archive and prepend this week's articles
-  let archive = { editions: [] };
-  try {
-    const existing = await fs.readFile('news.json', 'utf8');
-    archive = JSON.parse(existing);
-    if (!archive.editions) {
-      // Migrate from old single-edition format
-      archive = { editions: archive.articles ? [{ generated: archive.generated, week: archive.week, articles: archive.articles }] : [] };
-    }
-  } catch {
-    console.log('No existing news.json — starting fresh archive.');
-  }
-
+  // 5. Prepend this week's articles to archive
   const thisEdition = {
     generated: new Date().toISOString(),
     week: getISOWeek(),
@@ -213,7 +223,7 @@ Content: ${item.snippet}
 
 Generate a JSON object with EXACTLY these fields (no markdown, no extra text, no code fences):
 {
-  "summaryB1": "A 180-200 word summary of this news story written for B1 (intermediate) English learners. Use clear, simple language with short sentences and common vocabulary. Avoid jargon. Present the main facts, some background context, and why this matters. The 5 B1 vocabulary items listed below must each appear naturally in this summary.",
+  "summaryB1": "A 180-200 word summary written for B1 (intermediate) English learners. Use clear, direct language with short sentences and common vocabulary. Present the main facts, background context, and why this matters. The 5 B1 vocabulary items must each appear naturally in this summary.",
   "vocabularyB1": [
     { "word": "a word or short phrase used in your B1 summary", "definition": "A simple definition in plain English, max 20 words" },
     { "word": "second item", "definition": "Definition" },
@@ -221,26 +231,30 @@ Generate a JSON object with EXACTLY these fields (no markdown, no extra text, no
     { "word": "fourth item", "definition": "Definition" },
     { "word": "fifth item", "definition": "Definition" }
   ],
-  "summaryB2": "A 220-240 word summary of the same story written for B2-C1 (upper intermediate to advanced) English learners. Use richer, more complex language with varied sentence structures and journalistic style. Include nuance, context, implications and multiple perspectives where relevant. The 5 B2 vocabulary items listed below must each appear naturally in this summary.",
+  "questionB1": "A single open-ended question (max 25 words) for B1 learners to reflect on the main idea of the article. The question must naturally use 1 or 2 words from vocabularyB1. Make it thought-provoking but accessible.",
+  "summaryB2": "A 220-240 word summary written for B2-C1 (upper intermediate to advanced) English learners. Use varied sentence structures and journalistic style. Include nuance, context, implications and multiple perspectives. The 5 B2 vocabulary items must each appear naturally in this summary.",
   "vocabularyB2": [
     { "word": "a more advanced word or phrase used in your B2 summary", "definition": "A clear definition simple enough for a B1 learner, max 20 words" },
     { "word": "second item", "definition": "Definition" },
     { "word": "third item", "definition": "Definition" },
     { "word": "fourth item", "definition": "Definition" },
     { "word": "fifth item", "definition": "Definition" }
-  ]
+  ],
+  "questionB2": "A single open-ended question (max 35 words) for B2-C1 learners to think critically about the article. The question must naturally use 1 or 2 words from vocabularyB2. Make it analytically challenging and nuanced."
 }
 
 Critical rules:
 - Every vocabulary item MUST actually appear verbatim in its respective summary
-- B1 vocabulary: choose genuinely useful everyday words a B1 learner might not know
-- B2 vocabulary: choose sophisticated journalistic or academic words worth learning
-- Do not invent facts; base everything on the provided content
-- Both summaries must be about the same story but written at clearly different language levels`;
+- The question words MUST appear verbatim in their respective question
+- B1 vocabulary: genuinely useful everyday words a B1 learner might not know
+- B2 vocabulary: sophisticated journalistic or academic words worth learning
+- Do not invent facts not present in the content
+- Both summaries must cover the same story at clearly different language levels
+- BANNED WORDS AND PHRASES — never use any of these: "important", "importantly", "significant", "significantly", "significant(ly)", "broader", "broader context", "broader implications", "increasingly", "underscores", "raises concerns", "it is worth noting", "it should be noted", "delve", "navigate", "landscape" (when used metaphorically), "realm", "leverage" (as a verb), "foster", "robust", "pivotal", "crucial", "key" (as an adjective meaning important)`;
 
   const msg = await client.messages.create({
     model: 'claude-sonnet-4-6',
-    max_tokens: 1500,
+    max_tokens: 1800,
     messages: [{ role: 'user', content: prompt }]
   });
 
@@ -269,12 +283,18 @@ Critical rules:
     date: item.date,
     summaryB1: parsed.summaryB1 || '',
     vocabularyB1: (parsed.vocabularyB1 || []).slice(0, 5),
+    questionB1: parsed.questionB1 || '',
     summaryB2: parsed.summaryB2 || '',
     vocabularyB2: (parsed.vocabularyB2 || []).slice(0, 5),
+    questionB2: parsed.questionB2 || '',
   };
 }
 
 // ── HELPERS ───────────────────────────────────────────────────────────────────
+
+function normaliseTitle(str) {
+  return str.toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim();
+}
 
 function stripHtml(str) {
   return str.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();

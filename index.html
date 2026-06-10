@@ -433,6 +433,79 @@
     .vocab-audio:hover { background: var(--accent); color: white; }
     .vocab-audio.speaking { background: var(--accent); color: white; }
 
+    /* Food for thought */
+    .food-for-thought {
+      margin-top: 24px;
+      padding: 16px 18px;
+      background: linear-gradient(135deg, #fff8f0 0%, #fff0e8 100%);
+      border-radius: 3px;
+      border-left: 3px solid var(--accent);
+    }
+    .food-label {
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .food-question {
+      font-family: var(--font-display);
+      font-size: 15px;
+      font-style: italic;
+      color: var(--ink);
+      line-height: 1.5;
+    }
+
+    /* You might also like */
+    .also-like {
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid var(--rule);
+    }
+    .also-like-label {
+      font-size: 11px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--ink-muted);
+      margin-bottom: 12px;
+    }
+    .also-like-list { display: flex; flex-direction: column; gap: 8px; }
+    .also-like-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px 12px;
+      background: var(--paper);
+      border-radius: 2px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .also-like-item:hover { background: var(--paper-warm); }
+    .also-like-cat {
+      font-size: 9px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 2px 6px;
+      border-radius: 2px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .also-like-title {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--ink);
+      line-height: 1.4;
+    }
+    .also-like-source {
+      font-size: 11px;
+      color: var(--ink-muted);
+      margin-top: 2px;
+    }
+
     .modal-close {
       position: absolute;
       top: -14px;
@@ -698,6 +771,57 @@
         </div>`;
     }
 
+    // Build "you might also like" suggestions (frontend only, no API)
+    function buildAlsoLike(currentArticle, currentEditionIdx) {
+      // Collect all articles from all editions except the current one
+      const pool = [];
+      allEditions.forEach((ed, ei) => {
+        (ed.articles || []).forEach(art => {
+          if (art.id !== currentArticle.id) pool.push({ art, ei });
+        });
+      });
+      if (!pool.length) return '';
+
+      // Score by: same category (3pts), shared title words (1pt each, max 4)
+      const currentWords = new Set(
+        currentArticle.title.toLowerCase().replace(/[^a-z0-9 ]/g, '').split(' ').filter(w => w.length > 4)
+      );
+      const scored = pool.map(({ art, ei }) => {
+        let score = art.category === currentArticle.category ? 3 : 0;
+        art.title.toLowerCase().replace(/[^a-z0-9 ]/g, '').split(' ')
+          .filter(w => w.length > 4 && currentWords.has(w))
+          .slice(0, 4).forEach(() => score++);
+        return { art, ei, score };
+      });
+      scored.sort((a, b) => b.score - a.score);
+      const picks = scored.slice(0, 3).filter(s => s.score > 0);
+      if (!picks.length) return '';
+
+      const items = picks.map(({ art, ei }) => `
+        <div class="also-like-item" data-edition="${ei}" data-id="${escAttr(art.id)}" tabindex="0" role="button">
+          <span class="also-like-cat" style="${catStyle(art.category)}">${CAT_LABELS[art.category] || art.category}</span>
+          <div>
+            <div class="also-like-title">${escHtml(art.title)}</div>
+            <div class="also-like-source">${escHtml(art.source)}</div>
+          </div>
+        </div>`).join('');
+
+      return `<div class="also-like">
+        <div class="also-like-label">You might also like</div>
+        <div class="also-like-list">${items}</div>
+      </div>`;
+    }
+
+    const alsoLike = buildAlsoLike(a, editionIdx);
+
+    function foodBlock(question) {
+      if (!question) return '';
+      return `<div class="food-for-thought">
+        <div class="food-label">💭 Food for thought</div>
+        <p class="food-question">${escHtml(question)}</p>
+      </div>`;
+    }
+
     document.getElementById('modal-body').innerHTML = `
       <div class="tabs" role="tablist">
         <button class="tab-btn active" role="tab" aria-selected="true" data-tab="b1">B1 — Intermediate</button>
@@ -707,11 +831,15 @@
         <span class="level-badge level-b1">B1 · Intermediate</span>
         <p class="summary-text" id="summary-b1">${buildSummaryHtml(a.summaryB1 || '', a.vocabularyB1)}</p>
         ${vocabBlock(a.vocabularyB1, 'b1')}
+        ${foodBlock(a.questionB1)}
+        ${alsoLike}
       </div>
       <div class="tab-panel" id="tab-b2" role="tabpanel">
         <span class="level-badge level-b2">B2–C1 · Upper Intermediate</span>
         <p class="summary-text" id="summary-b2">${buildSummaryHtml(a.summaryB2 || '', a.vocabularyB2)}</p>
         ${vocabBlock(a.vocabularyB2, 'b2')}
+        ${foodBlock(a.questionB2)}
+        ${alsoLike}
       </div>`;
 
     // Tab switching
@@ -814,6 +942,13 @@
         });
       });
     }
+
+    // You might also like — click to open that article
+    document.getElementById('modal-body').querySelectorAll('.also-like-item').forEach(item => {
+      const activate = () => openModal(+item.dataset.edition, item.dataset.id);
+      item.addEventListener('click', activate);
+      item.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); } });
+    });
 
     document.getElementById('modal-overlay').classList.add('open');
     document.getElementById('modal-overlay').scrollTop = 0;
