@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Dark background -->
+  <rect width="32" height="32" rx="6" fill="#0f0f0e"/>
+  <!-- Red accent bar at bottom, like the masthead -->
+  <rect x="0" y="27" width="32" height="3" rx="0" fill="#c84b2f"/>
+  <!-- "E" -->
+  <text x="3" y="23" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f7f5f0">E</text>
+  <!-- "L" in red accent -->
+  <text x="16" y="23" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#c84b2f">L</text>
+</svg>

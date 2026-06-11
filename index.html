@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>English Lens — News for Learners</title>
   <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
   <meta name="theme-color" content="#0f0f0e" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -96,7 +98,71 @@
       margin: 0 auto;
       padding: 0 24px;
       display: flex;
+      align-items: center;
+      gap: 0;
     }
+    .cat-divider {
+      width: 1px;
+      height: 18px;
+      background: var(--rule);
+      margin: 0 8px;
+      flex-shrink: 0;
+    }
+    /* Search */
+    .search-wrap {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+    .search-input {
+      font-family: var(--font-body);
+      font-size: 12px;
+      border: 1px solid var(--rule);
+      border-radius: 20px;
+      padding: 4px 12px;
+      background: var(--paper-card);
+      color: var(--ink);
+      width: 160px;
+      outline: none;
+      transition: border-color 0.15s, width 0.2s;
+    }
+    .search-input:focus {
+      border-color: var(--accent);
+      width: 220px;
+    }
+    .search-input::placeholder { color: var(--ink-muted); }
+    .search-clear {
+      font-size: 13px;
+      color: var(--ink-muted);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 2px 4px;
+      line-height: 1;
+      display: none;
+    }
+    .search-clear.visible { display: block; }
+    .search-clear:hover { color: var(--accent); }
+    /* Search results banner */
+    .search-banner {
+      background: var(--paper-warm);
+      border-bottom: 1px solid var(--rule);
+      font-size: 12px;
+      color: var(--ink-muted);
+      display: none;
+    }
+    .search-banner.visible {
+      display: block;
+    }
+    .search-banner-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 8px 24px;
+    }
+    .search-banner strong { color: var(--ink); }
     .cat-btn {
       font-family: var(--font-body);
       font-size: 12px;
@@ -187,8 +253,14 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 1px;
-      background: var(--rule);
+      background: var(--paper);
       border: 1px solid var(--rule);
+    }
+    /* Invisible spacer cells fill remaining grid columns with page background */
+    .grid-spacer {
+      background: var(--paper);
+      min-height: 0;
+      pointer-events: none;
     }
 
     /* ── ARTICLE CARD ── */
@@ -586,8 +658,16 @@
     <button class="cat-btn" data-cat="technology">Technology</button>
     <button class="cat-btn" data-cat="environment">Environment</button>
     <button class="cat-btn" data-cat="culture">Culture</button>
+    <div class="cat-divider"></div>
+    <div class="search-wrap" role="search">
+      <input class="search-input" id="search-input" type="search" placeholder="Search articles…" aria-label="Search articles" />
+      <button class="search-clear" id="search-clear" aria-label="Clear search">✕</button>
+    </div>
   </div>
 </nav>
+<div class="search-banner" id="search-banner">
+  <div class="search-banner-inner" id="search-banner-text"></div>
+</div>
 
 <main class="page" id="main-content">
   <div id="loading" aria-live="polite">Loading articles…</div>
@@ -617,6 +697,7 @@
 
   let allEditions = [];   // [{generated, week, articles:[...]}, ...]
   let activeCategory = 'all';
+  let searchQuery = '';
 
   // ── LOAD ──────────────────────────────────────────────────────────────────
 
@@ -661,9 +742,21 @@
     let totalShown = 0;
 
     allEditions.forEach((edition, ei) => {
-      const articles = (edition.articles || []).filter(a =>
-        activeCategory === 'all' || a.category === activeCategory
-      );
+      const articles = (edition.articles || []).filter(a => {
+        const catMatch = activeCategory === 'all' || a.category === activeCategory;
+        if (!catMatch) return false;
+        if (!searchQuery) return true;
+        const q = searchQuery.toLowerCase();
+        return (
+          (a.title || '').toLowerCase().includes(q) ||
+          (a.summaryB1 || '').toLowerCase().includes(q) ||
+          (a.summaryB2 || '').toLowerCase().includes(q) ||
+          (a.source || '').toLowerCase().includes(q) ||
+          (a.category || '').toLowerCase().includes(q) ||
+          (a.vocabularyB1 || []).some(v => v.word.toLowerCase().includes(q)) ||
+          (a.vocabularyB2 || []).some(v => v.word.toLowerCase().includes(q))
+        );
+      });
       if (!articles.length) return;
 
       const d = new Date(edition.generated);
@@ -704,6 +797,14 @@
           </article>`;
           totalShown++;
         });
+        // Add invisible spacer cells so the last row doesn't show dark gaps
+        const cols = Math.round(document.querySelector('.grid')?.offsetWidth / 280) || 4;
+        const remainder = arts.length % cols;
+        if (remainder !== 0) {
+          for (let s = 0; s < cols - remainder; s++) {
+            html += `<div class="grid-spacer" aria-hidden="true"></div>`;
+          }
+        }
         html += `</div></div>`;
       });
 
@@ -711,10 +812,23 @@
     });
 
     if (!totalShown) {
-      html = `<div class="empty-cat">No articles found${activeCategory !== 'all' ? ' in this category' : ''}.</div>`;
+      const msg = searchQuery
+        ? `No articles found matching "<strong>${escHtml(searchQuery)}</strong>".`
+        : `No articles found${activeCategory !== 'all' ? ' in this category' : ''}.`;
+      html = `<div class="empty-cat">${msg}</div>`;
     }
 
     main.innerHTML = html;
+
+    // Update search banner
+    const banner = document.getElementById('search-banner');
+    const bannerText = document.getElementById('search-banner-text');
+    if (searchQuery && totalShown > 0) {
+      bannerText.innerHTML = `Found <strong>${totalShown}</strong> article${totalShown !== 1 ? 's' : ''} matching "<strong>${escHtml(searchQuery)}</strong>"`;
+      banner.classList.add('visible');
+    } else {
+      banner.classList.remove('visible');
+    }
 
     main.querySelectorAll('.card').forEach(card => {
       card.addEventListener('click', () => openModal(+card.dataset.edition, card.dataset.id));
@@ -975,6 +1089,33 @@
       activeCategory = btn.dataset.cat;
       renderArticles();
     });
+  });
+
+  // Search
+  const searchInput = document.getElementById('search-input');
+  const searchClear = document.getElementById('search-clear');
+
+  searchInput.addEventListener('input', () => {
+    searchQuery = searchInput.value.trim();
+    searchClear.classList.toggle('visible', searchQuery.length > 0);
+    renderArticles();
+  });
+
+  searchClear.addEventListener('click', () => {
+    searchInput.value = '';
+    searchQuery = '';
+    searchClear.classList.remove('visible');
+    document.getElementById('search-banner').classList.remove('visible');
+    renderArticles();
+    searchInput.focus();
+  });
+
+  // Keyboard shortcut: / to focus search
+  document.addEventListener('keydown', e => {
+    if (e.key === '/' && !e.target.closest('input, textarea, [contenteditable]') && !document.getElementById('modal-overlay').classList.contains('open')) {
+      e.preventDefault();
+      searchInput.focus();
+    }
   });
 
   // ── HELPERS ───────────────────────────────────────────────────────────────
