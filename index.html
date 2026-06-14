@@ -428,10 +428,12 @@
       color: var(--ink);
       border-radius: 2px;
       padding: 0 2px;
-      transition: background 0.3s;
+      transition: background 0.25s;
     }
-    .summary-text mark.highlight-flash {
-      background: #ffd700;
+    /* Active/selected word — orange accent matching the logo */
+    .summary-text mark.highlight-active {
+      background: #c84b2f;
+      color: #ffffff;
     }
 
     /* Vocab */
@@ -848,18 +850,40 @@
     // Build summary HTML with each vocab word wrapped in a <mark> span
     function buildSummaryHtml(text, vocabItems) {
       if (!vocabItems || !vocabItems.length) return escHtml(text);
-      let html = escHtml(text);
-      // Sort by length descending so longer phrases match before shorter substrings
+
+      // Work on plain text, not HTML, to avoid escaping issues.
+      // We'll build an array of segments: {text, word|null}
+      // Sort vocab by length desc so multi-word phrases match before single words
       const sorted = [...vocabItems].sort((a, b) => b.word.length - a.word.length);
-      sorted.forEach((v, idx) => {
-        const escaped = escHtml(v.word);
-        // Case-insensitive replace of first occurrence, whole word/phrase preferred
-        const regex = new RegExp(escaped.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
-        html = html.replace(regex, match =>
-          `<mark class="vocab-mark" data-vocab-idx="${idx}" data-word="${escaped}">${match}</mark>`
-        );
+
+      // Start with one plain-text segment
+      let segments = [{ text, word: null }];
+
+      sorted.forEach(v => {
+        const regex = new RegExp(v.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
+        const next = [];
+        segments.forEach(seg => {
+          if (seg.word !== null) { next.push(seg); return; } // already tagged
+          const match = seg.text.match(regex);
+          if (!match) { next.push(seg); return; }
+          const idx = seg.text.indexOf(match[0]);
+          // Before
+          if (idx > 0) next.push({ text: seg.text.slice(0, idx), word: null });
+          // The match — store the original word key for reliable lookup
+          next.push({ text: match[0], word: v.word });
+          // After
+          if (idx + match[0].length < seg.text.length)
+            next.push({ text: seg.text.slice(idx + match[0].length), word: null });
+        });
+        segments = next;
       });
-      return html;
+
+      // Render segments to HTML
+      return segments.map(seg => {
+        if (seg.word === null) return escHtml(seg.text);
+        const key = escAttr(seg.word.toLowerCase());
+        return `<mark class="vocab-mark" data-word-key="${key}">${escHtml(seg.text)}</mark>`;
+      }).join('');
     }
 
     function vocabBlock(items, panelId) {
@@ -957,29 +981,32 @@
       });
     });
 
-    // Vocab item click → highlight word in summary
+    // Vocab item click → highlight matching word in summary
     document.getElementById('modal-body').querySelectorAll('.vocab-item').forEach(item => {
       function activate() {
         const panel = item.dataset.panel;
-        const idx = item.dataset.idx;
         const summaryEl = document.getElementById('summary-' + panel);
-        // Clear previous highlights
-        document.querySelectorAll(`#summary-${panel} .vocab-mark`).forEach(m => m.classList.remove('highlight-flash'));
+        if (!summaryEl) return;
+
+        // Get the word from the vocab-word span inside this item
+        const wordEl = item.querySelector('.vocab-word');
+        if (!wordEl) return;
+        const wordKey = wordEl.textContent.trim().toLowerCase();
+
+        // Clear all active marks and active vocab items in this panel
+        summaryEl.querySelectorAll('.vocab-mark').forEach(m => m.classList.remove('highlight-active'));
         document.querySelectorAll(`.vocab-item[data-panel="${panel}"]`).forEach(i => i.classList.remove('active'));
-        // Find matching mark
-        const mark = summaryEl ? summaryEl.querySelector(`.vocab-mark[data-vocab-idx="${idx}"]`) : null;
+
+        // Find the mark whose data-word-key matches
+        const mark = summaryEl.querySelector(`.vocab-mark[data-word-key="${CSS.escape(wordKey)}"]`);
         if (mark) {
           item.classList.add('active');
-          mark.classList.add('highlight-flash');
+          mark.classList.add('highlight-active');
           mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          // Flash effect
-          setTimeout(() => mark.classList.remove('highlight-flash'), 1800);
-          setTimeout(() => mark.classList.add('highlight-flash'), 2100);
-          setTimeout(() => mark.classList.remove('highlight-flash'), 3000);
         }
       }
       item.addEventListener('click', e => {
-        if (e.target.closest('.vocab-audio')) return; // don't trigger on audio btn
+        if (e.target.closest('.vocab-audio')) return;
         activate();
       });
       item.addEventListener('keydown', e => {
