@@ -675,7 +675,13 @@
             }
           ],
           "questionB2": "Given Iran's apparent resilience and the accusations of rhetorical overreach against the White House, what does this outcome reveal about the limits of maximalist foreign policy?"
-        },
+        }
+      ]
+    },
+    {
+      "generated": "2026-06-15T05:57:13.019Z",
+      "week": "2026-W24",
+      "articles": [
         {
           "id": "1781502803506ycgt",
           "title": "Trump heralds Iran deal but questions - and risks - remain",
@@ -2025,7 +2031,13 @@
           ],
           "questionB1": "If AI can develop without human guidance, what responsibilities do governments and companies have to keep oversight of the technology?",
           "questionB2": "Given that even Anthropic's co-founder appears to harbour doubts about AI's trajectory, how confident can we be that existing safeguards are sufficient to prevent autonomous development?"
-        },
+        }
+      ]
+    },
+    {
+      "generated": "2026-06-08T07:43:06.014Z",
+      "week": "2026-W23",
+      "articles": [
         {
           "id": "17809044495453jws",
           "title": "Astronauts return to ISS after sheltering during air leak repair attempt",
