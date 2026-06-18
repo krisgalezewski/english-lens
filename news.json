@@ -1,6 +1,1356 @@
 {
   "editions": [
     {
+      "generated": "2026-06-15T11:32:09.976Z",
+      "week": "2026-W24",
+      "articles": [
+        {
+          "id": "1781522907641qud2",
+          "title": "Oil prices fall and shares jump after US-Iran deal announced",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-06-15",
+          "summaryB1": "The United States and Iran have reached a deal that could bring major changes to global oil markets. As part of the agreement, the Strait of Hormuz, a vital waterway in the Middle East, will be reopened. This strait is one of the most essential shipping routes in the world. About 20% of the world's oil passes through it, so when it is blocked or threatened, oil prices usually rise sharply. Following the announcement by US President Donald Trump, oil prices dropped and stock markets around the world saw shares jump in value. This happened because investors felt more confident about the future supply of oil. The Strait of Hormuz connects the Persian Gulf to the open ocean, and Iran has the power to disrupt traffic through it. Tensions between the US and Iran have been high for many years, mostly because of disagreements over Iran's nuclear programme and economic sanctions placed on Iran by the US. A deal between these two countries is therefore seen as a step toward greater stability in the region. Many people hope this agreement will lower energy costs and help the global economy recover. However, some experts warn that it is too early to celebrate, as similar deals in the past have sometimes failed to last.",
+          "vocabularyB1": [
+            {
+              "word": "waterway",
+              "definition": "A river, canal, or sea route that ships use to travel from place to place."
+            },
+            {
+              "word": "shares",
+              "definition": "Small parts of a company that people can buy and sell to make money."
+            },
+            {
+              "word": "sanctions",
+              "definition": "Official penalties one country places on another to pressure it to change behaviour."
+            },
+            {
+              "word": "disrupt",
+              "definition": "To cause problems that stop something from continuing normally."
+            },
+            {
+              "word": "stability",
+              "definition": "A situation where things are calm, steady, and not likely to change suddenly."
+            }
+          ],
+          "questionB1": "How might reopening the waterway affect everyday people in Poland and other countries that depend on imported oil?",
+          "summaryB2": "The announcement of a deal between the United States and Iran sent immediate shockwaves through global financial markets, with oil prices falling sharply and equity markets surging in response. Central to the agreement is the reopening of the Strait of Hormuz, a narrow but strategically vital passage through which roughly one-fifth of the world's oil supply flows daily. President Donald Trump confirmed the accord, signalling a potential thaw in one of the most fraught diplomatic relationships of recent decades. The US and Iran have long been at odds over Tehran's nuclear ambitions, with successive rounds of economic sanctions severely curtailing Iran's ability to export oil and participate in international trade. The prospect of eased tensions has led investors to reckon with a future of more predictable energy supply, driving the market rally observed following the announcement. However, analysts caution that optimism should be tempered. Previous diplomatic overtures between Washington and Tehran have often stalled or collapsed under political pressure from hardliners on both sides. The geopolitical implications of such an accord extend well beyond oil prices. A sustained agreement could reshape alliances in the Middle East, affect the calculations of other regional powers, and influence ongoing negotiations over Iran's nuclear programme. Whether this deal represents a durable shift in relations or merely a temporary reprieve remains to be seen, and markets may yet face renewed volatility if implementation falters.",
+          "vocabularyB2": [
+            {
+              "word": "accord",
+              "definition": "A formal agreement between two or more countries or groups on an issue."
+            },
+            {
+              "word": "curtailing",
+              "definition": "Reducing or limiting something, especially something that was previously allowed or available."
+            },
+            {
+              "word": "diplomatic overtures",
+              "definition": "Early, often cautious attempts to start friendly talks or negotiations between countries."
+            },
+            {
+              "word": "tempered",
+              "definition": "Made less extreme or intense; kept under control by adding caution or realism."
+            },
+            {
+              "word": "reprieve",
+              "definition": "A temporary relief from a difficult or dangerous situation, which may not last."
+            }
+          ],
+          "questionB2": "Given that previous diplomatic overtures between Washington and Tehran have repeatedly faltered, what conditions would need to be in place for this accord to prove durable rather than a short-lived reprieve?"
+        },
+        {
+          "id": "17815229293678exz",
+          "title": "The US and Iran have agreed a deal. How soon could things go back to normal?",
+          "source": "BBC Business",
+          "originalUrl": "https://www.bbc.com/news/articles/cd0p8me2m5do?at_medium=RSS&at_campaign=rss",
+          "category": "business",
+          "date": "2026-06-15",
+          "summaryB1": "The United States and Iran have agreed a deal, and many people are asking how quickly life can return to normal. For years, the two countries have had a very difficult relationship. The US placed strict sanctions on Iran, which means it stopped other countries from doing business with Iran. This hurt Iran's economy badly. Now, with a new agreement in place, there is hope that trade and oil exports from Iran could start again. Oil is one of Iran's most valuable products, and when Iran cannot sell it freely, global oil prices can go up. This affects people all over the world, including the cost of fuel and everyday goods. However, experts warn that the impact of the conflict will continue to affect the global economy for several months. Rebuilding trust between countries takes time, and businesses need to feel confident before they start investing again. Banks and companies will also need to check new rules carefully before they act. So while the deal is a positive step, a full recovery will not happen overnight. People in many countries are watching closely, hoping that stability will bring lower prices and more economic growth in the near future.",
+          "vocabularyB1": [
+            {
+              "word": "sanctions",
+              "definition": "Official penalties that stop trade or relations with a country to force change."
+            },
+            {
+              "word": "exports",
+              "definition": "Goods or products that a country sells and sends to other countries."
+            },
+            {
+              "word": "impact",
+              "definition": "The effect or result that something has on a situation or people."
+            },
+            {
+              "word": "stability",
+              "definition": "A situation that is steady, calm, and not likely to change suddenly."
+            },
+            {
+              "word": "investing",
+              "definition": "Putting money into something with the hope of making more money later."
+            }
+          ],
+          "questionB1": "Do you think economic stability can return quickly after a deal like this, or will the impact on ordinary people last a long time?",
+          "summaryB2": "The United States and Iran have reached a landmark agreement, prompting widespread speculation about how swiftly the two nations can restore normalised relations and what this means for the global economy. The deal comes after years of deep-rooted tensions, during which sweeping US-led sanctions severely curtailed Iran's ability to export oil and engage in international trade, effectively isolating its economy from global markets. With those restrictions potentially easing, analysts are closely watching Iran's oil sector, since any significant resumption of Iranian crude exports could exert downward pressure on global oil prices — a development with far-reaching consequences for energy markets worldwide. However, experts caution against assuming an immediate return to economic normality. The ramifications of prolonged conflict and diplomatic estrangement do not simply evaporate once an agreement is signed. Supply chains disrupted over years require time to rebuild, and financial institutions must carefully reassess compliance frameworks before re-engaging with Iranian counterparts. Business confidence, once eroded, is slow to recover. Multiple perspectives complicate the outlook further: hardliners on both sides remain sceptical, geopolitical rivals may seek to undermine the agreement, and domestic political pressures could yet derail implementation. The BBC reports that experts warn the impact of the conflict will continue to reverberate through the global economy for months to come, tempering optimism with a sobering reminder that diplomacy, however welcome, rarely delivers instant economic dividends.",
+          "vocabularyB2": [
+            {
+              "word": "ramifications",
+              "definition": "The complex or widespread consequences that follow from an action or decision."
+            },
+            {
+              "word": "estrangement",
+              "definition": "A state in which two parties have become distant and unfriendly after a falling-out."
+            },
+            {
+              "word": "compliance frameworks",
+              "definition": "Sets of rules and procedures that organisations follow to obey laws and regulations."
+            },
+            {
+              "word": "reverberate",
+              "definition": "To continue to have effects or be felt widely, long after the original event."
+            },
+            {
+              "word": "curtailed",
+              "definition": "Reduced or restricted something, preventing it from functioning fully or freely."
+            }
+          ],
+          "questionB2": "Given that compliance frameworks and business confidence take considerable time to rebuild after prolonged estrangement, what realistic timeline should policymakers set for economic normalisation following such a deal?"
+        },
+        {
+          "id": "1781522949214vlfe",
+          "title": "Version of AI tool 'too powerful for public' released to public",
+          "source": "BBC Technology",
+          "originalUrl": "https://www.bbc.com/news/articles/ckg701v1dp6o?at_medium=RSS&at_campaign=rss",
+          "category": "technology",
+          "date": "2026-06-09",
+          "summaryB1": "A company called Anthropic has released a powerful AI tool called Claude Fable 5 to the public. This tool is based on a more advanced AI program called Claude Mythos, which caused a lot of excitement and worry among leaders in technology, finance, and government. Many of these leaders felt that Claude Mythos was too powerful to be shared with ordinary people. Now, a version of it is available for everyone to use. AI tools like this can read text, answer questions, and help with many tasks. Some people are happy because they can now access this technology. Others are worried because very powerful AI tools can be difficult to control. Leaders in government and business have been paying close attention to how AI develops, because it can affect jobs, security, and everyday life. Anthropic is one of several companies working to build and sell AI programs. The release of Claude Fable 5 shows that AI technology is moving forward very quickly. It also shows that companies must decide how much power to give to the public. This is a difficult choice, and many people disagree about the right answer. The debate about who should have access to powerful AI tools is likely to continue for a long time.",
+          "vocabularyB1": [
+            {
+              "word": "release",
+              "definition": "To make something available for people to use or buy"
+            },
+            {
+              "word": "tool",
+              "definition": "A program or device that helps you do a specific task"
+            },
+            {
+              "word": "access",
+              "definition": "The ability or right to use or get something"
+            },
+            {
+              "word": "control",
+              "definition": "The power to manage or limit how something works or is used"
+            },
+            {
+              "word": "debate",
+              "definition": "A serious discussion about different opinions on a topic"
+            }
+          ],
+          "questionB1": "Do you think ordinary people should have access to very powerful AI tools, or should there be more control over who can use them?",
+          "summaryB2": "Anthropic, one of the leading AI development companies, has made Claude Fable 5 publicly available — a move that has reignited discussion about the risks of releasing advanced artificial intelligence to a mass audience. Claude Fable 5 is derived from Claude Mythos, a more sophisticated AI system that previously stirred unease among prominent figures across the technology, finance, and government sectors. The original Claude Mythos was considered by many insiders to be too potent for unrestricted public deployment, yet Anthropic has now opted to bring a version of it to general users. This decision reflects the mounting tension between the commercial drive to democratise AI and the caution urged by those who fear that highly capable systems could be misused or could spiral beyond manageable limits. Government officials and financial leaders have been scrutinising the pace of AI development, aware that these technologies carry far-reaching consequences for employment, national security, and social stability. Anthropic's move also intensifies the competitive pressure among AI firms, as rivals race to offer ever more capable products. Critics argue that insufficient safeguards accompany such releases, while proponents contend that broad public availability accelerates innovation and distributes the benefits of AI more equitably. The episode illustrates a recurring dilemma in the tech industry: how to balance ambition and responsibility when the capabilities of a new technology outpace society's ability to fully evaluate them.",
+          "vocabularyB2": [
+            {
+              "word": "reignited",
+              "definition": "Started something again, especially a debate or feeling that had quietened down"
+            },
+            {
+              "word": "deployment",
+              "definition": "The act of putting something, such as a technology or system, into active use"
+            },
+            {
+              "word": "scrutinising",
+              "definition": "Examining something very carefully and critically"
+            },
+            {
+              "word": "proponents",
+              "definition": "People who actively support or argue in favour of something"
+            },
+            {
+              "word": "dilemma",
+              "definition": "A situation in which a difficult choice must be made between two or more options"
+            }
+          ],
+          "questionB2": "Given the dilemma Anthropic faced in releasing Claude Fable 5, how should governments and companies balance public deployment of powerful AI with the need for accountability and safeguards?"
+        },
+        {
+          "id": "17815229690705q8p",
+          "title": "David Hockney depicted a 'peaceful, gay paradise' when homosexuality was a crime",
+          "source": "BBC Culture",
+          "originalUrl": "https://www.bbc.com/news/articles/cpq393dz535o?at_medium=RSS&at_campaign=rss",
+          "category": "culture",
+          "date": "2026-06-13",
+          "summaryB1": "David Hockney is one of Britain's most famous painters. He is known for breaking social taboos – things that society considers wrong or forbidden to talk about or show. In the 1960s, homosexuality was illegal in Britain. This means that gay men could be arrested and sent to prison just for being who they were. Despite this danger, Hockney painted pictures that celebrated same-sex relationships openly and joyfully. His art showed gay men living normal, happy lives together. Many people described his work as creating a 'peaceful, gay paradise' – an ideal world where love between men was free and accepted. Hockney moved to California in the 1960s, where the atmosphere felt more relaxed and tolerant. This change gave him more freedom to express himself through his art. His paintings challenged the attitudes of the time and helped people see gay relationships in a positive, human way. Today, Hockney is recognised not only as a brilliant artist but also as someone who was brave enough to depict real life honestly, even when it was dangerous to do so. His work reminds us how much society has changed – and why art can be a powerful way to challenge unfair rules.",
+          "vocabularyB1": [
+            {
+              "word": "taboo",
+              "definition": "Something society considers wrong or forbidden to discuss or show openly."
+            },
+            {
+              "word": "illegal",
+              "definition": "Against the law; something the government does not allow."
+            },
+            {
+              "word": "celebrated",
+              "definition": "Showed something in a positive and joyful way; praised it."
+            },
+            {
+              "word": "tolerant",
+              "definition": "Accepting of people who are different from you without judging them."
+            },
+            {
+              "word": "depict",
+              "definition": "To show or represent something in a picture, film, or story."
+            }
+          ],
+          "questionB1": "Why do you think it was brave for Hockney to depict same-sex relationships in his art when homosexuality was illegal?",
+          "summaryB2": "David Hockney, one of the defining figures of twentieth-century British art, deliberately broke social taboos by portraying same-sex relationships with warmth and openness at a time when homosexuality was a criminal offence in the United Kingdom. Criminalised until 1967, gay men in Britain faced arrest, prosecution, and public humiliation simply for existing authentically. Against this backdrop of repression, Hockney's canvases offered something radical: a vision of gay life as tender, ordinary, and worthy of artistic celebration. Critics and commentators have described his work as conjuring a 'peaceful, gay paradise' – an unapologetic affirmation of love and identity that stood in direct defiance of prevailing social norms. Hockney relocated to California in the 1960s, drawn by a cultural climate that felt considerably more permissive than Britain's. There, his iconic swimming pool paintings and intimate double portraits became testaments to a freer mode of living. What makes Hockney's achievement particularly striking is not merely the aesthetic quality of his work, but its quiet subversiveness. By refusing to conceal or sanitise gay experience, he compelled viewers to confront their own assumptions and prejudices. His art functioned as a form of quiet advocacy long before the language of LGBTQ+ rights entered mainstream discourse. Today, Hockney's legacy endures as a reminder that art can humanise those whom society marginalises, and that visibility itself can be an act of resistance.",
+          "vocabularyB2": [
+            {
+              "word": "repression",
+              "definition": "The use of force or strict rules to control and suppress a group of people."
+            },
+            {
+              "word": "unapologetic",
+              "definition": "Not ashamed or sorry about something, even if others disapprove."
+            },
+            {
+              "word": "permissive",
+              "definition": "Allowing behaviour that many people might consider morally wrong or too free."
+            },
+            {
+              "word": "subversiveness",
+              "definition": "The quality of quietly challenging or undermining accepted rules and authority."
+            },
+            {
+              "word": "marginalises",
+              "definition": "Treats a group of people as unimportant or pushes them to the edges of society."
+            }
+          ],
+          "questionB2": "To what extent can Hockney's unapologetic portrayal of gay life be considered a form of political resistance, and how does art's subversiveness compare to direct activism in driving social change?"
+        },
+        {
+          "id": "1781522988073jd69",
+          "title": "Six ways to keep your home and yourself cool in hot weather",
+          "source": "BBC Science & Environment",
+          "originalUrl": "https://www.bbc.com/news/articles/cz6gxe61p70o?at_medium=RSS&at_campaign=rss",
+          "category": "environment",
+          "date": "2026-06-11",
+          "summaryB1": "When the weather gets very hot, it can be hard to stay comfortable at home. Luckily, there are six simple things you can do to keep your house cool without spending a lot of money. First, you should block sunlight by closing curtains or blinds during the day, especially on windows that face the sun. This stops heat from building up inside. Second, you can ventilate your home by opening windows early in the morning and late at night, when the outside air is cooler. During the hottest part of the day, keep windows closed. Third, using electric fans wisely helps a lot. Placing a bowl of ice in front of a fan can make the air feel colder. Fourth, you should avoid using ovens or other appliances that generate a lot of heat. Cook outside or eat cold meals instead. Fifth, keeping yourself hydrated by drinking plenty of water is very helpful. Your body stays cooler when you drink regularly. Sixth, you can cool your body directly by taking cold showers or putting cold, damp cloths on your wrists and neck. These methods are easy to try at home. As summers become hotter in many countries, knowing how to stay cool is becoming more and more useful for everyone.",
+          "vocabularyB1": [
+            {
+              "word": "block",
+              "definition": "To stop something from passing through, such as light or air"
+            },
+            {
+              "word": "ventilate",
+              "definition": "To let fresh air move through a room or building"
+            },
+            {
+              "word": "appliances",
+              "definition": "Electrical machines used at home, like ovens, fridges, or washing machines"
+            },
+            {
+              "word": "generate",
+              "definition": "To produce or create something, such as heat or electricity"
+            },
+            {
+              "word": "hydrated",
+              "definition": "Having enough water in your body to stay healthy"
+            }
+          ],
+          "questionB1": "Which of these six ways to ventilate or cool your home do you think would be most useful in Poland, and why?",
+          "summaryB2": "As heatwaves become more frequent across Europe and beyond, many people are looking for practical, low-cost ways to manage rising indoor temperatures. A BBC Science & Environment article outlines six evidence-based strategies for keeping both your home and your body cool during hot weather, without relying on energy-intensive air conditioning. The first strategy involves thermal regulation through shading — closing curtains and blinds on sun-facing windows during peak hours to prevent solar heat from accumulating indoors. The second recommendation is strategic ventilation: opening windows in the cooler hours of early morning and late evening, then sealing the house during the hottest part of the day to trap cooler air inside. Third, fans can be used more effectively by placing ice in front of them, a low-tech method that mimics the cooling effect of an air conditioner. Fourth, residents are advised to minimise the use of heat-generating appliances such as ovens, opting instead for cold meals or outdoor cooking. Fifth, maintaining personal hydration is highlighted as essential, since the body regulates its own temperature partly through fluid intake. Finally, direct body cooling — through cold showers or damp cloths applied to pulse points like the wrists — offers immediate relief. Together, these measures reflect a pragmatic approach to climate adaptation at the household level, one that prioritises accessibility and affordability over technological solutions.",
+          "vocabularyB2": [
+            {
+              "word": "thermal regulation",
+              "definition": "The process of controlling or managing temperature, either in a body or a building"
+            },
+            {
+              "word": "strategic ventilation",
+              "definition": "Carefully planned use of airflow to control indoor temperature at specific times"
+            },
+            {
+              "word": "accumulating",
+              "definition": "Gradually collecting or building up in amount over time"
+            },
+            {
+              "word": "mimics",
+              "definition": "Copies or imitates the effect or behaviour of something else"
+            },
+            {
+              "word": "pragmatic",
+              "definition": "Focused on practical solutions that work in real situations, rather than theory"
+            }
+          ],
+          "questionB2": "To what extent do these pragmatic household strategies represent a meaningful response to climate change, or are they simply accumulating small fixes that distract from the need for systemic action?"
+        },
+        {
+          "id": "1781523006909k0cs",
+          "title": "Norwegian crown princess's son found guilty of two counts of rape",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.com/news/articles/cly9d10l5p4o?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-06-15",
+          "summaryB1": "Marius Borg Høiby, who is 29 years old, is the son of Norway's Crown Princess Mette-Marit. A court in Norway has found him guilty of two counts of rape. He has been sentenced to four years in prison. This is a serious criminal case that has shocked many people in Norway because of his connection to the royal family. Crown Princess Mette-Marit is married to Crown Prince Haakon, who will one day become the King of Norway. Marius Borg Høiby is not a member of the royal family himself, but he grew up in the royal household and has often appeared in public with his mother. A court must decide if a person is guilty or not guilty of a crime. In this case, the judge decided there was enough evidence to convict him on both charges. The verdict means he will spend four years behind bars. Cases like this are difficult for royal families because they happen in the public eye. Many people follow news about royal families closely, so this case received a lot of media attention. The Norwegian royal family has not made any official public statement about the verdict so far. This case reminds us that justice systems apply to everyone, regardless of their family background or social status.",
+          "vocabularyB1": [
+            {
+              "word": "guilty",
+              "definition": "When a court decides that someone has committed a crime."
+            },
+            {
+              "word": "sentenced",
+              "definition": "When a judge officially decides what punishment a person will receive."
+            },
+            {
+              "word": "evidence",
+              "definition": "Information or facts used in court to show whether something is true."
+            },
+            {
+              "word": "verdict",
+              "definition": "The official decision made by a court about whether someone is guilty or not."
+            },
+            {
+              "word": "status",
+              "definition": "A person's position or rank in society compared to others."
+            }
+          ],
+          "questionB1": "Do you think the verdict in this case would have received as much attention if Marius had no connection to the royal family? Why?",
+          "summaryB2": "A Norwegian court has convicted Marius Borg Høiby, the 29-year-old son of Crown Princess Mette-Marit, on two counts of rape and handed down a four-year custodial sentence. The ruling marks a dramatic and deeply uncomfortable moment for the Norwegian royal household, placing one of its most prominent associated figures at the centre of a serious criminal proceeding. Marius Borg Høiby is not himself a member of the royal family, but his proximity to it — as the Crown Princess's son from a previous relationship — has ensured the case attracted intense scrutiny both domestically and internationally. Crown Princess Mette-Marit, who married Crown Prince Haakon in 2001, has long been a respected public figure in Norway. However, her son's troubled personal life has periodically cast a shadow over her public image. The conviction follows a legal process in which the court determined that the prosecution had presented sufficient evidence to establish guilt beyond reasonable doubt on both charges. The case raises difficult questions about accountability and the extent to which individuals connected to royal institutions can or should be shielded from public judgment. It also highlights the challenges faced by monarchies in managing reputational fallout when members of their extended circles become embroiled in serious legal controversies. The Norwegian royal family had not issued an official statement at the time of reporting.",
+          "vocabularyB2": [
+            {
+              "word": "custodial sentence",
+              "definition": "A punishment where someone must spend time in prison, decided by a court."
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and detailed examination or attention, often by the public or media."
+            },
+            {
+              "word": "conviction",
+              "definition": "An official court decision that someone is guilty of a crime."
+            },
+            {
+              "word": "accountability",
+              "definition": "The fact of being responsible for your actions and expected to explain them to others."
+            },
+            {
+              "word": "embroiled",
+              "definition": "Deeply involved in a difficult, complicated, or unpleasant situation."
+            }
+          ],
+          "questionB2": "To what extent does the conviction of someone closely connected to a royal institution undermine public trust in the monarchy, and how should such institutions respond to maintain accountability?"
+        },
+        {
+          "id": "17815230276419j52",
+          "title": "Global stocks power to record highs as deal ignites ‘risk on’ rally",
+          "source": "Financial Times",
+          "originalUrl": "https://www.ft.com/content/8a6849de-b27c-4680-a80d-42b85b0e77eb",
+          "category": "business",
+          "date": "2026-06-15",
+          "summaryB1": "Global stock markets reached record high levels recently, driven by positive news about trade and business. Investors became more confident after a major trade deal was announced, which helped push share prices up around the world. When investors feel confident, they are more willing to take risks and buy stocks, which is known as a 'risk on' mood in financial markets.\n\nOne piece of good news came from the United States and another country reaching an agreement to reduce trade barriers. This kind of deal can help companies sell more products abroad, which usually leads to higher profits and rising stock prices.\n\nAnother boost came from SpaceX, the private space company owned by Elon Musk. SpaceX completed a historic initial public offering, meaning that for the first time, ordinary people could buy shares in the company. This was seen as a major milestone for the private space industry and generated a lot of excitement among investors.\n\nAn initial public offering, or IPO, is when a private company sells its shares to the public for the first time. It allows companies to raise large amounts of money to fund future growth.\n\nTogether, these two events improved investor sentiment worldwide. When markets rise like this, it can signal that people feel optimistic about the economy. However, experts often remind us that stock markets can change direction quickly, so caution is always advisable.",
+          "vocabularyB1": [
+            {
+              "word": "record high",
+              "definition": "The best or highest level ever reached in the past"
+            },
+            {
+              "word": "investor sentiment",
+              "definition": "The general feeling or mood of people who invest money"
+            },
+            {
+              "word": "trade deal",
+              "definition": "An official agreement between countries about buying and selling goods"
+            },
+            {
+              "word": "initial public offering",
+              "definition": "When a company sells its shares to the public for the first time"
+            },
+            {
+              "word": "shares",
+              "definition": "Small parts of a company that people can buy and own"
+            }
+          ],
+          "questionB1": "How do you think a major trade deal can affect investor sentiment and everyday people's lives in a country?",
+          "summaryB2": "Global equity markets surged to record highs following a combination of developments that fuelled a broad 'risk on' rally among investors. The primary catalyst was a significant trade agreement, which lifted market confidence and encouraged investors to move capital into riskier assets such as stocks, reversing a period of cautious, defensive positioning.\n\nThe term 'risk on' describes a shift in market psychology where participants become more willing to accept volatility in exchange for potentially higher returns. Such rallies can be self-reinforcing: as prices rise, more investors join in, pushing valuations even higher. However, analysts frequently caution that sentiment-driven gains can be fragile if the underlying economic fundamentals do not support them.\n\nAdding to the optimistic mood was SpaceX's landmark initial public offering. The listing of Elon Musk's private space company was described as historic, marking a rare moment when a high-profile, previously closely held enterprise opened itself to public markets. SpaceX's IPO generated substantial enthusiasm, reflecting broader appetite for innovative technology firms.\n\nFrom a Polish investor's perspective, movements in global equities matter because many pension funds and investment portfolios have exposure to international markets. A sustained rally can increase the value of savings, though it also raises questions about whether current valuations are justified by real economic performance.\n\nOverall, the convergence of a trade deal and a landmark IPO illustrates how quickly market mood can shift, turning caution into confidence almost overnight.",
+          "vocabularyB2": [
+            {
+              "word": "equity markets",
+              "definition": "Stock markets where people buy and sell shares in companies"
+            },
+            {
+              "word": "catalyst",
+              "definition": "Something that causes an important event or change to happen quickly"
+            },
+            {
+              "word": "volatility",
+              "definition": "Frequent and unpredictable changes in prices or values"
+            },
+            {
+              "word": "valuations",
+              "definition": "Estimates of how much a company or asset is worth financially"
+            },
+            {
+              "word": "self-reinforcing",
+              "definition": "A process where each step makes the next step more likely to happen"
+            }
+          ],
+          "questionB2": "To what extent do you think sentiment-driven rallies, rather than genuine economic fundamentals, can be trusted as indicators of long-term market health and stability?"
+        },
+        {
+          "id": "17815230468419k65",
+          "title": "EU orders Meta to open WhatsApp to rival AI chatbots",
+          "source": "BBC Technology",
+          "originalUrl": "https://www.bbc.com/news/articles/cn8qj8wjgxwo?at_medium=RSS&at_campaign=rss",
+          "category": "technology",
+          "date": "2026-06-09",
+          "summaryB1": "The European Union has told Meta, the company that owns WhatsApp, that it must open its messaging app to AI chatbots made by other companies. This means that rival companies, like OpenAI, could connect their AI assistants to WhatsApp. The EU says this is necessary to make sure there is fair competition in the technology market. Meta strongly disagrees with this decision. The company has accused the EU of going too far with its rules, calling it 'regulatory overreach'. Meta also warns that the decision could actually help large tech giants like OpenAI, giving them free access to WhatsApp's huge user base. This seems to go against what the EU wants, which is to reduce the power of big tech companies. The EU has been working hard to control how the biggest technology platforms operate in Europe. The rules that apply here are part of the Digital Markets Act, a law designed to give smaller companies a fair chance to compete. Many people support stronger regulation of big tech, but others worry that some rules can have unexpected results. This case shows how difficult it can be for governments to regulate technology companies effectively. It is not yet clear exactly how or when Meta will be required to make these changes.",
+          "vocabularyB1": [
+            {
+              "word": "rival",
+              "definition": "A person or company that competes with another for the same goal"
+            },
+            {
+              "word": "accused",
+              "definition": "Said officially that someone has done something wrong"
+            },
+            {
+              "word": "overreach",
+              "definition": "Going too far beyond what is reasonable or allowed"
+            },
+            {
+              "word": "user base",
+              "definition": "The total number of people who regularly use a product or service"
+            },
+            {
+              "word": "regulation",
+              "definition": "Official rules made by a government to control how something works"
+            }
+          ],
+          "questionB1": "Do you think regulation of big tech companies like Meta is fair, or do you think it sometimes goes too far? Why?",
+          "summaryB2": "The European Union has directed Meta to open WhatsApp's platform to AI chatbots developed by competing companies, a ruling that marks a significant escalation in the bloc's ongoing effort to curtail the dominance of major tech firms. The decision falls under the Digital Markets Act, which obliges so-called 'gatekeepers' — platforms with enormous market power — to allow interoperability with third-party services. Meta has pushed back forcefully, branding the move as 'regulatory overreach' and arguing that the ruling is counterproductive. The company contends that, far from levelling the playing field, the decision would hand tech giants such as OpenAI free access to WhatsApp's vast user base, effectively entrenching their power rather than diminishing it. This argument highlights a genuine tension at the heart of EU digital policy: rules designed to promote competition can sometimes produce unintended consequences that benefit the very companies they were meant to constrain. The EU, for its part, maintains that opening ecosystems to third-party providers is essential for fostering a more competitive market. Critics of Meta's position suggest the company is primarily motivated by self-interest, seeking to protect WhatsApp's walled-garden model. However, the concern about inadvertently benefiting OpenAI is not without merit and may complicate the implementation of the ruling. The case illustrates just how difficult it is to craft effective tech regulation in a rapidly evolving industry.",
+          "vocabularyB2": [
+            {
+              "word": "interoperability",
+              "definition": "The ability of different systems or products to work together and share information"
+            },
+            {
+              "word": "counterproductive",
+              "definition": "Having the opposite effect to what was intended; making a situation worse"
+            },
+            {
+              "word": "entrenching",
+              "definition": "Making a position, habit, or system more fixed and difficult to change"
+            },
+            {
+              "word": "curtail",
+              "definition": "To reduce or limit something, especially something that was previously unrestricted"
+            },
+            {
+              "word": "unintended consequences",
+              "definition": "Unexpected results of an action or decision, often negative ones"
+            }
+          ],
+          "questionB2": "To what extent do you think the EU's push for interoperability risks entrenching the power of dominant AI companies rather than reducing it?"
+        },
+        {
+          "id": "1781523066558coa2",
+          "title": "‘An evangelist for joy’: David Hockney remembered by Rachel Whiteread, Jeremy Deller and more",
+          "source": "The Guardian Culture",
+          "originalUrl": "https://www.theguardian.com/artanddesign/2026/jun/12/david-hockney-remembered-artists-rachel-whiteread-jeremy-deller",
+          "category": "culture",
+          "date": "2026-06-12",
+          "summaryB1": "David Hockney, one of Britain's most famous painters, has died at the age of 88. He was born in Yorkshire, in the north of England, and became known around the world for his bright, colourful paintings. Many artists and cultural figures are now sharing their memories of him and celebrating his life and work. Hockney was seen as a revolutionary artist who changed the way people thought about modern art. He had a special talent for making ordinary things look beautiful and exciting. One person said he could 'make teabags and toothpaste glamorous', which shows how he found beauty in everyday life. Artists such as Rachel Whiteread and Jeremy Deller have spoken about how much he inspired them. Several people remember seeing Hockney on television as children and feeling amazed by his personality and creativity. One person recalled watching a TV programme about him in the 1970s and thinking that being an artist looked wonderful. Hockney was also celebrated as 'an evangelist for joy', meaning he devoted his life to sharing happiness through his art. His influence touched many generations of artists. He is remembered not only as a great painter, but also as someone who made art feel open, joyful, and full of life.",
+          "vocabularyB1": [
+            {
+              "word": "revolutionary",
+              "definition": "Completely new and different in a way that changes everything"
+            },
+            {
+              "word": "glamorous",
+              "definition": "Looking attractive, exciting, and more special than normal"
+            },
+            {
+              "word": "inspire",
+              "definition": "To make someone feel excited and want to create or do something"
+            },
+            {
+              "word": "recalled",
+              "definition": "Remembered something from the past"
+            },
+            {
+              "word": "devoted",
+              "definition": "Gave all your time and energy to something you care about deeply"
+            }
+          ],
+          "questionB1": "Hockney inspired many artists who recalled seeing him on television as children. Can you think of a person who inspired you in a similar way, and why?",
+          "summaryB2": "The death of David Hockney at the age of 88 has prompted an outpouring of tributes from artists, writers, and cultural figures across Britain and beyond. Widely regarded as one of the most consequential British painters of the twentieth century, the Yorkshire-born artist earned a reputation for transforming the visual language of modern art with his vivid use of colour and his ability to find luminosity in the mundane. Fellow artists including Rachel Whiteread and Jeremy Deller have reflected on his enduring legacy, describing him as 'an evangelist for joy' — a figure who saw it as his mission to share delight and wonder through his work. One contributor recalled encountering Hockney on television as a child in the 1970s, an experience that fundamentally shaped their understanding of what an artistic life could look like. This speaks to Hockney's rare capacity to transcend the gallery world and connect with the general public on a deeply personal level. The tributes also highlight his gift for elevating the overlooked and the commonplace: one memorable phrase describes his ability to 'make teabags and toothpaste glamorous', capturing his knack for rendering the ordinary extraordinary. Born in Bradford, Hockney remained proud of his Yorkshire roots throughout a career that spanned decades and continents. He leaves behind not only a vast body of work, but a way of seeing the world that has profoundly shaped generations of artists.",
+          "vocabularyB2": [
+            {
+              "word": "outpouring",
+              "definition": "A large and sudden expression of strong feelings from many people"
+            },
+            {
+              "word": "luminosity",
+              "definition": "A quality of bright, glowing light; here used to describe radiance in art"
+            },
+            {
+              "word": "mundane",
+              "definition": "Ordinary, everyday, and not especially interesting or exciting"
+            },
+            {
+              "word": "transcend",
+              "definition": "To go beyond the usual limits of something"
+            },
+            {
+              "word": "elevating",
+              "definition": "Raising the status or importance of something previously considered ordinary"
+            }
+          ],
+          "questionB2": "Hockney's gift for elevating the mundane into something extraordinary is central to his legacy. To what extent do you think an artist's ability to transcend their immediate cultural context determines their lasting influence?"
+        },
+        {
+          "id": "178152308826576sd",
+          "title": "El Niño forms in Pacific as experts say it will likely turbocharge extreme weather",
+          "source": "The Guardian Environment",
+          "originalUrl": "https://www.theguardian.com/us-news/2026/jun/11/el-nino-forms-historic-strength",
+          "category": "environment",
+          "date": "2026-06-11",
+          "summaryB1": "El Niño has officially arrived in the Pacific Ocean. Scientists in the United States confirmed this on Thursday. El Niño is a natural weather event that happens when the water near the equator in the Pacific Ocean becomes warmer than usual. This warm water affects weather patterns all over the world. It can cause more rain in some places and droughts in others.\n\nUS forecasters from an organisation called NOAA made the announcement. They predict that this El Niño could become the strongest of the entire century by autumn. That means it may be more powerful than any El Niño we have ever recorded.\n\nThe head of the United Nations also spoke about this event. He called it an urgent climate warning. This means he believes it is a sign that our planet is in serious danger from climate change.\n\nEl Niño works by changing global weather patterns. When it is strong, extreme weather events such as heavy storms, floods, and heatwaves become more likely. Experts worry that because climate change is already making weather more extreme, this El Niño could make things even worse.\n\nFor people around the world, this news means that unusual and dangerous weather may be coming. Governments and organisations are watching the situation carefully to prepare for possible disasters.",
+          "vocabularyB1": [
+            {
+              "word": "equator",
+              "definition": "The imaginary line around the middle of the Earth, equally distant from both poles."
+            },
+            {
+              "word": "drought",
+              "definition": "A long period with very little or no rain, causing water shortages."
+            },
+            {
+              "word": "forecasters",
+              "definition": "People whose job is to predict future weather or events using data."
+            },
+            {
+              "word": "extreme weather",
+              "definition": "Unusual or very severe weather events, such as big storms or heatwaves."
+            },
+            {
+              "word": "weather patterns",
+              "definition": "The regular or typical ways that weather behaves in a place over time."
+            }
+          ],
+          "questionB1": "Why do you think strong extreme weather events are becoming more dangerous for people around the world today?",
+          "summaryB2": "El Niño, the powerful climate phenomenon characterised by abnormally warm surface temperatures in the equatorial Pacific, has officially formed, US authorities confirmed on Thursday. The National Oceanic and Atmospheric Administration (NOAA) made the announcement, warning that the event could intensify to historic levels by autumn, potentially making it the most severe El Niño of the 21st century.\n\nThe phenomenon disrupts established atmospheric circulation systems, triggering cascading effects on global weather — bringing prolonged rainfall and flooding to some regions while exposing others to intense drought and wildfires. Scientists are particularly alarmed because the arrival of El Niño coincides with already elevated global temperatures driven by human-induced climate change, a combination that could amplify the destructive potential of extreme weather events worldwide.\n\nUN Secretary-General António Guterres responded to the news by describing the development as an urgent climate warning, framing it not merely as a meteorological occurrence but as further evidence of a worsening planetary emergency. His statement reflects a growing consensus among climate scientists that natural climate variability and anthropogenic warming are increasingly overlapping in ways that compound their individual impacts.\n\nFor vulnerable nations in the Global South, which are disproportionately exposed to El Niño-related hazards such as crop failures and water scarcity, the forecast carries especially grave implications. Governments and international agencies are now urging early action to mitigate the humanitarian consequences of what could be an exceptionally turbulent period of global weather.",
+          "vocabularyB2": [
+            {
+              "word": "phenomenon",
+              "definition": "A notable event or fact observed in nature or society, often unusual or hard to explain."
+            },
+            {
+              "word": "anthropogenic",
+              "definition": "Caused or produced by human activity rather than natural processes."
+            },
+            {
+              "word": "compound",
+              "definition": "To make something, especially a problem or difficulty, worse by adding to it."
+            },
+            {
+              "word": "disproportionately",
+              "definition": "To a degree that is too large or too small compared to what is fair or expected."
+            },
+            {
+              "word": "mitigate",
+              "definition": "To reduce the harmful effects or severity of something."
+            }
+          ],
+          "questionB2": "Given that anthropogenic warming and natural climate variability are compounding each other's effects, how should international bodies prioritise resources to protect the most vulnerable nations?"
+        },
+        {
+          "id": "17815231091797s36",
+          "title": "Russian strikes kill nine and set historic cathedral in Kyiv ablaze",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-06-15",
+          "summaryB1": "Russia launched a large missile and drone attack on Kyiv, the capital of Ukraine. Nine people were killed and many others were injured. One of the most serious parts of the attack was a fire at a historic cathedral in the city. The cathedral is very old and is an important part of Ukrainian culture and history. Emergency workers tried hard to put out the fire and help people who were hurt.\n\nAt the same time, Ukraine also carried out a drone strike. Ukrainian drones hit the Russian city of Tula, which is located south of Moscow. Three people were killed in that attack.\n\nThese strikes are part of the ongoing war between Russia and Ukraine, which started when Russia invaded Ukraine in February 2022. Both sides continue to attack each other, and civilians on both sides are suffering. Cities, buildings, and people's lives are being destroyed.\n\nThe attack on the cathedral is especially painful for Ukrainians because it is not just a place of worship — it is a symbol of their national identity. When historic buildings are damaged or destroyed, it is a great loss for everyone. The international community has condemned many of these attacks, calling them violations of international law. The war shows no signs of ending soon, and the human cost continues to grow.",
+          "vocabularyB1": [
+            {
+              "word": "cathedral",
+              "definition": "A large, important Christian church, usually the main church in a region"
+            },
+            {
+              "word": "strike",
+              "definition": "A military attack using bombs, missiles, or drones"
+            },
+            {
+              "word": "civilian",
+              "definition": "An ordinary person who is not a soldier or member of the military"
+            },
+            {
+              "word": "condemn",
+              "definition": "To say publicly that something is wrong or unacceptable"
+            },
+            {
+              "word": "identity",
+              "definition": "The qualities and traditions that make a person or group who they are"
+            }
+          ],
+          "questionB1": "Why do you think attacking a historic cathedral during a strike is considered especially harmful, beyond just the physical damage it causes?",
+          "summaryB2": "A devastating Russian missile and drone offensive on Kyiv left nine people dead and scores injured, while setting ablaze a centuries-old cathedral that stands as a cherished emblem of Ukrainian cultural heritage. Firefighters battled to contain the blaze as rescue teams worked through the rubble, underscoring the brutal toll that aerial bombardments continue to exact on Ukraine's civilian population and its irreplaceable architectural legacy.\n\nIn a parallel escalation, Ukraine launched its own retaliatory drone assault on Tula, a Russian city situated roughly 200 kilometres south of Moscow, resulting in three fatalities. The exchange of strikes illustrates the increasingly reciprocal nature of the conflict, with both nations now regularly targeting cities deep within each other's territory.\n\nThe destruction of cultural monuments has drawn sharp international condemnation, with critics arguing that such attacks may constitute war crimes under international humanitarian law, which explicitly prohibits the deliberate targeting of civilian and cultural sites. For Ukrainians, the cathedral represented far more than a place of worship — its destruction is seen as a calculated attempt to erase national memory and weaken collective morale.\n\nThe war, now in its third year following Russia's full-scale invasion in February 2022, shows little sign of abating. Each new wave of strikes deepens the humanitarian catastrophe and hardens positions on both sides, making diplomatic resolution appear ever more elusive.",
+          "vocabularyB2": [
+            {
+              "word": "offensive",
+              "definition": "A large, organised military attack intended to achieve a specific goal"
+            },
+            {
+              "word": "retaliatory",
+              "definition": "Done as a response to an attack or harmful action by the other side"
+            },
+            {
+              "word": "condemnation",
+              "definition": "Strong, public criticism of something considered morally wrong or illegal"
+            },
+            {
+              "word": "humanitarian law",
+              "definition": "International rules designed to limit suffering and protect civilians during armed conflict"
+            },
+            {
+              "word": "elusive",
+              "definition": "Difficult to achieve, find, or reach, even after much effort"
+            }
+          ],
+          "questionB2": "Given the principles of humanitarian law, to what extent do you think retaliatory strikes on civilian infrastructure can ever be justified, and how does this affect prospects for peace?"
+        },
+        {
+          "id": "178152312997647qr",
+          "title": "Trump settles for a truce of convenience",
+          "source": "Financial Times",
+          "originalUrl": "https://www.ft.com/content/e51b0af8-40ed-4828-969d-fc8827e37551",
+          "category": "business",
+          "date": "2026-06-14",
+          "summaryB1": "The United States and Iran have agreed to a ceasefire after weeks of military tension. President Trump had promised that Iran would have to give up completely — what he called 'unconditional surrender' — but the final deal looks very different. Iran did not collapse under pressure. Instead, it came out of the negotiations in a stronger position than many people expected. The agreement is being described as a 'truce of convenience', which means both sides stopped fighting for practical reasons, not because one side truly won. Iran still has its nuclear programme and has not given up its main sources of power. Trump wanted a big victory, but critics say the result is more of a compromise. For Iran, surviving the conflict without making major concessions is itself a kind of success. The situation matters because Iran's position in the Middle East affects oil prices, regional security, and the foreign policy of many countries. The United States spent a lot of political energy on this confrontation. Now, both governments must decide what comes next. Many analysts believe the truce is temporary and that tensions could return. For now, however, the fighting has stopped — and Iran appears to have kept most of its leverage in the region.",
+          "vocabularyB1": [
+            {
+              "word": "ceasefire",
+              "definition": "An agreement to stop fighting, usually temporarily"
+            },
+            {
+              "word": "concessions",
+              "definition": "Things you agree to give up in order to reach a deal"
+            },
+            {
+              "word": "truce",
+              "definition": "A short period when two sides agree to stop fighting each other"
+            },
+            {
+              "word": "confrontation",
+              "definition": "A serious disagreement or conflict between two people or groups"
+            },
+            {
+              "word": "leverage",
+              "definition": "Power or advantage you can use to influence a situation or negotiation"
+            }
+          ],
+          "questionB1": "Do you think a truce is a real solution when neither side makes major concessions — or does it just delay the conflict?",
+          "summaryB2": "What began as a high-stakes diplomatic standoff ended not with the decisive American triumph President Trump had promised, but with an agreement that left Iran's core power structures largely intact. Trump had publicly demanded unconditional surrender from the Islamic republic, framing the confrontation in maximalist terms that suggested nothing short of total capitulation would be acceptable. The outcome, however, tells a more ambiguous story. Iran emerged from the negotiations with its nuclear programme unchecked and its regional influence undiminished — a result that analysts say effectively enhances rather than diminishes its strategic position. The deal has been characterised as a truce of convenience: a pragmatic pause driven by both sides' immediate interests rather than any genuine resolution of the underlying dispute. For Washington, the agreement avoids the unpredictable consequences of prolonged military engagement. For Tehran, simply surviving US pressure without making substantive concessions represents a form of diplomatic success. Critics argue that the White House overstated its goals and understated Iran's resilience, leaving the administration open to accusations of rhetorical overreach. Supporters, meanwhile, contend that averting further escalation is itself a legitimate achievement. The deeper question remains unresolved: whether this ceasefire represents a foundation for longer-term diplomacy or merely a temporary reprieve before hostilities resume. Given the structural tensions between the two nations, most observers regard sustained stability as unlikely in the near term.",
+          "vocabularyB2": [
+            {
+              "word": "standoff",
+              "definition": "A situation where neither side in a conflict can gain an advantage"
+            },
+            {
+              "word": "capitulation",
+              "definition": "The act of giving in completely and accepting the opponent's demands"
+            },
+            {
+              "word": "rhetorical overreach",
+              "definition": "Making promises or claims in speeches that go far beyond what is actually achieved"
+            },
+            {
+              "word": "reprieve",
+              "definition": "A temporary delay before something unpleasant continues or gets worse"
+            },
+            {
+              "word": "resilience",
+              "definition": "The ability to recover from difficulties or remain strong under pressure"
+            }
+          ],
+          "questionB2": "Given Iran's apparent resilience and the accusations of rhetorical overreach against the White House, what does this outcome reveal about the limits of maximalist foreign policy?"
+        },
+        {
+          "id": "1781502803506ycgt",
+          "title": "Trump heralds Iran deal but questions - and risks - remain",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.com/news/articles/c9824e0rz75o?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-06-15",
+          "summaryB1": "The United States and Iran have announced a new nuclear deal. President Trump called the agreement a great success. The news came on his birthday, which made it feel like a special moment for him. However, many experts say it is too early to celebrate. The details of the deal are not fully clear yet, and some questions remain unanswered. Iran has been developing its nuclear programme for many years. Many countries have worried that Iran might be trying to build nuclear weapons. Iran says its programme is only for peaceful energy. In the past, a similar deal was made in 2015, but Trump cancelled it when he was president before. Now, a new agreement has been reached through negotiations. The success of this deal will depend on what exactly Iran has agreed to do. It will also depend on whether both sides follow the rules. Some people think the deal is a good step forward. Others warn that the risks are still very high. If the deal fails, the situation could become very dangerous. The world is watching carefully to see what happens next. For now, the announcement is seen as positive news, but many people are waiting for more information before they feel confident about the future.",
+          "vocabularyB1": [
+            {
+              "word": "agreement",
+              "definition": "A decision or promise made between two or more people or groups"
+            },
+            {
+              "word": "nuclear programme",
+              "definition": "A country's plan to develop and use nuclear technology or energy"
+            },
+            {
+              "word": "negotiations",
+              "definition": "Formal talks between people or groups to reach a decision together"
+            },
+            {
+              "word": "cancelled",
+              "definition": "Officially stopped or ended something that was previously arranged"
+            },
+            {
+              "word": "confident",
+              "definition": "Feeling sure and certain that something is true or will happen"
+            }
+          ],
+          "questionB1": "Do you think negotiations between countries with very different goals can lead to a lasting agreement? Why or why not?",
+          "summaryB2": "The announcement of a nuclear deal between the United States and Iran has been greeted with cautious optimism, coinciding with President Trump's birthday in what some observers described as a timely diplomatic victory. Trump heralded the agreement as a major achievement, but analysts and critics alike warn that the deal's ultimate success or failure may hinge on details that have yet to be fully disclosed. The accord represents a renewed attempt to curb Iran's nuclear ambitions, which have long been a source of geopolitical tension. Western governments have consistently alleged that Iran is seeking to develop nuclear weapons, while Tehran maintains that its programme serves purely civilian purposes. The current deal follows the collapse of the 2015 Joint Comprehensive Plan of Action, which Trump unilaterally withdrew from during his first term, leading to a period of escalating sanctions and deepening mistrust between the two nations. While the new agreement has been welcomed by those who favour diplomatic engagement over military confrontation, sceptics caution that Iran's compliance cannot be taken for granted. Verification mechanisms and the precise scope of Iran's commitments remain subjects of intense scrutiny. The risks of failure are considerable — a breakdown in the deal could accelerate Iran's nuclear development and destabilise an already volatile region. For now, the announcement marks a tentative step forward, but its durability remains deeply uncertain.",
+          "vocabularyB2": [
+            {
+              "word": "heralded",
+              "definition": "Publicly announced or praised something as a great achievement or new beginning"
+            },
+            {
+              "word": "hinge on",
+              "definition": "To depend entirely on one particular thing for success or failure"
+            },
+            {
+              "word": "geopolitical",
+              "definition": "Relating to how geography, power, and politics between countries affect each other"
+            },
+            {
+              "word": "compliance",
+              "definition": "The act of following rules, agreements, or demands that have been set"
+            },
+            {
+              "word": "tentative",
+              "definition": "Not fully certain or decided; done carefully because the situation is still unclear"
+            }
+          ],
+          "questionB2": "Given Iran's history of non-compliance with international agreements and the geopolitical tensions in the region, how realistic is it to expect this deal to produce lasting results?"
+        },
+        {
+          "id": "1781502824041o3et",
+          "title": "What is El Niño and why could it mean record temperatures?",
+          "source": "BBC Science & Environment",
+          "originalUrl": "https://www.bbc.com/news/articles/cj97npgk92po?at_medium=RSS&at_campaign=rss",
+          "category": "environment",
+          "date": "2026-06-11",
+          "summaryB1": "El Niño is a natural weather pattern that happens every few years. It starts in the Pacific Ocean, where the water becomes warmer than usual. This warm water affects the weather all around the world. Scientists are now saying that a new El Niño event is beginning. Because of this, global temperatures are expected to rise in the coming months. This means that 2024 could see record temperatures in many parts of the world. El Niño does not just make things hotter. It can also cause heavy rainfall in some places and serious drought in others. For example, parts of South America may get a lot of rain, while Australia and Southeast Asia could become very dry. When El Niño combines with climate change, the effects can be even stronger. Scientists are concerned because the planet is already warming due to human activity. Adding El Niño on top of this could push temperatures to dangerous new levels. Governments and weather agencies are closely watching the situation. People living in affected areas should prepare for extreme weather. Understanding what El Niño is and how it works can help communities plan ahead and stay safe during this difficult period.",
+          "vocabularyB1": [
+            {
+              "word": "weather pattern",
+              "definition": "A regular set of weather conditions that happens in a similar way over time."
+            },
+            {
+              "word": "drought",
+              "definition": "A long period with very little or no rain, causing water shortages."
+            },
+            {
+              "word": "rainfall",
+              "definition": "The amount of rain that falls in a place during a period of time."
+            },
+            {
+              "word": "extreme weather",
+              "definition": "Unusually severe or dangerous weather conditions, such as floods or heatwaves."
+            },
+            {
+              "word": "record temperatures",
+              "definition": "Temperatures higher or lower than any previously measured in history."
+            }
+          ],
+          "questionB1": "Why do you think record temperatures caused by a weather pattern like El Niño are especially dangerous for people in poorer countries?",
+          "summaryB2": "El Niño, the periodic climate phenomenon originating in the equatorial Pacific Ocean, is once again making headlines as scientists confirm the onset of a new cycle. During an El Niño event, sea surface temperatures in the central and eastern Pacific rise above average, disrupting atmospheric circulation patterns and triggering a cascade of meteorological consequences across the globe. Forecasters now warn that this emerging cycle could drive global temperatures to unprecedented highs in the coming months, potentially shattering records set only in recent years. The phenomenon is inherently cyclical, occurring roughly every two to seven years, but its impact is amplified considerably when layered on top of the long-term warming trend driven by greenhouse gas emissions. Regions already vulnerable to climate instability face a particularly acute risk: parts of South America may experience severe flooding, while Australia, southern Africa, and Southeast Asia could face prolonged dry spells and crop failures. Meteorologists are urging governments to treat El Niño as a catalyst for reviewing disaster preparedness strategies, given that the combination of natural variability and anthropogenic climate change creates compounding risks. The scientific community stresses that while El Niño is a natural occurrence, its interaction with a warming planet means the consequences are no longer purely natural in scale or severity. How societies respond in the months ahead may determine how well they weather this convergence of forces.",
+          "vocabularyB2": [
+            {
+              "word": "phenomenon",
+              "definition": "A fact or event in nature or society that is observed and studied by scientists."
+            },
+            {
+              "word": "unprecedented",
+              "definition": "Never having happened or existed before; beyond all previous experience."
+            },
+            {
+              "word": "anthropogenic",
+              "definition": "Caused or produced by human activity, especially in relation to environmental change."
+            },
+            {
+              "word": "catalyst",
+              "definition": "Something that causes or speeds up an important change or series of events."
+            },
+            {
+              "word": "cyclical",
+              "definition": "Happening in repeated cycles; returning to the same stages in a regular pattern."
+            }
+          ],
+          "questionB2": "Given that El Niño is a natural cyclical phenomenon now interacting with anthropogenic climate change, to what extent should governments treat its arrival as an opportunity to accelerate long-term climate adaptation policies?"
+        },
+        {
+          "id": "1781502844029gsoi",
+          "title": "X accused of giving racists ‘impunity’ after refusing to bar N- and P-word posts",
+          "source": "The Guardian Tech",
+          "originalUrl": "https://www.theguardian.com/technology/2026/jun/14/x-racists-impunity-hate-posts",
+          "category": "technology",
+          "date": "2026-06-14",
+          "summaryB1": "X, the social media platform previously known as Twitter, is being criticised for allowing racist posts to stay online. Researchers from a group called British Future reported 30 posts from 2025 in which Kemi Badenoch, the leader of the Conservative Party, was called a very offensive racial slur. The researchers used the platform's official reporting option for 'hate, abuse or harassment', but X refused to remove most of the posts, even after repeated requests. Other UK politicians, including Shabana Mahmood and Zia Yusuf, were also targets of similar racial abuse on the platform. Critics say that by refusing to act, X is giving racists a kind of freedom to post hateful content without punishment. British Future is a thinktank, which means it is an organisation that studies social problems and suggests solutions. Social inclusion is one of their main topics – they research how to make sure all people feel welcome in society. Many people believe that social media platforms have a responsibility to protect users from hate speech. When platforms refuse to remove abusive content, it can make victims feel unsafe and ignored. This situation has started a wider debate about whether tech companies are doing enough to stop racism online.",
+          "vocabularyB1": [
+            {
+              "word": "slur",
+              "definition": "An offensive word used to insult or attack someone because of who they are"
+            },
+            {
+              "word": "harassment",
+              "definition": "Repeated behaviour that upsets, threatens or makes someone feel uncomfortable"
+            },
+            {
+              "word": "thinktank",
+              "definition": "An organisation that researches problems and suggests ideas or policies to solve them"
+            },
+            {
+              "word": "social inclusion",
+              "definition": "Making sure all people, regardless of background, can fully participate in society"
+            },
+            {
+              "word": "responsibility",
+              "definition": "A duty to do something or to take care of a situation"
+            }
+          ],
+          "questionB1": "Do you think social media platforms have a responsibility to remove hate speech, or should users decide what is acceptable?",
+          "summaryB2": "X, the platform owned by Elon Musk, is facing accusations of granting racists effective impunity after repeatedly declining to act on reported posts containing explicit racial slurs targeting prominent UK politicians. Researchers at British Future, a social inclusion thinktank, documented 30 posts from this year in which Conservative Party leader Kemi Badenoch was subjected to one of the most offensive racial epithets in the English language. Despite submitting formal reports through X's own 'hate, abuse or harassment' mechanism on each occasion, the researchers found that the platform took no action in the vast majority of cases. Other politicians of colour, including Justice Secretary Shabana Mahmood and Reform UK chairman Zia Yusuf, were also targeted in similar posts that remained live on the platform. The controversy has intensified scrutiny of X's content moderation practices, which critics argue have deteriorated sharply since Musk's acquisition of the company. Defenders of the platform might argue that defining hate speech is inherently subjective and that heavy-handed moderation risks suppressing legitimate political discourse. However, campaigners contend that the targeted, personalised nature of these posts leaves little room for ambiguity. The episode illustrates a tension that regulators across Europe are grappling with: how to hold powerful tech companies accountable for harmful content without encroaching on freedom of expression. The UK's Online Safety Act may provide one avenue for future enforcement.",
+          "vocabularyB2": [
+            {
+              "word": "impunity",
+              "definition": "Freedom from punishment or negative consequences for one's actions"
+            },
+            {
+              "word": "epithet",
+              "definition": "A word or phrase, often offensive, used to describe or label a person"
+            },
+            {
+              "word": "content moderation",
+              "definition": "The process of reviewing and removing harmful or rule-breaking material on a platform"
+            },
+            {
+              "word": "discourse",
+              "definition": "Written or spoken communication and discussion about a particular topic"
+            },
+            {
+              "word": "accountability",
+              "definition": "The state of being responsible for one's actions and required to explain them to others"
+            }
+          ],
+          "questionB2": "Given that X's content moderation decisions appear to grant racists effective impunity, what obligations should regulators place on platforms to ensure accountability without restricting legitimate political discourse?"
+        },
+        {
+          "id": "1781502864161tc1j",
+          "title": "Linkin Park to make Download Festival history",
+          "source": "BBC Culture",
+          "originalUrl": "https://www.bbc.com/news/articles/cwy0x5lgel5o?at_medium=RSS&at_campaign=rss",
+          "category": "culture",
+          "date": "2026-06-13",
+          "summaryB1": "Linkin Park is a famous rock band from the United States. They started in the late 1990s and became one of the most popular rock bands in the world. Their music mixes rock, metal, and hip-hop. In 2024, the band made a big announcement. They chose Emily Armstrong as their new lead vocalist after the death of their original singer, Chester Bennington, in 2017. Now, Linkin Park is going to headline Download Festival in the UK. This means they will be the main act – the biggest and most exciting performance of the event. Download Festival is one of the most well-known rock and metal music festivals in the world. It takes place every year in Donington Park in England. By headlining the festival, Linkin Park will make history. They will become the first band with a female vocalist to ever headline Download Festival. This is a milestone for both the band and the festival. Many fans are excited about this news. Some people think it shows that rock music is changing and becoming more open to female performers. Others are simply happy to see Linkin Park on stage again. The festival is expected to attract thousands of music lovers from around the world.",
+          "vocabularyB1": [
+            {
+              "word": "vocalist",
+              "definition": "A singer, especially the main singer in a band or music group."
+            },
+            {
+              "word": "headline",
+              "definition": "To be the most important or famous performer at a concert or festival."
+            },
+            {
+              "word": "festival",
+              "definition": "A large outdoor event with music performances over several days."
+            },
+            {
+              "word": "milestone",
+              "definition": "An important moment or achievement that marks a big change or first."
+            },
+            {
+              "word": "performer",
+              "definition": "A person who sings, plays music, or acts in front of an audience."
+            }
+          ],
+          "questionB1": "Why do you think it matters that Linkin Park will be the first band with a female vocalist to headline a major rock festival?",
+          "summaryB2": "Linkin Park is set to make history at Download Festival, one of the United Kingdom's most prestigious rock and metal events, by becoming the first female-fronted band ever to headline the legendary Donington Park gathering. The announcement marks a symbolic turning point for a festival that has long been associated with male-dominated lineups and a traditionally masculine fanbase. Linkin Park, who rose to global prominence in the early 2000s with their genre-defying blend of alternative metal and hip-hop, returned to the spotlight in 2024 following a period of uncertainty after the tragic death of frontman Chester Bennington in 2017. The band's resurgence came with the introduction of Emily Armstrong as their new lead vocalist, a move that was met with both enthusiasm and scrutiny from loyal fans worldwide. Armstrong's appointment has since generated considerable debate about authenticity, legacy, and the evolving identity of one of rock's most iconic acts. Her presence at the helm of the band now places Linkin Park at the centre of a wider cultural conversation about gender representation in rock music. Download Festival has historically been a platform where rock royalty cements their legacy, and Linkin Park's headlining slot carries the weight of both personal redemption and genre-wide progress. Whether audiences will fully embrace this reimagined lineup remains to be seen, but the booking undeniably signals a shift in how the festival presents itself to a new generation of rock fans.",
+          "vocabularyB2": [
+            {
+              "word": "prestigious",
+              "definition": "Highly respected and admired, especially because of a long history of quality."
+            },
+            {
+              "word": "resurgence",
+              "definition": "A return to activity, popularity, or strength after a quiet or difficult period."
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and critical attention or examination of something or someone."
+            },
+            {
+              "word": "authenticity",
+              "definition": "The quality of being genuine, real, and true to an original identity or style."
+            },
+            {
+              "word": "cements",
+              "definition": "Makes something stronger or more permanent, especially a reputation or position."
+            }
+          ],
+          "questionB2": "To what extent does Linkin Park headlining Download Festival reflect genuine progress in gender representation in rock, or is it simply the result of one band's resurgence drawing scrutiny away from deeper structural issues?"
+        },
+        {
+          "id": "1781502884168pqlm",
+          "title": "Iran and US agree deal to open Strait of Hormuz and extend ceasefire",
+          "source": "Financial Times",
+          "originalUrl": "https://www.ft.com/content/76bed6e5-ab1f-43ff-a6c0-ae5e7cdbf3c1",
+          "category": "business",
+          "date": "2026-06-15",
+          "summaryB1": "Iran and the United States have agreed a deal to reopen the Strait of Hormuz, one of the world's most vital sea routes for oil shipping. Leaders from both countries are expected to sign the agreement on Friday. The deal will also end the US naval blockade of Iranian ports, which had stopped ships from entering or leaving Iran by sea. The Strait of Hormuz is a narrow waterway between Iran and Oman. About 20% of the world's oil passes through it every day, so closing it causes serious problems for global energy supplies. The agreement comes after a ceasefire between the two countries, which this deal will now extend. A ceasefire means both sides agree to stop fighting for a period of time. The blockade had put pressure on Iran's economy by making it very difficult to export goods, especially oil. Many countries that depend on oil from the Middle East were watching the situation closely. The reopening of the waterway is expected to help lower oil prices, which had risen sharply during the conflict. This agreement could be a step towards longer-term peace talks between Iran and the US, though many challenges remain. Both sides will need to build trust before any permanent solution is possible.",
+          "vocabularyB1": [
+            {
+              "word": "waterway",
+              "definition": "A river, canal, or other route where ships can travel"
+            },
+            {
+              "word": "blockade",
+              "definition": "When a country uses military force to stop ships entering or leaving a place"
+            },
+            {
+              "word": "ceasefire",
+              "definition": "An agreement between enemies to stop fighting for a period of time"
+            },
+            {
+              "word": "export",
+              "definition": "To sell and send goods to another country"
+            },
+            {
+              "word": "extend",
+              "definition": "To make something last for a longer period of time"
+            }
+          ],
+          "questionB1": "Why do you think ending a blockade and extending a ceasefire might not be enough to bring lasting peace between two countries?",
+          "summaryB2": "Iran and the United States are set to formalise a landmark agreement on Friday that would reopen the Strait of Hormuz and bring an end to the American naval blockade of Iranian ports. The deal represents a significant diplomatic breakthrough following a period of acute military tension between the two nations. The Strait of Hormuz, a narrow but strategically vital chokepoint connecting the Persian Gulf to the Arabian Sea, carries roughly a fifth of global oil supplies daily. Its closure had sent energy markets into turmoil, with oil prices spiking sharply and importing nations scrambling to secure alternative supplies. The agreement also extends an existing ceasefire, suggesting that both sides are willing, at least for now, to pursue de-escalation rather than continued confrontation. The naval blockade had effectively strangled Iran's ability to conduct maritime trade, compounding the economic strain already imposed by years of international sanctions. Analysts note that while the deal offers welcome relief to global energy markets, it leaves many underlying disputes unresolved — including disagreements over Iran's nuclear programme and regional influence. Sceptics warn that without a durable framework for broader negotiations, the ceasefire extension may amount to little more than a temporary reprieve. Nevertheless, Friday's signing ceremony will be closely watched by governments and investors worldwide as a potential turning point in one of the most volatile geopolitical rivalries of recent decades.",
+          "vocabularyB2": [
+            {
+              "word": "chokepoint",
+              "definition": "A narrow passage where traffic or goods can be easily blocked or controlled"
+            },
+            {
+              "word": "de-escalation",
+              "definition": "The process of reducing tension or conflict between opposing sides"
+            },
+            {
+              "word": "maritime",
+              "definition": "Relating to the sea, ships, or sea trade"
+            },
+            {
+              "word": "reprieve",
+              "definition": "A temporary delay of something difficult or harmful; short-term relief"
+            },
+            {
+              "word": "durable",
+              "definition": "Long-lasting and strong enough to survive over time"
+            }
+          ],
+          "questionB2": "Given that the deal leaves core disputes unresolved, how likely is a durable peace, and what conditions would need to exist for de-escalation to lead to genuine long-term stability?"
+        },
+        {
+          "id": "1781502903073hfzz",
+          "title": "US-Iran deal eases uncertainty over the war - but there is much still to play out",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.com/news/articles/cd952n4qz2qo?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-06-15",
+          "summaryB1": "The United States and Iran have agreed on a deal that may help reduce tensions in the Middle East. This agreement brings some hope that the conflict in the region could become less dangerous. Pakistan has said that the deal also covers Lebanon, a country that has been affected by recent fighting. However, there is a problem: ceasefires in Lebanon have been agreed before, but they did not last. A ceasefire is when two sides stop fighting for a period of time. These past failures make people unsure whether peace will hold this time. The situation is still very uncertain, and many things could still go wrong. There are different groups involved in the conflict, and not all of them may follow the terms of any agreement. The deal between the US and Iran is a positive step, but experts warn that much still needs to happen before real peace is possible. People around the world are watching closely to see what comes next. For now, the agreement has reduced some of the uncertainty, but the situation in the region remains fragile and difficult to predict.",
+          "vocabularyB1": [
+            {
+              "word": "agreement",
+              "definition": "A decision made by two or more sides to do something together"
+            },
+            {
+              "word": "ceasefire",
+              "definition": "A temporary stop in fighting agreed by both sides in a conflict"
+            },
+            {
+              "word": "tensions",
+              "definition": "Feelings of worry or danger between groups that may lead to conflict"
+            },
+            {
+              "word": "fragile",
+              "definition": "Easily broken or damaged; not strong or stable"
+            },
+            {
+              "word": "uncertain",
+              "definition": "Not known or decided; something that may change or go wrong"
+            }
+          ],
+          "questionB1": "Why do you think ceasefires are often fragile, and what would make a ceasefire more likely to last?",
+          "summaryB2": "A diplomatic deal between the United States and Iran has offered a degree of relief from the intense uncertainty surrounding the ongoing conflict in the Middle East. Pakistan has claimed that the scope of the agreement extends to Lebanon, a country that has been caught up in the wider regional turmoil. However, this assertion is met with considerable scepticism, given that previous ceasefires in Lebanon have consistently failed to take hold. The pattern of collapsing truces raises serious doubts about the durability of any new arrangement, however well-intentioned it may be. While the US-Iran deal represents a diplomatic step forward, analysts caution that numerous variables remain unresolved. Multiple armed factions operate across the region, and their willingness to abide by terms negotiated between state actors is far from guaranteed. The inclusion of Lebanon in the deal, if confirmed, would expand its reach substantially, but the track record of failed ceasefires there suggests that implementation will be far more challenging than the agreement itself. Observers note that the deal has succeeded in reducing immediate volatility in financial and political circles, yet the underlying disputes that fuel the conflict have not been addressed. In short, the agreement offers cautious optimism at best, with much still contingent on how events unfold on the ground in the coming weeks.",
+          "vocabularyB2": [
+            {
+              "word": "scepticism",
+              "definition": "A feeling of doubt about whether something is true or will work"
+            },
+            {
+              "word": "durability",
+              "definition": "The ability of something to last or remain strong over time"
+            },
+            {
+              "word": "factions",
+              "definition": "Smaller groups within a larger conflict, each with their own goals"
+            },
+            {
+              "word": "volatility",
+              "definition": "A state of being unstable and likely to change suddenly and unpredictably"
+            },
+            {
+              "word": "contingent",
+              "definition": "Dependent on something else happening first before it can occur"
+            }
+          ],
+          "questionB2": "Given the durability of past ceasefires in Lebanon has been so poor, what conditions would need to be in place for the US-Iran deal to produce a genuinely lasting reduction in regional volatility?"
+        },
+        {
+          "id": "1781502923612fq8g",
+          "title": "El Niño under way and threatens weather extremes, scientists say",
+          "source": "BBC Science & Environment",
+          "originalUrl": "https://www.bbc.com/news/articles/c75ylx7g00xo?at_medium=RSS&at_campaign=rss",
+          "category": "environment",
+          "date": "2026-06-11",
+          "summaryB1": "El Niño is a natural weather pattern that happens every few years. It occurs when the surface of the Pacific Ocean becomes warmer than usual. This change in ocean temperature affects the weather all around the world. US scientists have now officially confirmed that a new El Niño event has begun. This is worrying news for many countries because El Niño is linked to extreme weather conditions such as heavy floods, long droughts, and powerful storms. When El Niño is active, global temperatures also tend to rise, which adds to the effects of climate change. Scientists have been monitoring the Pacific Ocean for signs of this event for several months. Now that it has officially started, weather agencies around the world are warning governments and communities to prepare. Some regions may experience too much rain, while others may suffer from serious lack of water. Countries in South America, Southeast Asia, and Africa are often the most affected. For ordinary people, El Niño can mean damaged crops, water shortages, and dangerous weather events. Experts say it is essential to take these warnings seriously and plan ahead. Understanding what El Niño is and how it works can help communities stay safer during this difficult period.",
+          "vocabularyB1": [
+            {
+              "word": "weather pattern",
+              "definition": "A repeated way that weather behaves in a particular place or season"
+            },
+            {
+              "word": "surface",
+              "definition": "The top or outside layer of something, for example the ocean"
+            },
+            {
+              "word": "extreme weather",
+              "definition": "Very dangerous or unusual weather, such as very heavy rain or long dry periods"
+            },
+            {
+              "word": "drought",
+              "definition": "A long period of time with little or no rain, causing water shortages"
+            },
+            {
+              "word": "monitor",
+              "definition": "To regularly watch or check something to see how it changes over time"
+            }
+          ],
+          "questionB1": "How might extreme weather caused by El Niño affect the daily lives of people in your country or region?",
+          "summaryB2": "US scientists have officially declared the onset of an El Niño event, triggering widespread concern among meteorologists and policymakers about the potential for weather extremes and accelerated global warming. El Niño is a cyclical climate phenomenon driven by the unusual warming of Pacific Ocean surface waters, which disrupts atmospheric circulation patterns across the globe. Its effects are far-reaching and asymmetric: while some regions face devastating floods and intense tropical storms, others endure prolonged droughts and crippling heatwaves. The confirmation comes at a particularly sensitive moment, as global temperatures are already running at record highs due to human-driven climate change. Scientists warn that El Niño could compound these existing pressures, pushing annual average temperatures even further above pre-industrial levels. The phenomenon has historically been associated with food insecurity, displacement of populations, and economic disruption in vulnerable nations across South America, sub-Saharan Africa, and Southeast Asia. Meteorological agencies are urging governments to activate contingency plans and strengthen early-warning systems to mitigate the worst humanitarian consequences. While El Niño events vary in intensity, forecasters note that the interaction between this natural cycle and the long-term trajectory of climate change makes accurate prediction more challenging than ever. The scientific community stresses that robust international cooperation will be indispensable in managing the cascading risks this event may unleash over the coming months.",
+          "vocabularyB2": [
+            {
+              "word": "onset",
+              "definition": "The beginning or start of something, often something difficult or harmful"
+            },
+            {
+              "word": "cyclical",
+              "definition": "Happening in repeated cycles or patterns at regular intervals"
+            },
+            {
+              "word": "asymmetric",
+              "definition": "Not equal or the same on both sides; affecting different places in different ways"
+            },
+            {
+              "word": "compound",
+              "definition": "To make a problem or difficult situation worse by adding more pressure to it"
+            },
+            {
+              "word": "contingency plans",
+              "definition": "Plans prepared in advance for dealing with possible future emergencies or problems"
+            }
+          ],
+          "questionB2": "Given that El Niño's effects are asymmetric across regions, how should international bodies prioritise resources to compound as little human suffering as possible during this event?"
+        },
+        {
+          "id": "1781502946178hpxk",
+          "title": "Anthropic to disable its most advanced AI models after US order limiting foreign access",
+          "source": "The Guardian Tech",
+          "originalUrl": "https://www.theguardian.com/technology/2026/jun/13/anthropic-disable-advanced-ai-models-us-government-order",
+          "category": "technology",
+          "date": "2026-06-13",
+          "summaryB1": "Anthropic, an American company that makes artificial intelligence (AI) tools, has announced it will shut down its most advanced AI models for all users. The US government gave the company an order to stop foreign nationals from using two products called Fable 5 and Mythos 5. Because it is technically very difficult to block only foreign users, Anthropic decided to disable the models completely. The government said it had national security concerns, but it did not give Anthropic any specific details about the threat. Officials believe that the safeguards built into these AI systems can be bypassed, meaning people could use them to find weaknesses in computer software. This could be dangerous if the wrong people got access to such tools. Anthropic said the decision was made suddenly and called the shutdown 'abrupt'. The company published a public statement explaining what happened, which suggests it wanted to be transparent with its customers. This situation shows how governments are starting to control who can access powerful AI technology. Many people around the world who rely on these tools will now lose access to them. The story raises big questions about how companies should balance business needs with national security rules.",
+          "vocabularyB1": [
+            {
+              "word": "shut down",
+              "definition": "To stop a machine, system or service from working, either temporarily or permanently."
+            },
+            {
+              "word": "foreign nationals",
+              "definition": "People who are citizens of a different country, not the country they are currently in."
+            },
+            {
+              "word": "safeguards",
+              "definition": "Rules or features designed to protect people or systems from danger or misuse."
+            },
+            {
+              "word": "bypassed",
+              "definition": "Avoided or got around a rule, system or barrier without following the normal process."
+            },
+            {
+              "word": "transparent",
+              "definition": "Open and honest, not hiding information from others."
+            }
+          ],
+          "questionB1": "If a government ordered a company to shut down a product for national security reasons without giving details, do you think the company should be transparent about it? Why?",
+          "summaryB2": "Anthropic, the AI safety-focused company behind the Claude assistant, has announced it will abruptly disable its two most advanced AI models — Fable 5 and Mythos 5 — following a US government export control directive ordering the suspension of access for all foreign nationals. Rather than attempt a selective geographical block, which would be technically complex and potentially unreliable, Anthropic chose to withdraw the models from all users globally, a decision that reflects both the sweeping scope of the order and the difficulty of enforcing it in a targeted way. The US government cited national security concerns, though it declined to provide Anthropic with the specific intelligence underpinning the directive. Officials reportedly believe that the models' built-in protections can be circumvented, allowing adversarial actors to exploit them for identifying vulnerabilities in software systems — a capability with obvious implications for cyberattacks or espionage. Anthropic's decision to publish a public statement detailing the order suggests the company is attempting to manage reputational fallout while distancing itself from responsibility for the disruption. The episode highlights a deepening tension between the commercial ambitions of AI companies and the tightening regulatory grip of governments seeking to treat advanced AI as a matter of national security. Critics may question whether blanket restrictions of this kind are proportionate, while supporters argue that the potential for misuse justifies swift and decisive action.",
+          "vocabularyB2": [
+            {
+              "word": "export control directive",
+              "definition": "An official government order restricting who can access or receive a product, technology or service abroad."
+            },
+            {
+              "word": "circumvented",
+              "definition": "Found a way around a rule, system or obstacle, avoiding it without directly breaking it."
+            },
+            {
+              "word": "adversarial actors",
+              "definition": "Individuals or groups who actively work to cause harm, often referring to hackers or hostile states."
+            },
+            {
+              "word": "reputational fallout",
+              "definition": "Damage to a company's or person's public image as a result of a controversial event or decision."
+            },
+            {
+              "word": "proportionate",
+              "definition": "Appropriate in size or severity relative to the situation; not excessive or too weak."
+            }
+          ],
+          "questionB2": "Given that the US government declined to share the intelligence behind its export control directive, how should AI companies weigh the risk of reputational fallout against the obligation to comply with opaque national security orders?"
+        },
+        {
+          "id": "1781502967475zjjs",
+          "title": "What is in the US-Iran deal?",
+          "source": "Financial Times",
+          "originalUrl": "https://www.ft.com/content/3bc9f664-dcad-4c2e-b745-91bb4e0fa934",
+          "category": "business",
+          "date": "2026-06-14",
+          "summaryB1": "The United States and Iran have made a new agreement that could reduce tension between the two countries. The deal will extend a ceasefire for 60 more days. A ceasefire means both sides agree to stop fighting or threatening each other. The agreement will also reopen the Strait of Hormuz, a narrow stretch of water between Iran and Oman. This strait is one of the most important shipping routes in the world. About 20% of the world's oil passes through it, so keeping it open matters a great deal to global trade. If Iran blocked this waterway, oil prices around the world could rise sharply. The third part of the deal involves nuclear talks. Iran and the US will begin negotiations about Iran's nuclear programme. Many countries worry that Iran wants to build nuclear weapons, which Iran denies. These talks are a chance to find a peaceful solution. This agreement is good news for businesses and governments that depend on stable oil supplies. However, it is only a temporary solution. The ceasefire lasts just 60 days, so both sides must work quickly to reach a longer and more permanent deal. The outcome of the nuclear negotiations will be watched closely by countries around the world.",
+          "vocabularyB1": [
+            {
+              "word": "ceasefire",
+              "definition": "An agreement between two sides to stop fighting or threatening each other"
+            },
+            {
+              "word": "strait",
+              "definition": "A narrow area of water connecting two larger seas or oceans"
+            },
+            {
+              "word": "shipping routes",
+              "definition": "The paths that ships travel across the sea to move goods"
+            },
+            {
+              "word": "negotiations",
+              "definition": "Formal discussions between two sides trying to reach an agreement"
+            },
+            {
+              "word": "nuclear programme",
+              "definition": "A government's plan to develop nuclear technology, sometimes for weapons"
+            }
+          ],
+          "questionB1": "Why do you think reopening the strait and beginning negotiations are both part of the same deal?",
+          "summaryB2": "A tentative but consequential agreement between the United States and Iran has emerged, comprising three interlocking elements: a 60-day extension of an existing ceasefire, the reopening of the Strait of Hormuz, and the commencement of formal nuclear negotiations. The deal offers a fragile window of diplomatic engagement between two countries that have been adversaries for decades. The Strait of Hormuz is a chokepoint of immense strategic and economic weight — roughly a fifth of global oil supplies transit through this narrow waterway, making any disruption to its passage a potential catalyst for energy market instability worldwide. Iran's capacity to threaten closure of the strait has long been regarded as one of its most potent tools of geopolitical pressure. The resumption of nuclear talks is perhaps the most contentious aspect of the agreement. Western powers have repeatedly accused Tehran of pursuing weapons-grade enrichment, allegations Iran consistently refutes. Previous diplomatic frameworks, most notably the 2015 Joint Comprehensive Plan of Action, collapsed after the US withdrew in 2018 under the Trump administration, leaving a deep deficit of trust on both sides. The 60-day timeframe underlines just how provisional this arrangement remains. Analysts warn that without substantive progress in the nuclear talks, the ceasefire extension may simply delay rather than resolve the underlying tensions. For global energy markets and regional stability alike, much depends on whether both parties can sustain the momentum beyond this narrow diplomatic opening.",
+          "vocabularyB2": [
+            {
+              "word": "chokepoint",
+              "definition": "A narrow, strategically vital passage where traffic or supplies can easily be blocked"
+            },
+            {
+              "word": "contentious",
+              "definition": "Causing strong disagreement or argument between people or groups"
+            },
+            {
+              "word": "enrichment",
+              "definition": "The process of increasing the concentration of uranium, which can be used in nuclear weapons"
+            },
+            {
+              "word": "provisional",
+              "definition": "Temporary and likely to change; not yet final or permanent"
+            },
+            {
+              "word": "deficit of trust",
+              "definition": "A serious lack of confidence or belief that the other side will act honestly"
+            }
+          ],
+          "questionB2": "Given the deep deficit of trust left by the collapse of the 2015 nuclear deal, how realistic is it to expect the current provisional arrangement to produce lasting results?"
+        },
+        {
+          "id": "17815029903080tyh",
+          "title": "Oil prices slide after US-Iran deal announced",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-06-15",
+          "summaryB1": "Oil prices around the world dropped sharply after the United States and Iran announced a new agreement. Under this deal, the Strait of Hormuz, a vital sea route in the Middle East, will be reopened. US President Donald Trump made the announcement, and the news quickly affected global oil markets.\n\nThe Strait of Hormuz is one of the busiest waterways in the world. Around 20% of the world's oil passes through it every day. When the strait was blocked or threatened, oil prices went up because traders worried about supply. Now that the two countries have reached an agreement, traders expect more oil to flow freely again, so prices have fallen.\n\nThe relationship between the US and Iran has been difficult for many years. Iran is a major oil producer, and tensions between the two countries often affect energy markets worldwide. This new deal could mean that Iranian oil returns to international markets in larger quantities.\n\nFor everyday people, lower oil prices can mean cheaper fuel for cars and lower heating costs. However, some experts warn that such agreements can be fragile and may not last. It is still too early to know if this deal will hold. The situation is being watched carefully by governments, businesses, and consumers around the world.",
+          "vocabularyB1": [
+            {
+              "word": "agreement",
+              "definition": "A decision or arrangement that two or more people or groups accept together."
+            },
+            {
+              "word": "waterway",
+              "definition": "A river, canal, or sea route that ships and boats can travel through."
+            },
+            {
+              "word": "supply",
+              "definition": "The amount of something that is available for people to buy or use."
+            },
+            {
+              "word": "fragile",
+              "definition": "Easily broken or damaged; not strong or lasting."
+            },
+            {
+              "word": "consumers",
+              "definition": "People who buy and use goods or services."
+            }
+          ],
+          "questionB1": "Do you think a trade agreement between countries with difficult relationships can really be fragile? What makes such deals succeed or fail?",
+          "summaryB2": "Global oil prices fell sharply following the announcement of a diplomatic agreement between the United States and Iran, with President Donald Trump confirming that the Strait of Hormuz — one of the world's most strategically vital maritime chokepoints — would be reopened under the terms of the deal. The news sent immediate shockwaves through energy markets, as traders recalibrated their expectations around oil supply and global distribution networks.\n\nThe Strait of Hormuz connects the Persian Gulf to the Gulf of Oman and carries roughly a fifth of the world's daily oil shipments. Any disruption to this corridor has historically triggered sharp price volatility, as markets react to even the threat of restricted flow. The prospect of its reopening, therefore, signalled a significant easing of supply-side pressure, prompting a swift sell-off in crude oil futures.\n\nUS-Iran relations have long been defined by deep-seated mistrust, economic sanctions, and geopolitical rivalry. Iran's substantial oil reserves make it a consequential player in global energy dynamics, and any normalisation — even partial — of its position in international markets could reshape the balance of supply for months or years ahead.\n\nAnalysts are cautious, however. Diplomatic breakthroughs between adversarial states frequently face implementation challenges and domestic opposition on both sides. Whether this agreement represents a durable shift or a temporary de-escalation remains to be seen. Markets, governments, and energy-dependent industries will be monitoring developments closely in the days ahead.",
+          "vocabularyB2": [
+            {
+              "word": "chokepoint",
+              "definition": "A narrow passage or route where traffic or goods can easily be blocked or controlled."
+            },
+            {
+              "word": "volatility",
+              "definition": "A situation where prices or conditions change suddenly and unpredictably, often dramatically."
+            },
+            {
+              "word": "geopolitical",
+              "definition": "Relating to how geography, power, and international politics influence relationships between countries."
+            },
+            {
+              "word": "adversarial",
+              "definition": "Describing a relationship involving opposition, conflict, or competition between two sides."
+            },
+            {
+              "word": "de-escalation",
+              "definition": "A reduction in the intensity or seriousness of a conflict or tense situation."
+            }
+          ],
+          "questionB2": "Given the deeply adversarial history between the US and Iran, how likely is it that this agreement will lead to genuine de-escalation, and what conditions would need to be met for it to hold?"
+        },
+        {
+          "id": "1781503011220viny",
+          "title": "‘Super El Niño’ is officially here, scientists say. What can we expect?",
+          "source": "The Guardian Environment",
+          "originalUrl": "https://www.theguardian.com/environment/2026/apr/13/el-nino-explainer",
+          "category": "environment",
+          "date": "2026-06-11",
+          "summaryB1": "El Niño has officially arrived, according to scientists at the National Oceanic and Atmospheric Administration (Noaa) in the United States. This is a natural weather pattern that happens in the Pacific Ocean, but this time it could be unusually powerful. Experts are calling it a 'super El Niño' and say it may be the strongest of the century so far. Forecasters had already predicted that this phenomenon would develop during the summer months. When El Niño occurs, it warms ocean waters in the Pacific, and this affects weather all around the world. A super El Niño can supercharge extreme weather events, making storms, floods, and droughts worse than normal. Scientists are also warning that global temperatures could reach record highs because of it. This is especially worrying because temperatures are already rising due to climate change. When El Niño combines with the general warming of the planet, the effects can be very serious. People living in areas that are already affected by extreme weather may face even greater challenges. Understanding this phenomenon helps governments and communities prepare for what could be a very difficult period of unusual and dangerous weather conditions around the world.",
+          "vocabularyB1": [
+            {
+              "word": "phenomenon",
+              "definition": "An event or fact in nature that is interesting or unusual and worth studying."
+            },
+            {
+              "word": "forecasters",
+              "definition": "People whose job is to predict future weather or other events using data."
+            },
+            {
+              "word": "supercharge",
+              "definition": "To make something much more powerful or intense than it normally would be."
+            },
+            {
+              "word": "extreme weather",
+              "definition": "Very unusual and dangerous weather events, such as floods, droughts, or big storms."
+            },
+            {
+              "word": "record highs",
+              "definition": "The highest levels ever measured or recorded for something, such as temperature."
+            }
+          ],
+          "questionB1": "If forecasters warn about extreme weather caused by El Niño, what do you think governments and ordinary people should do to prepare?",
+          "summaryB2": "Scientists at the United States' National Oceanic and Atmospheric Administration (Noaa) have officially confirmed the arrival of El Niño, the climate pattern driven by warming of Pacific Ocean surface waters that periodically disrupts global weather systems. What makes this development particularly alarming is the scale of the event: experts predict this could be the most powerful El Niño of the century, earning it the label 'super El Niño'. The confirmation comes after months of anticipation, with forecasters having already flagged the likelihood of such an event emerging over the summer. El Niño events are known to amplify extreme weather events worldwide — intensifying hurricanes, prolonging droughts, and triggering devastating floods across different regions simultaneously. A super El Niño is expected to supercharge these effects, potentially pushing global temperatures to unprecedented record highs. This prospect is especially sobering given that the world is already experiencing sustained warming as a result of human-caused climate change. Scientists warn that when El Niño overlaps with the existing warming trend, the compounding effect on global temperatures can be dramatic and far-reaching. The implications for food security, public health, and infrastructure in vulnerable regions are considerable. While El Niño is a natural, cyclical phenomenon, its interaction with man-made climate change means its consequences are now more severe than in previous decades, making international preparedness and coordinated response more urgent than ever.",
+          "vocabularyB2": [
+            {
+              "word": "amplify",
+              "definition": "To make something stronger, louder, or more intense in its effects."
+            },
+            {
+              "word": "unprecedented",
+              "definition": "Never having happened or existed before; at a level never previously recorded."
+            },
+            {
+              "word": "compounding effect",
+              "definition": "When two or more problems combine to create a result that is worse than each alone."
+            },
+            {
+              "word": "cyclical",
+              "definition": "Happening in repeated patterns or regular cycles over a period of time."
+            },
+            {
+              "word": "sobering",
+              "definition": "Making you feel serious and thoughtful, often because something is worrying or alarming."
+            }
+          ],
+          "questionB2": "Given the compounding effect of El Niño and long-term climate change, how should policymakers balance immediate disaster response with addressing the cyclical and structural causes of escalating extreme weather?"
+        },
+        {
+          "id": "1781503033019qel4",
+          "title": "UK sets out AI infrastructure push at London Tech Week – how does it stack up?",
+          "source": "The Guardian Tech",
+          "originalUrl": "https://www.theguardian.com/technology/2026/jun/13/uk-ai-hardware-london-tech-week-investment-chips",
+          "category": "technology",
+          "date": "2026-06-13",
+          "summaryB1": "During London Tech Week, the UK government announced plans to spend billions of pounds on artificial intelligence. The goal is to build better AI infrastructure, which means the systems and tools needed to develop and run AI technology. This includes chips, which are small electronic parts that power computers and AI programmes. The government wants the UK to have more control over these technologies, which are currently dominated by the United States and China. Officials also talked about skills training and new rules for social media. Some of the announcements were completely new ideas, while others were updates to plans already shared before. Countries around the world are trying to assert their position in the AI economy, meaning they want a strong role in how this technology develops. For the UK government, London Tech Week was a chance to show that the country has a clear growth story. However, journalists and experts are asking questions about whether these proposals will actually work in practice. It is not always clear how the government plans to invest the money or what results to expect. The debate about who should own and control AI is growing, and the UK is trying to find its place in this global competition.",
+          "vocabularyB1": [
+            {
+              "word": "infrastructure",
+              "definition": "The basic systems and structures needed for something to work, like roads or computer networks"
+            },
+            {
+              "word": "chips",
+              "definition": "Small electronic parts inside computers that process information and power technology"
+            },
+            {
+              "word": "assert",
+              "definition": "To state or show something confidently, or to claim a position firmly"
+            },
+            {
+              "word": "proposals",
+              "definition": "Official suggestions or plans that have been put forward for others to consider"
+            },
+            {
+              "word": "growth story",
+              "definition": "A positive account of how a country or company is developing and becoming more successful"
+            }
+          ],
+          "questionB1": "Do you think a government's proposals to invest in technology infrastructure can really help a country compete globally? Why or why not?",
+          "summaryB2": "London Tech Week served as the backdrop for a series of government announcements aimed at positioning the UK as a serious player in the global AI economy. With AI dominance firmly in the hands of the United States and China, the UK is attempting to carve out its own sphere of influence through investment in chips, digital infrastructure, and workforce development. Officials unveiled billions in planned spending, alongside commitments on social media regulation, framing the whole package as evidence of a coherent industrial strategy. However, observers were quick to scrutinise the substance behind the announcements. Several measures appeared to repackage previously disclosed commitments rather than represent genuinely new funding or policy directions. This raises questions about the government's capacity to deliver on its assertive narrative around AI. The commanding heights of the AI economy — a phrase with clear political resonance — are increasingly contested terrain, with nations worldwide vying for strategic advantage. For the UK, post-Brexit and eager to demonstrate economic momentum, tech investment has become a central plank of its growth agenda. Yet sceptics argue that without clarity on implementation, such announcements risk amounting to little more than political positioning. Whether the UK can translate these stated ambitions into tangible outcomes remains an open question, and one that London Tech Week, for all its fanfare, did not definitively answer.",
+          "vocabularyB2": [
+            {
+              "word": "scrutinise",
+              "definition": "To examine something very carefully and critically, looking for problems or weaknesses"
+            },
+            {
+              "word": "repackage",
+              "definition": "To present existing ideas or policies in a new way to make them seem fresh or different"
+            },
+            {
+              "word": "resonance",
+              "definition": "The quality of having a strong meaning or emotional effect for a particular audience"
+            },
+            {
+              "word": "tangible",
+              "definition": "Real and concrete, able to be clearly seen or measured rather than just theoretical"
+            },
+            {
+              "word": "fanfare",
+              "definition": "A lot of public excitement, attention, and praise surrounding an event or announcement"
+            }
+          ],
+          "questionB2": "Given that several announcements at London Tech Week appeared to repackage existing policies, how should citizens and journalists scrutinise government claims about AI investment and industrial strategy?"
+        }
+      ]
+    },
+    {
       "generated": "2026-06-08T10:04:40.170Z",
       "week": "2026-W23",
       "articles": [
@@ -675,13 +2025,7 @@
           ],
           "questionB1": "If AI can develop without human guidance, what responsibilities do governments and companies have to keep oversight of the technology?",
           "questionB2": "Given that even Anthropic's co-founder appears to harbour doubts about AI's trajectory, how confident can we be that existing safeguards are sufficient to prevent autonomous development?"
-        }
-      ]
-    },
-    {
-      "generated": "2026-06-08T07:43:06.014Z",
-      "week": "2026-W23",
-      "articles": [
+        },
         {
           "id": "17809044495453jws",
           "title": "Astronauts return to ISS after sheltering during air leak repair attempt",

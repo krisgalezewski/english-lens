@@ -50,6 +50,20 @@ async function main() {
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const parser = new Parser({ timeout: 10000 });
 
+  // 0. Guard: if an edition was already generated today, skip to avoid double-runs
+  try {
+    const existing = await fs.readFile('news.json', 'utf8');
+    const existingArchive = JSON.parse(existing);
+    if (existingArchive.editions && existingArchive.editions.length > 0) {
+      const latestDate = existingArchive.editions[0].generated.slice(0, 10);
+      const today = new Date().toISOString().slice(0, 10);
+      if (latestDate === today) {
+        console.log(`⏭  Already ran today (${today}) — skipping to prevent duplicate edition.`);
+        process.exit(0);
+      }
+    }
+  } catch { /* no existing file, continue */ }
+
   // 1. Fetch all RSS feeds
   const candidates = await fetchAllFeeds(parser);
   console.log(`📥  Fetched ${candidates.length} candidate articles`);
@@ -190,6 +204,24 @@ ${list}`
 
 // ── ARTICLE SELECTION ─────────────────────────────────────────────────────────
 
+// Extract key topic words from a title for similarity comparison
+function topicWords(title) {
+  const stopWords = new Set(['the','a','an','in','on','at','to','for','of','and','or','but',
+    'is','are','was','were','be','been','has','have','had','will','would','could','should',
+    'with','from','by','as','its','it','this','that','new','over','after','how','why',
+    'what','who','when','where','says','said','report','reports']);
+  return title.toLowerCase().replace(/[^a-z0-9 ]/g, '').split(' ')
+    .filter(w => w.length > 3 && !stopWords.has(w));
+}
+
+// Check if two titles share significant topic overlap
+function topicsOverlap(titleA, titleB) {
+  const wordsA = new Set(topicWords(titleA));
+  const wordsB = topicWords(titleB);
+  const shared = wordsB.filter(w => wordsA.has(w));
+  return shared.length >= 2; // 2+ shared content words = same topic
+}
+
 function selectBalanced(articles, total, maxPerCat) {
   const byCat = {};
   for (const a of articles) {
@@ -198,14 +230,39 @@ function selectBalanced(articles, total, maxPerCat) {
   }
 
   const selected = [];
+  const usedSources = {}; // track source usage counts
   let round = 0;
+
   while (selected.length < total && round < maxPerCat) {
     for (const cat of Object.keys(byCat)) {
       if (selected.length >= total) break;
-      if (byCat[cat][round]) selected.push(byCat[cat][round]);
+
+      // Find next article in this category that:
+      // 1. Doesn't overlap in topic with already-selected articles in same category
+      // 2. Isn't from a source already over-represented (max 3 per source)
+      const selectedInCat = selected.filter(s => s.category === cat);
+      const candidates = byCat[cat].filter(a => {
+        // Topic diversity check within category
+        const topicClash = selectedInCat.some(s => topicsOverlap(s.title, a.title));
+        if (topicClash) return false;
+        // Source variety check globally
+        const sourceCount = usedSources[a.source] || 0;
+        if (sourceCount >= 3) return false;
+        return true;
+      });
+
+      if (candidates[0]) {
+        selected.push(candidates[0]);
+        usedSources[candidates[0].source] = (usedSources[candidates[0].source] || 0) + 1;
+        // Remove picked article from pool
+        byCat[cat] = byCat[cat].filter(a => a !== candidates[0]);
+      }
     }
     round++;
   }
+
+  // Log source distribution
+  console.log('📊  Source distribution:', Object.entries(usedSources).map(([s,n]) => `${s}(${n})`).join(', '));
   return selected;
 }
 
