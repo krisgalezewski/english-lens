@@ -179,7 +179,10 @@ async function enrichWithCaptions(pool, category) {
   for (const video of sorted) {
     const transcript = await getTranscript(video.videoId);
     if (transcript && transcript.split(' ').length > 50) {
+      console.log(`    ✅ Captions OK for "${video.title.slice(0, 50)}" (${transcript.split(' ').length} words)`);
       return { ...video, transcript };
+    } else {
+      console.log(`    ⏭  No usable captions for "${video.title.slice(0, 50)}" (${video.videoId})`);
     }
   }
   return null;
@@ -294,15 +297,62 @@ function formatDuration(seconds) {
 // ── TRANSCRIPT FETCHING ────────────────────────────────────────────────────────
 
 async function getTranscript(videoId) {
-  // YouTube doesn't offer a simple public captions API without OAuth for arbitrary
-  // videos, so we use the timedtext endpoint which works for auto-generated captions
-  // on most public videos.
+  // Strategy: first fetch the video's watch page HTML to discover the actual
+  // caption track URL (this is more reliable than guessing timedtext params
+  // directly, since auto-caption tracks need exact lang/kind values that vary
+  // per video). Fall back to a direct timedtext guess if that fails.
+
   try {
-    const url = `https://www.youtube.com/api/timedtext?lang=en&v=${videoId}&fmt=json3`;
-    const res = await fetch(url);
-    if (!res.ok) return null;
-    const data = await res.json();
-    if (!data.events) return null;
+    const watchUrl = `https://www.youtube.com/watch?v=${videoId}`;
+    const pageRes = await fetch(watchUrl, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }
+    });
+    if (!pageRes.ok) {
+      console.log(`      ⚠️  Watch page fetch failed: HTTP ${pageRes.status}`);
+      return null;
+    }
+    const html = await pageRes.text();
+
+    // Find the captionTracks JSON embedded in the page
+    const match = html.match(/"captionTracks":(\[.*?\])/);
+    if (!match) {
+      console.log(`      ⚠️  No captionTracks found in watch page (video may have no captions)`);
+      return null;
+    }
+
+    let tracks;
+    try {
+      tracks = JSON.parse(match[1]);
+    } catch {
+      console.log(`      ⚠️  Failed to parse captionTracks JSON`);
+      return null;
+    }
+
+    if (!tracks.length) {
+      console.log(`      ⚠️  captionTracks array is empty`);
+      return null;
+    }
+
+    // Prefer an English track; fall back to the first available track
+    const track = tracks.find(t => (t.languageCode || '').startsWith('en')) || tracks[0];
+    if (!track || !track.baseUrl) {
+      console.log(`      ⚠️  No usable caption track URL found`);
+      return null;
+    }
+
+    // baseUrl comes HTML-escaped (e.g. \u0026 for &) — decode it
+    const captionUrl = track.baseUrl.replace(/\\u0026/g, '&');
+
+    const capRes = await fetch(captionUrl + '&fmt=json3');
+    if (!capRes.ok) {
+      console.log(`      ⚠️  Caption track fetch failed: HTTP ${capRes.status}`);
+      return null;
+    }
+    const data = await capRes.json();
+    if (!data.events) {
+      console.log(`      ⚠️  Caption track had no events`);
+      return null;
+    }
 
     const text = data.events
       .filter(e => e.segs)
@@ -313,7 +363,8 @@ async function getTranscript(videoId) {
       .trim();
 
     return text || null;
-  } catch {
+  } catch (err) {
+    console.log(`      ⚠️  getTranscript threw: ${err.message}`);
     return null;
   }
 }
