@@ -32,6 +32,18 @@ Every Monday at 07:30 Warsaw time, a GitHub Actions workflow:
 - Name: `ANTHROPIC_API_KEY`
 - Value: your key from [console.anthropic.com](https://console.anthropic.com)
 
+### 3b. Add your YouTube API key (for the Videos tab)
+- Go to [console.cloud.google.com](https://console.cloud.google.com)
+- Create a new project (or use an existing one)
+- Search for **"YouTube Data API v3"** and click **Enable**
+- Go to **Credentials → Create Credentials → API key**
+- Copy the key
+- Back in your GitHub repo: **Settings → Secrets and variables → Actions → New repository secret**
+- Name: `YOUTUBE_API_KEY`
+- Value: the key you just copied
+
+This is optional — if you skip it, the article Lens works exactly as before, the Videos tab will just stay empty.
+
 ### 4. Test manually
 - Go to **Actions → Weekly News Fetch → Run workflow**
 - Watch the logs — it should complete in ~3 minutes

@@ -573,6 +573,214 @@
       margin-top: 2px;
     }
 
+    /* ── VIDEOS ── */
+    .cat-btn-videos { color: var(--accent); }
+    .cat-btn-videos.active { border-bottom-color: var(--accent); }
+
+    /* Small inline video strip (shown above articles in category views) */
+    .video-strip {
+      margin-bottom: 32px;
+    }
+    .video-strip-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--ink-muted);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .video-strip-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 14px;
+    }
+    .video-tile-small {
+      background: var(--paper-card);
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+    }
+    .video-tile-small:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+    .video-thumb-wrap {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #000;
+      overflow: hidden;
+    }
+    .video-thumb-wrap img {
+      width: 100%; height: 100%; object-fit: cover; display: block;
+    }
+    .video-play-badge {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(15,15,14,0.15);
+    }
+    .video-play-badge::after {
+      content: '▶';
+      width: 38px; height: 38px;
+      background: rgba(15,15,14,0.75);
+      border-radius: 50%;
+      color: white;
+      font-size: 13px;
+      display: flex; align-items: center; justify-content: center;
+      padding-left: 2px;
+    }
+    .video-duration {
+      position: absolute;
+      bottom: 6px; right: 6px;
+      background: rgba(15,15,14,0.85);
+      color: white;
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 2px;
+      font-weight: 500;
+    }
+    .video-tile-title-small {
+      padding: 10px 12px;
+      font-size: 12.5px;
+      font-weight: 500;
+      line-height: 1.4;
+      color: var(--ink);
+    }
+    .video-tile-channel-small {
+      padding: 0 12px 10px;
+      font-size: 10.5px;
+      color: var(--ink-muted);
+    }
+
+    /* Big video tiles (Videos tab grid) — match article card sizing */
+    .video-tile-big {
+      background: var(--paper-card);
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+      display: flex;
+      flex-direction: column;
+      min-height: 200px;
+    }
+    .video-tile-big:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+    .video-tile-big .video-thumb-wrap { aspect-ratio: 16/10; }
+    .video-tile-big-body { padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+
+    /* Video modal contents */
+    .video-embed-wrap {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #000;
+    }
+    .video-embed-wrap iframe {
+      position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+    }
+    .video-summary-box {
+      padding: 16px 0 0;
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--ink-soft);
+    }
+
+    .task-section { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--rule); }
+    .task-section-title {
+      font-family: var(--font-display);
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 14px;
+    }
+    .task-item { margin-bottom: 18px; }
+    .task-question {
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .task-options { display: flex; flex-direction: column; gap: 6px; }
+    .task-option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 12px;
+      background: var(--paper);
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 13px;
+      color: var(--ink-soft);
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .task-option:hover { background: var(--paper-warm); }
+    .task-option.correct { background: #e8f2ec; border-color: #4a6b2d; color: var(--ink); }
+    .task-option.incorrect { background: #f7e8e6; border-color: var(--accent); color: var(--ink); }
+    .task-option.disabled { pointer-events: none; }
+
+    .tf-row { display: flex; gap: 8px; margin-top: 6px; }
+    .tf-btn {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid var(--rule);
+      background: var(--paper);
+      cursor: pointer;
+      color: var(--ink-soft);
+      transition: background 0.15s;
+    }
+    .tf-btn:hover { background: var(--paper-warm); }
+    .tf-btn.correct { background: #e8f2ec; border-color: #4a6b2d; color: var(--ink); }
+    .tf-btn.incorrect { background: #f7e8e6; border-color: var(--accent); color: var(--ink); }
+    .tf-btn.disabled { pointer-events: none; opacity: 0.85; }
+
+    .order-list { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+    .order-item {
+      padding: 10px 14px;
+      background: var(--paper);
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      font-size: 13px;
+      cursor: grab;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      user-select: none;
+    }
+    .order-item.dragging { opacity: 0.5; }
+    .order-num {
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: var(--accent);
+      min-width: 20px;
+    }
+    .order-check-btn {
+      margin-top: 12px;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 7px 16px;
+      border-radius: 20px;
+      border: none;
+      background: var(--ink);
+      color: white;
+      cursor: pointer;
+    }
+    .order-check-btn:hover { background: var(--accent); }
+    .order-feedback {
+      margin-top: 10px;
+      font-size: 12.5px;
+      font-weight: 500;
+    }
+    .order-feedback.correct-msg { color: #2d5a3d; }
+    .order-feedback.incorrect-msg { color: var(--accent); }
+
     .modal-close {
       position: absolute;
       top: -14px;
@@ -653,6 +861,7 @@
     <button class="cat-btn" data-cat="technology">Technology</button>
     <button class="cat-btn" data-cat="environment">Environment</button>
     <button class="cat-btn" data-cat="culture">Culture</button>
+    <button class="cat-btn cat-btn-videos" data-cat="videos">🎬 Videos</button>
     <div class="cat-divider"></div>
     <div class="search-wrap" role="search">
       <input class="search-input" id="search-input" type="search" placeholder="Search articles…" aria-label="Search articles" />
@@ -691,6 +900,7 @@
   };
 
   let allEditions = [];   // [{generated, week, articles:[...]}, ...]
+  let allVideoEditions = []; // [{generated, videos:[...]}, ...]
   let activeCategory = 'all';
   let searchQuery = '';
 
@@ -722,6 +932,15 @@
       document.getElementById('article-count').textContent =
         total + ' article' + (total !== 1 ? 's' : '') + ' in archive';
 
+      // Load videos (non-fatal if missing)
+      try {
+        const vRes = await fetch('videos.json?v=' + Date.now());
+        if (vRes.ok) {
+          const vData = await vRes.json();
+          allVideoEditions = vData.editions || [];
+        }
+      } catch { /* videos.json may not exist yet — fine */ }
+
       renderArticles();
     } catch (e) {
       document.getElementById('loading').textContent =
@@ -729,12 +948,60 @@
     }
   }
 
+  // Get the latest video for a given category (or null)
+  function latestVideoForCategory(cat) {
+    for (const ed of allVideoEditions) {
+      const v = (ed.videos || []).find(v => v.category === cat);
+      if (v) return v;
+    }
+    return null;
+  }
+
+  function formatVidDuration(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    return m + ':' + String(s).padStart(2, '0');
+  }
+
   // ── RENDER ────────────────────────────────────────────────────────────────
 
   function renderArticles() {
     const main = document.getElementById('main-content');
+
+    // ── VIDEOS TAB: render the dedicated videos grid instead of articles ──
+    if (activeCategory === 'videos') {
+      renderVideosTab(main);
+      return;
+    }
+
     let html = '';
     let totalShown = 0;
+
+    // ── Video strip above articles (only for a single selected category, not "all", not search) ──
+    if (activeCategory !== 'all' && !searchQuery) {
+      const vid = latestVideoForCategory(activeCategory);
+      if (vid) {
+        html += `<div class="video-strip">
+          <div class="video-strip-label">🎬 This week's ${CAT_LABELS[activeCategory] || activeCategory} video</div>
+          <div class="video-strip-grid" style="grid-template-columns: minmax(220px, 320px);">
+            ${videoTileSmallHtml(vid, 0)}
+          </div>
+        </div>`;
+      }
+    }
+
+    // ── "All" view: show a row of all this edition's videos above the articles ──
+    if (activeCategory === 'all' && !searchQuery && allVideoEditions[0]) {
+      const vids = allVideoEditions[0].videos || [];
+      if (vids.length) {
+        html += `<div class="video-strip">
+          <div class="video-strip-label">🎬 This week's videos</div>
+          <div class="video-strip-grid">
+            ${vids.map((v, i) => videoTileSmallHtml(v, i)).join('')}
+          </div>
+        </div>`;
+      }
+    }
 
     allEditions.forEach((edition, ei) => {
       const articles = (edition.articles || []).filter(a => {
@@ -830,6 +1097,225 @@
         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(+card.dataset.edition, card.dataset.id); }
       });
     });
+
+    main.querySelectorAll('.video-tile-small, .video-tile-big').forEach(tile => {
+      const activate = () => openVideoModal(+tile.dataset.vedition, tile.dataset.vid);
+      tile.addEventListener('click', activate);
+      tile.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); } });
+    });
+  }
+
+  // ── VIDEOS TAB & TILES ───────────────────────────────────────────────────────
+
+  function videoTileSmallHtml(video, editionIdx) {
+    return `<div class="video-tile-small" data-vedition="${editionIdx}" data-vid="${escAttr(video.videoId)}" tabindex="0" role="button" aria-label="Watch: ${escAttr(video.title)}">
+      <div class="video-thumb-wrap">
+        <img src="${escAttr(video.thumbnail)}" alt="" loading="lazy" />
+        <div class="video-play-badge"></div>
+        <div class="video-duration">${formatVidDuration(video.durationSeconds)}</div>
+      </div>
+      <div class="video-tile-title-small">${escHtml(video.title)}</div>
+      <div class="video-tile-channel-small">${escHtml(video.channel)}</div>
+    </div>`;
+  }
+
+  function videoTileBigHtml(video, editionIdx) {
+    return `<div class="video-tile-big" data-vedition="${editionIdx}" data-vid="${escAttr(video.videoId)}" tabindex="0" role="button" aria-label="Watch: ${escAttr(video.title)}">
+      <div class="video-thumb-wrap">
+        <img src="${escAttr(video.thumbnail)}" alt="" loading="lazy" />
+        <div class="video-play-badge"></div>
+        <div class="video-duration">${formatVidDuration(video.durationSeconds)}</div>
+      </div>
+      <div class="video-tile-big-body">
+        <span class="card-cat" style="${catStyle(video.category)};align-self:flex-start;">${CAT_LABELS[video.category] || video.category}</span>
+        <h3 class="card-title" style="font-size:16px;">${escHtml(video.title)}</h3>
+        <div class="card-source">${escHtml(video.channel)}</div>
+      </div>
+    </div>`;
+  }
+
+  function renderVideosTab(main) {
+    if (!allVideoEditions.length || !(allVideoEditions[0].videos || []).length) {
+      main.innerHTML = `<div class="empty-cat">No videos available yet. Check back after the next weekly update!</div>`;
+      return;
+    }
+
+    let html = '';
+    allVideoEditions.forEach((edition, ei) => {
+      const videos = edition.videos || [];
+      if (!videos.length) return;
+      const d = new Date((edition.generated || '').replace(/\+\d{2}:\d{2}$/, 'Z'));
+      const dateStr = isNaN(d.getTime()) ? '' : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+      const isLatest = ei === 0;
+
+      html += `<div class="edition-block">`;
+      html += `<div class="edition-header">
+        ${isLatest ? '<span class="edition-label" style="color:var(--accent)">Latest</span>' : '<span class="edition-label">Edition</span>'}
+        <span class="edition-date">${dateStr}</span>
+      </div>`;
+      html += `<div class="video-strip-grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));">`;
+      videos.forEach(v => { html += videoTileBigHtml(v, ei); });
+      html += `</div></div>`;
+    });
+
+    main.innerHTML = html;
+
+    main.querySelectorAll('.video-tile-small, .video-tile-big').forEach(tile => {
+      const activate = () => openVideoModal(+tile.dataset.vedition, tile.dataset.vid);
+      tile.addEventListener('click', activate);
+      tile.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); } });
+    });
+  }
+
+  // ── VIDEO MODAL ───────────────────────────────────────────────────────────────
+
+  function openVideoModal(editionIdx, videoId) {
+    const edition = allVideoEditions[editionIdx];
+    if (!edition) return;
+    const v = (edition.videos || []).find(x => x.videoId === videoId);
+    if (!v) return;
+
+    document.getElementById('modal-head').innerHTML = `
+      <span class="card-cat" style="${catStyle(v.category)}">${CAT_LABELS[v.category] || v.category}</span>
+      <h2 class="modal-title" id="modal-title-text">${escHtml(v.title)}</h2>
+      <div class="modal-byline">
+        <span>${escHtml(v.channel)}</span>
+        <span>${formatVidDuration(v.durationSeconds)}</span>
+      </div>`;
+
+    const mc = (v.multipleChoice || []).map((q, qi) => `
+      <div class="task-item" data-mc-idx="${qi}">
+        <div class="task-question">${qi + 1}. ${escHtml(q.question)}</div>
+        <div class="task-options">
+          ${q.options.map((opt, oi) => `<div class="task-option" data-correct="${oi === q.correctIndex}" data-oi="${oi}">${escHtml(opt)}</div>`).join('')}
+        </div>
+      </div>`).join('');
+
+    const tf = (v.trueFalse || []).map((item, ti) => `
+      <div class="task-item" data-tf-idx="${ti}">
+        <div class="task-question">${ti + 1}. ${escHtml(item.statement)}</div>
+        <div class="tf-row">
+          <button class="tf-btn" data-val="true" data-correct="${item.answer === true}">True</button>
+          <button class="tf-btn" data-val="false" data-correct="${item.answer === false}">False</button>
+        </div>
+      </div>`).join('');
+
+    const orderItems = v.ordering && v.ordering.items ? v.ordering.items : [];
+    const shuffled = [...orderItems].sort(() => Math.random() - 0.5);
+    const orderHtml = orderItems.length ? `
+      <div class="task-item">
+        <div class="task-question">${escHtml((v.ordering && v.ordering.instruction) || 'Put these in the correct order')}</div>
+        <div class="order-list" id="order-list">
+          ${shuffled.map((item, i) => `<div class="order-item" draggable="true" data-original="${escAttr(item)}">
+            <span class="order-num">${i + 1}</span><span>${escHtml(item)}</span>
+          </div>`).join('')}
+        </div>
+        <button class="order-check-btn" id="order-check-btn">Check order</button>
+        <div class="order-feedback" id="order-feedback"></div>
+      </div>` : '';
+
+    document.getElementById('modal-body').innerHTML = `
+      <div class="video-embed-wrap">
+        <iframe src="https://www.youtube.com/embed/${escAttr(v.videoId)}" title="${escAttr(v.title)}"
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      ${v.summary ? `<p class="video-summary-box">${escHtml(v.summary)}</p>` : ''}
+
+      ${mc ? `<div class="task-section">
+        <div class="task-section-title">📝 Comprehension — Multiple Choice</div>
+        ${mc}
+      </div>` : ''}
+
+      ${tf ? `<div class="task-section">
+        <div class="task-section-title">✅ True or False</div>
+        ${tf}
+      </div>` : ''}
+
+      ${orderHtml ? `<div class="task-section">
+        <div class="task-section-title">🔢 Put It In Order</div>
+        ${orderHtml}
+      </div>` : ''}
+    `;
+
+    // Multiple choice click handling
+    document.querySelectorAll('#modal-body .task-option').forEach(opt => {
+      opt.addEventListener('click', () => {
+        const item = opt.closest('.task-item');
+        if (item.classList.contains('answered')) return;
+        item.classList.add('answered');
+        item.querySelectorAll('.task-option').forEach(o => {
+          o.classList.add('disabled');
+          if (o.dataset.correct === 'true') o.classList.add('correct');
+        });
+        if (opt.dataset.correct !== 'true') opt.classList.add('incorrect');
+      });
+    });
+
+    // True/False click handling
+    document.querySelectorAll('#modal-body .tf-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.task-item');
+        if (item.classList.contains('answered')) return;
+        item.classList.add('answered');
+        item.querySelectorAll('.tf-btn').forEach(b => {
+          b.classList.add('disabled');
+          if (b.dataset.correct === 'true') b.classList.add('correct');
+        });
+        if (btn.dataset.correct !== 'true') btn.classList.add('incorrect');
+      });
+    });
+
+    // Drag-and-drop ordering
+    const orderList = document.getElementById('order-list');
+    if (orderList) {
+      let dragEl = null;
+      orderList.querySelectorAll('.order-item').forEach(item => {
+        item.addEventListener('dragstart', () => { dragEl = item; item.classList.add('dragging'); });
+        item.addEventListener('dragend', () => { item.classList.remove('dragging'); renumberOrderList(); });
+        item.addEventListener('dragover', e => {
+          e.preventDefault();
+          const after = getDragAfterElement(orderList, e.clientY);
+          if (after == null) orderList.appendChild(dragEl);
+          else orderList.insertBefore(dragEl, after);
+        });
+      });
+
+      document.getElementById('order-check-btn').addEventListener('click', () => {
+        const current = [...orderList.querySelectorAll('.order-item')].map(i => i.dataset.original);
+        const isCorrect = JSON.stringify(current) === JSON.stringify(orderItems);
+        const feedback = document.getElementById('order-feedback');
+        if (isCorrect) {
+          feedback.textContent = '✅ Correct order!';
+          feedback.className = 'order-feedback correct-msg';
+        } else {
+          feedback.textContent = '❌ Not quite right — try dragging the items again.';
+          feedback.className = 'order-feedback incorrect-msg';
+        }
+      });
+    }
+
+    document.getElementById('modal-overlay').classList.add('open');
+    document.getElementById('modal-overlay').scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function renumberOrderList() {
+    document.querySelectorAll('#order-list .order-item').forEach((item, i) => {
+      item.querySelector('.order-num').textContent = (i + 1) + '';
+    });
+  }
+
+  function getDragAfterElement(container, y) {
+    const items = [...container.querySelectorAll('.order-item:not(.dragging)')];
+    return items.reduce((closest, child) => {
+      const box = child.getBoundingClientRect();
+      const offset = y - box.top - box.height / 2;
+      if (offset < 0 && offset > closest.offset) {
+        return { offset, element: child };
+      }
+      return closest;
+    }, { offset: Number.NEGATIVE_INFINITY }).element;
   }
 
   // ── MODAL ─────────────────────────────────────────────────────────────────
