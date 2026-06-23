@@ -994,7 +994,7 @@
       if (vid) {
         html += `<div class="video-strip">
           <div class="video-strip-label">🎬 This week's ${CAT_LABELS[activeCategory] || activeCategory} video</div>
-          <div class="video-strip-grid" style="grid-template-columns: minmax(220px, 320px);">
+          <div class="video-strip-grid video-strip-grid-all">
             ${videoTileSmallHtml(vid, 0)}
           </div>
         </div>`;

@@ -193,7 +193,10 @@ async function searchChannelsForVideos(channelNames, searchHint) {
   for (const channelName of channelNames) {
     try {
       const channelId = await resolveChannelId(channelName);
-      if (!channelId) continue;
+      if (!channelId) {
+        console.log(`    ⚠️  Could not resolve channel ID for "${channelName}" — skipping it.`);
+        continue;
+      }
 
       const searchUrl = `https://www.googleapis.com/youtube/v3/search?key=${YT_API_KEY}` +
         `&channelId=${channelId}&part=snippet&order=date&type=video&maxResults=8` +
@@ -201,16 +204,34 @@ async function searchChannelsForVideos(channelNames, searchHint) {
 
       const res = await fetch(searchUrl);
       const data = await res.json();
-      if (!data.items) continue;
 
-      const videoIds = data.items.map(i => i.id.videoId).join(',');
-      if (!videoIds) continue;
+      if (data.error) {
+        console.log(`    ❌ YouTube API error for "${channelName}": ${data.error.message} (code ${data.error.code})`);
+        continue;
+      }
+      if (!data.items || !data.items.length) {
+        console.log(`    ↳ "${channelName}": 0 search results for query "${searchHint}"`);
+        continue;
+      }
+
+      const videoIds = data.items.map(i => i.id.videoId).filter(Boolean).join(',');
+      if (!videoIds) {
+        console.log(`    ↳ "${channelName}": search returned items but no usable video IDs`);
+        continue;
+      }
 
       // Get duration + better metadata via videos.list
       const detailsUrl = `https://www.googleapis.com/youtube/v3/videos?key=${YT_API_KEY}` +
         `&id=${videoIds}&part=contentDetails,snippet`;
       const detailsRes = await fetch(detailsUrl);
       const detailsData = await detailsRes.json();
+
+      if (detailsData.error) {
+        console.log(`    ❌ YouTube API error (videos.list) for "${channelName}": ${detailsData.error.message}`);
+        continue;
+      }
+
+      console.log(`    ↳ "${channelName}": found ${(detailsData.items || []).length} video(s)`);
 
       for (const item of (detailsData.items || [])) {
         allResults.push({
@@ -223,7 +244,7 @@ async function searchChannelsForVideos(channelNames, searchHint) {
         });
       }
     } catch (err) {
-      console.warn(`  ⚠️  Channel search failed (${channelName}): ${err.message}`);
+      console.warn(`    ⚠️  Channel search failed (${channelName}): ${err.message}`);
     }
   }
 
@@ -240,10 +261,18 @@ async function resolveChannelId(channelName) {
       `&q=${encodeURIComponent(channelName)}&part=snippet&type=channel&maxResults=1`;
     const res = await fetch(url);
     const data = await res.json();
+
+    if (data.error) {
+      console.log(`    ❌ YouTube API error resolving channel "${channelName}": ${data.error.message} (code ${data.error.code})`);
+      return null;
+    }
+
     const id = data.items?.[0]?.snippet?.channelId || data.items?.[0]?.id?.channelId;
     if (id) channelIdCache[channelName] = id;
+    else console.log(`    ↳ No channel found matching "${channelName}"`);
     return id || null;
-  } catch {
+  } catch (err) {
+    console.log(`    ⚠️  resolveChannelId threw for "${channelName}": ${err.message}`);
     return null;
   }
 }
