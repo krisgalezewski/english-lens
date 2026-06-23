@@ -42,7 +42,10 @@ async function main() {
   console.log('🎬 English Lens — starting weekly video fetch…');
 
   if (!YT_API_KEY) {
-    console.log('⚠️  No YOUTUBE_API_KEY set — skipping video fetch entirely.');
+    console.error('❌ YOUTUBE_API_KEY is not set. The video fetch cannot run.');
+    console.error('   Add it under: GitHub repo → Settings → Secrets and variables → Actions → New repository secret');
+    console.error('   Name it exactly: YOUTUBE_API_KEY');
+    process.exitCode = 1; // mark the step as failed so it's visible in the Actions log, but don't crash other steps
     return;
   }
 
@@ -58,8 +61,10 @@ async function main() {
     console.log('No existing videos.json — starting fresh archive.');
   }
 
-  // Guard against double-runs on the same day
-  if (archive.editions.length > 0) {
+  // Guard against double-runs on the same day (scheduled runs only —
+  // manual test runs via workflow_dispatch can always re-run)
+  const isManualRun = process.env.GITHUB_EVENT_NAME === 'workflow_dispatch';
+  if (archive.editions.length > 0 && !isManualRun) {
     const latestDate = archive.editions[0].generated.slice(0, 10);
     const today = new Date().toISOString().slice(0, 10);
     if (latestDate === today) {

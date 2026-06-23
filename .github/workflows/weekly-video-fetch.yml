@@ -1,19 +1,17 @@
-name: Weekly News Fetch
+name: Weekly Video Fetch
 
 on:
-  schedule:
-    # 05:30 UTC = 07:30 Warsaw (CEST, summer UTC+2)
-    # In winter (CET, UTC+1) this runs at 06:30 Warsaw — adjust if needed
-    - cron: '30 5 * * 1'
-
-  # Allow manual trigger from GitHub Actions tab (useful for testing)
+  # Manual trigger only for now, while we test the video feature.
+  # Once it's working reliably, we can add a schedule here too, e.g.:
+  # schedule:
+  #   - cron: '45 5 * * 1'   # 15 minutes after the article fetch
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  fetch-and-deploy:
+  fetch-videos-and-deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -29,17 +27,19 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Fetch and summarise news
+      - name: Fetch and process videos
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node fetch-news.js
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: node fetch-videos.js
 
-      - name: Commit updated news.json
+      - name: Commit updated videos.json
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "English Lens Bot"
-          git add news.json
-          git diff --staged --quiet || git commit -m "Weekly news update — $(date +'%Y-%m-%d')"
+          git add videos.json
+          git diff --staged --quiet || git commit -m "Video update — $(date +'%Y-%m-%d %H:%M')"
 
       - name: Push changes
         uses: ad-m/github-push-action@master

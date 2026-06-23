@@ -597,6 +597,10 @@
       grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
       gap: 14px;
     }
+    /* In the "All" view, keep video tiles compact (don't stretch to fill width) */
+    .video-strip-grid-all {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 200px));
+    }
     .video-tile-small {
       background: var(--paper-card);
       border: 1px solid var(--rule);
@@ -604,8 +608,17 @@
       overflow: hidden;
       cursor: pointer;
       transition: box-shadow 0.15s;
+      display: flex;
+      flex-direction: column;
     }
     .video-tile-small:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+    .video-tile-small-body {
+      padding: 10px 12px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .video-tile-small-body .card-cat { align-self: flex-start; }
     .video-thumb-wrap {
       position: relative;
       width: 100%;
@@ -645,14 +658,12 @@
       font-weight: 500;
     }
     .video-tile-title-small {
-      padding: 10px 12px;
       font-size: 12.5px;
       font-weight: 500;
       line-height: 1.4;
       color: var(--ink);
     }
     .video-tile-channel-small {
-      padding: 0 12px 10px;
       font-size: 10.5px;
       color: var(--ink-muted);
     }
@@ -996,8 +1007,8 @@
       if (vids.length) {
         html += `<div class="video-strip">
           <div class="video-strip-label">🎬 This week's videos</div>
-          <div class="video-strip-grid">
-            ${vids.map((v, i) => videoTileSmallHtml(v, i)).join('')}
+          <div class="video-strip-grid video-strip-grid-all">
+            ${vids.map(v => videoTileSmallHtml(v, 0)).join('')}
           </div>
         </div>`;
       }
@@ -1114,8 +1125,11 @@
         <div class="video-play-badge"></div>
         <div class="video-duration">${formatVidDuration(video.durationSeconds)}</div>
       </div>
-      <div class="video-tile-title-small">${escHtml(video.title)}</div>
-      <div class="video-tile-channel-small">${escHtml(video.channel)}</div>
+      <div class="video-tile-small-body">
+        <span class="card-cat" style="${catStyle(video.category)}">${CAT_LABELS[video.category] || video.category}</span>
+        <div class="video-tile-title-small">${escHtml(video.title)}</div>
+        <div class="video-tile-channel-small">${escHtml(video.channel)}</div>
+      </div>
     </div>`;
   }
 
