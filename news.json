@@ -1,6 +1,684 @@
 {
   "editions": [
     {
+      "generated": "2026-06-23T21:32:23.138Z",
+      "week": "2026-W25",
+      "articles": [
+        {
+          "id": "17822501071244ere",
+          "title": "Airbus under fresh scrutiny as EASA orders A380 inspections over wing cracks",
+          "source": "Euronews",
+          "originalUrl": "http://www.euronews.com/2026/06/23/airbus-under-fresh-scrutiny-as-easa-orders-a380-inspections-over-wing-cracks",
+          "category": "politics",
+          "date": "2026-06-23",
+          "summaryB1": "Airbus, one of the world's biggest makers of passenger planes, is facing new problems. The European Union Aviation Safety Agency, known as EASA, has ordered airlines to inspect their Airbus A380 aircraft. The inspections are needed because cracks have been found in the wings of some planes. The A380 is a very large double-deck aircraft used on long-distance routes around the world. Wing cracks can be dangerous, so safety authorities want to check all planes of this type as soon as possible. EASA is the official body responsible for making sure that aircraft in Europe are safe to fly. Airlines that operate the A380 must now carry out these checks and report their findings. This is not the only difficulty Airbus is dealing with at the moment. The company is also struggling with supply chain problems, which means it is having trouble getting the parts and materials it needs to build new planes. On top of that, its costs are growing across many areas of the business. These combined pressures put Airbus under scrutiny from both safety regulators and investors. The situation shows how even the most successful companies in the aviation industry can face serious challenges at the same time.",
+          "vocabularyB1": [
+            {
+              "word": "inspect",
+              "definition": "To look at something carefully to check for problems or damage"
+            },
+            {
+              "word": "cracks",
+              "definition": "Thin breaks or splits in a hard surface, such as metal or glass"
+            },
+            {
+              "word": "supply chain",
+              "definition": "The system of companies and processes that deliver parts or goods to a manufacturer"
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and close attention or examination of something"
+            },
+            {
+              "word": "regulators",
+              "definition": "Official organisations that make rules and check that companies follow them"
+            }
+          ],
+          "questionB1": "If you were an airline manager, how would you reassure passengers after regulators ordered safety inspections of your planes?",
+          "summaryB2": "The European Union Aviation Safety Agency has issued a directive ordering airlines worldwide to conduct mandatory inspections of Airbus A380 aircraft following the discovery of cracks in the wings of several planes. The A380, the world's largest commercial passenger jet, operates predominantly on high-capacity long-haul routes, meaning any airworthiness concerns carry wide-ranging consequences for global aviation. EASA, the body tasked with overseeing flight safety standards across Europe, has the authority to ground aircraft or impose operational restrictions if inspections reveal structural deficiencies that fall below acceptable safety thresholds. The directive places Airbus under fresh scrutiny at a particularly difficult moment for the manufacturer. The company is already contending with persistent supply chain disruptions that have hampered its ability to deliver new aircraft on schedule, while operational costs have been escalating across multiple divisions. Together, these pressures compound the reputational and financial strain on a business that competes directly with Boeing for dominance in the commercial aviation sector. Critics argue that the latest safety directive highlights the inherent complexity of maintaining ageing wide-body aircraft, many of which entered service over a decade ago. Airbus has not publicly commented on the extent of the wing deficiencies identified so far. Analysts will be watching closely to see whether the inspections uncover widespread structural deterioration or whether the issue proves to be limited in scope, as the outcome will likely influence investor confidence and airline procurement decisions in the months ahead.",
+          "vocabularyB2": [
+            {
+              "word": "airworthiness",
+              "definition": "The condition of an aircraft being safe and fit to fly according to official standards"
+            },
+            {
+              "word": "directive",
+              "definition": "An official instruction or order issued by an authority that must be followed"
+            },
+            {
+              "word": "deficiencies",
+              "definition": "Faults or weaknesses where something fails to meet a required standard"
+            },
+            {
+              "word": "compound",
+              "definition": "To make an already difficult situation worse by adding further problems"
+            },
+            {
+              "word": "deterioration",
+              "definition": "The process of something becoming gradually worse or weaker over time"
+            }
+          ],
+          "questionB2": "Given that Airbus is simultaneously facing supply chain disruptions and a safety directive over wing deficiencies, to what extent do these overlapping pressures risk undermining long-term confidence in the manufacturer?"
+        },
+        {
+          "id": "17822501306718wno",
+          "title": "Tech stocks tumble on concerns over AI spending",
+          "source": "BBC Business",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/c802gvxpyxzo?at_medium=RSS&at_campaign=rss",
+          "category": "business",
+          "date": "2026-06-23",
+          "summaryB1": "Tech stocks fell sharply this week after news about a new, cheaper Chinese AI model caused investors to worry about the future of AI spending. A Chinese company called DeepSeek released an AI assistant that reportedly costs much less to run than similar American products. This news made people question whether big US tech companies need to spend so much money building AI systems.\n\nShares in major technology firms dropped quickly. Nvidia, a company that makes computer chips used in AI, saw its share price fall by almost 17% in a single day. This was one of the biggest one-day losses in stock market history.\n\nInvestors have been pouring billions of dollars into AI technology, believing it will bring huge profits in the future. However, the arrival of a cheap rival product triggered doubt about this plan. If AI can be built more cheaply, companies may not need to buy as many expensive chips or build as many large data centres.\n\nThis story matters because many people's savings and pension funds are connected to tech stocks. When share prices fall sharply, it can affect ordinary people too. It also shows how quickly the tech industry can change. A single announcement from a rival company can shake confidence in the entire market and trigger a wave of selling across the world.",
+          "vocabularyB1": [
+            {
+              "word": "tech stocks",
+              "definition": "Shares in technology companies that people buy and sell on the stock market."
+            },
+            {
+              "word": "investors",
+              "definition": "People or organisations who put money into something hoping to make a profit."
+            },
+            {
+              "word": "share price",
+              "definition": "The amount of money one small part of a company costs to buy."
+            },
+            {
+              "word": "triggered",
+              "definition": "Caused something to start happening, often suddenly."
+            },
+            {
+              "word": "rival",
+              "definition": "A competitor; a person or company trying to do better than another."
+            }
+          ],
+          "questionB1": "If a rival company can build AI more cheaply, do you think investors were right to sell their tech stocks so quickly? Why or why not?",
+          "summaryB2": "Global technology stocks suffered a dramatic sell-off this week, wiping hundreds of billions of dollars off market valuations, after the emergence of DeepSeek, a Chinese artificial intelligence model that appears to match the capabilities of leading US products at a fraction of the cost. The development sent shockwaves through financial markets, prompting investors to reassess the astronomical levels of capital expenditure that American tech giants have committed to AI infrastructure.\n\nNvidia bore the brunt of the turmoil, with its share price plummeting by roughly 17% in a single session — one of the steepest single-day declines ever recorded for a company of its scale. The chipmaker's products are central to training large AI models, so any suggestion that AI development could be achieved more efficiently threatens its core revenue model.\n\nThe episode has reignited a long-running debate about whether the current wave of AI investment is sustainable. Tech companies such as Microsoft, Meta, and Google have pledged staggering sums to build data centres and acquire hardware. If DeepSeek's low-cost approach proves replicable at scale, analysts warn that this spending rationale may be fundamentally flawed.\n\nFrom a geopolitical perspective, DeepSeek's ascent also highlights the intensifying competition between the US and China in AI development, particularly given that American export restrictions were designed to limit China's access to advanced chips. The turmoil in markets reflects not just financial anxiety, but a deeper uncertainty about who will ultimately define the future of artificial intelligence.",
+          "vocabularyB2": [
+            {
+              "word": "sell-off",
+              "definition": "A rapid and large-scale sale of shares, usually causing prices to fall sharply."
+            },
+            {
+              "word": "capital expenditure",
+              "definition": "Money a company spends on major assets like buildings, equipment, or technology."
+            },
+            {
+              "word": "turmoil",
+              "definition": "A state of great confusion, disorder, or uncertainty."
+            },
+            {
+              "word": "replicable",
+              "definition": "Able to be copied or repeated successfully by others."
+            },
+            {
+              "word": "ascent",
+              "definition": "A rise to a higher position or level of success or power."
+            }
+          ],
+          "questionB2": "Given DeepSeek's rapid ascent and its challenge to US dominance, do you think the scale of capital expenditure committed by American tech firms represents a sound long-term strategy, or a speculative gamble?"
+        },
+        {
+          "id": "17822501511295tas",
+          "title": "WhatsApp to be led by Indian start-up founder as Will Cathcart steps back",
+          "source": "BBC Technology",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/c8e2195k5j2o?at_medium=RSS&at_campaign=rss",
+          "category": "technology",
+          "date": "2026-06-22",
+          "summaryB1": "WhatsApp is getting a new leader. Will Cathcart, who has run the messaging app for several years, is stepping back from his role. He will be replaced by a founder of an Indian start-up company. This change is happening because Meta, the company that owns WhatsApp, wants to make the app even more popular in India. India is already one of the biggest markets for WhatsApp, with hundreds of millions of people using it every day to send messages, share photos, and make calls. Meta believes that having a leader with strong connections to India will help the app grow even more there. WhatsApp is not just a messaging tool in India — many people use it for business and to stay in touch with family. The new leader comes from a start-up background, which means they have experience building something new and making it successful. This kind of experience could help WhatsApp reach even more users across India. The leadership change shows how much Meta values the Indian market. As smartphones become cheaper and more people go online in India, the opportunity for WhatsApp to expand its presence there is very real.",
+          "vocabularyB1": [
+            {
+              "word": "stepping back",
+              "definition": "Leaving or moving away from a job or position, often voluntarily"
+            },
+            {
+              "word": "founder",
+              "definition": "A person who starts or creates a company or organisation"
+            },
+            {
+              "word": "start-up",
+              "definition": "A new, small company that is just beginning to grow"
+            },
+            {
+              "word": "market",
+              "definition": "A country or group of people where a company sells its products or services"
+            },
+            {
+              "word": "presence",
+              "definition": "The fact of being active and known in a particular place"
+            }
+          ],
+          "questionB1": "Why do you think having a founder from India could help WhatsApp grow its presence there?",
+          "summaryB2": "Meta has announced a significant leadership transition at WhatsApp, with long-standing chief Will Cathcart set to step down and be succeeded by the founder of an Indian start-up. The move is widely seen as a strategic repositioning, reflecting Meta's ambitions to deepen its already formidable foothold in India — one of the world's largest and fastest-growing digital economies. WhatsApp commands an enormous user base in the country, where it has become embedded in everyday communication, commerce, and even public services. By appointing a leader with direct roots in India's start-up ecosystem, Meta appears to be signalling that it wants more than passive dominance in the market — it is looking to actively shape how WhatsApp evolves to serve Indian users' specific needs. India presents both an opportunity and a complex operating environment, given its regulatory scrutiny of big tech, its diverse linguistic communities, and the competitive pressure from local messaging and payments platforms. A founder who has navigated the Indian start-up world may bring invaluable insight into localising products and building trust with users and regulators alike. The appointment also hints at a broader corporate trend: global tech giants increasingly placing locally connected executives at the helm of products with deep regional ties. Whether this change in leadership will translate into tangible gains for Meta in India remains to be seen.",
+          "vocabularyB2": [
+            {
+              "word": "repositioning",
+              "definition": "Changing the strategy or image of something to better suit new goals or conditions"
+            },
+            {
+              "word": "foothold",
+              "definition": "A strong, established position in a place or market that allows further growth"
+            },
+            {
+              "word": "ecosystem",
+              "definition": "A network of connected businesses, people, and systems working within one area"
+            },
+            {
+              "word": "regulatory scrutiny",
+              "definition": "Close examination and oversight by government authorities or official bodies"
+            },
+            {
+              "word": "at the helm",
+              "definition": "In a position of leadership or control of an organisation"
+            }
+          ],
+          "questionB2": "To what extent does placing a start-up founder at the helm of WhatsApp reflect a genuine commitment to the Indian market, rather than a symbolic repositioning by Meta?"
+        },
+        {
+          "id": "1782250172460ghow",
+          "title": "You’re only supposed to blow the bloody hooves off: AI Michael Caine narrates Odyssey audiobook",
+          "source": "The Guardian Culture",
+          "originalUrl": "https://www.theguardian.com/film/2026/jun/23/youre-only-supposed-to-blow-the-bloody-hooves-off-ai-michael-caine-narrates-odyssey-audiobook",
+          "category": "culture",
+          "date": "2026-06-23",
+          "summaryB1": "A technology company called ElevenLabs has released a new audiobook of Homer's ancient poem The Odyssey. What makes this audiobook special is that it uses an artificial intelligence copy of the famous British actor Michael Caine's voice to read the story. ElevenLabs worked with Caine officially to create this replica of his voice, so it is a licensed product. Michael Caine is well known for working with film director Christopher Nolan on eight movies together, including the Dark Knight trilogy. This audiobook comes out just before Nolan's big new film version of The Odyssey is set to open in cinemas around the world. Nolan's films are very successful. His last movie, Oppenheimer, earned almost one billion dollars at the box office and won seven Academy Awards. The Odyssey film is expected to do just as well. The title of the Guardian article about this audiobook is a funny joke. It uses a famous line from an old British film called The Italian Job, where Caine says something similar about a car explosion. Using AI to copy a real person's voice is a new and growing technology. It makes people think about how AI might change the entertainment industry in the future.",
+          "vocabularyB1": [
+            {
+              "word": "replica",
+              "definition": "An exact copy of something or someone, made to be very similar to the original"
+            },
+            {
+              "word": "licensed",
+              "definition": "Officially allowed or approved, usually after an agreement has been made"
+            },
+            {
+              "word": "trilogy",
+              "definition": "A group of three related films, books, or other works that belong together"
+            },
+            {
+              "word": "box office",
+              "definition": "The place where cinema tickets are sold; also used to describe how much money a film earns"
+            },
+            {
+              "word": "artificial intelligence",
+              "definition": "Computer technology that can do tasks normally done by human intelligence, like speaking or thinking"
+            }
+          ],
+          "questionB1": "Do you think using artificial intelligence to copy a real person's voice for an audiobook is a good idea? Would you buy a licensed product like this?",
+          "summaryB2": "ElevenLabs, an AI voice technology company, has unveiled an officially licensed audiobook of Homer's epic poem The Odyssey, narrated using a synthetic replica of British acting legend Michael Caine's voice. The release is timed to precede Christopher Nolan's highly anticipated cinematic adaptation of the same story, due to open in theatres next month. Nolan and Caine have collaborated on eight films together, cementing one of modern cinema's most celebrated creative partnerships, encompassing the Dark Knight trilogy among other productions. Nolan's previous film, Oppenheimer, grossed nearly a billion dollars worldwide and claimed seven Academy Awards, and early auguries suggest his Odyssey could match that remarkable commercial and critical performance. The ElevenLabs project represents a formally sanctioned use of a celebrity's voice, distinguishing it from the more ethically contentious unauthorised AI voice cloning that has proliferated across the internet. By securing Caine's official approval, the company positions itself at the more legitimate end of a deeply contested space. The Guardian's tongue-in-cheek headline riffs on Caine's most famous movie catchphrase, a winking acknowledgement of the actor's cultural status. Yet beneath the playful framing lies a genuinely provocative question: as AI voice synthesis becomes more sophisticated, where does homage end and exploitation begin? For the entertainment industry, this audiobook may well serve as an early template for how such collaborations could be formalised going forward.",
+          "vocabularyB2": [
+            {
+              "word": "auguries",
+              "definition": "Signs or omens that suggest what might happen in the future"
+            },
+            {
+              "word": "sanctioned",
+              "definition": "Officially approved or permitted by someone in authority"
+            },
+            {
+              "word": "proliferated",
+              "definition": "Spread rapidly and in large numbers across many places"
+            },
+            {
+              "word": "tongue-in-cheek",
+              "definition": "Said or done in a joking, not entirely serious way"
+            },
+            {
+              "word": "synthesis",
+              "definition": "The process of combining or artificially producing something, especially sounds or chemicals"
+            }
+          ],
+          "questionB2": "Given that ElevenLabs' officially sanctioned audiobook is celebrated while unauthorised AI voice synthesis is widely condemned, where exactly should the ethical and legal boundaries in this contested space be drawn?"
+        },
+        {
+          "id": "1782250193977raxi",
+          "title": "Seabed damaged by fishing showing signs of recovery",
+          "source": "BBC Science & Environment",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/c20y9zlzwyzo?at_medium=RSS&at_campaign=rss",
+          "category": "environment",
+          "date": "2026-06-23",
+          "summaryB1": "An area of the sea near the English coast is showing signs of recovery after it was badly damaged by illegal fishing. The seabed in this protected area was damaged by boats using a method called dredging, which involves dragging heavy equipment along the ocean floor to collect shellfish. This destroys the natural environment and harms the creatures that live there.\n\nThe area is officially a marine protected zone, which means fishing activities like dredging are not allowed there. However, illegal dredging still happened and caused serious damage to the seabed and the species that depend on it.\n\nNow, campaigners and environmental groups are reporting that the seabed is beginning to recover. They say this is proof that marine protection works when rules are followed. Animals and plants are returning to the area, and the natural habitat is slowly rebuilding itself.\n\nThis news is encouraging for people who campaign for stronger ocean protection laws. They argue that governments need to do more to enforce the rules in protected areas and stop illegal fishing from happening.\n\nThe recovery of this seabed shows that nature can heal itself if humans give it the chance. Experts believe that protecting more ocean areas could help restore damaged ecosystems and support the long-term health of our seas.",
+          "vocabularyB1": [
+            {
+              "word": "dredging",
+              "definition": "Dragging heavy equipment along the seabed to collect shellfish or other sea creatures"
+            },
+            {
+              "word": "marine protected zone",
+              "definition": "An area of the sea where fishing and other damaging activities are officially not allowed"
+            },
+            {
+              "word": "campaigners",
+              "definition": "People who work actively to change something in society, often about environment or rights"
+            },
+            {
+              "word": "enforce",
+              "definition": "To make sure people follow rules or laws, using official power if necessary"
+            },
+            {
+              "word": "habitat",
+              "definition": "The natural place where an animal or plant normally lives and grows"
+            }
+          ],
+          "questionB1": "Do you think governments do enough to enforce rules in marine protected zones, and what more could they do?",
+          "summaryB2": "A stretch of English seabed that was illegally ravaged by commercial dredging is now displaying encouraging signs of ecological recovery, according to environmental campaigners. The area in question lies within a designated marine protected zone, where bottom-trawling and dredging are explicitly prohibited due to the devastating impact these practices have on seabed habitats and the biodiversity they support.\n\nDespite its protected status, the site fell victim to illegal dredging operations, which strip the ocean floor of its structure, destroy fragile ecosystems, and displace or kill the species that inhabit them. The violation drew sharp criticism from conservation groups, who argued that inadequate monitoring and weak enforcement had allowed such destruction to occur unchecked.\n\nHowever, follow-up surveys now suggest that the seabed is beginning to regenerate, with native species returning and reef-like structures slowly re-establishing themselves. Campaigners are seizing on this evidence to argue that marine protection is not merely symbolic — when properly upheld, it demonstrably works.\n\nThe case has reignited debate about how governments monitor and police protected marine areas. Conservationists argue that without meaningful consequences for violations, designated zones offer little more than paper protection. They are calling for increased surveillance, tougher penalties, and greater political will to safeguard ocean ecosystems.\n\nFor advocates of ocean conservation, the partial recovery of this site offers a measured but genuine reason for optimism — and a concrete argument for expanding marine protections globally.",
+          "vocabularyB2": [
+            {
+              "word": "ravaged",
+              "definition": "Severely damaged or destroyed, often quickly and on a large scale"
+            },
+            {
+              "word": "biodiversity",
+              "definition": "The variety of different plants, animals, and organisms living in a particular area"
+            },
+            {
+              "word": "regenerate",
+              "definition": "To grow back or recover after being damaged or destroyed"
+            },
+            {
+              "word": "surveillance",
+              "definition": "Close, continuous watching or monitoring of an area or activity, often by authorities"
+            },
+            {
+              "word": "paper protection",
+              "definition": "Rules or laws that exist officially but are not actually enforced in practice"
+            }
+          ],
+          "questionB2": "Given that this marine protected zone suffered illegal dredging despite its designated status, what does this reveal about the gap between paper protection and genuine conservation in practice?"
+        },
+        {
+          "id": "1782250214865n71h",
+          "title": "Cristiano Ronaldo scores at his sixth World Cup",
+          "source": "Euronews",
+          "originalUrl": "http://www.euronews.com/2026/06/23/cristiano-ronaldo-scores-at-his-sixth-world-cup",
+          "category": "politics",
+          "date": "2026-06-23",
+          "summaryB1": "Cristiano Ronaldo has made history at the 2026 FIFA World Cup. The Portuguese football star scored a goal for Portugal in their group match against Uzbekistan, which was played in Houston, USA. Portugal won the game. This moment was special because Ronaldo became the first footballer ever to score at six different World Cup tournaments. A tournament is a competition where many teams play against each other to find the best one. Ronaldo first played at the World Cup in 2006, when he was just 21 years old. Since then, he has appeared at every tournament, showing incredible dedication to his sport. He is now in his 40s, which makes this achievement even more remarkable. Most professional footballers retire before reaching this age, so Ronaldo's ability to compete at the highest level is extraordinary. Portugal is one of the strongest teams in the competition this year, and Ronaldo's record-breaking goal gives the team confidence. Fans around the world celebrated this moment, recognising that they were watching something that had never happened before in football history. Whether Portugal can go on to win the tournament remains to be seen, but Ronaldo has already left his mark on these World Cup games.",
+          "vocabularyB1": [
+            {
+              "word": "tournament",
+              "definition": "A competition where many teams or players compete against each other to find a winner."
+            },
+            {
+              "word": "achievement",
+              "definition": "Something impressive that you have successfully done, usually through hard work or skill."
+            },
+            {
+              "word": "dedication",
+              "definition": "The quality of giving a lot of time and energy to something because it matters to you."
+            },
+            {
+              "word": "remarkable",
+              "definition": "Unusual or surprising in a way that people notice and admire."
+            },
+            {
+              "word": "record-breaking",
+              "definition": "Better than anything done before; setting a new record that no one else has reached."
+            }
+          ],
+          "questionB1": "What does Ronaldo's remarkable achievement at six World Cup tournaments tell us about dedication in professional sport?",
+          "summaryB2": "Cristiano Ronaldo etched his name further into football folklore at the 2026 FIFA World Cup, becoming the first player in the history of the sport to score at six separate World Cup tournaments. The milestone came during Portugal's group-stage victory over Uzbekistan in Houston, a match that served as the backdrop for yet another chapter in the Portuguese forward's extraordinary career. Ronaldo, who made his World Cup debut in Germany in 2006, has now spanned two decades of the sport's most prestigious competition, a feat that speaks to both his exceptional longevity and his relentless physical conditioning at an age when most elite athletes have long since retired. The record places Ronaldo in uncharted territory, beyond the reach of legends such as Pelé and Diego Maradona, who never had the opportunity to compete across such an extended timeline. Critics who had questioned whether Ronaldo deserved a place in the squad ahead of younger, emerging talent were at least temporarily silenced by the goal. From a broader sporting perspective, the achievement invites reflection on what it means to sustain elite performance over generations, and on how modern sports science and nutrition have redefined the boundaries of athletic ageing. Portugal's campaign continues, but whatever the team's final outcome, Ronaldo's record now stands as one of the most enduring individual accomplishments in World Cup history.",
+          "vocabularyB2": [
+            {
+              "word": "folklore",
+              "definition": "The traditional stories, culture, or legendary status associated with a particular group or field."
+            },
+            {
+              "word": "longevity",
+              "definition": "The ability to continue being active, successful, or alive for a very long time."
+            },
+            {
+              "word": "uncharted territory",
+              "definition": "A situation or area of achievement that no one has experienced or reached before."
+            },
+            {
+              "word": "emerging",
+              "definition": "Beginning to become well known or successful; developing and gaining recognition."
+            },
+            {
+              "word": "enduring",
+              "definition": "Lasting for a very long time without fading or disappearing."
+            }
+          ],
+          "questionB2": "To what extent does Ronaldo's record of scoring at six tournaments reflect genuine enduring quality, and how far might modern sports science rather than individual talent explain such longevity?"
+        },
+        {
+          "id": "1782250236059uqyo",
+          "title": "Meta halts worker tracking for AI training due to privacy fears",
+          "source": "BBC Business",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cq615g3z36po?at_medium=RSS&at_campaign=rss",
+          "category": "business",
+          "date": "2026-06-23",
+          "summaryB1": "Meta, the company that owns Facebook and Instagram, has stopped a programme that tracked how its workers used their computers. The programme began only two months ago. Meta wanted to collect data from employees' computer activity to help train its artificial intelligence systems. However, workers and privacy groups raised serious worries about this practice. They felt it was not right for a company to monitor its employees so closely without clear consent. Privacy means the right to keep personal information private and under your own control. Many people believe that collecting data from workers without full agreement is a violation of their rights. Meta decided to halt the programme after these concerns became public. The decision shows how difficult it can be for technology companies to gather enough data for AI development. Companies need large amounts of data to train AI systems, but finding that data in an ethical way is not always easy. This story matters because more and more companies are looking at their own workers as a source of AI training data. If employees do not feel safe or respected at work, this can damage trust between companies and their staff. It also shows that public pressure and privacy fears can influence big technology companies to change their plans quickly.",
+          "vocabularyB1": [
+            {
+              "word": "track",
+              "definition": "To follow and record someone's actions or movements over time"
+            },
+            {
+              "word": "consent",
+              "definition": "Permission that someone gives freely after understanding what will happen"
+            },
+            {
+              "word": "violation",
+              "definition": "An action that breaks a rule, law, or someone's rights"
+            },
+            {
+              "word": "halt",
+              "definition": "To stop something completely, often suddenly"
+            },
+            {
+              "word": "ethical",
+              "definition": "Morally right and following accepted rules about good behaviour"
+            }
+          ],
+          "questionB1": "Do you think it is ever ethical for a company to track how its employees use their computers at work? Why or why not?",
+          "summaryB2": "Meta has abruptly suspended a programme, launched just two months prior, that involved monitoring employees' computer usage with the stated aim of harvesting data for artificial intelligence training. The move came in response to mounting privacy fears among workers and advocacy groups, highlighting the acute tensions that arise when corporations attempt to repurpose internal data for AI development.\n\nThe episode exposes a dilemma at the heart of the AI industry. Technology firms require vast datasets to refine their models, yet sourcing that data responsibly has become an increasingly contentious issue. By turning to its own workforce as a data source, Meta appeared to be seeking a convenient alternative to publicly available content, which has itself come under intense legal scrutiny in recent years.\n\nCritics argued that surveillance of this nature represented an overreach, particularly given the inherent power imbalance between an employer and its employees. Workers may feel unable to withhold consent freely when their jobs are at stake, calling into question whether any agreement obtained in such a context can be considered genuinely voluntary.\n\nMeta's decision to discontinue the programme suggests that even one of the world's most powerful technology companies can be compelled to reverse course when faced with credible reputational risk. The incident serves as a cautionary tale for the broader tech sector: the drive to feed AI systems with data must be balanced against transparent, accountable practices that respect individual rights. Whether Meta will seek alternative data sources to fill this gap remains to be seen.",
+          "vocabularyB2": [
+            {
+              "word": "surveillance",
+              "definition": "The close and continuous monitoring or watching of a person or group"
+            },
+            {
+              "word": "contentious",
+              "definition": "Causing disagreement or argument among people with different opinions"
+            },
+            {
+              "word": "overreach",
+              "definition": "An attempt to gain or do more than is acceptable or appropriate"
+            },
+            {
+              "word": "repurpose",
+              "definition": "To use something for a different purpose than it was originally intended for"
+            },
+            {
+              "word": "accountable",
+              "definition": "Required to explain and take responsibility for one's actions to others"
+            }
+          ],
+          "questionB2": "Given the inherent power imbalance between employers and employees, can workers ever give truly voluntary consent to workplace surveillance, and what does this mean for companies pursuing AI data?"
+        },
+        {
+          "id": "1782250256417xfej",
+          "title": "It's not just about nudity warns actress - the complex reality of images and online abuse",
+          "source": "BBC Technology",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/c8621dqewxzo?at_medium=RSS&at_campaign=rss",
+          "category": "technology",
+          "date": "2026-06-21",
+          "summaryB1": "A new report says that tech companies and governments are not doing enough to protect women from online abuse. The report was written by an organisation called Chayn, which works to help women who have been harmed by technology. An actress also spoke about this problem and warned that people do not fully understand how serious it is. The report says that when someone shares a private image of another person without their permission, this is a form of abuse. However, many platforms and police focus only on whether the image shows nudity. This means that many harmful images — for example, photos that were shared to scare or control someone — are ignored because they do not contain nudity. The report says this is the wrong approach. What really matters is consent — whether the person agreed to have their image shared. Women often feel that they cannot get help because the law and tech companies do not see the full picture. This type of abuse can cause serious mental health problems and can destroy a person's life. The report calls on companies and authorities to change the way they think about these cases. They should look at the harm caused, not just whether the content is sexual. This is a growing problem that affects many women online.",
+          "vocabularyB1": [
+            {
+              "word": "permission",
+              "definition": "When someone officially allows you to do something"
+            },
+            {
+              "word": "nudity",
+              "definition": "The state of being naked or not wearing clothes"
+            },
+            {
+              "word": "consent",
+              "definition": "Freely giving agreement or approval for something to happen"
+            },
+            {
+              "word": "platform",
+              "definition": "A website or app where people share content, like social media"
+            },
+            {
+              "word": "authorities",
+              "definition": "Official organisations or people with power, such as the police or government"
+            }
+          ],
+          "questionB1": "Do you think tech platforms and authorities have a responsibility to protect people from online abuse, even when nudity is not involved? Why?",
+          "summaryB2": "A report by the charity Chayn, supported by testimony from a prominent actress, has criticised tech companies and law enforcement for their narrow handling of image-based online abuse. The central argument is that by concentrating almost exclusively on nudity, both digital platforms and legal systems systematically overlook a wide range of harmful behaviour that does not involve explicit content. According to the report, this misguided focus fails to account for the real damage caused when private images are shared without consent — regardless of whether those images are sexual in nature. Many women find that their complaints are dismissed because the images in question do not meet a technical threshold of indecency, even when the intent behind sharing them was clearly to intimidate, control, or humiliate. This represents a fundamental misunderstanding of what constitutes abuse in a digital context. Chayn argues that the legal and technological frameworks currently in place are not fit for purpose, as they were largely designed around content moderation rather than victim protection. The report calls for a shift in how cases are assessed — placing consent and demonstrable harm at the centre of any evaluation, rather than the nature of the content itself. The actress involved emphasised that the psychological toll on victims is severe and long-lasting, and that without systemic reform, vulnerable women will continue to be let down by the very institutions meant to safeguard them.",
+          "vocabularyB2": [
+            {
+              "word": "testimony",
+              "definition": "A formal spoken or written statement, especially describing personal experience"
+            },
+            {
+              "word": "misguided",
+              "definition": "Based on wrong thinking or a poor understanding of a situation"
+            },
+            {
+              "word": "intimidate",
+              "definition": "To deliberately make someone feel frightened or threatened in order to control them"
+            },
+            {
+              "word": "demonstrable",
+              "definition": "Clearly proven or able to be shown with evidence"
+            },
+            {
+              "word": "systemic reform",
+              "definition": "Fundamental changes made to how an entire system or institution operates"
+            }
+          ],
+          "questionB2": "Given that current frameworks prioritise content type over demonstrable harm, what systemic reform would most effectively shift the focus toward consent and victim protection in cases of online abuse?"
+        },
+        {
+          "id": "1782250278254gug9",
+          "title": "‘Sheer genius’: your best TV of 2026 so far",
+          "source": "The Guardian Culture",
+          "originalUrl": "https://www.theguardian.com/tv-and-radio/2026/jun/23/sheer-genius-your-best-tv-of-2026-so-far",
+          "category": "culture",
+          "date": "2026-06-23",
+          "summaryB1": "The Guardian has collected opinions from readers about the best TV shows of 2026 so far. One show that many people are talking about is called Legends. A reader named Edie, aged 47, from Leeds in the UK, shared her thoughts about it. She said the show was tense, thrilling, and even funny at times. The story is set in the early 1990s, and the show has an evocative soundtrack from that period, which means the music creates a strong feeling of that time. The acting was very high quality, especially from actor Johnny Harris, who played a character called Eddie McKee. Edie described his performance as morally nuanced, meaning his character was complex and not simply good or bad. Although the story is fictionalised, which means it is based on real events but with some changes, it brought attention to the secret work of Customs officers. Edie enjoyed it so much that she wanted to watch all the episodes without stopping. She also mentioned a brief clip of former British Prime Minister Margaret Thatcher giving an emotional farewell speech, which she found satisfying to watch. Overall, 2026 has already produced strong television, including gripping medical dramas and exciting crime shows that are very hard to stop watching.",
+          "vocabularyB1": [
+            {
+              "word": "evocative",
+              "definition": "Something that brings strong memories or feelings of a particular time or place."
+            },
+            {
+              "word": "tense",
+              "definition": "Exciting and making you feel nervous because you do not know what will happen next."
+            },
+            {
+              "word": "fictionalised",
+              "definition": "Based on real events but changed or adapted to tell a story in a more dramatic way."
+            },
+            {
+              "word": "gripping",
+              "definition": "So interesting or exciting that it is very difficult to stop watching or reading."
+            },
+            {
+              "word": "farewell",
+              "definition": "Said or done when someone is leaving a place or position for the last time."
+            }
+          ],
+          "questionB1": "Edie found Legends so gripping that she almost watched it all at once. What kind of TV show do you find most tense and difficult to stop watching?",
+          "summaryB2": "The Guardian's mid-year cultural roundup for 2026 highlights what readers consider the standout television of the year so far, with the drama series Legends emerging as a clear favourite. Reader Edie, 47, from Leeds, offers an enthusiastic endorsement, praising the show for combining tension, dark humour, and an evocative early-1990s soundtrack that effectively transports viewers to the era. She reserves particular admiration for actor Johnny Harris, whose portrayal of Eddie McKee she describes as morally nuanced — a performance that resists easy categorisation of the character as hero or villain, lending the drama considerable psychological depth. While the series is openly fictionalised, Edie notes that it draws deserved attention to the largely unsung work of Customs officers, whose efforts had long remained concealed from public awareness. This interplay between dramatisation and historical fact reflects a growing appetite among audiences for television that blurs the boundary between entertainment and documentary revelation. Edie's admission that she would have devoured the entire series in a single sitting — were it not for professional obligations — speaks to the show's compulsive quality. Beyond Legends, the article gestures towards a rich year for television more broadly, citing gripping medical dramas and crime thrillers that are described as almost impossible to stop watching. A brief archival clip of Margaret Thatcher's tearful resignation speech also features, illustrating how contemporary drama can reframe historical moments with fresh resonance.",
+          "vocabularyB2": [
+            {
+              "word": "endorsement",
+              "definition": "A public statement expressing strong approval or support for something or someone."
+            },
+            {
+              "word": "portrayal",
+              "definition": "The way an actor represents a character in a film, TV show, or play."
+            },
+            {
+              "word": "dramatisation",
+              "definition": "A version of real events that has been adapted and made more dramatic for an audience."
+            },
+            {
+              "word": "compulsive",
+              "definition": "So engaging or addictive that it is very hard to stop doing or watching."
+            },
+            {
+              "word": "resonance",
+              "definition": "The quality of having a lasting effect or meaning that connects deeply with people."
+            }
+          ],
+          "questionB2": "Legends fictionalises real historical events to create an emotionally compelling portrayal of unrecognised public servants. To what extent do you think dramatisation helps or hinders public understanding of historical facts?"
+        },
+        {
+          "id": "1782250298743x7o5",
+          "title": "A super El Niño threatens disaster. Trump is handling it recklessly | Terry Garcia",
+          "source": "The Guardian Environment",
+          "originalUrl": "https://www.theguardian.com/commentisfree/2026/jun/23/super-el-nino-extreme-weather-trump",
+          "category": "environment",
+          "date": "2026-06-23",
+          "summaryB1": "El Niño is a natural weather event that happens in the Pacific Ocean and causes extreme weather around the world. Scientists are now warning that a very powerful El Niño may be coming soon. In the past, El Niño events caused terrible disasters. In 1877, one of the strongest El Niños ever recorded led to severe drought across India, China, Africa, and Brazil. Harvests failed, and between 30 and 60 million people died in what became known as the Great Famine. That was about 3% of the world's population at the time. Today, we have much better tools to prepare for such events. Scientists use ocean monitoring systems to collect data and make forecasts. These advance warnings help governments act before disaster strikes, saving thousands of lives and billions of dollars every year. However, the article warns that the Trump administration has interrupted important data streams that scientists depend on for forecasting. The author, Terry Garcia, worked as a senior official at the National Oceanic and Atmospheric Administration. He says these monitoring systems must not be vulnerable to political decisions. If data collection is stopped for political reasons, our ability to anticipate dangerous weather events is seriously weakened. The main message is clear: protecting weather data systems should be treated as a matter of public safety, not politics.",
+          "vocabularyB1": [
+            {
+              "word": "drought",
+              "definition": "A long period with very little or no rain, causing water and food shortages"
+            },
+            {
+              "word": "forecast",
+              "definition": "A prediction about what the weather or future events will be like"
+            },
+            {
+              "word": "monitoring",
+              "definition": "The regular watching and checking of something over a period of time"
+            },
+            {
+              "word": "anticipate",
+              "definition": "To expect something and prepare for it before it happens"
+            },
+            {
+              "word": "vulnerable",
+              "definition": "Easy to harm, damage, or attack; not protected or safe"
+            }
+          ],
+          "questionB1": "Do you think governments should use weather forecasts and monitoring data to better prepare for natural disasters? Why or why not?",
+          "summaryB2": "A powerful El Niño event is building in the Pacific, and scientists warn it could trigger catastrophic weather disruptions worldwide. Writing in The Guardian, Terry Garcia — a former deputy administrator of the National Oceanic and Atmospheric Administration (NOAA) — draws a stark historical parallel to illustrate what is at stake. In 1877, one of the most devastating El Niños on record coincided with widespread drought across Asia, Africa, and Latin America. Harvests collapsed, and between 30 and 60 million people perished in the so-called Great Famine — roughly 3% of the global population. Colonial policies compounded the suffering, but the underlying driver was the absence of any early warning system. What separates the modern world from those victims, Garcia argues, is not fortune but data. Sophisticated ocean monitoring networks now allow scientists to detect and track El Niño patterns months in advance, giving governments critical lead time to prepare emergency responses, protect food supplies, and evacuate at-risk populations. Yet Garcia warns that the Trump administration has recklessly interrupted the data streams underpinning these forecasts, exposing the entire early warning infrastructure to political interference. This, he contends, is a profound dereliction of duty. Weather monitoring systems that took decades to build should not be dismantled on a political whim. The implications are sobering: without reliable data, the capacity to anticipate and mitigate climate shocks diminishes sharply, potentially pushing vulnerable societies back toward the helplessness of the Victorian era.",
+          "vocabularyB2": [
+            {
+              "word": "dereliction of duty",
+              "definition": "A serious failure to do what you are responsible for; neglecting an important obligation"
+            },
+            {
+              "word": "compounded",
+              "definition": "Made worse or more serious by adding another problem on top of the original one"
+            },
+            {
+              "word": "infrastructure",
+              "definition": "The basic systems and structures that a country or organisation needs to function properly"
+            },
+            {
+              "word": "political whim",
+              "definition": "A sudden, careless decision made for political reasons rather than logic or evidence"
+            },
+            {
+              "word": "mitigate",
+              "definition": "To reduce the severity or harmful effects of something bad"
+            }
+          ],
+          "questionB2": "To what extent does the deliberate interruption of scientific infrastructure for political reasons represent a dereliction of duty, and how might such decisions affect societies most exposed to climate shocks?"
+        },
+        {
+          "id": "17822503198420vkf",
+          "title": "Belgian royals roll out red carpet for Japan's emperor",
+          "source": "Euronews",
+          "originalUrl": "http://www.euronews.com/video/2026/06/23/belgian-royals-roll-out-red-carpet-for-japans-emperor",
+          "category": "politics",
+          "date": "2026-06-23",
+          "summaryB1": "Japanese Emperor Naruhito and Empress Masako are visiting Belgium. They arrived at the Royal Palace in Brussels, where the Belgian royal family gave them a warm and formal welcome. This kind of visit is called a state visit. It is an official trip made by a head of state to another country. During a state visit, there are usually special ceremonies, formal dinners, and meetings between leaders. The Belgian royals rolled out the red carpet for their Japanese guests, which means they treated them with great honour and respect. Japan and Belgium have had friendly relations for many years. Visits like this help to strengthen the ties between two countries. They show that both sides value their relationship. Emperor Naruhito became Japan's emperor in 2019. His wife, Empress Masako, travels with him on official trips. Belgium is a small but influential country in Europe. It is home to many international organisations, including the European Union and NATO. A visit to Belgium is therefore a good opportunity for Japan to connect with European partners. State visits are carefully planned events. Every detail, from the ceremony at the palace to the meetings with politicians, is organised in advance. They are a traditional way for countries to show friendship and build stronger connections.",
+          "vocabularyB1": [
+            {
+              "word": "state visit",
+              "definition": "An official trip made by a country's leader to another country, with formal ceremonies."
+            },
+            {
+              "word": "ceremony",
+              "definition": "A formal public event held to celebrate or honour something or someone."
+            },
+            {
+              "word": "honour",
+              "definition": "Great respect and admiration shown to someone important."
+            },
+            {
+              "word": "ties",
+              "definition": "Close connections or relationships between people, groups, or countries."
+            },
+            {
+              "word": "influential",
+              "definition": "Having the power to affect or change what other people or organisations do."
+            }
+          ],
+          "questionB1": "Why do you think state visits and formal ceremonies are still used today to build ties between countries?",
+          "summaryB2": "Japanese Emperor Naruhito and Empress Masako have embarked on a state visit to Belgium, receiving a ceremonial welcome at the Royal Palace of Brussels from the Belgian royal family. The visit is steeped in diplomatic tradition, with the elaborate pageantry of a formal palace reception serving as a powerful symbol of mutual respect between the two nations. State visits of this kind carry considerable weight in international relations. They signal a willingness to engage at the highest level and reinforce bilateral bonds that may have been cultivated over decades of political and economic cooperation. Japan and Belgium share longstanding ties rooted in trade, diplomacy, and shared membership of multilateral institutions. Belgium's position as the de facto capital of the European Union makes a visit to Brussels particularly meaningful for Japan, offering an opportunity to reaffirm its commitment to partnership with Europe at a time when global alliances are being carefully reassessed. Emperor Naruhito, who acceded to the Chrysanthemum Throne in 2019, has undertaken a number of overseas engagements since his accession, using such visits to project Japan's image as an open and internationally engaged nation. Empress Masako, whose own diplomatic background lends additional credibility to these missions, accompanies him as an equal partner. The pomp and formality of a royal welcome at the palace in Brussels send a clear message: that both countries regard this relationship as one worthy of the highest diplomatic courtesies.",
+          "vocabularyB2": [
+            {
+              "word": "pageantry",
+              "definition": "Impressive and colourful ceremonies or displays, often at formal public events."
+            },
+            {
+              "word": "bilateral",
+              "definition": "Involving two countries or groups working together or making agreements."
+            },
+            {
+              "word": "multilateral",
+              "definition": "Involving three or more countries or groups cooperating together."
+            },
+            {
+              "word": "acceded",
+              "definition": "Formally took on a high position or office, especially a throne or role of power."
+            },
+            {
+              "word": "courtesies",
+              "definition": "Polite and respectful behaviours shown as a sign of honour or good manners."
+            }
+          ],
+          "questionB2": "To what extent does the pageantry of a state visit reflect genuine bilateral commitment, and when might such ceremonies risk becoming purely symbolic gestures without diplomatic substance?"
+        },
+        {
+          "id": "1782250343138a3wt",
+          "title": "Stop pretending EU's new border system is working, says airports chief",
+          "source": "BBC Business",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cn4rlzrdj14o?at_medium=RSS&at_campaign=rss",
+          "category": "business",
+          "date": "2026-06-23",
+          "summaryB1": "The Entry/Exit System, known as EES, is a new EU border control programme that was supposed to start in some European countries. It is designed to scan the fingerprints and faces of travellers from outside the EU when they cross the border. However, the head of ACI Europe, which represents airports across Europe, is very worried about how the system will work in practice. He says the problems with EES are keeping him awake at night. He is especially concerned about what will happen during the busy summer travel season, when millions of people pass through European airports. The system has already been delayed many times, and airport leaders say they still do not have enough information or equipment to run it properly. Long queues at border checkpoints are expected, which could cause serious problems for passengers and airlines. The EU says the system will make borders more secure and help track people who stay in Europe longer than allowed. But airport officials say the plan is not ready. They want EU leaders to stop pretending that everything is fine and to admit that more time and preparation are needed before EES can be introduced successfully.",
+          "vocabularyB1": [
+            {
+              "word": "border control",
+              "definition": "The process of checking people and goods as they enter or leave a country"
+            },
+            {
+              "word": "fingerprints",
+              "definition": "The unique patterns on the tips of your fingers, used to identify people"
+            },
+            {
+              "word": "queue",
+              "definition": "A line of people waiting for something"
+            },
+            {
+              "word": "checkpoint",
+              "definition": "A place where people or vehicles are stopped and checked, for example at a border"
+            },
+            {
+              "word": "pretending",
+              "definition": "Behaving as if something is true when it is not"
+            }
+          ],
+          "questionB1": "Do you think airports can be ready for a new border control system without proper preparation? What problems could long queues cause for travellers?",
+          "summaryB2": "The head of ACI Europe, the lobbying body representing the continent's airports, has issued a blunt warning that the EU's Entry/Exit System — EES — is far from ready to be rolled out, and that the organisation can no longer afford to maintain the pretence that implementation is on track. EES is designed to replace passport stamping with biometric data collection, recording the fingerprints and facial images of all non-EU travellers at external borders. While the system's stated aim is to strengthen security and identify overstayers, repeated delays have left airports in a state of considerable uncertainty. With peak summer travel season approaching, the ACI Europe chief says the operational challenges are so severe that he cannot determine how airports will cope with the surge in passenger numbers. The concern is that mandatory biometric checks will create bottlenecks at border checkpoints, leading to prolonged queues and widespread disruption for airlines and travellers alike. Critics argue that the EU has consistently overstated its readiness to deploy the technology, leaving airport operators without adequate infrastructure, staffing guidance, or a coherent timeline. Supporters of EES counter that the long-term security benefits justify the short-term disruption. Nevertheless, industry figures are now calling on policymakers to acknowledge the gap between political ambition and operational reality, and to establish a more transparent and realistic schedule for the system's introduction.",
+          "vocabularyB2": [
+            {
+              "word": "pretence",
+              "definition": "The act of behaving as if something is true when it clearly is not"
+            },
+            {
+              "word": "biometric",
+              "definition": "Relating to the measurement of unique physical features, such as fingerprints or facial patterns, to identify people"
+            },
+            {
+              "word": "bottlenecks",
+              "definition": "Points in a process where movement slows down or stops because too many things are happening at once"
+            },
+            {
+              "word": "overstated",
+              "definition": "Described something as better, bigger, or more advanced than it really is"
+            },
+            {
+              "word": "coherent",
+              "definition": "Clear, logical, and well organised, so that all parts fit together sensibly"
+            }
+          ],
+          "questionB2": "Given that the EU has apparently overstated its readiness to deploy EES, what responsibility do policymakers have to present a coherent and honest timeline to the aviation industry and the travelling public?"
+        }
+      ]
+    },
+    {
       "generated": "2026-06-22T05:50:35.168Z",
       "week": "2026-W25",
       "articles": [
