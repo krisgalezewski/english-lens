@@ -1,0 +1,49 @@
+name: Weekly Video Fetch
+
+on:
+  # Manual trigger only for now, while we test the video feature.
+  # Once it's working reliably, we can add a schedule here too, e.g.:
+  # schedule:
+  #   - cron: '45 5 * * 1'   # 15 minutes after the article fetch
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-videos-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch and process videos
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          SUPADATA_API_KEY: ${{ secrets.SUPADATA_API_KEY }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: node fetch-videos.js
+
+      - name: Commit updated videos.json
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "English Lens Bot"
+          git add videos.json
+          git diff --staged --quiet || git commit -m "Video update — $(date +'%Y-%m-%d %H:%M')"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main

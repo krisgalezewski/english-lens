@@ -297,74 +297,45 @@ function formatDuration(seconds) {
 // ── TRANSCRIPT FETCHING ────────────────────────────────────────────────────────
 
 async function getTranscript(videoId) {
-  // Strategy: first fetch the video's watch page HTML to discover the actual
-  // caption track URL (this is more reliable than guessing timedtext params
-  // directly, since auto-caption tracks need exact lang/kind values that vary
-  // per video). Fall back to a direct timedtext guess if that fails.
+  // Uses Supadata (https://supadata.ai) to fetch the transcript instead of
+  // scraping YouTube's watch page directly. This avoids YouTube's bot/IP
+  // detection that blocks scraping from datacenter IPs (e.g. GitHub Actions
+  // runners), and includes an AI fallback for videos without captions.
+  const SUPADATA_KEY = process.env.SUPADATA_API_KEY;
+
+  if (!SUPADATA_KEY) {
+    console.log('      ⚠️  SUPADATA_API_KEY not set — cannot fetch transcript');
+    return null;
+  }
 
   try {
-    const watchUrl = `https://www.youtube.com/watch?v=${videoId}`;
-    const pageRes = await fetch(watchUrl, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }
+    const url = `https://api.supadata.ai/v1/youtube/transcript?videoId=${videoId}`;
+    const res = await fetch(url, {
+      headers: { 'x-api-key': SUPADATA_KEY }
     });
-    if (!pageRes.ok) {
-      console.log(`      ⚠️  Watch page fetch failed: HTTP ${pageRes.status}`);
-      return null;
-    }
-    const html = await pageRes.text();
 
-    // Find the captionTracks JSON embedded in the page
-    const match = html.match(/"captionTracks":(\[.*?\])/);
-    if (!match) {
-      console.log(`      ⚠️  No captionTracks found in watch page (video may have no captions)`);
+    if (!res.ok) {
+      const errText = await res.text().catch(() => '');
+      console.log(`      ⚠️  Supadata request failed: HTTP ${res.status} ${errText.slice(0, 150)}`);
       return null;
     }
 
-    let tracks;
-    try {
-      tracks = JSON.parse(match[1]);
-    } catch {
-      console.log(`      ⚠️  Failed to parse captionTracks JSON`);
+    const data = await res.json();
+
+    if (!data.content || !Array.isArray(data.content) || !data.content.length) {
+      console.log('      ⚠️  Supadata returned no transcript content for this video');
       return null;
     }
 
-    if (!tracks.length) {
-      console.log(`      ⚠️  captionTracks array is empty`);
-      return null;
-    }
-
-    // Prefer an English track; fall back to the first available track
-    const track = tracks.find(t => (t.languageCode || '').startsWith('en')) || tracks[0];
-    if (!track || !track.baseUrl) {
-      console.log(`      ⚠️  No usable caption track URL found`);
-      return null;
-    }
-
-    // baseUrl comes HTML-escaped (e.g. \u0026 for &) — decode it
-    const captionUrl = track.baseUrl.replace(/\\u0026/g, '&');
-
-    const capRes = await fetch(captionUrl + '&fmt=json3');
-    if (!capRes.ok) {
-      console.log(`      ⚠️  Caption track fetch failed: HTTP ${capRes.status}`);
-      return null;
-    }
-    const data = await capRes.json();
-    if (!data.events) {
-      console.log(`      ⚠️  Caption track had no events`);
-      return null;
-    }
-
-    const text = data.events
-      .filter(e => e.segs)
-      .map(e => e.segs.map(s => s.utf8).join(''))
+    const text = data.content
+      .map(seg => seg.text)
       .join(' ')
-      .replace(/\n/g, ' ')
       .replace(/\s+/g, ' ')
       .trim();
 
     return text || null;
   } catch (err) {
-    console.log(`      ⚠️  getTranscript threw: ${err.message}`);
+    console.log(`      ⚠️  getTranscript (Supadata) threw: ${err.message}`);
     return null;
   }
 }
