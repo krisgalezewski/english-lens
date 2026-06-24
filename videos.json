@@ -1,6 +1,341 @@
 {
   "editions": [
     {
+      "generated": "2026-06-24T10:28:23.024Z",
+      "videos": [
+        {
+          "videoId": "OFVVxZTRtDc",
+          "title": "Labour's Andy Burnham has won the Makerfield by-election. #UK #Labour #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-06-19T08:00:38Z",
+          "thumbnail": "https://i.ytimg.com/vi/OFVVxZTRtDc/hqdefault.jpg",
+          "durationSeconds": 36,
+          "transcript": "This is the biggest bi-election I've ever covered. Why? Because one of the candidates on the ballot paper, Andy Bernham for Labour, was putting himself forward basically as a prospective prime minister. And he has won here and won big time in a place where reform did so, so well just a handful of weeks ago at the local elections. In Andy Bernham's victory speech, it was implicit, if not quite explicit, about what he would do were he to be running the country. So now what does the prime minister do? What does he say?",
+          "category": "politics",
+          "summary": "A BBC reporter covers the Makerfield by-election, where Labour's Andy Burnham won by a large margin. The reporter notes that Burnham positioned himself almost as a future prime minister during the campaign. The result raises questions about how the current prime minister will respond.",
+          "multipleChoice": [
+            {
+              "question": "Why does the reporter describe this as the biggest by-election they have ever covered?",
+              "options": [
+                "Because one candidate was presenting himself as a possible future prime minister",
+                "Because it had the highest voter turnout in history",
+                "Because it was held in the largest constituency in the UK",
+                "Because three major parties were competing closely against each other"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What had happened in Makerfield just a few weeks before this by-election?",
+              "options": [
+                "Labour had won a large majority in the local elections",
+                "The Reform party had performed very well in the local elections",
+                "Andy Burnham had announced his resignation from politics",
+                "The by-election had been postponed due to low interest"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How does the reporter describe Andy Burnham's victory speech?",
+              "options": [
+                "It was very direct and clearly stated his plans to lead the country",
+                "It suggested what he would do as leader of the country, without saying it openly",
+                "It focused entirely on local issues in Makerfield",
+                "It was a short speech that avoided any political statements"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Andy Burnham won the Makerfield by-election by a large margin.",
+              "answer": true
+            },
+            {
+              "statement": "The Reform party had performed poorly in Makerfield at the recent local elections.",
+              "answer": false
+            },
+            {
+              "statement": "The reporter ends by questioning how the prime minister will react to the result.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they were mentioned in the video.",
+            "items": [
+              "The reporter explains why this by-election is the biggest they have covered",
+              "Reform did well in Makerfield at the local elections",
+              "Andy Burnham wins the by-election",
+              "Andy Burnham gives a victory speech hinting at future leadership ambitions"
+            ]
+          }
+        },
+        {
+          "videoId": "gYPxvt7PjvM",
+          "title": "Bill Gates says he regrets 'every minute' he spent with Epstein",
+          "channel": "Reuters",
+          "publishedAt": "2026-02-05T15:30:17Z",
+          "thumbnail": "https://i.ytimg.com/vi/gYPxvt7PjvM/hqdefault.jpg",
+          "durationSeconds": 31,
+          "transcript": "every minute I spent with him, I I regret and I, you know, apologize that I did that. You know, it's factually true that I was only at dinners, you know, I never went to the island. I never met any women. And so, you know, the more that comes out, the more clear it'll be uh that although the time was a mistake, it had nothing to do with that kind of behavior. He knew a lot of very rich people and he was saying he could get them uh to give money to global health. You know, in retrospect, that was a a dead",
+          "category": "business",
+          "summary": "In this video, Bill Gates speaks about his past meetings with Jeffrey Epstein, expressing regret for the time he spent with him. Gates insists that his contact with Epstein was limited to dinners and denies visiting his island or meeting any women connected to him. He explains that Epstein had claimed he could help raise money from wealthy people for global health causes.",
+          "multipleChoice": [
+            {
+              "question": "What does Bill Gates say he regrets?",
+              "options": [
+                "Every minute he spent with Epstein",
+                "Donating money to global health causes",
+                "Speaking publicly about Epstein",
+                "Introducing Epstein to other rich people"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "According to Gates, what did Epstein claim he could do?",
+              "options": [
+                "Invest money in technology companies",
+                "Get very rich people to donate money to global health",
+                "Introduce Gates to world leaders",
+                "Help Gates expand his business"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which of the following does Gates say he never did?",
+              "options": [
+                "Apologized for spending time with Epstein",
+                "Heard about Epstein's behaviour",
+                "Visited Epstein's island",
+                "Met other wealthy people through Epstein"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Bill Gates says he only met Epstein at dinners.",
+              "answer": true
+            },
+            {
+              "statement": "Bill Gates says he visited Epstein's island on one occasion.",
+              "answer": false
+            },
+            {
+              "statement": "Gates describes the time he spent with Epstein as a mistake.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas from the video in the order they were mentioned by Bill Gates.",
+            "items": [
+              "Gates expresses regret and apologizes for spending time with Epstein",
+              "Gates states he only attended dinners and never visited the island",
+              "Gates explains that Epstein knew many very rich people",
+              "Gates says Epstein claimed he could raise money for global health"
+            ]
+          }
+        },
+        {
+          "videoId": "ROUZ_HdEMS4",
+          "title": "Behind the viral praying robot bridging AI and Emirati tradition",
+          "channel": "Reuters",
+          "publishedAt": "2026-06-17T23:15:07Z",
+          "thumbnail": "https://i.ytimg.com/vi/ROUZ_HdEMS4/hqdefault.jpg",
+          "durationSeconds": 55,
+          "transcript": "His name is Bu Sneider. We named him as a character to be close to the culture, the Emirati culture exactly. Our purpose of you know taking the Bu Sneider to greet the kids in the mosque and showing them you know how the traditional way of celebrating the Eid is [music] pure educational and we had success of that. They're understanding you know the tradition, how they greet the people, they greet the elders and all the whole ceremony you know of the Eid. Our robot is not cannot be Muslim or cannot be in a religion. It's a robot. We take it to improve our life. Robot is going to be everywhere. Not now but in a >> [music] >> decade or two kids will be grown up. So from now we want the Emirati kids, we want the people [music] of the UAE to be close to the robots.",
+          "category": "technology",
+          "summary": "The video introduces Bu Sneider, a robot designed to connect Emirati children with their cultural traditions. The robot visits mosques to demonstrate how people greet each other and celebrate Eid. Its creators hope that by introducing robots early, the people of the UAE will become comfortable with technology in the future.",
+          "multipleChoice": [
+            {
+              "question": "Where does Bu Sneider go to greet children?",
+              "options": [
+                "A school",
+                "A mosque",
+                "A shopping mall",
+                "A cultural centre"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is the main purpose of taking Bu Sneider to meet children?",
+              "options": [
+                "To replace human teachers",
+                "To perform religious ceremonies",
+                "To teach children about traditional Eid customs",
+                "To sell robots to Emirati families"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "According to the speaker, when will robots be everywhere?",
+              "options": [
+                "Right now",
+                "Within the next five years",
+                "In a decade or two",
+                "By the end of this century"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The robot's name, Bu Sneider, was chosen to feel connected to Emirati culture.",
+              "answer": true
+            },
+            {
+              "statement": "The creators say the robot can be considered Muslim because it performs religious actions.",
+              "answer": false
+            },
+            {
+              "statement": "The creators want Emirati children to feel comfortable around robots in the future.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas in the order they were mentioned in the video.",
+            "items": [
+              "The robot is introduced by name and explained as connected to Emirati culture.",
+              "The robot visits a mosque to show children how to greet elders during Eid.",
+              "The speaker states that the robot cannot be Muslim because it is a machine.",
+              "The speaker says children today will grow up in a world full of robots."
+            ]
+          }
+        },
+        {
+          "videoId": "kqQZVPbu-pk",
+          "title": "'Absolutely freezing' winter storm causes mass power outages in US. #Storm #Weather #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-01-25T18:00:56Z",
+          "thumbnail": "https://i.ytimg.com/vi/kqQZVPbu-pk/hqdefault.jpg",
+          "durationSeconds": 51,
+          "transcript": "Well, there are not many people out and about as you can imagine this morning. Most people are hunkering down because this is an absolutely massive storm stretching some 1500 miles across the United States. Here in Washington DC, we're expecting up to a foot of snowfall today. But in other places, southern states for example, people are just having to hang tight. Power has been knocked out. In some states, some people are without ways to heat their homes right now. Other people, they're trying to find some fun where they can. They're out sledging. A few impromptu snowball fights springing up. But certainly, people are just hanging tight because we're expecting some record snowfall. And it's not just the snow. I've got to tell you, it is absolutely freezing here. And that really gets your bonus.",
+          "category": "environment",
+          "summary": "A reporter in Washington DC describes a massive winter storm stretching 1,500 miles across the United States. The storm has caused power outages in some states, leaving people without heating, while others are making the most of the snow by sledging and having snowball fights. Record snowfall and extremely cold temperatures are expected.",
+          "multipleChoice": [
+            {
+              "question": "How much snowfall is expected in Washington DC?",
+              "options": [
+                "Up to a foot of snow",
+                "Up to 1,500 inches of snow",
+                "A few centimetres of snow",
+                "No snowfall at all"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "How far does the storm stretch across the United States?",
+              "options": [
+                "500 miles",
+                "1,000 miles",
+                "1,500 miles",
+                "2,000 miles"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What problem are some people in certain states facing because of the storm?",
+              "options": [
+                "They cannot find food",
+                "They have no way to heat their homes",
+                "Their cars have been buried in snow",
+                "They cannot contact emergency services"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The storm is stretching approximately 1,500 miles across the United States.",
+              "answer": true
+            },
+            {
+              "statement": "The reporter says that most people are out enjoying the snow in Washington DC.",
+              "answer": false
+            },
+            {
+              "statement": "Some people are having impromptu snowball fights during the storm.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these details from the video in the order they were mentioned by the reporter.",
+            "items": [
+              "The reporter describes the storm stretching 1,500 miles across the US",
+              "The reporter mentions power outages leaving people without heating",
+              "The reporter talks about people sledging and having snowball fights",
+              "The reporter says it is absolutely freezing where they are standing"
+            ]
+          }
+        },
+        {
+          "videoId": "m2B9nhWvRls",
+          "title": "BTS reunion set to make $1bn as band announce world tour. #BTS #KPop #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-01-13T19:14:50Z",
+          "thumbnail": "https://i.ytimg.com/vi/m2B9nhWvRls/hqdefault.jpg",
+          "durationSeconds": 36,
+          "transcript": "K-pop group BTS have announced a 79-day world tour and their reunion is expected to make a billion dollars. The band hasn't performed together for four years because the seven members have been completing their mandatory military service in South Korea with the last one, Sugar, finishing last June. The tour, which begins in April, will start in South Korea before setting off across Asia, Europe, and America. According to Billboard, the group and their record label stand to make more than a billion dollars. That's £740 million from their reunion from the concerts, merchandise, licensing, album sales, and streaming revenue. Their previous tour set records for a K-pop act, earning about $246 million at the global box",
+          "category": "culture",
+          "summary": "K-pop group BTS has announced a 79-day world tour after a four-year break during which all seven members completed mandatory military service in South Korea. The reunion tour is expected to generate over one billion dollars through concerts, merchandise, album sales, and other revenue streams. This would far surpass their previous record-breaking tour, which earned around $246 million.",
+          "multipleChoice": [
+            {
+              "question": "How long will the BTS world tour last?",
+              "options": [
+                "49 days",
+                "79 days",
+                "97 days",
+                "74 days"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Why did BTS not perform together for four years?",
+              "options": [
+                "They were recording a new album",
+                "They had personal disagreements",
+                "They were completing mandatory military service",
+                "They were on a planned hiatus agreed with their label"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "According to the transcript, how much did BTS earn from their previous tour?",
+              "options": [
+                "About $1 billion",
+                "About $740 million",
+                "About $246 million",
+                "About $300 million"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The BTS world tour will begin in South Korea in April.",
+              "answer": true
+            },
+            {
+              "statement": "All seven BTS members finished their military service at the same time.",
+              "answer": false
+            },
+            {
+              "statement": "Billboard reported that BTS and their record label could earn more than a billion dollars from the reunion.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they were mentioned in the video.",
+            "items": [
+              "BTS members began completing their mandatory military service in South Korea.",
+              "Suga finished his military service last June.",
+              "BTS announced a 79-day world tour.",
+              "The tour is set to travel across Asia, Europe, and America."
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-06-22T07:30:00Z",
       "videos": [
         {
@@ -13,18 +348,59 @@
           "durationSeconds": 247,
           "summary": "EU leaders gathered in Brussels to discuss new measures for securing the eastern border with stronger infrastructure investment and coordinated defence policy among member states.",
           "multipleChoice": [
-            { "question": "Where did EU leaders meet for this discussion?", "options": ["Warsaw", "Brussels", "Berlin", "Paris"], "correctIndex": 1 },
-            { "question": "What was the main topic of the meeting?", "options": ["Trade tariffs", "Eastern border security", "Climate policy", "Tourism"], "correctIndex": 1 },
-            { "question": "What kind of investment was discussed?", "options": ["Education", "Infrastructure", "Agriculture", "Healthcare"], "correctIndex": 1 }
+            {
+              "question": "Where did EU leaders meet for this discussion?",
+              "options": [
+                "Warsaw",
+                "Brussels",
+                "Berlin",
+                "Paris"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What was the main topic of the meeting?",
+              "options": [
+                "Trade tariffs",
+                "Eastern border security",
+                "Climate policy",
+                "Tourism"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What kind of investment was discussed?",
+              "options": [
+                "Education",
+                "Infrastructure",
+                "Agriculture",
+                "Healthcare"
+              ],
+              "correctIndex": 1
+            }
           ],
           "trueFalse": [
-            { "statement": "The meeting took place in Poland.", "answer": false },
-            { "statement": "Defence policy coordination was part of the discussion.", "answer": true },
-            { "statement": "All EU member states immediately agreed on every measure.", "answer": false }
+            {
+              "statement": "The meeting took place in Poland.",
+              "answer": false
+            },
+            {
+              "statement": "Defence policy coordination was part of the discussion.",
+              "answer": true
+            },
+            {
+              "statement": "All EU member states immediately agreed on every measure.",
+              "answer": false
+            }
           ],
           "ordering": {
             "instruction": "Put these events in the order they were mentioned in the video",
-            "items": ["Leaders arrive in Brussels", "Opening remarks on border security", "Discussion of infrastructure funding", "Closing press conference"]
+            "items": [
+              "Leaders arrive in Brussels",
+              "Opening remarks on border security",
+              "Discussion of infrastructure funding",
+              "Closing press conference"
+            ]
           }
         },
         {
@@ -37,18 +413,59 @@
           "durationSeconds": 312,
           "summary": "A look at how European factories, including several in Poland, are adopting AI-driven automation to remain competitive with Asian manufacturers.",
           "multipleChoice": [
-            { "question": "What industry is the focus of this video?", "options": ["Agriculture", "Manufacturing", "Tourism", "Banking"], "correctIndex": 1 },
-            { "question": "Which region's factories are mentioned as adopting AI?", "options": ["Only Germany", "European factories including Poland", "Only the UK", "South America"], "correctIndex": 1 },
-            { "question": "Why are factories adopting automation according to the video?", "options": ["Government mandate", "To remain competitive with Asian manufacturers", "Lower energy costs", "Worker shortage only"], "correctIndex": 1 }
+            {
+              "question": "What industry is the focus of this video?",
+              "options": [
+                "Agriculture",
+                "Manufacturing",
+                "Tourism",
+                "Banking"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which region's factories are mentioned as adopting AI?",
+              "options": [
+                "Only Germany",
+                "European factories including Poland",
+                "Only the UK",
+                "South America"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Why are factories adopting automation according to the video?",
+              "options": [
+                "Government mandate",
+                "To remain competitive with Asian manufacturers",
+                "Lower energy costs",
+                "Worker shortage only"
+              ],
+              "correctIndex": 1
+            }
           ],
           "trueFalse": [
-            { "statement": "Polish factories are mentioned in this report.", "answer": true },
-            { "statement": "The video claims European manufacturing is shrinking everywhere.", "answer": false },
-            { "statement": "Automation is linked to staying competitive globally.", "answer": true }
+            {
+              "statement": "Polish factories are mentioned in this report.",
+              "answer": true
+            },
+            {
+              "statement": "The video claims European manufacturing is shrinking everywhere.",
+              "answer": false
+            },
+            {
+              "statement": "Automation is linked to staying competitive globally.",
+              "answer": true
+            }
           ],
           "ordering": {
             "instruction": "Put these events in the order they were mentioned in the video",
-            "items": ["Introduction to the manufacturing sector", "Visit to a Polish factory floor", "Interview with a plant manager", "Closing thoughts on the future of AI in industry"]
+            "items": [
+              "Introduction to the manufacturing sector",
+              "Visit to a Polish factory floor",
+              "Interview with a plant manager",
+              "Closing thoughts on the future of AI in industry"
+            ]
           }
         }
       ]
