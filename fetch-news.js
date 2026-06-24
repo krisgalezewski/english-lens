@@ -13,33 +13,44 @@ import fs from 'fs/promises';
 
 const ARTICLES_PER_RUN = 12;  // Total articles per weekly edition
 const MAX_PER_CATEGORY = 3;   // No single category dominates
+const MAX_PER_PUBLISHER = 3;  // No single publisher (grouping all its feeds) dominates the whole edition
 
 const FEEDS = [
   // Politics / EU / Europe
-  { url: 'https://feeds.bbci.co.uk/news/world/europe/rss.xml',           category: 'politics',     name: 'BBC News Europe' },
-  { url: 'https://feeds.bbci.co.uk/news/world/rss.xml',                  category: 'politics',     name: 'BBC News World' },
-  { url: 'https://www.euronews.com/rss',                                  category: 'politics',     name: 'Euronews' },
-  { url: 'https://www.politico.eu/feed/',                                 category: 'politics',     name: 'Politico Europe' },
-  { url: 'https://notesfrompoland.com/feed/',                             category: 'politics',     name: 'Notes from Poland' },
+  { url: 'https://feeds.bbci.co.uk/news/world/europe/rss.xml',           category: 'politics',     name: 'BBC News Europe',     publisher: 'BBC' },
+  { url: 'https://feeds.bbci.co.uk/news/world/rss.xml',                  category: 'politics',     name: 'BBC News World',      publisher: 'BBC' },
+  { url: 'https://www.euronews.com/rss',                                  category: 'politics',     name: 'Euronews',            publisher: 'Euronews' },
+  { url: 'https://www.politico.eu/feed/',                                 category: 'politics',     name: 'Politico Europe',     publisher: 'Politico' },
+  { url: 'https://notesfrompoland.com/feed/',                             category: 'politics',     name: 'Notes from Poland',   publisher: 'Notes from Poland' },
+  { url: 'https://www.economist.com/europe/rss.xml',                      category: 'politics',     name: 'The Economist Europe', publisher: 'The Economist' },
+  { url: 'https://feeds.a.dj.com/rss/RSSWorldNews.xml',                   category: 'politics',     name: 'WSJ World News',      publisher: 'Wall Street Journal' },
 
   // Business / Economy
-  { url: 'https://feeds.bbci.co.uk/news/business/rss.xml',               category: 'business',     name: 'BBC Business' },
-  { url: 'https://feeds.reuters.com/reuters/businessNews',                category: 'business',     name: 'Reuters Business' },
-  { url: 'https://rss.app/feeds/business-europe.xml',                        category: 'business',     name: 'Business Europe' },
-  { url: 'https://www.ft.com/rss/home',                                   category: 'business',     name: 'Financial Times' },
+  { url: 'https://feeds.bbci.co.uk/news/business/rss.xml',               category: 'business',     name: 'BBC Business',        publisher: 'BBC' },
+  { url: 'https://feeds.reuters.com/reuters/businessNews',                category: 'business',     name: 'Reuters Business',    publisher: 'Reuters' },
+  { url: 'https://www.ft.com/rss/home',                                   category: 'business',     name: 'Financial Times',     publisher: 'Financial Times' },
+  { url: 'https://notesfrompoland.com/feed/',                             category: 'business',     name: 'Notes from Poland',   publisher: 'Notes from Poland' },
+  { url: 'https://www.economist.com/business/rss.xml',                    category: 'business',     name: 'The Economist Business', publisher: 'The Economist' },
+  { url: 'https://www.economist.com/finance-and-economics/rss.xml',       category: 'business',     name: 'The Economist Finance', publisher: 'The Economist' },
+  { url: 'https://feeds.a.dj.com/rss/RSSMarketsMain.xml',                 category: 'business',     name: 'WSJ Markets',         publisher: 'Wall Street Journal' },
 
   // Technology
-  { url: 'https://feeds.bbci.co.uk/news/technology/rss.xml',             category: 'technology',   name: 'BBC Technology' },
-  { url: 'https://feeds.reuters.com/reuters/technologyNews',              category: 'technology',   name: 'Reuters Technology' },
-  { url: 'https://www.theguardian.com/technology/rss',                    category: 'technology',   name: 'The Guardian Tech' },
+  { url: 'https://feeds.bbci.co.uk/news/technology/rss.xml',             category: 'technology',   name: 'BBC Technology',      publisher: 'BBC' },
+  { url: 'https://feeds.reuters.com/reuters/technologyNews',              category: 'technology',   name: 'Reuters Technology',  publisher: 'Reuters' },
+  { url: 'https://www.theguardian.com/technology/rss',                    category: 'technology',   name: 'The Guardian Tech',   publisher: 'The Guardian' },
+  { url: 'https://www.economist.com/science-and-technology/rss.xml',      category: 'technology',   name: 'The Economist Sci-Tech', publisher: 'The Economist' },
 
-  // Environment / Science
-  { url: 'https://feeds.bbci.co.uk/news/science_and_environment/rss.xml',category: 'environment',  name: 'BBC Science & Environment' },
-  { url: 'https://www.theguardian.com/environment/rss',                   category: 'environment',  name: 'The Guardian Environment' },
+  // Environment & Wellbeing (climate, health, food systems, urban living)
+  { url: 'https://feeds.bbci.co.uk/news/science_and_environment/rss.xml',category: 'environment',  name: 'BBC Science & Environment', publisher: 'BBC' },
+  { url: 'https://www.theguardian.com/environment/rss',                   category: 'environment',  name: 'The Guardian Environment',  publisher: 'The Guardian' },
+  { url: 'https://www.theguardian.com/lifeandstyle/health-and-wellbeing/rss', category: 'environment', name: 'The Guardian Wellbeing',  publisher: 'The Guardian' },
+  { url: 'https://www.theguardian.com/society/food/rss',                  category: 'environment',  name: 'The Guardian Food',   publisher: 'The Guardian' },
+  { url: 'https://feeds.bbci.co.uk/news/health/rss.xml',                  category: 'environment',  name: 'BBC Health',          publisher: 'BBC' },
 
   // Culture
-  { url: 'https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml', category: 'culture',      name: 'BBC Culture' },
-  { url: 'https://www.theguardian.com/culture/rss',                       category: 'culture',      name: 'The Guardian Culture' },
+  { url: 'https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml', category: 'culture',      name: 'BBC Culture',         publisher: 'BBC' },
+  { url: 'https://www.theguardian.com/culture/rss',                       category: 'culture',      name: 'The Guardian Culture', publisher: 'The Guardian' },
+  { url: 'https://notesfrompoland.com/feed/',                             category: 'culture',      name: 'Notes from Poland',   publisher: 'Notes from Poland' },
 ];
 
 // ── MAIN ──────────────────────────────────────────────────────────────────────
@@ -144,6 +155,7 @@ async function fetchAllFeeds(parser) {
             title: item.title.trim(),
             originalUrl: item.link,
             source: feed.name,
+            publisher: feed.publisher || feed.name,
             category: feed.category,
             date: item.pubDate
               ? new Date(item.pubDate).toISOString().split('T')[0]
@@ -180,8 +192,8 @@ async function filterRelevant(client, candidates) {
         content: `You are curating a weekly English-language news digest for adults living in Poland and Central Europe.
 
 For each article, decide: is it RELEVANT to Polish/Central European readers?
-Relevant = affects the EU, European economy, European politics, European culture, technology used in Europe, or major international stories Polish people would care about.
-Not relevant = purely local US/UK/Asian stories with no European angle whatsoever.
+Relevant = affects the EU, European economy, European politics, European culture, technology used in Europe, public health/wellbeing/food systems/urban living in Europe, or major international stories Polish people would care about.
+Not relevant = purely local US/UK/Asian stories with no European angle whatsoever, OR sport/match results/sport celebrity news of any kind (even if European), OR celebrity gossip with no broader relevance.
 
 Reply with ONLY the numbers of relevant articles, comma-separated. Example: 1,3,5,7
 
@@ -229,40 +241,48 @@ function selectBalanced(articles, total, maxPerCat) {
     byCat[a.category].push(a);
   }
 
+  // Publishers we want to make sure get fair representation even though
+  // they may return fewer matching articles than BBC/Reuters on a given week.
+  const PRIORITY_PUBLISHERS = new Set(['Notes from Poland', 'The Economist', 'Wall Street Journal']);
+
   const selected = [];
-  const usedSources = {}; // track source usage counts
+  const usedPublishers = {}; // track publisher usage counts (grouped across all that publisher's feeds)
   let round = 0;
 
-  while (selected.length < total && round < maxPerCat) {
+  while (selected.length < total && round < MAX_PER_CATEGORY) {
     for (const cat of Object.keys(byCat)) {
       if (selected.length >= total) break;
 
-      // Find next article in this category that:
-      // 1. Doesn't overlap in topic with already-selected articles in same category
-      // 2. Isn't from a source already over-represented (max 3 per source)
       const selectedInCat = selected.filter(s => s.category === cat);
-      const candidates = byCat[cat].filter(a => {
+      const pool = byCat[cat].filter(a => {
         // Topic diversity check within category
         const topicClash = selectedInCat.some(s => topicsOverlap(s.title, a.title));
         if (topicClash) return false;
-        // Source variety check globally
-        const sourceCount = usedSources[a.source] || 0;
-        if (sourceCount >= 3) return false;
+        // Publisher variety check globally (grouped, not per individual feed)
+        const pubCount = usedPublishers[a.publisher] || 0;
+        if (pubCount >= MAX_PER_PUBLISHER) return false;
         return true;
       });
 
-      if (candidates[0]) {
-        selected.push(candidates[0]);
-        usedSources[candidates[0].source] = (usedSources[candidates[0].source] || 0) + 1;
-        // Remove picked article from pool
-        byCat[cat] = byCat[cat].filter(a => a !== candidates[0]);
+      if (!pool.length) continue;
+
+      // On the first pass, prefer an article from an underused priority publisher
+      // if one is available, so Notes from Poland / Economist / WSJ aren't crowded
+      // out by the larger wire services.
+      let pick = pool[0];
+      if (round === 0) {
+        const priorityPick = pool.find(a => PRIORITY_PUBLISHERS.has(a.publisher));
+        if (priorityPick) pick = priorityPick;
       }
+
+      selected.push(pick);
+      usedPublishers[pick.publisher] = (usedPublishers[pick.publisher] || 0) + 1;
+      byCat[cat] = byCat[cat].filter(a => a !== pick);
     }
     round++;
   }
 
-  // Log source distribution
-  console.log('📊  Source distribution:', Object.entries(usedSources).map(([s,n]) => `${s}(${n})`).join(', '));
+  console.log('📊  Publisher distribution:', Object.entries(usedPublishers).map(([s,n]) => `${s}(${n})`).join(', '));
   return selected;
 }
 
