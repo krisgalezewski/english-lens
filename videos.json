@@ -1,6 +1,341 @@
 {
   "editions": [
     {
+      "generated": "2026-06-29T06:49:39.942Z",
+      "videos": [
+        {
+          "videoId": "y8DyhbVUYJI",
+          "title": "Stars, Stripes, VIPs and Protests: Brussels hosts US Independence bash",
+          "channel": "euronews",
+          "publishedAt": "2026-06-28T21:09:25Z",
+          "thumbnail": "https://i.ytimg.com/vi/y8DyhbVUYJI/hqdefault.jpg",
+          "durationSeconds": 70,
+          "transcript": "Thousands of guests traveled down to Brussels on Sunday to celebrate the 250th anniversary of US independence. The invite-only event is held in a large park in the Belgian capital, which is located near the EU institutions. >> And everyone gathered in Brussels to celebrate 250 years of American independence. >> US [music] Ambassador to Belgium Bill White opened the ceremony. Among those attending are Belgian Prime Minister Bart De Wever, NATO Secretary General Mark Rutte, and European [music] Parliament President Roberta Metsola. US military personnel based in the Belgian capital are also in attendance. However, the event drew widespread criticism. On Sunday morning, Greenpeace unrolled a massive banner in the city center condemning the occasion to promote Trump's political and corporate agenda. And several organizations, including Extinction Rebellion and Rise for Climate, demonstrated outside of the park in protest against the privatization of the public park.",
+          "category": "politics",
+          "summary": "Brussels hosted a large invitation-only event on Sunday to mark the 250th anniversary of American independence. Senior European and NATO officials attended the ceremony, which was opened by the US Ambassador to Belgium. At the same time, several environmental groups staged protests outside the venue.",
+          "multipleChoice": [
+            {
+              "question": "Where exactly in Brussels was the Independence Day event held?",
+              "options": [
+                "In front of the US Embassy",
+                "In a large park near the EU institutions",
+                "Inside the European Parliament building",
+                "At NATO headquarters"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Who opened the ceremony at the event?",
+              "options": [
+                "Belgian Prime Minister Bart De Wever",
+                "NATO Secretary General Mark Rutte",
+                "US Ambassador to Belgium Bill White",
+                "European Parliament President Roberta Metsola"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What did Greenpeace do on Sunday morning to protest the event?",
+              "options": [
+                "They blocked the entrance to the park",
+                "They held a march through the city streets",
+                "They unrolled a massive banner in the city center",
+                "They demonstrated outside the US Embassy"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The event was open to the general public — anyone could attend.",
+              "answer": false
+            },
+            {
+              "statement": "US military personnel based in Brussels were present at the event.",
+              "answer": true
+            },
+            {
+              "statement": "Extinction Rebellion was one of the organizations that protested outside the park.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they were mentioned in the report.",
+            "items": [
+              "Thousands of guests traveled to Brussels for the 250th anniversary celebration.",
+              "US Ambassador Bill White opened the ceremony.",
+              "Greenpeace unrolled a large banner in the city center on Sunday morning.",
+              "Organizations including Extinction Rebellion protested outside the park."
+            ]
+          }
+        },
+        {
+          "videoId": "CuMeKztwZoM",
+          "title": "Trump warns UK and Canada against China business deals | REUTERS",
+          "channel": "Reuters",
+          "publishedAt": "2026-01-30T05:36:24Z",
+          "thumbnail": "https://i.ytimg.com/vi/CuMeKztwZoM/hqdefault.jpg",
+          "durationSeconds": 33,
+          "transcript": "Mr. President, what do you think about the UK getting into business with China? Kirst Starmer was in Beijing. >> Well, it's very dangerous for them to do that. And it's even more dangerous, I think, for Canada to get into business with China. Canada is not doing well. Uh they're doing very poorly. And you can't look at China as the answer. That's I know China very well. I know President Xi is a friend of mine. I know him very well. But that's a that's a big hurdle to go over when you get Canada. The first thing they're going to do is say you're not allowed to play ice hockey anymore.",
+          "category": "business",
+          "summary": "In a brief press interaction, President Trump was asked about the UK's decision to pursue business ties with China following Prime Minister Keir Starmer's visit to Beijing. Trump warned that doing business with China is dangerous for both the UK and Canada, and suggested that Canada in particular is struggling economically. He ended his remarks with a humorous comment about ice hockey.",
+          "multipleChoice": [
+            {
+              "question": "According to Trump, who visited Beijing to pursue business with China?",
+              "options": [
+                "Donald Trump",
+                "Keir Starmer",
+                "Justin Trudeau",
+                "President Xi"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How does Trump describe his relationship with President Xi?",
+              "options": [
+                "A business rival",
+                "A political enemy",
+                "A friend",
+                "A trade partner"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What does Trump jokingly suggest China might ban Canada from doing?",
+              "options": [
+                "Playing basketball",
+                "Playing ice hockey",
+                "Trading goods",
+                "Joining NATO"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Trump says it is dangerous for the UK to do business with China.",
+              "answer": true
+            },
+            {
+              "statement": "Trump says Canada is currently doing very well economically.",
+              "answer": false
+            },
+            {
+              "statement": "Trump claims to know President Xi personally.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were mentioned in the video.",
+            "items": [
+              "A journalist asks Trump about the UK doing business with China",
+              "Trump warns that it is even more dangerous for Canada to deal with China",
+              "Trump mentions that he knows President Xi and considers him a friend",
+              "Trump makes a joke about Canada being banned from playing ice hockey"
+            ]
+          }
+        },
+        {
+          "videoId": "VcdLKbrdHc0",
+          "title": "Anthropic claims Alibaba unlawfully copied Claude’s capabilities",
+          "channel": "Reuters",
+          "publishedAt": "2026-06-25T08:07:18Z",
+          "thumbnail": "https://i.ytimg.com/vi/VcdLKbrdHc0/hqdefault.jpg",
+          "durationSeconds": 60,
+          "transcript": "Anthropic has accused Chinese tech giant Alibaba of extracting its claw AI technology in what it says is the largest known attack of its kind. That is according to a letter seen by Reuters. The US AI company said Alibaba carried out a distillation operation earlier this year that involves using outputs from a powerful AI to train a cheaper model, effectively copying its abilities. Anthropic says the operation used nearly 25,000 fake accounts to generate more than 28.8 million interactions with Claude. It linked the campaign to operators affiliated with Alibaba and its AI lab Quinn and it warned that distillation could help China catch up with its advanced capabilities. The accusations remain in a letter sent on June 10th to Senators Tim Scott and Elizabeth Warren ahead of a US Senate Banking Committee hearing on AI back in February. Anthropic said it faced attacks by Chinese AI outfits including Deep Seek. Alibaba did not immediately respond to a request for comment on the latest accusations.",
+          "category": "technology",
+          "summary": "Anthropic, a US artificial intelligence company, has accused Chinese tech giant Alibaba of illegally copying its Claude AI system using a method called distillation. According to a letter seen by Reuters, nearly 25,000 fake accounts were used to generate millions of interactions with Claude. Alibaba has not yet responded to the accusations.",
+          "multipleChoice": [
+            {
+              "question": "How many fake accounts did Anthropic say were used in the distillation operation?",
+              "options": [
+                "Nearly 25,000",
+                "Nearly 28,800",
+                "Around 10,000",
+                "More than 50,000"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What does 'distillation' mean in this context?",
+              "options": [
+                "Using outputs from a powerful AI to train a cheaper model",
+                "Stealing source code from a competitor's servers",
+                "Hacking into a company's private database",
+                "Buying AI technology from another company"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Who did Anthropic send its letter of accusations to?",
+              "options": [
+                "Senators Tim Scott and Elizabeth Warren",
+                "The US Senate Banking Committee directly",
+                "Reuters journalists",
+                "Alibaba's legal team"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Anthropic says the distillation operation produced more than 28.8 million interactions with Claude.",
+              "answer": true
+            },
+            {
+              "statement": "Alibaba quickly issued a public statement denying all of Anthropic's accusations.",
+              "answer": false
+            },
+            {
+              "statement": "Anthropic linked the campaign to operators affiliated with Alibaba and its AI lab Qwen.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they were mentioned in the video.",
+            "items": [
+              "Alibaba allegedly carried out a distillation operation using fake accounts to interact with Claude",
+              "Anthropic sent a letter to Senators Tim Scott and Elizabeth Warren on June 10th",
+              "A US Senate Banking Committee hearing on AI took place",
+              "Reuters reported on Anthropic's accusations against Alibaba"
+            ]
+          }
+        },
+        {
+          "videoId": "NDcAczc7IFo",
+          "title": "Cost of doing nothing for environment is costly",
+          "channel": "euronews",
+          "publishedAt": "2026-06-09T13:47:54Z",
+          "thumbnail": "https://i.ytimg.com/vi/NDcAczc7IFo/hqdefault.jpg",
+          "durationSeconds": 59,
+          "transcript": "We want clean water. We want clean air. We We need healthy soils. And And that is one reason I think we need. And I'm not sure that it always has to cost more money. It's more doing thing more efficiently, using new techniques, using AI, using digitalization. I think that is one part. The other part is that we today again see that dependencies cost. And that is something that me as a consumer at the end of the day is paying the price for. So, we need to treat our environment. We need to get in a a more sustainable way because that is the future proof. So, of course we can discuss and we can put plaster on the things at the moment, but that will only uh postpone the cost. The cost of doing nothing to prevent for flooding, for prevent for for droughts, that is or wildfires, that is costly and it will at the end of the day cost uh me as a consumer money.",
+          "category": "environment",
+          "summary": "In this short video, a speaker argues that protecting the environment does not necessarily require spending more money, but rather using resources more efficiently with the help of new technologies. They warn that ignoring environmental problems such as flooding, droughts, and wildfires only delays the costs, which will ultimately be paid by everyday consumers. The speaker calls for a more sustainable approach as the only long-term solution.",
+          "multipleChoice": [
+            {
+              "question": "According to the speaker, what will happen if we do nothing to prevent environmental problems?",
+              "options": [
+                "The costs will be postponed but eventually paid by consumers",
+                "Governments will cover all the expenses",
+                "New technologies will solve the problems automatically",
+                "The environment will recover on its own"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Which technologies does the speaker mention as ways to do things more efficiently?",
+              "options": [
+                "Solar panels and wind turbines",
+                "AI and digitalization",
+                "Electric vehicles and recycling",
+                "Nuclear energy and automation"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which environmental threats does the speaker specifically name?",
+              "options": [
+                "Pollution, oil spills, and deforestation",
+                "Earthquakes, floods, and tsunamis",
+                "Flooding, droughts, and wildfires",
+                "Melting ice caps, storms, and heatwaves"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The speaker believes that acting sustainably is the only future-proof solution.",
+              "answer": true
+            },
+            {
+              "statement": "The speaker says that protecting the environment will always require spending more money.",
+              "answer": false
+            },
+            {
+              "statement": "According to the speaker, dependencies have costs that consumers end up paying.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas from the video in the order in which the speaker mentions them.",
+            "items": [
+              "The speaker states that people want clean water, clean air, and healthy soils.",
+              "The speaker suggests using new techniques, AI, and digitalization to work more efficiently.",
+              "The speaker warns that putting a 'plaster' on problems will only postpone the costs.",
+              "The speaker lists flooding, droughts, and wildfires as examples of costly environmental problems."
+            ]
+          }
+        },
+        {
+          "videoId": "DkXuN6MqDGg",
+          "title": "Which countries are boycotting Eurovision and why? #Eurovision #Israel #Europe #NoamBettan #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-05-16T09:47:11Z",
+          "thumbnail": "https://i.ytimg.com/vi/DkXuN6MqDGg/hqdefault.jpg",
+          "durationSeconds": 51,
+          "transcript": "Which countries are boycotting Eurovvision and why? There'll be no Ireland, Iceland, the Netherlands, Slovenia, or Spain at this year's contest in Austria. They withdrew after Israel's participation was confirmed last December. Israel's inclusion's been criticized by some because of its military action in Gaza and how many Palestinian people have been killed. Others are unhappy with Israel's government, saying it tried to influence public votes by using state social media accounts to encourage people to vote for Israel's entry. Eurovvision organizers said they'd change voting rules for this year's contest, but that wasn't enough to stop countries pulling out. Spain said it's lost faith in Eurovvision bosses, withdrawing what was one of the biggest financial contributions any country's broadcaster makes to it. While Israel said it continuing to be involved is a victory against anyone trying to silence the",
+          "category": "culture",
+          "summary": "This video explains why several European countries have decided not to participate in the 2025 Eurovision Song Contest in Austria. The withdrawals are connected to Israel's involvement in the contest and concerns about its military actions in Gaza, as well as claims that Israel tried to influence public voting. Spain was among the countries to pull out, citing a loss of trust in Eurovision's organizers.",
+          "multipleChoice": [
+            {
+              "question": "Where is the 2025 Eurovision Song Contest being held?",
+              "options": [
+                "Austria",
+                "Ireland",
+                "Spain",
+                "the Netherlands"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What did some people accuse Israel's government of doing during the contest?",
+              "options": [
+                "Using state social media accounts to encourage people to vote for Israel",
+                "Paying other countries to vote for Israel",
+                "Hacking the Eurovision voting system",
+                "Withdrawing from the contest at the last minute"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Why did Spain give for withdrawing from Eurovision?",
+              "options": [
+                "It lost faith in Eurovision's organizers",
+                "It disagreed with the new voting rules",
+                "It wanted to protest Israel's military actions",
+                "It could not afford the participation fee"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Iceland is one of the countries that withdrew from the 2025 Eurovision Song Contest.",
+              "answer": true
+            },
+            {
+              "statement": "Eurovision organizers refused to make any changes to the voting rules for this year's contest.",
+              "answer": false
+            },
+            {
+              "statement": "Spain made one of the largest financial contributions of any country's broadcaster to Eurovision.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they were mentioned in the video.",
+            "items": [
+              "Israel's participation in Eurovision was confirmed in December",
+              "Countries including Ireland, Iceland, and Spain withdrew from the contest",
+              "Eurovision organizers announced changes to the voting rules",
+              "Israel described its continued involvement as a victory against those trying to silence it"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-06-24T10:28:23.024Z",
       "videos": [
         {
