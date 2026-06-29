@@ -961,9 +961,9 @@
 
   // Get the latest video for a given category (or null)
   function latestVideoForCategory(cat) {
-    for (const ed of allVideoEditions) {
-      const v = (ed.videos || []).find(v => v.category === cat);
-      if (v) return v;
+    for (let i = 0; i < allVideoEditions.length; i++) {
+      const v = (allVideoEditions[i].videos || []).find(v => v.category === cat);
+      if (v) return { video: v, editionIdx: i };
     }
     return null;
   }
@@ -990,12 +990,14 @@
 
     // ── Video strip above articles (only for a single selected category, not "all", not search) ──
     if (activeCategory !== 'all' && !searchQuery) {
-      const vid = latestVideoForCategory(activeCategory);
-      if (vid) {
+      const result = latestVideoForCategory(activeCategory);
+      if (result) {
+        const { video: vid, editionIdx } = result;
+        const isFromOlderEdition = editionIdx > 0;
         html += `<div class="video-strip">
-          <div class="video-strip-label">🎬 This week's ${CAT_LABELS[activeCategory] || activeCategory} video</div>
+          <div class="video-strip-label">🎬 ${isFromOlderEdition ? 'Most recent' : "This week's"} ${CAT_LABELS[activeCategory] || activeCategory} video</div>
           <div class="video-strip-grid video-strip-grid-all">
-            ${videoTileSmallHtml(vid, 0)}
+            ${videoTileSmallHtml(vid, editionIdx)}
           </div>
         </div>`;
       }
