@@ -1,6 +1,341 @@
 {
   "editions": [
     {
+      "generated": "2026-06-29T18:33:33.478Z",
+      "videos": [
+        {
+          "videoId": "y8DyhbVUYJI",
+          "title": "Stars, Stripes, VIPs and Protests: Brussels hosts US Independence bash",
+          "channel": "euronews",
+          "publishedAt": "2026-06-28T21:09:25Z",
+          "thumbnail": "https://i.ytimg.com/vi/y8DyhbVUYJI/hqdefault.jpg",
+          "durationSeconds": 70,
+          "transcript": "Thousands of guests traveled down to Brussels on Sunday to celebrate the 250th anniversary of US independence. The invite-only event is held in a large park in the Belgian capital, which is located near the EU institutions. >> And everyone gathered in Brussels to celebrate 250 years of American independence. >> US [music] Ambassador to Belgium Bill White opened the ceremony. Among those attending are Belgian Prime Minister Bart De Wever, NATO Secretary General Mark Rutte, and European [music] Parliament President Roberta Metsola. US military personnel based in the Belgian capital are also in attendance. However, the event drew widespread criticism. On Sunday morning, Greenpeace unrolled a massive banner in the city center condemning the occasion to promote Trump's political and corporate agenda. And several organizations, including Extinction Rebellion and Rise for Climate, demonstrated outside of the park in protest against the privatization of the public park.",
+          "category": "politics",
+          "summary": "Thousands of guests gathered in Brussels on Sunday to celebrate the 250th anniversary of US independence at an invite-only event held in a park near EU institutions. The ceremony was opened by US Ambassador to Belgium Bill White and attended by several high-profile European leaders. At the same time, environmental and climate groups staged protests outside the event.",
+          "multipleChoice": [
+            {
+              "question": "Where was the US Independence Day celebration held?",
+              "options": [
+                "A large park in Brussels near the EU institutions",
+                "The US Embassy in Belgium",
+                "The NATO headquarters in Brussels",
+                "The European Parliament building"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Who opened the ceremony at the event?",
+              "options": [
+                "Belgian Prime Minister Bart De Wever",
+                "NATO Secretary General Mark Rutte",
+                "US Ambassador to Belgium Bill White",
+                "European Parliament President Roberta Metsola"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What did Greenpeace do on Sunday morning?",
+              "options": [
+                "Blocked the entrance to the park",
+                "Unrolled a massive banner in the city center",
+                "Organized a march through Brussels",
+                "Held a press conference near the EU institutions"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The event in Brussels celebrated 250 years of American independence.",
+              "answer": true
+            },
+            {
+              "statement": "The celebration in Brussels was open to the general public.",
+              "answer": false
+            },
+            {
+              "statement": "Extinction Rebellion was among the organizations that protested outside the park.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they were mentioned.",
+            "items": [
+              "Thousands of guests traveled to Brussels to celebrate US independence",
+              "US Ambassador Bill White opened the ceremony",
+              "Greenpeace unrolled a banner in the city center",
+              "Organizations including Extinction Rebellion demonstrated outside the park"
+            ]
+          }
+        },
+        {
+          "videoId": "K_nqvhb7OxA",
+          "title": "Scotland fans drink Boston bars dry during World Cup",
+          "channel": "Reuters",
+          "publishedAt": "2026-06-18T06:24:27Z",
+          "thumbnail": "https://i.ytimg.com/vi/K_nqvhb7OxA/hqdefault.jpg",
+          "durationSeconds": 37,
+          "transcript": "We're all running out of beer and and uh the local um distributors are just doing what they can to to get them in. And I know a lot of them got shipments in and yeah, it seems like the Scottish pride themselves in uh having places like just drinking them dry. >> We're going to come here. We're going to drink your beer. We're going to put some money in the economy and we're gonna have a right good time while we're doing it.",
+          "category": "business",
+          "summary": "During the 2026 World Cup, large numbers of Scottish fans travelled to Boston and visited local bars. Their enthusiasm for drinking led to beer shortages, with distributors working hard to keep up with demand. One Scottish fan summed up the mood by saying they came to drink beer, spend money, and have a great time.",
+          "multipleChoice": [
+            {
+              "question": "What problem did Boston bars face because of the Scottish fans?",
+              "options": [
+                "They ran out of beer",
+                "They ran out of food",
+                "They closed early",
+                "They had too many staff"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Who was trying to help bars deal with the shortage?",
+              "options": [
+                "Local distributors",
+                "The Scottish government",
+                "Bar owners from Scotland",
+                "World Cup organisers"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "According to the Scottish fan, what were THREE things the fans planned to do in Boston?",
+              "options": [
+                "Drink beer, spend money, and have a good time",
+                "Watch football, meet locals, and visit museums",
+                "Buy souvenirs, eat food, and sing songs",
+                "Drink beer, cause trouble, and go home early"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Boston bars ran out of beer because of the large number of Scottish fans visiting.",
+              "answer": true
+            },
+            {
+              "statement": "Local distributors refused to send more beer to the bars.",
+              "answer": false
+            },
+            {
+              "statement": "A Scottish fan said they wanted to put money into the local economy.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they were mentioned.",
+            "items": [
+              "Bar staff explain that they are running out of beer",
+              "Local distributors work to get more beer delivered",
+              "A bar worker notes that many places received new shipments",
+              "A Scottish fan explains why they came to Boston"
+            ]
+          }
+        },
+        {
+          "videoId": "CLbnaAMDCTs",
+          "title": "South Korea unveils $576 billion AI chip investment",
+          "channel": "Reuters",
+          "publishedAt": "2026-06-29T12:37:29Z",
+          "thumbnail": "https://i.ytimg.com/vi/CLbnaAMDCTs/hqdefault.jpg",
+          "durationSeconds": 67,
+          "transcript": "South Korea rolled out sweeping chip and AI mega projects on Monday. >> President Lee Jang pledged investments worth more than $576 billion over several years. It's a move that aims to cement the nation's overwhelming industry leadership. Lee was joined for the announcement by the leaders of Samsung Electronics and SKH Highix. High bandwidth memory chips produced by both tech giants have become pivotal in the global race to build advanced AI systems. Lee said the world's two largest memory chip makers will invest around 518 billion with suppliers to build two new chip fabrication sites each in South Korea's southwest region. He announced plans for the southwest to host major chip production clusters drawing on abundant underused power. Lee defended these proposed new hubs over the weekend as a national survival strategy to ease regional imbalances and expand capacity for the AI era. Representatives of other firms including LG Electronics and HD Hyundai Robotics also attended.",
+          "category": "technology",
+          "summary": "South Korea has announced a massive investment plan worth over $576 billion in chip and AI development. President Lee Jang made the announcement alongside the leaders of Samsung Electronics and SK Hynix, outlining plans to build new chip production facilities in the country's southwest region. The initiative is described as a national strategy to strengthen South Korea's position in the global AI industry.",
+          "multipleChoice": [
+            {
+              "question": "How much money did President Lee Jang pledge for chip and AI investments?",
+              "options": [
+                "More than $576 billion",
+                "Around $518 billion",
+                "Exactly $600 billion",
+                "More than $1 trillion"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Where in South Korea will the new chip fabrication sites be built?",
+              "options": [
+                "In the southwest region",
+                "In the capital, Seoul",
+                "In the northeast region",
+                "Along the southern coastline"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What type of chips produced by Samsung and SK Hynix are described as pivotal in the global AI race?",
+              "options": [
+                "High bandwidth memory chips",
+                "Processor chips",
+                "Graphic processing units",
+                "Low-power storage chips"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "President Lee Jang was joined by the leaders of Samsung Electronics and SK Hynix at the announcement.",
+              "answer": true
+            },
+            {
+              "statement": "South Korea plans to build three new chip fabrication sites in total.",
+              "answer": false
+            },
+            {
+              "statement": "Representatives from LG Electronics and HD Hyundai Robotics also attended the event.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they were mentioned",
+            "items": [
+              "President Lee Jang pledges investments worth more than $576 billion",
+              "Lee announces that Samsung and SK Hynix will invest around $518 billion with suppliers",
+              "Lee announces plans for the southwest to host major chip production clusters",
+              "Lee defends the proposed new hubs as a national survival strategy"
+            ]
+          }
+        },
+        {
+          "videoId": "NDcAczc7IFo",
+          "title": "Cost of doing nothing for environment is costly",
+          "channel": "euronews",
+          "publishedAt": "2026-06-09T13:47:54Z",
+          "thumbnail": "https://i.ytimg.com/vi/NDcAczc7IFo/hqdefault.jpg",
+          "durationSeconds": 59,
+          "transcript": "We want clean water. We want clean air. We We need healthy soils. And And that is one reason I think we need. And I'm not sure that it always has to cost more money. It's more doing thing more efficiently, using new techniques, using AI, using digitalization. I think that is one part. The other part is that we today again see that dependencies cost. And that is something that me as a consumer at the end of the day is paying the price for. So, we need to treat our environment. We need to get in a a more sustainable way because that is the future proof. So, of course we can discuss and we can put plaster on the things at the moment, but that will only uh postpone the cost. The cost of doing nothing to prevent for flooding, for prevent for for droughts, that is or wildfires, that is costly and it will at the end of the day cost uh me as a consumer money.",
+          "category": "environment",
+          "summary": "In this short video, a speaker argues that protecting the environment is not simply about spending more money, but about doing things more efficiently using modern tools like AI and digitalisation. The speaker warns that ignoring environmental problems such as flooding, droughts, and wildfires only delays costs rather than avoiding them. Ultimately, the speaker stresses that consumers will end up paying the price if society fails to act sustainably.",
+          "multipleChoice": [
+            {
+              "question": "According to the speaker, what will happen if we do nothing to prevent environmental problems?",
+              "options": [
+                "The costs will eventually be paid by consumers",
+                "Governments will cover all the expenses",
+                "Technology will solve the problems automatically",
+                "The problems will disappear over time"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Which technologies does the speaker mention as ways to act more efficiently?",
+              "options": [
+                "AI and digitalisation",
+                "Solar panels and wind turbines",
+                "Electric vehicles and smart grids",
+                "Recycling and composting systems"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What does the speaker say about 'putting a plaster on things'?",
+              "options": [
+                "It will only postpone the cost",
+                "It is the best short-term solution available",
+                "It will reduce costs for consumers",
+                "It is not worth discussing at all"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The speaker says that living more sustainably is future-proof.",
+              "answer": true
+            },
+            {
+              "statement": "The speaker believes that protecting the environment will always cost more money.",
+              "answer": false
+            },
+            {
+              "statement": "The speaker mentions flooding, droughts, and wildfires as examples of costly environmental events.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas from the video in the order in which the speaker mentions them.",
+            "items": [
+              "The speaker says we need clean water, clean air, and healthy soils.",
+              "The speaker argues that new techniques, AI, and digitalisation can help us act more efficiently.",
+              "The speaker warns that putting a plaster on problems will only postpone the cost.",
+              "The speaker states that the cost of doing nothing about flooding, droughts, and wildfires will be paid by consumers."
+            ]
+          }
+        },
+        {
+          "videoId": "DkXuN6MqDGg",
+          "title": "Which countries are boycotting Eurovision and why? #Eurovision #Israel #Europe #NoamBettan #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-05-16T09:47:11Z",
+          "thumbnail": "https://i.ytimg.com/vi/DkXuN6MqDGg/hqdefault.jpg",
+          "durationSeconds": 51,
+          "transcript": "Which countries are boycotting Eurovvision and why? There'll be no Ireland, Iceland, the Netherlands, Slovenia, or Spain at this year's contest in Austria. They withdrew after Israel's participation was confirmed last December. Israel's inclusion's been criticized by some because of its military action in Gaza and how many Palestinian people have been killed. Others are unhappy with Israel's government, saying it tried to influence public votes by using state social media accounts to encourage people to vote for Israel's entry. Eurovvision organizers said they'd change voting rules for this year's contest, but that wasn't enough to stop countries pulling out. Spain said it's lost faith in Eurovvision bosses, withdrawing what was one of the biggest financial contributions any country's broadcaster makes to it. While Israel said it continuing to be involved is a victory against anyone trying to silence the",
+          "category": "culture",
+          "summary": "Several European countries have chosen not to take part in the 2026 Eurovision Song Contest held in Austria, protesting Israel's continued participation. The boycotting nations include Ireland, Iceland, the Netherlands, Slovenia, and Spain, citing concerns about Israel's military actions in Gaza and alleged attempts to influence public voting. Eurovision organisers changed the voting rules, but this was not enough to prevent the withdrawals.",
+          "multipleChoice": [
+            {
+              "question": "Where is the 2026 Eurovision Song Contest being held?",
+              "options": [
+                "Austria",
+                "Ireland",
+                "Spain",
+                "the Netherlands"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "When was Israel's participation in Eurovision confirmed?",
+              "options": [
+                "Last December",
+                "Last March",
+                "Last September",
+                "Last January"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What did Israel's government allegedly use to encourage people to vote for Israel's entry?",
+              "options": [
+                "State social media accounts",
+                "Television advertisements",
+                "Official press releases",
+                "Radio broadcasts"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Spain withdrew from Eurovision after losing faith in the organisation's leadership.",
+              "answer": true
+            },
+            {
+              "statement": "Six countries in total are boycotting the 2026 Eurovision Song Contest.",
+              "answer": false
+            },
+            {
+              "statement": "Eurovision organisers agreed to change the voting rules for the 2026 contest.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they were mentioned in the video.",
+            "items": [
+              "Israel's participation in Eurovision was confirmed",
+              "Countries criticised Israel's alleged use of state social media to influence votes",
+              "Eurovision organisers announced changes to the voting rules",
+              "Spain withdrew, removing one of the largest financial contributions to the contest"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-06-24T10:28:23.024Z",
       "videos": [
         {
