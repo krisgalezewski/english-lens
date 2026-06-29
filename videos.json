@@ -1,3 +1,75 @@
 {
-  "editions": []
+  "editions": [
+    {
+      "generated": "2026-06-29T19:48:28.378Z",
+      "videos": [
+        {
+          "videoId": "y8DyhbVUYJI",
+          "title": "Stars, Stripes, VIPs and Protests: Brussels hosts US Independence bash",
+          "channel": "euronews",
+          "publishedAt": "2026-06-28T21:09:25Z",
+          "thumbnail": "https://i.ytimg.com/vi/y8DyhbVUYJI/hqdefault.jpg",
+          "durationSeconds": 70,
+          "transcript": "Thousands of guests traveled down to Brussels on Sunday to celebrate the 250th anniversary of US independence. The invite-only event is held in a large park in the Belgian capital, which is located near the EU institutions. >> And everyone gathered in Brussels to celebrate 250 years of American independence. >> US [music] Ambassador to Belgium Bill White opened the ceremony. Among those attending are Belgian Prime Minister Bart De Wever, NATO Secretary General Mark Rutte, and European [music] Parliament President Roberta Metsola. US military personnel based in the Belgian capital are also in attendance. However, the event drew widespread criticism. On Sunday morning, Greenpeace unrolled a massive banner in the city center condemning the occasion to promote Trump's political and corporate agenda. And several organizations, including Extinction Rebellion and Rise for Climate, demonstrated outside of the park in protest against the privatization of the public park.",
+          "category": "politics",
+          "summary": "Thousands of guests gathered in Brussels on Sunday to celebrate the 250th anniversary of American independence at an invite-only event held in a park near the EU institutions. High-profile attendees included Belgian Prime Minister Bart De Wever, NATO Secretary General Mark Rutte, and European Parliament President Roberta Metsola. However, the event also attracted protests from environmental groups who criticised both the political agenda behind the celebration and the use of a public park.",
+          "multipleChoice": [
+            {
+              "question": "Where was the US Independence Day celebration held?",
+              "options": [
+                "A large park in Brussels near the EU institutions",
+                "The NATO headquarters in Brussels",
+                "A venue in the Belgian countryside",
+                "The European Parliament building"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What anniversary of US independence was being celebrated at the event?",
+              "options": [
+                "200th",
+                "225th",
+                "250th",
+                "300th"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What did Greenpeace do on Sunday morning in response to the event?",
+              "options": [
+                "Blocked the entrance to the park",
+                "Unrolled a massive banner in the city centre",
+                "Organised a march through Brussels",
+                "Held a press conference outside the EU institutions"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The celebration in Brussels was open to the general public.",
+              "answer": false
+            },
+            {
+              "statement": "US Ambassador to Belgium Bill White opened the ceremony.",
+              "answer": true
+            },
+            {
+              "statement": "Extinction Rebellion and Rise for Climate protested against the privatisation of the public park.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they were mentioned.",
+            "items": [
+              "Thousands of guests travelled to Brussels for the invite-only celebration.",
+              "Bill White, the US Ambassador to Belgium, opened the ceremony.",
+              "Greenpeace unrolled a large banner in the city centre condemning the event.",
+              "Environmental groups demonstrated outside the park against its privatisation."
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
