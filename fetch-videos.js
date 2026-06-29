@@ -51,6 +51,9 @@ async function main() {
 
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
+  // Load persistent channel ID cache (avoids re-spending quota on channel resolution)
+  await loadChannelIdCache();
+
   // Load existing video archive
   let archive = { editions: [] };
   try {
@@ -113,6 +116,7 @@ async function main() {
 
   if (!videos.length) {
     console.log('\n⚠️  No videos found for any category this week. Skipping video edition.');
+    await saveChannelIdCacheIfDirty();
     return;
   }
 
@@ -124,6 +128,7 @@ async function main() {
   archive.editions = [thisEdition, ...archive.editions].slice(0, 12); // keep ~12 weeks
 
   await fs.writeFile('videos.json', JSON.stringify(archive, null, 2), 'utf8');
+  await saveChannelIdCacheIfDirty();
   console.log(`\n✨ Done! ${videos.length} video(s) added. Archive has ${archive.editions.length} edition(s).`);
 }
 
@@ -262,8 +267,27 @@ async function searchChannelsForVideos(channelNames, searchHint) {
   return allResults;
 }
 
-// Cache resolved channel IDs across runs within this process
-const channelIdCache = {};
+// Cache resolved channel IDs PERSISTENTLY in channel-ids.json, since channel IDs
+// never change. This avoids burning YouTube API quota re-resolving the same
+// channel names on every single run (each resolution costs 100 quota units).
+let channelIdCache = {};
+let channelIdCacheDirty = false;
+
+async function loadChannelIdCache() {
+  try {
+    const raw = await fs.readFile('channel-ids.json', 'utf8');
+    channelIdCache = JSON.parse(raw);
+    console.log(`📇 Loaded ${Object.keys(channelIdCache).length} cached channel ID(s) from channel-ids.json`);
+  } catch {
+    console.log('No channel-ids.json yet — will create one as channels are resolved.');
+  }
+}
+
+async function saveChannelIdCacheIfDirty() {
+  if (!channelIdCacheDirty) return;
+  await fs.writeFile('channel-ids.json', JSON.stringify(channelIdCache, null, 2), 'utf8');
+  console.log(`📇 Saved updated channel-ids.json (${Object.keys(channelIdCache).length} channel(s))`);
+}
 
 async function resolveChannelId(channelName) {
   if (channelIdCache[channelName]) return channelIdCache[channelName];
@@ -279,8 +303,12 @@ async function resolveChannelId(channelName) {
     }
 
     const id = data.items?.[0]?.snippet?.channelId || data.items?.[0]?.id?.channelId;
-    if (id) channelIdCache[channelName] = id;
-    else console.log(`    ↳ No channel found matching "${channelName}"`);
+    if (id) {
+      channelIdCache[channelName] = id;
+      channelIdCacheDirty = true;
+    } else {
+      console.log(`    ↳ No channel found matching "${channelName}"`);
+    }
     return id || null;
   } catch (err) {
     console.log(`    ⚠️  resolveChannelId threw for "${channelName}": ${err.message}`);

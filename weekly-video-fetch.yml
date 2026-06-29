@@ -39,7 +39,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "English Lens Bot"
-          git add videos.json
+          git add videos.json channel-ids.json
           git diff --staged --quiet || git commit -m "Video update — $(date +'%Y-%m-%d %H:%M')"
 
       - name: Push changes
