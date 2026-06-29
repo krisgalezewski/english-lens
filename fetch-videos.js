@@ -161,10 +161,16 @@ async function findBestVideo(category, articleTitles, usedVideoIds) {
     return await enrichWithCaptions(pool, category);
   }
 
-  // STEP 3: allow older / previously-considered videos not yet in the archive
-  pool = candidates.filter(v => !usedVideoIds.has(v.videoId));
+  // STEP 3: allow older / previously-considered videos not yet in the archive,
+  // but never older than 14 days — a month-old "news" video is no longer news
+  // and risks the report being factually stale (events that have since moved on)
+  const fourteenDaysAgo = Date.now() - 14 * 24 * 60 * 60 * 1000;
+  pool = candidates.filter(v =>
+    !usedVideoIds.has(v.videoId) &&
+    new Date(v.publishedAt).getTime() >= fourteenDaysAgo
+  );
   if (pool.length) {
-    console.log('  ↳ Relaxed: using older unused video regardless of duration');
+    console.log('  ↳ Relaxed: using older unused video (within last 14 days) regardless of duration');
     return await enrichWithCaptions(pool, category);
   }
 
@@ -364,12 +370,14 @@ function topicsOverlapAny(videoTitle, articleTitles) {
 async function generateComprehensionTasks(client, video, category) {
   // Trim transcript to a safe length for the prompt
   const trimmed = video.transcript.split(' ').slice(0, 1200).join(' ');
+  const publishDate = (video.publishedAt || '').slice(0, 10);
 
   const prompt = `You are an expert EFL teacher creating comprehension tasks for Polish English learners (B1-C1) based on a short news video transcript.
 
 Video title: ${video.title}
 Channel: ${video.channel}
 Category: ${category}
+Video published on: ${publishDate || 'unknown date'}
 Transcript: ${trimmed}
 
 Generate a JSON object with EXACTLY these fields (no markdown, no code fences):
@@ -392,7 +400,10 @@ Generate a JSON object with EXACTLY these fields (no markdown, no code fences):
 }
 
 Critical rules:
-- All tasks must be answerable strictly from the transcript content — do not invent facts
+- Base every fact STRICTLY on what is actually said in the transcript above — never substitute your own background knowledge for specific facts like years, dates, names, numbers, or places, even if you believe you know the topic well
+- If the transcript states a year, date, or number, use exactly that — do not "correct" it based on what you assume is more recent or more familiar
+- The video's publish date (given above) is the most reliable anchor for "when this is happening" — if the transcript references "this year" or similar, infer the year from the publish date, not from your own training data
+- If you are not confident a fact is stated in the transcript, do not include it as a question or statement at all — leave it out rather than guess
 - multipleChoice: exactly 3 questions, 4 options each, only one correct
 - trueFalse: exactly 3 statements, mix of true and false
 - ordering: exactly 4 items, listed in the CORRECT chronological/logical order (the frontend will shuffle them for the student)
