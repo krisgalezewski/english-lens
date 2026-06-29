@@ -1,6 +1,275 @@
 {
   "editions": [
     {
+      "generated": "2026-06-29T19:14:58.078Z",
+      "videos": [
+        {
+          "videoId": "PBScd1GO-XU",
+          "title": "Europe send search and rescue personnel to Venezuela in response to massive quakes",
+          "channel": "euronews",
+          "publishedAt": "2026-06-27T16:54:52Z",
+          "thumbnail": "https://i.ytimg.com/vi/PBScd1GO-XU/hqdefault.jpg",
+          "durationSeconds": 71,
+          "transcript": "Europe is deploying rescue teams and other emergency assistance to Venezuela after double earthquakes hit the country on Wednesday leaving at least 920 people dead and more than 50,000 missing according to the UN. So far 520 responders from eight EU member states including [music] Czechia, Spain, Italy, France Luxembourg Germany Portugal and the Netherlands have mobilized for deployment through the EU civil protection mechanism. On Saturday Italian firefighters and 85 [music] French search and rescue personnel were seen arriving to join other international [music] teams in rescue operations. The UK Royal Air Force personnel prepared aid packages to be deployed to Venezuela. Meanwhile, Turkey sent two military aircraft carrying search and rescue personnel, medical teams and humanitarian aid. The two powerful earthquakes struck the northern Yaracuy region within eight minutes of each other on Wednesday night leaving unprecedented damage.",
+          "category": "politics",
+          "summary": "Following two powerful earthquakes in Venezuela's Yaracuy region on Wednesday, at least 920 people were killed and more than 50,000 reported missing. The European Union activated its civil protection mechanism, with over 500 rescue personnel from eight member states mobilizing to help. Turkey and the United Kingdom also sent search and rescue teams and humanitarian aid.",
+          "multipleChoice": [
+            {
+              "question": "How many people were reported missing in Venezuela after the earthquakes, according to the UN?",
+              "options": [
+                "More than 5,000",
+                "More than 50,000",
+                "More than 500",
+                "More than 15,000"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How many EU member states mobilized rescue personnel through the EU civil protection mechanism?",
+              "options": [
+                "Six",
+                "Ten",
+                "Eight",
+                "Five"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "How far apart in time did the two earthquakes strike?",
+              "options": [
+                "Within five minutes of each other",
+                "Within twenty minutes of each other",
+                "Within one hour of each other",
+                "Within eight minutes of each other"
+              ],
+              "correctIndex": 3
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Italian firefighters and French search and rescue personnel arrived in Venezuela on Saturday.",
+              "answer": true
+            },
+            {
+              "statement": "Turkey sent three military aircraft with humanitarian aid to Venezuela.",
+              "answer": false
+            },
+            {
+              "statement": "The earthquakes struck the northern Yaracuy region of Venezuela.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they were mentioned.",
+            "items": [
+              "Two earthquakes strike the Yaracuy region on Wednesday night.",
+              "520 responders from eight EU member states mobilize for deployment.",
+              "Italian firefighters and French rescue personnel arrive in Venezuela on Saturday.",
+              "Turkey sends two military aircraft with search and rescue teams and aid."
+            ]
+          }
+        },
+        {
+          "videoId": "yPtH0qSukt0",
+          "title": "How has Brexit changed Britain’s economy?  | The Economist",
+          "channel": "The Economist",
+          "publishedAt": "2026-06-23T10:40:20Z",
+          "thumbnail": "https://i.ytimg.com/vi/yPtH0qSukt0/hqdefault.jpg",
+          "durationSeconds": 147,
+          "transcript": "How exactly has Brexit changed Britain's economy? It's been ten years since Britain decided to leave the European Union <i>The dawn is breaking</i> <i>on an independent</i> <i>United Kingdom</i> The country has been through six prime ministers since then and is now more divided, less influential and poorer than it otherwise might have been <i>Brexit was a huge mistake</i> Most economists agree that Brexit has damaged the economy Some say GDP per person is 8% lower, while others say it's only 2.5% We may not know the exact cost, but what we do know is that growth in most other big, rich countries has been faster than in Britain The effects are clearest in manufacturing Brexiteers promise to free Britain from the shackles of EU regulations They said that any trade losses with the EU would be more than made up for by greater trade with the rest of the world But that's not what's happened The value in real terms of goods traded with the EU has fallen by 7% since 2016 But trade with the rest of the world has also fallen by 6% Competition from China and high energy costs were already making life harder for British manufacturing But Brexit sped up its decline by introducing new barriers to trade with the EU, such as extra border checks and more paperwork Over 16,000 British businesses have given up exporting to the EU altogether— that's 14% of all exporters to the continent But it's not all doom and gloom Britain's exports of services have actually risen since 2016 by £62bn in the EU and £107bn in the rest of the world The biggest growth in output has been in industries with few trade barriers like IT services or advertising That has happened despite Brexit, not because of it Sectors where Brexit introduced new obstacles like financial services, they've done worse But Brexit alone can't be blamed for Britain's sluggish economy It fundamentally has the same strengths and the same weaknesses as before 2016— leaving the EU has just made everything a little bit harder",
+          "category": "business",
+          "summary": "This video marks ten years since Britain voted to leave the European Union and examines how Brexit has affected the British economy. It looks at the impact on trade, manufacturing, and services, comparing Britain's economic performance with other wealthy countries. The video concludes that while Brexit is not solely responsible for Britain's slow growth, it has made an already difficult situation harder.",
+          "multipleChoice": [
+            {
+              "question": "According to the video, by how much has the value of goods traded with the EU fallen since 2016?",
+              "options": [
+                "7%",
+                "6%",
+                "8%",
+                "14%"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "How many British businesses have stopped exporting to the EU altogether since Brexit?",
+              "options": [
+                "Over 16,000",
+                "Over 6,000",
+                "Over 60,000",
+                "Over 1,600"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "According to some economists, by how much is GDP per person lower as a result of Brexit?",
+              "options": [
+                "8%",
+                "2.5%",
+                "14%",
+                "7%"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Britain's exports of services have risen since 2016.",
+              "answer": true
+            },
+            {
+              "statement": "Trade with the rest of the world has increased since 2016, making up for losses with the EU.",
+              "answer": false
+            },
+            {
+              "statement": "Brexit introduced new barriers such as extra border checks and more paperwork for trade with the EU.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or ideas in the order they were mentioned in the video.",
+            "items": [
+              "Britain voted to leave the European Union",
+              "Brexiteers promised that trade losses with the EU would be made up by greater trade with the rest of the world",
+              "Over 16,000 British businesses gave up exporting to the EU altogether",
+              "Britain's exports of services rose in both the EU and the rest of the world"
+            ]
+          }
+        },
+        {
+          "videoId": "_7pApUF3eVA",
+          "title": "\"Good luck.\" Jennifer Doudna on AI Drug Discovery Promises",
+          "channel": "Bloomberg Originals",
+          "publishedAt": "2026-06-25T16:00:23Z",
+          "thumbnail": "https://i.ytimg.com/vi/_7pApUF3eVA/hqdefault.jpg",
+          "durationSeconds": 69,
+          "transcript": "An OpenAI executive recently suggested that if a discovery happens on ChatGPT, let's say a drug discovery, that OpenAI should get a cut of sales. What do you think of that? >> [laughter] >> Good luck. >> Expand. >> How are chatbots going to change drug discovery? I'm not sure the answer to that yet. I don't know. Lots of people are of course very, very hopeful, some very hypeful about it. Uh, but I think that innovation is still really in the domain of human beings right now. I'm not seeing chatbots in our own experience innovating. They can be helpful with summarizing data, they can be helpful in writing reports and things of that nature, but I'm not seeing chatbots uh coming up with a brand new idea for something that nobody else ever thought of. >> So, you're saying AI can't innovate? >> I don't know if it can't innovate, I just don't think it is right now. >> What about after the AGI moment? >> Well, I never say never, so maybe that'll happen, but I'm not holding my breath. >> Well, there are just so many big promises out there like Larry Ellison saying AI will cure cancer in a 48-hour window. Does that hold any water? >> Believe me, I'd be overjoyed if that is true, but I just I don't see it right now.",
+          "category": "technology",
+          "summary": "In this interview, Jennifer Doudna responds to an OpenAI executive's suggestion that OpenAI should receive a share of profits from drug discoveries made using ChatGPT. She shares her views on the current limitations of AI and chatbots in scientific innovation, and comments on bold predictions about AI curing cancer.",
+          "multipleChoice": [
+            {
+              "question": "What did the OpenAI executive suggest should happen if a drug is discovered using ChatGPT?",
+              "options": [
+                "OpenAI should receive a share of the drug's sales",
+                "OpenAI should publish the discovery for free",
+                "OpenAI should partner with pharmaceutical companies",
+                "OpenAI should donate the profits to research"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "According to Jennifer Doudna, what are chatbots currently useful for in research?",
+              "options": [
+                "Coming up with brand new scientific ideas",
+                "Replacing human researchers in laboratories",
+                "Summarizing data and writing reports",
+                "Designing clinical trials for new drugs"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What claim does Larry Ellison make about AI and cancer?",
+              "options": [
+                "AI will eliminate cancer within five years",
+                "AI will cure cancer in a 48-hour window",
+                "AI will reduce cancer treatment costs by half",
+                "AI will detect cancer earlier than any human doctor"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Jennifer Doudna laughed when she first heard the question about OpenAI getting a cut of drug sales.",
+              "answer": true
+            },
+            {
+              "statement": "Doudna believes that chatbots are already capable of coming up with completely new ideas that no one has thought of before.",
+              "answer": false
+            },
+            {
+              "statement": "Doudna said she would be overjoyed if Larry Ellison's claim about AI curing cancer turned out to be true.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics from the interview in the order they were discussed.",
+            "items": [
+              "The OpenAI executive's suggestion about getting a cut of drug sales",
+              "Chatbots being useful for summarizing data and writing reports",
+              "Whether AI could innovate after an AGI moment",
+              "Larry Ellison's claim that AI will cure cancer in 48 hours"
+            ]
+          }
+        },
+        {
+          "videoId": "N518JerkQFQ",
+          "title": "Why is the UK not built for extreme heat? #Heatwave #UK #Weather #Climate #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-06-23T18:00:31Z",
+          "thumbnail": "https://i.ytimg.com/vi/N518JerkQFQ/hqdefault.jpg",
+          "durationSeconds": 66,
+          "transcript": "Why is the UK just not built for extreme weather? We're just at the start of what's going to be an intense heat wave. But the reality is that the average summer temperature here is just about 16° C. With those mostly mild conditions, we're building for those conditions instead. But the future is going to be much hotter and much wetter. Large parts of our train network run on electricity and power lines sag in high temperatures. So that can mean trains get cancelled. We've also built our towns and cities with lots of rock and concrete. It absorbs the heat and then radiates it back out, making that heat even more unbearable. We're also building lots of shiny new apartments with lots of glass, which traps the heat, just like a greenhouse. And it may come as a surprise to those people not living here, but only about 5% of homes in the UK have air conditioning. All this means is that so far we haven't adapted our lives to extreme heat in the way many other countries already",
+          "category": "environment",
+          "summary": "This video explains why the UK struggles to cope with extreme heat waves. It looks at several reasons, including the country's mild average summer temperatures, the design of its cities and buildings, and the low number of homes with air conditioning. The video suggests that the UK needs to adapt to hotter and wetter conditions in the future.",
+          "multipleChoice": [
+            {
+              "question": "What is the average summer temperature in the UK, according to the video?",
+              "options": [
+                "About 16°C",
+                "About 20°C",
+                "About 12°C",
+                "About 25°C"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Why can high temperatures cause train cancellations in the UK?",
+              "options": [
+                "Power lines sag in the heat",
+                "Train tracks melt and bend",
+                "Train drivers refuse to work",
+                "Stations lose electricity completely"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Approximately what percentage of homes in the UK have air conditioning?",
+              "options": [
+                "5%",
+                "15%",
+                "25%",
+                "50%"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Rock and concrete in cities absorb heat and then radiate it back out, making conditions more unbearable.",
+              "answer": true
+            },
+            {
+              "statement": "Most homes in the UK are already equipped with air conditioning.",
+              "answer": false
+            },
+            {
+              "statement": "Large parts of the UK train network run on electricity.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were mentioned in the video.",
+            "items": [
+              "The UK's mild average summer temperature and how buildings are designed for it",
+              "Power lines sagging and trains being cancelled in high heat",
+              "Rock and concrete in cities absorbing and radiating heat",
+              "The low percentage of UK homes that have air conditioning"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-06-29T18:33:33.478Z",
       "videos": [
         {
