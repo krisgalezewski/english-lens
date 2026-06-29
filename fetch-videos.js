@@ -24,7 +24,7 @@ const CHANNEL_POOL = {
   business:     ['Reuters', 'The Economist', 'Bloomberg Originals', 'Wall Street Journal', 'Financial Times'],
   technology:   ['Reuters', 'The Economist', 'Bloomberg Originals', 'Wall Street Journal'],
   environment:  ['DW News', 'Euronews', 'BBC News'],
-  culture:      ['Euronews', 'BBC News', 'DW News'],
+  culture:      ['Euronews', 'BBC News', 'DW News', 'The Guardian', 'Reuters'],
 };
 
 // Search query hints per category to bias YouTube search toward relevant topics
@@ -33,7 +33,7 @@ const SEARCH_HINTS = {
   business:    'Europe economy business news',
   technology:  'technology AI news',
   environment: 'climate environment Europe news',
-  culture:     'culture arts Europe news',
+  culture:     'culture lifestyle travel food Europe',
 };
 
 // ── MAIN ──────────────────────────────────────────────────────────────────────
@@ -137,25 +137,31 @@ async function findBestVideo(category, articleTitles, usedVideoIds) {
   const candidates = await searchChannelsForVideos(channels, hint);
   if (!candidates.length) return null;
 
+  // Freshness ceilings: prefer last 10 days, fall back to last 14 only as a last resort
+  const tenDaysAgo = Date.now() - 10 * 24 * 60 * 60 * 1000;
+  const fourteenDaysAgo = Date.now() - 14 * 24 * 60 * 60 * 1000;
+  const isFresh = v => new Date(v.publishedAt).getTime() >= tenDaysAgo;
+
   // Filter out already-used videos up front (never reuse — except final fallback)
   const neverUsed = candidates.filter(v => !usedVideoIds.has(v.videoId));
+  const neverUsedFresh = neverUsed.filter(isFresh);
 
-  // STEP 0 (primary): topic-distinct + under primary duration + never used
-  let pool = neverUsed.filter(v =>
+  // STEP 0 (primary): fresh + topic-distinct + under primary duration + never used
+  let pool = neverUsedFresh.filter(v =>
     v.durationSeconds <= MAX_DURATION_PRIMARY &&
     !topicsOverlapAny(v.title, articleTitles)
   );
   if (pool.length) return await enrichWithCaptions(pool, category);
 
-  // STEP 1: drop topic-distinctness requirement (still under primary duration, never used)
-  pool = neverUsed.filter(v => v.durationSeconds <= MAX_DURATION_PRIMARY);
+  // STEP 1: drop topic-distinctness requirement (still fresh, under primary duration, never used)
+  pool = neverUsedFresh.filter(v => v.durationSeconds <= MAX_DURATION_PRIMARY);
   if (pool.length) {
     console.log('  ↳ Relaxed: allowing topic overlap with articles');
     return await enrichWithCaptions(pool, category);
   }
 
-  // STEP 2: relax duration up to 6:30 (still never used)
-  pool = neverUsed.filter(v => v.durationSeconds <= MAX_DURATION_FALLBACK);
+  // STEP 2: relax duration up to 6:30 (still fresh, never used)
+  pool = neverUsedFresh.filter(v => v.durationSeconds <= MAX_DURATION_FALLBACK);
   if (pool.length) {
     console.log('  ↳ Relaxed: allowing longer videos up to 6:30');
     return await enrichWithCaptions(pool, category);
@@ -164,17 +170,13 @@ async function findBestVideo(category, articleTitles, usedVideoIds) {
   // STEP 3: allow older / previously-considered videos not yet in the archive,
   // but never older than 14 days — a month-old "news" video is no longer news
   // and risks the report being factually stale (events that have since moved on)
-  const fourteenDaysAgo = Date.now() - 14 * 24 * 60 * 60 * 1000;
-  pool = candidates.filter(v =>
-    !usedVideoIds.has(v.videoId) &&
-    new Date(v.publishedAt).getTime() >= fourteenDaysAgo
-  );
+  pool = neverUsed.filter(v => new Date(v.publishedAt).getTime() >= fourteenDaysAgo);
   if (pool.length) {
-    console.log('  ↳ Relaxed: using older unused video (within last 14 days) regardless of duration');
+    console.log('  ↳ Relaxed: using video published 10-14 days ago, regardless of duration');
     return await enrichWithCaptions(pool, category);
   }
 
-  // Nothing usable at all
+  // Nothing usable at all within a reasonable freshness window
   return null;
 }
 

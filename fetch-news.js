@@ -47,10 +47,12 @@ const FEEDS = [
   { url: 'https://www.theguardian.com/society/food/rss',                  category: 'environment',  name: 'The Guardian Food',   publisher: 'The Guardian' },
   { url: 'https://feeds.bbci.co.uk/news/health/rss.xml',                  category: 'environment',  name: 'BBC Health',          publisher: 'BBC' },
 
-  // Culture
+  // Culture & Lifestyle (arts, entertainment, travel, food, society trends)
   { url: 'https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml', category: 'culture',      name: 'BBC Culture',         publisher: 'BBC' },
   { url: 'https://www.theguardian.com/culture/rss',                       category: 'culture',      name: 'The Guardian Culture', publisher: 'The Guardian' },
   { url: 'https://notesfrompoland.com/feed/',                             category: 'culture',      name: 'Notes from Poland',   publisher: 'Notes from Poland' },
+  { url: 'https://www.theguardian.com/travel/rss',                        category: 'culture',      name: 'The Guardian Travel', publisher: 'The Guardian' },
+  { url: 'https://www.theguardian.com/lifeandstyle/rss',                  category: 'culture',      name: 'The Guardian Lifestyle', publisher: 'The Guardian' },
 ];
 
 // ── MAIN ──────────────────────────────────────────────────────────────────────
@@ -192,7 +194,7 @@ async function filterRelevant(client, candidates) {
         content: `You are curating a weekly English-language news digest for adults living in Poland and Central Europe.
 
 For each article, decide: is it RELEVANT to Polish/Central European readers?
-Relevant = affects the EU, European economy, European politics, European culture, technology used in Europe, public health/wellbeing/food systems/urban living in Europe, or major international stories Polish people would care about.
+Relevant = affects the EU, European economy, European politics, European culture/arts/entertainment/lifestyle/travel/food trends, technology used in Europe, public health/wellbeing/food systems/urban living in Europe, or major international stories Polish people would care about.
 Not relevant = purely local US/UK/Asian stories with no European angle whatsoever, OR sport/match results/sport celebrity news of any kind (even if European), OR celebrity gossip with no broader relevance.
 
 Reply with ONLY the numbers of relevant articles, comma-separated. Example: 1,3,5,7
