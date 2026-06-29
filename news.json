@@ -1,6 +1,684 @@
 {
   "editions": [
     {
+      "generated": "2026-06-29T06:40:49.961Z",
+      "week": "2026-W26",
+      "articles": [
+        {
+          "id": "17827150230007h5d",
+          "title": "Poland records highest ever temperature as European heatwave moves east",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/06/28/poland-records-highest-ever-temperature-as-european-heatwave-moves-east/",
+          "category": "politics",
+          "date": "2026-06-28",
+          "summaryB1": "On Sunday, 28 June 2026, Poland recorded its highest ever temperature. A reading of 40.5°C (104.9°F) was measured in Słubice, a town in western Poland on the border with Germany. This broke all previous records in the country's history.\n\nThe extreme heat is part of a large heatwave that has been moving across Europe from west to east. Many other European countries experienced dangerously high temperatures before Poland. Such heatwaves can be deadly, especially for elderly people, young children, and those with health problems.\n\nSlubice is a relatively small town, but its location in a flat, low-lying area may have contributed to the record temperature. Weather experts warned people to stay indoors during the hottest part of the day, drink plenty of water, and avoid direct sunlight.\n\nHigh temperatures like this put pressure on hospitals and emergency services. They also cause damage to crops and increase the risk of wildfires in forests and dry areas.\n\nScientists say that heatwaves are becoming more frequent and more intense because of climate change. Every year, new temperature records are broken somewhere in the world. Events like this remind us why reducing carbon emissions and protecting the environment remain urgent global challenges. Poland's record temperature is a clear sign that no country in Europe is protected from extreme weather.",
+          "vocabularyB1": [
+            {
+              "word": "heatwave",
+              "definition": "A long period of unusually hot weather that can be dangerous to people."
+            },
+            {
+              "word": "record",
+              "definition": "The highest or lowest level ever measured or achieved."
+            },
+            {
+              "word": "extreme",
+              "definition": "Much greater or more severe than usual; far beyond normal."
+            },
+            {
+              "word": "border",
+              "definition": "The official line that separates two countries or regions."
+            },
+            {
+              "word": "emissions",
+              "definition": "Gases or substances released into the air, especially from burning fuel."
+            }
+          ],
+          "questionB1": "Why do you think extreme heatwaves are becoming more common, and what can ordinary people do to reduce carbon emissions in daily life?",
+          "summaryB2": "Poland shattered its all-time temperature record on Sunday, 28 June 2026, when thermometers in the western border town of Słubice reached 40.5°C (104.9°F). The reading surpassed all previously documented highs in Polish meteorological history, marking a sobering milestone for a country not traditionally associated with Mediterranean-style heat.\n\nThe record came as an intense heatwave swept eastward across the continent, having already scorched large parts of Western and Central Europe in the days prior. Słubice, situated on the Oder River directly opposite the German town of Frankfurt an der Oder, sits in a low-lying region particularly susceptible to heat accumulation.\n\nThe public health ramifications of such temperatures are considerable. Authorities urged vulnerable groups — including the elderly, infants, and people with cardiovascular conditions — to limit outdoor exposure and maintain adequate hydration. Emergency services across affected regions reported surges in heat-related hospitalisations.\n\nBeyond immediate human welfare, prolonged heat events of this magnitude pose a serious threat to agriculture, water supplies, and forest ecosystems, with the risk of wildfires escalating sharply as vegetation dries out.\n\nClimate scientists attribute the rising frequency and severity of such episodes to anthropogenic climate change, noting that record-breaking temperatures are being documented with alarming regularity across Europe. Poland's new benchmark serves as a stark illustration of how rapidly the continent's climate is shifting, prompting fresh calls for accelerated action on emissions reduction and heat adaptation strategies.",
+          "vocabularyB2": [
+            {
+              "word": "surpassed",
+              "definition": "Went beyond a previous level or record; did better or more than before."
+            },
+            {
+              "word": "meteorological",
+              "definition": "Related to the science of weather and the atmosphere."
+            },
+            {
+              "word": "ramifications",
+              "definition": "The consequences or effects of an action or event, often complex or far-reaching."
+            },
+            {
+              "word": "anthropogenic",
+              "definition": "Caused or produced by human activity rather than natural processes."
+            },
+            {
+              "word": "benchmark",
+              "definition": "A standard or reference point used to measure or compare something."
+            }
+          ],
+          "questionB2": "Given that anthropogenic climate change is driving more frequent extremes, what ramifications might Poland's new temperature benchmark have for national policy on energy, public health, and urban planning?"
+        },
+        {
+          "id": "1782715045279la89",
+          "title": "China cracks down on rule-bending offshore investments",
+          "source": "The Economist Finance",
+          "originalUrl": "https://www.economist.com/finance-and-economics/2026/06/28/china-cracks-down-on-rule-bending-offshore-investments",
+          "category": "business",
+          "date": "2026-06-28",
+          "summaryB1": "China has introduced new rules to stop its citizens from putting money into foreign investments in ways that are not fully allowed by law. The government is especially worried about Chinese investors using special funds to buy shares in American technology companies. These funds, called QDII funds, are supposed to help Chinese people invest abroad legally. However, some investors have been bending the rules by paying extra money to get access to these funds beyond their official limits.\n\nThe Chinese government wants mainland investors to support Chinese technology companies instead. China has big dreams for its own tech industry and needs domestic investment to help these companies grow. Officials believe that money leaving the country to buy American tech stocks makes it harder to build a strong Chinese tech sector.\n\nThis crackdown is part of a wider effort by Beijing to control where Chinese money goes. The government regularly monitors capital flows, which means it watches how money moves in and out of the country. When too much money flows out, it can weaken the Chinese currency and reduce funds available for local businesses.\n\nFor ordinary Chinese investors, these new restrictions mean fewer chances to diversify their savings by buying foreign assets. Many people had hoped to benefit from the success of American tech giants. Now, the government is making it clear that it wants that investment to stay at home.",
+          "vocabularyB1": [
+            {
+              "word": "crackdown",
+              "definition": "Strong official action taken to stop something illegal or against the rules"
+            },
+            {
+              "word": "invest",
+              "definition": "To put money into something, hoping to make a profit later"
+            },
+            {
+              "word": "funds",
+              "definition": "Pools of money collected from many people and managed together"
+            },
+            {
+              "word": "domestic",
+              "definition": "Related to your own country, not to foreign countries"
+            },
+            {
+              "word": "diversify",
+              "definition": "To spread money across different types of investments to reduce risk"
+            }
+          ],
+          "questionB1": "Why might a government want domestic investors to keep their money inside the country instead of choosing to invest abroad?",
+          "summaryB2": "China is tightening its grip on offshore investment flows, targeting a practice in which mainland investors circumvent official quotas to gain exposure to foreign — particularly American — technology stocks. The mechanism at the centre of the crackdown is the Qualified Domestic Institutional Investor (QDII) scheme, a government-approved channel that allows Chinese citizens to invest in overseas markets within strictly defined limits. Some investors, however, have been paying premiums on the secondary market to acquire QDII fund units beyond their allocated quotas, effectively bypassing the regulatory framework.\n\nBeijing's move reflects a dual motivation. On one level, it is a routine exercise in capital controls, as authorities seek to limit outflows that could put downward pressure on the renminbi and drain liquidity from domestic markets. On another level, it signals a deliberate industrial policy ambition: Chinese regulators appear determined to channel private savings toward homegrown technology champions rather than rivals in Silicon Valley.\n\nThis tension between investor preference and state direction illustrates a recurring theme in China's financial system. Ordinary savers, frustrated by sluggish returns in domestic markets, have sought offshore exposure as a means of portfolio optimisation. The government, by contrast, views speculative outflows as a distraction from its strategic goal of building self-sufficient technology industries.\n\nThe implications for Chinese retail investors are tangible. Access to global markets will narrow further, limiting the ability to hedge against domestic economic uncertainty. Meanwhile, companies in China's tech sector stand to benefit from a more captive pool of investment capital.",
+          "vocabularyB2": [
+            {
+              "word": "circumvent",
+              "definition": "To find a clever way to avoid a rule or restriction without directly breaking it"
+            },
+            {
+              "word": "quotas",
+              "definition": "Official limits on the amount of something that is allowed"
+            },
+            {
+              "word": "capital controls",
+              "definition": "Government restrictions on how money can move in or out of a country"
+            },
+            {
+              "word": "speculative",
+              "definition": "Involving high financial risk in the hope of making a quick profit"
+            },
+            {
+              "word": "captive",
+              "definition": "Describing a market or group that has no real freedom to choose alternatives"
+            }
+          ],
+          "questionB2": "To what extent do China's capital controls reflect genuine financial stability concerns, and to what extent are they a tool to direct speculative investment toward state-preferred industries?"
+        },
+        {
+          "id": "1782715066876z4co",
+          "title": "Is too much sleep as bad as too little?",
+          "source": "The Economist Sci-Tech",
+          "originalUrl": "https://www.economist.com/science-and-technology/2026/06/26/is-too-much-sleep-as-bad-as-too-little",
+          "category": "technology",
+          "date": "2026-06-26",
+          "summaryB1": "Most people know that sleeping too little is bad for their health. But new research suggests that sleeping too much might also be harmful. Scientists are now trying to find out how much sleep is actually best for us.\n\nStudies show that adults who sleep for seven to eight hours a night tend to be the healthiest. People who regularly sleep for nine hours or more have a higher risk of serious health problems, including heart disease and diabetes. This pattern appears in many different countries and age groups.\n\nHowever, scientists are not sure whether too much sleep causes these problems, or whether people sleep more because they are already ill. This is a difficult question to answer. Some researchers think that long sleep is a symptom of other conditions, not the cause.\n\nThere is also the question of sleep quality. Deep, restful sleep is very different from light, broken sleep. Someone who spends ten hours in bed but wakes up many times may not actually be getting enough proper rest.\n\nUnderstanding the optimal amount of sleep is not simple. Our bodies are all different, and individual needs vary. Age, lifestyle, and genetics all play a role. Experts recommend that most adults aim for seven to nine hours of good-quality sleep each night to maintain their wellbeing.",
+          "vocabularyB1": [
+            {
+              "word": "harmful",
+              "definition": "Causing damage or injury to your body or health."
+            },
+            {
+              "word": "symptom",
+              "definition": "A sign that shows you may have an illness or health problem."
+            },
+            {
+              "word": "optimal",
+              "definition": "The best or most suitable amount or level of something."
+            },
+            {
+              "word": "restful",
+              "definition": "Relaxing and helping you to feel rested and refreshed."
+            },
+            {
+              "word": "wellbeing",
+              "definition": "The general state of being healthy, comfortable, and happy."
+            }
+          ],
+          "questionB1": "What changes could you make to your daily routine to get more restful sleep and improve your overall wellbeing?",
+          "summaryB2": "The conventional wisdom that sleep deprivation poses serious health risks is well established, but emerging research is complicating the picture by suggesting that excessive sleep may be equally detrimental. Scientists are now engaged in the tricky business of determining the optimal sleep window — and why straying beyond it in either direction appears to carry measurable consequences.\n\nEpidemiological data consistently link sleeping nine hours or more per night with elevated rates of cardiovascular disease, type 2 diabetes, and premature mortality. Yet researchers face a persistent methodological challenge: the direction of causality is far from clear. It remains plausible that prolonged sleep is not itself the culprit but rather a manifestation of underlying conditions — depression, chronic inflammation, or undiagnosed illness — that also happen to increase sleep duration.\n\nA further complication is the distinction between sleep quantity and sleep quality. Spending extended hours in bed does not guarantee restorative sleep; fragmented or shallow sleep may leave the body equally compromised, regardless of total duration. Wearable technology and polysomnography are beginning to give researchers more granular data, but translating laboratory findings into reliable public health guidance remains an ongoing challenge.\n\nThe emerging consensus points to seven to nine hours as the sweet spot for most adults, though individual variation driven by genetics and age means that blanket recommendations can only go so far. Understanding why the upper boundary exists may ultimately prove as revealing as decades of research into the harms of sleep deprivation.",
+          "vocabularyB2": [
+            {
+              "word": "detrimental",
+              "definition": "Causing harm or damage, especially in a gradual or indirect way."
+            },
+            {
+              "word": "causality",
+              "definition": "The relationship between a cause and its effect; whether one thing directly produces another."
+            },
+            {
+              "word": "manifestation",
+              "definition": "A visible or observable sign that something exists, especially a condition or problem."
+            },
+            {
+              "word": "restorative",
+              "definition": "Helping the body or mind to recover strength, energy, and good health."
+            },
+            {
+              "word": "granular",
+              "definition": "Detailed and precise, dealing with small individual parts of a larger topic."
+            }
+          ],
+          "questionB2": "Given the difficulty of establishing causality in sleep research, how should public health bodies communicate guidelines about sleep duration without overstating what the evidence can currently tell us?"
+        },
+        {
+          "id": "1782715087473gng9",
+          "title": "Cold feet: could putting your socks in the fridge help you through the heatwave?",
+          "source": "The Guardian Wellbeing",
+          "originalUrl": "https://www.theguardian.com/lifeandstyle/2026/jun/23/cold-feet-socks-in-fridge-help-heatwave",
+          "category": "environment",
+          "date": "2026-06-23",
+          "summaryB1": "When the weather is very hot, many people struggle to sleep and feel comfortable. One simple trick that experts are now recommending is putting your socks in the fridge before wearing them. According to the Red Cross, this method can actually help your body cool down during a heatwave. But why does it work? The answer is connected to how our bodies control temperature. Our feet have many blood vessels near the skin, so cooling them down can help reduce our overall body heat quite quickly. This is the same reason why putting your feet in cold water feels so refreshing on a hot day. The idea might sound strange at first, but health organisations say it is worth trying. Heatwaves are becoming more common in many parts of Europe, including countries that are not used to very high temperatures. People in these places often do not have air conditioning at home, so finding cheap and easy ways to stay cool is very useful. Keeping cold socks in the fridge costs nothing and needs no special equipment. Experts suggest wearing them for about twenty minutes before bed. It may not solve every problem caused by extreme heat, but it can make a real difference to how comfortable you feel.",
+          "vocabularyB1": [
+            {
+              "word": "heatwave",
+              "definition": "A period of unusually hot weather that lasts for several days"
+            },
+            {
+              "word": "blood vessels",
+              "definition": "Tubes inside the body that carry blood around"
+            },
+            {
+              "word": "refreshing",
+              "definition": "Making you feel cool, comfortable, and less tired"
+            },
+            {
+              "word": "air conditioning",
+              "definition": "A system that cools the air inside a building or car"
+            },
+            {
+              "word": "extreme heat",
+              "definition": "Temperatures that are much hotter than normal and can be dangerous"
+            }
+          ],
+          "questionB1": "Would you try wearing cold socks during a heatwave to stay cool, or do you prefer other ways to deal with extreme heat?",
+          "summaryB2": "As Europe endures increasingly severe summers, a somewhat unconventional piece of advice has emerged from an authoritative source: the Red Cross is advocating the practice of chilling your socks in the refrigerator before wearing them as a practical strategy for surviving a heatwave. The recommendation may initially strike readers as whimsical, yet there is genuine physiological reasoning behind it. The feet contain a dense network of blood vessels positioned close to the skin's surface, meaning that applying cold to this area can trigger a rapid reduction in core body temperature — a process known as peripheral cooling. This is the same mechanism that makes immersing your feet in cold water so immediately effective on a sweltering day. The article, published in a lighthearted question-and-answer format by The Guardian, takes a playful approach to what is, in reality, a pressing public health matter. Northern and central European countries, including those unaccustomed to prolonged periods of intense heat, face a particular challenge: the vast majority of households lack air conditioning, leaving residents to improvise with low-cost remedies. The chilled sock method requires no financial outlay and no specialist knowledge, making it genuinely accessible to vulnerable groups such as the elderly, who are disproportionately affected by heat-related illness. Whether such household tips can meaningfully offset the dangers of extreme temperatures remains an open question, but they represent a practical, immediate response while systemic solutions lag behind.",
+          "vocabularyB2": [
+            {
+              "word": "unconventional",
+              "definition": "Different from what is usual or expected; not traditional"
+            },
+            {
+              "word": "physiological",
+              "definition": "Related to the normal functions and processes of the human body"
+            },
+            {
+              "word": "peripheral cooling",
+              "definition": "Reducing body temperature by cooling the outer parts of the body, such as hands or feet"
+            },
+            {
+              "word": "financial outlay",
+              "definition": "Money that you spend, especially at the start of something"
+            },
+            {
+              "word": "disproportionately",
+              "definition": "To a degree that is larger or smaller than seems fair or expected"
+            }
+          ],
+          "questionB2": "Given that physiological methods like peripheral cooling are low-cost and accessible, why might governments and health systems still struggle to promote such unconventional strategies effectively during public health emergencies?"
+        },
+        {
+          "id": "1782715109256fv2v",
+          "title": "Going to a festival as a neurodivergent person can be tough - but there are ways to recharge",
+          "source": "BBC Culture",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cgl3ew1j64go?at_medium=RSS&at_campaign=rss",
+          "category": "culture",
+          "date": "2026-06-26",
+          "summaryB1": "Music festivals are exciting events, but they can be very difficult for people who are neurodivergent. Neurodivergent people have brains that work differently from most people. This includes people with autism, ADHD, or anxiety. At festivals, there is often loud music, large crowds, and bright lights. These things can feel overwhelming and cause great stress or discomfort for neurodivergent people.\n\nSome festivals are now trying to help. They are offering calm spaces where people can go to rest and recover from the noise and crowds. Some events are also providing noise-cancelling headphones, which block out loud sounds and make the environment more comfortable. These are devices you wear over your ears to reduce unwanted noise.\n\nHowever, many people think that festivals need to do much more. There are growing calls from disability advocates and neurodivergent communities for better support and more inclusive planning. They want festivals to think carefully about the needs of all visitors, not just those without disabilities.\n\nThis topic matters because millions of people around the world are neurodivergent. Everyone deserves the chance to enjoy live music and cultural events. Making festivals more accessible is a step towards a fairer society. Small changes, like quiet rooms and sensory-friendly options, can make a huge difference to people who might otherwise feel excluded from these popular events.",
+          "vocabularyB1": [
+            {
+              "word": "neurodivergent",
+              "definition": "A person whose brain works differently, for example someone with autism or ADHD"
+            },
+            {
+              "word": "overwhelming",
+              "definition": "Too much to deal with; causing strong feelings of stress or confusion"
+            },
+            {
+              "word": "calm spaces",
+              "definition": "Quiet areas at an event where people can rest and feel safe"
+            },
+            {
+              "word": "noise-cancelling headphones",
+              "definition": "Devices worn over the ears that block or reduce loud sounds around you"
+            },
+            {
+              "word": "accessible",
+              "definition": "Easy for everyone to use or enjoy, including people with disabilities"
+            }
+          ],
+          "questionB1": "What calm spaces or other changes would make festivals more accessible and enjoyable for neurodivergent people in your country?",
+          "summaryB2": "Music festivals have long been celebrated as communal experiences of joy and self-expression, yet for neurodivergent individuals — those with conditions such as autism, ADHD, or sensory processing differences — they can represent an ordeal of competing stimuli. Relentless noise, dense crowds, unpredictable schedules, and flashing lights create an environment that many find deeply distressing rather than exhilarating.\n\nIn response to growing awareness, some festival organisers have begun rolling out practical accommodations: dedicated calm spaces where attendees can decompress away from sensory overload, and noise-cancelling headphones available for loan. These provisions are welcomed by neurodivergent communities as a step in the right direction.\n\nNevertheless, advocates argue that such measures remain piecemeal and fall well short of genuine inclusion. There are vocal calls to go further — to embed neurodivergent-friendly design into the core planning of events, rather than treating it as an afterthought. This could include clearer visual guides, quieter viewing zones, and more transparent communication about what attendees can expect.\n\nThe debate reflects a wider cultural shift in how public events consider disability and difference. Proponents of more ambitious reform contend that accessibility should not be a bolt-on feature but a foundational principle. Given that neurodivergent people represent a substantial portion of the population, the argument is compelling: festivals that fail to accommodate diverse neurological needs risk excluding a significant number of potential attendees from cultural life altogether.",
+          "vocabularyB2": [
+            {
+              "word": "stimuli",
+              "definition": "Things in the environment, like sounds or lights, that affect the senses and cause reactions"
+            },
+            {
+              "word": "accommodations",
+              "definition": "Special arrangements or changes made to help people with particular needs"
+            },
+            {
+              "word": "piecemeal",
+              "definition": "Done in small, separate parts rather than as one complete, planned system"
+            },
+            {
+              "word": "sensory overload",
+              "definition": "A state where too much noise, light, or other input overwhelms a person's senses"
+            },
+            {
+              "word": "proponents",
+              "definition": "People who publicly support or argue in favour of a particular idea or plan"
+            }
+          ],
+          "questionB2": "To what extent should festival organisers be legally required to provide accommodations for neurodivergent attendees, and who should bear responsibility when such provisions remain piecemeal?"
+        },
+        {
+          "id": "1782715128189wo7g",
+          "title": "Europe's heatwave linked to 1,300 deaths, WHO says, as Germany hits record 41.7C",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-06-28",
+          "summaryB1": "Europe has been hit by a very dangerous heatwave, and the World Health Organization (WHO) says it has been linked to at least 1,300 deaths. The WHO chief, Tedros Adhanom Ghebreyesus, warned that Europe is not ready to deal with such extreme heat. Germany recorded its highest ever temperature of 41.7 degrees Celsius during this period, which is a serious public health emergency. A heatwave happens when temperatures stay much higher than normal for several days. Older people, young children, and those with health problems are especially at risk during these events. High temperatures can cause heatstroke, which happens when the body gets too hot and cannot cool itself down. Doctors advise people to drink plenty of water, stay in the shade, and avoid going outside during the hottest part of the day. Governments across Europe are being urged to take action to protect their citizens. Climate experts say that heatwaves are becoming more frequent and more deadly because of climate change. This means that countries need to prepare better systems to warn people about dangerous temperatures and to provide cool shelter for those who need it. The WHO warning is a clear sign that Europe must treat extreme heat as a serious threat to public health.",
+          "vocabularyB1": [
+            {
+              "word": "heatwave",
+              "definition": "A period of unusually hot weather lasting several days or longer"
+            },
+            {
+              "word": "linked to",
+              "definition": "Connected to something as a possible cause or result"
+            },
+            {
+              "word": "extreme heat",
+              "definition": "Temperatures that are dangerously much higher than normal"
+            },
+            {
+              "word": "heatstroke",
+              "definition": "A dangerous condition when the body becomes too hot and stops working properly"
+            },
+            {
+              "word": "shelter",
+              "definition": "A place that protects people from danger or bad weather"
+            }
+          ],
+          "questionB1": "What do you think governments should do to protect people from extreme heat during a heatwave?",
+          "summaryB2": "The World Health Organization has attributed at least 1,300 deaths across Europe to an intense heatwave, with WHO Director-General Tedros Adhanom Ghebreyesus issuing a stark warning that the continent is fundamentally ill-equipped to cope with soaring temperatures. The alarm was sounded as Germany shattered its all-time temperature record, reaching 41.7 degrees Celsius — a figure that alarmed meteorologists and public health officials alike. The WHO's assessment reflects a growing body of evidence that heatwaves represent one of the most lethal consequences of climate change, disproportionately affecting vulnerable populations such as the elderly, those with pre-existing medical conditions, and people without access to adequate cooling. Ghebreyesus's warning carries particular weight given Europe's historically temperate climate, which means that infrastructure, housing, and healthcare systems were simply not designed with prolonged extreme heat in mind. Unlike regions accustomed to high temperatures, much of northern and central Europe lacks air conditioning in homes, hospitals, and public buildings, leaving residents acutely exposed. Public health specialists argue that heat emergency plans, including early warning systems and the designation of cooling centres, must become standard policy across member states. The record-breaking temperatures in Germany serve as a sobering reminder that climate adaptation is no longer a distant priority but an immediate necessity, demanding coordinated action from governments, urban planners, and healthcare providers across the continent.",
+          "vocabularyB2": [
+            {
+              "word": "ill-equipped",
+              "definition": "Not having the necessary skills, tools, or systems to deal with a situation"
+            },
+            {
+              "word": "disproportionately",
+              "definition": "Affecting one group much more than others in a way that seems unfair or unequal"
+            },
+            {
+              "word": "temperate climate",
+              "definition": "A climate with mild temperatures, without extreme heat or cold"
+            },
+            {
+              "word": "acutely exposed",
+              "definition": "Placed in a situation of serious and immediate risk or danger"
+            },
+            {
+              "word": "climate adaptation",
+              "definition": "Changes made by societies or governments to prepare for the effects of climate change"
+            }
+          ],
+          "questionB2": "Given that Europe's temperate climate has historically shaped its infrastructure and healthcare systems, how should policymakers prioritise climate adaptation to protect populations disproportionately at risk from heatwaves?"
+        },
+        {
+          "id": "1782715148396dd50",
+          "title": "Trump threatens 100% tariff on European nations over tech tax",
+          "source": "BBC Business",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
+          "category": "business",
+          "date": "2026-06-27",
+          "summaryB1": "US President Donald Trump has threatened to put a 100% tariff on goods from European countries. A tariff is an extra tax that a country charges on products coming in from other countries. Trump made this threat because several European nations are thinking about creating a new tax on technology companies. Many of these companies are American, such as Google and Amazon. Trump says this kind of tax is unfair to the United States. If European countries bring in the tech tax, American products sold in Europe would become twice as expensive because of the 100% tariff. This would make it much harder for US companies to sell their goods in Europe. A trade dispute like this could affect businesses and consumers on both sides. Prices for many products could go up. European governments have not yet responded officially to Trump's warning. However, this is not the first time Trump has used tariffs as a way to put pressure on other countries. He has done the same with China and Canada. The situation shows how technology and trade are becoming connected in global politics. Both sides will need to find a way to talk and reach an agreement before the conflict gets worse.",
+          "vocabularyB1": [
+            {
+              "word": "tariff",
+              "definition": "A tax that a government puts on goods brought in from another country"
+            },
+            {
+              "word": "threat",
+              "definition": "A warning that you will do something harmful if someone does not obey"
+            },
+            {
+              "word": "dispute",
+              "definition": "A serious disagreement between two sides, often about money or rules"
+            },
+            {
+              "word": "consumers",
+              "definition": "People who buy goods or services for their own use"
+            },
+            {
+              "word": "pressure",
+              "definition": "Attempts to make someone do something by using threats or force"
+            }
+          ],
+          "questionB1": "Do you think using tariffs as pressure is a fair way for countries to solve disagreements, or should they find other solutions?",
+          "summaryB2": "President Donald Trump has escalated tensions with Europe by threatening to impose a 100% tariff on goods imported from European nations. The move came in response to discussions among several European governments about introducing a digital services tax targeting large technology corporations — most of which are American. Trump framed the proposed levy as discriminatory, arguing it unfairly singles out US firms operating in European markets. A 100% tariff would effectively double the cost of European exports to the United States, a retaliatory measure that could have serious economic consequences for both sides. Critics warn that such an aggressive stance risks triggering a full-scale trade war at a time when the global economy is already under strain. Supporters, however, argue that Trump is defending American commercial interests against what they see as protectionist policies from European governments. The digital services tax debate is not new — European countries have long argued that tech giants generate enormous profits on their soil while paying relatively little in local taxes. The OECD has been working on a multilateral framework to address this imbalance, but progress has been slow. Trump's threat adds fresh urgency to those talks, while simultaneously making diplomatic resolution more difficult. Whether the two sides can reach a compromise without further escalating the confrontation remains to be seen.",
+          "vocabularyB2": [
+            {
+              "word": "escalated",
+              "definition": "Became more serious, intense, or difficult, often quickly and in stages"
+            },
+            {
+              "word": "retaliatory",
+              "definition": "Done in response to a harmful action, as a form of punishment or revenge"
+            },
+            {
+              "word": "discriminatory",
+              "definition": "Treating one group unfairly differently from others, without a valid reason"
+            },
+            {
+              "word": "multilateral",
+              "definition": "Involving three or more countries or parties working together on an issue"
+            },
+            {
+              "word": "protectionist",
+              "definition": "Describing policies that protect a country's own industries by limiting foreign competition"
+            }
+          ],
+          "questionB2": "Given the slow progress of multilateral efforts to reform digital taxation, do you think Trump's retaliatory tariff threat is more likely to accelerate a solution or deepen the divide between the US and Europe?"
+        },
+        {
+          "id": "1782715168754o6tz",
+          "title": "Global warming has made Europe’s heatwave 2-4°C worse",
+          "source": "The Economist Sci-Tech",
+          "originalUrl": "https://www.economist.com/science-and-technology/2026/06/24/global-warming-has-made-europes-heatwave-2-4c-worse",
+          "category": "technology",
+          "date": "2026-06-24",
+          "summaryB1": "Europe is experiencing a severe heatwave in the summer of 2026. Scientists say that climate change has made this heatwave between 2 and 4 degrees Celsius hotter than it would have been without global warming. This finding comes from a field of science called attribution science, which tries to measure how much human-caused climate change affects extreme weather events.\n\nEurope is warming faster than any other continent on Earth. This means that heatwaves in Europe are becoming more frequent and more intense over time. High temperatures can be very dangerous, especially for older people and those with health problems. They can also damage crops and cause wildfires.\n\nScientists use climate models to compare what actually happened with what might have happened in a world without greenhouse gas emissions. By doing this, they can calculate how much worse a heatwave is because of human activity.\n\nThis matters because it shows a clear link between the burning of fossil fuels and extreme heat. Governments and individuals need to understand this connection. Reducing emissions could help limit future heatwaves. If the world does not act, temperatures will continue to rise, and extreme heat events will become even more dangerous. Europe must prepare for a hotter future by building better infrastructure and protecting vulnerable populations.",
+          "vocabularyB1": [
+            {
+              "word": "heatwave",
+              "definition": "A long period of unusually hot weather that can be dangerous to people."
+            },
+            {
+              "word": "emissions",
+              "definition": "Gases, especially carbon dioxide, released into the air by cars, factories, and burning fuel."
+            },
+            {
+              "word": "intense",
+              "definition": "Very strong or extreme in degree or force."
+            },
+            {
+              "word": "vulnerable",
+              "definition": "Easily harmed or at risk, for example because of age or poor health."
+            },
+            {
+              "word": "infrastructure",
+              "definition": "Basic systems a country needs to work, such as roads, buildings, and water supply."
+            }
+          ],
+          "questionB1": "How might more frequent and intense heatwaves affect vulnerable people in your country, and what should governments do about rising emissions?",
+          "summaryB2": "A powerful heatwave swept across Europe in June 2026, and scientists have now concluded that human-driven climate change made it between 2 and 4 degrees Celsius hotter than it would otherwise have been. The finding comes from rapid attribution studies, a methodology that has matured considerably over the past decade, allowing researchers to quantify the fingerprint of global warming on specific extreme weather events within days of their occurrence.\n\nThe conclusions are particularly alarming given that Europe is warming faster than any other continent, a trend that scientists attribute to a combination of geographical factors and shifts in atmospheric circulation patterns. This accelerated warming means that European populations are disproportionately exposed to heat stress compared with other parts of the world at similar latitudes.\n\nAttribution science works by running climate models thousands of times, both with and without observed greenhouse gas concentrations, then comparing outcomes statistically. The difference between these two scenarios reveals how much more extreme an event was made by anthropogenic emissions. Critics of the approach note that such models carry inherent uncertainties, but the scientific consensus strongly supports the general direction of the findings.\n\nThe implications extend well beyond public health. Agriculture, energy systems, and urban planning all face mounting pressure as extreme heat becomes more frequent. Policymakers are now under growing pressure to accelerate decarbonisation efforts and invest in adaptation strategies, recognising that mitigation alone may no longer be sufficient to protect European societies from the consequences of a rapidly warming planet.",
+          "vocabularyB2": [
+            {
+              "word": "attribution",
+              "definition": "The process of identifying what caused something, here linking climate change to a specific weather event."
+            },
+            {
+              "word": "anthropogenic",
+              "definition": "Caused or produced by human activity, especially pollution and greenhouse gas emissions."
+            },
+            {
+              "word": "disproportionately",
+              "definition": "To a degree that is larger or smaller than would normally be expected or considered fair."
+            },
+            {
+              "word": "decarbonisation",
+              "definition": "The process of reducing or eliminating carbon dioxide emissions from energy and industry."
+            },
+            {
+              "word": "mitigation",
+              "definition": "Actions taken to reduce the severity or harmful effects of something, such as climate change."
+            }
+          ],
+          "questionB2": "Given the inherent uncertainties in climate attribution studies, how should policymakers balance the urgent need for decarbonisation with the economic costs of rapid systemic change in Europe?"
+        },
+        {
+          "id": "1782715187654h0ik",
+          "title": "California’s landmark anti-plastics law sparks anger as 17 states move to sue",
+          "source": "The Guardian Environment",
+          "originalUrl": "https://www.theguardian.com/environment/2026/jun/26/california-single-use-plastic-law",
+          "category": "environment",
+          "date": "2026-06-26",
+          "summaryB1": "A new law in California is making big changes to how plastic packaging is made. The law was signed by Governor Gavin Newsom in 2022 but only came into effect in May 2025. It requires companies that make plastic packaging to use less single-use plastic. Single-use plastic is plastic that is used only once and then thrown away, like bottles or food wrappers. By 2032, all packaging must be either recyclable or compostable, meaning it can be broken down naturally in the ground. The main goal is to incentivize producers to think about what happens to their products after people use them. This should lead to better, more sustainable packaging in the future. However, the law is already causing anger. The chemicals industry does not like it because it will cost them money and change how they work. At the same time, environmental groups say the law does not go far enough and is too timid. To make things more complicated, 17 American states are planning to sue, which means they want to take legal action to stop the law. This story shows how difficult it can be to phase out old habits and materials, even when the goal is to protect the environment.",
+          "vocabularyB1": [
+            {
+              "word": "single-use",
+              "definition": "Used only once before being thrown away, not designed to be used again"
+            },
+            {
+              "word": "compostable",
+              "definition": "Able to break down naturally in the soil, becoming useful material for plants"
+            },
+            {
+              "word": "incentivize",
+              "definition": "To give someone a reason or reward to do something"
+            },
+            {
+              "word": "sustainable",
+              "definition": "Good for the environment and able to continue for a long time without causing harm"
+            },
+            {
+              "word": "phase out",
+              "definition": "To gradually stop using or producing something over a period of time"
+            }
+          ],
+          "questionB1": "Should governments incentivize companies to phase out single-use plastics, or should individual people change their habits first?",
+          "summaryB2": "California's ambitious legislation requiring plastic packaging producers to eliminate single-use plastics has ignited controversy from multiple sides just weeks after coming into force. Signed by Governor Gavin Newsom in 2022 but only enacted in May 2025, the law mandates that plastic and packaging companies reduce their reliance on single-use materials and ensure that all packaging is either recyclable or compostable by 2032. The underlying rationale is to compel producers to factor in the full lifecycle of their products, thereby driving innovation toward genuinely sustainable alternatives in bottles, containers and wrappings. Yet the law finds itself under fire from opposing camps. The chemicals industry has reacted with hostility, viewing the regulations as commercially damaging and overreaching, and seventeen US states are preparing to sue in an attempt to overturn or block the legislation. From the opposite direction, environmental groups have criticised the law as too timid, arguing that it does not go nearly far enough in tackling the scale of plastic pollution. This tension between industry opposition and environmentalist dissatisfaction reflects a familiar pattern in green policymaking: ambitious legislation often struggles to satisfy either side. California has long acted as a regulatory trailblazer in the United States, and the outcome of these legal challenges could have far-reaching consequences for how other states approach the contentious issue of plastic waste reduction.",
+          "vocabularyB2": [
+            {
+              "word": "enacted",
+              "definition": "When a law is officially put into practice and starts to be applied"
+            },
+            {
+              "word": "mandate",
+              "definition": "To officially require something by law or authority"
+            },
+            {
+              "word": "lifecycle",
+              "definition": "The complete series of stages a product goes through from creation to disposal"
+            },
+            {
+              "word": "trailblazer",
+              "definition": "A person, organisation or place that is the first to do something new and leads others"
+            },
+            {
+              "word": "contentious",
+              "definition": "Causing disagreement or argument between people with different opinions"
+            }
+          ],
+          "questionB2": "Given that the law is simultaneously criticised as too weak by environmentalists and too restrictive by industry, what does this tension reveal about the contentious nature of legislating for environmental change?"
+        },
+        {
+          "id": "17827152089711i26",
+          "title": "Europe’s foreign policy turf war",
+          "source": "Politico Europe",
+          "originalUrl": "https://www.politico.eu/podcast/brussels-playbook-podcast/europes-foreign-policy-turf-war/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "category": "politics",
+          "date": "2026-06-29",
+          "summaryB1": "The European Union has many people who work on foreign policy. But who is really in charge? This is a question that causes arguments inside the EU. Different institutions and officials all want to have power over how Europe deals with other countries. The European Commission, the Council of the EU, and individual member states often disagree about who should speak for Europe on the world stage. This is sometimes called a 'turf war' – a fight over who controls a particular area of work. For example, when Europe needs to respond to a crisis, different officials may give different messages. This can make the EU look weak or confused to other countries. The problem is that the EU's system of foreign policy is very complicated. There are many overlapping roles and it is not always clear who has the final say. For Polish citizens, this matters because Poland is an active EU member state that cares deeply about European security and its relationship with neighbours like Ukraine and Russia. If the EU cannot speak with one voice in foreign policy, it may struggle to protect European interests. Understanding how power is shared – and fought over – inside the EU helps us understand why European foreign policy sometimes moves slowly or sends mixed messages to the world.",
+          "vocabularyB1": [
+            {
+              "word": "institution",
+              "definition": "A large and established organisation, such as a government body or official group"
+            },
+            {
+              "word": "turf war",
+              "definition": "A fight or argument between groups about who controls a particular area or responsibility"
+            },
+            {
+              "word": "overlapping",
+              "definition": "When two or more things cover the same area or share the same responsibilities"
+            },
+            {
+              "word": "crisis",
+              "definition": "A time of serious danger or difficulty that needs urgent attention"
+            },
+            {
+              "word": "mixed messages",
+              "definition": "When different people or groups communicate different or contradictory information about the same thing"
+            }
+          ],
+          "questionB1": "When different institutions send mixed messages about foreign policy, what problems can this cause for the EU on the world stage?",
+          "summaryB2": "A simmering dispute over who holds authority in European Union foreign policy has once again come to the fore, exposing deep-seated tensions between the EU's competing power centres. The European Commission, the Council of the EU, and individual member states have long jostled for influence over how Europe presents itself to the world – a contest that critics argue undermines the bloc's credibility as a unified geopolitical actor. At the heart of the matter is an inherently ambiguous institutional architecture, in which multiple officials hold overlapping mandates with no clear hierarchy. The EU's High Representative for Foreign Affairs, the European Commission President, and national foreign ministers frequently operate on parallel tracks, occasionally contradicting one another in public. This fragmentation is more than a procedural inconvenience. In an era defined by Russia's war in Ukraine, strained transatlantic relations, and growing assertiveness from China, the EU's inability to project a coherent voice carries real strategic costs. Member states with strong national foreign policy traditions – including France and Germany – are often reluctant to cede ground to supranational bodies, further complicating efforts at coordination. For countries like Poland, which sits on NATO's eastern flank and has a direct stake in European security arrangements, the question of who speaks for Europe is far from abstract. The turf war at the top of EU diplomacy is, ultimately, a reflection of the unresolved tension between integration and sovereignty that has defined the European project since its inception.",
+          "vocabularyB2": [
+            {
+              "word": "fragmentation",
+              "definition": "The process of breaking into many separate, disconnected parts rather than working as one unified whole"
+            },
+            {
+              "word": "ambiguous",
+              "definition": "Unclear or open to more than one interpretation, making it difficult to know the exact meaning"
+            },
+            {
+              "word": "cede ground",
+              "definition": "To give up power, control, or advantage to someone else, often reluctantly"
+            },
+            {
+              "word": "supranational",
+              "definition": "Describing an authority or organisation that has power above and beyond individual nation states"
+            },
+            {
+              "word": "coherent",
+              "definition": "Logical, consistent, and clearly connected, so that different parts fit together well"
+            }
+          ],
+          "questionB2": "Given the fragmentation of EU foreign policy decision-making, is it realistic to expect member states to cede ground to supranational bodies, or is a unified European voice structurally impossible?"
+        },
+        {
+          "id": "178271523041327o9",
+          "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+          "source": "WSJ Markets",
+          "originalUrl": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+          "category": "business",
+          "date": "2025-01-27",
+          "summaryB1": "American stock markets fell sharply on Monday after news about a new Chinese artificial intelligence company called DeepSeek. The technology sector was hit the hardest. The Nasdaq, which is a stock market index that includes many technology companies, dropped more than other markets. Many companies that build the infrastructure for AI – things like computer chips and data centres – lost a large part of their value. Nvidia, one of the biggest chip makers in the world, saw its share price fall by 16%. This was one of the biggest single-day drops in the company's history. Investors were worried because DeepSeek appears to offer AI technology that is cheaper and more efficient than what American companies currently provide. If this is true, companies may not need to spend as much money on expensive hardware in the future. This could reduce profits for many American tech firms. The news spread quickly and caused panic among investors. A stock market decline that affects many different companies at the same time is called a rout. This rout showed how quickly confidence in a sector can disappear. For ordinary people, these events matter because many retirement savings are invested in technology stocks, so large drops can affect people's financial futures.",
+          "vocabularyB1": [
+            {
+              "word": "infrastructure",
+              "definition": "The basic systems and equipment needed for something to work, like computers or networks"
+            },
+            {
+              "word": "share price",
+              "definition": "The cost of one small unit of ownership in a company, bought and sold on a market"
+            },
+            {
+              "word": "investor",
+              "definition": "A person who puts money into something, hoping to make more money later"
+            },
+            {
+              "word": "rout",
+              "definition": "A sudden, large fall in stock prices affecting many companies at the same time"
+            },
+            {
+              "word": "sector",
+              "definition": "A group of companies that work in the same area of business, like technology or energy"
+            }
+          ],
+          "questionB1": "When a new foreign company offers cheaper technology, should investors panic and sell their shares, or wait to see what really happens?",
+          "summaryB2": "U.S. equity markets suffered a sharp selloff on Monday, triggered by the emergence of DeepSeek, a Chinese AI startup whose low-cost model has sent shockwaves through the technology industry. The Nasdaq composite bore the brunt of the decline, as companies across the AI supply chain experienced steep losses, with many posting double-digit falls in a single session. Nvidia, whose graphics processing units have become synonymous with the AI boom, saw its stock plunge by 16% – a staggering wipeout of market capitalisation that rattled even seasoned market watchers.\n\nThe selloff reflects mounting anxiety that DeepSeek may have developed an AI system capable of matching or surpassing American rivals at a fraction of the cost. If that assessment proves accurate, the enormous capital expenditure that U.S. tech giants have been channelling into AI hardware could turn out to be excessive, undermining the earnings forecasts that have justified sky-high valuations across the sector.\n\nFrom one perspective, DeepSeek's breakthrough could democratise access to advanced AI, benefiting businesses and consumers worldwide. From another, it represents a direct challenge to the dominance of American technology firms and raises questions about whether export controls on advanced chips have actually slowed China's AI ambitions. Monday's turbulence serves as a reminder that confidence in even the most dominant companies can evaporate with startling speed when a disruptive competitor appears on the horizon.",
+          "vocabularyB2": [
+            {
+              "word": "selloff",
+              "definition": "A rapid decline in stock prices caused by many investors selling their shares at the same time"
+            },
+            {
+              "word": "market capitalisation",
+              "definition": "The total value of a company's shares; calculated by multiplying share price by the number of shares"
+            },
+            {
+              "word": "capital expenditure",
+              "definition": "Large amounts of money a company spends on physical assets like equipment, buildings, or technology"
+            },
+            {
+              "word": "valuation",
+              "definition": "An estimate of how much a company or asset is worth, often based on future earnings expectations"
+            },
+            {
+              "word": "disruptive",
+              "definition": "Describing something that completely changes or overturns the way an existing industry works"
+            }
+          ],
+          "questionB2": "If DeepSeek's low-cost model genuinely undermines the valuation of American AI companies, what does this suggest about the assumptions investors have been making about the long-term profitability of AI infrastructure spending?"
+        },
+        {
+          "id": "1782715249961srun",
+          "title": "Social media bans go global: big tech faces a reckoning after Australia’s crackdown",
+          "source": "The Guardian Tech",
+          "originalUrl": "https://www.theguardian.com/news/ng-interactive/2026/jun/27/social-media-bans-go-global-big-tech-reckoning-australia-crackdown",
+          "category": "technology",
+          "date": "2026-06-27",
+          "summaryB1": "Many countries around the world are now trying to limit how much time children spend on social media. This movement started gaining serious attention after Australia introduced a ban on social media for people under the age of 16. The Australian law was one of the strictest of its kind, and it sent a clear message to big technology companies that governments are willing to act. Now other countries are looking at similar rules to protect young people online. Supporters of these bans say that social media can harm children's mental health and that companies have not done enough to keep young users safe. Critics, however, worry that bans are too difficult to enforce and may not actually solve the problem. Some people compare this moment to the fight against the tobacco industry, when governments finally stepped in to regulate something many people had enjoyed for years. The phrase 'big tobacco moment' suggests that technology companies may soon face the same kind of strict rules that cigarette makers had to follow. Whether these bans will work is still unclear, but it seems that governments around the world are no longer willing to ignore the issue. The pressure on tech companies to change how they operate is growing fast.",
+          "vocabularyB1": [
+            {
+              "word": "ban",
+              "definition": "An official rule that says something is not allowed"
+            },
+            {
+              "word": "enforce",
+              "definition": "To make sure a rule or law is followed by people"
+            },
+            {
+              "word": "regulate",
+              "definition": "To control something with official rules or laws"
+            },
+            {
+              "word": "protect",
+              "definition": "To keep someone or something safe from harm or danger"
+            },
+            {
+              "word": "pressure",
+              "definition": "A strong push or force that makes someone do something"
+            }
+          ],
+          "questionB1": "Do you think governments should ban children from using social media to protect them, or are there better ways to keep young people safe online?",
+          "summaryB2": "A growing number of governments worldwide are moving to rein in children's access to social media platforms, following Australia's landmark decision to prohibit users under 16 from joining these services. The Australian legislation, widely regarded as among the most sweeping of its kind, has emboldened other nations to consider comparable measures, signalling a potential turning point in how states relate to the tech industry. Observers have drawn a striking parallel with the reckoning that once confronted the tobacco industry — a moment when decades of largely unchecked corporate power eventually gave way to stringent government oversight. The analogy suggests that big tech may now face similarly far-reaching accountability. Proponents of social media restrictions argue that platforms have consistently failed to safeguard minors from harmful content, addictive design features, and documented damage to mental health. Opponents, however, contend that such bans are difficult to enforce in practice and risk infringing on young people's rights to information and free expression. There are also questions about whether blunt legislative tools can address the nuanced harms that researchers have identified. What is clear is that the political will to act appears to be hardening across multiple continents, and technology companies are under mounting scrutiny from regulators who seem less inclined than ever to accept self-regulation as a sufficient response.",
+          "vocabularyB2": [
+            {
+              "word": "rein in",
+              "definition": "To control or limit something that has been growing or getting out of hand"
+            },
+            {
+              "word": "reckoning",
+              "definition": "A time when the consequences of past actions must be faced and dealt with"
+            },
+            {
+              "word": "sweeping",
+              "definition": "Covering a very wide range; affecting many people or things at once"
+            },
+            {
+              "word": "stringent",
+              "definition": "Very strict and demanding exact compliance with rules or standards"
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Close and careful examination or observation of someone or something"
+            }
+          ],
+          "questionB2": "Given the difficulty of enforcing sweeping social media bans and the risk of unintended consequences, do you think government regulation or industry self-regulation offers a more realistic path to protecting children online?"
+        }
+      ]
+    },
+    {
       "generated": "2026-06-23T21:32:23.138Z",
       "week": "2026-W25",
       "articles": [
