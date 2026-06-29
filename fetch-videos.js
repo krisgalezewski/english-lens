@@ -24,7 +24,7 @@ const CHANNEL_POOL = {
   business:     ['Reuters', 'The Economist', 'Bloomberg Originals', 'Wall Street Journal', 'Financial Times'],
   technology:   ['Reuters', 'The Economist', 'Bloomberg Originals', 'Wall Street Journal'],
   environment:  ['DW News', 'Euronews', 'BBC News'],
-  culture:      ['Euronews', 'BBC News', 'DW News', 'The Guardian', 'Reuters'],
+  culture:      ['Euronews Culture', 'DW Euromaxx', 'Euronews', 'BBC News', 'DW News', 'The Guardian'],
 };
 
 // Search query hints per category to bias YouTube search toward relevant topics
@@ -33,7 +33,7 @@ const SEARCH_HINTS = {
   business:    'Europe economy business news',
   technology:  'technology AI news',
   environment: 'climate environment Europe news',
-  culture:     'culture lifestyle travel food Europe',
+  culture:     'Europe culture lifestyle',
 };
 
 // ── MAIN ──────────────────────────────────────────────────────────────────────
