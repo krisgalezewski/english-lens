@@ -435,9 +435,9 @@ Generate a JSON object with EXACTLY these fields (no markdown, no code fences):
 {
   "summary": "A 2-3 sentence neutral summary of what the video covers, for display above the tasks.",
   "multipleChoice": [
-    { "question": "A comprehension question about a specific fact in the video", "options": ["A", "B", "C", "D"], "correctIndex": 0 },
-    { "question": "Second question", "options": ["A", "B", "C", "D"], "correctIndex": 0 },
-    { "question": "Third question", "options": ["A", "B", "C", "D"], "correctIndex": 0 }
+    { "question": "A comprehension question about a specific fact in the video", "options": ["Option A text", "Option B text", "Option C text", "Option D text"], "correctIndex": 2 },
+    { "question": "Second question", "options": ["Option A text", "Option B text", "Option C text", "Option D text"], "correctIndex": 0 },
+    { "question": "Third question", "options": ["Option A text", "Option B text", "Option C text", "Option D text"], "correctIndex": 3 }
   ],
   "trueFalse": [
     { "statement": "A statement that is clearly true or false based on the transcript", "answer": true },
@@ -456,6 +456,7 @@ Critical rules:
 - The video's publish date (given above) is the most reliable anchor for "when this is happening" — if the transcript references "this year" or similar, infer the year from the publish date, not from your own training data
 - If you are not confident a fact is stated in the transcript, do not include it as a question or statement at all — leave it out rather than guess
 - multipleChoice: exactly 3 questions, 4 options each, only one correct
+- IMPORTANT: vary the position of the correct answer across the 3 questions — do NOT put the correct answer at the same index (e.g. always first) for every question. Distribute correct answers across different positions (0, 1, 2, or 3), as shown in the example above
 - trueFalse: exactly 3 statements, mix of true and false
 - ordering: exactly 4 items, listed in the CORRECT chronological/logical order (the frontend will shuffle them for the student)
 - Avoid these overused words: "important", "significant", "broader", "increasingly", "underscores"
@@ -478,7 +479,33 @@ Critical rules:
     parsed = { summary: '', multipleChoice: [], trueFalse: [], ordering: { instruction: '', items: [] } };
   }
 
+  // Guarantee answer-position variety regardless of what the model produced:
+  // shuffle each question's options and remap correctIndex accordingly.
+  if (Array.isArray(parsed.multipleChoice)) {
+    parsed.multipleChoice = parsed.multipleChoice.map(q => shuffleOptions(q));
+  }
+
   return parsed;
+}
+
+// Shuffles a multiple-choice question's options array and remaps correctIndex
+// so the correct answer's position is genuinely randomized, independent of
+// whatever order the model happened to generate them in.
+function shuffleOptions(question) {
+  if (!Array.isArray(question.options) || question.options.length < 2) return question;
+
+  const correctOption = question.options[question.correctIndex];
+  const shuffled = [...question.options];
+
+  // Fisher-Yates shuffle
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  const newCorrectIndex = shuffled.indexOf(correctOption);
+
+  return { ...question, options: shuffled, correctIndex: newCorrectIndex };
 }
 
 // ── RUN ───────────────────────────────────────────────────────────────────────
