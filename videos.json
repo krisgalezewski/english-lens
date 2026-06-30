@@ -1,6 +1,275 @@
 {
   "editions": [
     {
+      "generated": "2026-06-30T05:19:59.981Z",
+      "videos": [
+        {
+          "videoId": "PBScd1GO-XU",
+          "title": "Europe send search and rescue personnel to Venezuela in response to massive quakes",
+          "channel": "euronews",
+          "publishedAt": "2026-06-27T16:54:52Z",
+          "thumbnail": "https://i.ytimg.com/vi/PBScd1GO-XU/hqdefault.jpg",
+          "durationSeconds": 71,
+          "transcript": "Europe is deploying rescue teams and other emergency assistance to Venezuela after double earthquakes hit the country on Wednesday leaving at least 920 people dead and more than 50,000 missing according to the UN. So far 520 responders from eight EU member states including [music] Czechia, Spain, Italy, France Luxembourg Germany Portugal and the Netherlands have mobilized for deployment through the EU civil protection mechanism. On Saturday Italian firefighters and 85 [music] French search and rescue personnel were seen arriving to join other international [music] teams in rescue operations. The UK Royal Air Force personnel prepared aid packages to be deployed to Venezuela. Meanwhile, Turkey sent two military aircraft carrying search and rescue personnel, medical teams and humanitarian aid. The two powerful earthquakes struck the northern Yaracuy region within eight minutes of each other on Wednesday night leaving unprecedented damage.",
+          "category": "politics",
+          "summary": "Following two powerful earthquakes that struck Venezuela's northern Yaracuy region on Wednesday, European countries have mobilised search and rescue teams through the EU civil protection mechanism. At least 920 people were killed and more than 50,000 are reported missing according to the UN. Several non-EU countries, including the UK and Turkey, have also sent personnel and humanitarian aid.",
+          "multipleChoice": [
+            {
+              "question": "How many EU member states have mobilised responders to Venezuela?",
+              "options": [
+                "Six",
+                "Seven",
+                "Eight",
+                "Ten"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "According to the UN, how many people are reported missing after the earthquakes?",
+              "options": [
+                "More than 5,000",
+                "More than 20,000",
+                "More than 50,000",
+                "More than 90,000"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "How many minutes apart did the two earthquakes strike?",
+              "options": [
+                "Four minutes",
+                "Eight minutes",
+                "Twelve minutes",
+                "Twenty minutes"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Italy and France both sent search and rescue personnel who were seen arriving on Saturday.",
+              "answer": true
+            },
+            {
+              "statement": "The UK sent military aircraft carrying medical teams and humanitarian aid to Venezuela.",
+              "answer": false
+            },
+            {
+              "statement": "The earthquakes struck the northern Yaracuy region of Venezuela on a Wednesday night.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they happened or were mentioned in the video.",
+            "items": [
+              "Two earthquakes struck the Yaracuy region within eight minutes of each other",
+              "520 responders from eight EU member states mobilised through the EU civil protection mechanism",
+              "Italian firefighters and French rescue personnel arrived on Saturday",
+              "Turkey sent two military aircraft with search and rescue personnel and humanitarian aid"
+            ]
+          }
+        },
+        {
+          "videoId": "av91g9Bac68",
+          "title": "Macro Matters: Can Europe afford the extreme heat?",
+          "channel": "Reuters",
+          "publishedAt": "2026-06-25T15:06:54Z",
+          "thumbnail": "https://i.ytimg.com/vi/av91g9Bac68/hqdefault.jpg",
+          "durationSeconds": 359,
+          "transcript": "Europe's in a heat wave and the economic thermometer is flashing reds. This is Macro Matters and we're talking about the extreme heat. The ECB has more than inflation to sweat over. A record-breaking heat wave is sweeping across Europe, disrupting businesses and raising fresh questions about the impacts of climate change. Research suggests that these shocks could become harder for policy makers to ignore, hitting growth while pushing up prices at the same time. So, are the economic costs getting too hot to handle? Well, let's ask George Buckley, chief European economist at Namura. So, George, some stress test suggests that by 2030, GDP losses could reach 5 to 7% in the most exposed economies like France and Germany. So, is extreme heat becoming one of the biggest structural threats to Euroone growth? >> I think it probably is, Peter. I mean, the problem is, of course, is that this comes at a time when productivity growth is not particularly high in Europe as it stands. So anything which might dent it even further uh is clearly a risk. Um it's not the job of central banks to directly deal with this but they might have to indirectly deal with it to the extent that if we see for example food prices rising that'll put upward pressure on overall inflation. They might have to do a bit more in terms of tightening policy when maybe no tightening might have been required in order to offset some of that and achieve their inflation goals. And there are a lot of ways that inflation uh might move on account of um on account of climate change. One of course is the impact on on food prices which is probably the most obvious. Uh the other is the impact on maybe some some of the decarbonization strategies that are are being implemented because of course it's costly to do this. Uh it'll push upward pressure on uh prices of of green tech for example. So lot lots of things to think about when it comes to the impact on both productivity and prices. >> As well, Europe's power system is under strain with sharp swings in electricity prices. So after your area inflation moved back above 3% for the first time in over two years, will energy driven price pressures continue to heat up? >> The rise in prices that we've already seen, how much of that will filter through into underlying prices, non-energy prices via indirect effects. So where companies say, \"Well, our costs have gone up. we have to pass that on or through second round effects where people say, \"Well, I'm now expecting higher inflation. I need to push for higher wages.\" Now, we haven't seen any of those second round effects as yet, but there are there is certainly evidence to suggest that the indirect effect, the pass through uh into things like transportation costs, into communication prices, they seem to have risen. Whether it's all to do do with the oil increase is questionable, but I I certainly think that notwithstanding the fact that oil prices are now a lot lower than where they were, I still think we're in that situation where we are going to see further increases in inflation before it comes down. >> Let's talk about the fiscal hit, though. For example, extreme heat could cost Germany up to $131 billion by 2030. So, how can the block cope when the heat is turning into a budget pressure cooker? If you think about the way that Europe works, it it's never really been set up, particularly the north of Europe has never been set up to deal with trying to keep um trying to keep the heat out of people's homes and offices. It's always been about trying uh trying to keep the heat in during the winter months. So, this is a a very different situation that we face and we will continue to face as as the globe warms up. uh so you know I imagine we will be losing quite a bit of output over the course of this week as people don't go into work uh kids don't go into school there's been a lot of changes which will have an impact on ours worked uh and therefore output but um you know from the longer term perspective uh this is going to be something which is likely to happen more regularly and and therefore those sort of uh impacts on growth and potentially inflation uh will come through more often. Meanwhile, we did get comments from ECB Schneable this week. She warned that rates may need to go higher to contain price pressures. Do you agree or do you think the ECB is at risk of overheating the economy? >> Even before this crisis, by the way, we were talking about the possible need for the ECB to raise interest rates. The other point is that the ECB now thinks that the neutral uh level of interest rates, the point at which everything is in balance, so where economic growth is running at its trend and inflation's running at target, that point the ECB now thinks is higher than it once was. They think and and certainly Michel thinks it it's higher than than the ECB's um collective view. So I I do think it's it's understandable why she has said what she's said and I wouldn't be surprised and certainly we have in our own forecasts the ECB moving further to tighten policy um on on account of what's been going on in energy markets. >> Finally, George, the EU's US trade deals now set to come into force but Brussels hoping it brings some stability amid global tensions. So does this at least take a bit of heat out of relations with President Trump? >> Will it have a big impact? I mean, the fact that Europe is removing the tariffs that it was setting on industrial goods imports from the US into Europe, I think is encouraging at the margin. I don't think it's the most important thing for inflation, but it will be uh encouraging. The US is also capping um its tariffs at 15%. Um still 15%, but it's less than potentially what it could have been. Um and that also means that it'll be positive for growth. So I think it's a this is one of those things which is actually good for growth and also uh pulls down on inflation and that's what central bankers do like. So I think this is certainly encouraging news. >> That was George Buckley from Namura. Don't forget you can watch more videos on Reuters.com.",
+          "category": "business",
+          "summary": "This video explores the economic consequences of extreme heat waves in Europe, featuring an interview with George Buckley, chief European economist at Nomura. The discussion covers how rising temperatures affect GDP, inflation, energy prices, and government budgets. The interview also touches on the ECB's response to price pressures and the impact of a new EU-US trade deal.",
+          "multipleChoice": [
+            {
+              "question": "According to the video, by 2030 GDP losses in the most exposed economies could reach how much?",
+              "options": [
+                "A) 2 to 3%",
+                "B) 5 to 7%",
+                "C) 10 to 12%",
+                "D) 3 to 5%"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How much could extreme heat cost Germany by 2030, according to the video?",
+              "options": [
+                "A) $50 billion",
+                "B) $200 billion",
+                "C) $131 billion",
+                "D) $75 billion"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What level has the US agreed to cap its tariffs at, according to George Buckley?",
+              "options": [
+                "A) 10%",
+                "B) 20%",
+                "C) 5%",
+                "D) 15%"
+              ],
+              "correctIndex": 3
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "George Buckley says that second round effects, such as people pushing for higher wages due to expected inflation, have already been clearly observed.",
+              "answer": false
+            },
+            {
+              "statement": "George Buckley states that northern Europe was traditionally built to keep heat out of homes and offices during summer.",
+              "answer": false
+            },
+            {
+              "statement": "ECB's Schnabel warned that interest rates may need to go higher in order to contain price pressures.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were discussed in the video.",
+            "items": [
+              "The risk of GDP losses in France and Germany due to extreme heat",
+              "The strain on Europe's power system and rising electricity prices",
+              "The fiscal hit and budget pressure from extreme heat, including costs for Germany",
+              "The impact of the EU-US trade deal on growth and inflation"
+            ]
+          }
+        },
+        {
+          "videoId": "VcdLKbrdHc0",
+          "title": "Anthropic claims Alibaba unlawfully copied Claude’s capabilities",
+          "channel": "Reuters",
+          "publishedAt": "2026-06-25T08:07:18Z",
+          "thumbnail": "https://i.ytimg.com/vi/VcdLKbrdHc0/hqdefault.jpg",
+          "durationSeconds": 60,
+          "transcript": "Anthropic has accused Chinese tech giant Alibaba of extracting its claw AI technology in what it says is the largest known attack of its kind. That is according to a letter seen by Reuters. The US AI company said Alibaba carried out a distillation operation earlier this year that involves using outputs from a powerful AI to train a cheaper model, effectively copying its abilities. Anthropic says the operation used nearly 25,000 fake accounts to generate more than 28.8 million interactions with Claude. It linked the campaign to operators affiliated with Alibaba and its AI lab Quinn and it warned that distillation could help China catch up with its advanced capabilities. The accusations remain in a letter sent on June 10th to Senators Tim Scott and Elizabeth Warren ahead of a US Senate Banking Committee hearing on AI back in February. Anthropic said it faced attacks by Chinese AI outfits including Deep Seek. Alibaba did not immediately respond to a request for comment on the latest accusations.",
+          "category": "technology",
+          "summary": "Anthropic has accused Chinese tech company Alibaba of secretly copying its Claude AI system through a process called distillation. According to a letter seen by Reuters, Alibaba allegedly used nearly 25,000 fake accounts to generate millions of interactions with Claude in order to train a cheaper AI model. Alibaba has not yet responded to the accusations.",
+          "multipleChoice": [
+            {
+              "question": "How many fake accounts did Anthropic say were used in the distillation operation?",
+              "options": [
+                "Nearly 25,000",
+                "Nearly 28,000",
+                "More than 28.8 million",
+                "Around 10,000"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What does 'distillation' mean in this context, according to the video?",
+              "options": [
+                "Using outputs from a powerful AI to train a cheaper model",
+                "Stealing source code from a competitor's servers",
+                "Sharing AI technology between two companies",
+                "Creating fake user accounts to access a platform"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "To whom did Anthropic send its letter on June 10th?",
+              "options": [
+                "Senators Tim Scott and Elizabeth Warren",
+                "The US Senate Banking Committee directly",
+                "Reuters journalists",
+                "Alibaba executives"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Anthropic described the alleged attack as the largest known operation of its kind.",
+              "answer": true
+            },
+            {
+              "statement": "Alibaba quickly responded to Reuters to deny the accusations.",
+              "answer": false
+            },
+            {
+              "statement": "Anthropic linked the campaign to operators affiliated with Alibaba and its AI lab Qwen.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they happened or were mentioned in the video.",
+            "items": [
+              "Alibaba allegedly carried out a distillation operation using fake accounts to interact with Claude",
+              "A US Senate Banking Committee hearing on AI took place",
+              "Anthropic sent a letter to Senators Tim Scott and Elizabeth Warren on June 10th",
+              "Reuters reported on the accusations after seeing the letter"
+            ]
+          }
+        },
+        {
+          "videoId": "9ul9c485JFs",
+          "title": "Forget 'Do Not Touch': Choreographer William Forsythe invites you to dance with the exhibits",
+          "channel": "euronews",
+          "publishedAt": "2026-06-20T12:32:57Z",
+          "thumbnail": "https://i.ytimg.com/vi/9ul9c485JFs/hqdefault.jpg",
+          "durationSeconds": 96,
+          "transcript": "[music] >> The objects here are designed to give a suite of different kinds of reactions and um so all these are designed to produce particular sensation and a certain class of activity. >> [music] >> Not all works are accessible to everyone, but they're optically accessible. [music] For example, the pendulums I find I can watch the entire half hour of the pendulum [music] performance. I don't need to go in the room because the patterns of the pendulums are so beautiful as they >> [music] >> progress over time. But I think people be very very happy to simply observe. >> [music] [music] [music]",
+          "category": "culture",
+          "summary": "This video features choreographer William Forsythe discussing an interactive art exhibition where visitors are invited to engage with the exhibits physically. He explains that the objects are designed to produce specific sensations and types of movement. Forsythe also notes that while not all works are physically accessible to everyone, they can still be enjoyed visually.",
+          "multipleChoice": [
+            {
+              "question": "According to William Forsythe, what are the objects in the exhibition designed to do?",
+              "options": [
+                "Produce particular sensations and a certain class of activity",
+                "Teach visitors about the history of dance",
+                "Display traditional artworks from around the world",
+                "Encourage visitors to stay silent and still"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "How long does the pendulum performance last, according to Forsythe?",
+              "options": [
+                "Half an hour",
+                "One hour",
+                "Fifteen minutes",
+                "Two hours"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Why does Forsythe say he does not always need to go into the room with the pendulums?",
+              "options": [
+                "Because the patterns of the pendulums are so beautiful to watch from outside",
+                "Because the room is too crowded with other visitors",
+                "Because the pendulums are too dangerous to approach",
+                "Because the performance is only shown on a screen"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Forsythe says that all the works in the exhibition are physically accessible to everyone.",
+              "answer": false
+            },
+            {
+              "statement": "Forsythe believes people can be very happy simply observing the exhibits without physically interacting with them.",
+              "answer": true
+            },
+            {
+              "statement": "The pendulum performance changes its patterns over time.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas in the order they were mentioned in the video",
+            "items": [
+              "Forsythe explains that the objects are designed to produce particular sensations and activity",
+              "Forsythe states that not all works are physically accessible, but they are optically accessible",
+              "Forsythe mentions he can watch the entire half hour of the pendulum performance",
+              "Forsythe says people will be very happy to simply observe"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-06-30T00:00:00Z",
       "videos": [
         {
@@ -13,18 +282,59 @@
           "category": "politics",
           "summary": "Brussels hosted a US Independence Day celebration attended by VIPs, alongside protests outside the event.",
           "multipleChoice": [
-            { "question": "Where did this event take place?", "options": ["Washington DC", "Brussels", "Paris", "London"], "correctIndex": 1 },
-            { "question": "What was being celebrated?", "options": ["EU Independence Day", "US Independence Day", "Belgian National Day", "NATO anniversary"], "correctIndex": 1 },
-            { "question": "What else happened alongside the celebration?", "options": ["A military parade", "Protests", "A trade summit", "A royal visit"], "correctIndex": 1 }
+            {
+              "question": "Where did this event take place?",
+              "options": [
+                "Washington DC",
+                "Brussels",
+                "Paris",
+                "London"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What was being celebrated?",
+              "options": [
+                "EU Independence Day",
+                "US Independence Day",
+                "Belgian National Day",
+                "NATO anniversary"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What else happened alongside the celebration?",
+              "options": [
+                "A military parade",
+                "Protests",
+                "A trade summit",
+                "A royal visit"
+              ],
+              "correctIndex": 1
+            }
           ],
           "trueFalse": [
-            { "statement": "The event took place in Brussels.", "answer": true },
-            { "statement": "No protests were reported near the event.", "answer": false },
-            { "statement": "VIPs attended the celebration.", "answer": true }
+            {
+              "statement": "The event took place in Brussels.",
+              "answer": true
+            },
+            {
+              "statement": "No protests were reported near the event.",
+              "answer": false
+            },
+            {
+              "statement": "VIPs attended the celebration.",
+              "answer": true
+            }
           ],
           "ordering": {
             "instruction": "Put these events in the order they were mentioned in the video",
-            "items": ["VIPs arrive for the event", "The Independence Day celebration begins", "Protesters gather outside", "Coverage of the event concludes"]
+            "items": [
+              "VIPs arrive for the event",
+              "The Independence Day celebration begins",
+              "Protesters gather outside",
+              "Coverage of the event concludes"
+            ]
           }
         }
       ]
@@ -43,18 +353,59 @@
           "category": "politics",
           "summary": "A BBC reporter covers the Makerfield by-election, where Labour's Andy Burnham won by a large margin. The reporter notes that Burnham positioned himself almost as a future prime minister during the campaign. The result raises questions about how the current prime minister will respond.",
           "multipleChoice": [
-            { "question": "Why does the reporter describe this as the biggest by-election they have ever covered?", "options": ["Because one candidate was presenting himself as a possible future prime minister", "Because it had the highest voter turnout in history", "Because it was held in the largest constituency in the UK", "Because three major parties were competing closely against each other"], "correctIndex": 0 },
-            { "question": "What had happened in Makerfield just a few weeks before this by-election?", "options": ["Labour had won a large majority in the local elections", "The Reform party had performed very well in the local elections", "Andy Burnham had announced his resignation from politics", "The by-election had been postponed due to low interest"], "correctIndex": 1 },
-            { "question": "How does the reporter describe Andy Burnham's victory speech?", "options": ["It was very direct and clearly stated his plans to lead the country", "It suggested what he would do as leader of the country, without saying it openly", "It focused entirely on local issues in Makerfield", "It was a short speech that avoided any political statements"], "correctIndex": 1 }
+            {
+              "question": "Why does the reporter describe this as the biggest by-election they have ever covered?",
+              "options": [
+                "Because one candidate was presenting himself as a possible future prime minister",
+                "Because it had the highest voter turnout in history",
+                "Because it was held in the largest constituency in the UK",
+                "Because three major parties were competing closely against each other"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What had happened in Makerfield just a few weeks before this by-election?",
+              "options": [
+                "Labour had won a large majority in the local elections",
+                "The Reform party had performed very well in the local elections",
+                "Andy Burnham had announced his resignation from politics",
+                "The by-election had been postponed due to low interest"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How does the reporter describe Andy Burnham's victory speech?",
+              "options": [
+                "It was very direct and clearly stated his plans to lead the country",
+                "It suggested what he would do as leader of the country, without saying it openly",
+                "It focused entirely on local issues in Makerfield",
+                "It was a short speech that avoided any political statements"
+              ],
+              "correctIndex": 1
+            }
           ],
           "trueFalse": [
-            { "statement": "Andy Burnham won the Makerfield by-election by a large margin.", "answer": true },
-            { "statement": "The Reform party had performed poorly in Makerfield at the recent local elections.", "answer": false },
-            { "statement": "The reporter ends by questioning how the prime minister will react to the result.", "answer": true }
+            {
+              "statement": "Andy Burnham won the Makerfield by-election by a large margin.",
+              "answer": true
+            },
+            {
+              "statement": "The Reform party had performed poorly in Makerfield at the recent local elections.",
+              "answer": false
+            },
+            {
+              "statement": "The reporter ends by questioning how the prime minister will react to the result.",
+              "answer": true
+            }
           ],
           "ordering": {
             "instruction": "Put these events in the order they were mentioned in the video.",
-            "items": ["The reporter explains why this by-election is the biggest they have covered", "Reform did well in Makerfield at the local elections", "Andy Burnham wins the by-election", "Andy Burnham gives a victory speech hinting at future leadership ambitions"]
+            "items": [
+              "The reporter explains why this by-election is the biggest they have covered",
+              "Reform did well in Makerfield at the local elections",
+              "Andy Burnham wins the by-election",
+              "Andy Burnham gives a victory speech hinting at future leadership ambitions"
+            ]
           }
         },
         {
@@ -68,18 +419,59 @@
           "category": "business",
           "summary": "In this video, Bill Gates speaks about his past meetings with Jeffrey Epstein, expressing regret for the time he spent with him. Gates insists that his contact with Epstein was limited to dinners and denies visiting his island or meeting any women connected to him. He explains that Epstein had claimed he could help raise money from wealthy people for global health causes.",
           "multipleChoice": [
-            { "question": "What does Bill Gates say he regrets?", "options": ["Every minute he spent with Epstein", "Donating money to global health causes", "Speaking publicly about Epstein", "Introducing Epstein to other rich people"], "correctIndex": 0 },
-            { "question": "According to Gates, what did Epstein claim he could do?", "options": ["Invest money in technology companies", "Get very rich people to donate money to global health", "Introduce Gates to world leaders", "Help Gates expand his business"], "correctIndex": 1 },
-            { "question": "Which of the following does Gates say he never did?", "options": ["Apologized for spending time with Epstein", "Heard about Epstein's behaviour", "Visited Epstein's island", "Met other wealthy people through Epstein"], "correctIndex": 2 }
+            {
+              "question": "What does Bill Gates say he regrets?",
+              "options": [
+                "Every minute he spent with Epstein",
+                "Donating money to global health causes",
+                "Speaking publicly about Epstein",
+                "Introducing Epstein to other rich people"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "According to Gates, what did Epstein claim he could do?",
+              "options": [
+                "Invest money in technology companies",
+                "Get very rich people to donate money to global health",
+                "Introduce Gates to world leaders",
+                "Help Gates expand his business"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which of the following does Gates say he never did?",
+              "options": [
+                "Apologized for spending time with Epstein",
+                "Heard about Epstein's behaviour",
+                "Visited Epstein's island",
+                "Met other wealthy people through Epstein"
+              ],
+              "correctIndex": 2
+            }
           ],
           "trueFalse": [
-            { "statement": "Bill Gates says he only met Epstein at dinners.", "answer": true },
-            { "statement": "Bill Gates says he visited Epstein's island on one occasion.", "answer": false },
-            { "statement": "Gates describes the time he spent with Epstein as a mistake.", "answer": true }
+            {
+              "statement": "Bill Gates says he only met Epstein at dinners.",
+              "answer": true
+            },
+            {
+              "statement": "Bill Gates says he visited Epstein's island on one occasion.",
+              "answer": false
+            },
+            {
+              "statement": "Gates describes the time he spent with Epstein as a mistake.",
+              "answer": true
+            }
           ],
           "ordering": {
             "instruction": "Put these ideas from the video in the order they were mentioned by Bill Gates.",
-            "items": ["Gates expresses regret and apologizes for spending time with Epstein", "Gates states he only attended dinners and never visited the island", "Gates explains that Epstein knew many very rich people", "Gates says Epstein claimed he could raise money for global health"]
+            "items": [
+              "Gates expresses regret and apologizes for spending time with Epstein",
+              "Gates states he only attended dinners and never visited the island",
+              "Gates explains that Epstein knew many very rich people",
+              "Gates says Epstein claimed he could raise money for global health"
+            ]
           }
         },
         {
@@ -93,18 +485,59 @@
           "category": "technology",
           "summary": "The video introduces Bu Sneider, a robot designed to connect Emirati children with their cultural traditions. The robot visits mosques to demonstrate how people greet each other and celebrate Eid. Its creators hope that by introducing robots early, the people of the UAE will become comfortable with technology in the future.",
           "multipleChoice": [
-            { "question": "Where does Bu Sneider go to greet children?", "options": ["A school", "A mosque", "A shopping mall", "A cultural centre"], "correctIndex": 1 },
-            { "question": "What is the main purpose of taking Bu Sneider to meet children?", "options": ["To replace human teachers", "To perform religious ceremonies", "To teach children about traditional Eid customs", "To sell robots to Emirati families"], "correctIndex": 2 },
-            { "question": "According to the speaker, when will robots be everywhere?", "options": ["Right now", "Within the next five years", "In a decade or two", "By the end of this century"], "correctIndex": 2 }
+            {
+              "question": "Where does Bu Sneider go to greet children?",
+              "options": [
+                "A school",
+                "A mosque",
+                "A shopping mall",
+                "A cultural centre"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is the main purpose of taking Bu Sneider to meet children?",
+              "options": [
+                "To replace human teachers",
+                "To perform religious ceremonies",
+                "To teach children about traditional Eid customs",
+                "To sell robots to Emirati families"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "According to the speaker, when will robots be everywhere?",
+              "options": [
+                "Right now",
+                "Within the next five years",
+                "In a decade or two",
+                "By the end of this century"
+              ],
+              "correctIndex": 2
+            }
           ],
           "trueFalse": [
-            { "statement": "The robot's name, Bu Sneider, was chosen to feel connected to Emirati culture.", "answer": true },
-            { "statement": "The creators say the robot can be considered Muslim because it performs religious actions.", "answer": false },
-            { "statement": "The creators want Emirati children to feel comfortable around robots in the future.", "answer": true }
+            {
+              "statement": "The robot's name, Bu Sneider, was chosen to feel connected to Emirati culture.",
+              "answer": true
+            },
+            {
+              "statement": "The creators say the robot can be considered Muslim because it performs religious actions.",
+              "answer": false
+            },
+            {
+              "statement": "The creators want Emirati children to feel comfortable around robots in the future.",
+              "answer": true
+            }
           ],
           "ordering": {
             "instruction": "Put these ideas in the order they were mentioned in the video.",
-            "items": ["The robot is introduced by name and explained as connected to Emirati culture.", "The robot visits a mosque to show children how to greet elders during Eid.", "The speaker states that the robot cannot be Muslim because it is a machine.", "The speaker says children today will grow up in a world full of robots."]
+            "items": [
+              "The robot is introduced by name and explained as connected to Emirati culture.",
+              "The robot visits a mosque to show children how to greet elders during Eid.",
+              "The speaker states that the robot cannot be Muslim because it is a machine.",
+              "The speaker says children today will grow up in a world full of robots."
+            ]
           }
         },
         {
@@ -118,18 +551,59 @@
           "category": "environment",
           "summary": "A reporter in Washington DC describes a massive winter storm stretching 1,500 miles across the United States. The storm has caused power outages in some states, leaving people without heating, while others are making the most of the snow by sledging and having snowball fights. Record snowfall and extremely cold temperatures are expected.",
           "multipleChoice": [
-            { "question": "How much snowfall is expected in Washington DC?", "options": ["Up to a foot of snow", "Up to 1,500 inches of snow", "A few centimetres of snow", "No snowfall at all"], "correctIndex": 0 },
-            { "question": "How far does the storm stretch across the United States?", "options": ["500 miles", "1,000 miles", "1,500 miles", "2,000 miles"], "correctIndex": 2 },
-            { "question": "What problem are some people in certain states facing because of the storm?", "options": ["They cannot find food", "They have no way to heat their homes", "Their cars have been buried in snow", "They cannot contact emergency services"], "correctIndex": 1 }
+            {
+              "question": "How much snowfall is expected in Washington DC?",
+              "options": [
+                "Up to a foot of snow",
+                "Up to 1,500 inches of snow",
+                "A few centimetres of snow",
+                "No snowfall at all"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "How far does the storm stretch across the United States?",
+              "options": [
+                "500 miles",
+                "1,000 miles",
+                "1,500 miles",
+                "2,000 miles"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What problem are some people in certain states facing because of the storm?",
+              "options": [
+                "They cannot find food",
+                "They have no way to heat their homes",
+                "Their cars have been buried in snow",
+                "They cannot contact emergency services"
+              ],
+              "correctIndex": 1
+            }
           ],
           "trueFalse": [
-            { "statement": "The storm is stretching approximately 1,500 miles across the United States.", "answer": true },
-            { "statement": "The reporter says that most people are out enjoying the snow in Washington DC.", "answer": false },
-            { "statement": "Some people are having impromptu snowball fights during the storm.", "answer": true }
+            {
+              "statement": "The storm is stretching approximately 1,500 miles across the United States.",
+              "answer": true
+            },
+            {
+              "statement": "The reporter says that most people are out enjoying the snow in Washington DC.",
+              "answer": false
+            },
+            {
+              "statement": "Some people are having impromptu snowball fights during the storm.",
+              "answer": true
+            }
           ],
           "ordering": {
             "instruction": "Put these details from the video in the order they were mentioned by the reporter.",
-            "items": ["The reporter describes the storm stretching 1,500 miles across the US", "The reporter mentions power outages leaving people without heating", "The reporter talks about people sledging and having snowball fights", "The reporter says it is absolutely freezing where they are standing"]
+            "items": [
+              "The reporter describes the storm stretching 1,500 miles across the US",
+              "The reporter mentions power outages leaving people without heating",
+              "The reporter talks about people sledging and having snowball fights",
+              "The reporter says it is absolutely freezing where they are standing"
+            ]
           }
         },
         {
@@ -143,18 +617,59 @@
           "category": "culture",
           "summary": "K-pop group BTS has announced a 79-day world tour after a four-year break during which all seven members completed mandatory military service in South Korea. The reunion tour is expected to generate over one billion dollars through concerts, merchandise, album sales, and other revenue streams. This would far surpass their previous record-breaking tour, which earned around $246 million.",
           "multipleChoice": [
-            { "question": "How long will the BTS world tour last?", "options": ["49 days", "79 days", "97 days", "74 days"], "correctIndex": 1 },
-            { "question": "Why did BTS not perform together for four years?", "options": ["They were recording a new album", "They had personal disagreements", "They were completing mandatory military service", "They were on a planned hiatus agreed with their label"], "correctIndex": 2 },
-            { "question": "According to the transcript, how much did BTS earn from their previous tour?", "options": ["About $1 billion", "About $740 million", "About $246 million", "About $300 million"], "correctIndex": 2 }
+            {
+              "question": "How long will the BTS world tour last?",
+              "options": [
+                "49 days",
+                "79 days",
+                "97 days",
+                "74 days"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Why did BTS not perform together for four years?",
+              "options": [
+                "They were recording a new album",
+                "They had personal disagreements",
+                "They were completing mandatory military service",
+                "They were on a planned hiatus agreed with their label"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "According to the transcript, how much did BTS earn from their previous tour?",
+              "options": [
+                "About $1 billion",
+                "About $740 million",
+                "About $246 million",
+                "About $300 million"
+              ],
+              "correctIndex": 2
+            }
           ],
           "trueFalse": [
-            { "statement": "The BTS world tour will begin in South Korea in April.", "answer": true },
-            { "statement": "All seven BTS members finished their military service at the same time.", "answer": false },
-            { "statement": "Billboard reported that BTS and their record label could earn more than a billion dollars from the reunion.", "answer": true }
+            {
+              "statement": "The BTS world tour will begin in South Korea in April.",
+              "answer": true
+            },
+            {
+              "statement": "All seven BTS members finished their military service at the same time.",
+              "answer": false
+            },
+            {
+              "statement": "Billboard reported that BTS and their record label could earn more than a billion dollars from the reunion.",
+              "answer": true
+            }
           ],
           "ordering": {
             "instruction": "Put these events in the order they were mentioned in the video.",
-            "items": ["BTS members began completing their mandatory military service in South Korea.", "Suga finished his military service last June.", "BTS announced a 79-day world tour.", "The tour is set to travel across Asia, Europe, and America."]
+            "items": [
+              "BTS members began completing their mandatory military service in South Korea.",
+              "Suga finished his military service last June.",
+              "BTS announced a 79-day world tour.",
+              "The tour is set to travel across Asia, Europe, and America."
+            ]
           }
         }
       ]
