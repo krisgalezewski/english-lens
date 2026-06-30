@@ -1,269 +1,335 @@
 {
   "editions": [
     {
-      "generated": "2026-06-30T05:19:59.981Z",
+      "generated": "2026-06-30T19:40:03.074Z",
       "videos": [
         {
-          "videoId": "PBScd1GO-XU",
-          "title": "Europe send search and rescue personnel to Venezuela in response to massive quakes",
+          "videoId": "bDgAoQvYBFw",
+          "title": "Is Ireland ready to steer the EU council presidency?",
           "channel": "euronews",
-          "publishedAt": "2026-06-27T16:54:52Z",
-          "thumbnail": "https://i.ytimg.com/vi/PBScd1GO-XU/hqdefault.jpg",
-          "durationSeconds": 71,
-          "transcript": "Europe is deploying rescue teams and other emergency assistance to Venezuela after double earthquakes hit the country on Wednesday leaving at least 920 people dead and more than 50,000 missing according to the UN. So far 520 responders from eight EU member states including [music] Czechia, Spain, Italy, France Luxembourg Germany Portugal and the Netherlands have mobilized for deployment through the EU civil protection mechanism. On Saturday Italian firefighters and 85 [music] French search and rescue personnel were seen arriving to join other international [music] teams in rescue operations. The UK Royal Air Force personnel prepared aid packages to be deployed to Venezuela. Meanwhile, Turkey sent two military aircraft carrying search and rescue personnel, medical teams and humanitarian aid. The two powerful earthquakes struck the northern Yaracuy region within eight minutes of each other on Wednesday night leaving unprecedented damage.",
+          "publishedAt": "2026-06-30T08:03:52Z",
+          "thumbnail": "https://i.ytimg.com/vi/bDgAoQvYBFw/hqdefault.jpg",
+          "durationSeconds": 46,
+          "transcript": "A lot of preparation has gone into taking over this presidency. We're talking about years, years in the making, not just from the point of view of human resources in the Irish permanent representation, which is basically the civil service now on steroids out here in Brussels, but also in terms of resources like buildings and building up every level, whether it's making sure that the Irish language is fully recognized and fully to the forefront during the presidency because this is our first presidency since Ireland and Irish Gaelic has got its official status. >> But they maintain the focus on security and defense because that is vital. So, the teams of the Irish presidency are in alignment, very much in alignment with the Cypriot presidency because we are talking about competitiveness, we are talking about security and defense, and our third priority then is values.",
           "category": "politics",
-          "summary": "Following two powerful earthquakes that struck Venezuela's northern Yaracuy region on Wednesday, European countries have mobilised search and rescue teams through the EU civil protection mechanism. At least 920 people were killed and more than 50,000 are reported missing according to the UN. Several non-EU countries, including the UK and Turkey, have also sent personnel and humanitarian aid.",
+          "summary": "The video discusses Ireland's preparations for taking over the EU Council presidency, highlighting years of planning and the significance of Irish Gaelic gaining official EU status. A spokesperson outlines the presidency's three main priorities: competitiveness, security and defense, and values. Ireland's agenda is described as closely aligned with the preceding Cypriot presidency.",
           "multipleChoice": [
             {
-              "question": "How many EU member states have mobilised responders to Venezuela?",
+              "question": "What does the speaker say about the Irish permanent representation in Brussels?",
               "options": [
-                "Six",
-                "Seven",
-                "Eight",
-                "Ten"
+                "It is described as the civil service on steroids",
+                "It has reduced its staff to save costs",
+                "It has been newly established for the presidency",
+                "It is run by volunteers from Ireland"
               ],
-              "correctIndex": 2
+              "correctIndex": 0
             },
             {
-              "question": "According to the UN, how many people are reported missing after the earthquakes?",
+              "question": "What is special about this EU Council presidency for the Irish language?",
               "options": [
-                "More than 5,000",
-                "More than 20,000",
-                "More than 50,000",
-                "More than 90,000"
+                "Irish Gaelic will be used as the main working language of the EU",
+                "It is the first presidency since Irish Gaelic received official EU status",
+                "Ireland is pushing for Irish Gaelic to become an official EU language",
+                "Irish Gaelic translation services are being cut to reduce costs"
               ],
-              "correctIndex": 2
+              "correctIndex": 1
             },
             {
-              "question": "How many minutes apart did the two earthquakes strike?",
+              "question": "Which of the following is listed as one of the three priorities of the Irish presidency?",
               "options": [
-                "Four minutes",
-                "Eight minutes",
-                "Twelve minutes",
-                "Twenty minutes"
+                "Immigration reform",
+                "Values",
+                "Digital transformation",
+                "Climate change"
               ],
               "correctIndex": 1
             }
           ],
           "trueFalse": [
             {
-              "statement": "Italy and France both sent search and rescue personnel who were seen arriving on Saturday.",
+              "statement": "The preparation for Ireland's EU Council presidency took years, not just a few months.",
               "answer": true
             },
             {
-              "statement": "The UK sent military aircraft carrying medical teams and humanitarian aid to Venezuela.",
+              "statement": "The Irish presidency's priorities are completely different from those of the Cypriot presidency.",
               "answer": false
             },
             {
-              "statement": "The earthquakes struck the northern Yaracuy region of Venezuela on a Wednesday night.",
+              "statement": "Security and defense is mentioned as one of the key themes of the Irish presidency.",
               "answer": true
             }
           ],
           "ordering": {
-            "instruction": "Put these events in the order they happened or were mentioned in the video.",
+            "instruction": "Put these topics in the order they were mentioned in the video.",
             "items": [
-              "Two earthquakes struck the Yaracuy region within eight minutes of each other",
-              "520 responders from eight EU member states mobilised through the EU civil protection mechanism",
-              "Italian firefighters and French rescue personnel arrived on Saturday",
-              "Turkey sent two military aircraft with search and rescue personnel and humanitarian aid"
+              "Years of preparation and human resources in Brussels",
+              "Recognition and promotion of the Irish language during the presidency",
+              "Alignment with the Cypriot presidency on shared themes",
+              "Values as the third priority of the Irish presidency"
             ]
           }
         },
         {
-          "videoId": "av91g9Bac68",
-          "title": "Macro Matters: Can Europe afford the extreme heat?",
-          "channel": "Reuters",
-          "publishedAt": "2026-06-25T15:06:54Z",
-          "thumbnail": "https://i.ytimg.com/vi/av91g9Bac68/hqdefault.jpg",
-          "durationSeconds": 359,
-          "transcript": "Europe's in a heat wave and the economic thermometer is flashing reds. This is Macro Matters and we're talking about the extreme heat. The ECB has more than inflation to sweat over. A record-breaking heat wave is sweeping across Europe, disrupting businesses and raising fresh questions about the impacts of climate change. Research suggests that these shocks could become harder for policy makers to ignore, hitting growth while pushing up prices at the same time. So, are the economic costs getting too hot to handle? Well, let's ask George Buckley, chief European economist at Namura. So, George, some stress test suggests that by 2030, GDP losses could reach 5 to 7% in the most exposed economies like France and Germany. So, is extreme heat becoming one of the biggest structural threats to Euroone growth? >> I think it probably is, Peter. I mean, the problem is, of course, is that this comes at a time when productivity growth is not particularly high in Europe as it stands. So anything which might dent it even further uh is clearly a risk. Um it's not the job of central banks to directly deal with this but they might have to indirectly deal with it to the extent that if we see for example food prices rising that'll put upward pressure on overall inflation. They might have to do a bit more in terms of tightening policy when maybe no tightening might have been required in order to offset some of that and achieve their inflation goals. And there are a lot of ways that inflation uh might move on account of um on account of climate change. One of course is the impact on on food prices which is probably the most obvious. Uh the other is the impact on maybe some some of the decarbonization strategies that are are being implemented because of course it's costly to do this. Uh it'll push upward pressure on uh prices of of green tech for example. So lot lots of things to think about when it comes to the impact on both productivity and prices. >> As well, Europe's power system is under strain with sharp swings in electricity prices. So after your area inflation moved back above 3% for the first time in over two years, will energy driven price pressures continue to heat up? >> The rise in prices that we've already seen, how much of that will filter through into underlying prices, non-energy prices via indirect effects. So where companies say, \"Well, our costs have gone up. we have to pass that on or through second round effects where people say, \"Well, I'm now expecting higher inflation. I need to push for higher wages.\" Now, we haven't seen any of those second round effects as yet, but there are there is certainly evidence to suggest that the indirect effect, the pass through uh into things like transportation costs, into communication prices, they seem to have risen. Whether it's all to do do with the oil increase is questionable, but I I certainly think that notwithstanding the fact that oil prices are now a lot lower than where they were, I still think we're in that situation where we are going to see further increases in inflation before it comes down. >> Let's talk about the fiscal hit, though. For example, extreme heat could cost Germany up to $131 billion by 2030. So, how can the block cope when the heat is turning into a budget pressure cooker? If you think about the way that Europe works, it it's never really been set up, particularly the north of Europe has never been set up to deal with trying to keep um trying to keep the heat out of people's homes and offices. It's always been about trying uh trying to keep the heat in during the winter months. So, this is a a very different situation that we face and we will continue to face as as the globe warms up. uh so you know I imagine we will be losing quite a bit of output over the course of this week as people don't go into work uh kids don't go into school there's been a lot of changes which will have an impact on ours worked uh and therefore output but um you know from the longer term perspective uh this is going to be something which is likely to happen more regularly and and therefore those sort of uh impacts on growth and potentially inflation uh will come through more often. Meanwhile, we did get comments from ECB Schneable this week. She warned that rates may need to go higher to contain price pressures. Do you agree or do you think the ECB is at risk of overheating the economy? >> Even before this crisis, by the way, we were talking about the possible need for the ECB to raise interest rates. The other point is that the ECB now thinks that the neutral uh level of interest rates, the point at which everything is in balance, so where economic growth is running at its trend and inflation's running at target, that point the ECB now thinks is higher than it once was. They think and and certainly Michel thinks it it's higher than than the ECB's um collective view. So I I do think it's it's understandable why she has said what she's said and I wouldn't be surprised and certainly we have in our own forecasts the ECB moving further to tighten policy um on on account of what's been going on in energy markets. >> Finally, George, the EU's US trade deals now set to come into force but Brussels hoping it brings some stability amid global tensions. So does this at least take a bit of heat out of relations with President Trump? >> Will it have a big impact? I mean, the fact that Europe is removing the tariffs that it was setting on industrial goods imports from the US into Europe, I think is encouraging at the margin. I don't think it's the most important thing for inflation, but it will be uh encouraging. The US is also capping um its tariffs at 15%. Um still 15%, but it's less than potentially what it could have been. Um and that also means that it'll be positive for growth. So I think it's a this is one of those things which is actually good for growth and also uh pulls down on inflation and that's what central bankers do like. So I think this is certainly encouraging news. >> That was George Buckley from Namura. Don't forget you can watch more videos on Reuters.com.",
+          "videoId": "yPtH0qSukt0",
+          "title": "How has Brexit changed Britain’s economy?  | The Economist",
+          "channel": "The Economist",
+          "publishedAt": "2026-06-23T10:40:20Z",
+          "thumbnail": "https://i.ytimg.com/vi/yPtH0qSukt0/hqdefault.jpg",
+          "durationSeconds": 147,
+          "transcript": "How exactly has Brexit changed Britain's economy? It's been ten years since Britain decided to leave the European Union <i>The dawn is breaking</i> <i>on an independent</i> <i>United Kingdom</i> The country has been through six prime ministers since then and is now more divided, less influential and poorer than it otherwise might have been <i>Brexit was a huge mistake</i> Most economists agree that Brexit has damaged the economy Some say GDP per person is 8% lower, while others say it's only 2.5% We may not know the exact cost, but what we do know is that growth in most other big, rich countries has been faster than in Britain The effects are clearest in manufacturing Brexiteers promise to free Britain from the shackles of EU regulations They said that any trade losses with the EU would be more than made up for by greater trade with the rest of the world But that's not what's happened The value in real terms of goods traded with the EU has fallen by 7% since 2016 But trade with the rest of the world has also fallen by 6% Competition from China and high energy costs were already making life harder for British manufacturing But Brexit sped up its decline by introducing new barriers to trade with the EU, such as extra border checks and more paperwork Over 16,000 British businesses have given up exporting to the EU altogether— that's 14% of all exporters to the continent But it's not all doom and gloom Britain's exports of services have actually risen since 2016 by £62bn in the EU and £107bn in the rest of the world The biggest growth in output has been in industries with few trade barriers like IT services or advertising That has happened despite Brexit, not because of it Sectors where Brexit introduced new obstacles like financial services, they've done worse But Brexit alone can't be blamed for Britain's sluggish economy It fundamentally has the same strengths and the same weaknesses as before 2016— leaving the EU has just made everything a little bit harder",
           "category": "business",
-          "summary": "This video explores the economic consequences of extreme heat waves in Europe, featuring an interview with George Buckley, chief European economist at Nomura. The discussion covers how rising temperatures affect GDP, inflation, energy prices, and government budgets. The interview also touches on the ECB's response to price pressures and the impact of a new EU-US trade deal.",
+          "summary": "This video marks ten years since Britain voted to leave the European Union and examines how Brexit has affected the British economy. It looks at the impact on trade, manufacturing, and services, drawing on economic data to assess what has changed since 2016. While Brexit has made some things harder, the video also notes that Britain's economic weaknesses existed before the vote.",
           "multipleChoice": [
             {
-              "question": "According to the video, by 2030 GDP losses in the most exposed economies could reach how much?",
+              "question": "By how much has the value of goods traded with the EU fallen since 2016, in real terms?",
               "options": [
-                "A) 2 to 3%",
-                "B) 5 to 7%",
-                "C) 10 to 12%",
-                "D) 3 to 5%"
+                "14%",
+                "7%",
+                "8%",
+                "6%"
               ],
               "correctIndex": 1
             },
             {
-              "question": "How much could extreme heat cost Germany by 2030, according to the video?",
+              "question": "How many British businesses have stopped exporting to the EU altogether since Brexit?",
               "options": [
-                "A) $50 billion",
-                "B) $200 billion",
-                "C) $131 billion",
-                "D) $75 billion"
+                "Over 16,000",
+                "Over 60,000",
+                "Over 6,000",
+                "Over 1,600"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "According to the video, which sectors have grown despite Brexit?",
+              "options": [
+                "IT services and advertising",
+                "Energy and advertising",
+                "Manufacturing and logistics",
+                "Financial services and manufacturing"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Britain's exports of services have risen since 2016.",
+              "answer": true
+            },
+            {
+              "statement": "Trade with the rest of the world increased after Brexit, making up for losses with the EU.",
+              "answer": false
+            },
+            {
+              "statement": "High energy costs and competition from China were already putting pressure on British manufacturing before Brexit.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or developments in the order they are mentioned in the video.",
+            "items": [
+              "Britain votes to leave the European Union",
+              "New trade barriers such as extra border checks are introduced with the EU",
+              "Over 16,000 British businesses stop exporting to the EU",
+              "Britain's exports of services rise, with the biggest growth in IT and advertising"
+            ]
+          }
+        },
+        {
+          "videoId": "CLbnaAMDCTs",
+          "title": "South Korea unveils $576 billion AI chip investment",
+          "channel": "Reuters",
+          "publishedAt": "2026-06-29T12:37:29Z",
+          "thumbnail": "https://i.ytimg.com/vi/CLbnaAMDCTs/hqdefault.jpg",
+          "durationSeconds": 67,
+          "transcript": "South Korea rolled out sweeping chip and AI mega projects on Monday. >> President Lee Jang pledged investments worth more than $576 billion over several years. It's a move that aims to cement the nation's overwhelming industry leadership. Lee was joined for the announcement by the leaders of Samsung Electronics and SKH Highix. High bandwidth memory chips produced by both tech giants have become pivotal in the global race to build advanced AI systems. Lee said the world's two largest memory chip makers will invest around 518 billion with suppliers to build two new chip fabrication sites each in South Korea's southwest region. He announced plans for the southwest to host major chip production clusters drawing on abundant underused power. Lee defended these proposed new hubs over the weekend as a national survival strategy to ease regional imbalances and expand capacity for the AI era. Representatives of other firms including LG Electronics and HD Hyundai Robotics also attended.",
+          "category": "technology",
+          "summary": "South Korea has announced a massive investment plan worth over $576 billion in chip manufacturing and artificial intelligence. President Lee Jang made the announcement alongside leaders from Samsung Electronics and SK Hynix, outlining plans to build new chip fabrication sites in the country's southwest region. The initiative is described as a national survival strategy to boost capacity for the AI era and reduce regional imbalances.",
+          "multipleChoice": [
+            {
+              "question": "How much will Samsung Electronics and SK Hynix invest together with their suppliers?",
+              "options": [
+                "$576 billion",
+                "$500 billion",
+                "$518 billion",
+                "$657 billion"
               ],
               "correctIndex": 2
             },
             {
-              "question": "What level has the US agreed to cap its tariffs at, according to George Buckley?",
+              "question": "Where in South Korea are the new chip production clusters planned to be built?",
               "options": [
-                "A) 10%",
-                "B) 20%",
-                "C) 5%",
-                "D) 15%"
+                "Near the border with North Korea",
+                "In the southwest region",
+                "In the northeast region",
+                "In the capital, Seoul"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Why did President Lee say the southwest region was chosen for the new chip hubs?",
+              "options": [
+                "Because it has abundant underused power",
+                "Because it has a large existing workforce",
+                "Because it already has many tech companies",
+                "Because it is close to major ports"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "President Lee Jang announced the investment plan together with leaders from Samsung Electronics and SK Hynix.",
+              "answer": true
+            },
+            {
+              "statement": "Each of the two chip companies will build three new fabrication sites in South Korea.",
+              "answer": false
+            },
+            {
+              "statement": "Representatives from LG Electronics and HD Hyundai Robotics were present at the announcement.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they were mentioned",
+            "items": [
+              "President Lee Jang pledged investments worth more than $576 billion",
+              "Lee announced that Samsung and SK Hynix would invest around $518 billion with suppliers",
+              "Lee announced plans for the southwest to host major chip production clusters",
+              "Lee defended the proposed new hubs as a national survival strategy over the weekend"
+            ]
+          }
+        },
+        {
+          "videoId": "vEf24xyFPmY",
+          "title": "Is getting a 2nd passport the hot new accessory?",
+          "channel": "DW Euromaxx",
+          "publishedAt": "2026-06-29T20:45:27Z",
+          "thumbnail": "https://i.ytimg.com/vi/vEf24xyFPmY/hqdefault.jpg",
+          "durationSeconds": 48,
+          "transcript": "I'm lucky to have two passports, and apparently more US Americans are catching on at record numbers. While claiming a second citizenship used to be about identity and nationality, it seems to have become more about having a backup plan, whether due to burnout from the American working culture, politics, fear of violence, [music] or the romanticization of the European lifestyle. >> For breakfast, we do something cool like have a cigarette, then we go for work for like 1 1/2 hour to 1/2 hour. >> common route is claiming citizenship via ancestry. Some countries have golden passport programs, where investing enough money into the economy can get you citizenship, [music] or through residency, living somewhere legally long enough to be eligible to apply. But, there is pushback. A bill was introduced in the US [music] Senate that would force Americans to hold only one passport. Though legal experts say it's almost [music] certainly unconstitutional and won't pass. Would you consider getting a second passport?",
+          "category": "culture",
+          "summary": "The video explores why growing numbers of Americans are seeking a second passport. It looks at reasons such as work culture burnout, politics, and attraction to the European lifestyle, as well as the main ways to obtain a second citizenship. It also mentions a US Senate bill that would limit Americans to one passport, though legal experts doubt it would pass.",
+          "multipleChoice": [
+            {
+              "question": "According to the video, what is one reason Americans are seeking a second citizenship?",
+              "options": [
+                "To escape burnout from American working culture",
+                "To travel without a visa to more countries",
+                "To retire earlier than US law allows",
+                "To avoid paying taxes abroad"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What does a 'golden passport' programme allow people to do?",
+              "options": [
+                "Apply for citizenship after living somewhere for a set period",
+                "Gain citizenship by investing enough money into a country's economy",
+                "Receive a second passport automatically as a US citizen",
+                "Claim citizenship based on their family ancestry"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What do legal experts say about the US Senate bill that would limit Americans to one passport?",
+              "options": [
+                "They say it needs more support before a vote",
+                "They say it is almost certainly unconstitutional and will not pass",
+                "They say it will pass quickly through Congress",
+                "They say it is already being enforced"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "One way to obtain a second citizenship mentioned in the video is through ancestry.",
+              "answer": true
+            },
+            {
+              "statement": "The US Senate bill limiting Americans to one passport has already been signed into law.",
+              "answer": false
+            },
+            {
+              "statement": "The video mentions fear of violence as one reason Americans consider getting a second passport.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were mentioned in the video.",
+            "items": [
+              "Reasons why Americans want a second passport, such as burnout and politics",
+              "A humorous description of the relaxed European work lifestyle",
+              "Different ways to obtain a second citizenship, including ancestry and residency",
+              "A US Senate bill that would force Americans to hold only one passport"
+            ]
+          }
+        },
+        {
+          "videoId": "N518JerkQFQ",
+          "title": "Why is the UK not built for extreme heat? #Heatwave #UK #Weather #Climate #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-06-23T18:00:31Z",
+          "thumbnail": "https://i.ytimg.com/vi/N518JerkQFQ/hqdefault.jpg",
+          "durationSeconds": 66,
+          "transcript": "Why is the UK just not built for extreme weather? We're just at the start of what's going to be an intense heat wave. But the reality is that the average summer temperature here is just about 16° C. With those mostly mild conditions, we're building for those conditions instead. But the future is going to be much hotter and much wetter. Large parts of our train network run on electricity and power lines sag in high temperatures. So that can mean trains get cancelled. We've also built our towns and cities with lots of rock and concrete. It absorbs the heat and then radiates it back out, making that heat even more unbearable. We're also building lots of shiny new apartments with lots of glass, which traps the heat, just like a greenhouse. And it may come as a surprise to those people not living here, but only about 5% of homes in the UK have air conditioning. All this means is that so far we haven't adapted our lives to extreme heat in the way many other countries already",
+          "category": "environment",
+          "summary": "This video explains why the UK is poorly prepared for extreme heat waves. It looks at how the country's infrastructure, buildings, and low rates of air conditioning make hot weather especially difficult to cope with. The video also points out that the UK will need to adapt as temperatures rise in the future.",
+          "multipleChoice": [
+            {
+              "question": "What is the average summer temperature in the UK, according to the video?",
+              "options": [
+                "About 24 degrees Celsius",
+                "About 12 degrees Celsius",
+                "About 20 degrees Celsius",
+                "About 16 degrees Celsius"
               ],
               "correctIndex": 3
+            },
+            {
+              "question": "Why can high temperatures cause train cancellations in the UK?",
+              "options": [
+                "Stations become too crowded during heat waves",
+                "Train drivers refuse to work in hot weather",
+                "Train tracks melt and become dangerous",
+                "Power lines sag in the heat, affecting the electricity supply"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "Approximately what percentage of homes in the UK have air conditioning?",
+              "options": [
+                "About 15%",
+                "About 5%",
+                "About 25%",
+                "About 10%"
+              ],
+              "correctIndex": 1
             }
           ],
           "trueFalse": [
             {
-              "statement": "George Buckley says that second round effects, such as people pushing for higher wages due to expected inflation, have already been clearly observed.",
+              "statement": "Rock and concrete in cities absorb heat and then radiate it back out, making conditions more unbearable.",
+              "answer": true
+            },
+            {
+              "statement": "The UK is well prepared for extreme heat because most homes have air conditioning.",
               "answer": false
             },
             {
-              "statement": "George Buckley states that northern Europe was traditionally built to keep heat out of homes and offices during summer.",
-              "answer": false
-            },
-            {
-              "statement": "ECB's Schnabel warned that interest rates may need to go higher in order to contain price pressures.",
+              "statement": "New apartments with lots of glass can trap heat in a similar way to a greenhouse.",
               "answer": true
             }
           ],
           "ordering": {
-            "instruction": "Put these topics in the order they were discussed in the video.",
+            "instruction": "Put these topics in the order they were mentioned in the video.",
             "items": [
-              "The risk of GDP losses in France and Germany due to extreme heat",
-              "The strain on Europe's power system and rising electricity prices",
-              "The fiscal hit and budget pressure from extreme heat, including costs for Germany",
-              "The impact of the EU-US trade deal on growth and inflation"
-            ]
-          }
-        },
-        {
-          "videoId": "VcdLKbrdHc0",
-          "title": "Anthropic claims Alibaba unlawfully copied Claude’s capabilities",
-          "channel": "Reuters",
-          "publishedAt": "2026-06-25T08:07:18Z",
-          "thumbnail": "https://i.ytimg.com/vi/VcdLKbrdHc0/hqdefault.jpg",
-          "durationSeconds": 60,
-          "transcript": "Anthropic has accused Chinese tech giant Alibaba of extracting its claw AI technology in what it says is the largest known attack of its kind. That is according to a letter seen by Reuters. The US AI company said Alibaba carried out a distillation operation earlier this year that involves using outputs from a powerful AI to train a cheaper model, effectively copying its abilities. Anthropic says the operation used nearly 25,000 fake accounts to generate more than 28.8 million interactions with Claude. It linked the campaign to operators affiliated with Alibaba and its AI lab Quinn and it warned that distillation could help China catch up with its advanced capabilities. The accusations remain in a letter sent on June 10th to Senators Tim Scott and Elizabeth Warren ahead of a US Senate Banking Committee hearing on AI back in February. Anthropic said it faced attacks by Chinese AI outfits including Deep Seek. Alibaba did not immediately respond to a request for comment on the latest accusations.",
-          "category": "technology",
-          "summary": "Anthropic has accused Chinese tech company Alibaba of secretly copying its Claude AI system through a process called distillation. According to a letter seen by Reuters, Alibaba allegedly used nearly 25,000 fake accounts to generate millions of interactions with Claude in order to train a cheaper AI model. Alibaba has not yet responded to the accusations.",
-          "multipleChoice": [
-            {
-              "question": "How many fake accounts did Anthropic say were used in the distillation operation?",
-              "options": [
-                "Nearly 25,000",
-                "Nearly 28,000",
-                "More than 28.8 million",
-                "Around 10,000"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "question": "What does 'distillation' mean in this context, according to the video?",
-              "options": [
-                "Using outputs from a powerful AI to train a cheaper model",
-                "Stealing source code from a competitor's servers",
-                "Sharing AI technology between two companies",
-                "Creating fake user accounts to access a platform"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "question": "To whom did Anthropic send its letter on June 10th?",
-              "options": [
-                "Senators Tim Scott and Elizabeth Warren",
-                "The US Senate Banking Committee directly",
-                "Reuters journalists",
-                "Alibaba executives"
-              ],
-              "correctIndex": 0
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "Anthropic described the alleged attack as the largest known operation of its kind.",
-              "answer": true
-            },
-            {
-              "statement": "Alibaba quickly responded to Reuters to deny the accusations.",
-              "answer": false
-            },
-            {
-              "statement": "Anthropic linked the campaign to operators affiliated with Alibaba and its AI lab Qwen.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these events in the order they happened or were mentioned in the video.",
-            "items": [
-              "Alibaba allegedly carried out a distillation operation using fake accounts to interact with Claude",
-              "A US Senate Banking Committee hearing on AI took place",
-              "Anthropic sent a letter to Senators Tim Scott and Elizabeth Warren on June 10th",
-              "Reuters reported on the accusations after seeing the letter"
-            ]
-          }
-        },
-        {
-          "videoId": "9ul9c485JFs",
-          "title": "Forget 'Do Not Touch': Choreographer William Forsythe invites you to dance with the exhibits",
-          "channel": "euronews",
-          "publishedAt": "2026-06-20T12:32:57Z",
-          "thumbnail": "https://i.ytimg.com/vi/9ul9c485JFs/hqdefault.jpg",
-          "durationSeconds": 96,
-          "transcript": "[music] >> The objects here are designed to give a suite of different kinds of reactions and um so all these are designed to produce particular sensation and a certain class of activity. >> [music] >> Not all works are accessible to everyone, but they're optically accessible. [music] For example, the pendulums I find I can watch the entire half hour of the pendulum [music] performance. I don't need to go in the room because the patterns of the pendulums are so beautiful as they >> [music] >> progress over time. But I think people be very very happy to simply observe. >> [music] [music] [music]",
-          "category": "culture",
-          "summary": "This video features choreographer William Forsythe discussing an interactive art exhibition where visitors are invited to engage with the exhibits physically. He explains that the objects are designed to produce specific sensations and types of movement. Forsythe also notes that while not all works are physically accessible to everyone, they can still be enjoyed visually.",
-          "multipleChoice": [
-            {
-              "question": "According to William Forsythe, what are the objects in the exhibition designed to do?",
-              "options": [
-                "Produce particular sensations and a certain class of activity",
-                "Teach visitors about the history of dance",
-                "Display traditional artworks from around the world",
-                "Encourage visitors to stay silent and still"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "question": "How long does the pendulum performance last, according to Forsythe?",
-              "options": [
-                "Half an hour",
-                "One hour",
-                "Fifteen minutes",
-                "Two hours"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "question": "Why does Forsythe say he does not always need to go into the room with the pendulums?",
-              "options": [
-                "Because the patterns of the pendulums are so beautiful to watch from outside",
-                "Because the room is too crowded with other visitors",
-                "Because the pendulums are too dangerous to approach",
-                "Because the performance is only shown on a screen"
-              ],
-              "correctIndex": 0
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "Forsythe says that all the works in the exhibition are physically accessible to everyone.",
-              "answer": false
-            },
-            {
-              "statement": "Forsythe believes people can be very happy simply observing the exhibits without physically interacting with them.",
-              "answer": true
-            },
-            {
-              "statement": "The pendulum performance changes its patterns over time.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these ideas in the order they were mentioned in the video",
-            "items": [
-              "Forsythe explains that the objects are designed to produce particular sensations and activity",
-              "Forsythe states that not all works are physically accessible, but they are optically accessible",
-              "Forsythe mentions he can watch the entire half hour of the pendulum performance",
-              "Forsythe says people will be very happy to simply observe"
+              "The UK's average summer temperature and mild building conditions",
+              "Train cancellations caused by sagging power lines in heat",
+              "Rock and concrete in towns and cities absorbing and radiating heat",
+              "The low percentage of UK homes with air conditioning"
             ]
           }
         }
