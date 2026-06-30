@@ -64,22 +64,24 @@ async function main() {
     console.log('No existing videos.json — starting fresh archive.');
   }
 
-  // Guard against double-runs on the same day (scheduled runs only —
-  // manual test runs via workflow_dispatch can always re-run)
-  const isManualRun = process.env.GITHUB_EVENT_NAME === 'workflow_dispatch';
-  if (archive.editions.length > 0 && !isManualRun) {
-    const latestDate = archive.editions[0].generated.slice(0, 10);
-    const today = new Date().toISOString().slice(0, 10);
-    if (latestDate === today) {
-      console.log(`⏭  Video edition already generated today (${today}) — skipping.`);
-      return;
-    }
+  // If an edition already exists for today, we'll merge into it rather than
+  // creating a duplicate "today" entry — this matters because manual test
+  // runs (and quota-interrupted runs) can legitimately happen more than once
+  // on the same calendar day.
+  const today = new Date().toISOString().slice(0, 10);
+  let todaysExistingEdition = null;
+  if (archive.editions.length > 0 && archive.editions[0].generated.slice(0, 10) === today) {
+    todaysExistingEdition = archive.editions.shift(); // pull it out; we'll merge and re-insert
+    console.log(`📅 Found an existing edition from today (${today}) with ${(todaysExistingEdition.videos || []).length} video(s) — will merge new results into it.`);
   }
 
   // Build set of already-used video IDs (for recency fallback step 3)
   const usedVideoIds = new Set();
   for (const ed of archive.editions) {
     for (const v of (ed.videos || [])) usedVideoIds.add(v.videoId);
+  }
+  if (todaysExistingEdition) {
+    for (const v of (todaysExistingEdition.videos || [])) usedVideoIds.add(v.videoId);
   }
 
   // Load this week's article titles to avoid topic overlap (Stage 1 + articles synergy)
@@ -115,21 +117,40 @@ async function main() {
   }
 
   if (!videos.length) {
-    console.log('\n⚠️  No videos found for any category this week. Skipping video edition.');
+    console.log('\n⚠️  No new videos found this run.');
+    if (todaysExistingEdition) {
+      // Put the untouched existing edition back so we don't lose it
+      archive.editions = [todaysExistingEdition, ...archive.editions];
+      await fs.writeFile('videos.json', JSON.stringify(archive, null, 2), 'utf8');
+      console.log(`   Kept today's existing edition as-is (${(todaysExistingEdition.videos || []).length} video(s)).`);
+    } else {
+      console.log('   Skipping video edition entirely (none existed yet today).');
+    }
     await saveChannelIdCacheIfDirty();
     return;
   }
 
-  const thisEdition = {
-    generated: new Date().toISOString(),
-    videos,
-  };
+  let thisEdition;
+  if (todaysExistingEdition) {
+    // Merge: new results for a category replace old ones for that category;
+    // categories not touched this run keep their earlier result from today.
+    const merged = [...todaysExistingEdition.videos];
+    for (const newVid of videos) {
+      const idx = merged.findIndex(v => v.category === newVid.category);
+      if (idx >= 0) merged[idx] = newVid;
+      else merged.push(newVid);
+    }
+    thisEdition = { generated: new Date().toISOString(), videos: merged };
+    console.log(`📅 Merged into today's edition — now has ${merged.length} video(s) covering: ${merged.map(v => v.category).join(', ')}`);
+  } else {
+    thisEdition = { generated: new Date().toISOString(), videos };
+  }
 
   archive.editions = [thisEdition, ...archive.editions].slice(0, 12); // keep ~12 weeks
 
   await fs.writeFile('videos.json', JSON.stringify(archive, null, 2), 'utf8');
   await saveChannelIdCacheIfDirty();
-  console.log(`\n✨ Done! ${videos.length} video(s) added. Archive has ${archive.editions.length} edition(s).`);
+  console.log(`\n✨ Done! ${videos.length} video(s) fetched this run. Archive has ${archive.editions.length} edition(s).`);
 }
 
 // ── VIDEO SELECTION (with fallback cascade) ───────────────────────────────────
