@@ -1,6 +1,628 @@
 {
   "editions": [
     {
+      "generated": "2026-07-06T05:58:13.842Z",
+      "week": "2026-W27",
+      "articles": [
+        {
+          "id": "1783317283571fgnf",
+          "title": "Iranian-born German citizen indicted in Poland for Holocaust denial during Auschwitz tour",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/07/04/iranian-born-german-citizen-indicted-in-poland-for-holocaust-denial-during-auschwitz-tour/",
+          "category": "politics",
+          "date": "2026-07-04",
+          "summaryB1": "A man born in Iran who holds German citizenship has been charged in Poland for denying the Holocaust. The incident happened during a guided tour of the Auschwitz-Birkenau memorial site in southern Poland. During the tour, the man reportedly made comments claiming that the mass murder of Jewish people by the Nazi regime did not happen. Auschwitz was the largest Nazi concentration camp, where more than one million people, mostly Jews, were killed during World War Two. Denying that these crimes took place is illegal in Poland. The man has now been formally indicted, which means prosecutors believe there is enough evidence to take the case to court. If a judge finds him guilty, he could face up to three years in prison. The case has attracted attention because the accused is a foreign national visiting one of the world's most well-known sites of remembrance. Poland takes Holocaust denial very seriously, and laws against it exist to protect the memory of victims. This case reminds us why education about historical atrocities still matters today. It also shows that visiting a memorial site does not always lead to greater respect or understanding of the tragic events that happened there.",
+          "vocabularyB1": [
+            {
+              "word": "charged",
+              "definition": "Officially accused of a crime by police or prosecutors"
+            },
+            {
+              "word": "indicted",
+              "definition": "Formally accused in a legal process, ready to go to court"
+            },
+            {
+              "word": "concentration camp",
+              "definition": "A place where large numbers of people were imprisoned and often killed"
+            },
+            {
+              "word": "prosecutors",
+              "definition": "Lawyers whose job is to prove someone is guilty in court"
+            },
+            {
+              "word": "atrocities",
+              "definition": "Extremely cruel and shocking acts, usually involving many victims"
+            }
+          ],
+          "questionB1": "Why do you think some countries have laws against denying atrocities like the Holocaust? Should all countries have such laws?",
+          "summaryB2": "Polish prosecutors have indicted an Iranian-born German citizen after he allegedly denied the Holocaust while taking part in a guided tour of the Auschwitz-Birkenau memorial site. Auschwitz, located in southern Poland, was the largest Nazi concentration and extermination camp, where over one million people — the vast majority of them Jewish — were systematically murdered during World War Two. The man's comments, made at what is perhaps the most solemn site of Nazi atrocity in the world, reportedly amounted to an outright repudiation of established historical fact. Under Polish law, denying Nazi crimes is a criminal offence punishable by up to three years in prison. If convicted, the accused could face that maximum penalty. The case is notable for several reasons. First, it involves a foreign national, highlighting the extraterritorial reach of Polish legislation on Holocaust denial. Second, it took place at a site that draws over two million visitors annually and functions as a cornerstone of Holocaust commemoration worldwide. Critics of such laws occasionally argue that criminalising speech, even deeply offensive speech, poses a threat to freedom of expression. Supporters, however, contend that Holocaust denial is not mere opinion but a form of incitement that causes direct harm to survivors and their descendants, and that memorial sites deserve particular legal protection. The outcome of the trial is expected to draw international scrutiny.",
+          "vocabularyB2": [
+            {
+              "word": "repudiation",
+              "definition": "A strong and clear rejection or denial of something, refusing to accept it as true"
+            },
+            {
+              "word": "extraterritorial",
+              "definition": "Relating to laws that apply beyond a country's own borders, affecting foreign nationals"
+            },
+            {
+              "word": "commemoration",
+              "definition": "An official act or event to remember and honour people or past events"
+            },
+            {
+              "word": "incitement",
+              "definition": "Speech or action that encourages or provokes others to commit harmful or illegal acts"
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and detailed examination or observation of something"
+            }
+          ],
+          "questionB2": "To what extent should the principle of free expression limit the extraterritorial reach of laws criminalising Holocaust denial, particularly when the speech occurs at a site of commemoration?"
+        },
+        {
+          "id": "17833173052722bts",
+          "title": "Can Bending Spoons thrive as a listed company?",
+          "source": "The Economist Business",
+          "originalUrl": "https://www.economist.com/business/2026/07/01/can-bending-spoons-thrive-as-a-listed-company",
+          "category": "business",
+          "date": "2026-07-01",
+          "summaryB1": "Bending Spoons is a software company from Italy. It is unusual because most successful tech companies come from the United States or Asia. The company buys other apps and software products that are not doing well and tries to make them more profitable. For example, it bought Evernote, a popular note-taking app, and made big changes to save money and increase earnings. Bending Spoons uses a strategy similar to private equity firms. These are companies that buy businesses, improve them, and then sell them for a profit. Now, Bending Spoons wants to become a listed company, which means it will sell shares to the public on a stock market. This is a big step for any business. Investors will be able to buy a small part of the company. However, some people wonder if this model can work long-term in a public market. Private equity strategies often focus on cutting costs quickly, but public investors usually want to see steady growth over time. Italy does not have many famous tech companies, so Bending Spoons is seen as a rare success story. Whether it can continue to thrive after listing on the stock market remains an open question. Many people in the business world are watching closely.",
+          "vocabularyB1": [
+            {
+              "word": "profitable",
+              "definition": "Making more money than you spend; generating a financial gain."
+            },
+            {
+              "word": "strategy",
+              "definition": "A plan or method you use to achieve a goal."
+            },
+            {
+              "word": "listed company",
+              "definition": "A company whose shares are bought and sold on a public stock market."
+            },
+            {
+              "word": "shares",
+              "definition": "Small equal parts of a company that people can buy and own."
+            },
+            {
+              "word": "thrive",
+              "definition": "To grow well and be very successful."
+            }
+          ],
+          "questionB1": "Do you think a company can thrive using a strategy of buying struggling businesses and cutting costs? Why or why not?",
+          "summaryB2": "Bending Spoons, a Milan-based software company, has carved out a distinctive niche in the tech industry by applying a private-equity playbook to consumer apps. Rather than building products from scratch, the company acquires underperforming software assets — most notably Evernote — and subjects them to rigorous cost-cutting and operational restructuring to extract maximum profitability. This model has drawn comparisons to traditional buyout firms, though Bending Spoons operates within the tech sector rather than across industries more broadly.\n\nThe company is now preparing for a stock market flotation, a move that would transform it into a publicly traded entity and open its ownership to outside investors. This transition raises substantive questions about whether its acquisition-and-optimisation model is compatible with the expectations of public market investors, who typically prize consistent revenue growth and transparent long-term strategy over short-term margin improvements.\n\nSceptics argue that the relentless focus on cost reduction may eventually exhaust the pool of viable acquisition targets, leaving the company without a clear path to sustained expansion. Proponents, however, point to Bending Spoons' track record as evidence that disciplined capital allocation can generate durable returns even in a crowded market.\n\nThe company also represents something of an anomaly in the European tech sector, where Italian firms have rarely produced globally recognised software businesses. Its forthcoming listing will serve as a litmus test for whether its unconventional approach can satisfy the scrutiny that comes with being a public company.",
+          "vocabularyB2": [
+            {
+              "word": "flotation",
+              "definition": "The process of offering a company's shares to the public on a stock market for the first time."
+            },
+            {
+              "word": "restructuring",
+              "definition": "Making major changes to how a company is organised, often to reduce costs or improve performance."
+            },
+            {
+              "word": "capital allocation",
+              "definition": "Deciding how a company distributes its money across investments, projects, or acquisitions."
+            },
+            {
+              "word": "anomaly",
+              "definition": "Something that is different from what is normal or expected."
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and detailed examination or observation of something."
+            }
+          ],
+          "questionB2": "Given the scrutiny that public markets apply to listed companies, do you think Bending Spoons' acquisition-driven model and focus on restructuring can satisfy long-term investor expectations?"
+        },
+        {
+          "id": "1783317324409gxod",
+          "title": "How little exercise can you get away with?",
+          "source": "The Economist Sci-Tech",
+          "originalUrl": "https://www.economist.com/science-and-technology/2026/07/03/how-little-exercise-can-you-get-away-with",
+          "category": "technology",
+          "date": "2026-07-03",
+          "summaryB1": "Many people think you need to exercise for a long time to stay healthy. But new research suggests that even very short bursts of physical activity can be good for your body. Scientists have found that doing just a few minutes of movement each day can have measurable benefits for your health. This means you do not need to spend hours at the gym to improve your fitness. Even small amounts of activity, like walking quickly for two or three minutes, can make a difference. Researchers looked at data from many people and tracked how their bodies responded to short periods of exercise. The results showed that these brief moments of activity helped reduce the risk of serious health problems, such as heart disease. This is useful news for people who have busy lives and find it hard to set aside time for longer workouts. Experts say that doing something is always better than doing nothing when it comes to physical activity. The idea is that you can get some benefit even from the smallest effort. For people who struggle to stay active, this research gives them a reason to try. Even a short walk or a few minutes of movement every day can help improve your overall health and well-being.",
+          "vocabularyB1": [
+            {
+              "word": "bursts",
+              "definition": "Short, sudden periods of activity or energy"
+            },
+            {
+              "word": "measurable",
+              "definition": "Something you can clearly see, count, or prove with numbers"
+            },
+            {
+              "word": "fitness",
+              "definition": "The state of being physically healthy and strong"
+            },
+            {
+              "word": "reduce",
+              "definition": "To make something smaller or less in amount"
+            },
+            {
+              "word": "workouts",
+              "definition": "Sessions of physical exercise, usually planned and repeated"
+            }
+          ],
+          "questionB1": "Do you think short bursts of exercise could help you improve your fitness in daily life? Why or why not?",
+          "summaryB2": "For years, public health messaging has promoted the idea that meaningful exercise requires sustained effort — at least thirty minutes of moderate activity, several times a week. New research reported by The Economist challenges this assumption, suggesting that even fleeting bursts of movement carry genuine, quantifiable health benefits. Scientists analysed data from large population studies and found that brief episodes of physical activity — sometimes lasting only a minute or two — were associated with reduced risks of cardiovascular disease and premature death. The findings point to a concept researchers call \"vigorous intermittent lifestyle physical activity,\" in which incidental movement accumulated throughout the day, rather than structured gym sessions, contributes meaningfully to overall health outcomes. This has particular implications for sedentary populations who struggle to meet conventional exercise guidelines. Rather than framing inactivity as an all-or-nothing failure, the research invites a more graduated understanding of how the body responds to movement. Even climbing stairs, walking briskly between meetings, or standing up regularly may confer protective effects that accumulate over time. Critics caution that such findings should not be used to justify abandoning longer, more structured exercise entirely, as the benefits of sustained activity remain well-documented. Nevertheless, the research offers an encouraging reframing for the millions of adults whose daily routines leave little room for conventional workouts, suggesting that small, consistent efforts are far from futile.",
+          "vocabularyB2": [
+            {
+              "word": "quantifiable",
+              "definition": "Able to be measured or expressed as a number"
+            },
+            {
+              "word": "sedentary",
+              "definition": "Spending most of the time sitting down and doing very little physical activity"
+            },
+            {
+              "word": "intermittent",
+              "definition": "Stopping and starting at irregular intervals; not continuous"
+            },
+            {
+              "word": "confer",
+              "definition": "To give or provide something, especially a benefit or advantage"
+            },
+            {
+              "word": "futile",
+              "definition": "Having no useful result; pointless or unlikely to succeed"
+            }
+          ],
+          "questionB2": "If even intermittent, incidental movement can confer measurable health benefits, how should governments and employers redesign daily environments to encourage more of it?"
+        },
+        {
+          "id": "1783317343837qbdt",
+          "title": "Hormones on the brain? Everything you need to know about HRT, testosterone, melatonin and more",
+          "source": "The Guardian Wellbeing",
+          "originalUrl": "https://www.theguardian.com/lifeandstyle/2026/jul/03/everything-you-need-to-know-about-hrt-testosterone-melatonin-hormones",
+          "category": "environment",
+          "date": "2026-07-03",
+          "summaryB1": "Many people believe common ideas about hormones that are simply not true. For example, some people think cortisol is always harmful, that testosterone makes people aggressive, or that melatonin is a reliable sleep cure. However, experts say these beliefs are myths. Hormones are chemical messengers in the body. They help control many processes, including growth, mood, and sleep. One common myth is about puberty. Many people think that oestrogen and progesterone only affect girls, and testosterone only affects boys. In fact, all these hormones are active long before puberty begins. According to Sasha Howard, a specialist in children's hormone health at Queen Mary, University of London, these hormones are already working during foetal development, when a baby is growing inside the womb. They are also active in early infancy, during a phase called mini-puberty. This shows that hormones do not simply switch on during teenage years. Understanding how hormones really work matters because wrong ideas can lead people to make poor decisions about their health. For instance, some people take melatonin supplements without understanding what the hormone actually does. Experts want the public to have accurate information about hormones so they can better understand their own bodies. Correcting these myths is a step towards better general health awareness.",
+          "vocabularyB1": [
+            {
+              "word": "myth",
+              "definition": "A false belief that many people think is true"
+            },
+            {
+              "word": "hormone",
+              "definition": "A chemical made in the body that controls how organs and systems work"
+            },
+            {
+              "word": "foetal development",
+              "definition": "The process of a baby growing and forming inside the mother's womb"
+            },
+            {
+              "word": "infancy",
+              "definition": "The very early period of a person's life, when they are a baby"
+            },
+            {
+              "word": "supplement",
+              "definition": "A pill or product you take to add something extra to your diet or health routine"
+            }
+          ],
+          "questionB1": "Which hormone myth surprised you most, and why is it helpful to understand what hormones really do in the body?",
+          "summaryB2": "A new article from The Guardian challenges a range of widely held misconceptions about hormones, drawing on expert commentary to separate fact from popular fiction. Among the most pervasive myths are the ideas that cortisol is inherently damaging, that testosterone is a straightforward driver of aggression, and that melatonin functions as a simple, dependable sleep aid. Endocrinologists are pushing back against this kind of reductive thinking, arguing that public understanding of hormonal biology remains dangerously superficial. One particularly revealing point concerns the hormones associated with puberty. It is commonly assumed that oestrogen and progesterone belong exclusively to female biology, while testosterone is the domain of male development. This binary view, experts argue, is a distortion. Sasha Howard, a clinical reader and honorary consultant in paediatric endocrinology at Queen Mary, University of London and Barts Health NHS Trust, explains that these hormones are not dormant until adolescence. They are, in fact, active during foetal development in the womb and again in early infancy — a phase Howard refers to as mini-puberty. This early hormonal activity plays a formative role in shaping physiological development well before the teenage years. The practical implications are considerable. Misunderstanding hormones can lead people to misuse supplements or dismiss symptoms that warrant medical attention. By debunking these myths, specialists hope to encourage a more nuanced and evidence-based approach to personal health decisions.",
+          "vocabularyB2": [
+            {
+              "word": "misconception",
+              "definition": "A wrong or mistaken idea that people commonly believe to be true"
+            },
+            {
+              "word": "reductive",
+              "definition": "Describing something complex in an oversimplified or incomplete way"
+            },
+            {
+              "word": "paediatric endocrinology",
+              "definition": "The branch of medicine dealing with hormone disorders in children"
+            },
+            {
+              "word": "dormant",
+              "definition": "Temporarily inactive or not functioning, but capable of becoming active later"
+            },
+            {
+              "word": "debunking",
+              "definition": "Showing that a popular belief or claim is false or exaggerated"
+            }
+          ],
+          "questionB2": "Given how deeply reductive misconceptions about hormones are embedded in popular culture, what responsibilities do medical specialists and journalists share in debunking them effectively?"
+        },
+        {
+          "id": "1783317365048vjk5",
+          "title": "A break from the accommodation mega-sites: the best alternative booking platforms",
+          "source": "The Guardian Travel",
+          "originalUrl": "https://www.theguardian.com/travel/2025/jan/15/a-break-from-the-accommodation-mega-sites-the-best-alternative-booking-platforms",
+          "category": "culture",
+          "date": "2025-01-15",
+          "summaryB1": "Most people who book holidays online use big websites like Airbnb and Booking.com. These platforms are popular because they are easy to use and often help travellers find affordable places to stay. However, they are also causing problems in many cities. In places like Barcelona, rents and house prices have gone up because so many apartments are being rented to tourists instead of local people. Barcelona has already banned short-term rentals and plans to ban all tourist apartment rentals by 2028. There have also been reports of tenants illegally subletting their homes on these sites without telling their landlords. Because of these problems, some travellers are now looking for alternatives. A new group of smaller booking platforms has appeared, offering a different kind of accommodation. Instead of large commercial properties, these sites focus on independent B&Bs, home swaps, and private homes that owners actually live in. This means they do not contribute to the second home market. These platforms also try to connect travellers with passionate local hosts who know their area well. By choosing these alternatives, tourists may be able to support local communities rather than harm them. It is a small but growing movement that offers a more responsible way to travel and find a place to stay.",
+          "vocabularyB1": [
+            {
+              "word": "affordable",
+              "definition": "Something that is cheap enough for most people to pay for easily"
+            },
+            {
+              "word": "tenant",
+              "definition": "A person who pays rent to live in a property owned by someone else"
+            },
+            {
+              "word": "subletting",
+              "definition": "Renting out a home or room that you yourself rent from a landlord"
+            },
+            {
+              "word": "ban",
+              "definition": "An official rule that says something is not allowed"
+            },
+            {
+              "word": "alternative",
+              "definition": "A different option you can choose instead of the usual one"
+            }
+          ],
+          "questionB1": "Would you choose a smaller, local booking platform over a big site like Airbnb? What makes an affordable place to stay truly good value?",
+          "summaryB2": "The dominance of accommodation giants Airbnb and Booking.com has long been celebrated for democratising independent travel, but their widespread adoption is now attracting serious scrutiny. In tourism hotspots such as Barcelona — which banned short-term rentals in 2021 and will extend that prohibition to all tourist apartment rentals by late 2028 — these platforms are widely accused of displacing residents by inflating rents and property prices. Adding to the controversy, a wave of headline-grabbing cases has revealed tenants illegally subletting rental properties on these sites without their landlords' knowledge or consent, exposing a troubling gap between platform convenience and regulatory oversight. In response to these shortcomings, a new generation of smaller, independently run booking platforms is emerging as a genuine counterweight to these monoliths. Rather than aggregating vast inventories of commercial listings, these niche sites curate hand-picked properties: owner-run B&Bs, home swap arrangements, and primary residences whose owners are genuinely invested in hosting. The emphasis on passionate, knowledgeable local hosts represents a deliberate departure from the transactional model that defines the market leaders. Advocates argue that using such platforms redirects tourist spending more equitably toward local communities, rather than concentrating profits within large corporations. While these alternatives currently occupy a modest share of the market, they point toward a more community-conscious model of travel — one that attempts to reconcile the freedom of independent exploration with the well-being of the places tourists visit.",
+          "vocabularyB2": [
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and critical examination or attention given to something"
+            },
+            {
+              "word": "monoliths",
+              "definition": "Very large, powerful organisations that are difficult to change or challenge"
+            },
+            {
+              "word": "curate",
+              "definition": "To carefully select and organise a collection of things based on quality"
+            },
+            {
+              "word": "transactional",
+              "definition": "Focused purely on completing a deal or exchange, with no personal connection"
+            },
+            {
+              "word": "equitably",
+              "definition": "In a fair way that gives everyone a reasonable share of something"
+            }
+          ],
+          "questionB2": "To what extent can niche booking platforms realistically challenge the monoliths of Airbnb and Booking.com, and what would need to change — in traveller behaviour or regulation — for a more equitably distributed tourism economy to emerge?"
+        },
+        {
+          "id": "1783317384888oodu",
+          "title": "Nine killed in Russian strikes on Kyiv on eve of Nato summit in Turkey",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-07-06",
+          "summaryB1": "Russia attacked the Ukrainian capital Kyiv with air strikes on the night before a major NATO meeting in Turkey. At least nine people were killed and many others were injured. Emergency teams worked quickly to search for survivors under the rubble of damaged buildings. This was the second time in one week that Russia had targeted Kyiv with such attacks.\n\nThe NATO summit in Turkey was already a very important diplomatic event, with world leaders planning to discuss the war in Ukraine. The timing of the Russian strikes was seen by many as a deliberate message to those attending the meeting.\n\nUkraine has been under Russian attack since February 2022. Russia regularly launches air strikes against Ukrainian cities, targeting both military and civilian areas. These attacks cause widespread destruction and put ordinary people in danger.\n\nThe international community has condemned the strikes. Many countries that support Ukraine use summits like this one to coordinate their response and decide how much military aid to send.\n\nFor Ukrainian citizens, nights like this are a terrifying reality. Air raid sirens warn people to take shelter, but not everyone can reach safety in time. Rescue teams work through the night to pull victims from collapsed buildings.\n\nThe attacks remind the world that the conflict continues and that civilians pay the highest price during wartime.",
+          "vocabularyB1": [
+            {
+              "word": "rubble",
+              "definition": "Broken pieces of brick and concrete left after a building is destroyed"
+            },
+            {
+              "word": "survivor",
+              "definition": "A person who stays alive after a dangerous or deadly event"
+            },
+            {
+              "word": "air strike",
+              "definition": "An attack on a place using bombs dropped from military aircraft"
+            },
+            {
+              "word": "deliberate",
+              "definition": "Done on purpose, not by accident"
+            },
+            {
+              "word": "shelter",
+              "definition": "A safe place that protects people from danger or bad weather"
+            }
+          ],
+          "questionB1": "Why do you think Russia chose to carry out air strikes on Kyiv just before the NATO summit? Was it deliberate?",
+          "summaryB2": "Russia launched a deadly wave of air strikes on the Ukrainian capital Kyiv on the eve of a NATO summit convening in Turkey, killing at least nine people and injuring dozens more. Rescue crews worked through the night, sifting through rubble in a desperate effort to locate survivors trapped beneath collapsed buildings. The attack marked the second time within a single week that Kyiv had been subjected to large-scale aerial bombardment.\n\nThe timing of the strikes drew immediate international attention, with analysts and officials suggesting the assault was a calculated act of provocation aimed at overshadowing the diplomatic gathering. NATO member states had been expected to use the summit to reaffirm their commitment to Ukraine and potentially announce fresh packages of military assistance.\n\nThe strikes inflicted widespread destruction on residential and civilian infrastructure, reinforcing longstanding accusations that Russia systematically disregards international humanitarian law. Ukrainian officials condemned the attack in the strongest possible terms, calling on allies to accelerate the delivery of advanced air defence systems.\n\nFrom Moscow's perspective, however, military pressure on Ukraine remains a strategic instrument for shaping the terms of any future negotiations. Russia has consistently denied targeting civilians, attributing damage to Ukrainian air defence failures.\n\nFor the millions of Ukrainians enduring this prolonged conflict, the strikes served as a grim reminder that diplomatic activity abroad offers little immediate protection against the relentless aerial campaign being waged against their cities.",
+          "vocabularyB2": [
+            {
+              "word": "on the eve of",
+              "definition": "On the day or night just before an important event"
+            },
+            {
+              "word": "provocation",
+              "definition": "An action deliberately intended to make someone angry or cause a reaction"
+            },
+            {
+              "word": "reaffirm",
+              "definition": "To publicly state again that something is true or that you still support it"
+            },
+            {
+              "word": "humanitarian law",
+              "definition": "International rules designed to limit suffering and protect civilians during armed conflict"
+            },
+            {
+              "word": "relentless",
+              "definition": "Never stopping or becoming less severe; continuing without pause"
+            }
+          ],
+          "questionB2": "To what extent do you think the timing of the strikes represented a deliberate provocation, and how might such actions influence the decisions made at NATO summits?"
+        },
+        {
+          "id": "1783317409237rrzl",
+          "title": "Three things you can do to stop EU border checks at the airport costing you",
+          "source": "BBC Business",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cg4w39gvdw1o?at_medium=RSS&at_campaign=rss",
+          "category": "business",
+          "date": "2026-07-05",
+          "summaryB1": "This summer, many travellers flying into or out of Europe may face long queues at airports. The reason is a new digital border control system introduced by the European Union. This system is called the Entry/Exit System, or EES. It collects fingerprints and photographs of non-EU citizens every time they cross an EU border. The aim is to improve security and track who enters and leaves the EU.\n\nBefore EES, border checks were quick for many passengers. Now, the process takes longer because border officers must register each traveller's data. This delay can cause queues to build up, especially at busy airports during peak travel times.\n\nExperts and travel organisations have shared advice on how passengers can reduce the impact of these delays. First, you should arrive at the airport earlier than usual to allow extra time. Second, check whether your airport has dedicated EES lanes, as some airports have prepared better than others. Third, complete any pre-registration online if your country offers this option, as it can speed up the process at the border.\n\nThe new system affects British travellers in particular, because the UK is no longer part of the EU after Brexit. Understanding these changes and planning ahead can help you avoid stress and make sure your journey runs smoothly.",
+          "vocabularyB1": [
+            {
+              "word": "border control",
+              "definition": "The process of checking people as they enter or leave a country."
+            },
+            {
+              "word": "register",
+              "definition": "To officially record someone's information in a system."
+            },
+            {
+              "word": "peak travel times",
+              "definition": "The busiest periods when many people travel, like summer holidays."
+            },
+            {
+              "word": "dedicated",
+              "definition": "Set apart for one specific purpose or group of people."
+            },
+            {
+              "word": "planning ahead",
+              "definition": "Thinking about and preparing for something before it happens."
+            }
+          ],
+          "questionB1": "How does planning ahead before a trip help you deal with new border control rules at airports?",
+          "summaryB2": "European airports are bracing for significant disruption this summer following the imminent rollout of the EU's Entry/Exit System (EES), a biometric digital border control scheme designed to replace paper-stamped passports for non-EU nationals. The system records fingerprints, facial images and travel data each time a traveller crosses an external EU border, with the stated goal of tightening security and better monitoring overstays.\n\nWhile the long-term rationale for EES is widely acknowledged, travel industry observers have flagged the real-world bottleneck it is likely to create at already-stretched airport checkpoints. Processing times per passenger are expected to increase considerably, raising the prospect of substantial queues during the summer peak season.\n\nThe BBC has outlined three practical steps travellers can take to mitigate the cost — both financial and practical — of these delays. Arriving at the airport well ahead of standard check-in windows is the first recommendation. Secondly, passengers are advised to check whether their departure or arrival airport has set up streamlined EES lanes, since infrastructure readiness varies considerably across member states. Finally, where available, completing pre-registration through an online portal in advance can expedite the in-person verification process.\n\nThe changes carry particular implications for British citizens, who became third-country nationals following Brexit and are therefore subject to full EES processing. For frequent flyers, factoring these procedural changes into travel planning is now a practical necessity rather than an optional precaution.",
+          "vocabularyB2": [
+            {
+              "word": "biometric",
+              "definition": "Relating to unique physical characteristics, like fingerprints or facial features, used for identification."
+            },
+            {
+              "word": "bottleneck",
+              "definition": "A point in a process where things slow down and cause a backlog or delay."
+            },
+            {
+              "word": "mitigate",
+              "definition": "To reduce the severity or negative effects of something."
+            },
+            {
+              "word": "expedite",
+              "definition": "To make a process happen faster or more efficiently."
+            },
+            {
+              "word": "third-country nationals",
+              "definition": "People who are not citizens of any EU member state, treated as outsiders at EU borders."
+            }
+          ],
+          "questionB2": "Given that infrastructure readiness varies so widely across EU member states, how effectively can individual travellers mitigate the disruption caused by EES, and who bears the greater responsibility — governments or passengers?"
+        },
+        {
+          "id": "17833174309541gqr",
+          "title": "Parents warned not to publicly share children’s images amid AI abuse risks",
+          "source": "BBC Technology",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cd7wj7d0jzzo?at_medium=RSS&at_campaign=rss",
+          "category": "technology",
+          "date": "2026-07-03",
+          "summaryB1": "The National Crime Agency (NCA) in the UK has warned parents to be careful about sharing photos of their children online. The NCA says that criminals are using artificial intelligence (AI) to turn innocent photos into child abuse material. This is a growing threat that many parents do not know about.\n\nWhen parents post pictures of their children on social media, those images can be taken by bad people and changed using AI tools. The technology can create fake but realistic images that cause serious harm. This type of abuse is becoming more common as AI tools become easier to use.\n\nThe NCA is advising parents to think twice before they share any images of their children publicly. Private accounts and limited sharing are safer options. Parents should also check their privacy settings regularly.\n\nThis is not just a problem in the UK. It is a worldwide issue that governments and technology companies are trying to deal with. Child protection groups say that the law needs to catch up with the technology.\n\nThe warning reminds us that the internet can be a dangerous place for children, even when parents think they are simply sharing happy memories. Protecting children online requires awareness and careful choices about what we post and who can see it.",
+          "vocabularyB1": [
+            {
+              "word": "artificial intelligence (AI)",
+              "definition": "Computer technology that can do tasks that normally need human thinking, like recognising images."
+            },
+            {
+              "word": "abuse material",
+              "definition": "Content that shows harm done to someone, especially a child, in an illegal and harmful way."
+            },
+            {
+              "word": "threat",
+              "definition": "Something dangerous that could cause harm or problems in the future."
+            },
+            {
+              "word": "privacy settings",
+              "definition": "Options on a website or app that control who can see your personal information or photos."
+            },
+            {
+              "word": "awareness",
+              "definition": "Knowledge and understanding of a situation or problem."
+            }
+          ],
+          "questionB1": "Now that you know about this threat, how do you think parents should change the way they share photos of their children online?",
+          "summaryB2": "The UK's National Crime Agency (NCA) has issued a stark warning to parents, urging them to reconsider the practice of publicly sharing photographs of their children on social media. At the heart of the alert is a disturbing trend: criminals are exploiting artificial intelligence tools to manipulate innocent images into child sexual abuse material (CSAM), a phenomenon that experts say is escalating rapidly.\n\nThe technology in question allows offenders to take ordinary, publicly accessible photos and generate highly realistic fake abuse imagery. Because AI tools have become more widely available and easier to operate, the barrier to this type of offending has dropped considerably, widening the pool of potential perpetrators.\n\nThe NCA's guidance reflects a growing tension between parents' natural desire to document and celebrate their children's lives online and the very real dangers that public visibility can create. Authorities are recommending that parents restrict their profiles to trusted contacts and review their sharing habits carefully.\n\nChild protection advocates argue that legislation has not kept pace with technological developments, leaving a regulatory gap that abusers are actively exploiting. Technology companies are also under pressure to detect and remove AI-generated abuse content more effectively.\n\nThe case highlights a broader challenge for modern societies: how to hold individuals, platforms, and lawmakers accountable in an era when digital tools can be weaponised against the most vulnerable. Protecting children in the digital age demands both personal vigilance and systemic action.",
+          "vocabularyB2": [
+            {
+              "word": "exploiting",
+              "definition": "Using something or someone unfairly or harmfully for personal gain or advantage."
+            },
+            {
+              "word": "perpetrators",
+              "definition": "People who commit a crime or harmful act."
+            },
+            {
+              "word": "regulatory gap",
+              "definition": "A situation where laws or rules do not yet cover a new problem or technology."
+            },
+            {
+              "word": "weaponised",
+              "definition": "Turned into a tool that is used to cause harm or damage, often in a new or unexpected way."
+            },
+            {
+              "word": "vigilance",
+              "definition": "The practice of being very careful and watchful in order to notice and avoid danger."
+            }
+          ],
+          "questionB2": "Given the regulatory gap between existing legislation and rapidly evolving AI capabilities, who bears the greatest responsibility for protecting children from this form of digital exploitation — parents, platforms, or governments?"
+        },
+        {
+          "id": "1783317451280qo5b",
+          "title": "The good tourist: can we learn to travel without absolutely infuriating the locals?",
+          "source": "The Guardian Travel",
+          "originalUrl": "https://www.theguardian.com/news/article/2024/aug/19/the-good-tourist-can-we-learn-to-travel-without-absolutely-infuriating-the-locals",
+          "category": "culture",
+          "date": "2024-08-19",
+          "summaryB1": "Tourism is one of the biggest industries in the world, but it is causing serious problems. In 2023, around 1.3 billion people travelled across international borders as tourists. That is an enormous number, and many cities and communities are feeling the pressure. Local people in popular destinations are becoming angry. In Barcelona, protesters carried signs telling tourists to go home. Venice now charges visitors a fee to enter, and Amsterdam has closed its cruise ship terminal to reduce the number of visitors arriving by sea. The word \"tourist\" itself has a bad reputation. When someone calls you a tourist, it is rarely a compliment. It suggests that your interest in a place is shallow and that you do not really understand or respect it. Author Paige McClanahan believes there is a better way to travel. She argues that tourists should visit fewer places and spend more time in each destination. This approach could help reduce the damage that mass tourism causes to local communities and their culture. Instead of rushing through many cities, travellers could slow down, connect with local people, and spend their money in ways that actually benefit the community. McClanahan's ideas are part of a growing conversation about how we can enjoy travelling while also being respectful guests in the places we visit.",
+          "vocabularyB1": [
+            {
+              "word": "destination",
+              "definition": "A place that someone travels to on a holiday or trip"
+            },
+            {
+              "word": "reputation",
+              "definition": "The opinion that people generally have about someone or something"
+            },
+            {
+              "word": "shallow",
+              "definition": "Not showing serious thought or deep understanding of something"
+            },
+            {
+              "word": "compliment",
+              "definition": "A polite remark that expresses praise or admiration for someone"
+            },
+            {
+              "word": "benefit",
+              "definition": "To be helpful or useful to someone or something"
+            }
+          ],
+          "questionB1": "Think about a popular tourist destination you know. How could tourists show more respect and actually benefit the local community?",
+          "summaryB2": "The global tourism industry is facing a backlash. In 2023, approximately 1.3 billion people crossed international borders as tourists — a figure representing an almost 25-fold increase compared to earlier decades and a full recovery from the Covid-era collapse. For many host communities, this sheer volume has become intolerable. Anti-tourism sentiment has hardened into organised resistance: Barcelona witnessed protest marches with placards bluntly demanding that tourists leave, Venice introduced an entry fee for day visitors, and Amsterdam's mayor moved to shut down the city's cruise ship terminal altogether. At the heart of the problem lies not just numbers, but attitude. The word \"tourist\" has long carried pejorative connotations — implying superficiality, ignorance, and a transactional relationship with place. That reputation has only worsened as overtourism has come to threaten housing affordability, cultural authenticity, and the daily lives of residents in sought-after cities. Author Paige McClanahan offers a potential remedy: what she calls being your \"best self\" abroad. Her prescription involves visiting fewer destinations and spending longer in each, allowing for deeper engagement with local people and economies. Rather than rushing between landmarks, McClanahan advocates a more deliberate form of travel — one that redistributes spending more equitably and leaves communities better off. Whether individual behaviour change can meaningfully address structural issues of overtourism, however, remains an open and contentious question.",
+          "vocabularyB2": [
+            {
+              "word": "pejorative",
+              "definition": "A word or expression that has a negative or disrespectful meaning or tone"
+            },
+            {
+              "word": "backlash",
+              "definition": "A strong negative reaction from a group of people against something"
+            },
+            {
+              "word": "transactional",
+              "definition": "Focused only on exchange or profit, without genuine personal connection"
+            },
+            {
+              "word": "equitably",
+              "definition": "In a fair and equal way that gives everyone a reasonable share"
+            },
+            {
+              "word": "contentious",
+              "definition": "Causing disagreement or argument between people with different opinions"
+            }
+          ],
+          "questionB2": "McClanahan's approach places responsibility on individual travellers, yet overtourism is driven by structural economic forces. To what extent can a more equitable and deliberate style of travel realistically address this contentious global problem?"
+        },
+        {
+          "id": "1783317473291bb6i",
+          "title": "Rolling Stones, deadites and pioneers: What to see, do or hear this week in Europe",
+          "source": "Euronews",
+          "originalUrl": "http://www.euronews.com/culture/2026/07/06/rolling-stones-deadites-and-pioneers-what-to-see-do-or-hear-this-week-in-europe",
+          "category": "politics",
+          "date": "2026-07-06",
+          "summaryB1": "This week in Europe, there are some exciting things happening in music and cinema. One of the biggest events is the release of a new album by The Rolling Stones. This famous British rock band has been making music since the 1960s. Their new album is their 25th studio record, which is a remarkable achievement for any musical group. The Rolling Stones are known all over the world for classic songs and energetic live performances. Fans have been waiting a long time for new material from the band.\n\nIn cinemas, a new horror film called 'Evil Dead Burn' is coming to the big screen. This movie is part of the well-known Evil Dead series, which has been popular with fans of scary films for decades. The story involves demonic creatures and plenty of dramatic action. Horror fans will recognise the style straight away.\n\nThese two releases show that European cultural life remains lively and full of variety. Whether you enjoy rock music or scary movies, there is something to look forward to this week. Events like these bring people together and give audiences a chance to experience new creative work. Keeping up with cultural releases is a great way to practise English and learn about the entertainment world at the same time.",
+          "vocabularyB1": [
+            {
+              "word": "release",
+              "definition": "When a new book, film, or music record becomes available for people to buy or see."
+            },
+            {
+              "word": "studio record",
+              "definition": "A music album that a band records in a professional recording studio."
+            },
+            {
+              "word": "achievement",
+              "definition": "Something impressive that someone has successfully done through hard work."
+            },
+            {
+              "word": "demonic",
+              "definition": "Relating to evil spirits or devils, often used in horror stories."
+            },
+            {
+              "word": "lively",
+              "definition": "Full of energy, activity, and interesting things happening."
+            }
+          ],
+          "questionB1": "Do you think a band's 25th studio record is an impressive achievement — and what makes a musical group stay popular for so long?",
+          "summaryB2": "This week's European cultural calendar offers a striking contrast between rock legacy and horror revival. Most notably, The Rolling Stones are set to release their 25th album, a milestone that cements the band's extraordinary longevity in an industry notorious for burning through talent at speed. Having first emerged in the early 1960s, the Stones have outlasted countless contemporaries, reinventing themselves across generations without losing their devoted global fanbase. A new studio album at this stage of their career inevitably invites scrutiny — whether the record represents genuine artistic evolution or a well-crafted exercise in brand maintenance remains to be seen.\n\nMeanwhile, on the big screen, 'Evil Dead Burn' arrives to satisfy audiences hungry for supernatural horror. The Evil Dead franchise has long occupied a distinctive niche in genre cinema, blending visceral scares with cult appeal. This latest instalment brings fresh demonic drama to a mythology that has endured since Sam Raimi's original 1981 film, demonstrating the franchise's remarkable resilience in an era of reboots and sequels.\n\nTogether, these two releases reflect a broader appetite for established cultural properties — audiences clearly find comfort and excitement in returning to familiar worlds, whether musical or cinematic. Yet both also carry the burden of expectation: the challenge of honouring a celebrated legacy while still surprising the people who know it best.",
+          "vocabularyB2": [
+            {
+              "word": "longevity",
+              "definition": "The ability to last or remain active and successful for a very long time."
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and detailed examination or attention, often looking for faults."
+            },
+            {
+              "word": "visceral",
+              "definition": "Producing a powerful, immediate emotional reaction that feels raw and instinctive."
+            },
+            {
+              "word": "resilience",
+              "definition": "The ability to recover quickly or continue to exist despite difficulties or changes."
+            },
+            {
+              "word": "legacy",
+              "definition": "Something valuable — such as a reputation or body of work — left behind by someone famous."
+            }
+          ],
+          "questionB2": "Given the resilience of both the Rolling Stones and the Evil Dead franchise, do you think cultural longevity is driven more by genuine artistic reinvention or by audiences' attachment to legacy?"
+        },
+        {
+          "id": "1783317493842fbqw",
+          "title": "Donald Trump’s AI regime is opaque, unpredictable—and unsustainable",
+          "source": "The Economist Business",
+          "originalUrl": "https://www.economist.com/business/2026/06/30/donald-trumps-ai-regime-is-opaque-unpredictable-and-unsustainable",
+          "category": "business",
+          "date": "2026-06-30",
+          "summaryB1": "The United States government under President Donald Trump has taken control of who can use the most powerful artificial intelligence (AI) models. This means that companies and countries around the world must now get permission from the American administration before they can access the best AI systems.\n\nThis policy is very different from how AI was shared before. In the past, many AI tools were more openly available. Now, the government decides who gets access and who does not. This makes the system opaque, which means it is difficult to understand or see clearly how decisions are made.\n\nThe rules also change without much warning, so businesses and governments find the situation very unpredictable. They do not know what to expect next. This creates problems for companies that need to plan for the future.\n\nMany experts believe this approach cannot last for a long time. They say it is unsustainable because other countries will develop their own powerful AI models, and American control will become weaker over time.\n\nThis matters for everyone, not just businesses. AI technology is changing how we work, communicate, and make decisions. When one government controls access to the best AI tools, it has enormous power over the global economy. People around the world are watching to see how this situation develops and whether fairer rules will be created.",
+          "vocabularyB1": [
+            {
+              "word": "opaque",
+              "definition": "Difficult to understand or see clearly; not transparent or open"
+            },
+            {
+              "word": "access",
+              "definition": "The ability or permission to use something or enter somewhere"
+            },
+            {
+              "word": "administration",
+              "definition": "The group of people who govern or manage a country or organisation"
+            },
+            {
+              "word": "permission",
+              "definition": "Official agreement that allows someone to do something"
+            },
+            {
+              "word": "unsustainable",
+              "definition": "Something that cannot continue for a long time because it causes problems"
+            }
+          ],
+          "questionB1": "Do you think one government should control access to powerful AI tools? What problems could this cause?",
+          "summaryB2": "The Trump administration has moved to assert direct control over global access to the most advanced artificial intelligence models, marking a dramatic shift in how the United States manages its technological dominance. Under this regime, foreign companies and governments must seek American approval before using the most capable AI systems, effectively turning cutting-edge technology into a geopolitical instrument.\n\nCritics and industry observers have highlighted two particular problems with this approach. First, the system is notably opaque: the criteria by which access is granted or denied remain poorly defined, leaving businesses unable to assess their standing or plan with confidence. Second, decisions appear highly unpredictable, shifting without clear rationale or advance notice. This volatility is particularly damaging for multinational corporations that depend on stable regulatory environments to make long-term investment decisions.\n\nThe Economist characterises the arrangement as unsustainable, and there are good reasons for this assessment. American hegemony over frontier AI models is unlikely to endure indefinitely. Rival powers, particularly China, are accelerating their own AI development programmes. As alternative models become more capable, the leverage Washington currently holds will erode, potentially undermining the entire framework of control.\n\nThere is also a broader commercial risk: companies frustrated by opaque rules may actively seek out non-American alternatives, inadvertently accelerating the fragmentation of the global AI ecosystem. Whether the administration can establish a more coherent and transparent framework before that happens remains an open and pressing question.",
+          "vocabularyB2": [
+            {
+              "word": "hegemony",
+              "definition": "Dominance or leadership of one country or group over others"
+            },
+            {
+              "word": "volatility",
+              "definition": "A tendency to change suddenly and unpredictably, causing uncertainty"
+            },
+            {
+              "word": "geopolitical",
+              "definition": "Relating to how geography and politics affect relationships between countries"
+            },
+            {
+              "word": "erode",
+              "definition": "To gradually weaken or wear something away over time"
+            },
+            {
+              "word": "fragmentation",
+              "definition": "The process of breaking something into separate, disconnected pieces"
+            }
+          ],
+          "questionB2": "Given the volatility of US AI policy, how might geopolitical rivals use this instability to accelerate their own AI programmes and challenge American technological dominance?"
+        }
+      ]
+    },
+    {
       "generated": "2026-06-29T06:40:49.961Z",
       "week": "2026-W26",
       "articles": [
