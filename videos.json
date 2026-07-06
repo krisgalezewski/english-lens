@@ -1,6 +1,341 @@
 {
   "editions": [
     {
+      "generated": "2026-07-06T06:10:39.363Z",
+      "videos": [
+        {
+          "videoId": "8Jsy8MbHrvM",
+          "title": "What should Ireland take from the Cypriot presidency?",
+          "channel": "euronews",
+          "publishedAt": "2026-07-03T06:32:58Z",
+          "thumbnail": "https://i.ytimg.com/vi/8Jsy8MbHrvM/hqdefault.jpg",
+          "durationSeconds": 24,
+          "transcript": "From day one of the Cypriot presidency, there was different crises caused by some world leaders as well in different parts parts of the world. And the Cypriots were on a reactive mode. So, the lesson I would take for the Irish presidency and that is be prepared for the unexpected. And there are a lot of issues that will go between one and the other. The last one the Cypriots have done is on the negotiation box for the future budgets.",
+          "category": "politics",
+          "summary": "This video discusses lessons that Ireland can learn from the Cypriot presidency of the EU. A commentator reflects on how Cyprus had to deal with unexpected crises during its presidency and advises Ireland to prepare for similar challenges. The Cypriot presidency's final achievement in budget negotiations is also mentioned.",
+          "multipleChoice": [
+            {
+              "question": "According to the speaker, how did Cyprus respond to the crises during its presidency?",
+              "options": [
+                "It ignored the crises at first",
+                "It asked other countries for help",
+                "It was in a reactive mode",
+                "It planned carefully in advance"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What is the main lesson the speaker says Ireland should take from the Cypriot presidency?",
+              "options": [
+                "Focus only on budget issues",
+                "Be prepared for the unexpected",
+                "Avoid reacting to world leaders",
+                "Build stronger alliances first"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What was the last achievement mentioned in connection with the Cypriot presidency?",
+              "options": [
+                "Working on the negotiation box for future budgets",
+                "Resolving an international crisis",
+                "Passing new environmental laws",
+                "Strengthening trade agreements"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The speaker says Cyprus was well prepared for the crises it faced during its presidency.",
+              "answer": false
+            },
+            {
+              "statement": "The speaker believes there will be many issues to deal with during the Irish presidency.",
+              "answer": true
+            },
+            {
+              "statement": "The crises during the Cypriot presidency were partly caused by some world leaders.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or points in the order they were mentioned in the video",
+            "items": [
+              "Crises caused by world leaders arose from the start of the Cypriot presidency",
+              "Cyprus operated in a reactive mode during its presidency",
+              "The speaker draws a lesson for the Irish presidency about being prepared",
+              "Cyprus completed work on the negotiation box for future budgets"
+            ]
+          }
+        },
+        {
+          "videoId": "6X6YQKvkbi4",
+          "title": "Mark Rutte on European defence spending | FT #shorts",
+          "channel": "Financial Times",
+          "publishedAt": "2026-07-01T14:54:04Z",
+          "thumbnail": "https://i.ytimg.com/vi/6X6YQKvkbi4/hqdefault.jpg",
+          "durationSeconds": 102,
+          "transcript": "Uh we'd love to hear from you first how your visit with President Trump went just last week and was there anything that he wanted you to convey to your colleagues? >> It was a good visit. Uh and I think it was also an opportunity for me to convey to the American people that when it comes to Europe really stepping up, spending much more on defense because of the Russian threat what was happening in Ukraine, but of course also because of this American president successfully encouraging the Europeans to do more and the Canadians to do more to really showcase with the 250 billion extra spend in two years that it is now happening, but also to show the American people this is leading into another effect which is the jobs and the US defense industrial base. 195,000 jobs being supported by EU and Canadian European and Canadian investments in the defense industrial base in the US. Um and a total order book now of $300 billion outstanding of European and Canadian uh sales into from the US over the next couple of years. I had a good meeting last night with 15 CEOs of big defense industrial companies from all over NATO territory including the United States. Uh also they're getting the message that when it comes to to the shift in mindset uh that the money is now there, the budgets are there and they should not increase prices but they should increase production. And this is exactly what I see happening now. And evidence here is the ammunition production which is now sixfold what it was only two years ago.",
+          "category": "business",
+          "summary": "Mark Rutte discusses his recent visit with President Trump and highlights Europe's growing defence spending. He shares figures on how European and Canadian investments are supporting jobs in the US defence industry. He also mentions a meeting with defence company CEOs and notes that ammunition production has grown sixfold in two years.",
+          "multipleChoice": [
+            {
+              "question": "How many jobs in the US defence industrial base are being supported by European and Canadian investments?",
+              "options": [
+                "150,000 jobs",
+                "195,000 jobs",
+                "250,000 jobs",
+                "95,000 jobs"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is the total outstanding order book of European and Canadian sales from the US over the next couple of years?",
+              "options": [
+                "$195 billion",
+                "$250 billion",
+                "$300 billion",
+                "$500 billion"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "How many CEOs did Rutte meet with the night before the interview?",
+              "options": [
+                "10",
+                "15",
+                "12",
+                "20"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Rutte said that European and Canadian defence spending has added $250 billion in extra spending over two years.",
+              "answer": true
+            },
+            {
+              "statement": "Rutte told the defence company CEOs that they should increase prices rather than increase production.",
+              "answer": false
+            },
+            {
+              "statement": "Ammunition production is now six times higher than it was two years ago.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order Rutte mentioned them during the interview.",
+            "items": [
+              "Rutte describes his visit with President Trump and Europe stepping up on defence spending",
+              "Rutte explains how European and Canadian investments support jobs in the US defence industry",
+              "Rutte mentions his meeting with 15 CEOs from NATO defence companies",
+              "Rutte points to the sixfold increase in ammunition production as evidence of progress"
+            ]
+          }
+        },
+        {
+          "videoId": "ziPTv3L1PNs",
+          "title": "Apple hikes prices as memory chip costs skyrocket",
+          "channel": "Reuters",
+          "publishedAt": "2026-06-26T07:29:47Z",
+          "thumbnail": "https://i.ytimg.com/vi/ziPTv3L1PNs/hqdefault.jpg",
+          "durationSeconds": 84,
+          "transcript": "Apple is hiking prices as the cost of memory chips skyrockets. It's lowest priced laptop will jump from $599 to $699 with iPad prices also rising. For now at least, the iPhone is unaffected. Apple says it can no longer avoid passing on rising costs to consumers. The price of memory chips jumped by around 98% in the first quarter and has continued to soar ever since. That is driven by the boom in AI data centers. Companies like Nvidia have signed big deals with chip makers leaving consumer electronics firms scrambling to secure supplies. Apple said it had never seen component prices increase so much, so quickly. While iPhones weren't hit by Thursday's move, analysts say it's only a matter of time before they too face price increases. Apple shares fell almost 5% while Dell dropped 8%. Some industry watchers say Apple's rivals may have to do even bigger price increases as they lack the Mac makers deep ties to suppliers. Research firm IDC says the global smartphone and computer markets will both see sharp contractions this year due to the rising prices.",
+          "category": "technology",
+          "summary": "Apple has announced price increases on its laptops and iPads due to soaring memory chip costs. The price of memory chips has nearly doubled, driven by high demand from AI data centers, leaving consumer electronics companies competing for limited supplies. Analysts warn that iPhone prices may also rise in the near future, and the broader market for smartphones and computers is expected to shrink this year.",
+          "multipleChoice": [
+            {
+              "question": "By how much did the price of memory chips jump in the first quarter?",
+              "options": [
+                "Around 50%",
+                "Around 75%",
+                "Around 120%",
+                "Around 98%"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What is the new price of Apple's lowest-priced laptop after the price increase?",
+              "options": [
+                "$599",
+                "$649",
+                "$699",
+                "$799"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What happened to Apple's share price following the announcement?",
+              "options": [
+                "It fell by almost 5%",
+                "It rose by almost 5%",
+                "It remained unchanged",
+                "It dropped by almost 8%"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The price of Apple's iPhone was affected by the price increases announced on Thursday.",
+              "answer": false
+            },
+            {
+              "statement": "Research firm IDC predicts that the global smartphone and computer markets will both shrink in 2026 due to rising prices.",
+              "answer": true
+            },
+            {
+              "statement": "Apple's rivals may need to make even bigger price increases because they have stronger ties to suppliers than Apple does.",
+              "answer": false
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they were mentioned in the video.",
+            "items": [
+              "Memory chip prices jumped by around 98% in the first quarter",
+              "Companies like Nvidia signed big deals with chip makers",
+              "Apple announced price increases on laptops and iPads",
+              "Apple and Dell shares fell following the announcement"
+            ]
+          }
+        },
+        {
+          "videoId": "B-r0DXxeSAI",
+          "title": "Is Europe ready for more heatwaves?",
+          "channel": "euronews",
+          "publishedAt": "2026-07-02T12:14:59Z",
+          "thumbnail": "https://i.ytimg.com/vi/B-r0DXxeSAI/hqdefault.jpg",
+          "durationSeconds": 65,
+          "transcript": "Record-breaking temperatures, wildfires, and droughts. Is Europe ready for this? Is it prepared, or is this simply the new normal? Andrea, I'm going to start with you. >> Let me say that we have had 150 million people affected by the heatwave over the last couple of weeks, and we lost 1,300 people. And I think this loss shows us we are not yet prepared. We are doing everything now which is in our hands to collide to find these issues at a European level, but no, we are not where we need to be to protect people in Europe. >> Why are we not prepared? This is not the first time we had a heatwave. >> extreme weather in the summer, we have extreme weather in the autumn. I want I want to remember Valencia, I want to remember the flooding also in Italy. We have extreme weather also in the winter. This is a pattern, it's a climate pattern, and we're not prepared because there's a lot of people in this parliament and in many institutions that still think that climate change is not an issue. And if we do not respond to this extreme condition in a systemic way, we will never be prepared.",
+          "category": "environment",
+          "summary": "This video discusses Europe's readiness for extreme weather events, focusing on a recent heatwave that affected millions of people. A speaker named Andrea highlights the human cost of the heatwave and argues that Europe is not yet sufficiently prepared. The discussion also touches on why preparation has been slow, including the role of climate change denial among politicians and institutions.",
+          "multipleChoice": [
+            {
+              "question": "How many people were affected by the heatwave according to Andrea?",
+              "options": [
+                "Around 100 million people",
+                "Around 150 million people",
+                "Around 50 million people",
+                "Around 200 million people"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "According to the speaker, why is Europe still not prepared for extreme weather?",
+              "options": [
+                "The heatwave happened too suddenly for governments to react",
+                "European countries do not have enough money to invest in climate protection",
+                "Many people in parliament and institutions still do not accept that climate change is a real issue",
+                "Scientists have not provided enough data about climate risks"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Which city does the speaker mention as an example of extreme weather other than heatwaves?",
+              "options": [
+                "Madrid",
+                "Valencia",
+                "Lisbon",
+                "Rome"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "According to Andrea, 1,300 people died during the recent heatwave.",
+              "answer": true
+            },
+            {
+              "statement": "The speaker says that extreme weather only happens during the summer months in Europe.",
+              "answer": false
+            },
+            {
+              "statement": "Andrea believes that Europe needs to respond to extreme weather in a systemic way in order to become truly prepared.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics or points in the order they were mentioned in the video.",
+            "items": [
+              "The number of people affected by the heatwave is stated",
+              "Andrea admits Europe is not yet prepared to protect its people",
+              "The flooding in Valencia and Italy is mentioned as examples of extreme weather",
+              "The speaker says that climate change must be addressed in a systemic way"
+            ]
+          }
+        },
+        {
+          "videoId": "BKJz6OkvJi8",
+          "title": "First Budapest Pride since right-wing leader Viktor Orbán's defeat. #Hungary #Pride #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-06-28T14:00:34Z",
+          "thumbnail": "https://i.ytimg.com/vi/BKJz6OkvJi8/hqdefault.jpg",
+          "durationSeconds": 40,
+          "transcript": "People are much more optimistic right now. Probably it's because of the political change, but everyone is just so much more uplifted. >> So, Orban is out of power. So, uh actually what we can feel personally that the government is more or less behind us. >> It's more free. Um it's more accessible by the government. >> Yeah. Last year they tried to shut it down. That wasn't very what I would say in the spirit of pride. I really hope more people feel accepted and um loved by this government. Um, and I truly hope they will de deliver on the things they promised us that they",
+          "category": "culture",
+          "summary": "This video covers Budapest Pride 2026, the first such event since right-wing leader Viktor Orbán lost power in Hungary. Participants share their feelings about the political change, expressing optimism and hope that the new government will be more supportive of the LGBTQ+ community. One speaker recalls that last year's Pride event faced an attempt to shut it down.",
+          "multipleChoice": [
+            {
+              "question": "How do people at Budapest Pride feel about the current political situation?",
+              "options": [
+                "Disappointed that nothing has changed",
+                "More optimistic and uplifted",
+                "Uncertain and confused about the changes",
+                "Angry and frustrated about the new government"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What did the previous government try to do to Budapest Pride last year?",
+              "options": [
+                "Move it to a different city",
+                "Ban rainbow flags",
+                "Limit the number of participants",
+                "Shut it down"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What do speakers hope the new government will do?",
+              "options": [
+                "Deliver on the things they promised",
+                "Give more funding to LGBTQ+ organisations",
+                "Organise a bigger Pride event next year",
+                "Invite international leaders to Budapest"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "People at Budapest Pride describe feeling more optimistic because of the political change.",
+              "answer": true
+            },
+            {
+              "statement": "Speakers say the current government is completely against them.",
+              "answer": false
+            },
+            {
+              "statement": "One speaker says last year's Pride was not in the spirit of Pride because of an attempt to shut it down.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas in the order they were mentioned in the video",
+            "items": [
+              "People describe feeling more optimistic and uplifted",
+              "A speaker mentions that Orbán is out of power",
+              "Someone says the event feels more free and accessible",
+              "A speaker expresses hope that the government will deliver on its promises"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-06-30T19:40:03.074Z",
       "videos": [
         {
