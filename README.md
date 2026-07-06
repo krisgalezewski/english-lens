@@ -4,7 +4,7 @@ A Progressive Web App delivering weekly curated English news for Polish learners
 
 ---
 
-## How it works
+## How it works 
 
 Every Monday at 07:30 Warsaw time, a GitHub Actions workflow:
 1. Fetches headlines from 12 RSS feeds (BBC, Reuters, Euronews, Politico EU, Notes from Poland, The Guardian)
