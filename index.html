@@ -764,8 +764,50 @@
       align-items: center;
       gap: 10px;
       user-select: none;
+      touch-action: none; /* allow JS to handle touch drag on mobile */
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
-    .order-item.dragging { opacity: 0.5; }
+    .order-item.dragging {
+      opacity: 0.5;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+      transform: scale(1.02);
+    }
+    /* Placeholder shown where the dragged item will land */
+    .order-placeholder {
+      height: 44px;
+      background: var(--accent-soft, #f0ebe5);
+      border: 2px dashed var(--accent);
+      border-radius: 3px;
+      pointer-events: none;
+    }
+
+    @media (max-width: 640px) {
+      /* "All" tab video strip: horizontal scrollable row */
+      .video-strip-grid-all {
+        display: flex !important;
+        flex-direction: row !important;
+        overflow-x: auto !important;
+        gap: 12px !important;
+        padding-bottom: 8px !important;
+        scrollbar-width: none !important;
+        -webkit-overflow-scrolling: touch !important;
+        grid-template-columns: none !important;
+      }
+      .video-strip-grid-all::-webkit-scrollbar { display: none; }
+      .video-strip-grid-all .video-tile-small {
+        flex: 0 0 160px !important;
+        min-width: 160px !important;
+        max-width: 160px !important;
+      }
+      /* Single-category video tile: full width, matching Videos tab size */
+      .video-strip-grid:not(.video-strip-grid-all) {
+        grid-template-columns: 1fr !important;
+      }
+      .video-strip-grid:not(.video-strip-grid-all) .video-tile-small {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+    }
     .order-num {
       font-family: var(--font-display);
       font-weight: 700;
@@ -1286,14 +1328,88 @@
     const orderList = document.getElementById('order-list');
     if (orderList) {
       let dragEl = null;
+      let placeholder = null;
+
+      function createPlaceholder() {
+        const p = document.createElement('div');
+        p.className = 'order-placeholder';
+        return p;
+      }
+
+      function getOrderItems() {
+        return [...orderList.querySelectorAll('.order-item')];
+      }
+
+      function insertPlaceholderAt(clientY) {
+        const items = getOrderItems();
+        let inserted = false;
+        for (const item of items) {
+          const box = item.getBoundingClientRect();
+          if (clientY < box.top + box.height / 2) {
+            orderList.insertBefore(placeholder, item);
+            inserted = true;
+            break;
+          }
+        }
+        if (!inserted) orderList.appendChild(placeholder);
+      }
+
+      // ── MOUSE / DESKTOP drag ──
       orderList.querySelectorAll('.order-item').forEach(item => {
-        item.addEventListener('dragstart', () => { dragEl = item; item.classList.add('dragging'); });
-        item.addEventListener('dragend', () => { item.classList.remove('dragging'); renumberOrderList(); });
-        item.addEventListener('dragover', e => {
-          e.preventDefault();
-          const after = getDragAfterElement(orderList, e.clientY);
-          if (after == null) orderList.appendChild(dragEl);
-          else orderList.insertBefore(dragEl, after);
+        item.addEventListener('dragstart', e => {
+          dragEl = item;
+          placeholder = createPlaceholder();
+          setTimeout(() => item.classList.add('dragging'), 0);
+        });
+        item.addEventListener('dragend', () => {
+          item.classList.remove('dragging');
+          if (placeholder && placeholder.parentNode) {
+            placeholder.parentNode.insertBefore(dragEl, placeholder);
+            placeholder.remove();
+          }
+          placeholder = null;
+          dragEl = null;
+          renumberOrderList();
+        });
+      });
+
+      orderList.addEventListener('dragover', e => {
+        e.preventDefault();
+        if (!dragEl || !placeholder) return;
+        insertPlaceholderAt(e.clientY);
+      });
+
+      // ── TOUCH / MOBILE drag ──
+      orderList.querySelectorAll('.order-item').forEach(item => {
+        let startY = 0;
+        let startScrollTop = 0;
+
+        item.addEventListener('touchstart', e => {
+          dragEl = item;
+          startY = e.touches[0].clientY;
+          startScrollTop = document.getElementById('modal-overlay').scrollTop;
+          placeholder = createPlaceholder();
+          item.classList.add('dragging');
+          orderList.insertBefore(placeholder, item.nextSibling);
+        }, { passive: true });
+
+        item.addEventListener('touchmove', e => {
+          if (!dragEl || !placeholder) return;
+          e.preventDefault(); // prevent page scroll while dragging
+          const clientY = e.touches[0].clientY;
+          insertPlaceholderAt(clientY);
+        }, { passive: false });
+
+        item.addEventListener('touchend', () => {
+          if (!dragEl || !placeholder) return;
+          item.classList.remove('dragging');
+          if (placeholder.parentNode) {
+            placeholder.parentNode.insertBefore(dragEl, placeholder);
+            placeholder.remove();
+          }
+          placeholder = null;
+          dragEl = null;
+          renumberOrderList();
         });
       });
 
@@ -1302,10 +1418,10 @@
         const isCorrect = JSON.stringify(current) === JSON.stringify(orderItems);
         const feedback = document.getElementById('order-feedback');
         if (isCorrect) {
-          feedback.textContent = '✅ Correct order!';
+          feedback.textContent = '\u2705 Correct order!';
           feedback.className = 'order-feedback correct-msg';
         } else {
-          feedback.textContent = '❌ Not quite right — try dragging the items again.';
+          feedback.textContent = '\u274c Not quite right \u2014 try dragging the items again.';
           feedback.className = 'order-feedback incorrect-msg';
         }
       });
@@ -1322,17 +1438,7 @@
     });
   }
 
-  function getDragAfterElement(container, y) {
-    const items = [...container.querySelectorAll('.order-item:not(.dragging)')];
-    return items.reduce((closest, child) => {
-      const box = child.getBoundingClientRect();
-      const offset = y - box.top - box.height / 2;
-      if (offset < 0 && offset > closest.offset) {
-        return { offset, element: child };
-      }
-      return closest;
-    }, { offset: Number.NEGATIVE_INFINITY }).element;
-  }
+
 
   // ── MODAL ─────────────────────────────────────────────────────────────────
 
