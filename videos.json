@@ -1,6 +1,341 @@
 {
   "editions": [
     {
+      "generated": "2026-07-13T08:50:18.393Z",
+      "videos": [
+        {
+          "videoId": "iCxaWD_NVlc",
+          "title": "President Donald Trump says US-Iran ceasefire is over, so what happens now? #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-07-08T16:45:27Z",
+          "thumbnail": "https://i.ytimg.com/vi/iCxaWD_NVlc/hqdefault.jpg",
+          "durationSeconds": 54,
+          "transcript": "President Trump says the ceasefire is over. Iran says the memorandum of understanding has been violated. So what happens now? Well, technically there has been a ceasefire agreement between the US and Iran since early April, although both sides say that the other has violated it. And last month the US and Iran signed an agreement, anou that said that they would stop war on all fronts. Then earlier this week, three tankers were hit as they were trying to cross the straight of Hormuz. The US blamed Iran. They therefore reinstated oil sanctions on Iran. And last night, the US said that they attacked Iranian air defenses and anti-ship missiles. Iran responded saying that it attacked US military bases in Bahrain and Q8. But although Trump says the ceasefire is over, his negotiators are still talking. So, is this a negotiating tactic? And are we going to see an escalation with more attacks?",
+          "category": "politics",
+          "summary": "The video examines the breakdown of the US-Iran ceasefire, which had been in place since early April. It outlines a series of recent events including an attack on oil tankers near the Strait of Hormuz, US oil sanctions, and military strikes by both sides. Despite Trump declaring the ceasefire over, US negotiators are reportedly still in talks with Iran.",
+          "multipleChoice": [
+            {
+              "question": "What happened to three tankers earlier in the week?",
+              "options": [
+                "They were hit as they tried to cross the Strait of Hormuz",
+                "They were delayed by US sanctions",
+                "They were sunk by US warships",
+                "They were seized by Iranian forces"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What did the US do in response to the tanker incident?",
+              "options": [
+                "They withdrew their negotiators from talks",
+                "They reinstated oil sanctions on Iran",
+                "They signed a new ceasefire agreement",
+                "They attacked Iranian military bases in Bahrain"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "According to the video, which countries did Iran claim to have attacked?",
+              "options": [
+                "Qatar and the United Arab Emirates",
+                "Bahrain and Kuwait",
+                "Iraq and Saudi Arabia",
+                "Israel and Jordan"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The ceasefire agreement between the US and Iran has been in place since early April.",
+              "answer": true
+            },
+            {
+              "statement": "Iran blamed the US for the attack on the three tankers near the Strait of Hormuz.",
+              "answer": false
+            },
+            {
+              "statement": "Despite Trump saying the ceasefire is over, US negotiators are still talking with Iran.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they happened",
+            "items": [
+              "The US and Iran established a ceasefire agreement in early April",
+              "The US and Iran signed an agreement to stop war on all fronts",
+              "Three tankers were hit near the Strait of Hormuz",
+              "The US attacked Iranian air defenses and anti-ship missiles"
+            ]
+          }
+        },
+        {
+          "videoId": "OkQo_IVa50E",
+          "title": "What do heatwaves cost?",
+          "channel": "Reuters",
+          "publishedAt": "2026-07-03T11:32:38Z",
+          "thumbnail": "https://i.ytimg.com/vi/OkQo_IVa50E/hqdefault.jpg",
+          "durationSeconds": 87,
+          "transcript": "From the east coast to the Midwest, it is roasting in the US this Fourth of July weekend. Forecasted for temperatures between 100 and 115 degrees Fahrenheit. That's up to 46 C. That's not just uncomfortable. It could also be an economic disaster. The US power grid is struggling to cope with extra demand from air conditioning. It's already struggling to deal with the demand from data centers, and that sends power prices up. The largest regional grid in the US said real electric wholesale prices hit $1600 per megawatt hour at peak demand time on Monday evening, up from a more normal $40 earlier in the day. That encourages some electric operators to get more supply out of old oil and gas plants, and that makes the underlying problem worse. Scientists agree heat waves on this scale would be impossible without climate change from burning fossil fuels. Last week, Europe cooked in temperatures over 40° C. Germany estimates every day over 30 costs its economy €430 million euros. The heat keeps tourists at home, ruins farmers crops, and makes life hard for office workers in Northern Europe, where only about half of offices have aircom. Because until recently, there was no need for it. European cities are now realizing they'll have to spend millions on cooling public transport networks and urban spaces. Even companies that usually cash in on the hot weather have been finding the heat too much. Carlsburg told Reuters, \"Beer sales usually go up with the temperature, but last week beer gardens emptied across Europe as drinkers just couldn't handle the",
+          "category": "business",
+          "summary": "This video reports on a severe heatwave affecting the US over the Fourth of July weekend, with temperatures reaching up to 115°F (46°C). It explores the economic consequences of extreme heat, including rising electricity prices, damage to European economies, and disruption to industries like tourism, farming, and beer sales. The video also connects the frequency of such heatwaves to climate change caused by burning fossil fuels.",
+          "multipleChoice": [
+            {
+              "question": "What was the peak wholesale electricity price in the largest regional US grid during the heatwave?",
+              "options": [
+                "$40 per megawatt hour",
+                "$400 per megawatt hour",
+                "$16,000 per megawatt hour",
+                "$1,600 per megawatt hour"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "How much does Germany estimate it loses economically for every day the temperature exceeds 30°C?",
+              "options": [
+                "€43 million",
+                "€130 million",
+                "€4.3 billion",
+                "€430 million"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "According to the video, approximately what proportion of offices in Northern Europe have air conditioning?",
+              "options": [
+                "About half",
+                "Almost all of them",
+                "About one quarter",
+                "About three quarters"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Scientists say heatwaves of this scale would be impossible without climate change caused by burning fossil fuels.",
+              "answer": true
+            },
+            {
+              "statement": "Beer sales at European beer gardens increased during last week's heatwave, according to Carlsberg.",
+              "answer": false
+            },
+            {
+              "statement": "The US power grid was already under pressure from data center demand before the heatwave added further strain.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or details in the order they were mentioned in the video.",
+            "items": [
+              "The US power grid struggles with demand from air conditioning and data centers, pushing prices up.",
+              "Europe experiences temperatures over 40°C the week before.",
+              "European cities plan to spend millions on cooling public transport and urban spaces.",
+              "Carlsberg reports that beer gardens emptied across Europe because of the extreme heat."
+            ]
+          }
+        },
+        {
+          "videoId": "RWhvjyIrUZQ",
+          "title": "Apple loses challenges against EU rules to curb Big Tech",
+          "channel": "Reuters",
+          "publishedAt": "2026-07-08T12:51:03Z",
+          "thumbnail": "https://i.ytimg.com/vi/RWhvjyIrUZQ/hqdefault.jpg",
+          "durationSeconds": 61,
+          "transcript": "Apple lost its challenge against landmark EU rules on Wednesday. The tech giant tried to refute the general court's designation of its app stores and operating system as gatekeepers. Apple is now subject to obligations aimed at giving rivals more room to compete. The EU digital markets act sets out a list of dos and don'ts for big tech with the threat of fines of as much as 10% of global annual turnover. It has triggered legal challenges by Apple, Meta, and Bite Dance since it took effect in May 2023. The ruling by the Luxembourg-based general court will strengthen the position of EU antitrust regulators. That's as they attempt to make space for rivals and give Europeans more choice. Apple first took its protests to the court in 2024. It again criticized the DMA on Wednesday, saying its mandate quote goes beyond what is lawful and proportionate. Apple can appeal on matters of law to the Court of Justice of the European Union, Europe's highest",
+          "category": "technology",
+          "summary": "Apple has lost its legal challenge against the EU's Digital Markets Act, which classifies its app stores and operating system as 'gatekeepers' subject to strict rules. The ruling by the EU's General Court strengthens the position of European antitrust regulators, who aim to increase competition and give consumers more choice. Apple has criticised the decision and may appeal to the Court of Justice of the European Union.",
+          "multipleChoice": [
+            {
+              "question": "What is the maximum fine that companies can face under the EU Digital Markets Act?",
+              "options": [
+                "15% of global annual turnover",
+                "5% of global annual turnover",
+                "10% of global annual turnover",
+                "20% of global annual turnover"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Which court is based in Luxembourg and issued the ruling mentioned in the video?",
+              "options": [
+                "The European Court of Human Rights",
+                "The Court of Justice of the European Union",
+                "The European Antitrust Tribunal",
+                "The General Court"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "When did the EU Digital Markets Act take effect?",
+              "options": [
+                "January 2022",
+                "May 2023",
+                "July 2026",
+                "March 2024"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Apple, Meta, and Bite Dance have all triggered legal challenges against the Digital Markets Act.",
+              "answer": true
+            },
+            {
+              "statement": "Apple first brought its challenge to court in 2023.",
+              "answer": false
+            },
+            {
+              "statement": "Apple can appeal the General Court's ruling to the Court of Justice of the European Union.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they happened or were mentioned",
+            "items": [
+              "The EU Digital Markets Act took effect in May 2023",
+              "Apple and other companies triggered legal challenges against the DMA",
+              "Apple first took its protests to the General Court in 2024",
+              "The General Court ruled against Apple and Apple criticised the decision"
+            ]
+          }
+        },
+        {
+          "videoId": "7p-i1FewOrE",
+          "title": "US extreme weather, Greece wildfires and US Pacific Islands brace for Super Typhoon | BBC News",
+          "channel": "BBC News",
+          "publishedAt": "2026-07-05T15:00:31Z",
+          "thumbnail": "https://i.ytimg.com/vi/7p-i1FewOrE/hqdefault.jpg",
+          "durationSeconds": 270,
+          "transcript": "Get the latest now on the extreme weather conditions in the US. Authorities ordered an evacuation of the National Mall in Washington after a thunderstorms approach threatening the festivities there. Storms came amid a dangerous heatwave in Washington D.C. across most of the East Coast. On Saturday, nation's capital was reported to be among the top 1% of hottest places on Earth. Here's our weather presenter, Simon King. >> In the US, we saw that extreme heatwave, a big heat dome developing across the east of the United States. And temperatures in Washington D.C., in Philadelphia, New York, they were getting up into the high 30s of Celsius. But when you add in the humidity, it would have felt like 46° Celsius. So, really dangerous heat there. Now, what happens in when you get these situations with a big heatwave developing is that with a high humidity, that heat, it gives a lot of energy. Lots of moisture can go into the atmosphere. And you just need a trigger. And for the case of the US, we've had a a cold front moving its way southeastward across the US. And that brought the end to the stifling heat. But it ended with a big bang. So, you didn't just have the fireworks, of course, for the Independence Day celebrations, but the lightning, the thunderstorms were really quite severe across eastern areas of the US through yesterday evening and night. And through today, we'll continue to see some quite big thunderstorms moving their way southeastward across the east of the US. The heat will be more concentrated down towards Virginia, North and South Carolina. So, here temperatures once again getting up into the mid to high 30s. Whereas, it should start to feel a little bit more comfortable for the likes of New York and Washington and Philadelphia. Temperatures here should start to drop away in the coming days. >> And Simon, just how common are weather events like this there? >> Yeah, they are pretty common. I mean, the temperatures that we saw in some parts of the eastern states have been, you know, very high. In fact, record-breaking for some locations. Um and while obviously you don't tend to get records being broken every year, we know that with our changing climate that heat waves are becoming more intense. They are becoming hotter, more prolonged. So, you know, it it sets the scene to to see these sort of records being broken in parts of the US. But of course, heat waves aren't unusual in the US and it's not unusual either to see these big thunderstorms that develop um on the back of these heat waves. You know, uh so the US is well used to having uh severe weather like this. And of course, you know, tornadoes, we know they are formed by these big storms developing after a period of hot weather. Um and then, you know, some colder air coming in that can trigger things off to to bring those storms. >> Uh Simon, as we know, US not the only place experiencing uh these high temperatures, uh dangerous situations in parts of Europe, as well. >> Yeah, so in Greece, we've seen recently some wildfires. Now, again, wildfires in Greece, uh you know, aren't unusual. The the summer is becoming longer there because it's it's heating up, it's drying out. So, wildfires, you know, have been seen already so far this summer. And we've seen one recently that's affected uh some uh pretty big populated areas. So, um the concern there, of course, as we go through the rest of the summer is that we could still continue to have uh some wildfires with periods of heat building up. Um but elsewhere across Europe, well, again, we've got another heat wave on the way, the third of the year. So, like we saw at the end of June with record temperatures being set, uh temperatures will slowly rise again across France and into the United Kingdom. Uh here we're going to see temperatures getting up into the mid-30s by the time we get into the middle part of the week. And while this heat wave isn't likely to be as extreme, the temperatures won't be as high as we saw in June, it's likely actually this heat wave could last longer. So, forecasts at the moment suggest that the temperatures getting above 30° C across England for example could last for maybe 7 to even 10 consecutive days. >> Thanks to Simon there. Residents of the US Pacific territories of Guam and Northern Marianas have moved to emergency evacuation centers. This is all ahead of the arrival of a super typhoon due to make landfall on Monday. National weather service has described it as very dangerous as forecast a barrel through the territories with winds of 260 km an hour, rains and big waves as well.",
+          "category": "environment",
+          "summary": "This BBC News video covers a series of extreme weather events happening around the world. Weather presenter Simon King explains a dangerous heatwave and severe thunderstorms on the US East Coast, recent wildfires in Greece, and an approaching heatwave across Europe. The video also reports on a super typhoon threatening the US Pacific territories of Guam and the Northern Marianas.",
+          "multipleChoice": [
+            {
+              "question": "When humidity was added to the air temperature in Washington D.C., what did it feel like according to Simon King?",
+              "options": [
+                "39° Celsius",
+                "40° Celsius",
+                "46° Celsius",
+                "43° Celsius"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "How long could temperatures above 30°C last across England during the third heatwave of the year?",
+              "options": [
+                "3 to 5 consecutive days",
+                "Just a few hours each day",
+                "7 to 10 consecutive days",
+                "About two weeks"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What was forecast to cause danger as Super Typhoon approached Guam and the Northern Marianas?",
+              "options": [
+                "Heavy snowfall and freezing winds",
+                "Winds of 260 km/h, heavy rain, and big waves",
+                "Temperatures above 50°C and drought",
+                "Volcanic activity triggered by the storm"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "On Saturday, Washington D.C. was reported to be among the top 1% of hottest places on Earth.",
+              "answer": true
+            },
+            {
+              "statement": "The third European heatwave of the year was expected to be more extreme than the one seen at the end of June.",
+              "answer": false
+            },
+            {
+              "statement": "Authorities ordered an evacuation of the National Mall in Washington due to an approaching thunderstorm.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or topics in the order they were mentioned in the video.",
+            "items": [
+              "A cold front moves southeastward, ending the US heatwave with severe thunderstorms",
+              "Simon King explains that wildfires have already affected populated areas in Greece this summer",
+              "A third heatwave is described as approaching France and the United Kingdom",
+              "Residents of Guam and the Northern Marianas move to emergency evacuation centers ahead of a super typhoon"
+            ]
+          }
+        },
+        {
+          "videoId": "EKZiNqUFOyE",
+          "title": "Why are stray dogs disappearing ahead of the World Cup?",
+          "channel": "DW Euromaxx",
+          "publishedAt": "2026-07-08T20:45:37Z",
+          "thumbnail": "https://i.ytimg.com/vi/EKZiNqUFOyE/hqdefault.jpg",
+          "durationSeconds": 57,
+          "transcript": "Why are thousands [music] of stray dogs disappearing in Morocco ahead of the next World Cup? Animal rights agencies alleged that Moroccan authorities are removing street dogs with questionable [music] methods ahead of the World Cup in 2030, which Morocco is hosting alongside Spain and Portugal. [music] The Moroccan government says it has a trap, neuter, vaccinate, return approach to deal with the public health risk posed by stray animals like bites and rabies. But animal rights [music] groups say that inhumane actions are also being used to permanently get rid of them. Videos appear to show how dogs are being forcibly removed during [music] cleanup operations. According to the IAWPC, the only way to humanely respond [music] to a free-roaming dog population is to stop lethal control measures, catch, neuter, vaccinate, and return. A fit-for-purpose animal welfare law, humane education, and care for dogs in the environment. It fits into larger questions about the impact of hosting the World Cup like alleged human [music] rights violations and the cost to the environment. What do you think?",
+          "category": "culture",
+          "summary": "This video reports on the disappearance of stray dogs in Morocco ahead of the 2030 FIFA World Cup, which Morocco is co-hosting with Spain and Portugal. While the Moroccan government claims it uses a trap, neuter, vaccinate, and return programme, animal rights groups allege that inhumane methods are also being used. The issue is part of wider concerns about the impact of hosting major sporting events.",
+          "multipleChoice": [
+            {
+              "question": "Which countries are co-hosting the 2030 World Cup alongside Morocco?",
+              "options": [
+                "France and Italy",
+                "Germany and the Netherlands",
+                "Spain and Portugal",
+                "England and Wales"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "According to the IAWPC, what is the only humane way to respond to a free-roaming dog population?",
+              "options": [
+                "To train dogs and find them new owners",
+                "To relocate dogs to shelters outside the city",
+                "To use lethal control measures as a last resort",
+                "To catch, neuter, vaccinate, and return the dogs"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What public health risks does the Moroccan government mention as reasons for dealing with stray animals?",
+              "options": [
+                "Damage to property and food contamination",
+                "Spread of disease and attacks on tourists",
+                "Noise complaints and traffic accidents",
+                "Bites and rabies"
+              ],
+              "correctIndex": 3
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The Moroccan government says it uses a trap, neuter, vaccinate, and return approach to deal with stray dogs.",
+              "answer": true
+            },
+            {
+              "statement": "Morocco is hosting the 2030 World Cup alone, without any co-hosting partners.",
+              "answer": false
+            },
+            {
+              "statement": "Videos have appeared showing dogs being forcibly removed during cleanup operations.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were mentioned in the video.",
+            "items": [
+              "Introduction of the disappearance of stray dogs ahead of the World Cup",
+              "The Moroccan government's explanation of its approach to stray animals",
+              "Animal rights groups claiming inhumane methods are being used",
+              "The connection to wider concerns about hosting the World Cup, such as human rights and environmental costs"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-07-06T06:10:39.363Z",
       "videos": [
         {
