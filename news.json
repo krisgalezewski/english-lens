@@ -1,6 +1,684 @@
 {
   "editions": [
     {
+      "generated": "2026-07-13T08:35:46.421Z",
+      "week": "2026-W28",
+      "articles": [
+        {
+          "id": "1783931509372a1u5",
+          "title": "Poland commemorate WWII massacres by Ukrainians amid tensions with Kyiv",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/07/11/poland-marks-anniversary-of-wwii-massacres-by-ukrainians-amid-diplomatic-dispute-with-kyiv/",
+          "category": "politics",
+          "date": "2026-07-11",
+          "summaryB1": "Every year on July 11th, Poland remembers the Volhynia massacres. These were terrible killings that happened during World War Two. Ukrainian nationalist fighters killed around 100,000 Polish people in the Volhynia region, which is now part of Ukraine. The killings took place mainly between 1943 and 1945. This date is an official day of remembrance in Poland.\n\nThis year, the anniversary is happening at a difficult time. Poland and Ukraine are currently in a diplomatic dispute. The two countries disagree about how to commemorate the victims and how Ukraine should acknowledge what happened. Poland wants Ukraine to formally recognize the massacres as genocide. Ukraine has not fully done this yet.\n\nPoland and Ukraine are both important allies in the region, especially because of the war in Russia. However, history can make their relationship complicated. Many Polish people feel strongly that the victims must be properly honored. They believe this is a matter of national memory and respect.\n\nThe ceremony on July 11th brings together politicians, survivors' families, and ordinary citizens. They gather to pay tribute to those who died. The event reminds people that even friendly countries can have difficult shared histories. Finding a way to remember the past while building a strong future together is a challenge that both nations continue to face.",
+          "vocabularyB1": [
+            {
+              "word": "massacre",
+              "definition": "The killing of a large number of people, especially in a cruel and violent way"
+            },
+            {
+              "word": "commemorate",
+              "definition": "To remember and show respect for an important event or person from the past"
+            },
+            {
+              "word": "diplomatic dispute",
+              "definition": "An official disagreement between two countries about a particular issue"
+            },
+            {
+              "word": "acknowledge",
+              "definition": "To officially accept or admit that something is true or real"
+            },
+            {
+              "word": "tribute",
+              "definition": "Something you do or say to show respect and admiration for someone"
+            }
+          ],
+          "questionB1": "Why do you think it can be difficult for countries to acknowledge painful historical events, and how might this affect diplomatic relations today?",
+          "summaryB2": "Poland marked the 81st anniversary of the Volhynia massacres on July 11th, a date designated as the national Day of Remembrance for Poles killed in the eastern borderlands during World War Two. The atrocities, carried out predominantly by the Ukrainian Insurgent Army between 1943 and 1945, claimed an estimated 100,000 Polish lives in what is now western Ukraine. The commemorations this year were overshadowed by an ongoing diplomatic rift between Warsaw and Kyiv, adding a layer of political tension to an already deeply emotional occasion.\n\nAt the heart of the dispute lies Poland's long-standing demand that Ukraine formally classify the massacres as genocide, a designation Kyiv has resisted. Ukrainian authorities acknowledge the killings but argue that applying the term genocide could inflame internal political divisions and complicate their own historical narrative around wartime resistance movements.\n\nThe timing is particularly delicate given the two countries' interdependence amid Russia's ongoing war in Ukraine. Poland has been one of Kyiv's staunchest supporters, providing military aid, hosting millions of Ukrainian refugees, and advocating for Ukrainian NATO membership. Critics warn that allowing historical grievances to fester risks straining a partnership that both nations need.\n\nProponents of stronger Polish demands argue that genuine reconciliation cannot be achieved without full accountability. The anniversary thus exposes a recurring tension in post-war European politics: the struggle to reconcile national memory with the pragmatic demands of contemporary alliances.",
+          "vocabularyB2": [
+            {
+              "word": "rift",
+              "definition": "A serious disagreement that damages a relationship between people or countries"
+            },
+            {
+              "word": "designation",
+              "definition": "An official name, title, or classification given to something or someone"
+            },
+            {
+              "word": "fester",
+              "definition": "When a problem or bad feeling grows worse over time because it is not resolved"
+            },
+            {
+              "word": "reconciliation",
+              "definition": "The process by which two people or groups become friendly again after a disagreement"
+            },
+            {
+              "word": "grievances",
+              "definition": "Official complaints or feelings of unfairness about something that happened in the past"
+            }
+          ],
+          "questionB2": "To what extent can genuine reconciliation between Poland and Ukraine be achieved if historical grievances over the Volhynia massacres remain officially unresolved, and what does this suggest about memory in modern alliances?"
+        },
+        {
+          "id": "1783931532328m6yw",
+          "title": "Elon Musk and the age of the corporate leviathan",
+          "source": "The Economist Business",
+          "originalUrl": "https://www.economist.com/business/2026/07/08/elon-musk-and-the-age-of-the-corporate-leviathan",
+          "category": "business",
+          "date": "2026-07-08",
+          "summaryB1": "Some of the world's biggest companies are now so large and powerful that the normal rules for running a business no longer seem to apply to them. Elon Musk is a clear example of this. He controls several huge companies, including Tesla, SpaceX, and X, and has also played a role in United States government through a group called DOGE. This has made many people ask: who is actually in charge of these companies, and who do they answer to? In most businesses, a board of directors is supposed to watch over the chief executive and protect the interests of shareholders. However, at companies like Musk's, this kind of oversight is very weak. Musk has so much personal power that boards cannot easily control him. This situation is not unique to Musk. Other founders of giant tech companies have also built structures that give them almost complete control. The result is a new kind of corporation — one that is so dominant in its industry that it operates almost like a government. Critics worry that when a single person has this much power over a company, ordinary investors and the public can suffer. The article argues that we may be entering a new age where a small number of extremely powerful corporate leaders set rules for everyone else.",
+          "vocabularyB1": [
+            {
+              "word": "oversight",
+              "definition": "The process of watching and checking that something is done correctly and fairly."
+            },
+            {
+              "word": "board of directors",
+              "definition": "A group of people elected to manage and control a company on behalf of its owners."
+            },
+            {
+              "word": "shareholders",
+              "definition": "People who own shares, meaning small parts, of a company."
+            },
+            {
+              "word": "dominant",
+              "definition": "Much more powerful or successful than others in the same area."
+            },
+            {
+              "word": "corporation",
+              "definition": "A large company that is legally recognised as a single organisation."
+            }
+          ],
+          "questionB1": "Do you think a board of directors can ever truly control a dominant founder like Elon Musk, or is oversight simply impossible in such cases?",
+          "summaryB2": "A new era of corporate power appears to be taking shape, one in which the world's largest companies operate beyond the reach of conventional governance mechanisms. The Economist's analysis centres on Elon Musk as the most striking embodiment of this trend. Through his simultaneous command of Tesla, SpaceX, X, and his controversial involvement in federal policy via DOGE, Musk has accumulated a degree of personal authority that renders traditional checks and balances largely ceremonial. At most publicly traded firms, shareholders and boards retain the theoretical power to discipline executives. Yet at Musk's enterprises — and at other tech giants built around founder-control structures — accountability has become largely notional. Dual-class share arrangements and cult-of-personality dynamics insulate these leaders from meaningful scrutiny. The article frames this not merely as a story about one individual but as a systemic shift. These so-called corporate leviathans — a term borrowed from Hobbes to describe an all-powerful sovereign entity — have grown so dominant in their respective sectors that they begin to resemble quasi-governmental institutions, setting standards, shaping infrastructure, and influencing public discourse with minimal democratic accountability. Critics argue this concentration of power poses genuine risks to market competition and civil society. Defenders counter that visionary founders create outsized value that justifies their autonomy. What seems clear is that existing regulatory frameworks were not designed for entities of this scale or ambition, leaving policymakers struggling to respond effectively.",
+          "vocabularyB2": [
+            {
+              "word": "governance mechanisms",
+              "definition": "The systems and rules used to control and oversee how an organisation is run."
+            },
+            {
+              "word": "accountability",
+              "definition": "The obligation to explain your actions and accept responsibility for their consequences."
+            },
+            {
+              "word": "dual-class share arrangements",
+              "definition": "A company structure giving founders extra voting power, reducing other shareholders' influence."
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and detailed examination or observation of something or someone."
+            },
+            {
+              "word": "quasi-governmental",
+              "definition": "Describing something that acts similarly to a government but is not officially one."
+            }
+          ],
+          "questionB2": "Given that dual-class share arrangements effectively neutralise shareholder accountability, what new governance mechanisms, if any, could realistically constrain the power of corporate leviathans like Musk's empire?"
+        },
+        {
+          "id": "1783931553178dpy2",
+          "title": "How to train for a heatwave",
+          "source": "The Economist Sci-Tech",
+          "originalUrl": "https://www.economist.com/science-and-technology/2026/07/10/how-to-train-for-a-heatwave",
+          "category": "technology",
+          "date": "2026-07-10",
+          "summaryB1": "As summers get hotter around the world, scientists are looking at ways to help our bodies cope with extreme heat. One simple method that researchers recommend is heat acclimatisation — a process where you regularly expose your body to high temperatures so that it learns to handle them better. One of the easiest ways to do this is by taking hot baths. Spending time in a hot bath for several days in a row can train your body to sweat more efficiently, keep your heart rate lower in the heat, and cool itself down faster. This is good news because not everyone has access to expensive equipment or specialist training facilities. A hot bath at home can produce similar results to working out in a hot gym. Scientists say that even 30 minutes in a hot bath each day for about ten days can make a real difference. This kind of preparation is especially useful for people who live in cooler climates but travel to hot countries, or for workers who spend time outdoors in summer. As heatwaves become more frequent and more intense due to climate change, learning how to protect our bodies from heat stress could help save lives. Simple habits, it turns out, can be surprisingly powerful tools for survival.",
+          "vocabularyB1": [
+            {
+              "word": "acclimatisation",
+              "definition": "The process of getting used to a new or different environment or climate."
+            },
+            {
+              "word": "expose",
+              "definition": "To put someone or something in contact with a particular condition or situation."
+            },
+            {
+              "word": "efficiently",
+              "definition": "In a way that works well without wasting time or energy."
+            },
+            {
+              "word": "frequent",
+              "definition": "Happening often or many times."
+            },
+            {
+              "word": "intense",
+              "definition": "Very strong or extreme in degree."
+            }
+          ],
+          "questionB1": "Do you think acclimatisation methods like hot baths could become more frequent in everyday health routines? Why or why not?",
+          "summaryB2": "With heatwaves intensifying across the globe as a consequence of climate change, researchers are turning their attention to practical strategies for physiological heat adaptation. A growing body of evidence suggests that deliberate heat exposure — most accessibly achieved through hot baths — can trigger meaningful adaptations in the human body, effectively training it to withstand high temperatures with greater resilience. The underlying mechanism involves repeated thermal stress, which prompts the body to increase plasma volume, improve sweat response, and stabilise cardiovascular function under heat load. Remarkably, studies indicate that soaking in a hot bath for approximately 30 minutes daily over a period of around ten days can replicate many of the benefits associated with exercising in hot conditions — without requiring any physical exertion. This has profound implications for public health, particularly for sedentary individuals, the elderly, and those in temperate regions who are unaccustomed to extreme heat but face growing exposure to it. Critics might point out that compliance over ten consecutive days demands a degree of discipline that many people may lack, and that the optimal water temperature and duration still require further investigation. Nevertheless, the simplicity and low cost of this approach make it an appealing complement to broader public health guidance on heatwave preparedness. As extreme weather events become a defining feature of contemporary life, such accessible interventions could prove genuinely life-saving.",
+          "vocabularyB2": [
+            {
+              "word": "physiological",
+              "definition": "Relating to the normal functions and processes of a living body."
+            },
+            {
+              "word": "thermal stress",
+              "definition": "Strain placed on the body by exposure to very high or low temperatures."
+            },
+            {
+              "word": "plasma volume",
+              "definition": "The amount of liquid part of the blood, which helps the body regulate temperature."
+            },
+            {
+              "word": "sedentary",
+              "definition": "Describing a lifestyle or person that involves very little physical activity."
+            },
+            {
+              "word": "compliance",
+              "definition": "The act of following instructions, rules, or a recommended routine consistently."
+            }
+          ],
+          "questionB2": "Given the challenges of ensuring compliance with multi-day routines, how realistic is it to expect sedentary or elderly populations to adopt heat acclimatisation practices before a heatwave strikes?"
+        },
+        {
+          "id": "178393157447159xe",
+          "title": "Why heatwaves hit women harder",
+          "source": "BBC Health",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/c4gyp1knzzxo?at_medium=RSS&at_campaign=rss",
+          "category": "environment",
+          "date": "2026-07-08",
+          "summaryB1": "When the weather gets very hot, most people feel uncomfortable. But new research shows that women are at greater risk from heatwaves than men. Experts are now asking governments and health organisations to pay more attention to this problem and do more to protect women during periods of extreme heat.\n\nThere are several reasons why heat affects women differently. Women's bodies regulate temperature in a different way compared to men's bodies. This means women may struggle more to stay cool when temperatures rise. Some women, especially those who are pregnant or going through menopause, face extra health risks during hot weather. Older women who live alone may also be more vulnerable because they have less support around them.\n\nThe issue is also connected to social factors. In many parts of the world, women spend more time doing physical work indoors or outdoors without proper protection from the heat. They may also have less access to cool spaces like air-conditioned buildings.\n\nExperts believe that current heat warnings and safety plans do not always take women's specific needs into account. They are calling for targeted efforts to raise awareness and provide better protection. This means creating health advice and emergency plans that recognise the risks women face.\n\nAs climate change makes heatwaves more frequent and more intense, understanding who is most at risk becomes even more urgent for public health officials around the world.",
+          "vocabularyB1": [
+            {
+              "word": "regulate",
+              "definition": "To control or manage something so it works at the right level"
+            },
+            {
+              "word": "vulnerable",
+              "definition": "More likely to be harmed or affected by something dangerous"
+            },
+            {
+              "word": "menopause",
+              "definition": "The time in a woman's life when her monthly periods permanently stop"
+            },
+            {
+              "word": "targeted",
+              "definition": "Aimed specifically at a particular group or problem"
+            },
+            {
+              "word": "intense",
+              "definition": "Very strong or extreme in degree"
+            }
+          ],
+          "questionB1": "Why do you think targeted health advice for vulnerable groups like women is often missing from government heat safety plans?",
+          "summaryB2": "As climate change drives heatwaves to become more frequent and severe, a growing body of expert opinion is highlighting a troubling disparity: women face disproportionately higher health risks from extreme heat than men. Researchers and health professionals are now calling on governments and public health bodies to move beyond one-size-fits-all heat guidance and instead adopt more gender-sensitive approaches to heat protection.\n\nThe physiological differences between male and female bodies play a central role in this disparity. Women's thermoregulation — the body's ability to maintain a stable internal temperature — functions differently, often making it harder for women to cool down efficiently during extreme heat events. Certain life stages amplify these risks considerably. Pregnant women face dangers including premature birth and complications linked to overheating, while those going through menopause may already experience disrupted temperature regulation, leaving them especially exposed.\n\nBeyond biology, socioeconomic factors compound the problem. Women in many regions are more likely to work in poorly ventilated environments or lack reliable access to air conditioning and cool public spaces. Elderly women living alone represent a particularly at-risk demographic, often lacking the social networks that might otherwise prompt timely intervention during a heat emergency.\n\nDespite these well-documented risks, existing heat-health action plans rarely account for gender-specific vulnerabilities. Experts argue that without deliberate, evidence-based policy reforms, women will continue to bear an unfair burden as global temperatures rise. Raising awareness is only a first step; structural change in how societies prepare for and respond to extreme heat is urgently needed.",
+          "vocabularyB2": [
+            {
+              "word": "disparity",
+              "definition": "A clear and often unfair difference between two things or groups"
+            },
+            {
+              "word": "disproportionately",
+              "definition": "To a degree that is too large or too small compared to what is expected or fair"
+            },
+            {
+              "word": "thermoregulation",
+              "definition": "The body's process of keeping its internal temperature stable and balanced"
+            },
+            {
+              "word": "compound",
+              "definition": "To make an already difficult situation worse by adding more problems"
+            },
+            {
+              "word": "demographic",
+              "definition": "A specific group of people defined by shared characteristics such as age or gender"
+            }
+          ],
+          "questionB2": "To what extent do you think existing public health systems are structurally equipped to address the disproportionate risks that specific demographic groups face during extreme heat events?"
+        },
+        {
+          "id": "1783931596570x64l",
+          "title": "Netflix reportedly among parties in talks to buy Letterboxd",
+          "source": "The Guardian Culture",
+          "originalUrl": "https://www.theguardian.com/film/2026/jul/10/letterboxd-netflix-sales-talks",
+          "category": "culture",
+          "date": "2026-07-10",
+          "summaryB1": "Letterboxd is a popular social platform where people can track the films they watch, write reviews, and follow other movie fans. It was created in New Zealand and has grown to have millions of users around the world. Now, the company may be sold to a large media or entertainment business.\n\nAccording to an industry newsletter called Puck, several major companies are in talks to buy Letterboxd. These include Netflix, the streaming giant, as well as Sony Pictures and Paramount, which are both well-known film studios. A sale like this has not been confirmed yet, but the reports suggest serious discussions are happening.\n\nFor Letterboxd users, a sale could mean big changes. If a company like Netflix acquires the platform, it might use it to promote its own films and series. This could change the independent feel that many users love about the site. Some people worry that the platform could become less neutral if it is owned by a studio that produces its own content.\n\nAt the same time, a sale could bring more resources to Letterboxd, helping it grow and improve. The outcome will depend on which company becomes the new owner and what their plans are. Film lovers who use the platform regularly are watching these developments with great interest.",
+          "vocabularyB1": [
+            {
+              "word": "platform",
+              "definition": "A website or app where people share content or connect with others online"
+            },
+            {
+              "word": "studio",
+              "definition": "A company that makes and produces films or television shows"
+            },
+            {
+              "word": "acquires",
+              "definition": "Gets or buys something, especially a company or property"
+            },
+            {
+              "word": "neutral",
+              "definition": "Not supporting one side, person, or opinion more than another"
+            },
+            {
+              "word": "streaming",
+              "definition": "Watching or listening to media directly over the internet without downloading it"
+            }
+          ],
+          "questionB1": "If a large studio acquires Letterboxd, do you think the platform will stay neutral for all film fans? Why or why not?",
+          "summaryB2": "Letterboxd, the New Zealand-born social network that allows film enthusiasts to log, rate, and review movies, is reportedly in acquisition talks with some of the biggest names in the entertainment industry. According to Puck, a well-regarded industry newsletter, potential buyers include Netflix, Sony Pictures, and Paramount — a constellation of suitors that reflects just how valuable niche, engaged online communities have become to media corporations.\n\nFounded in 2011, Letterboxd has cultivated a devoted, highly active user base that skews towards cinephiles and younger audiences. Its appeal lies partly in its independence from any single studio or distributor, giving it a reputation for authenticity that mainstream platforms often struggle to maintain. The prospect of a takeover by a content-producing giant like Netflix therefore raises questions about editorial integrity and whether the platform's community-driven culture could survive corporate ownership.\n\nFrom a business perspective, the strategic rationale for such a deal is clear. A buyer like Netflix could use Letterboxd's vast trove of user data and behavioural patterns to refine its recommendation algorithms and better target content at specific audiences. Sony and Paramount, meanwhile, might see ownership as a way to gain visibility for their releases among an already film-literate demographic.\n\nNo deal has been confirmed, and negotiations at this stage remain speculative. Nevertheless, the reported interest from multiple major players signals that Letterboxd's cultural cachet has translated into genuine commercial appeal, leaving its passionate community anxious about what any change of ownership might mean for the site they love.",
+          "vocabularyB2": [
+            {
+              "word": "acquisition",
+              "definition": "The act of buying or taking ownership of a company or asset"
+            },
+            {
+              "word": "cultivated",
+              "definition": "Carefully developed or built something over a long period of time"
+            },
+            {
+              "word": "takeover",
+              "definition": "When one company buys and takes control of another company"
+            },
+            {
+              "word": "cachet",
+              "definition": "A quality that makes something respected, admired, or desirable"
+            },
+            {
+              "word": "speculative",
+              "definition": "Based on guesses or incomplete information rather than confirmed facts"
+            }
+          ],
+          "questionB2": "Given Letterboxd's carefully cultivated reputation for independence, what risks does a takeover by a content-producing corporation pose to the trust and authenticity its community values?"
+        },
+        {
+          "id": "17839316201505sx5",
+          "title": "British couple return to village at heart of deadly Spanish wildfire",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cx24e09x79no?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-07-13",
+          "summaryB1": "A deadly wildfire swept through the Almeria province in southern Spain on Thursday, killing at least 13 people. Among the victims, five are believed to be British nationals. The fire spread very quickly, forcing many residents and tourists to flee their homes and hotels in a hurry. One British couple managed to escape the flames and later returned to their village to see what remained of it. They described the scene as shocking, with many buildings destroyed and the area covered in ash. Wildfires are common in southern Spain during summer, when the weather is hot and dry, and strong winds can help fires travel fast. The Almeria region is popular with foreign residents, especially British people who have retired there. Emergency services worked hard to bring the fire under control, but the dry conditions made this very difficult. Local authorities urged people to follow evacuation orders and not return to dangerous areas too soon. Events like this remind us how destructive wildfires can be, especially for communities in regions with a warm climate. Many families are still waiting for news about missing relatives, and rescue teams continue to search the affected areas.",
+          "vocabularyB1": [
+            {
+              "word": "wildfire",
+              "definition": "A large, uncontrolled fire that spreads quickly through forests or countryside."
+            },
+            {
+              "word": "flee",
+              "definition": "To run away quickly from danger or a bad situation."
+            },
+            {
+              "word": "evacuation",
+              "definition": "The process of moving people away from a dangerous place to safety."
+            },
+            {
+              "word": "residents",
+              "definition": "People who live permanently in a particular place or area."
+            },
+            {
+              "word": "destructive",
+              "definition": "Causing a lot of damage or harm to things or people."
+            }
+          ],
+          "questionB1": "If you were a local resident and had to flee your home because of a wildfire, what would be the most difficult part of the experience?",
+          "summaryB2": "A ferocious wildfire that tore through Spain's Almeria province on Thursday has left at least 13 people dead, with five of the victims tentatively identified as British nationals. The disaster has drawn international attention, partly because Almeria is home to a sizeable expatriate community, many of whom are retirees from the United Kingdom who settled in the region drawn by its warm climate and relatively low cost of living. One British couple, having narrowly escaped the advancing flames, made an emotional return to their village, only to find widespread devastation. Their account paints a harrowing picture of a community grappling with the aftermath of one of the deadliest wildfires to hit the area in recent memory. Spanish emergency services faced formidable challenges in containing the blaze, as persistent drought conditions and strong winds accelerated its spread across the parched terrain. Authorities issued urgent evacuation orders, though compliance was uneven, which may have contributed to the death toll. The tragedy also reignites a recurring debate about wildfire preparedness in southern Europe, where climate patterns have made such events more frequent and more intense. For the affected families — both Spanish and foreign — the immediate priority remains accounting for missing individuals, while questions about long-term rebuilding and the vulnerability of expatriate communities in disaster-prone regions are likely to follow.",
+          "vocabularyB2": [
+            {
+              "word": "expatriate",
+              "definition": "A person who lives permanently outside their home country, often by choice."
+            },
+            {
+              "word": "harrowing",
+              "definition": "Extremely distressing or upsetting, causing strong feelings of fear or sadness."
+            },
+            {
+              "word": "formidable",
+              "definition": "Very difficult to deal with and requiring great effort or skill."
+            },
+            {
+              "word": "parched",
+              "definition": "Extremely dry, especially land or ground that has had no rain for a long time."
+            },
+            {
+              "word": "reignites",
+              "definition": "Causes a debate or feeling to start again after it had stopped or faded."
+            }
+          ],
+          "questionB2": "Given that harrowing events like this reignite debate about wildfire preparedness, what responsibilities do governments have towards expatriate communities living in disaster-prone regions, and how should those responsibilities be balanced with individual choice?"
+        },
+        {
+          "id": "17839316407215ujw",
+          "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
+          "source": "BBC Business",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cevlr112pmgo?at_medium=RSS&at_campaign=rss",
+          "category": "business",
+          "date": "2026-07-13",
+          "summaryB1": "The United States and Iran are in a very dangerous conflict. Recently, the US carried out military attacks against Iran. Shortly after, Iran said it had struck US military bases in three countries: Kuwait, Jordan, and Bahrain. These are countries where American soldiers are based in the Middle East.\n\nThe Strait of Hormuz is a narrow stretch of water between Iran and the Arabian Peninsula. It is one of the most vital shipping routes in the world. Around 20% of the world's oil passes through it every day. If this route is blocked or threatened, oil prices around the world could rise sharply.\n\nTensions between the US and Iran have been building for many years. The two countries disagree strongly about nuclear weapons, regional power, and support for different military groups in the Middle East.\n\nThis latest exchange of attacks is very worrying for global trade and energy supplies. Many countries depend on oil that travels through the Strait of Hormuz. A serious conflict in this region could disrupt supplies and cause economic problems worldwide.\n\nThe situation is still developing, and world leaders are watching closely. Many people are calling for both sides to stop the violence before things get worse. The coming days will be very important for peace and stability in the region.",
+          "vocabularyB1": [
+            {
+              "word": "military base",
+              "definition": "A place where soldiers live and work, controlled by an army or government"
+            },
+            {
+              "word": "tensions",
+              "definition": "A feeling of worry and unfriendliness between people or countries that may lead to conflict"
+            },
+            {
+              "word": "strait",
+              "definition": "A narrow area of water connecting two larger bodies of water"
+            },
+            {
+              "word": "disrupt",
+              "definition": "To stop something from continuing normally or working as expected"
+            },
+            {
+              "word": "stability",
+              "definition": "A situation where things are calm, safe, and not changing in a dangerous way"
+            }
+          ],
+          "questionB1": "Why might tensions in the Strait of Hormuz disrupt daily life for people in countries far away from the conflict?",
+          "summaryB2": "Hostilities between the United States and Iran have escalated dramatically, with both sides exchanging military strikes in a dangerous cycle of retaliation. Within hours of fresh US attacks, Iranian forces claimed to have targeted American military installations in Kuwait, Jordan, and Bahrain — three Gulf states hosting substantial US military presence.\n\nAt the heart of international concern lies the Strait of Hormuz, the narrow waterway separating Iran from the Arabian Peninsula. This chokepoint handles approximately one-fifth of the world's daily oil supply, making it one of the most strategically sensitive passages in global trade. Any prolonged confrontation threatening freedom of navigation there could send energy markets into turmoil and destabilise economies worldwide.\n\nThe current crisis did not emerge in isolation. US-Iran relations have long been defined by deep mutual mistrust, rooted in disputes over Iran's nuclear programme, its regional ambitions, and its backing of various proxy forces across the Middle East. Each round of strikes risks drawing other regional actors further into the conflict.\n\nFor global markets and governments alike, the implications are sobering. Oil-importing nations face potential price shocks, while shipping companies may be forced to reroute vessels at considerable cost. Diplomatic channels appear dangerously strained, and the international community faces mounting pressure to broker a ceasefire before the situation spirals beyond control. Whether either side is willing to de-escalate remains deeply uncertain.",
+          "vocabularyB2": [
+            {
+              "word": "retaliation",
+              "definition": "An action taken to harm someone because they harmed you first; revenge"
+            },
+            {
+              "word": "chokepoint",
+              "definition": "A narrow and critical passage where traffic or trade can easily be blocked or controlled"
+            },
+            {
+              "word": "proxy forces",
+              "definition": "Armed groups that fight on behalf of a more powerful country, often secretly or indirectly"
+            },
+            {
+              "word": "de-escalate",
+              "definition": "To reduce the level of conflict or tension between opposing sides"
+            },
+            {
+              "word": "broker",
+              "definition": "To arrange or negotiate an agreement between two opposing parties"
+            }
+          ],
+          "questionB2": "Given that both sides appear unwilling to de-escalate, what responsibilities do third-party nations have to broker a ceasefire, and what obstacles might prevent them from doing so effectively?"
+        },
+        {
+          "id": "17839316622871iil",
+          "title": "How the biggest trees survive droughts",
+          "source": "The Economist Sci-Tech",
+          "originalUrl": "https://www.economist.com/science-and-technology/2026/07/08/how-the-biggest-trees-survive-droughts",
+          "category": "technology",
+          "date": "2026-07-08",
+          "summaryB1": "Trees are among the largest living things on Earth, but being very tall creates a serious problem: getting water to the top. Water must travel from the roots up through the trunk and branches to the leaves. This journey can be more than 100 metres in a giant tree. During a drought, when there is very little rain, this becomes even harder. Scientists have been studying how the biggest trees manage to survive these dry periods without dying.\n\nResearchers discovered that tall trees use a clever system to move water upward. The water travels through tiny tubes inside the wood. These tubes work a bit like a pump, pulling water up using tension, similar to how a straw works. The tree must keep this system working even when water in the soil is scarce.\n\nOne important finding is that the structure of these tubes changes as the tree grows taller. Near the top, the tubes are built differently to handle the extra pressure needed to pull water so high. This adaptation helps the tree cope with dry conditions.\n\nThis research matters because climate change is making droughts more frequent and severe. Understanding how trees survive dry periods could help scientists protect forests in the future. Forests store large amounts of carbon, so keeping them healthy is good for the whole planet.",
+          "vocabularyB1": [
+            {
+              "word": "drought",
+              "definition": "A long period of time with very little or no rain"
+            },
+            {
+              "word": "scarce",
+              "definition": "Not enough of something available; hard to find or get"
+            },
+            {
+              "word": "tension",
+              "definition": "A pulling force that stretches something tight"
+            },
+            {
+              "word": "adaptation",
+              "definition": "A change in a living thing that helps it survive in its environment"
+            },
+            {
+              "word": "cope with",
+              "definition": "To deal successfully with something difficult"
+            }
+          ],
+          "questionB1": "What other adaptations do you think plants or animals might use to cope with drought conditions caused by climate change?",
+          "summaryB2": "Standing over 100 metres tall, the world's largest trees face a fundamental engineering challenge: defying gravity to deliver water from soil to canopy. During droughts, when soil moisture plummets, this challenge becomes potentially lethal. A study published in The Economist's science coverage examines the sophisticated internal mechanisms that allow giant trees to endure prolonged dry spells that would kill smaller vegetation.\n\nThe answer lies in the vascular system within tree trunks — networks of microscopic tubes called xylem, which transport water upward through hydraulic tension rather than any active pumping. This process, known as cohesion-tension, relies on water molecules clinging together as they are drawn upward by evaporation from leaves. The system is inherently precarious: if air bubbles enter the tubes, they can cause an embolism, blocking water flow entirely and potentially killing branches or the whole tree.\n\nWhat makes tall trees remarkable is how their xylem architecture adapts with height. Researchers found that tubes near the crown are narrower and more resistant to embolism, compensating for the immense negative pressure required to pull water to such elevations. This structural refinement represents millions of years of evolutionary fine-tuning.\n\nThe findings carry real urgency. As climate change intensifies drought frequency and severity across forested regions, understanding the thresholds at which even the mightiest trees succumb to hydraulic failure could inform conservation strategies and help predict which forest ecosystems face the greatest vulnerability in coming decades.",
+          "vocabularyB2": [
+            {
+              "word": "vascular system",
+              "definition": "The network of tubes inside a plant that carries water and nutrients"
+            },
+            {
+              "word": "embolism",
+              "definition": "A blockage inside a tube caused by an air bubble, stopping liquid from flowing"
+            },
+            {
+              "word": "precarious",
+              "definition": "Uncertain and likely to become dangerous or to fail at any moment"
+            },
+            {
+              "word": "hydraulic",
+              "definition": "Relating to the movement of water or other liquids through tubes or channels"
+            },
+            {
+              "word": "succumb",
+              "definition": "To fail or die as a result of something overwhelming or difficult to resist"
+            }
+          ],
+          "questionB2": "Given that the vascular system of tall trees may succumb to hydraulic failure during extreme droughts, how should conservationists prioritise which forest species or regions to protect as climate conditions worsen?"
+        },
+        {
+          "id": "17839316807605iph",
+          "title": "Is it true that … we should eat 30 plants a week?",
+          "source": "The Guardian Wellbeing",
+          "originalUrl": "https://www.theguardian.com/lifeandstyle/2026/jul/13/is-it-true-that-we-should-eat-30-plants-a-week",
+          "category": "environment",
+          "date": "2026-07-13",
+          "summaryB1": "You may have heard that eating 30 different plants a week is good for your health. But where does this idea come from, and is it really true? The claim comes from a large study published in 2018. More than 10,000 people from the United States, the United Kingdom, and Australia took part. Each person gave a stool sample and reported what they normally ate. Scientists then looked at the microbes, which are tiny living things, found in those samples. They discovered that people who ate more than 30 different plant foods a week had a more diverse gut microbiome. This means they had a wider variety of different microbes living in their digestive system. People who ate fewer than 10 types of plants had less variety. Because of this study, some companies now sell supplements and products that claim to help people reach this goal. However, experts say that 30 is not a magic number. The difference between eating 25 plants and 30 plants a week is probably not very big. Scientists also admit that we still do not fully understand what a truly healthy gut microbiome looks like. So while eating a wide variety of plants is a good habit, you should not worry too much about hitting an exact number.",
+          "vocabularyB1": [
+            {
+              "word": "microbes",
+              "definition": "Extremely small living things, like bacteria, that you can only see with a microscope"
+            },
+            {
+              "word": "diverse",
+              "definition": "Containing many different types or kinds of something"
+            },
+            {
+              "word": "gut microbiome",
+              "definition": "The community of tiny living things that live inside your digestive system"
+            },
+            {
+              "word": "supplements",
+              "definition": "Products, often pills or powders, that people take to add nutrients to their diet"
+            },
+            {
+              "word": "variety",
+              "definition": "A range of different things of the same general type"
+            }
+          ],
+          "questionB1": "Do you think eating a wide variety of plants is something most people can easily do in their daily lives?",
+          "summaryB2": "The idea that we should eat 30 different plant foods every week has gained considerable traction in popular health culture, fuelling a growing supplements market eager to capitalise on the claim. But the science behind it is more nuanced than it first appears. The recommendation originates from a 2018 study involving over 10,000 participants across the US, UK, and Australia. Researchers collected stool samples and cross-referenced them with self-reported dietary data, finding that individuals consuming more than 30 varieties of plant food per week tended to have a more diverse gut microbiome than those eating fewer than 10. On the surface, this seems like a compelling argument for hitting a specific target. However, scientists caution against treating 30 as a definitive benchmark. The gap between eating 25 and 30 plants weekly is unlikely to produce any meaningful difference in health outcomes. More tellingly, researchers openly acknowledge that we have yet to establish what an optimal gut microbiome actually looks like, which calls into question the entire premise of targeting a precise number. The study demonstrated a correlation between plant diversity and microbial diversity, but correlation does not establish causation. Meanwhile, commercial interests have been quick to exploit the headline figure, promoting products that may offer little tangible benefit. The broader takeaway is straightforward: eating a wide range of plants is generally beneficial, but obsessing over an arbitrary number may be missing the point entirely.",
+          "vocabularyB2": [
+            {
+              "word": "traction",
+              "definition": "When an idea or movement gains attention and becomes widely accepted or talked about"
+            },
+            {
+              "word": "benchmark",
+              "definition": "A standard or reference point used to measure or compare something"
+            },
+            {
+              "word": "correlation",
+              "definition": "A relationship between two things where one tends to change when the other does"
+            },
+            {
+              "word": "premise",
+              "definition": "A basic idea or assumption that forms the basis of an argument or theory"
+            },
+            {
+              "word": "arbitrary",
+              "definition": "Based on random choice or personal preference rather than any clear reason or system"
+            }
+          ],
+          "questionB2": "Given that the study shows only a correlation rather than causation, and that the premise of a fixed benchmark remains scientifically unproven, how should public health advice handle uncertain nutritional evidence?"
+        },
+        {
+          "id": "17839317021305451",
+          "title": "The Guardian view on Homer: The Odyssey is more modern than we might like to think | Editorial",
+          "source": "The Guardian Culture",
+          "originalUrl": "https://www.theguardian.com/commentisfree/2026/jul/10/the-guardian-view-on-homer-the-odyssey-is-more-modern-than-we-might-like-to-think-",
+          "category": "culture",
+          "date": "2026-07-10",
+          "summaryB1": "Christopher Nolan, the famous film director, has made a new movie based on Homer's Odyssey, one of the oldest and most loved stories in the world. The Odyssey is about a man called Odysseus who spends ten years trying to get home after a great war. The film will be released soon and many people are excited about it. However, the casting choices have caused a lot of controversy. Elon Musk was angry because the actress Lupita Nyong'o, who is Kenyan-Mexican, was chosen to play Helen of Troy. He claimed this was disrespectful to the original story. Many people disagree and think his reaction shows his own prejudice rather than any real problem with the film. The Odyssey has inspired writers and artists for nearly 3,000 years. The Roman poet Virgil reworked it in his Aeneid. James Joyce moved the story to Dublin in his novel Ulysses. Margaret Atwood wrote a feminist version called the Penelopiad. Each new adaptation brings something fresh to an ancient story. Hollywood is now giving the story its own treatment for the 21st century. The article argues that the universal themes of the Odyssey, such as the struggle to return home, belong to everyone. Great stories can be adapted and reimagined without disrespecting their origins.",
+          "vocabularyB1": [
+            {
+              "word": "casting",
+              "definition": "The process of choosing actors to play roles in a film or play"
+            },
+            {
+              "word": "controversy",
+              "definition": "A situation that causes strong disagreement or argument among many people"
+            },
+            {
+              "word": "adaptation",
+              "definition": "A new version of a story changed to fit a different time, place, or format"
+            },
+            {
+              "word": "prejudice",
+              "definition": "An unfair opinion about someone based on their race, gender, or background"
+            },
+            {
+              "word": "reimagined",
+              "definition": "Thought about or presented in a completely new and creative way"
+            }
+          ],
+          "questionB1": "Do you think a classic story like the Odyssey can be reimagined with a different cast without losing its original meaning? Why?",
+          "summaryB2": "Christopher Nolan's cinematic adaptation of Homer's Odyssey is generating intense debate well before its general release. The film has drawn fierce criticism from Elon Musk, who reacted with outrage to the casting of Lupita Nyong'o, a Kenyan-Mexican actress, in the role of Helen of Troy. Musk claimed this amounted to disrespecting Homer's legacy, a position the Guardian editorial dismisses as both incoherent and revealing of the man's own biases rather than any genuine concern for cultural heritage. The editorial frames Musk's intervention as a wearily familiar episode in the endless cycle of online culture wars, where figures present themselves as defenders of western civilisation while making claims that do not withstand scrutiny. At stake is a deeper question about who owns ancient stories and whether their retelling must follow rigid ethnic or racial conventions. Homer's Odyssey, which chronicles Odysseus's ten-year journey home after the Trojan War, has never belonged exclusively to one tradition. Its universal themes of endurance, longing, and identity have made it irresistible to successive generations of artists. Virgil appropriated elements of the story for the Aeneid. Joyce transplanted it to early 20th-century Dublin in Ulysses. Margaret Atwood subverted its male-centred perspective in her Penelopiad. Each reworking demonstrates that great literature gains rather than loses vitality through reinterpretation. Nolan's Hollywood version, whatever its merits, continues a long and legitimate tradition of imaginative engagement with one of humanity's foundational narratives.",
+          "vocabularyB2": [
+            {
+              "word": "incoherent",
+              "definition": "Unclear and confused, without logical structure or meaning"
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Careful and detailed examination or investigation of something"
+            },
+            {
+              "word": "appropriated",
+              "definition": "Took something from another source and used it for a new purpose"
+            },
+            {
+              "word": "subverted",
+              "definition": "Challenged or undermined an established idea or system in a creative way"
+            },
+            {
+              "word": "foundational",
+              "definition": "Describing something that forms the basic and most essential part of something larger"
+            }
+          ],
+          "questionB2": "To what extent does Musk's reaction to the casting of Lupita Nyong'o reflect genuine concern for foundational cultural texts, or does it simply reflect the subverted logic of modern culture wars?"
+        },
+        {
+          "id": "1783931723037p02f",
+          "title": "Why Europe still can’t agree on Israel",
+          "source": "Politico Europe",
+          "originalUrl": "https://www.politico.eu/podcast/brussels-playbook-podcast/why-europe-still-cant-agree-on-israel/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "category": "politics",
+          "date": "2026-07-13",
+          "summaryB1": "European Union foreign ministers met in Brussels to discuss a difficult question: should the EU limit trade with Israeli settlements in the West Bank? A growing number of EU countries want the European Commission to propose trade restrictions on goods that come from these settlements. Under international law, these settlements are considered illegal because Israel built them on land that many countries say belongs to the Palestinians. The economic impact of such restrictions would be small because trade with settlements is not very large. However, the political and legal consequences could be much bigger. Countries inside the EU do not agree on this issue. Some support restrictions, while others are against them. This disagreement shows how divided Europe is when it comes to Israel and the Middle East conflict. Critics also say that European Commission President Ursula von der Leyen has not been tough enough in her response to the situation. The debate is difficult because any decision must follow EU law and satisfy many different governments with different opinions. This story shows that the EU often struggles to speak with one voice on foreign policy matters, especially on very sensitive topics like the Israeli-Palestinian conflict.",
+          "vocabularyB1": [
+            {
+              "word": "restrictions",
+              "definition": "Rules that limit or control what people or organisations are allowed to do"
+            },
+            {
+              "word": "settlements",
+              "definition": "Communities built by one group of people on land that another group claims as theirs"
+            },
+            {
+              "word": "consequences",
+              "definition": "The results or effects of an action or decision"
+            },
+            {
+              "word": "divided",
+              "definition": "When a group of people strongly disagree and cannot reach one shared opinion"
+            },
+            {
+              "word": "sensitive",
+              "definition": "Describing a topic that is difficult to discuss because it can upset or offend people"
+            }
+          ],
+          "questionB1": "The EU is deeply divided on whether to impose restrictions on Israeli settlements — do you think it is easier or harder for groups of countries to agree on sensitive topics than for single governments? Why?",
+          "summaryB2": "EU foreign ministers convened in Brussels amid mounting pressure from a coalition of member states urging the European Commission to propose trade restrictions targeting goods produced in illegal Israeli settlements in the West Bank. Although the economic stakes are relatively modest — settlement trade represents a marginal share of overall EU-Israel commerce — the legal and political ramifications are considerably more far-reaching. Analysts Zoya Sheftalovich and Nick Vinocur argue that the real battle is not about trade volumes but about whether the EU is willing to translate its stated commitment to international law into concrete policy. The bloc's deep internal divisions on the Israeli-Palestinian conflict are once again on display. Member states remain polarised between those advocating firm action and those wary of straining ties with Israel or crossing legal red lines. Adding to the tension, Commission President Ursula von der Leyen has drawn sharp criticism from several quarters for what detractors describe as an insufficiently assertive stance on Israeli conduct. The episode exposes a recurring weakness in EU foreign policy: the difficulty of forging a unified position when member states hold fundamentally divergent views. With the conflict in Gaza continuing and humanitarian pressure growing, the gap between the EU's rhetorical commitments and its collective action remains a source of frustration for advocates of a more decisive European response.",
+          "vocabularyB2": [
+            {
+              "word": "ramifications",
+              "definition": "The complex and far-reaching consequences of a decision or event"
+            },
+            {
+              "word": "polarised",
+              "definition": "Divided into two opposite groups with very different opinions, leaving little middle ground"
+            },
+            {
+              "word": "assertive",
+              "definition": "Confident and direct in expressing opinions or taking action, without being aggressive"
+            },
+            {
+              "word": "divergent",
+              "definition": "Different from each other, moving in opposite directions, used about opinions or approaches"
+            },
+            {
+              "word": "rhetorical",
+              "definition": "Related to language used for effect or persuasion, sometimes without matching real action"
+            }
+          ],
+          "questionB2": "Given the EU's deeply polarised member states and the gap between its rhetorical commitments and collective action, what structural or political changes might actually enable the bloc to adopt a more unified foreign policy on conflicts like this?"
+        },
+        {
+          "id": "17839317464211cn9",
+          "title": "DeepSeek Won't Sink U.S. AI Titans",
+          "source": "WSJ Markets",
+          "originalUrl": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+          "category": "business",
+          "date": "2025-01-27",
+          "summaryB1": "A Chinese artificial intelligence company called DeepSeek has recently surprised many people in the technology world. DeepSeek released a new AI model that works very well but costs much less to build than similar American AI systems. This news caused panic among investors, and the stock prices of big American tech companies like Nvidia and Broadcom fell sharply. Many people worried that cheaper AI from China could damage these companies' business.\n\nHowever, financial experts say this reaction was overblown, meaning the fear was much bigger than the real problem. Nvidia makes powerful computer chips that are used to run AI systems, and demand for these chips is still very high. Even if AI becomes cheaper to develop, companies will likely use more of it, which means they will still need lots of chips.\n\nBroadcom is another tech giant that makes hardware used in AI systems. Like Nvidia, it is expected to continue growing despite the competition from China. Analysts say that lower costs in AI usually lead to more investment in the technology, not less. This is good news for American tech companies.\n\nThe situation shows how quickly things can change in the tech sector. Investors sometimes react too fast to new information. The long-term outlook for American AI companies appears to remain positive, even with new competition from abroad.",
+          "vocabularyB1": [
+            {
+              "word": "panic",
+              "definition": "A sudden strong feeling of fear that makes people act without thinking clearly"
+            },
+            {
+              "word": "investor",
+              "definition": "A person who puts money into a company hoping to earn more money back"
+            },
+            {
+              "word": "overblown",
+              "definition": "Made to seem much worse or more serious than it really is"
+            },
+            {
+              "word": "demand",
+              "definition": "The amount that people want to buy a particular product or service"
+            },
+            {
+              "word": "sector",
+              "definition": "A particular area or part of the economy or industry"
+            }
+          ],
+          "questionB1": "When investors panic and share prices fall sharply, do you think this always reflects a real problem in that sector? Why or why not?",
+          "summaryB2": "The emergence of DeepSeek, a Chinese AI startup, sent shockwaves through financial markets, triggering a steep selloff in shares of American tech heavyweights including Nvidia and Broadcom. The company's newly released AI model reportedly matches the performance of leading US systems at a fraction of the development cost, prompting fears that American dominance in artificial intelligence could be under threat.\n\nYet analysts and market observers are urging caution about reading too much into the initial market reaction. The selloff, many argue, reflects a classic case of speculative overreaction rather than a rational reassessment of these companies' long-term prospects. Nvidia, whose chips underpin the vast majority of AI infrastructure globally, is unlikely to see demand evaporate simply because AI development becomes more cost-efficient. On the contrary, cheaper AI tends to stimulate broader adoption, which in turn drives greater consumption of the very hardware Nvidia and Broadcom supply.\n\nThis dynamic, sometimes called the Jevons paradox in economic theory, suggests that efficiency gains in a technology often lead to increased overall usage rather than reduced spending. From this perspective, DeepSeek's breakthrough could ultimately expand the market rather than erode it.\n\nFor Broadcom, which supplies custom AI chips and networking components, the outlook remains similarly constructive. While the competitive threat from Chinese AI firms deserves close monitoring, the prevailing view among analysts is that the panic surrounding DeepSeek's arrival was a disproportionate response to a genuinely complex but manageable shift in the global AI environment.",
+          "vocabularyB2": [
+            {
+              "word": "selloff",
+              "definition": "A rapid sale of stocks or assets, usually causing prices to fall sharply"
+            },
+            {
+              "word": "speculative overreaction",
+              "definition": "When investors respond to news with excessive emotion rather than careful, evidence-based thinking"
+            },
+            {
+              "word": "underpin",
+              "definition": "To support or form the foundation of something, making it work or succeed"
+            },
+            {
+              "word": "erode",
+              "definition": "To slowly reduce or weaken something over time"
+            },
+            {
+              "word": "disproportionate",
+              "definition": "Too large or too small compared to what would be expected or fair"
+            }
+          ],
+          "questionB2": "Given that efficiency gains in technology can stimulate demand rather than erode it, how should investors and policymakers evaluate genuine competitive threats versus disproportionate market panic in the AI industry?"
+        }
+      ]
+    },
+    {
       "generated": "2026-07-06T05:58:13.842Z",
       "week": "2026-W27",
       "articles": [
