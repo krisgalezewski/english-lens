@@ -32,7 +32,6 @@ const FEEDS = [
   { url: 'https://notesfrompoland.com/feed/',                             category: 'business',     name: 'Notes from Poland',   publisher: 'Notes from Poland' },
   { url: 'https://www.economist.com/business/rss.xml',                    category: 'business',     name: 'The Economist Business', publisher: 'The Economist' },
   { url: 'https://www.economist.com/finance-and-economics/rss.xml',       category: 'business',     name: 'The Economist Finance', publisher: 'The Economist' },
-  { url: 'https://feeds.a.dj.com/rss/RSSMarketsMain.xml',                 category: 'business',     name: 'WSJ Markets',         publisher: 'Wall Street Journal' },
 
   // Technology
   { url: 'https://feeds.bbci.co.uk/news/technology/rss.xml',             category: 'technology',   name: 'BBC Technology',      publisher: 'BBC' },
@@ -110,8 +109,21 @@ async function main() {
   const dedupedRelevant = categoryCorrected.filter(a => !seenArchiveTitles.has(normaliseTitle(a.title)));
   console.log(`🔍  ${categoryCorrected.length - dedupedRelevant.length} duplicate(s) removed from archive`);
 
+  // Freshness filter — reject articles older than 14 days.
+  // Some RSS feeds (notably WSJ) include old "related" articles alongside
+  // fresh content; this prevents stale articles from slipping through.
+  const fourteenDaysAgo = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+  const fresh = dedupedRelevant.filter(a => {
+    if (!a.date || a.date < fourteenDaysAgo) {
+      console.log(`  🗓  Skipping stale article (${a.date}): ${a.title.slice(0, 60)}`);
+      return false;
+    }
+    return true;
+  });
+  console.log(`📅  ${dedupedRelevant.length - fresh.length} stale article(s) removed (older than 14 days)`);
+
   // 3. Select a balanced set across categories
-  const selected = selectBalanced(dedupedRelevant, ARTICLES_PER_RUN, MAX_PER_CATEGORY);
+  const selected = selectBalanced(fresh, ARTICLES_PER_RUN, MAX_PER_CATEGORY);
   console.log(`🎯  Selected ${selected.length} articles for this week`);
 
   // 4. Generate summaries and vocabulary for each

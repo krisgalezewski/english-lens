@@ -619,62 +619,6 @@
             }
           ],
           "questionB2": "Given the EU's deeply polarised member states and the gap between its rhetorical commitments and collective action, what structural or political changes might actually enable the bloc to adopt a more unified foreign policy on conflicts like this?"
-        },
-        {
-          "id": "17839317464211cn9",
-          "title": "DeepSeek Won't Sink U.S. AI Titans",
-          "source": "WSJ Markets",
-          "originalUrl": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
-          "category": "business",
-          "date": "2025-01-27",
-          "summaryB1": "A Chinese artificial intelligence company called DeepSeek has recently surprised many people in the technology world. DeepSeek released a new AI model that works very well but costs much less to build than similar American AI systems. This news caused panic among investors, and the stock prices of big American tech companies like Nvidia and Broadcom fell sharply. Many people worried that cheaper AI from China could damage these companies' business.\n\nHowever, financial experts say this reaction was overblown, meaning the fear was much bigger than the real problem. Nvidia makes powerful computer chips that are used to run AI systems, and demand for these chips is still very high. Even if AI becomes cheaper to develop, companies will likely use more of it, which means they will still need lots of chips.\n\nBroadcom is another tech giant that makes hardware used in AI systems. Like Nvidia, it is expected to continue growing despite the competition from China. Analysts say that lower costs in AI usually lead to more investment in the technology, not less. This is good news for American tech companies.\n\nThe situation shows how quickly things can change in the tech sector. Investors sometimes react too fast to new information. The long-term outlook for American AI companies appears to remain positive, even with new competition from abroad.",
-          "vocabularyB1": [
-            {
-              "word": "panic",
-              "definition": "A sudden strong feeling of fear that makes people act without thinking clearly"
-            },
-            {
-              "word": "investor",
-              "definition": "A person who puts money into a company hoping to earn more money back"
-            },
-            {
-              "word": "overblown",
-              "definition": "Made to seem much worse or more serious than it really is"
-            },
-            {
-              "word": "demand",
-              "definition": "The amount that people want to buy a particular product or service"
-            },
-            {
-              "word": "sector",
-              "definition": "A particular area or part of the economy or industry"
-            }
-          ],
-          "questionB1": "When investors panic and share prices fall sharply, do you think this always reflects a real problem in that sector? Why or why not?",
-          "summaryB2": "The emergence of DeepSeek, a Chinese AI startup, sent shockwaves through financial markets, triggering a steep selloff in shares of American tech heavyweights including Nvidia and Broadcom. The company's newly released AI model reportedly matches the performance of leading US systems at a fraction of the development cost, prompting fears that American dominance in artificial intelligence could be under threat.\n\nYet analysts and market observers are urging caution about reading too much into the initial market reaction. The selloff, many argue, reflects a classic case of speculative overreaction rather than a rational reassessment of these companies' long-term prospects. Nvidia, whose chips underpin the vast majority of AI infrastructure globally, is unlikely to see demand evaporate simply because AI development becomes more cost-efficient. On the contrary, cheaper AI tends to stimulate broader adoption, which in turn drives greater consumption of the very hardware Nvidia and Broadcom supply.\n\nThis dynamic, sometimes called the Jevons paradox in economic theory, suggests that efficiency gains in a technology often lead to increased overall usage rather than reduced spending. From this perspective, DeepSeek's breakthrough could ultimately expand the market rather than erode it.\n\nFor Broadcom, which supplies custom AI chips and networking components, the outlook remains similarly constructive. While the competitive threat from Chinese AI firms deserves close monitoring, the prevailing view among analysts is that the panic surrounding DeepSeek's arrival was a disproportionate response to a genuinely complex but manageable shift in the global AI environment.",
-          "vocabularyB2": [
-            {
-              "word": "selloff",
-              "definition": "A rapid sale of stocks or assets, usually causing prices to fall sharply"
-            },
-            {
-              "word": "speculative overreaction",
-              "definition": "When investors respond to news with excessive emotion rather than careful, evidence-based thinking"
-            },
-            {
-              "word": "underpin",
-              "definition": "To support or form the foundation of something, making it work or succeed"
-            },
-            {
-              "word": "erode",
-              "definition": "To slowly reduce or weaken something over time"
-            },
-            {
-              "word": "disproportionate",
-              "definition": "Too large or too small compared to what would be expected or fair"
-            }
-          ],
-          "questionB2": "Given that efficiency gains in technology can stimulate demand rather than erode it, how should investors and policymakers evaluate genuine competitive threats versus disproportionate market panic in the AI industry?"
         }
       ]
     },
@@ -1863,62 +1807,6 @@
             }
           ],
           "questionB2": "Given the fragmentation of EU foreign policy decision-making, is it realistic to expect member states to cede ground to supranational bodies, or is a unified European voice structurally impossible?"
-        },
-        {
-          "id": "178271523041327o9",
-          "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-          "source": "WSJ Markets",
-          "originalUrl": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
-          "category": "business",
-          "date": "2025-01-27",
-          "summaryB1": "American stock markets fell sharply on Monday after news about a new Chinese artificial intelligence company called DeepSeek. The technology sector was hit the hardest. The Nasdaq, which is a stock market index that includes many technology companies, dropped more than other markets. Many companies that build the infrastructure for AI – things like computer chips and data centres – lost a large part of their value. Nvidia, one of the biggest chip makers in the world, saw its share price fall by 16%. This was one of the biggest single-day drops in the company's history. Investors were worried because DeepSeek appears to offer AI technology that is cheaper and more efficient than what American companies currently provide. If this is true, companies may not need to spend as much money on expensive hardware in the future. This could reduce profits for many American tech firms. The news spread quickly and caused panic among investors. A stock market decline that affects many different companies at the same time is called a rout. This rout showed how quickly confidence in a sector can disappear. For ordinary people, these events matter because many retirement savings are invested in technology stocks, so large drops can affect people's financial futures.",
-          "vocabularyB1": [
-            {
-              "word": "infrastructure",
-              "definition": "The basic systems and equipment needed for something to work, like computers or networks"
-            },
-            {
-              "word": "share price",
-              "definition": "The cost of one small unit of ownership in a company, bought and sold on a market"
-            },
-            {
-              "word": "investor",
-              "definition": "A person who puts money into something, hoping to make more money later"
-            },
-            {
-              "word": "rout",
-              "definition": "A sudden, large fall in stock prices affecting many companies at the same time"
-            },
-            {
-              "word": "sector",
-              "definition": "A group of companies that work in the same area of business, like technology or energy"
-            }
-          ],
-          "questionB1": "When a new foreign company offers cheaper technology, should investors panic and sell their shares, or wait to see what really happens?",
-          "summaryB2": "U.S. equity markets suffered a sharp selloff on Monday, triggered by the emergence of DeepSeek, a Chinese AI startup whose low-cost model has sent shockwaves through the technology industry. The Nasdaq composite bore the brunt of the decline, as companies across the AI supply chain experienced steep losses, with many posting double-digit falls in a single session. Nvidia, whose graphics processing units have become synonymous with the AI boom, saw its stock plunge by 16% – a staggering wipeout of market capitalisation that rattled even seasoned market watchers.\n\nThe selloff reflects mounting anxiety that DeepSeek may have developed an AI system capable of matching or surpassing American rivals at a fraction of the cost. If that assessment proves accurate, the enormous capital expenditure that U.S. tech giants have been channelling into AI hardware could turn out to be excessive, undermining the earnings forecasts that have justified sky-high valuations across the sector.\n\nFrom one perspective, DeepSeek's breakthrough could democratise access to advanced AI, benefiting businesses and consumers worldwide. From another, it represents a direct challenge to the dominance of American technology firms and raises questions about whether export controls on advanced chips have actually slowed China's AI ambitions. Monday's turbulence serves as a reminder that confidence in even the most dominant companies can evaporate with startling speed when a disruptive competitor appears on the horizon.",
-          "vocabularyB2": [
-            {
-              "word": "selloff",
-              "definition": "A rapid decline in stock prices caused by many investors selling their shares at the same time"
-            },
-            {
-              "word": "market capitalisation",
-              "definition": "The total value of a company's shares; calculated by multiplying share price by the number of shares"
-            },
-            {
-              "word": "capital expenditure",
-              "definition": "Large amounts of money a company spends on physical assets like equipment, buildings, or technology"
-            },
-            {
-              "word": "valuation",
-              "definition": "An estimate of how much a company or asset is worth, often based on future earnings expectations"
-            },
-            {
-              "word": "disruptive",
-              "definition": "Describing something that completely changes or overturns the way an existing industry works"
-            }
-          ],
-          "questionB2": "If DeepSeek's low-cost model genuinely undermines the valuation of American AI companies, what does this suggest about the assumptions investors have been making about the long-term profitability of AI infrastructure spending?"
         },
         {
           "id": "1782715249961srun",
