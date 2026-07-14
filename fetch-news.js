@@ -85,6 +85,9 @@ async function main() {
   const relevant = await filterRelevant(client, candidates);
   console.log(`✅  ${relevant.length} articles passed relevance filter`);
 
+  // 3b. Correct categories based on actual article content (not RSS section)
+  const categoryCorrected = await correctCategories(client, relevant);
+
   // 3. Load existing archive to build dedup set
   let archive = { editions: [] };
   try {
@@ -104,8 +107,8 @@ async function main() {
       seenArchiveTitles.add(normaliseTitle(art.title));
     }
   }
-  const dedupedRelevant = relevant.filter(a => !seenArchiveTitles.has(normaliseTitle(a.title)));
-  console.log(`🔍  ${relevant.length - dedupedRelevant.length} duplicate(s) removed from archive`);
+  const dedupedRelevant = categoryCorrected.filter(a => !seenArchiveTitles.has(normaliseTitle(a.title)));
+  console.log(`🔍  ${categoryCorrected.length - dedupedRelevant.length} duplicate(s) removed from archive`);
 
   // 3. Select a balanced set across categories
   const selected = selectBalanced(dedupedRelevant, ARTICLES_PER_RUN, MAX_PER_CATEGORY);
@@ -214,6 +217,66 @@ ${list}`
   }
 
   return relevant;
+}
+
+// ── CATEGORY CORRECTION ───────────────────────────────────────────────────────
+// RSS feeds assign categories based on which section of a news site the article
+// appeared in, which is often misleading — e.g. a war story in BBC Business,
+// a health story in BBC Politics. This step asks Claude to reassign the category
+// based on what the article is actually ABOUT, not where it was published.
+
+async function correctCategories(client, articles) {
+  const VALID_CATS = ['politics', 'business', 'technology', 'environment', 'culture'];
+  const BATCH = 8;
+  const corrected = [...articles];
+
+  for (let i = 0; i < corrected.length; i += BATCH) {
+    const batch = corrected.slice(i, i + BATCH);
+    const list = batch.map((a, idx) =>
+      `${idx + 1}. Current category: ${a.category.toUpperCase()}\n   Title: ${a.title}\n   Summary: ${a.snippet.slice(0, 200)}`
+    ).join('\n\n');
+
+    const msg = await client.messages.create({
+      model: 'claude-sonnet-4-6',
+      max_tokens: 150,
+      messages: [{
+        role: 'user',
+        content: `You are categorising news articles for an English-language digest. The five available categories are:
+- politics: government, elections, international relations, war, diplomacy, law, crime
+- business: economy, markets, companies, finance, trade, employment
+- technology: science, tech, AI, health, medicine, environment (when science-focused)
+- environment: climate, nature, wildlife, sustainability, energy, weather, wellbeing, food, lifestyle
+- culture: arts, entertainment, music, film, travel, books, sport (culture angle), food culture
+
+For each article below, reply with its number and the CORRECT category based on what the article is actually about — not which section of a news website it came from. If the current category is already correct, keep it.
+
+Format: one per line, like: 1:politics  2:business  3:environment
+
+Articles:
+${list}`
+      }]
+    });
+
+    const text = msg.content[0]?.text?.trim() || '';
+    const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
+    for (const line of lines) {
+      const match = line.match(/^(\d+)\s*:\s*(\w+)/);
+      if (!match) continue;
+      const idx = parseInt(match[1]) - 1;
+      const newCat = match[2].toLowerCase();
+      if (idx >= 0 && idx < batch.length && VALID_CATS.includes(newCat)) {
+        const globalIdx = i + idx;
+        if (corrected[globalIdx].category !== newCat) {
+          console.log(`  📋 Recategorised: [${corrected[globalIdx].category}→${newCat}] ${corrected[globalIdx].title.slice(0, 60)}`);
+          corrected[globalIdx] = { ...corrected[globalIdx], category: newCat };
+        }
+      }
+    }
+
+    if (i + BATCH < corrected.length) await sleep(500);
+  }
+
+  return corrected;
 }
 
 // ── ARTICLE SELECTION ─────────────────────────────────────────────────────────
