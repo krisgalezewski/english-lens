@@ -1,6 +1,684 @@
 {
   "editions": [
     {
+      "generated": "2026-07-20T08:27:10.862Z",
+      "week": "2026-W29",
+      "articles": [
+        {
+          "id": "178453580225719tf",
+          "title": "Poland welcomes Zelensky’s five-point plan for resolving dispute over WWII massacres",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/07/18/poland-welcomes-zelenskys-five-point-plan-for-resolving-dispute-over-wwii-massacres/",
+          "category": "politics",
+          "date": "2026-07-18",
+          "summaryB1": "Poland and Ukraine have a painful shared history. During World War Two, Ukrainian nationalist groups killed tens of thousands of Polish civilians in what is now known as the Volhynia massacre. This happened mainly in 1943 and 1944, and it has caused tension between the two countries for many years. Now, Ukrainian President Volodymyr Zelensky has presented a five-point plan to help resolve this long-standing dispute. Poland has welcomed the proposal. One of the main promises in the plan is that Ukraine will open its historical archives. This means researchers and families will be able to access old documents and records about the killings. Ukraine has also pledged to allow more exhumations to take place. Exhumations involve digging up the remains of victims so they can be identified and given a proper burial. For many Polish families, finding the remains of their relatives is extremely meaningful. The plan is seen as a positive step forward in repairing relations between the two neighbouring countries. Poland and Ukraine have generally been close allies since Russia's full-scale invasion of Ukraine in 2022. However, the unresolved issue of the wartime massacres has sometimes created difficulties. Both governments now appear committed to working together to address this sensitive part of their shared past.",
+          "vocabularyB1": [
+            {
+              "word": "resolve",
+              "definition": "To find a solution to a problem or disagreement"
+            },
+            {
+              "word": "dispute",
+              "definition": "A serious disagreement between two people, groups, or countries"
+            },
+            {
+              "word": "archives",
+              "definition": "A collection of historical documents and records kept for reference"
+            },
+            {
+              "word": "exhumations",
+              "definition": "The act of digging up a dead body from the ground"
+            },
+            {
+              "word": "pledged",
+              "definition": "Made a serious and formal promise to do something"
+            }
+          ],
+          "questionB1": "Why do you think allowing exhumations and opening archives might help resolve a painful dispute between two countries?",
+          "summaryB2": "Poland has responded positively to a five-point plan put forward by Ukrainian President Volodymyr Zelensky aimed at settling one of the most fraught chapters in Polish-Ukrainian relations: the Volhynia massacres of 1943–44, in which Ukrainian nationalist forces killed an estimated 100,000 Polish civilians. The killings have long been a source of historical grievance between the two nations, periodically straining diplomatic ties even as Warsaw and Kyiv have maintained a largely cooperative relationship since Russia's full-scale invasion of Ukraine began in 2022. Among the concrete commitments outlined in Zelensky's proposal, Ukraine has pledged to open its historical archives and to permit a greater number of exhumations of massacre victims. Access to archival materials is seen as indispensable for historians and forensic investigators seeking to establish a more complete account of events, while exhumations offer bereaved Polish families the possibility of recovering and properly burying the remains of relatives killed decades ago. Polish officials have welcomed the plan as a tangible gesture of goodwill, though analysts caution that translating such pledges into verifiable action will require sustained political will on both sides. The initiative comes at a delicate moment, with Poland playing a central role in supporting Ukraine militarily and diplomatically amid the ongoing war with Russia. Reconciliation over wartime atrocities is widely regarded as a prerequisite for deepening the two countries' long-term partnership.",
+          "vocabularyB2": [
+            {
+              "word": "fraught",
+              "definition": "Full of difficulties, tension, or negative emotions"
+            },
+            {
+              "word": "grievance",
+              "definition": "A feeling of having been treated unfairly, often held for a long time"
+            },
+            {
+              "word": "indispensable",
+              "definition": "Absolutely necessary; impossible to do without"
+            },
+            {
+              "word": "verifiable",
+              "definition": "Able to be checked or confirmed as true through evidence"
+            },
+            {
+              "word": "atrocities",
+              "definition": "Extremely cruel and violent acts, especially during war"
+            }
+          ],
+          "questionB2": "To what extent can opening archives and permitting exhumations genuinely address deep historical grievances, and what further steps might be needed to achieve lasting reconciliation over wartime atrocities?"
+        },
+        {
+          "id": "17845358242472qiw",
+          "title": "Europe’s public broadcasters go from prime time to hard-to-find",
+          "source": "The Economist Europe",
+          "originalUrl": "https://www.economist.com/europe/2026/07/09/europes-public-broadcasters-go-from-prime-time-to-hard-to-find",
+          "category": "culture",
+          "date": "2026-07-09",
+          "summaryB1": "Public broadcasters in Europe are losing viewers and facing serious problems. These are television and radio channels that governments fund to provide news, culture, and entertainment for everyone. For many years, they were the most popular channels in their countries. Now, fewer people are watching them, especially young people. Teenagers and young adults prefer streaming services like Netflix or YouTube. They find public TV old-fashioned and boring. This means public broadcasters are getting less **funding** because governments see fewer reasons to support them. At the same time, some politicians are attacking these channels, saying they are biased or too expensive. These **critics** want to cut their budgets or even close them. Public broadcasters also struggle to **compete** with big international companies that have much more money to spend on programmes. Some channels are trying to change by making apps and online content, but it is difficult to **attract** young audiences who grew up with social media. The situation is serious because public broadcasters were designed to inform citizens and support local culture. If they disappear or become very weak, people may get their news only from private companies or social media. Many experts say this could damage **democracy**, because good public media helps people stay informed and make better decisions.",
+          "vocabularyB1": [
+            {
+              "word": "funding",
+              "definition": "Money given by a government or organisation to pay for something"
+            },
+            {
+              "word": "critics",
+              "definition": "People who say that something is wrong or bad"
+            },
+            {
+              "word": "compete",
+              "definition": "To try to be more successful than others doing the same thing"
+            },
+            {
+              "word": "attract",
+              "definition": "To make someone interested in or want to come to something"
+            },
+            {
+              "word": "democracy",
+              "definition": "A system where citizens choose their government by voting"
+            }
+          ],
+          "questionB1": "Why is it so difficult for public broadcasters to attract young audiences, and does this matter for democracy?",
+          "summaryB2": "Europe's public broadcasters, long regarded as the **bedrock** of national media ecosystems, are confronting an existential crisis driven by two converging forces: generational indifference and political hostility. Institutions such as the BBC, France Télévisions, and their counterparts across the continent built their reputations on universal reach and editorial independence. Today, that legacy is under threat. Younger audiences have largely **defected** to streaming platforms and social media, leaving public broadcasters with ageing viewership and dwindling relevance in prime-time schedules. The resulting decline in audiences weakens the political case for **sustaining** generous licence fees or state subsidies, creating a vicious cycle of reduced budgets and diminished output quality. Compounding this financial strain is a wave of ideological attacks from populist politicians, who routinely **characterise** public media as elitist or politically slanted, using culture-war rhetoric to justify budget cuts or editorial interference. Attempts to adapt — through streaming apps, social media presence, and youth-oriented content — have met with mixed results, as public broadcasters lack the financial firepower of global platforms. The stakes extend well beyond institutional survival. Public broadcasters have traditionally served as a **bulwark** against misinformation and a guarantor of pluralism in national debates. Their weakening risks leaving citizens more dependent on algorithmically curated feeds and commercially driven outlets, with potentially corrosive effects on informed civic participation across Europe.",
+          "vocabularyB2": [
+            {
+              "word": "bedrock",
+              "definition": "The solid foundation or most basic and reliable part of something"
+            },
+            {
+              "word": "defected",
+              "definition": "Left one group, organisation, or side to join a different one"
+            },
+            {
+              "word": "sustaining",
+              "definition": "Keeping something going or supporting it over a long period of time"
+            },
+            {
+              "word": "characterise",
+              "definition": "To describe something or someone in a particular way, often to influence opinion"
+            },
+            {
+              "word": "bulwark",
+              "definition": "Something that protects against danger or unwanted change; a strong defence"
+            }
+          ],
+          "questionB2": "If public broadcasters have historically served as a bulwark against misinformation, how should governments and societies respond when sustaining them becomes both financially and politically contentious?"
+        },
+        {
+          "id": "17845358442509kpm",
+          "title": "Poland begins construction of €2.3bn deepwater port on Baltic coast",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/07/14/poland-begins-construction-of-e2-3bn-deepwater-port-on-baltic-coast/",
+          "category": "business",
+          "date": "2026-07-14",
+          "summaryB1": "Poland has started building a large new deepwater port on its Baltic Sea coast. The project costs around 2.3 billion euros, making it one of the biggest infrastructure investments in the country's recent history. A deepwater port can handle very large ships that cannot enter smaller, shallower harbours. Construction has now officially begun, and the terminal is expected to be finished in the coming years. The port will not only serve Poland but also its landlocked neighbours – the Czech Republic, Slovakia, Austria, and Hungary. These countries have no access to the sea, so they depend on other nations to import and export goods by ship. Having a nearby terminal on the Baltic coast will make trade cheaper and faster for all of them. For Poland, the port will help boost its economy and strengthen its position as a major trade hub in Central Europe. The project also supports efforts to reduce dependence on more distant ports in Western Europe. Overall, this new terminal could change how goods move across the region and bring economic benefits to several countries at the same time.",
+          "vocabularyB1": [
+            {
+              "word": "deepwater port",
+              "definition": "A harbour deep enough for very large ships to enter and dock safely"
+            },
+            {
+              "word": "landlocked",
+              "definition": "Surrounded by land on all sides, with no access to the sea"
+            },
+            {
+              "word": "infrastructure",
+              "definition": "Basic systems and structures a country needs, like roads, ports, and bridges"
+            },
+            {
+              "word": "terminal",
+              "definition": "A place where ships arrive and goods are loaded or unloaded"
+            },
+            {
+              "word": "hub",
+              "definition": "A central place where many routes or activities meet and connect"
+            }
+          ],
+          "questionB1": "Poland's new deepwater port will serve landlocked countries like Hungary and Slovakia. Do you think sharing infrastructure between neighbours is a good idea? Why?",
+          "summaryB2": "Poland has officially broken ground on a major new deepwater port along its Baltic coastline, with total investment projected at approximately 2.3 billion euros. The development marks one of the most ambitious maritime infrastructure undertakings in the country's post-communist era and reflects Warsaw's ambitions to position itself as a dominant logistics player in Central Europe. The terminal is designed to accommodate large-capacity vessels that exceed the draught limitations of existing Polish ports, opening new possibilities for high-volume seaborne trade. What distinguishes this project from similar regional developments is its explicitly multinational scope. The facility is intended to serve not only domestic freight needs but also to provide sea access for four landlocked neighbours – the Czech Republic, Slovakia, Austria, and Hungary – none of which has direct coastline. For these countries, gaining reliable proximity to a deep-sea terminal could substantially reduce transit costs and ease supply chain dependencies on ports in Hamburg, Trieste, or Rotterdam. From a geopolitical standpoint, the port may also reinforce Poland's strategic role within the European Union's internal market by diversifying trade corridors away from Western European gateways. Critics may question whether projected freight volumes justify the expenditure, but proponents argue that long-term regional integration makes the investment commercially sound. Construction timelines have not yet been fully disclosed, though the project is expected to reshape cargo flows across Central Europe for decades to come.",
+          "vocabularyB2": [
+            {
+              "word": "broke ground",
+              "definition": "Officially started construction of a building or large project"
+            },
+            {
+              "word": "draught limitations",
+              "definition": "The maximum water depth a ship needs, which restricts access to shallower ports"
+            },
+            {
+              "word": "seaborne trade",
+              "definition": "The movement of goods transported by ship across seas or oceans"
+            },
+            {
+              "word": "transit costs",
+              "definition": "Money paid to move goods through a country or via an intermediary route"
+            },
+            {
+              "word": "trade corridors",
+              "definition": "Established routes along which goods regularly move between regions or countries"
+            }
+          ],
+          "questionB2": "Given that the new terminal aims to redirect seaborne trade away from established Western European gateways, how might this shift in trade corridors affect the economic and political balance within the EU?"
+        },
+        {
+          "id": "17845358648759nre",
+          "title": "Demis Hassabis has a plan to harness AI safely",
+          "source": "The Economist Business",
+          "originalUrl": "https://www.economist.com/business/2026/07/14/demis-hassabis-has-a-plan-to-harness-ai-safely",
+          "category": "technology",
+          "date": "2026-07-14",
+          "summaryB1": "Demis Hassabis is one of the most powerful people in artificial intelligence. He co-founded Google DeepMind, one of the world's leading AI research companies. In a recent exclusive interview with The Economist, he shared his vision for the future of AI and explained how he believes it can be developed safely.\n\nAI is becoming more advanced every year. Many people worry that it could become dangerous if it is not controlled properly. Hassabis understands these concerns. He believes that scientists and companies must work carefully to make sure AI benefits humanity rather than causing harm.\n\nHis plan focuses on responsible development. This means testing AI systems thoroughly before releasing them to the public. It also means being transparent about how these systems work and what their limitations are. Hassabis thinks that safety and progress do not have to be in conflict with each other.\n\nGoogle DeepMind has already made remarkable achievements in science, including using AI to solve problems in biology and medicine. Hassabis wants to continue this work while keeping safety at the centre of everything the company does.\n\nThis interview matters because Hassabis is not just a researcher — he is a decision-maker at one of the most powerful technology companies in the world. His approach to AI could influence how the entire industry develops in the coming years.",
+          "vocabularyB1": [
+            {
+              "word": "co-founded",
+              "definition": "Started a company or organisation together with one or more other people"
+            },
+            {
+              "word": "exclusive interview",
+              "definition": "A conversation given to only one journalist or publication, not shared with others"
+            },
+            {
+              "word": "vision",
+              "definition": "A clear idea or plan about what the future should look like"
+            },
+            {
+              "word": "transparent",
+              "definition": "Open and honest, not hiding information from others"
+            },
+            {
+              "word": "remarkable",
+              "definition": "Surprising and impressive in a very positive way"
+            }
+          ],
+          "questionB1": "Do you think it is possible to have a clear vision for making AI safe while still allowing it to develop quickly? Why?",
+          "summaryB2": "Demis Hassabis, the co-founder of Google DeepMind and one of the most influential figures in artificial intelligence, has outlined his strategy for developing AI responsibly in an exclusive interview with The Economist. His intervention comes at a moment when the AI industry is under intense scrutiny from governments, researchers, and the public alike.\n\nHassabis argues that safety and scientific ambition are not mutually exclusive. Rather than treating caution as an obstacle to progress, he advocates for embedding safety considerations directly into the research process from the outset. This stance puts him at the intersection of two camps that often appear opposed: those who want to accelerate AI development and those who urge restraint.\n\nUnder his stewardship, Google DeepMind has achieved notable breakthroughs in scientific domains, particularly in structural biology, where AI has been used to predict protein structures with extraordinary accuracy. Hassabis sees this as a blueprint for how AI can be deployed to address some of humanity's most pressing challenges without compromising ethical standards.\n\nHis broader argument rests on the idea that the most capable AI systems must also be the most accountable. He calls for greater transparency from developers and more rigorous testing before new systems reach the public. Critics might question whether a company with significant commercial interests can truly self-regulate, but Hassabis insists that long-term trust depends on demonstrating restraint as much as capability.\n\nHis vision could shape industry norms for years to come.",
+          "vocabularyB2": [
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and critical examination or attention, often by people in authority"
+            },
+            {
+              "word": "mutually exclusive",
+              "definition": "Describes two things that cannot both be true or happen at the same time"
+            },
+            {
+              "word": "stewardship",
+              "definition": "The responsible management and care of something on behalf of others"
+            },
+            {
+              "word": "blueprint",
+              "definition": "A detailed plan or model that others can follow to achieve something"
+            },
+            {
+              "word": "self-regulate",
+              "definition": "To control your own behaviour or industry without needing outside rules or enforcement"
+            }
+          ],
+          "questionB2": "Given that Google DeepMind operates under significant commercial pressures, how convincing is Hassabis's case that a company can genuinely self-regulate AI development without independent oversight?"
+        },
+        {
+          "id": "1784535885543xxgz",
+          "title": "Volkswagen hires 100 sheep to cut grass at Polish solar farm as experiment in agrivoltaics",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/07/15/volkswagen-hires-100-sheep-to-cut-grass-at-polish-solar-farm-as-experiment-in-agrivoltaics/",
+          "category": "environment",
+          "date": "2026-07-15",
+          "summaryB1": "Volkswagen, the German car company, has started an unusual experiment at a solar farm in Poland. Instead of using machines to cut the grass, they have hired 100 sheep to do the job. The sheep will eat the grass growing between and under the solar panels, keeping the area tidy and clean.\n\nThe project is being run together with a local university. It is part of research into agrivoltaics, which means using the same piece of land for both farming and generating solar energy at the same time. This idea is becoming more popular around the world because it allows farmers and energy companies to share land more efficiently.\n\nSheep are a good choice for this kind of work because they are small enough to move safely around the solar panels without damaging them. They do not need fuel or electricity to operate, and they also produce natural fertiliser for the soil.\n\nFor Volkswagen, this experiment shows that a car manufacturer can also be interested in sustainable farming practices. The company wants to reduce its impact on the environment, and this project is one way to experiment with greener methods.\n\nThe results of the research will help scientists and businesses understand whether combining agriculture with solar energy production is truly practical on a larger scale. Poland, which has been expanding its solar energy capacity, could benefit a great deal from such findings.",
+          "vocabularyB1": [
+            {
+              "word": "solar panels",
+              "definition": "Flat devices that collect sunlight and turn it into electricity"
+            },
+            {
+              "word": "fertiliser",
+              "definition": "A substance added to soil to help plants grow better"
+            },
+            {
+              "word": "manufacturer",
+              "definition": "A company that makes products in large quantities in a factory"
+            },
+            {
+              "word": "sustainable",
+              "definition": "Done in a way that does not damage the environment long term"
+            },
+            {
+              "word": "capacity",
+              "definition": "The maximum amount of something that a system can produce or hold"
+            }
+          ],
+          "questionB1": "Do you think using sheep instead of machines at solar farms is a sustainable idea? What other animals or natural methods could be useful?",
+          "summaryB2": "Volkswagen has launched an experiment at a solar farm in Poland, deploying 100 sheep to manage vegetation between the panels rather than relying on conventional mechanical mowing. The initiative, carried out in collaboration with a local university, serves a dual purpose: it keeps the site maintained while contributing to academic research on agrivoltaics, a discipline that explores the co-location of agricultural activity and photovoltaic energy generation on the same plot of land.\n\nAgrivoltaics has been gaining traction globally as land scarcity and the rapid expansion of renewable energy infrastructure push developers to find more efficient uses of available terrain. By integrating livestock grazing into solar farm management, operators can potentially cut maintenance costs, reduce carbon emissions associated with machinery, and simultaneously support local farming communities.\n\nSheep are considered particularly well-suited to this application. Their compact size allows them to move freely beneath panel arrays without causing structural damage, and their grazing naturally enriches the soil through manure, reducing the need for chemical inputs.\n\nFor Volkswagen, a company under considerable pressure to demonstrate its environmental credentials following past emissions controversies, the project represents an attempt to diversify its green portfolio beyond electric vehicle production. Partnering with a university also lends the initiative scientific legitimacy, ensuring that data gathered will be peer-reviewed and publicly available.\n\nPoland's rapidly expanding solar sector makes it a fitting location for such a pilot scheme, and the findings could inform policy decisions and commercial strategies across Central Europe.",
+          "vocabularyB2": [
+            {
+              "word": "agrivoltaics",
+              "definition": "The practice of using the same land for both solar energy production and farming simultaneously"
+            },
+            {
+              "word": "co-location",
+              "definition": "Placing two different activities or systems in the same physical space"
+            },
+            {
+              "word": "gaining traction",
+              "definition": "Becoming more widely accepted or popular over a period of time"
+            },
+            {
+              "word": "credentials",
+              "definition": "Qualities or achievements that show someone or something is reliable and trustworthy"
+            },
+            {
+              "word": "pilot scheme",
+              "definition": "A small-scale trial project used to test an idea before applying it more widely"
+            }
+          ],
+          "questionB2": "Given Volkswagen's past emissions controversies, how far can a pilot scheme like this genuinely strengthen the company's environmental credentials, and what risks does such reputational repositioning carry?"
+        },
+        {
+          "id": "1784535904946fju4",
+          "title": "US soldier killed and one injured after Iranian attack in Iraq",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-07-19",
+          "summaryB1": "A US soldier has been killed and another injured in an attack in Iraq. This happened just one day after two other American soldiers were killed in Jordan. The US military confirmed both incidents. Iran is believed to be behind the attacks, using groups that support Iran and operate in the region. These groups are sometimes called Iranian-backed militias. The United States has military bases in several countries in the Middle East, including Iraq and Jordan. American soldiers are stationed there to help with security and to fight against terrorist groups. Tensions between the US and Iran have been high for many years. The two countries do not have good relations, and they often disagree about power and influence in the Middle East. When US soldiers are attacked, the American government usually responds strongly. After the deaths in Jordan, US officials said they would take action against those responsible. These recent attacks have put more pressure on the US government to decide how to respond. Many people are worried that the situation could get worse. The loss of American soldiers affects their families deeply. It also affects decisions that political leaders must make about whether to send more troops or to take military action.",
+          "vocabularyB1": [
+            {
+              "word": "confirmed",
+              "definition": "Officially said that something is true or certain"
+            },
+            {
+              "word": "militias",
+              "definition": "Groups of armed people who are not part of the official army"
+            },
+            {
+              "word": "stationed",
+              "definition": "Placed in a particular location, especially soldiers at a military base"
+            },
+            {
+              "word": "tensions",
+              "definition": "A situation where people or countries feel angry or unfriendly toward each other"
+            },
+            {
+              "word": "respond",
+              "definition": "To react to something, especially by taking action"
+            }
+          ],
+          "questionB1": "When soldiers are killed in a foreign country, how should their government respond to reduce tensions and protect its troops?",
+          "summaryB2": "The United States has suffered further casualties in the Middle East, with one soldier killed and another wounded in an Iranian-backed attack in Iraq. The incident occurred just 24 hours after two American soldiers were killed in Jordan, marking a sharp escalation in violence targeting US forces across the region. Washington attributed both attacks to Iran-aligned militant groups, which have grown increasingly active since the outbreak of the Israel-Gaza conflict in October 2023. The US maintains a substantial military presence in Iraq and Jordan, with personnel deployed on counter-terrorism and advisory missions. Iran has long sought to extend its geopolitical influence across the Middle East through proxy forces — armed groups it funds, trains, and directs. This strategy allows Tehran to challenge American power without engaging in direct confrontation. Following the deaths in Jordan, senior US officials vowed retaliation, signalling that a military response was imminent. Analysts warn that any such action risks further destabilising an already volatile region. The deaths have intensified pressure on the Biden administration to strike a difficult balance: responding firmly enough to deter future attacks, yet avoiding a wider armed conflict. Critics on both sides of the political aisle argue that US policy in the region lacks a coherent long-term strategy for managing the threat posed by Iranian proxy networks.",
+          "vocabularyB2": [
+            {
+              "word": "casualties",
+              "definition": "People who are killed or injured, especially in a war or attack"
+            },
+            {
+              "word": "escalation",
+              "definition": "A situation where something, especially conflict, becomes more serious or intense"
+            },
+            {
+              "word": "proxy forces",
+              "definition": "Armed groups controlled or supported by a foreign country to fight on its behalf"
+            },
+            {
+              "word": "retaliation",
+              "definition": "An action taken to harm someone in return for harm they caused you"
+            },
+            {
+              "word": "destabilising",
+              "definition": "Making a country or region less safe, peaceful, or politically secure"
+            }
+          ],
+          "questionB2": "Given the risks of destabilising an already volatile region, what options does the US realistically have for retaliation without triggering a broader armed conflict with Iran?"
+        },
+        {
+          "id": "1784535924852pk9k",
+          "title": "Norway opens new memorial for victims of 2011 massacre",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/c07r9m22gyyo?at_medium=RSS&at_campaign=rss",
+          "category": "culture",
+          "date": "2026-07-20",
+          "summaryB1": "Norway has opened a new memorial in its capital city, Oslo, to remember the victims of a terrible attack that happened in 2011. The memorial is a piece of public artwork, and it was unveiled on Sunday, just before the 15th anniversary of the tragedy. On 22 July 2011, a far-right extremist killed 77 people in two separate attacks. First, he set off a bomb in Oslo city centre, which damaged government buildings. Then he travelled to the island of Utøya, where he opened fire on young people attending a political youth camp. It remains one of the deadliest attacks in Norwegian history. The new artwork is meant to honour the people who lost their lives that day. Memorials like this help communities to grieve together and make sure that terrible events are not forgotten. They also send a message that society stands against hatred and violence. Norway has worked hard to remember the victims with dignity. The opening of this memorial gives families, survivors, and the whole nation a place to gather, reflect, and pay their respects. As the 15th anniversary approaches, many Norwegians are thinking about what happened and how far their country has come since that painful day.",
+          "vocabularyB1": [
+            {
+              "word": "unveiled",
+              "definition": "Officially shown to the public for the first time"
+            },
+            {
+              "word": "anniversary",
+              "definition": "A date that marks when something happened in a previous year"
+            },
+            {
+              "word": "memorial",
+              "definition": "Something built or created to help people remember a person or event"
+            },
+            {
+              "word": "grieve",
+              "definition": "To feel deep sadness, especially after someone has died"
+            },
+            {
+              "word": "dignity",
+              "definition": "The quality of being treated with respect and seriousness"
+            }
+          ],
+          "questionB1": "Why do you think memorials are important for communities that want to grieve together after a tragedy?",
+          "summaryB2": "Norway has inaugurated a new public artwork in Oslo to commemorate the victims of the 22 July 2011 attacks, with the unveiling taking place on Sunday in the lead-up to the 15th anniversary of the atrocity. The assault, carried out by a far-right extremist, claimed 77 lives across two locations: a bomb detonated near government buildings in central Oslo, followed by a mass shooting at a youth political camp on the island of Utøya. The attack remains the deadliest act of domestic terrorism in Norway's modern history. The new memorial forms part of Norway's ongoing effort to honour those who perished while also confronting the ideological hatred that motivated the perpetrator. Public memorials of this kind serve a dual purpose: they offer bereaved families and survivors a dedicated space for reflection, and they function as a collective statement of societal resilience in the face of extremism. The timing of the unveiling, ahead of a landmark anniversary, amplifies its emotional and civic resonance. Norway's handling of the aftermath has drawn international attention over the years, particularly its emphasis on democratic values and measured justice rather than retribution. As the nation marks fifteen years since the tragedy, the memorial stands as both an act of remembrance and a reaffirmation of the values the attack sought to destroy.",
+          "vocabularyB2": [
+            {
+              "word": "inaugurated",
+              "definition": "Formally opened or introduced something, especially with a public ceremony"
+            },
+            {
+              "word": "atrocity",
+              "definition": "An extremely cruel or violent act that shocks people morally"
+            },
+            {
+              "word": "perpetrator",
+              "definition": "A person who carries out a harmful, illegal, or violent act"
+            },
+            {
+              "word": "bereaved",
+              "definition": "Experiencing grief after losing a loved one to death"
+            },
+            {
+              "word": "retribution",
+              "definition": "Punishment given as revenge or as a response to a serious wrong"
+            }
+          ],
+          "questionB2": "How does a society's choice between retribution and restorative justice shape the way bereaved communities and survivors are able to heal after a mass atrocity?"
+        },
+        {
+          "id": "1784535944875nhl2",
+          "title": "Russians turn to cash, putting more strain on slowing wartime economy",
+          "source": "BBC News Europe",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
+          "category": "business",
+          "date": "2026-07-18",
+          "summaryB1": "Russia has been fighting a war against Ukraine for more than four years. This long conflict is causing serious problems for the Russian economy. One big change is that more and more Russians are now using cash instead of paying by card or phone. There are two main reasons for this. First, the Russian government has been cutting off mobile internet in some areas. When people cannot connect to the internet, they cannot use digital payment apps on their phones. Second, many businesses are trying to dodge tax — this means they want to avoid paying money to the government. Paying customers in cash makes it easier to hide income from the authorities. Economists say that when businesses use more cash, the government collects less tax. This puts extra strain on the Russian economy, which is already slowing down because of the war and international sanctions. The shift to cash also makes it harder for the government to track spending and plan its budget. For ordinary Russian citizens, these changes make daily life more difficult and uncertain. The situation shows how a long war can damage not just a country's military, but also its economy and the financial habits of its people.",
+          "vocabularyB1": [
+            {
+              "word": "dodge tax",
+              "definition": "To illegally or dishonestly avoid paying taxes to the government"
+            },
+            {
+              "word": "strain",
+              "definition": "Extra pressure or difficulty put on something, making it harder to function"
+            },
+            {
+              "word": "authorities",
+              "definition": "The official organisations or people who have power to make rules and decisions"
+            },
+            {
+              "word": "sanctions",
+              "definition": "Official penalties or restrictions placed on a country by other countries"
+            },
+            {
+              "word": "track",
+              "definition": "To follow, record, or monitor something carefully over time"
+            }
+          ],
+          "questionB1": "How do you think the strain of avoiding sanctions and switching to cash might affect ordinary Russian people in their daily lives?",
+          "summaryB2": "More than four years into Russia's war against Ukraine, the economic toll on ordinary Russians is becoming increasingly visible — not through military headlines, but in their wallets. According to BBC News, Russians have been turning away from digital payments and reverting to cash in growing numbers, a shift driven by two converging pressures. The first is a series of mobile internet shutdowns imposed by authorities, which have left many citizens unable to use smartphone-based payment systems. The second is a surge in tax evasion, as businesses seek to operate off the books and conceal revenue from state oversight. The consequences are far-reaching. When transactions move into the informal economy, the government's tax base erodes, depriving the state of funds at a time when military expenditure is already stretching public finances. Analysts note that Russia's wartime economy has been slowing, weighed down by sanctions, capital flight, and labour shortages caused by mobilisation. The drift toward cash accelerates this deterioration by reducing fiscal transparency and making monetary policy harder to implement effectively. For businesses, cash offers a way to circumvent bureaucratic and financial pressures. For the Kremlin, however, the trend represents a troubling signal: that the economic architecture built around the war effort may be quietly unravelling at its foundations.",
+          "vocabularyB2": [
+            {
+              "word": "tax evasion",
+              "definition": "The illegal practice of deliberately not paying taxes that are owed to the government"
+            },
+            {
+              "word": "erodes",
+              "definition": "Gradually weakens or reduces something over time, like water wearing away rock"
+            },
+            {
+              "word": "fiscal transparency",
+              "definition": "The degree to which a government's financial activities are open and visible to inspection"
+            },
+            {
+              "word": "circumvent",
+              "definition": "To find a clever way to avoid a rule, law, or obstacle"
+            },
+            {
+              "word": "unravelling",
+              "definition": "Slowly falling apart or coming undone, often after appearing stable for some time"
+            }
+          ],
+          "questionB2": "Given that tax evasion and the shift to cash are eroding Russia's fiscal transparency, what long-term consequences might this have for the Kremlin's ability to sustain its war economy?"
+        },
+        {
+          "id": "1784535966437t8ge",
+          "title": "The European Parliament’s answer to its AI worries: More AI",
+          "source": "Politico Europe",
+          "originalUrl": "https://www.politico.eu/article/the-european-parliaments-answer-to-its-ai-worries-more-ai/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "category": "technology",
+          "date": "2026-07-20",
+          "summaryB1": "The European Parliament is starting to use artificial intelligence (AI) tools in its daily work. The institution has decided to allow AI models from four well-known companies: OpenAI, Meta, Anthropic, and Mistral. This means that members of parliament and their staff will be able to use these tools officially. But why is this happening now? The reason is that many lawmakers were already using AI on their own, without any official rules. This created a problem, because there was no control over how the technology was being used. By bringing these tools inside the institution, the Parliament hopes to regulate how people use them. In other words, the answer to worries about AI is to bring it under official control. This may sound strange — using more AI to solve problems caused by AI — but the Parliament believes it is better to manage the technology than to ignore it. This is a big step for European politics. The EU has already passed laws about AI, so it makes sense that its own Parliament would try to set a good example. How AI is used inside powerful institutions can affect millions of people across Europe, so finding the right approach really matters.",
+          "vocabularyB1": [
+            {
+              "word": "institution",
+              "definition": "A large, established organisation, such as a government body or parliament"
+            },
+            {
+              "word": "official",
+              "definition": "Approved or accepted by people in authority or by an organisation"
+            },
+            {
+              "word": "regulate",
+              "definition": "To control something using rules or laws"
+            },
+            {
+              "word": "lawmakers",
+              "definition": "People whose job is to make laws, such as members of parliament"
+            },
+            {
+              "word": "approach",
+              "definition": "A way of dealing with or thinking about a situation or problem"
+            }
+          ],
+          "questionB1": "Do you think it is a good approach for an institution like the European Parliament to regulate AI by using it officially? Why or why not?",
+          "summaryB2": "In a move that might initially seem paradoxical, the European Parliament is responding to its anxieties about artificial intelligence by formally embracing it. The institution is opening access to AI models developed by OpenAI, Meta, Anthropic, and Mistral, allowing lawmakers and parliamentary staff to use these tools within an officially sanctioned framework. The driving force behind this decision is a practical one: many members of the European Parliament and their aides were already relying on AI tools independently, outside any institutional oversight. Rather than prohibit a trend it could not realistically suppress, the Parliament has opted to bring usage under formal governance. This strategy reflects a broader pattern seen in organisations grappling with fast-moving technology — acknowledging that a blanket ban risks pushing behaviour underground while offering no accountability. By channelling AI use through approved platforms, the Parliament aims to ensure data protection standards are upheld and that usage remains transparent. The timing carries a certain irony. The EU has positioned itself as the world's leading authority on AI regulation, having passed the landmark AI Act. Yet its own legislature was, until now, largely without internal rules on how members could use the technology. Critics may argue that formalising access accelerates dependency on commercial AI providers, raising questions about institutional autonomy. Supporters, however, contend that transparent, regulated use is far preferable to uncontrolled, ad hoc adoption behind closed doors.",
+          "vocabularyB2": [
+            {
+              "word": "paradoxical",
+              "definition": "Describing a situation that seems contradictory or strange but may still be true"
+            },
+            {
+              "word": "sanctioned",
+              "definition": "Officially approved or permitted by an authority"
+            },
+            {
+              "word": "oversight",
+              "definition": "The process of watching and checking that something is done correctly and fairly"
+            },
+            {
+              "word": "accountability",
+              "definition": "The fact of being responsible for decisions and expected to explain them to others"
+            },
+            {
+              "word": "autonomy",
+              "definition": "The right or ability to make your own decisions without being controlled by others"
+            }
+          ],
+          "questionB2": "Given that the EU promotes itself as a global leader in AI regulation, does formalising commercial AI access within its own legislature strengthen or undermine its institutional autonomy and accountability?"
+        },
+        {
+          "id": "1784535988415me41",
+          "title": "In praise of Scandinavia’s risky and dirty playgrounds",
+          "source": "The Economist Europe",
+          "originalUrl": "https://www.economist.com/europe/2026/07/16/in-praise-of-scandinavias-risky-and-dirty-playgrounds",
+          "category": "environment",
+          "date": "2026-07-16",
+          "summaryB1": "In many countries, playgrounds are designed to be very safe. Equipment is soft, surfaces are smooth, and children rarely get hurt. But in Scandinavia, things are different. Many playgrounds there are built to be a little risky and messy on purpose. Children can climb tall structures, play with real tools, and dig in mud. These are sometimes called 'adventure playgrounds.' Experts say that this kind of play helps children develop important skills. When children face small challenges and risks, they learn how to deal with problems and become more confident. They also get better at understanding their own limits. Some research suggests that children who play in natural, unstructured environments are healthier and happier. In contrast, children who grow up in overly protected environments may struggle more with anxiety later in life. Scandinavian countries have a strong tradition of outdoor play. Many schools and kindergartens encourage children to spend time outside in all weather conditions. Parents in these countries generally trust that a few bumps and bruises are a normal part of childhood. This approach to play is now attracting attention around the world. Other countries are beginning to ask whether their own playgrounds are too safe and whether children need more freedom to explore and take risks.",
+          "vocabularyB1": [
+            {
+              "word": "risky",
+              "definition": "Involving the possibility of danger or something going wrong"
+            },
+            {
+              "word": "unstructured",
+              "definition": "Not organised or planned; without fixed rules or a set programme"
+            },
+            {
+              "word": "anxiety",
+              "definition": "A feeling of worry or fear that is hard to control"
+            },
+            {
+              "word": "tradition",
+              "definition": "A custom or way of doing things that has existed for a long time"
+            },
+            {
+              "word": "explore",
+              "definition": "To travel around or try new things in order to discover or learn more"
+            }
+          ],
+          "questionB1": "Do you think children need risky play to explore their limits, or should playgrounds always be as safe as possible?",
+          "summaryB2": "Across much of the Western world, playgrounds have been progressively sanitised — rubberised surfaces, rounded edges, and liability-conscious design have become the norm. Scandinavia, however, has largely resisted this trend. In Denmark, Norway, and Sweden, so-called adventure playgrounds give children access to muddy terrain, fire, real tools, and challenging climbing structures, all under loose adult supervision. Proponents argue that this philosophy of managed risk is not negligent but developmentally sound. Child psychologists and educators point to a growing body of evidence suggesting that exposure to minor physical challenges helps children build resilience, sharpen problem-solving abilities, and develop a realistic sense of their own capabilities. Conversely, over-protective environments may inadvertently contribute to rising rates of childhood anxiety and an inability to cope with everyday setbacks. The Scandinavian model is rooted in a broader cultural ethos that values outdoor life — the Norwegian concept of friluftsliv, or 'open-air living,' being perhaps the most well-known expression of this. Schools and early-years settings routinely send children outside regardless of weather, and parents tend to accept that scrapes and bruises are an unremarkable part of growing up. As anxiety among children climbs in many developed nations, this approach is drawing scrutiny from policymakers and educators elsewhere, prompting a re-examination of what safe childhood environments should actually look like.",
+          "vocabularyB2": [
+            {
+              "word": "sanitised",
+              "definition": "Made excessively clean, safe, or inoffensive, removing anything considered unpleasant or risky"
+            },
+            {
+              "word": "resilience",
+              "definition": "The ability to recover quickly from difficulties or adapt well to challenges"
+            },
+            {
+              "word": "inadvertently",
+              "definition": "Without intending to; accidentally, as an unexpected side effect of something"
+            },
+            {
+              "word": "ethos",
+              "definition": "The characteristic spirit, values, and beliefs of a community or culture"
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Close and detailed examination or critical attention from others"
+            }
+          ],
+          "questionB2": "Given the evidence that sanitised play environments may inadvertently harm children's resilience, what obstacles might prevent other countries from adopting the Scandinavian model of managed risk?"
+        },
+        {
+          "id": "1784536009742phcv",
+          "title": "What Britain’s new leader is learning from Donald Trump",
+          "source": "Politico Europe",
+          "originalUrl": "https://www.politico.eu/article/uk-new-leftist-leader-andy-burnham-learn-donald-trump/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "category": "politics",
+          "date": "2026-07-20",
+          "summaryB1": "Andy Burnham is expected to become the next Prime Minister of the United Kingdom. He has a political style that is very different from traditional British leaders. Burnham loves using social media to talk directly to ordinary people. He often speaks out against snobbish elites — powerful people who look down on others. Many voters feel angry because they believe the government has left them behind, and Burnham says he understands their frustration. His approach reminds many people of Donald Trump in the United States, even though Burnham comes from the political left. Like Trump, Burnham uses strong, simple language and presents himself as someone who fights for forgotten communities. He tries to appeal to working-class voters who feel ignored by mainstream politicians. Some people support his style because they think it gives a voice to those who have been overlooked. Others worry that this kind of angry, us-versus-them politics can divide society. Britain has seen big changes in recent years, including Brexit and growing inequality between rich and poor regions. Burnham, who was previously the Mayor of Greater Manchester, is known for defending the needs of northern England. His rise to national leadership shows how much British politics has changed in recent years.",
+          "vocabularyB1": [
+            {
+              "word": "elites",
+              "definition": "A small group of powerful or wealthy people who have more advantages than others"
+            },
+            {
+              "word": "frustration",
+              "definition": "The feeling of being upset or annoyed because things are not working the way you want"
+            },
+            {
+              "word": "mainstream",
+              "definition": "Belonging to the most common or accepted ideas, groups, or ways of thinking in society"
+            },
+            {
+              "word": "inequality",
+              "definition": "A situation where some people have much more money or opportunity than others"
+            },
+            {
+              "word": "appeal to",
+              "definition": "To attract or interest a particular group of people"
+            }
+          ],
+          "questionB1": "Do you think politicians who appeal to angry voters are good for democracy, or do they make inequality worse?",
+          "summaryB2": "Andy Burnham, the former Mayor of Greater Manchester, is poised to become Britain's next Prime Minister, bringing with him a populist playbook that has drawn striking comparisons to Donald Trump. Despite occupying the opposite end of the political spectrum, Burnham shares several hallmarks of Trump's electoral strategy: a heavy reliance on social media to bypass traditional media gatekeepers, a rhetoric that frames politics as a battle between ordinary working people and a self-serving, snobbish class of elites, and a deliberate effort to mobilise voters who feel economically and culturally left behind. This disenchantment among working-class and post-industrial communities — particularly in England's north — has reshaped British politics in recent years, most visibly through Brexit. Burnham has long positioned himself as a champion of these neglected regions, and his ascent to national leadership suggests that this outsider posture now carries real political currency. Critics, however, caution that stoking grievance politics, even from a progressive standpoint, risks entrenching division rather than addressing the structural causes of frustration. Supporters counter that without acknowledging the genuine anger felt by marginalised communities, centrist politics will continue to cede ground to the far right. Burnham's challenge will be to channel the disenchantment of forgotten voters into a governing programme that actually delivers, rather than simply performing rebellion against an out-of-touch establishment.",
+          "vocabularyB2": [
+            {
+              "word": "populist",
+              "definition": "Describing a political style that claims to represent ordinary people against a powerful or corrupt elite"
+            },
+            {
+              "word": "disenchantment",
+              "definition": "A feeling of disappointment when something you believed in turns out to be less good than expected"
+            },
+            {
+              "word": "mobilise",
+              "definition": "To organise and motivate a group of people to take action, especially in politics"
+            },
+            {
+              "word": "entrenching",
+              "definition": "Making a situation, belief, or problem more deeply fixed and harder to change"
+            },
+            {
+              "word": "cede ground",
+              "definition": "To gradually give up power, support, or influence to someone else"
+            }
+          ],
+          "questionB2": "To what extent does Burnham's populist appeal risk entrenching social divisions, and can a left-wing politician use this strategy without repeating the damaging polarisation seen elsewhere?"
+        },
+        {
+          "id": "1784536030862na1p",
+          "title": "Greeks ready to pick a fight about ‘The Odyssey’",
+          "source": "Politico Europe",
+          "originalUrl": "https://www.politico.eu/article/greeks-ready-to-peak-a-fight-about-the-odyssey-film-christopher-nolan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "category": "culture",
+          "date": "2026-07-20",
+          "summaryB1": "A new film called 'The Odyssey', directed by famous director Christopher Nolan, has just been released. The movie is based on the ancient Greek poem written by Homer, which tells the story of a hero called Odysseus who travels home after a long war. The film has been very popular around the world, with many people going to cinemas to see it. However, in Greece, the country where the original story comes from, the film has caused a lot of debate. Many Greeks have strong feelings about how their cultural heritage is shown in movies made by foreign directors. Some people are happy that the story is getting attention again, while others are not pleased with the way it has been presented. Homer's poem is one of the oldest and most celebrated works of literature in the world. It has been told and retold for thousands of years. Greeks feel a deep connection to this story because it is part of their national identity. When a Hollywood director makes a film based on such a story, it can spark arguments about who has the right to tell it. This situation shows how ancient stories can still stir strong emotions today.",
+          "vocabularyB1": [
+            {
+              "word": "released",
+              "definition": "Made available to the public for the first time, such as a film or book"
+            },
+            {
+              "word": "debate",
+              "definition": "A discussion where people share different or opposing opinions about a topic"
+            },
+            {
+              "word": "heritage",
+              "definition": "Traditions, history, and culture passed down from earlier generations"
+            },
+            {
+              "word": "celebrated",
+              "definition": "Very well known and admired by many people"
+            },
+            {
+              "word": "stir",
+              "definition": "To cause a feeling or reaction to appear or grow stronger"
+            }
+          ],
+          "questionB1": "When a foreign director makes a film based on another country's celebrated heritage, do you think the people from that country have a right to be upset?",
+          "summaryB2": "Christopher Nolan's big-budget adaptation of Homer's 'The Odyssey' has generated considerable buzz internationally, drawing audiences to cinemas in strong numbers since its release. Yet the film has also ignited a heated controversy in Greece, the very birthplace of the ancient epic it seeks to bring to life on screen. For Greeks, 'The Odyssey' is far more than a literary classic — it is a cornerstone of national identity, cultural pride, and historical consciousness. The prospect of a Hollywood filmmaker interpreting such a revered text inevitably invites scrutiny from those who regard it as their own ancestral story. Greek audiences and commentators have reportedly expressed mixed reactions, with some welcoming renewed global interest in Homeric tradition, while others have objected to the perceived appropriation of a narrative so deeply embedded in the Greek cultural imagination. The controversy reflects a wider tension that arises whenever Western commercial cinema engages with stories rooted in specific national or ethnic traditions. Nolan, known for his ambitious and intellectually layered filmmaking, brings considerable prestige to the project, which may partially disarm critics concerned about superficial treatment of the source material. Nevertheless, the response in Greece illustrates how ancient texts retain an extraordinary capacity to provoke contemporary debate, particularly when powerful media industries claim ownership — even implicitly — over stories that communities consider their own.",
+          "vocabularyB2": [
+            {
+              "word": "appropriation",
+              "definition": "Taking something from another culture and using it, often without permission or proper respect"
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and detailed examination or attention, often critical in nature"
+            },
+            {
+              "word": "revered",
+              "definition": "Deeply respected and admired, almost treated as sacred or holy"
+            },
+            {
+              "word": "ignited",
+              "definition": "Suddenly started or caused something, especially a strong reaction or argument"
+            },
+            {
+              "word": "disarm",
+              "definition": "To reduce someone's suspicion, hostility, or criticism, making them less opposed"
+            }
+          ],
+          "questionB2": "To what extent does the commercial appropriation of ancient cultural texts by global film industries risk distorting or undermining the identity of the communities from which those stories originate?"
+        }
+      ]
+    },
+    {
       "generated": "2026-07-13T08:35:46.421Z",
       "week": "2026-W28",
       "articles": [
