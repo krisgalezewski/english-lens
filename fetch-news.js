@@ -435,16 +435,22 @@ Critical rules:
     originalUrl: item.originalUrl,
     category: item.category,
     date: item.date,
-    summaryB1: parsed.summaryB1 || '',
-    vocabularyB1: (parsed.vocabularyB1 || []).slice(0, 5),
-    questionB1: parsed.questionB1 || '',
-    summaryB2: parsed.summaryB2 || '',
-    vocabularyB2: (parsed.vocabularyB2 || []).slice(0, 5),
-    questionB2: parsed.questionB2 || '',
+    summaryB1: stripMarkdown(parsed.summaryB1 || ''),
+    vocabularyB1: (parsed.vocabularyB1 || []).slice(0, 5).map(v => ({ word: stripMarkdown(v.word), definition: stripMarkdown(v.definition) })),
+    questionB1: stripMarkdown(parsed.questionB1 || ''),
+    summaryB2: stripMarkdown(parsed.summaryB2 || ''),
+    vocabularyB2: (parsed.vocabularyB2 || []).slice(0, 5).map(v => ({ word: stripMarkdown(v.word), definition: stripMarkdown(v.definition) })),
+    questionB2: stripMarkdown(parsed.questionB2 || ''),
   };
 }
 
 // ── HELPERS ───────────────────────────────────────────────────────────────────
+
+function stripMarkdown(text) {
+  if (!text) return text;
+  // Remove **bold** and *italic* markers that Claude occasionally includes
+  return text.replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1');
+}
 
 function normaliseTitle(str) {
   return str.toLowerCase().replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim();
