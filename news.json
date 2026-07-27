@@ -1,6 +1,684 @@
 {
   "editions": [
     {
+      "generated": "2026-07-27T08:58:20.412Z",
+      "week": "2026-W30",
+      "articles": [
+        {
+          "id": "1785142462328rojd",
+          "title": "Poland identifies remains of legendary anti-communist resistance fighter",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/07/25/poland-identifies-remains-of-legendary-anti-communist-resistance-fighter/",
+          "category": "politics",
+          "date": "2026-07-25",
+          "summaryB1": "Poland has identified the remains of Mieczysław Dziemieszkiewicz, a famous resistance fighter who used the codename 'Rój', which means 'Swarm' in Polish. He was a soldier who refused to stop fighting even after World War II ended in 1945. At that time, communist forces took control of Poland, and Dziemieszkiewicz believed this was wrong. He led a small armed unit in the forests and continued to resist the new government for many years. Fighters like him are known in Poland as the 'Cursed Soldiers' because they were loyal to their country but were hunted down and treated as criminals by the communist authorities. Dziemieszkiewicz was eventually captured and executed in 1951. His body was hidden in an unmarked grave, as was common with political prisoners at the time. For decades, his family and supporters did not know where he was buried. Scientists and historians worked together to identify his remains using modern methods. The discovery is a moment of recognition for Dziemieszkiewicz and others like him. Many Polish people feel it is right to honour these fighters and give them a proper burial. This kind of identification helps families find peace and keeps the memory of resistance fighters alive for future generations.",
+          "vocabularyB1": [
+            {
+              "word": "codename",
+              "definition": "A secret name used instead of a real name, often in military or spy situations"
+            },
+            {
+              "word": "resistance fighter",
+              "definition": "A person who fights against an unwanted or illegal government or occupying power"
+            },
+            {
+              "word": "executed",
+              "definition": "Killed officially as a punishment, usually by a government or authority"
+            },
+            {
+              "word": "unmarked grave",
+              "definition": "A burial place with no sign or stone to show who is buried there"
+            },
+            {
+              "word": "honour",
+              "definition": "To show great respect for someone, especially for something brave they did"
+            }
+          ],
+          "questionB1": "Why do you think it matters to find and honour resistance fighters like Dziemieszkiewicz, even many decades after their death?",
+          "summaryB2": "Polish authorities have successfully identified the remains of Mieczysław Dziemieszkiewicz, codenamed 'Rój' ('Swarm'), one of the most celebrated figures among Poland's post-war anti-communist underground. Dziemieszkiewicz commanded an armed partisan unit that continued fighting long after the formal conclusion of World War II, refusing to accept the communist regime that had seized control of the country with Soviet backing. His story is part of a larger phenomenon in Polish history: the so-called 'Cursed Soldiers', fighters who waged a guerrilla campaign against the communist state throughout the late 1940s and into the 1950s. The authorities systematically persecuted these men, and Dziemieszkiewicz was eventually captured and executed in 1951. His body was disposed of in a clandestine burial site, a deliberate attempt to erase both his physical remains and his legacy from public memory. The identification was made possible through forensic analysis, a process that has become a tool of historical reckoning in post-communist Poland. For decades, the communist state had sought to suppress the memory of such fighters, branding them as bandits rather than patriots. Since 1989, successive Polish governments have worked to rehabilitate their reputations. The discovery of Dziemieszkiewicz's remains is seen by many as an act of posthumous justice, restoring dignity to a man who was condemned precisely because he refused to submit to an illegitimate authority.",
+          "vocabularyB2": [
+            {
+              "word": "partisan",
+              "definition": "A member of an armed group fighting unofficially against an occupying or oppressive force"
+            },
+            {
+              "word": "clandestine",
+              "definition": "Done secretly, especially when the activity is illegal or needs to be hidden from authorities"
+            },
+            {
+              "word": "reckoning",
+              "definition": "A time when past actions, mistakes, or injustices are finally judged or addressed"
+            },
+            {
+              "word": "rehabilitate",
+              "definition": "To restore someone's good reputation after they were wrongly condemned or discredited"
+            },
+            {
+              "word": "posthumous",
+              "definition": "Happening or given after a person has already died"
+            }
+          ],
+          "questionB2": "In what ways does the forensic reckoning with figures like Dziemieszkiewicz reflect the difficulties post-communist societies face when trying to rehabilitate those persecuted by former regimes?"
+        },
+        {
+          "id": "1785142484021youu",
+          "title": "Poland bans chaining of dogs and cats",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/07/24/poland-bans-chaining-of-dogs-and-cats/",
+          "category": "environment",
+          "date": "2026-07-24",
+          "summaryB1": "Poland has passed a new law that bans keeping dogs and cats on chains. The president, Karol Nawrocki, signed the law after first refusing to accept an earlier version of it. He had vetoed that version, which means he sent it back to parliament without approving it. Parliament then made changes to the bill, and Nawrocki agreed to sign the revised version.\n\nBefore this law, it was common in Poland for dogs to be tied up outside on a chain, sometimes for many hours or even all day. Animal welfare groups had campaigned for a ban for a long time, saying that chaining animals causes them stress and suffering. Under the new rules, owners who chain their pets can face a penalty, such as a fine.\n\nThe law is part of a wider effort in Poland to improve how animals are treated. Many people believe that keeping a dog on a chain prevents it from moving freely and living a normal life. Supporters of the ban say it is a step forward for animal rights in the country.\n\nNot everyone agrees, however. Some people in rural areas say that chaining dogs is a traditional practice and that the new rules are unfair. Despite this opposition, the law has now been approved and will come into force in Poland.",
+          "vocabularyB1": [
+            {
+              "word": "veto",
+              "definition": "When a leader officially refuses to approve a law, stopping it from passing."
+            },
+            {
+              "word": "revised",
+              "definition": "Changed or corrected, usually to make something more acceptable or accurate."
+            },
+            {
+              "word": "animal welfare",
+              "definition": "The health, happiness, and good treatment of animals."
+            },
+            {
+              "word": "penalty",
+              "definition": "A punishment, such as a fine, given to someone who breaks a rule."
+            },
+            {
+              "word": "opposition",
+              "definition": "Disagreement with or resistance to something, such as a new law."
+            }
+          ],
+          "questionB1": "Do you think a penalty is the best way to stop people from chaining animals, or are there better solutions?",
+          "summaryB2": "Poland has enacted legislation banning the chaining of dogs and cats, marking a notable shift in the country's approach to animal protection. President Karol Nawrocki initially withheld his assent from an earlier draft of the bill, exercising his presidential veto and returning it to parliament for reconsideration. Lawmakers subsequently amended the text, and Nawrocki ultimately signed the revised legislation into law.\n\nThe practice of keeping dogs permanently or semi-permanently restrained on chains has long been prevalent in Poland, particularly in rural communities where dogs are traditionally kept as guard animals. Animal rights advocates had lobbied for an outright prohibition for years, arguing that prolonged chaining inflicts both physical and psychological harm on animals, severely restricting their freedom of movement and natural behaviour.\n\nThe new law introduces penalties for owners found to be in breach of the regulations, though critics from agricultural and rural communities contend that the legislation fails to account for the realities of farming life and represents an overreach by urban policymakers.\n\nThe reform reflects a gradual tightening of animal welfare standards across Europe, with several neighbouring countries having introduced similar restrictions in recent years. Proponents argue that the ban brings Poland in line with evolving ethical standards regarding the treatment of companion animals. Detractors, however, question whether enforcement will prove effective given the scale of the practice across the country's rural regions.",
+          "vocabularyB2": [
+            {
+              "word": "withheld his assent",
+              "definition": "Officially refused to approve or agree to something, especially a law."
+            },
+            {
+              "word": "outright prohibition",
+              "definition": "A complete and total ban on something, with no exceptions allowed."
+            },
+            {
+              "word": "overreach",
+              "definition": "When an authority goes too far and tries to control more than it should."
+            },
+            {
+              "word": "proponents",
+              "definition": "People who publicly support or argue in favour of an idea or plan."
+            },
+            {
+              "word": "detractors",
+              "definition": "People who criticise something and argue against its value or effectiveness."
+            }
+          ],
+          "questionB2": "Given the tension between proponents of the ban and its detractors in rural communities, how should governments balance animal welfare legislation with deeply rooted cultural and practical traditions?"
+        },
+        {
+          "id": "1785142507397fjwj",
+          "title": "Investors cool on Europe’s old-style defence firms",
+          "source": "The Economist Business",
+          "originalUrl": "https://www.economist.com/business/2026/07/23/investors-cool-on-europes-old-style-defence-firms",
+          "category": "business",
+          "date": "2026-07-23",
+          "summaryB1": "European defence companies have been struggling to attract investors. For many years, these firms made weapons and military equipment for governments. But now, investors are becoming less interested in supporting them. There are several reasons for this.\n\nFirst, many of these companies face supply-chain problems. This means they cannot always get the parts and materials they need to build their equipment on time. Second, governments in Europe often make the process of buying military equipment very slow and complicated. These procurement obstacles make it hard for companies to earn money quickly.\n\nThird, and perhaps most interesting, is the rise of drone warfare. Modern conflicts now use drones — small flying machines — more and more. Drones are cheaper and faster to produce than traditional weapons like tanks or fighter jets. Old-style defence firms are not well prepared to compete in this new area.\n\nAs a result, investors worry that these traditional companies may not grow as fast as newer, more modern defence businesses. Money is starting to move away from Europe's established defence giants toward smaller, more innovative companies.\n\nThis matters because Europe is currently trying to spend more on its own defence. If investors do not support the traditional firms, it could slow down Europe's efforts to build a stronger military. The future of European defence may depend on companies that are ready to change.",
+          "vocabularyB1": [
+            {
+              "word": "supply-chain",
+              "definition": "The system of people and companies that provide parts and materials needed to make a product"
+            },
+            {
+              "word": "procurement",
+              "definition": "The process of buying goods or services, especially for a government or large organisation"
+            },
+            {
+              "word": "drone",
+              "definition": "A small flying machine controlled remotely, often used in military operations or filming"
+            },
+            {
+              "word": "compete",
+              "definition": "To try to be more successful than others in the same area or market"
+            },
+            {
+              "word": "innovative",
+              "definition": "Using new and creative ideas or methods to solve problems or improve something"
+            }
+          ],
+          "questionB1": "Why might investors prefer to support innovative drone companies rather than traditional defence firms? What risks do old-style companies face?",
+          "summaryB2": "Europe's established defence companies are losing their appeal among investors, as a combination of structural inefficiencies, bureaucratic procurement systems and the rapid rise of drone warfare reshapes the military industry.\n\nFor decades, Europe's legacy defence contractors — manufacturers of tanks, warships and fighter aircraft — enjoyed stable government contracts and steady revenues. However, investor sentiment has shifted noticeably. Supply-chain snags continue to delay production, raising doubts about delivery timelines and profitability. Meanwhile, the labyrinthine procurement processes that govern European military spending make it difficult for firms to translate political commitments into actual revenue streams in a timely fashion.\n\nPerhaps most disruptive is the emergence of drone warfare as a dominant feature of modern conflict, most visibly demonstrated in Ukraine. Drones are relatively inexpensive, quick to manufacture and devastatingly effective — qualities that stand in sharp contrast to the costly and time-consuming products that old-style manufacturers specialise in. Investors are increasingly directing capital toward agile technology-focused start-ups better positioned to capitalise on this shift, rather than towards the incumbents.\n\nThis cooling of investor enthusiasm carries broader consequences at a particularly sensitive moment. European governments are under pressure to bolster their defence capabilities independently of the United States, yet the traditional industrial base that would underpin such ambitions is struggling to secure private funding.\n\nThe divergence between political urgency and investor caution highlights a structural tension: Europe wants to rearm swiftly, but the companies historically tasked with that mission may no longer be seen as the right vehicles for the job.",
+          "vocabularyB2": [
+            {
+              "word": "legacy",
+              "definition": "Old and established, often referring to systems or companies from an earlier era that may be outdated"
+            },
+            {
+              "word": "incumbents",
+              "definition": "Companies or people who currently hold a dominant position in a market or industry"
+            },
+            {
+              "word": "labyrinthine",
+              "definition": "Extremely complicated and difficult to navigate, like a maze; used to describe complex systems or processes"
+            },
+            {
+              "word": "agile",
+              "definition": "Able to move or adapt quickly and efficiently, especially in response to change"
+            },
+            {
+              "word": "divergence",
+              "definition": "A situation where two things move in opposite directions or become increasingly different from each other"
+            }
+          ],
+          "questionB2": "Given the divergence between Europe's political ambitions and investor caution toward incumbents, what structural reforms might encourage private capital to support the continent's rearmament goals?"
+        },
+        {
+          "id": "1785142529075s72h",
+          "title": "Dismissing Europe as a museum is glib. Think of it as a theme park",
+          "source": "The Economist Europe",
+          "originalUrl": "https://www.economist.com/europe/2026/07/23/dismissing-europe-as-a-museum-is-glib-think-of-it-as-a-theme-park",
+          "category": "culture",
+          "date": "2026-07-23",
+          "summaryB1": "Many people describe Europe as a 'museum' – a place full of old buildings and history, but not very modern or exciting. A new article in The Economist disagrees with this idea. It suggests a better way to think about Europe is as a 'theme park'. This might sound strange at first, but the comparison makes sense. A theme park is carefully designed to give visitors a strong experience. It looks after its attractions and makes sure people enjoy themselves. Europe does something similar. Its cities, traditions, and cultural heritage are not just old things people look at – they are actively maintained and presented to the world. The continent attracts hundreds of millions of tourists every year because it offers something unique: a living connection to history. The article argues that calling Europe a museum is too simple and even a little rude. Museums are passive places where things are kept behind glass. A theme park, on the other hand, is dynamic and engaging. Europe's culture is not frozen in time – it continues to grow and perform for the world. This reframing helps us appreciate Europe differently. Instead of seeing old culture as a weakness, we can see it as a strength that Europe has learned to share effectively with visitors from around the world.",
+          "vocabularyB1": [
+            {
+              "word": "heritage",
+              "definition": "The traditions, buildings, and history passed down from previous generations."
+            },
+            {
+              "word": "attract",
+              "definition": "To make people want to come to a place or be interested in something."
+            },
+            {
+              "word": "maintained",
+              "definition": "Kept in good condition and looked after carefully over time."
+            },
+            {
+              "word": "dynamic",
+              "definition": "Full of energy, activity, and change; not still or boring."
+            },
+            {
+              "word": "reframing",
+              "definition": "Thinking about something in a new or different way."
+            }
+          ],
+          "questionB1": "Do you think Europe's cultural heritage is a strength or a weakness in the modern world, and why does reframing it matter?",
+          "summaryB2": "The familiar jibe that Europe is a 'museum' – a repository of glorious but inert civilisation, more preoccupied with preserving the past than shaping the future – has long been a convenient shorthand for critics, particularly those in the United States and Asia who equate dynamism with novelty. A recent Economist article pushes back against this characterisation, proposing instead that Europe be understood as a theme park: a deliberate, meticulously curated experience designed to deliver cultural spectacle at scale. The distinction, while playful, carries genuine analytical weight. A museum is passive, detached, and curatorial in the coldest sense. A theme park, by contrast, is a performative enterprise – one that consciously stages its identity for an audience and derives economic value from doing so. Europe, the argument goes, has effectively commodified its history, turning centuries of architecture, ritual, and tradition into an immersive offering that draws hundreds of millions of visitors annually. Far from being a sign of stagnation, this capacity to package and export cultural experience represents a sophisticated form of soft power. The article implicitly challenges the assumption that economic vitality must come from technological disruption alone. Europe's model – heritage as spectacle, history as product – may be more strategically coherent than its detractors acknowledge. The theme park metaphor ultimately invites us to reassess what productivity and global influence can look like in the twenty-first century.",
+          "vocabularyB2": [
+            {
+              "word": "characterisation",
+              "definition": "A description or portrayal of something, often simplifying it for a particular effect."
+            },
+            {
+              "word": "commodified",
+              "definition": "Turned into something that can be sold or traded for economic gain."
+            },
+            {
+              "word": "stagnation",
+              "definition": "A state of no growth, progress, or development; being stuck in place."
+            },
+            {
+              "word": "soft power",
+              "definition": "The ability to influence other countries through culture and attraction rather than military force."
+            },
+            {
+              "word": "detractors",
+              "definition": "People who criticise or speak negatively about something or someone."
+            }
+          ],
+          "questionB2": "If Europe has effectively commodified its history as the article suggests, does this transform soft power into a sustainable economic model, or does it risk hollowing out authentic cultural identity?"
+        },
+        {
+          "id": "1785142553439cj3i",
+          "title": "America’s AI labs are under threat from cheap Chinese rivals",
+          "source": "The Economist Business",
+          "originalUrl": "https://www.economist.com/business/2026/07/21/americas-ai-labs-are-under-threat-from-cheap-chinese-rivals",
+          "category": "technology",
+          "date": "2026-07-21",
+          "summaryB1": "American companies have led the world in building artificial intelligence (AI) for many years. Big names like OpenAI and Google have spent billions of dollars on powerful AI systems. However, Chinese AI companies are now offering strong competition. They are producing AI models that cost much less to build and use, and they are making these models available to everyone for free. This type of AI is called an open-weight model, which means anyone can download and use it without paying. Demand for these free models is growing very fast around the world. Chinese companies, such as DeepSeek, have shown that you do not need to spend enormous amounts of money to create good AI. This is a serious challenge for American labs, which have built their business around selling expensive AI services. If customers can get similar results from a free Chinese model, they may stop paying for American products. This situation is making investors and governments in the United States worried. Some people think American companies need to change their strategy to stay competitive. Others believe that American AI is still better in certain areas. Either way, the rise of cheap Chinese AI is changing the technology industry in a big way, and the competition between the two countries is getting stronger every month.",
+          "vocabularyB1": [
+            {
+              "word": "competition",
+              "definition": "A situation where two or more people or groups try to be better than each other."
+            },
+            {
+              "word": "open-weight model",
+              "definition": "An AI system that anyone can download and use for free, without restrictions."
+            },
+            {
+              "word": "enormous",
+              "definition": "Very, very large in size or amount."
+            },
+            {
+              "word": "strategy",
+              "definition": "A plan that you use to achieve a goal, especially in business or games."
+            },
+            {
+              "word": "competitive",
+              "definition": "Able to succeed against others who are trying to do the same thing."
+            }
+          ],
+          "questionB1": "If a free Chinese AI model gives similar results to an expensive American one, what strategy should American companies use to stay competitive?",
+          "summaryB2": "For years, American AI laboratories such as OpenAI, Anthropic, and Google DeepMind have dominated the global artificial intelligence industry, backed by colossal investment and the assumption that scale and spending would guarantee dominance. That assumption is now being tested by a wave of low-cost Chinese rivals offering open-weight models — AI systems whose parameters are publicly released, allowing anyone to download, modify, and deploy them at minimal expense. Demand for such models is soaring, as businesses and developers worldwide seek capable AI tools without the steep subscription fees charged by American providers. Chinese firms, most notably DeepSeek, have demonstrated that frontier-level AI performance need not require frontier-level expenditure, undermining a core premise of the American industry's pricing model. This has prompted a reassessment among investors, who had previously poured capital into US labs on the expectation of long-term profitability. The commercial viability of American AI giants now looks less certain, particularly if open-weight alternatives continue to close the performance gap. Geopolitical tensions add another dimension to the rivalry, with policymakers in Washington debating whether national security justifies further restricting Chinese access to advanced semiconductors. Meanwhile, some analysts argue that American labs retain an edge in proprietary, closed models tailored for enterprise clients. Nevertheless, the proliferation of high-quality, freely available Chinese AI is fundamentally reshaping the competitive dynamics of the global technology sector.",
+          "vocabularyB2": [
+            {
+              "word": "colossal",
+              "definition": "Extremely large; far bigger than normal or expected."
+            },
+            {
+              "word": "frontier-level",
+              "definition": "At the most advanced and cutting-edge stage currently possible in a field."
+            },
+            {
+              "word": "commercial viability",
+              "definition": "The ability of a business or product to make enough money to survive long-term."
+            },
+            {
+              "word": "proliferation",
+              "definition": "A rapid increase in the number or spread of something."
+            },
+            {
+              "word": "proprietary",
+              "definition": "Owned exclusively by a company and not available for others to use freely."
+            }
+          ],
+          "questionB2": "Given the proliferation of high-quality open-weight models from China, can the commercial viability of American AI labs be sustained, and what structural changes might be necessary to ensure their survival?"
+        },
+        {
+          "id": "17851425735558ak2",
+          "title": "Berlin Pride attack suspect shot and killed during police operation",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/c62eg899l99o?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-07-26",
+          "summaryB1": "A man named Abdul Ballout was shot and killed by police in Berlin, Germany. The incident happened in a western part of the city called a borough. Police say that Ballout rushed at officers carrying a knife, and they shot him in response. Ballout was a suspect in an earlier attack that took place during Berlin Pride, a large public event where people march to support LGBTQ+ rights. The attack at the Pride event shocked many people in the city. After the attack, police searched for Ballout and eventually found him. When officers approached him, he did not surrender. Instead, he charged at them with a knife, and they used lethal force to stop him. The death of a suspect during a police operation often raises questions about how such situations are handled. Some people want to know if there were other ways to stop him without shooting. Others believe that officers had no choice because their lives were in danger. Berlin Pride is a well-known annual event that attracts thousands of visitors. Violence at such events is rare but deeply troubling. German authorities are now investigating both the original attack and the police shooting to understand exactly what happened.",
+          "vocabularyB1": [
+            {
+              "word": "borough",
+              "definition": "An official district or area within a large city"
+            },
+            {
+              "word": "suspect",
+              "definition": "A person believed to have committed a crime, but not yet proven guilty"
+            },
+            {
+              "word": "surrender",
+              "definition": "To stop fighting and give yourself up to the police or enemy"
+            },
+            {
+              "word": "lethal",
+              "definition": "Causing or able to cause death"
+            },
+            {
+              "word": "investigating",
+              "definition": "Carefully looking into something to find out the truth about it"
+            }
+          ],
+          "questionB1": "Do you think police always have a choice when dealing with a dangerous suspect, or is lethal force sometimes unavoidable?",
+          "summaryB2": "German police shot and killed Abdul Ballout, the prime suspect in a knife attack carried out during Berlin Pride, after he lunged at officers with a blade during a police operation in a western borough of the German capital. According to authorities, officers were left with no alternative when Ballout advanced on them wielding a knife, forcing them to open fire. He was pronounced dead at the scene. Ballout had been sought in connection with the earlier assault at Berlin Pride, one of Europe's most prominent LGBTQ+ gatherings, which draws hundreds of thousands of participants annually. The attack on Pride marchers had already provoked widespread condemnation and heightened anxieties about the safety of LGBTQ+ spaces in Germany. The fatal outcome of the subsequent police operation is likely to intensify public debate about the use of force by law enforcement. Civil liberties advocates may scrutinise whether de-escalation tactics were adequately considered before officers resorted to shooting. German authorities, meanwhile, have confirmed that both the original assault and the circumstances surrounding the fatal shooting are now subject to formal investigation. The case reflects a tension that many democratic societies grapple with: balancing the protection of marginalised communities against the accountability of state institutions when deadly force is deployed. Berlin's police force has not yet issued a detailed statement outlining the full sequence of events.",
+          "vocabularyB2": [
+            {
+              "word": "lunged",
+              "definition": "Made a sudden, aggressive forward movement towards someone"
+            },
+            {
+              "word": "wielding",
+              "definition": "Holding and using a weapon or tool in a threatening or active way"
+            },
+            {
+              "word": "condemnation",
+              "definition": "Strong and official public criticism or disapproval of an action"
+            },
+            {
+              "word": "de-escalation",
+              "definition": "The process of reducing tension or danger in a conflict to avoid violence"
+            },
+            {
+              "word": "scrutinise",
+              "definition": "To examine something very carefully and critically, looking for problems"
+            }
+          ],
+          "questionB2": "When a suspect is killed during a police operation, how should authorities scrutinise the use of de-escalation tactics to ensure both public safety and institutional accountability?"
+        },
+        {
+          "id": "1785142594309cpmt",
+          "title": "Police and park rangers step up joint patrols in Poland’s Tatras after series of tourist offences",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/07/24/police-and-park-rangers-step-up-joint-patrols-in-polands-tatras-after-series-of-tourist-offences/",
+          "category": "environment",
+          "date": "2026-07-24",
+          "summaryB1": "Police and park rangers in the Tatra Mountains in southern Poland have started working together more often to watch over visitors. They are doing more joint patrols to stop tourists from breaking the rules of the national park. Authorities say that a number of offences have been recorded recently, including people bathing in mountain lakes. This is against the rules because it can harm the natural environment. The Tatras are home to a fragile ecosystem, which means the plants and animals there can be easily damaged by human activity. The lakes are especially sensitive, and even swimming can disturb the water and the wildlife that depends on it. Park rangers already patrol the area regularly, but police are now joining them to make enforcement stronger. Visitors who break the rules can face fines or other penalties. Officials want tourists to enjoy the mountains responsibly and to follow the regulations that protect the park. The Tatras are one of the most visited natural areas in Poland, and managing the pressure from large numbers of tourists is an ongoing challenge. By increasing patrols, authorities hope to reduce damage to the environment and remind visitors that the rules exist for a good reason.",
+          "vocabularyB1": [
+            {
+              "word": "patrol",
+              "definition": "To walk around an area regularly to check that everything is safe and rules are followed"
+            },
+            {
+              "word": "offence",
+              "definition": "An action that breaks a rule or law"
+            },
+            {
+              "word": "fragile",
+              "definition": "Easily damaged or broken; not strong or stable"
+            },
+            {
+              "word": "ecosystem",
+              "definition": "All the plants, animals, and natural things in an area that live and work together"
+            },
+            {
+              "word": "enforcement",
+              "definition": "The act of making sure people follow rules or laws"
+            }
+          ],
+          "questionB1": "Do you think stronger enforcement and more patrols are the best way to protect a fragile natural area like the Tatras? Why or why not?",
+          "summaryB2": "Polish police and Tatra National Park rangers have intensified joint patrols following a series of violations by tourists, with authorities citing bathing in mountain lakes as among the most damaging transgressions. The move reflects growing institutional pressure to protect one of Central Europe's most ecologically sensitive alpine environments from the consequences of mass tourism. The Tatra Mountains attract millions of visitors each year, and their fragile ecosystems — encompassing rare flora, mountain streams, and glacial lakes — are particularly vulnerable to human interference. Bathing, though perhaps appearing harmless to the casual visitor, can introduce pollutants, disturb aquatic life, and erode the delicate balance of these water bodies. By deploying law enforcement officers alongside park rangers, the authorities are signalling a shift toward more assertive deterrence rather than relying solely on public awareness campaigns. Tourists found to be in violation of park regulations may face financial penalties. Officials have used the patrols as an opportunity to reiterate the rules to visitors and remind them that the restrictions are in place to safeguard biodiversity. The initiative also highlights a wider tension between the economic benefits of tourism and the need to preserve natural heritage. As visitor numbers show no sign of declining, co-ordinated responses between different state bodies may become a standard feature of national park management in Poland.",
+          "vocabularyB2": [
+            {
+              "word": "transgressions",
+              "definition": "Actions that break a rule or go beyond acceptable boundaries"
+            },
+            {
+              "word": "deterrence",
+              "definition": "The use of warnings or punishments to discourage people from doing something wrong"
+            },
+            {
+              "word": "assertive",
+              "definition": "Confident and direct in taking action or expressing authority"
+            },
+            {
+              "word": "biodiversity",
+              "definition": "The variety of different plants, animals, and other living things in a particular area"
+            },
+            {
+              "word": "violations",
+              "definition": "Acts of breaking a rule, law, or formal agreement"
+            }
+          ],
+          "questionB2": "To what extent can deterrence through increased patrols and fines effectively protect biodiversity in heavily visited national parks, and what other approaches might be needed?"
+        },
+        {
+          "id": "1785142614719r4yg",
+          "title": "EU clears $110bn Paramount and Warner Bros merger, but it remains on hold in US",
+          "source": "BBC News Europe",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cx2kyyeyeklo?at_medium=RSS&at_campaign=rss",
+          "category": "business",
+          "date": "2026-07-22",
+          "summaryB1": "The European Commission has approved a huge merger between two major American media companies: Paramount Global and Warner Bros. Discovery. Together, these companies are worth about 110 billion dollars. The deal would join two of the biggest entertainment studios in the world, creating a company that owns well-known brands like CNN, HBO, MTV, and Paramount Pictures.\n\nThe European Commission gave its approval, but it came with conditions. This means that Paramount must agree to certain rules before the merger can fully go ahead. These conditions are designed to protect competition in the media market and to make sure other companies can still compete fairly.\n\nHowever, the merger is still on hold in the United States. American regulators have not yet given their approval, so the deal cannot be completed yet. Both companies are waiting for a decision from US authorities.\n\nThis merger matters because it could change the way people watch films and television. Large mergers like this one can reduce the number of choices available to viewers and affect the prices of streaming services. Critics worry that having fewer, bigger companies in the entertainment industry could be bad for consumers. Supporters, on the other hand, argue that a bigger combined company would be stronger and better able to compete with other streaming giants like Netflix.",
+          "vocabularyB1": [
+            {
+              "word": "merger",
+              "definition": "When two companies join together to become one new company"
+            },
+            {
+              "word": "approval",
+              "definition": "Official permission or agreement that something is allowed to happen"
+            },
+            {
+              "word": "conditions",
+              "definition": "Rules or requirements that must be followed before something is allowed"
+            },
+            {
+              "word": "regulators",
+              "definition": "Government officials or organisations that control how businesses operate"
+            },
+            {
+              "word": "competition",
+              "definition": "When companies try to win customers by offering better products or prices"
+            }
+          ],
+          "questionB1": "Do you think regulators should set strict conditions when they give approval for large company mergers? Why or why not?",
+          "summaryB2": "The European Commission has granted regulatory approval for the proposed $110 billion merger between Paramount Global and Warner Bros. Discovery, two of Hollywood's most storied media conglomerates. The green light, however, came with stipulations attached specifically to Paramount, requiring the company to meet certain obligations designed to safeguard fair competition within the European media market.\n\nThe combined entity would bring together an extraordinary portfolio of assets, encompassing brands such as HBO, CNN, MTV, Paramount Pictures, and CBS, creating a media powerhouse with vast reach across both traditional broadcasting and streaming platforms. Proponents of the deal argue that consolidation of this scale is a necessary response to the dominance of streaming giants like Netflix and Amazon Prime, which have steadily eroded the market share of legacy media companies.\n\nDespite the EU's conditional endorsement, the merger remains in limbo in the United States, where domestic regulators have yet to issue a ruling. The transatlantic gap in regulatory timelines reflects the differing pace and approach of American and European antitrust authorities.\n\nThe deal has drawn scrutiny from critics who warn that such sweeping consolidation could diminish consumer choice and reduce the diversity of voices in global media. The outcome of the US regulatory review is expected to be a defining factor in whether this landmark merger ultimately proceeds, making the coming months a period of considerable uncertainty for both companies and their investors.",
+          "vocabularyB2": [
+            {
+              "word": "stipulations",
+              "definition": "Specific conditions or requirements that must be met as part of an agreement"
+            },
+            {
+              "word": "conglomerates",
+              "definition": "Very large companies made up of many different businesses or brands"
+            },
+            {
+              "word": "consolidation",
+              "definition": "The process of merging smaller companies into fewer, larger ones"
+            },
+            {
+              "word": "in limbo",
+              "definition": "In an uncertain situation where progress is paused and no decision has been made"
+            },
+            {
+              "word": "antitrust",
+              "definition": "Relating to laws that prevent companies from gaining too much market power unfairly"
+            }
+          ],
+          "questionB2": "Given that consolidation of this scale may limit consumer choice, do antitrust authorities in different countries face conflicting pressures when evaluating cross-border media mergers?"
+        },
+        {
+          "id": "1785142636623oamh",
+          "title": "French politicians can’t get enough of ‘De Gaulle’",
+          "source": "Politico Europe",
+          "originalUrl": "https://www.politico.eu/article/french-politicians-cant-get-enough-of-charles-de-gaulle-movie/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "category": "culture",
+          "date": "2026-07-27",
+          "summaryB1": "A new French film about Charles de Gaulle has become very popular among French politicians. The film is five hours long and tells the story of one of France's most famous leaders. De Gaulle was a general and later the president of France. He is remembered for leading France during difficult times, including World War Two and a period of great political change in the 1960s. Many French people still admire him deeply today. The film has captured the attention of politicians because France will have a presidential election next year. Politicians from different parties are watching the film and talking about it openly. Some seem to use de Gaulle's image and ideas to inspire their own campaigns. The film shows the spirit of the times in French politics right now. People are thinking about leadership, national identity, and what it means to be a strong leader. The word zeitgeist describes this shared feeling or mood of a particular moment in history. The film seems to reflect what many French voters care about as the election approaches. It is a reminder that history and politics are closely connected in France. De Gaulle remains a powerful symbol, and this film has brought his legacy back into everyday political conversation.",
+          "vocabularyB1": [
+            {
+              "word": "admire",
+              "definition": "To respect and have a very positive opinion of someone or something"
+            },
+            {
+              "word": "capture the attention",
+              "definition": "To make people notice and become interested in something"
+            },
+            {
+              "word": "legacy",
+              "definition": "The lasting impact or influence a person leaves after their life or work"
+            },
+            {
+              "word": "identity",
+              "definition": "The qualities and characteristics that make a person or group who they are"
+            },
+            {
+              "word": "zeitgeist",
+              "definition": "The general mood, spirit, or feeling shared by people during a particular period"
+            }
+          ],
+          "questionB1": "What does it tell us about French identity today that so many politicians admire a historical leader like de Gaulle?",
+          "summaryB2": "A sweeping five-hour cinematic portrait of Charles de Gaulle has taken French political circles by storm, arriving at a moment when the country is gearing up for next year's presidential election. The film chronicles the life of France's towering wartime leader and founding father of the Fifth Republic, a figure whose shadow looms large over French political culture to this day. What is striking is not merely the film's artistic ambition but the enthusiasm with which politicians across the spectrum have embraced it. In an era of fragmented parties and polarised electorates, de Gaulle appears to offer something rare: a unifying myth of strong, visionary leadership. The film has been widely described as capturing the zeitgeist of contemporary French politics, reflecting a collective longing for decisive authority at a time of institutional uncertainty. Critics and commentators have noted that politicians invoking de Gaulle's image risk projecting nostalgia rather than genuine vision, effectively using history as a rhetorical prop. Nevertheless, the film's resonance suggests that de Gaulle's model of leadership — assertive, independent, and unapologetically nationalist — retains its appeal across generations. With the presidential race on the horizon, the timing of the film's release feels anything but accidental. It has reignited a long-running debate about what kind of leader France needs, and whether the answer, once again, lies buried in its past.",
+          "vocabularyB2": [
+            {
+              "word": "cinematic portrait",
+              "definition": "A film that gives a detailed and artistic representation of a person's life"
+            },
+            {
+              "word": "fragmented",
+              "definition": "Divided into many small, separate parts that do not work well together"
+            },
+            {
+              "word": "rhetorical prop",
+              "definition": "Something used in speech or argument to persuade people rather than for genuine reasons"
+            },
+            {
+              "word": "resonance",
+              "definition": "The quality of having a strong, lasting effect or meaning for many people"
+            },
+            {
+              "word": "invoking",
+              "definition": "Referring to or calling upon a person, idea, or authority to support an argument"
+            }
+          ],
+          "questionB2": "When politicians are invoking a historical figure like de Gaulle during an election campaign, how can voters distinguish between genuine political vision and mere rhetorical prop?"
+        },
+        {
+          "id": "1785142658222dsvh",
+          "title": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
+          "source": "BBC Business",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss",
+          "category": "technology",
+          "date": "2026-07-25",
+          "summaryB1": "In 2023, someone hacked into OpenAI, the company that makes ChatGPT, and stole information about how their AI systems work. OpenAI told its employees about the hack but decided not to make it public. The company said no customer data was taken, so they did not think it was a serious threat. However, some people inside OpenAI were worried. They felt the company was not being careful enough about security risks, especially the danger that AI technology could fall into the wrong hands.\n\nThe AI research company Hugging Face later looked at the hack and said something surprising. They believed the attack was carried out at superhuman speed, meaning it happened much faster than a normal person could work. This suggests that an AI system may have guided the hack with little or no human involvement.\n\nThis raises a big question: are AI companies doing enough to protect their systems? Some experts think the hack was a warning shot — a sign that bigger attacks could happen in the future. Others believe it was more of a publicity stunt, designed to get attention rather than cause real damage. Either way, many people now think AI companies need stronger security measures. The debate continues about how much danger these kinds of cyber attacks really pose to the public.",
+          "vocabularyB1": [
+            {
+              "word": "hack",
+              "definition": "An illegal attempt to access a computer system or steal digital information"
+            },
+            {
+              "word": "threat",
+              "definition": "Something that could cause harm or danger in the future"
+            },
+            {
+              "word": "superhuman",
+              "definition": "Far beyond what a normal human being is able to do"
+            },
+            {
+              "word": "warning shot",
+              "definition": "An action meant to signal that something more serious could happen later"
+            },
+            {
+              "word": "publicity stunt",
+              "definition": "Something done mainly to attract attention, not for a serious purpose"
+            }
+          ],
+          "questionB1": "Do you think the hack on OpenAI was a genuine warning shot or just a publicity stunt — and why does your answer matter?",
+          "summaryB2": "In 2023, OpenAI — the organisation behind ChatGPT — suffered a security breach in which an attacker gained access to internal communications and extracted details about the company's AI research. OpenAI disclosed the incident to staff but chose not to inform the public, reasoning that no customer data had been compromised and that the perpetrator appeared to be an individual with no known ties to a foreign government. The decision to stay silent, however, troubled some employees who felt it reflected a dangerously complacent attitude toward AI-related security vulnerabilities.\n\nThe incident has since attracted renewed scrutiny following an analysis by Hugging Face, a prominent AI research company. Their investigators concluded that the breach was executed at superhuman speed, implying that an AI system — operating with minimal or no human oversight — may have been the driving force behind the attack. If accurate, this would mark a troubling precedent: an AI being used as a tool to compromise another AI organisation.\n\nOpinion remains divided on how to interpret the episode. Sceptics argue it amounts to little more than a publicity stunt, inflated by media coverage to generate alarm disproportionate to the actual damage caused. Others, however, contend that dismissing it so readily would be a mistake, and that the incident exposes genuine gaps in how AI companies handle cybersecurity. As AI systems grow more capable, the question of who bears responsibility for safeguarding them is becoming harder to ignore.",
+          "vocabularyB2": [
+            {
+              "word": "security breach",
+              "definition": "An incident where an unauthorised person successfully accesses protected information or systems"
+            },
+            {
+              "word": "complacent",
+              "definition": "Too relaxed or satisfied, failing to notice or act on real risks or dangers"
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and detailed examination or observation of something"
+            },
+            {
+              "word": "precedent",
+              "definition": "An earlier event or action that serves as an example or guide for future situations"
+            },
+            {
+              "word": "contend",
+              "definition": "To argue or claim that something is true, especially in a debate or disagreement"
+            }
+          ],
+          "questionB2": "Given that the breach may have been executed with minimal human oversight, what does this precedent suggest about the responsibilities AI companies have toward the public and governments in disclosing security incidents?"
+        },
+        {
+          "id": "1785142679570ngv0",
+          "title": "Trump reopens the tariff fight",
+          "source": "Politico Europe",
+          "originalUrl": "https://www.politico.eu/podcast/brussels-playbook-podcast/trump-reopens-the-tariff-fight/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "category": "politics",
+          "date": "2026-07-27",
+          "summaryB1": "Iceland is holding a vote to decide whether to restart talks about joining the European Union. This is a big decision for the country. Iceland first applied to join the EU in 2009 but stopped the process in 2013. Now, people are thinking about it again. Many Icelanders are worried about security in Europe, especially because of the war in Ukraine. There is also economic uncertainty, which means people are not sure what will happen to prices and jobs in the future. One of the main problems is fishing. Iceland's fishing industry is very important to its economy, and many people do not want the EU to control their fishing waters. At the same time, there is another story connected to the EU. Donald Trump has threatened to introduce new tariffs on European goods. This happened after the EU fined Google 890 million euros for breaking competition rules. Trump said the fine was unfair to an American company. Tariffs are taxes that make imported goods more expensive. If the US adds tariffs to European products, it could hurt businesses and trade on both sides. These two stories show that the EU is dealing with difficult questions both inside Europe and in its relationship with the United States.",
+          "vocabularyB1": [
+            {
+              "word": "accession",
+              "definition": "The process of officially joining an organisation or group, like the EU."
+            },
+            {
+              "word": "uncertainty",
+              "definition": "A situation where you do not know what will happen in the future."
+            },
+            {
+              "word": "tariffs",
+              "definition": "Extra taxes put on goods brought in from another country."
+            },
+            {
+              "word": "fined",
+              "definition": "Made to pay money as a punishment for breaking a rule or law."
+            },
+            {
+              "word": "competition rules",
+              "definition": "Laws that make sure companies behave fairly and do not control a market unfairly."
+            }
+          ],
+          "questionB1": "If Iceland joins the EU, do you think it should accept EU competition rules even if they affect its most important industries, like fishing?",
+          "summaryB2": "Iceland has reopened a long-dormant debate about EU membership, with citizens casting votes on whether to resume accession talks that were suspended over a decade ago. The referendum reflects a confluence of pressures: heightened security anxieties following Russia's invasion of Ukraine, economic headwinds, and — perhaps most contentiously — the question of sovereignty over Iceland's fishing waters. Fishing is not merely an industry in Iceland; it is a deeply ingrained part of national identity, and many citizens remain deeply opposed to ceding control of those waters to Brussels.\n\nMeanwhile, transatlantic trade tensions have flared once again. Donald Trump has threatened to impose sweeping new tariffs on European goods in retaliation for the EU's decision to fine Google €890 million for violations of its antitrust framework. Trump characterised the penalty as an attack on American business interests, framing it as part of a pattern of European overreach. This posture signals a willingness to weaponise trade policy in defence of US tech giants, regardless of the legal merits of the EU ruling.\n\nTogether, these two developments illustrate the competing pressures bearing down on the EU. It must simultaneously manage the expectations of potential new members who harbour genuine reservations about deeper integration, while defending its regulatory authority against external pushback from Washington. The EU's capacity to hold firm on both fronts will shape its credibility as a geopolitical actor in the months ahead.",
+          "vocabularyB2": [
+            {
+              "word": "dormant",
+              "definition": "Not active for a period of time, but capable of becoming active again."
+            },
+            {
+              "word": "confluence",
+              "definition": "A coming together of several different things or influences at the same time."
+            },
+            {
+              "word": "antitrust framework",
+              "definition": "A set of laws designed to prevent companies from gaining unfair monopoly power."
+            },
+            {
+              "word": "overreach",
+              "definition": "Going beyond acceptable or legal limits of power or authority."
+            },
+            {
+              "word": "reservations",
+              "definition": "Doubts or concerns that stop someone from fully agreeing with something."
+            }
+          ],
+          "questionB2": "Given Iceland's reservations about fishing sovereignty and Trump's use of tariffs as political retaliation, how effectively can the EU assert its regulatory authority without deepening divisions both internally and with Washington?"
+        },
+        {
+          "id": "1785142700412v2d1",
+          "title": "Extension du marché carbone : le jour où Macron et Bayrou ont dit non à quatre ministres",
+          "source": "Politico Europe",
+          "originalUrl": "https://www.politico.eu/article/extension-du-marche-carbone-le-jour-ou-macron-et-bayrou-ont-dit-non-a-quatre-ministres/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "category": "environment",
+          "date": "2026-07-26",
+          "summaryB1": "In May 2025, four French government ministers wrote a letter to President Macron and Prime Minister Bayrou. They wanted France to quickly introduce a second carbon market. A carbon market is a system where companies must pay for the pollution they produce. The ministers believed this would generate revenue — money collected by the government — that could help France reduce its carbon emissions. They argued that France needed to act fast to fund its plans to become cleaner and greener. However, both Macron and Bayrou rejected the proposal. The ministers did not succeed in convincing the top leaders. The letter was not made public at the time, but the news website Politico obtained and revealed it. This story shows that even within the French government, there are disagreements about environmental policy. Some ministers are pushing for stronger action on climate change, while the president and prime minister are more cautious. Carbon markets already exist in Europe, but a second one would cover more sectors of the economy. The debate over how to fund the transition away from fossil fuels is ongoing in France, as in many other countries. This internal conflict highlights how difficult it can be to agree on climate policy.",
+          "vocabularyB1": [
+            {
+              "word": "carbon market",
+              "definition": "A system where companies buy and sell the right to produce pollution."
+            },
+            {
+              "word": "generate revenue",
+              "definition": "To produce or bring in money, usually for a government or organisation."
+            },
+            {
+              "word": "emissions",
+              "definition": "Gases, especially harmful ones, released into the air by machines or industry."
+            },
+            {
+              "word": "proposal",
+              "definition": "A formal plan or suggestion that someone puts forward for others to consider."
+            },
+            {
+              "word": "cautious",
+              "definition": "Careful and not wanting to take risks or make quick decisions."
+            }
+          ],
+          "questionB1": "Do you think governments should use a carbon market to generate revenue for protecting the environment? Why or why not?",
+          "summaryB2": "A confidential letter obtained by Politico has shed light on a little-known internal dispute within the French government. In May 2025, four ministers jointly lobbied the Élysée and Matignon — the offices of President Macron and Prime Minister Bayrou respectively — urging them to swiftly implement a second carbon market. Their pitch centred on the need to mobilise funds for decarbonisation efforts at speed, arguing that extending the existing carbon pricing mechanism would unlock a new stream of public finance for France's green transition. Both Macron and Bayrou refused, leaving the ministers' push effectively dead in the water. The revelation raises questions about the coherence of France's climate strategy at the highest levels of government. Carbon markets function by assigning a financial cost to greenhouse gas emissions, incentivising companies to reduce their environmental footprint. A second such mechanism, as the ministers envisaged, would have extended this approach to additional economic sectors not yet covered by existing EU schemes. The episode illustrates a recurring tension in climate governance: the ambition of those advocating for accelerated action versus the restraint exercised by political leaders wary of economic or political backlash. That four ministers felt compelled to write formally to the president suggests the disagreement was more than a routine policy skirmish — it points to a deeper rift over how aggressively France should pursue its decarbonisation agenda.",
+          "vocabularyB2": [
+            {
+              "word": "lobbied",
+              "definition": "Tried to persuade someone in power to support a particular policy or decision."
+            },
+            {
+              "word": "decarbonisation",
+              "definition": "The process of reducing or eliminating carbon dioxide emissions from an economy or sector."
+            },
+            {
+              "word": "coherence",
+              "definition": "The quality of being logical, consistent, and well-organised as a whole."
+            },
+            {
+              "word": "backlash",
+              "definition": "A strong negative reaction from the public or a group against a policy or decision."
+            },
+            {
+              "word": "rift",
+              "definition": "A serious disagreement that divides people or groups who were previously aligned."
+            }
+          ],
+          "questionB2": "Given the rift between the four ministers and France's top leadership over decarbonisation funding, what does this episode reveal about the structural challenges of translating climate ambition into coherent government policy?"
+        }
+      ]
+    },
+    {
       "generated": "2026-07-20T08:27:10.862Z",
       "week": "2026-W29",
       "articles": [
