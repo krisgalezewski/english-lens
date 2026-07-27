@@ -1,6 +1,341 @@
 {
   "editions": [
     {
+      "generated": "2026-07-27T11:09:29.545Z",
+      "videos": [
+        {
+          "videoId": "yf9oUvHnR4M",
+          "title": "What you need to know about Europe's Entry Exit System. #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-07-19T07:45:56Z",
+          "thumbnail": "https://i.ytimg.com/vi/yf9oUvHnR4M/hqdefault.jpg",
+          "durationSeconds": 49,
+          "transcript": "I went through the EU's new digital border system. Here's what you need to know. You'll come across it as you enter one of the 29 European countries in the Shenhen free movement zone that includes popular holiday spots like France and Spain. Non-EU nationals register fingerprints and a photo which are digitally linked to your passport. You do it when you land at an automated machine or in some cases at an e-gate. Although Sweden and Portugal are using an app that allows you to do some of the process before you arrive at the airport, the information is checked when you leave Europe. In many cases, children under the age of 12 can't use the automated machines, so they have to go to a border officer instead. EES has been blamed for some really long cues in recent months, some lasting hours.",
+          "category": "politics",
+          "summary": "This video explains how Europe's new Entry Exit System (EES) works for non-EU travellers entering the Schengen zone. It covers the registration process, which involves fingerprints and a photo linked to your passport, and mentions some countries offering an app for advance registration. The system has caused long queues at borders in recent months.",
+          "multipleChoice": [
+            {
+              "question": "How many countries are part of the Schengen free movement zone mentioned in the video?",
+              "options": [
+                "29",
+                "31",
+                "27",
+                "25"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Which two countries are mentioned as using an app that allows travellers to complete part of the EES process before arriving at the airport?",
+              "options": [
+                "Sweden and Portugal",
+                "France and Spain",
+                "Germany and Italy",
+                "Sweden and Spain"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "When is the information collected by EES checked?",
+              "options": [
+                "When you book your flight",
+                "When you arrive at the airport",
+                "When you leave Europe",
+                "When you go through passport control on arrival"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Non-EU nationals must register their fingerprints and a photo as part of the EES process.",
+              "answer": true
+            },
+            {
+              "statement": "All children, regardless of age, must use the automated machines at the border.",
+              "answer": false
+            },
+            {
+              "statement": "The EES has been linked to long queues lasting several hours at some borders.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these steps of the EES process in the order they were mentioned in the video.",
+            "items": [
+              "You enter one of the 29 Schengen zone countries",
+              "You register your fingerprints and photo at an automated machine or e-gate",
+              "Children under 12 go to a border officer instead of using the machines",
+              "Your information is checked when you leave Europe"
+            ]
+          }
+        },
+        {
+          "videoId": "TjTgC740xpc",
+          "title": "Elon Musk: I got too involved in politics | The Economist",
+          "channel": "The Economist",
+          "publishedAt": "2026-07-23T22:00:24Z",
+          "thumbnail": "https://i.ytimg.com/vi/TjTgC740xpc/hqdefault.jpg",
+          "durationSeconds": 65,
+          "transcript": "I think I got a little too involved in politics. Got carried away frankly. Um so the um you know the the goal with the sort of Doge stuff was was to try to do something about the the deficit which is massive. Um where the interest payments exceed the amount of money spent on the Department of War. like basically if you add up all the money spent on um what is now the department of war and the uh and intelligence in the US uh that is smaller than the interest payments on the debt. So well we we we we need to sort of take a close look at spending um and make sure that uh money is being spent in sensible ways and that it is not wasted or spent on on fraudulent activities. Um, and um, I got a lot of flack from this for this obviously. Um, but the the people don't understand just how um, simple it was for for the Doge team to approve payments.",
+          "category": "business",
+          "summary": "In this interview with The Economist, Elon Musk reflects on his involvement in politics and the work of the DOGE team. He explains that the main goal was to address the United States' large national deficit and reduce wasteful or fraudulent government spending. He also acknowledges that he received a lot of criticism for his role in this effort.",
+          "multipleChoice": [
+            {
+              "question": "According to Musk, what was the main goal of the DOGE initiative?",
+              "options": [
+                "To do something about the deficit",
+                "To reduce the size of the intelligence community",
+                "To reform the Department of War",
+                "To investigate fraudulent politicians"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What does Musk say about the interest payments on the US debt?",
+              "options": [
+                "They have been reduced thanks to DOGE",
+                "They exceed the combined spending on the Department of War and intelligence",
+                "They are equal to the amount spent on social programmes",
+                "They are smaller than the defence budget"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How does Musk describe the process of the DOGE team approving payments?",
+              "options": [
+                "Complicated and time-consuming",
+                "Poorly organised and chaotic",
+                "Simple",
+                "Strictly regulated and transparent"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Musk admits that he got too involved in politics.",
+              "answer": true
+            },
+            {
+              "statement": "Musk says the interest payments on the US debt are smaller than the amount spent on the Department of War and intelligence combined.",
+              "answer": false
+            },
+            {
+              "statement": "Musk says he received a lot of criticism for his involvement with DOGE.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were mentioned in the video.",
+            "items": [
+              "Musk admits he got too involved in politics and got carried away",
+              "Musk explains the goal of DOGE was to address the deficit",
+              "Musk compares interest payments on the debt to spending on the Department of War and intelligence",
+              "Musk mentions that the DOGE team's process of approving payments was simple"
+            ]
+          }
+        },
+        {
+          "videoId": "ZF7Ozl76WOs",
+          "title": "White House says Trump expected to raise AI theft concerns with Xi",
+          "channel": "Reuters",
+          "publishedAt": "2026-07-23T18:25:03Z",
+          "thumbnail": "https://i.ytimg.com/vi/ZF7Ozl76WOs/hqdefault.jpg",
+          "durationSeconds": 43,
+          "transcript": "So, Treasury Secretary uh Bessent voiced concern this week on China potentially distilling or stealing uh AI technology from the United States kind of manipulating it as their own. Um anthropic said that the largest distilling attack happened last month. Do you think this will come up when the president meets with President Xi in September? >> Well, I have had the honor of uh being part of some of the meetings and discussions between President Trump and President Xi and I can tell you uh there is always a wide range of topics that come up. Um, I would imagine this would be something it's of high importance to the president and of this administration to obviously ensure that America remains dominant in the AI race. Uh, and we're obviously tracking the particular situation that you mentioned. >> I have one more view.",
+          "category": "technology",
+          "summary": "A White House spokesperson discusses the possibility of AI technology theft by China coming up during a planned meeting between President Trump and President Xi in September. Treasury Secretary Bessent had raised concerns about China distilling or stealing US AI technology. The spokesperson confirms the administration is tracking the situation and views US dominance in AI as a top priority.",
+          "multipleChoice": [
+            {
+              "question": "What concern did Treasury Secretary Bessent raise this week?",
+              "options": [
+                "That the US is falling behind China in the AI race",
+                "That China is potentially stealing or distilling US AI technology",
+                "That China is developing its own AI technology faster than the US",
+                "That American AI companies are sharing secrets with China"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "According to the transcript, when is President Trump expected to meet with President Xi?",
+              "options": [
+                "In September",
+                "In October",
+                "In December",
+                "Next week"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What did Anthropic report regarding AI distilling attacks?",
+              "options": [
+                "That smaller attacks happen every week",
+                "That China had been running attacks for several years",
+                "That the largest distilling attack happened last month",
+                "That the US government had prevented a major attack"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The White House spokesperson said they have been part of some meetings between President Trump and President Xi.",
+              "answer": true
+            },
+            {
+              "statement": "The spokesperson confirmed that AI theft would definitely be discussed at the September meeting.",
+              "answer": false
+            },
+            {
+              "statement": "The spokesperson said there is always a wide range of topics that come up in meetings between the two presidents.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or topics in the order they were mentioned in the video",
+            "items": [
+              "Treasury Secretary Bessent voices concern about China stealing AI technology",
+              "Anthropic reports the largest distilling attack happened last month",
+              "A reporter asks whether AI theft will come up at the Trump-Xi meeting",
+              "The spokesperson says the administration is tracking the situation"
+            ]
+          }
+        },
+        {
+          "videoId": "65oIPRt8_C0",
+          "title": "Orange skies and toxic air: Ontario wildfires spread smoke across North America | DW News",
+          "channel": "DW News",
+          "publishedAt": "2026-07-16T19:50:34Z",
+          "thumbnail": "https://i.ytimg.com/vi/65oIPRt8_C0/hqdefault.jpg",
+          "durationSeconds": 412,
+          "transcript": "Canadian authorities say over 800 fires are currently burning across the country, many of which are classified as being out of control. The blazes have caused smoggy skies across much of eastern Canada and even into the United States with health warnings to avoid outdoor activities. >> This could potentially overtake us here. This is getting a little scary. >> Yeah. >> Holy. Fire completely surrounds this freight train in rural Ontario. >> Canadian National Rail have since confirmed that all workers were safely rescued, but that many services across the region have been temporarily suspended. >> Hello, Jody. Can you hear us? >> The country's largest city, Toronto, has been smothered in dense smoke, turning the skies an apocalyptic orange. An outdoor fan zone for Wednesday's England versus Argentina match was cancelled after the city recorded the worst air quality in the world. >> At first, when you go outside and you're coming from a cold environment, like you can really feel like how heavy it is and how hot. >> I I'm from Toronto, grew up in Toronto. I don't remember having smoke ever until the last couple years. >> My eyes are burning. My lungs are burning. I've got a splitting headache. Wow. >> It's brutal. This footage was shot by a passenger departing from an upstate New York airport as the smoke spreads across the border into the United States, but it's hoped conditions will have improved for the World Cup final being held just outside Manhattan this weekend. >> The first big wave of smoke that we've seen will also have cleared out. it'll have gone over into the ocean, you know, transported further further downwind. Um, so at this time, I I wouldn't necessarily expect there to be major disruptions to um the Saturday and Sunday World Cup events. >> For now, health warnings remain in place across New York, as well as a number of other states, including Michigan and Minnesota. Let's bring in Annabella Bonata here. She's managing director of climate science at the University of Waterlue in Ontario, Canada. Welcome to the program. I understand Ontario currently has over 130 active fires and the smoke is now choking cities as far away as Chicago and New York. How unusual is a smoke event of this scale and reach? >> It's a bit unusual, especially for Ontario. So each of the last few years has been pretty bad for us when it comes to wildfire intensity starting with 2023 in particular and then from there we've had bad wildfire seasons. None of them have really hit Ontario as badly as it is happening this year. So this year it's Ontario and Quebec that are leading in that front. Um, so it it's pretty bad and the wildfire smoke that we're experiencing is a little bit unprecedented in the sense that it hasn't come from Ontario before, but we have been experiencing very bad wildfire smoke seasons since 2023 each summer up until this one. >> What does smoke exposure at this level do to people, especially over the course of several days? >> It can be very harmful. So wildfire smoke is not made up of our usual smoke because it's burning through everything, you know, including properties and cars and fuel. So we're breathing that in and the particles are so small that they can make it all the way into our bloodstream. Um it can have major impacts for really for everybody as you saw in those interviews. People can feel a headache, um runny nose, their eyes may itch, their throat may itch. uh but especially we have you know more susceptible populations like young children, babies, pregnant women, uh the elderly and anybody with a chronic health condition. So anybody that especially suffers from asthma or heart conditions should be really looked after over the next few days and and currently as we're in a pretty bad situation right now. Uh make sure to stay indoors in a cool space that has a good filter so that the air is constantly being filtered. And if you don't have that in your home, go to a cool center. We have many open in the area in in all of the cities around where this is happening. Uh so just find out where those are and take a break from from the smoke. >> It sounds like good advice. Uh do you see this becoming the new normal that places hundreds of miles from the fires having to plan for an emergency like this every summer? >> Unfortunately, uh to me we're headed that way. So we've had these kind of summers now since 2023. Parts of our nation have been having these summers since before that. Uh but we've seen a real rise in our wildfire activity over these last few years and our wildfire smoke has impacted all the way to Europe like the one in 2023. My expectation is that we'll continue to see this if we don't make any other changes when it comes obviously to climate change and reducing our emissions um and how we manage our forests as well. Uh so Canada's doing a lot on that front, but we've got a ways to go. Um, but if we don't do anything to slow down climate change, we're going to continue to have these kind of summers with the this type of wildfire smoke. >> Now, I was just looking at some of the information coming through and it it suggests that this year's fires in Canada have burned much less ground than the huge fires there three years ago. You mentioned 2023. Why is the smoke impact so severe if the fire footprint is comparatively smaller? It's a little bit smaller, but we're actually on track to be very similar to our second third worst uh wildfire seasons, and it's in a different part of the country. So, the wildfires that we're having are occurring, especially in our boreal region. They're being started by lightning and spreading very quickly. So, those fires can get very, very large um and consume much more land than fires that happen closer to communities. They're hard harder to control and so they become very big. Um and it's also the type of wildfire. So once they start burning those plumes go up um and they can create their own storms and that it just kind of keeps going and going and it the the smoke is blown south uh due to different type of like the jetream or or different wind patterns. Um so even though it's not as much land as 2023, it's still quite a bit that's burned at this point. >> Well, I hope Ontario and the rest of Canada sees a little rain where these fires are burning. Now, Annabella Bonada from the University of Wateroo in Canada. Thank you so much. >> Thank you for having me.",
+          "category": "environment",
+          "summary": "Over 800 wildfires are burning across Canada, with Ontario and Quebec particularly affected. Dense smoke has spread across eastern Canada and into the United States, causing dangerous air quality in cities like Toronto, Chicago, and New York. A climate scientist from the University of Waterloo explains the health risks of wildfire smoke and warns that severe fire seasons may become the new normal if climate change is not addressed.",
+          "multipleChoice": [
+            {
+              "question": "Why was the outdoor fan zone for the England versus Argentina match cancelled in Toronto?",
+              "options": [
+                "The venue was too close to an active fire",
+                "Toronto recorded the worst air quality in the world that day",
+                "Canadian authorities banned all outdoor public gatherings",
+                "A thunderstorm was forecast for the area"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "According to the climate scientist, which groups of people are especially at risk from wildfire smoke exposure?",
+              "options": [
+                "People living within ten kilometres of an active fire",
+                "Office workers, tourists, and professional athletes",
+                "Young children, pregnant women, the elderly, and people with chronic health conditions",
+                "Anyone who spends more than one hour outdoors per day"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Why does the climate scientist say this year's smoke impact is so severe even though fewer hectares have burned than in 2023?",
+              "options": [
+                "The fires are burning closer to major cities than in previous years",
+                "Unusually strong ocean winds are pushing smoke further south than normal",
+                "Government firefighting resources have been reduced since 2023",
+                "The fires are in the boreal region, started by lightning, and can grow very large and hard to control"
+              ],
+              "correctIndex": 3
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Canadian National Rail confirmed that all workers near the fire-surrounded freight train were safely rescued.",
+              "answer": true
+            },
+            {
+              "statement": "The climate scientist said that wildfire smoke from Canada reached as far as Europe for the first time this year, in 2026.",
+              "answer": false
+            },
+            {
+              "statement": "The climate scientist suggested that people without air filtration at home should go to a cool centre to escape the smoke.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they were mentioned in the video.",
+            "items": [
+              "A freight train is completely surrounded by fire in rural Ontario.",
+              "Toronto's outdoor fan zone for a football match is cancelled due to poor air quality.",
+              "A passenger films smoke-filled skies from an upstate New York airport.",
+              "A climate scientist explains why this year's fires are particularly damaging despite burning less land than in 2023."
+            ]
+          }
+        },
+        {
+          "videoId": "n5WuGXBdgFE",
+          "title": "THIS is allowed on German radio and TV!?",
+          "channel": "DW Euromaxx",
+          "publishedAt": "2026-07-22T15:33:43Z",
+          "thumbnail": "https://i.ytimg.com/vi/n5WuGXBdgFE/hqdefault.jpg",
+          "durationSeconds": 56,
+          "transcript": "Yep, as an American living in Germany, I'm honestly still shocked about what can be played on radio and TV here. Like nudity isn't automatically considered inappropriate on German TV, even in some shows rated for kids six and up. And depending on the context, vulgar or sexual language can be allowed, too. Meanwhile, in the US, the FCC can penalize stations for airing indecent content between these times. But the Germans take a different approach. Instead of banning certain words or nudity outright, they focus more on a combination of the context and the age rating. Age ratings in Germany usually worry more about violence than nudity or sex. And when I'm listening to the radio here, I don't automatically expect the clean version of a song. German stations like to play songs with their original lyrics, though radio edits are still common. And each station decides which version to air. Overall, English swear words tend to be viewed as less offensive here than they are in the US. What do you think? Which system makes more sense? [music]",
+          "category": "culture",
+          "summary": "An American living in Germany shares her surprise at how German radio and TV handle nudity, sexual content, and strong language compared to the United States. She explains that Germany focuses on context and age ratings rather than outright bans, and that age ratings there tend to prioritise concerns about violence over nudity or sex. She also notes that English swear words are generally seen as less offensive in Germany than in the US.",
+          "multipleChoice": [
+            {
+              "question": "According to the video, what is the main focus of Germany's approach to broadcasting content?",
+              "options": [
+                "A combination of context and age rating",
+                "Following strict government penalties for indecent content",
+                "Letting each radio station set its own rules for everything",
+                "Banning certain words and nudity completely"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What does the FCC do in the United States regarding indecent content?",
+              "options": [
+                "It bans all nudity on television at any time of day",
+                "It can penalise stations for airing indecent content during certain hours",
+                "It focuses mainly on age ratings rather than content rules",
+                "It requires all songs to be played in their original versions"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What does the speaker say about English swear words in Germany?",
+              "options": [
+                "They tend to be viewed as less offensive than they are in the US",
+                "German stations always replace them with clean versions",
+                "They are considered just as offensive as in the US",
+                "They are banned from all radio stations"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "In Germany, nudity can appear on TV in some shows rated for children aged six and up.",
+              "answer": true
+            },
+            {
+              "statement": "German age ratings are more concerned about nudity and sex than about violence.",
+              "answer": false
+            },
+            {
+              "statement": "Radio edits of songs are still common on German radio stations, even though original versions are also played.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were mentioned in the video.",
+            "items": [
+              "Nudity on German TV, including in shows for younger viewers",
+              "The FCC's ability to penalise US stations for indecent content",
+              "German age ratings focusing more on violence than nudity or sex",
+              "English swear words being seen as less offensive in Germany"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-07-20T09:21:13.203Z",
       "videos": [
         {
