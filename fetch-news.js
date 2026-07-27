@@ -208,9 +208,9 @@ async function filterRelevant(client, candidates) {
         role: 'user',
         content: `You are curating a weekly English-language news digest for adults living in Poland and Central Europe.
 
-For each article, decide: is it RELEVANT to Polish/Central European readers?
-Relevant = affects the EU, European economy, European politics, European culture/arts/entertainment/lifestyle/travel/food trends, technology used in Europe, public health/wellbeing/food systems/urban living in Europe, or major international stories Polish people would care about.
-Not relevant = purely local US/UK/Asian stories with no European angle whatsoever, OR sport/match results/sport celebrity news of any kind (even if European), OR celebrity gossip with no broader relevance.
+For each article, decide: is it RELEVANT to Polish/Central European readers AND written in English?
+Relevant = affects the EU, European economy, European politics, European culture/arts/entertainment/lifestyle/travel/food trends, technology used in Europe, public health/wellbeing/food systems/urban living in Europe, or major international stories Polish people would care about. The article title AND snippet must be in English — if either is in another language (French, German, Polish, etc.), mark it as NOT relevant.
+Not relevant = purely local US/UK/Asian stories with no European angle whatsoever, OR sport/match results/sport celebrity news of any kind (even if European), OR celebrity gossip with no broader relevance, OR articles whose title or content is not in English.
 
 Reply with ONLY the numbers of relevant articles, comma-separated. Example: 1,3,5,7
 

@@ -1697,6 +1697,11 @@
   }
 
   function closeModal() {
+    // Stop any playing YouTube video by blanking the iframe src.
+    // The modal body is always rebuilt fresh when a new article/video is opened,
+    // so there's no need to preserve the src for reuse.
+    const iframe = document.querySelector('#modal-body iframe');
+    if (iframe) iframe.src = '';
     document.getElementById('modal-overlay').classList.remove('open');
     document.body.style.overflow = '';
   }
