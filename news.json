@@ -1,6 +1,684 @@
 {
   "editions": [
     {
+      "generated": "2026-08-10T06:37:25.839Z",
+      "week": "2026-W32",
+      "articles": [
+        {
+          "id": "1786343616504cspl",
+          "title": "Donald Trump’s Arctic threats are pushing Iceland towards Europe",
+          "source": "The Economist Europe",
+          "originalUrl": "https://www.economist.com/europe/2026/08/06/donald-trumps-arctic-threats-are-pushing-iceland-towards-europe",
+          "category": "politics",
+          "date": "2026-08-06",
+          "summaryB1": "Iceland is a small island country in the North Atlantic Ocean. It is not a member of the European Union. But now, Icelanders are voting on whether to start talking about joining the EU again. Why is this happening? One big reason is US President Donald Trump. Trump has made threats about the Arctic region, which includes areas near Iceland. This has made many Icelanders feel worried about their country's safety and future. Iceland already has strong ties to Europe through trade and geography. However, it has stayed outside the EU for many years. Some Icelanders want to keep their independence, especially regarding fishing rights, which are very valuable to their economy. Others feel that joining the EU would give Iceland more protection and a stronger voice in the world. Trump's aggressive statements about the Arctic have changed the political debate in Iceland. More people now support the idea of membership talks than before. The vote does not mean Iceland will definitely join the EU. It only decides whether official talks should begin again. These talks stopped years ago. The situation shows how actions by powerful countries, like the United States, can push smaller nations to reconsider their alliances and look for new forms of security and cooperation.",
+          "vocabularyB1": [
+            {
+              "word": "ties",
+              "definition": "Close connections or relationships between people, groups, or countries"
+            },
+            {
+              "word": "independence",
+              "definition": "The freedom to make your own decisions without being controlled by others"
+            },
+            {
+              "word": "protection",
+              "definition": "Something that keeps you safe from danger or harm"
+            },
+            {
+              "word": "alliances",
+              "definition": "Agreements between countries to support and help each other"
+            },
+            {
+              "word": "reconsider",
+              "definition": "To think again about a decision you have already made"
+            }
+          ],
+          "questionB1": "Do you think small countries should reconsider their alliances when powerful nations make threats? What would you do in Iceland's position?",
+          "summaryB2": "Iceland, a strategically located island in the North Atlantic that has long maintained an ambivalent relationship with European integration, is now holding a referendum on whether to reopen accession talks with the European Union. The vote has been largely catalysed by Donald Trump's increasingly assertive posture towards the Arctic, a region where Iceland holds considerable geopolitical exposure. Trump's rhetoric about Arctic dominance has unsettled Icelanders who previously felt relatively insulated from great-power rivalry, prompting a reassessment of the country's security arrangements. Iceland applied for EU membership in 2009 but suspended negotiations in 2015, primarily due to domestic opposition centred on fishing rights — a sector that underpins the national economy and carries deep cultural resonance. The prospect of surrendering control over Icelandic waters to EU common fisheries policy has historically been a dealbreaker for many voters. However, Trump's belligerent Arctic declarations appear to have shifted the calculus for a portion of the electorate, making EU membership look less like an economic concession and more like a geopolitical safeguard. The referendum does not commit Iceland to joining the EU; it merely determines whether formal accession negotiations should resume. Nevertheless, the vote reflects a broader recalibration of how small, exposed nations weigh sovereignty against collective security in an era of resurgent great-power competition. The outcome could have ripple effects across other non-EU European states watching closely.",
+          "vocabularyB2": [
+            {
+              "word": "accession",
+              "definition": "The process of formally joining an international organisation or agreement"
+            },
+            {
+              "word": "catalysed",
+              "definition": "Caused or speeded up by a particular event or factor acting as a trigger"
+            },
+            {
+              "word": "belligerent",
+              "definition": "Aggressively hostile or threatening in attitude and behaviour"
+            },
+            {
+              "word": "calculus",
+              "definition": "A careful weighing of advantages and disadvantages when making a complex decision"
+            },
+            {
+              "word": "recalibration",
+              "definition": "A process of adjusting priorities or strategies in response to changed circumstances"
+            }
+          ],
+          "questionB2": "To what extent does Iceland's referendum on accession reflect a fundamental recalibration of how small nations balance sovereignty against collective security in an era of great-power assertiveness?"
+        },
+        {
+          "id": "17863436359178z3t",
+          "title": "Ancient Roman shipwreck discovered off Sicily coast",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cvgx1kpz17go?at_medium=RSS&at_campaign=rss",
+          "category": "culture",
+          "date": "2026-08-09",
+          "summaryB1": "Divers have discovered an ancient Roman shipwreck near the coast of Sicily, an island in southern Italy. The wreck is believed to be around 2,000 years old, dating back to the time of the Roman Empire. It was found on the seabed at a depth of about 80 metres, which helped to preserve it well over the centuries.\n\nThe ship was carrying a large cargo of amphorae, which are tall clay containers that the Romans used to transport goods such as wine, olive oil, and fish sauce. Many of these containers were found intact, still sitting in neat rows inside the wreck. Experts say this gives them a rare chance to study how Roman trade worked across the Mediterranean Sea.\n\nItaly's culture minister described the find as one of the most remarkable underwater archaeological discoveries in recent years. Archaeologists are now working carefully to document and protect the site before any objects are removed.\n\nThis discovery matters because it adds to our understanding of ancient Roman life and commerce. Sicily was a very active region for trade in Roman times, and wrecks like this one help historians piece together how goods and ideas moved between different parts of the empire. It is a reminder that the sea still holds many secrets from the past.",
+          "vocabularyB1": [
+            {
+              "word": "shipwreck",
+              "definition": "The remains of a ship that has sunk or been destroyed at sea"
+            },
+            {
+              "word": "cargo",
+              "definition": "The goods carried by a ship, plane, or vehicle"
+            },
+            {
+              "word": "intact",
+              "definition": "Not broken or damaged; still in its original condition"
+            },
+            {
+              "word": "archaeologist",
+              "definition": "A scientist who studies history by digging up and examining old objects"
+            },
+            {
+              "word": "commerce",
+              "definition": "The activity of buying and selling goods, especially on a large scale"
+            }
+          ],
+          "questionB1": "Why do you think discoveries like this shipwreck are valuable for our understanding of ancient commerce and everyday life?",
+          "summaryB2": "Underwater archaeologists have unearthed a remarkably well-preserved Roman shipwreck off the coast of Sicily, in what Italy's culture minister has hailed as one of the most exceptional submarine archaeological finds in recent memory. The vessel, estimated to be approximately 2,000 years old, was located on the seabed at a depth of roughly 80 metres — a depth sufficient to shield it from the wave action and human interference that typically accelerates deterioration closer to the surface.\n\nAmong the most striking aspects of the discovery is the shipwreck's cargo: rows of amphorae, the distinctive elongated clay vessels used throughout the Roman world to transport commodities including wine, olive oil, and garum, a fermented fish sauce prized across the empire. A number of these containers reportedly remain intact, offering archaeologists an extraordinary window into Roman maritime trade networks and the logistics of long-distance commerce in the ancient Mediterranean.\n\nThe find carries considerable weight for historians studying Roman economic history, as physical evidence of this calibre is rare. Sicily occupied a strategic position within the empire's trade routes, serving as a conduit between the eastern and western Mediterranean, and wrecks of this kind can help scholars reconstruct the volume, variety, and direction of goods in circulation.\n\nAuthorities have indicated that a thorough documentation process will precede any retrieval of artefacts, ensuring the site's integrity is maintained throughout the investigation.",
+          "vocabularyB2": [
+            {
+              "word": "unearthed",
+              "definition": "Discovered something hidden, especially something buried or underwater"
+            },
+            {
+              "word": "deterioration",
+              "definition": "The process of becoming progressively worse in quality or condition"
+            },
+            {
+              "word": "conduit",
+              "definition": "A channel or route through which something passes or is transmitted"
+            },
+            {
+              "word": "calibre",
+              "definition": "The quality or standard of something; how good or valuable it is"
+            },
+            {
+              "word": "retrieval",
+              "definition": "The process of getting something back from where it was stored or found"
+            }
+          ],
+          "questionB2": "Given the deterioration risks posed by human interference and commercial salvage interests, what ethical and legal frameworks should govern the retrieval and preservation of underwater cultural heritage like this wreck?"
+        },
+        {
+          "id": "1786343656543px0j",
+          "title": "Poland invokes emergency grid capacity powers for second time in three days amid heatwave",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/08/06/poland-invokes-emergency-grid-capacity-powers-for-second-time-in-three-days-amid-heatwave/",
+          "category": "environment",
+          "date": "2026-08-06",
+          "summaryB1": "Poland has used emergency powers to manage its electricity grid for the second time in just three days. This happened during a period of very hot weather, called a heatwave. When temperatures rise sharply, people use much more electricity for cooling their homes and workplaces. This puts enormous pressure on the national grid, which is the system that moves electricity around the country. To prevent blackouts, the government can invoke special emergency measures. These measures allow authorities to limit how much electricity certain large users, such as factories, can consume. What makes this situation unusual is how often these powers have been used. Before this summer, Poland had only invoked them twice in the previous eight years. Using them twice in three days shows how serious the current situation is. Poland still relies heavily on coal-fired power stations, which have limits on how much electricity they can generate at peak times. The country is slowly moving toward renewable energy, but this transition takes time. For ordinary people, the heatwave is a reminder that climate change can affect daily life in practical ways. Energy experts say that investing in better grid infrastructure and more renewable sources could help Poland handle extreme weather events more effectively in the future.",
+          "vocabularyB1": [
+            {
+              "word": "heatwave",
+              "definition": "A long period of unusually hot weather that affects a region"
+            },
+            {
+              "word": "grid",
+              "definition": "The network of cables and stations that carries electricity across a country"
+            },
+            {
+              "word": "invoke",
+              "definition": "To officially use a law or special power for a specific purpose"
+            },
+            {
+              "word": "blackout",
+              "definition": "A period when there is no electricity supply in an area"
+            },
+            {
+              "word": "consume",
+              "definition": "To use something, such as energy or food, over a period of time"
+            }
+          ],
+          "questionB1": "Why do you think a heatwave puts so much pressure on a country's electricity grid, and what could ordinary people do to help?",
+          "summaryB2": "Poland has activated emergency grid capacity powers for the second time within three days, a response to the intense heatwave sweeping the country this summer. The frequency of these interventions is striking: prior to this summer, authorities had resorted to such measures only twice across an entire eight-year period. The rapid succession of activations signals that Poland's electricity infrastructure is struggling to cope with surging demand driven by extreme temperatures. During a heatwave, residential and industrial air conditioning systems run continuously, placing acute strain on the national transmission network. Emergency capacity measures typically allow grid operators to curtail electricity consumption among large industrial users, effectively rationing supply to prevent widespread outages. Poland's vulnerability in this situation is partly structural. The country remains heavily dependent on ageing coal-fired generation, which faces operational constraints precisely when demand peaks on the hottest days. Although Poland has accelerated investment in renewable energy in recent years, the pace of this transition has not kept up with the escalating frequency of extreme weather events attributed to climate change. Analysts warn that without substantial upgrades to both generation capacity and grid resilience, such emergency interventions may become routine rather than exceptional. The episode also reignites debate about the speed of Poland's energy transition and whether its current policy framework adequately addresses the climate-driven risks now manifesting in real time.",
+          "vocabularyB2": [
+            {
+              "word": "curtail",
+              "definition": "To reduce or limit something, especially something that was previously allowed"
+            },
+            {
+              "word": "resilience",
+              "definition": "The ability of a system to recover quickly from difficulties or cope with pressure"
+            },
+            {
+              "word": "rationing",
+              "definition": "Controlling and limiting the amount of something people are allowed to use or have"
+            },
+            {
+              "word": "acute",
+              "definition": "Very serious or severe, often developing quickly and requiring immediate attention"
+            },
+            {
+              "word": "reignites",
+              "definition": "Causes a debate or feeling to start again after it had quietened down"
+            }
+          ],
+          "questionB2": "Given that emergency grid measures are being used with unprecedented frequency, what does this reveal about the resilience of Poland's energy infrastructure and the pace of its transition away from coal?"
+        },
+        {
+          "id": "178634367954764ly",
+          "title": "Italians may help Germany get its trains to run on time",
+          "source": "The Economist Europe",
+          "originalUrl": "https://www.economist.com/europe/2026/08/06/italians-may-help-germany-get-its-trains-to-run-on-time",
+          "category": "business",
+          "date": "2026-08-06",
+          "summaryB1": "Germany is famous for many things, but punctual trains are not one of them. The country's rail network has had serious problems for years. Trains are often late, the infrastructure is old, and the national operator, Deutsche Bahn, has struggled to improve. Now, there may be a surprising solution: competition from Italian railway companies.\n\nIn recent years, European countries have been opening up their rail markets. This means that private companies from other countries can run trains on national networks. Italy did this earlier than most, and the results have been positive. An Italian company called Italo now competes with the state railway on busy routes. This competition has pushed both companies to offer better service and lower prices for passengers.\n\nGermany is now trying a similar approach. Italian operators are interested in entering the German market and running services on some popular routes. Supporters believe that competition will force Deutsche Bahn to improve its reliability and become more efficient.\n\nThis matters because millions of Germans depend on trains every day. Better rail services would also help the environment, as more people might choose trains over cars or planes. The experience of other European countries shows that opening up national markets can bring real benefits. Germany's rail problems will not disappear overnight, but fresh competition could be a good starting point.",
+          "vocabularyB1": [
+            {
+              "word": "punctual",
+              "definition": "Arriving or happening at the correct time, not late"
+            },
+            {
+              "word": "infrastructure",
+              "definition": "The basic systems a country needs, like roads, railways, and electricity"
+            },
+            {
+              "word": "competition",
+              "definition": "A situation where companies try to do better than each other to win customers"
+            },
+            {
+              "word": "reliability",
+              "definition": "The quality of being dependable and doing what you are expected to do"
+            },
+            {
+              "word": "efficient",
+              "definition": "Working well without wasting time, money, or energy"
+            }
+          ],
+          "questionB1": "Do you think competition between railway companies can improve reliability and make public transport more efficient in Poland?",
+          "summaryB2": "Germany's railway network has long been a source of national embarrassment. Deutsche Bahn, the state-owned operator, has accumulated a reputation for chronic delays, ageing infrastructure, and poor service quality. Despite repeated reform efforts, the system has remained stubbornly dysfunctional. Now, an unexpected model is attracting attention: the liberalisation of rail markets, with Italian operators potentially playing a starring role in Germany's recovery.\n\nItaly liberalised its high-speed rail sector ahead of most European peers, allowing the privately-owned Italo to compete directly with the state-run Trenitalia on major intercity corridors. The outcome has been striking: fares dropped, punctuality improved, and passenger numbers rose. Proponents argue that this is a textbook illustration of how market liberalisation can galvanise a sluggish state monopoly into action.\n\nGermany is now tentatively following this path. Under EU directives encouraging open access to national rail networks, Italian operators are reportedly eyeing lucrative German routes. The prospect of well-capitalised foreign competitors entering the market is seen by reformers as a potential catalyst for Deutsche Bahn to overhaul its operations.\n\nCritics, however, warn that cherry-picking profitable intercity routes could leave rural and regional services underfunded, undermining the wider public transport mission. The debate reflects a tension at the heart of European rail policy: how to harness the dynamism of market forces while preserving universal access. Germany's experiment may yet offer instructive lessons for the entire continent.",
+          "vocabularyB2": [
+            {
+              "word": "liberalisation",
+              "definition": "The process of removing government restrictions to allow more free-market competition"
+            },
+            {
+              "word": "galvanise",
+              "definition": "To shock or stimulate someone or something into taking action"
+            },
+            {
+              "word": "catalyst",
+              "definition": "A person or event that causes an important change to happen more quickly"
+            },
+            {
+              "word": "cherry-picking",
+              "definition": "Choosing only the most profitable or desirable options while ignoring less attractive ones"
+            },
+            {
+              "word": "intercity",
+              "definition": "Relating to travel or transport between large cities"
+            }
+          ],
+          "questionB2": "To what extent does the Italian model of rail liberalisation offer a genuine catalyst for reform in Germany, and what risks does cherry-picking profitable intercity routes pose for public transport equity?"
+        },
+        {
+          "id": "1786343701872rot7",
+          "title": "Sexually transmitted infections are surging in Europe",
+          "source": "The Economist Europe",
+          "originalUrl": "https://www.economist.com/europe/2026/08/09/sexually-transmitted-infections-are-surging-in-europe",
+          "category": "technology",
+          "date": "2026-08-09",
+          "summaryB1": "Sexually transmitted infections (STIs) are increasing across Europe. Diseases like syphilis, gonorrhoea, and chlamydia are spreading more quickly than before, and health officials are worried. After years of progress in controlling these illnesses, the numbers are going in the wrong direction again.\n\nThere are several reasons for this rise. Many people do not get tested regularly, so they do not know they are infected. They can then pass the infection to others without realising it. Testing is not always easy to access, and some people feel ashamed to ask for help. This stigma stops many from visiting a doctor or a sexual health clinic.\n\nAnother problem is that some infections are becoming harder to treat. Certain bacteria are developing resistance to antibiotics, which means standard medicines no longer work as well.\n\nTo reduce the spread of STIs, health experts say countries must do two things. First, they must increase testing so that more people find out their status early. Second, they must reduce stigma so that people feel comfortable seeking help without embarrassment.\n\nPublic health campaigns can help change attitudes. When people feel safe and supported, they are more likely to get tested and treated. Governments across Europe need to invest more in sexual health services. The goal is to catch infections early and stop them from spreading further through communities.",
+          "vocabularyB1": [
+            {
+              "word": "sexually transmitted infection",
+              "definition": "An illness passed from one person to another through sexual contact"
+            },
+            {
+              "word": "stigma",
+              "definition": "A feeling of shame or embarrassment that society connects to something"
+            },
+            {
+              "word": "resistance",
+              "definition": "When bacteria or viruses are no longer stopped by medicines like antibiotics"
+            },
+            {
+              "word": "access",
+              "definition": "The ability to get or use something, like a service or place"
+            },
+            {
+              "word": "spreading",
+              "definition": "Moving from one person or place to many others, getting more common"
+            }
+          ],
+          "questionB1": "Why do you think stigma makes it harder to control sexually transmitted infections, and how could communities reduce it?",
+          "summaryB2": "Sexually transmitted infections are surging across Europe, reversing decades of hard-won public health progress. Cases of syphilis, gonorrhoea, and chlamydia have climbed sharply in recent years, alarming epidemiologists and policymakers alike. The resurgence reflects a complex mix of behavioural, systemic, and microbiological factors that no single intervention can easily address.\n\nOne major driver is chronic underdiagnosis. Because many STIs are asymptomatic in their early stages, a substantial portion of those infected remain unaware of their status, unwittingly transmitting the disease to partners. Patchy access to sexual health services — particularly in rural areas and among marginalised communities — compounds the problem. Underfunding of public health infrastructure over the past decade has left testing capacity strained in several countries.\n\nStigma remains a formidable barrier. Fear of judgement discourages individuals from seeking testing or disclosing their status to partners, allowing infections to circulate silently. Experts argue that destigmatising sexual health is not merely a social nicety but a clinical necessity, since shame-driven avoidance directly undermines containment efforts.\n\nComplicating matters further is the emergence of antimicrobial resistance, particularly in gonorrhoea strains that no longer respond reliably to first-line antibiotics. This narrows the therapeutic options available to clinicians.\n\nHealth authorities across Europe are being urged to scale up testing programmes and launch targeted public awareness campaigns. The evidence is clear: early detection, paired with honest, non-judgmental outreach, offers the most effective path to curbing this resurgence before it becomes entrenched.",
+          "vocabularyB2": [
+            {
+              "word": "resurgence",
+              "definition": "A strong return or increase of something that had previously declined"
+            },
+            {
+              "word": "asymptomatic",
+              "definition": "Having a disease or infection but showing no visible signs or symptoms"
+            },
+            {
+              "word": "antimicrobial resistance",
+              "definition": "When bacteria evolve so that antibiotics and similar medicines can no longer kill them"
+            },
+            {
+              "word": "destigmatising",
+              "definition": "Removing the shame or social stigma attached to a condition or behaviour"
+            },
+            {
+              "word": "underdiagnosis",
+              "definition": "A situation where fewer cases of a disease are identified than actually exist"
+            }
+          ],
+          "questionB2": "Given that both destigmatising sexual health services and tackling antimicrobial resistance require long-term political commitment, which challenge do you think European governments are less equipped to address, and why?"
+        },
+        {
+          "id": "1786343721966n7ps",
+          "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-08-09",
+          "summaryB1": "Israel has rejected a peace plan from US President Donald Trump that included 15 points for ending the war in Gaza. Israeli Prime Minister Benjamin Netanyahu said that Israel's army will not leave Gaza until Hamas is 'genuinely' disarmed. This means Hamas must give up all its weapons before Israel agrees to pull out its troops.\n\nThe war in Gaza started after Hamas attacked Israel on 7 October 2023. Since then, Israel has been carrying out military operations in Gaza. Many people have been killed and large parts of Gaza have been destroyed.\n\nTrump's plan was an attempt to reach a ceasefire and bring peace to the region. However, Israel rejected the proposal because it does not believe Hamas will truly disarm. Netanyahu's government wants full control over the situation before withdrawing soldiers.\n\nThis decision makes it harder to end the conflict. Other countries and international organisations are worried about the humanitarian situation in Gaza, where many civilians do not have enough food, water, or medical care. The rejection of Trump's plan shows how difficult it is to reach an agreement when both sides have very different demands. The situation remains tense, and more talks are expected in the coming weeks.",
+          "vocabularyB1": [
+            {
+              "word": "disarmed",
+              "definition": "Having had all weapons taken away or given up"
+            },
+            {
+              "word": "ceasefire",
+              "definition": "An agreement to stop fighting, usually temporary"
+            },
+            {
+              "word": "proposal",
+              "definition": "A formal suggestion or plan offered for others to consider"
+            },
+            {
+              "word": "withdrawing",
+              "definition": "Pulling back or removing soldiers or forces from a place"
+            },
+            {
+              "word": "civilians",
+              "definition": "Ordinary people who are not soldiers or part of the military"
+            }
+          ],
+          "questionB1": "Do you think a ceasefire is possible if both sides refuse to disarm or withdraw their forces? Why or why not?",
+          "summaryB2": "Israel has formally rejected a 15-point peace framework put forward by US President Donald Trump aimed at bringing an end to the ongoing conflict in Gaza. Prime Minister Benjamin Netanyahu stated that Israeli forces would not withdraw from Gaza until Hamas had been 'genuinely' disarmed — a condition that effectively sets a very high bar for any negotiated settlement.\n\nThe rejection signals a hardening of Israel's stance and casts doubt on Washington's ability to broker a lasting agreement between the two sides. Trump's administration had presented the plan as a diplomatic pathway out of the conflict, which erupted following Hamas's deadly assault on Israel on 7 October 2023. Israel responded with an extensive military campaign that has devastated large parts of the Gaza Strip and resulted in a dire humanitarian crisis for the territory's civilian population.\n\nNetanyahu's insistence on full disarmament before any Israeli pullout reflects deep-seated distrust of Hamas and domestic political pressure from hardline members of his coalition government. Critics argue that demanding complete disarmament as a precondition makes a negotiated outcome practically unachievable in the short term.\n\nThe impasse leaves Gaza's population in an increasingly desperate situation, with international aid agencies warning of severe shortages of food, medicine and clean water. Regional tensions remain high, and diplomats from multiple countries are expected to redouble efforts to find a compromise formula that could satisfy both parties.",
+          "vocabularyB2": [
+            {
+              "word": "framework",
+              "definition": "A structured plan or set of ideas used as a basis for negotiations or decisions"
+            },
+            {
+              "word": "broker",
+              "definition": "To arrange or negotiate an agreement between two opposing sides"
+            },
+            {
+              "word": "precondition",
+              "definition": "A requirement that must be met before something else can happen"
+            },
+            {
+              "word": "impasse",
+              "definition": "A situation in which no progress is possible because neither side will compromise"
+            },
+            {
+              "word": "hardline",
+              "definition": "Describing a very strict, uncompromising political position or attitude"
+            }
+          ],
+          "questionB2": "Given the current impasse, what realistic precondition, if any, could both Israel and Hamas plausibly accept as a starting point for meaningful peace negotiations?"
+        },
+        {
+          "id": "178634374424025pw",
+          "title": "'Spectacular' Game of Thrones stage spin-off opens at home of Shakespeare",
+          "source": "BBC Culture",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/czrjkm68xlno?at_medium=RSS&at_campaign=rss",
+          "category": "culture",
+          "date": "2026-08-09",
+          "summaryB1": "A new stage show based on the famous TV series Game of Thrones has opened at the Globe Theatre in London. The Globe is one of the most well-known theatres in the world. It was built close to the place where Shakespeare's original theatre stood hundreds of years ago. The show is called Game of Thrones: The Musical, and it is a spin-off, which means it is connected to the main story but tells a different part of it. Most theatre critics have given the show very positive reviews. They say it is a worthy addition to the Game of Thrones franchise, meaning it is good enough to be part of this popular series. Game of Thrones was one of the most watched TV shows in history. It was based on a series of fantasy novels and ran for eight seasons. Many fans were disappointed by the final season, so there has been a lot of pressure on new projects to succeed. This stage production seems to have impressed both critics and fans. It is described as spectacular, which means it looks and sounds amazing. The show gives fans a new way to experience the world of Game of Thrones. It also brings a big popular franchise to a historic theatre, which is an exciting combination for audiences.",
+          "vocabularyB1": [
+            {
+              "word": "spin-off",
+              "definition": "A new show or product that comes from an already popular series or brand"
+            },
+            {
+              "word": "critics",
+              "definition": "People whose job is to watch shows or films and write their opinions about them"
+            },
+            {
+              "word": "worthy",
+              "definition": "Good enough to deserve respect or to be considered as part of something"
+            },
+            {
+              "word": "franchise",
+              "definition": "A series of related films, shows, or products that share the same characters or world"
+            },
+            {
+              "word": "spectacular",
+              "definition": "Very impressive and exciting to look at or experience"
+            }
+          ],
+          "questionB1": "Do you think a spectacular spin-off like this is a good way to keep a franchise alive after its original TV series has ended?",
+          "summaryB2": "A stage adaptation set within the Game of Thrones universe has made its debut at Shakespeare's Globe in London, drawing widespread acclaim from theatre critics who have largely hailed it as a worthy addition to the sprawling fantasy franchise. The production represents an intriguing convergence of high fantasy pop culture and one of Britain's most venerated theatrical institutions, a venue steeped in centuries of dramatic tradition. Most reviewers have responded with enthusiasm, describing the show as spectacular and praising its ambition in translating the visual grandeur of the television series into a live performance format. Game of Thrones, which aired from 2011 to 2019 and attracted a global audience of tens of millions, remains one of the most culturally pervasive television phenomena in recent memory. Its final season provoked considerable backlash among devoted fans, leaving the franchise with a somewhat tarnished legacy that subsequent projects have had to contend with. This stage spin-off appears to have navigated that challenge effectively, offering audiences a fresh perspective on the fictional world while benefiting from the prestige of its iconic venue. The choice of Shakespeare's Globe is itself a statement of intent — positioning the production not merely as fan service, but as a legitimate piece of theatrical storytelling. Whether it will sustain its momentum beyond the initial wave of critical goodwill remains to be seen.",
+          "vocabularyB2": [
+            {
+              "word": "venerated",
+              "definition": "Greatly respected and admired, especially because of age, tradition, or historical importance"
+            },
+            {
+              "word": "convergence",
+              "definition": "The coming together of two or more different things, ideas, or trends into one place"
+            },
+            {
+              "word": "pervasive",
+              "definition": "Spreading widely through a society or culture and present almost everywhere"
+            },
+            {
+              "word": "backlash",
+              "definition": "A strong negative reaction from the public against something, often sudden and widespread"
+            },
+            {
+              "word": "prestige",
+              "definition": "The respect and admiration that something has because of its high quality or reputation"
+            }
+          ],
+          "questionB2": "Given the backlash against Game of Thrones' final season, can the prestige of a celebrated venue like Shakespeare's Globe genuinely rehabilitate a franchise's reputation, or does critical acclaim only go so far?"
+        },
+        {
+          "id": "1786343762912exox",
+          "title": "Can the EU stop Europe from running out of water? Ask the Euronews AI chatbot",
+          "source": "Euronews",
+          "originalUrl": "http://www.euronews.com/my-europe/2026/08/10/can-the-eu-stop-europe-from-running-out-of-water-ask-the-euronews-ai-chatbot",
+          "category": "environment",
+          "date": "2026-08-10",
+          "summaryB1": "Europe is getting hotter, and this is causing serious problems with water. Record high temperatures are making rivers very low and drying out the soil. In many European countries, there are now water restrictions, which means people cannot use water freely. For example, they may not be able to water their gardens or wash their cars. This is called water scarcity, which means there is not enough water for everyone who needs it. The European Union, or EU, is a group of 27 countries that work together. Many people are asking what the EU plans to do about this growing problem. The EU has rules and programmes to help protect water, but it is not always easy to make all member countries agree and act together. The situation is getting worse every summer, so people are worried about the future. Euronews, a European news channel, has created an AI chatbot to help people understand the EU's response to this crisis. A chatbot is a computer programme that answers your questions automatically. By asking the chatbot, readers can learn about EU water policy and what actions are being planned. This shows how new technology can help people access information about environmental problems that affect their daily lives.",
+          "vocabularyB1": [
+            {
+              "word": "water scarcity",
+              "definition": "A situation where there is not enough water available for people's needs"
+            },
+            {
+              "word": "restrictions",
+              "definition": "Official rules that limit what people are allowed to do"
+            },
+            {
+              "word": "soil",
+              "definition": "The top layer of ground where plants grow"
+            },
+            {
+              "word": "chatbot",
+              "definition": "A computer programme that automatically answers questions in a conversation"
+            },
+            {
+              "word": "policy",
+              "definition": "A plan or set of rules made by a government or organisation"
+            }
+          ],
+          "questionB1": "Water scarcity is affecting many European countries. What restrictions do you think governments should introduce to help solve this problem?",
+          "summaryB2": "Europe is facing an intensifying water crisis, with record-breaking temperatures depleting river levels to historic lows and leaving soils dangerously dry across the continent. The consequences are tangible and immediate: widespread water restrictions are forcing citizens in numerous EU member states to change their daily habits, from limiting garden irrigation to reducing industrial water use. At the heart of the debate is a fundamental question about governance — can the European Union coordinate an effective, continent-wide response to what is becoming a chronic environmental emergency? The EU does have existing frameworks for water protection, most notably the Water Framework Directive, which sets targets for maintaining healthy water bodies. However, critics argue that implementation has been inconsistent, with member states often prioritising short-term economic interests over long-term environmental commitments. The situation is further complicated by the fact that water management has traditionally been a national rather than a supranational responsibility, making EU-level intervention politically sensitive. Euronews has responded to growing public interest by deploying an AI chatbot, allowing readers to interrogate the bloc's policies interactively and in real time. This innovative approach reflects a broader shift in how media organisations are making complex institutional information more accessible to ordinary citizens. As summers grow hotter and water sources diminish, the pressure on EU policymakers to deliver a coherent, enforceable strategy will only mount.",
+          "vocabularyB2": [
+            {
+              "word": "depleting",
+              "definition": "Gradually reducing the amount of something until very little remains"
+            },
+            {
+              "word": "chronic",
+              "definition": "Describes a problem that continues for a long time and is difficult to solve"
+            },
+            {
+              "word": "supranational",
+              "definition": "Involving authority or power that goes above the level of individual countries"
+            },
+            {
+              "word": "interrogate",
+              "definition": "To question something or someone very thoroughly and carefully"
+            },
+            {
+              "word": "coherent",
+              "definition": "Logical, well-organised, and easy to understand as a whole"
+            }
+          ],
+          "questionB2": "Given that water management has traditionally been a supranational rather than national responsibility, how realistic is it to expect the EU to deliver a coherent, enforceable response to the water crisis?"
+        },
+        {
+          "id": "1786343783531n8nj",
+          "title": "Oil prices rise as traders assess US-Iran talks on Strait of Hormuz deal",
+          "source": "Euronews",
+          "originalUrl": "http://www.euronews.com/business/2026/08/10/oil-prices-rise-as-traders-assess-us-iran-talks-on-strait-of-hormuz-deal",
+          "category": "business",
+          "date": "2026-08-10",
+          "summaryB1": "Oil prices went up this week after traders started watching talks between the United States and Iran. The two countries are discussing a possible deal about the Strait of Hormuz, a narrow waterway in the Middle East. This strait is very important for world trade because a large amount of the world's oil passes through it every day. If the passage through the strait is not safe, oil supplies can be disrupted, and prices go up. Right now, traders are waiting to see if the talks will lead to a real agreement. If a deal is reached, ships could move through the strait more freely and safely. This would help keep oil supplies stable and could bring prices down again. The United States wants to make sure that oil tankers can travel through the strait without problems. Iran has control over a large part of this waterway, so its cooperation is necessary. Many countries in Europe and Asia depend on oil that comes through this route. For now, the outcome of the talks is uncertain, so traders are being careful. The rise in oil prices shows how closely the energy market reacts to political events around the world.",
+          "vocabularyB1": [
+            {
+              "word": "strait",
+              "definition": "A narrow strip of water connecting two larger bodies of water"
+            },
+            {
+              "word": "waterway",
+              "definition": "A river, canal, or other route where ships can travel"
+            },
+            {
+              "word": "disrupted",
+              "definition": "Stopped or seriously interrupted so that something cannot continue normally"
+            },
+            {
+              "word": "tankers",
+              "definition": "Large ships designed to carry oil or other liquids in big quantities"
+            },
+            {
+              "word": "outcome",
+              "definition": "The final result of a situation or process"
+            }
+          ],
+          "questionB1": "If the talks between the US and Iran succeed, how might a safer waterway affect everyday people in countries that depend on oil?",
+          "summaryB2": "Oil prices edged higher this week as commodity traders kept a close eye on diplomatic negotiations between Washington and Tehran over the future of the Strait of Hormuz, one of the world's most strategically sensitive chokepoints. Approximately 20 percent of global oil supply transits this narrow passage between Iran and Oman, making any threat to its security a potential trigger for price volatility in energy markets worldwide. The prospect of a bilateral agreement that would guarantee safe passage for oil tankers has injected cautious optimism into the market, though analysts warn that translating preliminary talks into a binding deal remains far from straightforward. Iran's influence over the strait gives it considerable geopolitical leverage in any negotiations — Tehran has previously threatened to close the passage in response to Western sanctions, a move that sent shockwaves through global energy markets. For the United States, securing unimpeded transit through the Hormuz corridor would represent a significant diplomatic achievement and a reassurance to allied economies in Europe and Asia that depend heavily on Gulf oil exports. Traders are pricing in the possibility of a deal rather than its certainty, which explains the measured rather than dramatic rise in crude prices. The situation illustrates how tightly intertwined energy markets and geopolitical developments have become, with even early-stage diplomatic signals capable of moving global oil benchmarks.",
+          "vocabularyB2": [
+            {
+              "word": "chokepoint",
+              "definition": "A narrow, strategically vital route where traffic or supply can easily be blocked"
+            },
+            {
+              "word": "volatility",
+              "definition": "A tendency to change rapidly and unpredictably, often used about prices or markets"
+            },
+            {
+              "word": "bilateral",
+              "definition": "Involving exactly two countries or groups making an agreement together"
+            },
+            {
+              "word": "unimpeded",
+              "definition": "Not blocked or slowed down; allowed to move or progress freely"
+            },
+            {
+              "word": "benchmarks",
+              "definition": "Standard reference points used to measure or compare prices or performance"
+            }
+          ],
+          "questionB2": "Given the history of threats to close this chokepoint, how much genuine bilateral trust would need to exist before energy markets could treat any US-Iran agreement as reliably stable?"
+        },
+        {
+          "id": "1786343803311edw1",
+          "title": "Three midlife health factors could delay dementia by 13 years, study finds",
+          "source": "Euronews",
+          "originalUrl": "http://www.euronews.com/health/2026/08/10/three-midlife-health-factors-could-delay-dementia-by-13-years-study-finds",
+          "category": "technology",
+          "date": "2026-08-10",
+          "summaryB1": "Dementia is a serious illness that affects memory and thinking. It becomes more common as people get older. But new research suggests that good health habits in middle age may help delay the start of dementia by up to 13 years.\n\nScientists looked at three health factors related to blood and heart health, which doctors call vascular health. These include things like blood pressure, blood sugar levels, and cholesterol. When people keep these factors under control during midlife, usually between the ages of 40 and 65, they may protect their brains for longer.\n\nThe study found that people with good vascular health had a much lower risk of developing dementia compared to those with poor vascular health. This means that simple lifestyle choices, such as eating well, exercising regularly, and avoiding smoking, could make a real difference.\n\nThis research matters because the number of people living with dementia is growing around the world. Finding ways to delay the condition, even by a few years, could reduce suffering and save money for health systems.\n\nDoctors say it is never too late to improve your health, but starting early gives the best results. Taking care of your vascular health in midlife could be one of the most effective steps you take for your future brain health.",
+          "vocabularyB1": [
+            {
+              "word": "delay",
+              "definition": "To make something happen later than expected"
+            },
+            {
+              "word": "vascular",
+              "definition": "Related to blood vessels and the movement of blood in the body"
+            },
+            {
+              "word": "midlife",
+              "definition": "The period of life roughly between the ages of 40 and 65"
+            },
+            {
+              "word": "cholesterol",
+              "definition": "A fatty substance in the blood that can affect heart and blood vessel health"
+            },
+            {
+              "word": "condition",
+              "definition": "A medical problem or illness that affects someone over time"
+            }
+          ],
+          "questionB1": "How could improving your vascular health in midlife change the way you think about your daily habits?",
+          "summaryB2": "A growing body of research continues to shed light on how lifestyle choices in midlife can shape cognitive health in later years. The latest findings, cited by Euronews, suggest that maintaining good vascular health during middle age may delay the onset of dementia by as many as 13 years — a figure that carries profound implications for public health policy and individual behaviour alike.\n\nThe study identified three vascular health factors — likely encompassing blood pressure, blood glucose, and cholesterol levels — as having a measurable impact on dementia risk. Researchers found that individuals with well-managed vascular health in midlife showed a substantially reduced susceptibility to cognitive decline compared to those who neglected these markers.\n\nWhat makes these findings particularly compelling is the scale of the potential benefit. A 13-year postponement of dementia onset would not merely improve quality of life for millions of individuals; it would also alleviate considerable pressure on overstretched healthcare systems across Europe and beyond.\n\nThe research reinforces the view that dementia is not an inevitable consequence of ageing. Rather, it may be a condition that is, to a meaningful degree, modifiable through evidence-based interventions in midlife. Experts advocate for greater awareness of vascular risk factors among adults in their forties and fifties, arguing that proactive health management at this stage offers the greatest protective effect.\n\nFor Polish adults navigating an ageing population and rising rates of cardiovascular disease, these findings offer both a warning and a source of genuine hope.",
+          "vocabularyB2": [
+            {
+              "word": "onset",
+              "definition": "The beginning or early stages of something, especially an illness"
+            },
+            {
+              "word": "susceptibility",
+              "definition": "The state of being easily affected by or vulnerable to something harmful"
+            },
+            {
+              "word": "modifiable",
+              "definition": "Able to be changed or adjusted, especially through deliberate action"
+            },
+            {
+              "word": "alleviate",
+              "definition": "To make a problem or suffering less severe or easier to deal with"
+            },
+            {
+              "word": "proactive",
+              "definition": "Taking action to prevent problems before they happen, rather than reacting afterwards"
+            }
+          ],
+          "questionB2": "To what extent should governments invest in public health campaigns targeting vascular risk factors in midlife, and how might such proactive strategies reshape long-term dementia care costs?"
+        },
+        {
+          "id": "1786343825045xc33",
+          "title": "Remains of Poles massacred by Ukrainian nationalists in WWII exhumed in Ukraine",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/08/08/remains-of-poles-massacred-by-ukrainian-nationalists-in-wwii-exhumed-in-ukraine/",
+          "category": "politics",
+          "date": "2026-08-08",
+          "summaryB1": "Workers in Ukraine have dug up the remains of Polish people who were killed during the Second World War. The victims were murdered by Ukrainian nationalists in what is known as the Volhynia massacre. This terrible event happened in the 1940s, when tens of thousands of Polish civilians were killed in the region that is now western Ukraine. About half of the remains found belonged to children. Many of the bodies show signs of brutal deaths. Some skulls had been pierced with farming tools, which shows how violent the killings were. For Poland, finding and burying these remains is deeply emotional. Polish families have waited decades for their loved ones to receive a proper burial. The exhumation, which means digging up the bodies, is the result of long negotiations between Poland and Ukraine. Relations between the two countries have sometimes been difficult because of this painful history. However, both governments agree that identifying the victims and giving them a dignified burial is the right thing to do. This discovery reminds people of the terrible suffering that happened during the war. It also shows that countries can work together to face difficult truths from the past, even when those truths are painful.",
+          "vocabularyB1": [
+            {
+              "word": "remains",
+              "definition": "The body or bones of a person who has died"
+            },
+            {
+              "word": "burial",
+              "definition": "The act of placing a dead person's body in the ground"
+            },
+            {
+              "word": "exhumation",
+              "definition": "The process of digging up a body from the ground"
+            },
+            {
+              "word": "civilians",
+              "definition": "Ordinary people who are not soldiers or part of the military"
+            },
+            {
+              "word": "negotiations",
+              "definition": "Formal talks between people or countries to reach an agreement"
+            }
+          ],
+          "questionB1": "Why do you think giving the victims a proper burial matters so much to Polish families, even after so many decades?",
+          "summaryB2": "The remains of Polish victims of the Volhynia massacre have been exhumed at a site in Ukraine, in what represents a rare and emotionally charged step forward in Polish-Ukrainian historical reconciliation. The killings were carried out by the Ukrainian Insurgent Army, known by its Ukrainian acronym UPA, during the early 1940s, and resulted in the deaths of an estimated 100,000 Polish civilians in German-occupied territories that now form part of western Ukraine. The discovery is harrowing: approximately half of the recovered remains belonged to children, and forensic examination has revealed that many skulls were pierced with farming tools, pointing to the indiscriminate and savage nature of the atrocities committed. The exhumation was made possible through painstaking diplomatic efforts between Warsaw and Kyiv, two governments whose wartime grievances have long complicated an otherwise close contemporary partnership. Poland has consistently pressed Ukraine to acknowledge and account for the massacres, while Ukrainian authorities have at times been reluctant to fully confront the legacy of nationalist violence given the revered status of UPA figures in parts of Ukrainian society. The timing carries additional weight, as both nations are currently bound together by the ongoing Russian invasion of Ukraine, creating a delicate context in which confronting painful shared history requires both political will and mutual sensitivity. For Polish families, the prospect of dignified reburial after generations of ambiguity offers a form of long-awaited closure.",
+          "vocabularyB2": [
+            {
+              "word": "reconciliation",
+              "definition": "The process of two sides becoming friendly again after a conflict or disagreement"
+            },
+            {
+              "word": "harrowing",
+              "definition": "Extremely distressing or deeply shocking, especially about suffering"
+            },
+            {
+              "word": "indiscriminate",
+              "definition": "Done without care about who is harmed; affecting everyone without distinction"
+            },
+            {
+              "word": "painstaking",
+              "definition": "Done with great care, effort, and attention to detail"
+            },
+            {
+              "word": "legacy",
+              "definition": "Something left behind from the past that continues to affect the present"
+            }
+          ],
+          "questionB2": "How might the competing pressures of wartime solidarity and unresolved historical legacy complicate Poland and Ukraine's efforts toward genuine reconciliation over the Volhynia massacres?"
+        },
+        {
+          "id": "1786343845839rntt",
+          "title": "Prince to Madonna, Blur to Beth Orton: William Orbit’s 12 greatest recordings",
+          "source": "The Guardian Culture",
+          "originalUrl": "https://www.theguardian.com/music/2026/aug/07/william-orbit-greatest-recordings-prince-madonna-blur-beth-orton",
+          "category": "culture",
+          "date": "2026-08-07",
+          "summaryB1": "William Orbit was a British music producer who recently died at the age of 69. He was famous for working with some of the biggest names in pop music, including Madonna, Prince, Blur, and Beth Orton. The Guardian has published a list of his 12 greatest recordings to remember his work and his influence on modern music.\n\nOrbit's career began with a band called Torch Song. This group was unusual because it mixed mainstream pop with more experimental sounds. One of their tracks appeared on the soundtrack of a 1984 film called Bachelor Party, which starred Tom Hanks. Torch Song also recorded at a place called Centro Iberico in London, which was known as an anarchist hub – a meeting place for people with very alternative political ideas. They even covered songs by the Velvet Underground, a well-known American rock band.\n\nAn early Torch Song track called Mothdoom Ecstasy already showed signs of Orbit's future style. It used samples, loud drums, and soft, dreamy synth sounds with gentle female vocals. These elements would later become part of his signature sound as a producer.\n\nOrbit had a special gift for bringing dance music ideas into mainstream pop. This ability helped many famous artists sound better than ever before. His work changed the sound of pop music in the 1990s and beyond.",
+          "vocabularyB1": [
+            {
+              "word": "producer",
+              "definition": "A person who manages and shapes the sound of a music recording"
+            },
+            {
+              "word": "mainstream",
+              "definition": "The most popular and widely accepted style or trend in culture"
+            },
+            {
+              "word": "soundtrack",
+              "definition": "The music recorded for and used in a film or television show"
+            },
+            {
+              "word": "experimental",
+              "definition": "Trying new and unusual ideas that are different from normal styles"
+            },
+            {
+              "word": "signature sound",
+              "definition": "A particular style or quality that is typical of one artist or producer"
+            }
+          ],
+          "questionB1": "What do you think makes a music producer's signature sound stand out and help mainstream artists sound better than before?",
+          "summaryB2": "William Orbit, the acclaimed British producer who has died aged 69, shaped the sound of popular music across three decades by blending the cutting edge of electronic and dance music with mainstream pop sensibilities. The Guardian has marked his passing with a retrospective of his 12 greatest recordings, tracing a career that stretched from post-punk obscurity to global commercial triumph.\n\nOrbit's origins were eclectic, to say the least. His first group, Torch Song, occupied an intriguing middle ground between pop accessibility and left-field experimentation. While the band achieved their most notable commercial exposure when a track was featured on the Bachelor Party film soundtrack, they simultaneously recorded at Centro Iberico, a London anarchist venue associated with radical acts such as Crass and Throbbing Gristle. This unlikely juxtaposition of populist and avant-garde influences would prove characteristic of Orbit's entire career.\n\nAn early Torch Song recording, Mothdoom Ecstasy, already foreshadowed the producer's mature aesthetic: stuttering samples, prominent percussion, hazy synth textures, and ethereal female vocals. These hallmarks would later define some of the most commercially successful albums of the 1990s, as Orbit went on to collaborate with artists as diverse as Madonna, Prince, Blur, Beth Orton, and All Saints – consistently elevating their work through his distinctive sonic palette.\n\nOrbit's legacy rests on his rare ability to absorb the innovations of underground dance culture and translate them into sounds that resonated with vast mainstream audiences without losing their edge.",
+          "vocabularyB2": [
+            {
+              "word": "retrospective",
+              "definition": "A review or collection looking back at an artist's past work and career"
+            },
+            {
+              "word": "eclectic",
+              "definition": "Mixing many different styles, influences, or ideas from various sources"
+            },
+            {
+              "word": "juxtaposition",
+              "definition": "Placing two very different things side by side to highlight the contrast between them"
+            },
+            {
+              "word": "avant-garde",
+              "definition": "Experimental and ahead of its time, often challenging conventional artistic ideas"
+            },
+            {
+              "word": "sonic palette",
+              "definition": "The range of sounds and audio textures a musician or producer typically uses"
+            }
+          ],
+          "questionB2": "How does the juxtaposition of avant-garde and commercial influences in an artist's early career shape their long-term creative identity and ability to connect with diverse audiences?"
+        }
+      ]
+    },
+    {
       "generated": "2026-08-03T08:52:04.857Z",
       "week": "2026-W31",
       "articles": [
