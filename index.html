@@ -327,6 +327,18 @@
       padding-top: 6px;
       border-top: 1px solid var(--rule);
     }
+    .card-prev-badge {
+      font-size: 10px;
+      font-weight: 500;
+      color: var(--ink-muted);
+      background: var(--paper-warm);
+      border: 1px solid var(--rule);
+      border-radius: 20px;
+      padding: 2px 8px;
+      display: inline-block;
+      align-self: flex-start;
+      letter-spacing: 0.04em;
+    }
 
     /* ── MODAL ── */
     .modal-overlay {
@@ -1108,6 +1120,7 @@
             <span class="card-cat">${CAT_LABELS[a.category] || a.category}</span>
             <h3 class="card-title">${escHtml(a.title)}</h3>
             <div class="card-source">${escHtml(a.source)} · ${formatDate(a.date)}</div>
+            ${a.fromPreviousEdition ? '<span class="card-prev-badge">📅 From last week&#39;s edition</span>' : ''}
             <p class="card-preview">${escHtml(a.summaryB1 || '')}</p>
             <div class="card-cta">Read with summaries →</div>
           </article>`;
@@ -1454,8 +1467,9 @@
       <div class="modal-byline">
         <span>${escHtml(a.source)}</span>
         <span>${formatDate(a.date)}</span>
+        ${a.fromPreviousEdition ? '<span style="background:var(--paper-warm);border:1px solid var(--rule);border-radius:20px;padding:2px 8px;font-size:11px;">📅 From last week&#39;s edition</span>' : ''}
         <a href="${escAttr(a.originalUrl)}" target="_blank" rel="noopener noreferrer">Read original article ↗</a>
-      </div>`;
+      </div>\`;
 
     // Build summary HTML with each vocab word wrapped in a <mark> span
     function buildSummaryHtml(text, vocabItems) {

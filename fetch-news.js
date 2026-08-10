@@ -126,10 +126,36 @@ async function main() {
   const selected = selectBalanced(fresh, ARTICLES_PER_RUN, MAX_PER_CATEGORY);
   console.log(`🎯  Selected ${selected.length} articles for this week`);
 
-  // 4. Generate summaries and vocabulary for each
+  // 3b. Backfill guarantee — if any category has zero articles this week,
+  // borrow the most recent article(s) for that category from the previous
+  // edition, marked with fromPreviousEdition: true so the UI can badge them.
+  const ALL_CATS = ['politics', 'business', 'technology', 'environment', 'culture'];
+  const coveredCats = new Set(selected.map(a => a.category));
+  const missingCats = ALL_CATS.filter(c => !coveredCats.has(c));
+  if (missingCats.length && archive.editions.length > 0) {
+    const prevArticles = archive.editions[0].articles || [];
+    for (const cat of missingCats) {
+      const fallback = prevArticles.filter(a => a.category === cat).slice(0, 2);
+      if (fallback.length) {
+        fallback.forEach(a => {
+          selected.push({ ...a, fromPreviousEdition: true });
+          console.log(`📋  Backfilled [${cat}] from previous edition: ${a.title.slice(0, 60)}`);
+        });
+      } else {
+        console.log(`⚠️  No previous articles found for backfill in [${cat}]`);
+      }
+    }
+  }
+
+  // 4. Generate summaries and vocabulary for each (skip backfilled articles)
   const newArticles = [];
   for (let i = 0; i < selected.length; i++) {
     const item = selected[i];
+    if (item.fromPreviousEdition) {
+      console.log(`⏭  [${i + 1}/${selected.length}] Keeping previous summary: ${item.title.slice(0, 60)}`);
+      newArticles.push(item);
+      continue;
+    }
     console.log(`📝  [${i + 1}/${selected.length}] Summarising: ${item.title}`);
     try {
       const enriched = await summariseArticle(client, item);
@@ -256,8 +282,8 @@ async function correctCategories(client, articles) {
         content: `You are categorising news articles for an English-language digest. The five available categories are:
 - politics: government, elections, international relations, war, diplomacy, law, crime
 - business: economy, markets, companies, finance, trade, employment
-- technology: science, tech, AI, health, medicine, environment (when science-focused)
-- environment: climate, nature, wildlife, sustainability, energy, weather, wellbeing, food, lifestyle
+- technology: computers, software, AI, robotics, cybersecurity, digital platforms, space exploration, engineering innovations — strictly tech and digital topics only
+- environment: climate, nature, wildlife, sustainability, energy, weather, wellbeing, food systems, lifestyle, public health, medicine, disease, mental health — anything about the natural world or human health
 - culture: arts, entertainment, music, film, travel, books, sport (culture angle), food culture
 
 For each article below, reply with its number and the CORRECT category based on what the article is actually about — not which section of a news website it came from. If the current category is already correct, keep it.
