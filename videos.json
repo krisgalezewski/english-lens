@@ -1,6 +1,341 @@
 {
   "editions": [
     {
+      "generated": "2026-08-10T06:50:54.103Z",
+      "videos": [
+        {
+          "videoId": "7mViRIbuYPE",
+          "title": "What could Europe learn from Australia and Canada about fighting wildfires? #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-08-03T15:00:22Z",
+          "thumbnail": "https://i.ytimg.com/vi/7mViRIbuYPE/hqdefault.jpg",
+          "durationSeconds": 56,
+          "transcript": "The scale of these wildfires in Europe is not something they're used to, but they are becoming more frequent. It cost the region about 2.5 billion euros every year. So, are there lessons from other countries like Canada and Australia which can be applied? Their approach to wildfires is all about preparation, trying to prevent the wildfires breaking out in the first place. So, their approach to land management is different. They don't plant certain vegetation, they have breaks in their forest to stop the fire spreading, and they have grazing cattle to try and reduce the ground cover. Earlier this year, in March, the EU introduced a plan to try and roll out some of these measures. It also included other things like restoring rivers and wetlands to try and stop the fires spread. Australia also has strong public education around fires. It has no burn days where you can't use barbecues or open fires, and there are high fines for breaking the rules. They also invest heavily in firefighting resources. In Europe, there are about two dozen aircraft which are used to fight fires. Although Australia is about double the size, they have more than seven times that. So, is it time we start introducing these measures here?",
+          "category": "politics",
+          "summary": "This BBC News video examines the growing problem of wildfires in Europe, which cost the region around 2.5 billion euros per year. It looks at how countries like Australia and Canada manage wildfires through land preparation, public education, and firefighting resources. The video asks whether Europe should adopt similar approaches to better protect itself from future fires.",
+          "multipleChoice": [
+            {
+              "question": "How much do wildfires cost Europe approximately every year?",
+              "options": [
+                "3.5 billion euros",
+                "1.5 billion euros",
+                "2.5 billion euros",
+                "5 billion euros"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Which of the following is mentioned as part of Australia's public education approach to wildfires?",
+              "options": [
+                "Government warnings sent by text message",
+                "Mandatory evacuation drills for residents",
+                "No burn days when barbecues and open fires are not allowed",
+                "Free firefighting training for local communities"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Compared to Europe's roughly two dozen firefighting aircraft, how many does Australia have?",
+              "options": [
+                "About twice as many",
+                "About four times as many",
+                "More than seven times as many",
+                "About five times as many"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Australia and Canada focus on preventing wildfires from starting in the first place, rather than only reacting when fires break out.",
+              "answer": true
+            },
+            {
+              "statement": "The EU introduced its plan to adopt new wildfire management measures in June 2026.",
+              "answer": false
+            },
+            {
+              "statement": "Restoring rivers and wetlands was included in the EU's plan to help stop the spread of fires.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were mentioned in the video.",
+            "items": [
+              "The yearly cost of wildfires in Europe is given",
+              "Land management techniques used in Canada and Australia are described",
+              "The EU introduces a plan to roll out new wildfire measures",
+              "The number of firefighting aircraft in Europe and Australia is compared"
+            ]
+          }
+        },
+        {
+          "videoId": "3jld6e0xac0",
+          "title": "Why are Shell and BP moving away from renewables?",
+          "channel": "Reuters",
+          "publishedAt": "2026-08-03T13:28:35Z",
+          "thumbnail": "https://i.ytimg.com/vi/3jld6e0xac0/hqdefault.jpg",
+          "durationSeconds": 90,
+          "transcript": "So, shareholders have been pushing both Shell and BP to in recent years focus [music] on businesses that uh generate higher returns and more predictable returns. And for both companies that >> [music] >> uh still largely means oil and gas. Both companies are concentrating on areas [music] where they believe they have a competitive advantage. For Shell in particular, it means that they're pursuing trading [music] and their upstream operations. For Total, this largely means that [music] it strengthens its electricity business. So, Total has been building a portfolio of renewable and gas-fired um power assets in deregulated markets, [music] where it can not only generate electricity, but it also then can use its trading arm to profit from swings in power prices. Owning these assets means that [music] Total gets better visibility into supply and demand. While Swan has been pursuing [music] a uh pivot back to oil and gas investments for Shell, um this very much tracks with that strategy. They've been um going strong into LNG and uh oil and gas, and this this um makes sure they're still on that path.",
+          "category": "business",
+          "summary": "This video discusses why major oil companies Shell and BP are stepping back from renewable energy investments. An analyst explains that shareholders are pushing these companies toward higher and more predictable returns, which still largely come from oil and gas. The video also contrasts this approach with Total's strategy of building a mixed portfolio of renewable and gas-fired power assets.",
+          "multipleChoice": [
+            {
+              "question": "According to the video, what are shareholders pushing Shell and BP to focus on?",
+              "options": [
+                "Expanding into new international markets",
+                "Businesses that generate higher and more predictable returns",
+                "Building more renewable energy projects",
+                "Reducing their carbon emissions faster"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What does Shell's strategy particularly focus on, according to the video?",
+              "options": [
+                "Acquiring other energy companies",
+                "Electricity distribution networks",
+                "Building solar and wind farms",
+                "Trading and upstream operations"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "How does Total use owning power assets to its advantage, according to the video?",
+              "options": [
+                "By partnering with Shell and BP on joint projects",
+                "By selling those assets to competitors at a profit",
+                "By using its trading arm to profit from swings in power prices",
+                "By using them to reduce operating costs in oil and gas"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "For both Shell and BP, oil and gas still largely represent their main source of competitive returns.",
+              "answer": true
+            },
+            {
+              "statement": "Total has decided to move away from electricity and focus entirely on oil and gas, similar to Shell.",
+              "answer": false
+            },
+            {
+              "statement": "Owning power assets gives Total better visibility into supply and demand.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were mentioned in the video.",
+            "items": [
+              "Shareholders pushing Shell and BP toward higher returns",
+              "Shell focusing on trading and upstream operations",
+              "Total building a portfolio of renewable and gas-fired power assets",
+              "Shell going strong into LNG and oil and gas investments"
+            ]
+          }
+        },
+        {
+          "videoId": "AsayfHexaIE",
+          "title": "Is an iPhone shortage coming?",
+          "channel": "Reuters",
+          "publishedAt": "2026-07-31T14:00:07Z",
+          "thumbnail": "https://i.ytimg.com/vi/AsayfHexaIE/hqdefault.jpg",
+          "durationSeconds": 65,
+          "transcript": "How long would you wait for the new iPhone? Because everyone wants one and Apple can't build them fast enough. Demand for iPhones is surging. But the AI boom is creating a shortage of chips and components that Apple needs to build them. CEO Tim Cook said the supply crunch is only getting worse, and Apple now expects slower sales growth ahead. That sent investors running. Apple has already raised prices by 20% on some MacBooks and iPads because of higher component costs. So far, the iPhone has escaped. And with the new model just weeks away, analysts increasingly think that could change. iPhone sales hit a record $54 billion last quarter, despite customers normally waiting for the latest model. So, does that demand survive a price hike? Meanwhile, just as Apple heads into one of the biggest iPhone launches in years, another major change is coming. September also marks the end of the Tim Cook era with hardware chief John Turnis taking over CEO. His first challenge, a supply crunch, sky-high expectations, and the launch of Apple's newest money maker.",
+          "category": "technology",
+          "summary": "Apple is facing a shortage of chips and components caused by the AI boom, which is slowing iPhone production and may lead to higher prices. CEO Tim Cook has warned that the supply situation is getting worse, and Apple has already raised prices on some MacBooks and iPads. On top of this, September will bring both a major new iPhone launch and a leadership change, with John Turnis replacing Tim Cook as CEO.",
+          "multipleChoice": [
+            {
+              "question": "By how much has Apple already raised prices on some MacBooks and iPads?",
+              "options": [
+                "25%",
+                "10%",
+                "20%",
+                "15%"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "How much did iPhone sales reach in the last quarter mentioned in the video?",
+              "options": [
+                "$64 billion",
+                "$54 billion",
+                "$45 billion",
+                "$50 billion"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Who is taking over as Apple's CEO from Tim Cook?",
+              "options": [
+                "The current head of software",
+                "Apple's chief financial officer",
+                "A newly hired executive from outside Apple",
+                "Hardware chief John Turnis"
+              ],
+              "correctIndex": 3
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The AI boom is contributing to a shortage of chips that Apple needs to build iPhones.",
+              "answer": true
+            },
+            {
+              "statement": "Apple has already raised the price of the iPhone by 20%.",
+              "answer": false
+            },
+            {
+              "statement": "iPhone sales hit a record last quarter even though customers often wait for the newest model.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or developments in the order they were mentioned in the video.",
+            "items": [
+              "The AI boom creates a shortage of chips and components for Apple",
+              "Apple raises prices on some MacBooks and iPads by 20%",
+              "iPhone sales hit a record $54 billion in one quarter",
+              "John Turnis takes over as CEO from Tim Cook in September"
+            ]
+          }
+        },
+        {
+          "videoId": "TF20mM43oos",
+          "title": "Europe’s rivers are running dry | DW News",
+          "channel": "DW News",
+          "publishedAt": "2026-08-04T17:52:24Z",
+          "thumbnail": "https://i.ytimg.com/vi/TF20mM43oos/hqdefault.jpg",
+          "durationSeconds": 39,
+          "transcript": "This is what's happening to Europe's rivers. Low water levels on the Danube and the Rhine are disrupting shipping, tourism, and energy production. In Hungary, there's not enough water to properly cool this nuclear plant, but there's another victim, aquatic life. With less water, fish and other river animals lose the space they need to feed and reproduce. Hot, dry conditions also mean less oxygen in the water, which can be deadly. And when rivers run low, pollution from treated wastewater becomes more concentrated, disturbing these ecosystems. As climate change brings longer droughts and higher temperatures, these problems are expected to become more common. What's it like where you live? Are your rivers changing?",
+          "category": "environment",
+          "summary": "This video looks at falling water levels in major European rivers, including the Danube and the Rhine. It explains how low water affects shipping, tourism, energy production, and especially aquatic life. The video also connects these problems to climate change and longer periods of drought.",
+          "multipleChoice": [
+            {
+              "question": "According to the video, why is low water on the Danube a problem for Hungary?",
+              "options": [
+                "Shipping companies have raised their prices",
+                "Tourists cannot use the river for swimming",
+                "There is not enough water to cool a nuclear plant",
+                "Fish cannot migrate to the sea"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What happens to pollution from treated wastewater when river levels drop?",
+              "options": [
+                "It is removed by fish and other aquatic animals",
+                "It becomes more concentrated in the water",
+                "It disappears because there is less water to carry it",
+                "It is carried away more quickly by the current"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which of the following problems for aquatic life is mentioned in the video?",
+              "options": [
+                "Increased salt levels poison river animals",
+                "Rivers become too cold for fish to survive",
+                "Fish lose the space they need to feed and reproduce",
+                "Flooding destroys fish breeding grounds"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Low water levels in European rivers are disrupting shipping, tourism, and energy production.",
+              "answer": true
+            },
+            {
+              "statement": "Hot and dry conditions increase the amount of oxygen in river water.",
+              "answer": false
+            },
+            {
+              "statement": "According to the video, climate change is expected to bring longer droughts and higher temperatures.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were mentioned in the video",
+            "items": [
+              "Low water levels disrupting shipping, tourism, and energy production",
+              "A nuclear plant in Hungary struggling to cool itself",
+              "Fish and river animals losing space to feed and reproduce",
+              "Pollution from treated wastewater becoming more concentrated"
+            ]
+          }
+        },
+        {
+          "videoId": "PS3FTkpN864",
+          "title": "Volksbad - Berlin’s history of weird pools and its newest edition",
+          "channel": "DW Euromaxx",
+          "publishedAt": "2026-08-07T16:17:17Z",
+          "thumbnail": "https://i.ytimg.com/vi/PS3FTkpN864/hqdefault.jpg",
+          "durationSeconds": 34,
+          "transcript": "Berlin has a history of putting swimming pools in weird places. Like this one on a shipping container. Or this adult one in KitKat. And this one in an old airship hangar. Now they put up their very own reflecting pool in front of a 100-year-old theater. Along with adding a free public pool to the neighborhood, it's actually set up as a political statement against deteriorating infrastructure and over-commercialized third spaces. And while some have criticized the theater for spending their public budget on such a thing, they saw it as a way of keeping the theater crew, who they had to pay anyway, busy during the extended summer period. Where's the weirdest place you would like to see a pool?",
+          "category": "culture",
+          "summary": "This video explores Berlin's tradition of placing swimming pools in unusual locations, from shipping containers to an old airship hangar. The latest addition is a reflecting pool set up in front of a 100-year-old theater, serving both as a free public amenity and a political statement. The project also gave the theater's staff something to do during an extended summer period.",
+          "multipleChoice": [
+            {
+              "question": "Where is the newest pool in Berlin located?",
+              "options": [
+                "Inside an old airship hangar",
+                "In front of a 100-year-old theater",
+                "Inside the KitKat club",
+                "On top of a shipping container"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is one reason critics objected to the new pool?",
+              "options": [
+                "The theater spent public money on it",
+                "It was too dangerous for swimmers",
+                "It blocked traffic in the neighborhood",
+                "It was built without permission"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What does the new pool represent, according to the video?",
+              "options": [
+                "A celebration of Berlin's Olympic history",
+                "An attempt to attract more tourists to the area",
+                "A political statement against deteriorating infrastructure and over-commercialized third spaces",
+                "A protest against rising water prices in the city"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "One of Berlin's unusual pools is located in an old airship hangar.",
+              "answer": true
+            },
+            {
+              "statement": "The theater had to pay its crew extra wages specifically to build the new pool.",
+              "answer": false
+            },
+            {
+              "statement": "The new reflecting pool in front of the theater is free for the public to use.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these locations or pool types in the order they were mentioned in the video.",
+            "items": [
+              "A pool on a shipping container",
+              "A pool at KitKat",
+              "A pool in an old airship hangar",
+              "A reflecting pool in front of a 100-year-old theater"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-08-04T01:56:15.434Z",
       "videos": [
         {
