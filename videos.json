@@ -1,6 +1,345 @@
 {
   "editions": [
     {
+      "generated": "2026-08-17T06:18:40.444Z",
+      "videos": [
+        {
+          "videoId": "nlD4IRttMvc",
+          "title": "State of emergency declared in western Canada due to wildfires. #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-08-10T22:00:30Z",
+          "thumbnail": "https://i.ytimg.com/vi/nlD4IRttMvc/hqdefault.jpg",
+          "durationSeconds": 27,
+          "transcript": "The fire went from 50 hectares to 400 to 1,000 to 5,000 like within 2 to three hours. And uh what was once 15 km away is now right here at the hill. And uh yeah, so now we're just getting our our animals ready and we're probably going to head back to Colona before the highway closes. I don't know whether my house is the gone or still there or not, but that fire came so",
+          "category": "politics",
+          "summary": "A state of emergency has been declared in western Canada due to rapidly spreading wildfires. In this video, a resident describes how a fire grew from 50 hectares to 5,000 hectares in just a few hours, forcing people to evacuate with their animals before highways close.",
+          "multipleChoice": [
+            {
+              "question": "How large did the fire grow within 2 to 3 hours?",
+              "options": [
+                "400 hectares",
+                "1,000 hectares",
+                "5,000 hectares",
+                "2,500 hectares"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Where was the person planning to go before the highway closed?",
+              "options": [
+                "Victoria",
+                "Calgary",
+                "Vancouver",
+                "Kelowna"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "How far away was the fire at first, according to the speaker?",
+              "options": [
+                "5 km",
+                "15 km",
+                "10 km",
+                "25 km"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The fire grew from 50 hectares to 5,000 hectares in a short period of time.",
+              "answer": true
+            },
+            {
+              "statement": "The speaker was certain that their house had already been destroyed by the fire.",
+              "answer": false
+            },
+            {
+              "statement": "The speaker mentioned getting their animals ready before leaving.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they were mentioned by the speaker in the video.",
+            "items": [
+              "The fire starts at 50 hectares and grows rapidly.",
+              "The fire reaches as close as the nearby hill.",
+              "The speaker prepares their animals to leave.",
+              "The speaker plans to drive to Kelowna before the highway closes."
+            ]
+          }
+        },
+        {
+          "videoId": "Tf0TVkUzYlE",
+          "title": "Do we have enough water to build data centers?",
+          "channel": "Reuters",
+          "publishedAt": "2026-08-10T12:08:10Z",
+          "thumbnail": "https://i.ytimg.com/vi/Tf0TVkUzYlE/hqdefault.jpg",
+          "durationSeconds": 84,
+          "transcript": "Not far from here in East London, the British government recently approved building a new data center. That's part of the redevelopment of an old brewery, and it will include 44 new homes. The local council wanted to build 350 on the same site. This question goes way beyond London. Should we build homes or data centers? There may not be enough water for both. Data centers need water to cool them. Half of England is in a drought. Water companies say the government's plans to build more data centers don't take into account the amount of water they need. Last year, data centers consumed 4.5 trillion meters of water globally. That's as much as 600 million people in subsahara and Africa. The UN forecasts that will more than double by 2030. Fights over water are happening everywhere in the world, but they might be toughest in Europe, where the climate is changing more rapidly than elsewhere, and there are worries we're falling behind on AI. Here in the UK, the government has promised to triple the number of data centers by 2030 and class them as critical infrastructure. In London, local politicians say the demand they're putting on the power grid has halted the construction of new homes in some places. AI is power hungry and the heat is stressing the electric grid across Europe as nuclear power stations have to shut down because they can't be cooled either. This week, Europe is heading into its fifth heat wave of the summer and there's no rain in the forecast. As this heat becomes the new normal, we may soon need to choose whether water cools servers or",
+          "category": "business",
+          "summary": "This video explores the growing conflict between building data centers and meeting other essential needs, particularly housing and water supply. It focuses on the UK and Europe, where governments are expanding data center infrastructure while facing droughts, power grid problems, and a housing shortage. The report raises the question of whether there will be enough water and energy to support both AI technology and basic human needs.",
+          "multipleChoice": [
+            {
+              "question": "How much water did data centers consume globally last year?",
+              "options": [
+                "2.5 trillion meters",
+                "6.5 trillion meters",
+                "8.5 trillion meters",
+                "4.5 trillion meters"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What has the UK government promised to do with the number of data centers by 2030?",
+              "options": [
+                "Regulate them more strictly",
+                "Double them",
+                "Triple them",
+                "Reduce them"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Why do nuclear power stations sometimes have to shut down during heat waves?",
+              "options": [
+                "Workers go on strike during extreme heat",
+                "They run out of fuel more quickly in hot weather",
+                "High temperatures damage their electrical systems",
+                "They cannot be cooled properly"
+              ],
+              "correctIndex": 3
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The new data center in East London is being built on the site of an old brewery.",
+              "answer": true
+            },
+            {
+              "statement": "The UN forecasts that global water consumption by data centers will more than triple by 2030.",
+              "answer": false
+            },
+            {
+              "statement": "Half of England is currently in a drought, according to the video.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or facts in the order they are mentioned in the video.",
+            "items": [
+              "The British government approved a new data center near East London as part of a brewery redevelopment.",
+              "Water companies warn that government plans for data centers do not account for water needs.",
+              "The UN forecasts global data center water use will more than double by 2030.",
+              "Europe enters its fifth heat wave of the summer with no rain forecast."
+            ]
+          }
+        },
+        {
+          "videoId": "_PJE-zA69Sw",
+          "title": "Should AI be open or closed?",
+          "channel": "Reuters",
+          "publishedAt": "2026-08-11T11:37:59Z",
+          "thumbnail": "https://i.ytimg.com/vi/_PJE-zA69Sw/hqdefault.jpg",
+          "durationSeconds": 85,
+          "transcript": "Meta launched a new AI model this week. The thing to know about it is that it's openweight. That means it has publicly accessible core components that users can customize. Closed models are fully under the control of the company that made them. This really matters because there's a growing divide in Silicon Valley over whether AI should be open or closed. The development race for openweight models is being led by China. Meta's Mark Zookerberg is arguing barriers to using openweight AI in the US should be lower so American companies can compete with their Chinese rivals. OpenAI and anthropic have closed models. They're in control. That means that when an open AI model went rogue and hacked into AI library hugging face recently, it had to use an openweight Chinese model to defend itself. These recent stories about open AAI and anthropic models going rogue do help make the case for more AI regulation, not less. OpenAI CEO Sam Alman met senators after the hack and President Trump said the administration was considering more control for AI. Metas Mark Zuckerberg doesn't agree. He said the notion that AI is so dangerous that the only safe path is an extreme concentration of power is inherently problematic. So should we be more worried about AI breaking out of human control or about the cuttingedge technology being kept in the hands of a tiny group of powerful companies? This argument isn't just about what the tech itself can do. It's a struggle over power and profits in Silicon",
+          "category": "technology",
+          "summary": "This video explores the debate in Silicon Valley over whether AI models should be open or closed. It covers a recent incident in which an AI model went rogue and hacked into a platform, and examines the arguments of key figures like Mark Zuckerberg and Sam Altman about regulation and control of AI technology.",
+          "multipleChoice": [
+            {
+              "question": "What does 'openweight' mean according to the video?",
+              "options": [
+                "The AI model is fully under the control of the company that made it",
+                "The AI model is free to download and use without any restrictions",
+                "The AI model can only be used by government-approved organizations",
+                "The AI model has publicly accessible core components that users can customize"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "Which company's AI model was used to defend against the recent hack on Hugging Face?",
+              "options": [
+                "A model developed by Meta",
+                "An openweight Chinese AI model",
+                "An OpenAI closed model",
+                "An Anthropic model"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What did Mark Zuckerberg say about concentrating AI power in the hands of a few?",
+              "options": [
+                "He said the idea that extreme concentration of power is the safe path is inherently problematic",
+                "He said it was the only safe way to prevent AI from going rogue",
+                "He said the US government should lead the concentration of AI power",
+                "He said it was necessary to compete with Chinese rivals"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Meta's new AI model is described as openweight, meaning its core components are publicly accessible.",
+              "answer": true
+            },
+            {
+              "statement": "OpenAI and Anthropic use openweight models that anyone can customize.",
+              "answer": false
+            },
+            {
+              "statement": "Sam Altman met with senators after the hack on Hugging Face.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they were mentioned.",
+            "items": [
+              "Meta launched a new openweight AI model",
+              "An AI model went rogue and hacked into Hugging Face",
+              "OpenAI CEO Sam Altman met with senators",
+              "President Trump said the administration was considering more control for AI"
+            ]
+          }
+        },
+        {
+          "videoId": "SAdf1pECs-s",
+          "title": "Europe battles the flames: Wildfire contained near Athens and evacuations in Spain",
+          "channel": "euronews",
+          "publishedAt": "2026-08-10T20:55:39Z",
+          "thumbnail": "https://i.ytimg.com/vi/SAdf1pECs-s/hqdefault.jpg",
+          "durationSeconds": 91,
+          "transcript": "Europe continues to grapple with wildfires. A new wildfire started in Greece in the village of Kouvaras, 60 km southeast of Athens, mobilizing over 170 firefighters according to the Greek fire service, while Hellenic police helped evacuate an elderly woman whose garden was engulfed in flames. Meanwhile, firefighters in Italy's Lombardy region were battling flames on Sunday. Firefighters said they used water-dropping airplanes and helicopters to bring flames under control in mountainous areas, including around Lake Lecco. Italian environmental NGO Legambiente has already estimated that over 80,300 hectares have been burnt in Italy this year. In Albania, firefighters, helicopters, and the military worked through the night to contain a large wildfire burning on Mount Krujë, as authorities evacuated residents from several villages and arrested one man suspected of accidentally sparking the blaze. A fire which began in the Spanish region of Huelva last Thursday has already burnt through 20,000 hectares as firefighters struggle to control it due to changing winds. France and Spain have already seen historic wildfires so far this summer.",
+          "category": "environment",
+          "summary": "This video reports on wildfires affecting several European countries. It covers firefighting efforts in Greece, Italy, Albania, and Spain, describing the scale of the fires and the resources being used to fight them. France and Spain have already experienced record-breaking wildfires this summer.",
+          "multipleChoice": [
+            {
+              "question": "How far is the village of Kouvaras from Athens?",
+              "options": [
+                "60 km",
+                "30 km",
+                "80 km",
+                "45 km"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "How many hectares has the Italian environmental NGO Legambiente estimated have been burnt in Italy in 2026?",
+              "options": [
+                "Over 50,000 hectares",
+                "Over 20,000 hectares",
+                "Over 100,000 hectares",
+                "Over 80,300 hectares"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "Why were firefighters in Spain struggling to control the fire in the Huelva region?",
+              "options": [
+                "They lacked helicopters",
+                "The fire started in a mountainous area",
+                "Winds kept changing direction",
+                "There were not enough firefighters"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "More than 170 firefighters were mobilised to deal with the wildfire near Athens.",
+              "answer": true
+            },
+            {
+              "statement": "In Albania, the man arrested was suspected of deliberately starting the fire on Mount Krujë.",
+              "answer": false
+            },
+            {
+              "statement": "Water-dropping airplanes and helicopters were used to fight the fires in Italy's Lombardy region.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they were mentioned in the video.",
+            "items": [
+              "A wildfire started near the village of Kouvaras in Greece.",
+              "Firefighters in Italy's Lombardy region battled flames on Sunday.",
+              "The Albanian military worked through the night to contain a fire on Mount Krujë.",
+              "A fire in the Spanish region of Huelva burnt through 20,000 hectares."
+            ]
+          }
+        },
+        {
+          "videoId": "4OrsS977XMo",
+          "title": "New Pride memorial in Berlin offers place to mourn",
+          "channel": "DW Euromaxx",
+          "publishedAt": "2026-08-11T15:43:25Z",
+          "thumbnail": "https://i.ytimg.com/vi/4OrsS977XMo/hqdefault.jpg",
+          "durationSeconds": 58,
+          "transcript": "This is the exact spot where the Christopher Street Day attacker rammed his car into a tree after injuring many people and killing one woman. Now, it has been transformed into a memorial and a place of mourning. >> It's very poignant. It's uh It's also very sad, but it's lovely to see people coming here and paying respects, and I think that's the strength that shows that things like this won't bend people. >> I was at CSD too. It's nice to see people here. A woman just came and uh cleaned up a little bit. It looks like everybody's kind of trying to take care of the the place. Just raises a lot of questions about who why. >> I'm just here for visiting Berlin. And then we By accident, we passed by, and then of course everything came came across. It's terrible. For me, it's completely I can't get it. Also, our son visited also one of the Christopher Street Days in Cologne. And yeah, it could also happen to my son.",
+          "category": "culture",
+          "summary": "A new memorial has been created at the site in Berlin where a car attack took place during a Christopher Street Day parade, killing one woman and injuring many others. The video features reactions from visitors to the memorial, including a parade attendee, a tourist, and others who share their thoughts and emotions about the tragedy. The memorial has become a place where people gather to pay their respects and reflect on the event.",
+          "multipleChoice": [
+            {
+              "question": "What happened to the attacker's car at the exact spot where the memorial now stands?",
+              "options": [
+                "It hit a group of pedestrians",
+                "It was stopped by police barriers",
+                "It caught fire after the attack",
+                "It rammed into a tree"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What did one visitor notice a woman doing at the memorial?",
+              "options": [
+                "Taking photographs of the site",
+                "Leaving flowers and candles",
+                "Talking to other visitors",
+                "Cleaning up the place a little bit"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "Why was the tourist visiting the memorial site?",
+              "options": [
+                "They had been at the Christopher Street Day parade",
+                "They came specifically to honour the victims",
+                "They were filming a documentary about the attack",
+                "They passed by the site by accident while visiting Berlin"
+              ],
+              "correctIndex": 3
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The attack at Christopher Street Day resulted in one woman being killed.",
+              "answer": true
+            },
+            {
+              "statement": "The tourist at the memorial had previously attended a Christopher Street Day event in Cologne.",
+              "answer": false
+            },
+            {
+              "statement": "One visitor mentions that people coming to the memorial shows a kind of strength.",
+              "answer": true
+            },
+            {
+              "statement": "The memorial was created far from the original site of the attack.",
+              "answer": false
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or moments in the order they are mentioned in the video",
+            "items": [
+              "A car attack occurs during Christopher Street Day, killing one woman and injuring many",
+              "The site is transformed into a memorial and place of mourning",
+              "A visitor mentions seeing a woman cleaning up the memorial",
+              "A tourist explains they discovered the memorial by accident while visiting Berlin"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-08-10T06:50:54.103Z",
       "videos": [
         {
