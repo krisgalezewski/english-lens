@@ -185,6 +185,18 @@ async function fetchAllFeeds(parser) {
   const results = [];
   const seenTitles = new Set();
 
+  // Titles matching these patterns are not real articles — skip them
+  const BLOCKED_PATTERNS = [
+    /news bulletin/i,
+    /morning edition/i,
+    /evening edition/i,
+    /daily briefing/i,
+    /weekly briefing/i,
+    /latest news\s*[|–-]/i,
+    /^\s*live(\s+blog|\s+updates?|\s+feed)?\s*[:–|]/i,
+    /breaking news\s*[:–|]/i,
+  ];
+
   await Promise.allSettled(
     FEEDS.map(async (feed) => {
       try {
@@ -193,6 +205,11 @@ async function fetchAllFeeds(parser) {
           if (!item.title || !item.link) continue;
           const key = item.title.toLowerCase().trim();
           if (seenTitles.has(key)) continue;
+          // Skip non-article content (bulletins, live blogs, etc.)
+          if (BLOCKED_PATTERNS.some(p => p.test(item.title))) {
+            console.log(`  🚫 Blocked non-article: "${item.title.slice(0, 60)}"`);
+            continue;
+          }
           seenTitles.add(key);
           results.push({
             title: item.title.trim(),
