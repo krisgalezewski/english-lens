@@ -1,6 +1,642 @@
 {
   "editions": [
     {
+      "generated": "2026-08-17T05:55:11.779Z",
+      "week": "2026-W33",
+      "articles": [
+        {
+          "id": "1786945880875rsoq",
+          "title": "Twelve killed as Polish coach crashes in Hungary",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/08/16/twelve-killed-as-polish-coach-crashes-in-hungary/",
+          "category": "politics",
+          "date": "2026-08-16",
+          "summaryB1": "On 16 August 2026, a coach carrying Catholic pilgrims crashed in Hungary, killing twelve people. The bus was travelling back to Poland after what is believed to have been a religious journey. The accident happened on a Hungarian road and caused shock in both Poland and Hungary.\n\nCatholic pilgrimages are a strong tradition in Poland. Every year, thousands of Polish believers travel to holy sites in Poland and abroad. Groups often travel together by coach, which makes accidents like this especially tragic because so many people are affected at once.\n\nThe crash killed twelve passengers and is likely to have injured others, though the exact number of casualties was not immediately confirmed. Emergency services arrived at the scene to help survivors and recover the victims.\n\nThis disaster has drawn attention to the safety of long-distance coach travel in Europe. Many pilgrim groups are made up of elderly people who rely on buses to make these journeys. When a vehicle carrying so many passengers is involved in a serious accident, the loss of life can be devastating.\n\nPolish authorities have expressed grief over the tragedy and are cooperating with Hungarian officials to investigate the cause of the crash. The families of the victims are waiting for more information about what exactly happened on that road in Hungary.",
+          "vocabularyB1": [
+            {
+              "word": "pilgrims",
+              "definition": "People who travel to a holy or religious place as an act of faith"
+            },
+            {
+              "word": "casualties",
+              "definition": "People who are killed or injured in an accident or disaster"
+            },
+            {
+              "word": "coach",
+              "definition": "A large comfortable bus used for long-distance travel"
+            },
+            {
+              "word": "devastating",
+              "definition": "Causing great shock, sadness, or destruction"
+            },
+            {
+              "word": "cooperating",
+              "definition": "Working together with someone to achieve something"
+            }
+          ],
+          "questionB1": "Why do you think coach travel can be especially devastating when an accident happens, and how could pilgrim groups stay safer on long journeys?",
+          "summaryB2": "A coach carrying Catholic pilgrims back to Poland crashed in Hungary on 16 August 2026, killing twelve people in one of the deadliest road accidents involving Polish nationals in recent memory. The bus, which had been on a religious journey, came to grief on a Hungarian road, prompting an immediate response from emergency services and triggering expressions of mourning from officials on both sides of the border.\n\nPilgrimage holds deep cultural and spiritual significance in Poland, where organised group travel to sacred sites remains a widespread practice. Coaches are the predominant mode of transport for such groups, particularly among older believers for whom air or rail travel may be less accessible. This reliance on road transport exposes participants to the inherent risks of long-distance travel, risks that this tragedy has thrown into sharp relief.\n\nThe incident has reignited debate about the safety standards applied to coaches operating across European borders. Questions are likely to arise about vehicle maintenance, driver fatigue, and whether existing EU regulations are consistently enforced on routes that span multiple countries.\n\nPolish authorities have pledged to liaise with their Hungarian counterparts to establish the precise circumstances of the crash. For the bereaved families waiting anxiously for news, however, procedural investigations offer little comfort. The accident serves as a sombre reminder of the fragility of life and the profound grief that mass-casualty events inflict on tight-knit communities.",
+          "vocabularyB2": [
+            {
+              "word": "reignited",
+              "definition": "Started again, especially a debate or feeling that had stopped for a while"
+            },
+            {
+              "word": "bereaved",
+              "definition": "Deeply saddened by the death of a loved one; in a state of grief after loss"
+            },
+            {
+              "word": "liaise",
+              "definition": "To communicate and work closely with another person or organisation"
+            },
+            {
+              "word": "sombre",
+              "definition": "Serious, sad, and without brightness or cheerfulness"
+            },
+            {
+              "word": "inherent",
+              "definition": "Existing as a natural and permanent part of something"
+            }
+          ],
+          "questionB2": "To what extent do you think existing EU regulations are sufficient to address the inherent safety risks of long-distance coach travel, and who should bear responsibility when such tragedies occur?"
+        },
+        {
+          "id": "1786945901780t7z1",
+          "title": "Europe’s dry rivers are exposing mammoths and Nazi warships",
+          "source": "The Economist Europe",
+          "originalUrl": "https://www.economist.com/europe/2026/08/13/europes-dry-rivers-are-exposing-mammoths-and-nazi-warships",
+          "category": "environment",
+          "date": "2026-08-13",
+          "summaryB1": "Europe is experiencing record heat and severe drought this summer. As a result, many rivers across the continent have very low water levels. This is a problem for people, agriculture, and wildlife. However, the dry conditions are also revealing surprising things that were hidden underwater for many years. In some rivers, scientists have discovered the bones of woolly mammoths, ancient animals that lived thousands of years ago. These discoveries help researchers learn more about prehistoric life in Europe. In other parts of the continent, the low water is exposing old shipwrecks from the Second World War. Some of these are German military vessels that sank decades ago. Locals and tourists are visiting these unusual sights along dried-out riverbanks. Experts warn that the drought is connected to climate change, which is making extreme weather more common in Europe. The summers are getting hotter and drier, putting stress on water supplies and ecosystems. While the unexpected discoveries are fascinating, they are a reminder that something is seriously wrong with the environment. Governments and scientists are calling for stronger action to reduce carbon emissions and protect rivers. The situation shows how climate change can have both dramatic and unexpected effects on the world around us.",
+          "vocabularyB1": [
+            {
+              "word": "drought",
+              "definition": "A long period of time with very little or no rain, causing water shortages"
+            },
+            {
+              "word": "revealing",
+              "definition": "Showing something that was previously hidden or not known"
+            },
+            {
+              "word": "prehistoric",
+              "definition": "Relating to the time in history before anything was written down"
+            },
+            {
+              "word": "shipwrecks",
+              "definition": "Destroyed or sunken ships, usually found at the bottom of water"
+            },
+            {
+              "word": "emissions",
+              "definition": "Gases or other substances released into the air, especially from burning fuel"
+            }
+          ],
+          "questionB1": "The drought is revealing hidden objects from the past — do you think such discoveries change the way people think about climate change and protecting the environment?",
+          "summaryB2": "A prolonged and record-breaking drought gripping much of Europe this summer has caused river levels to plummet to historic lows, exposing an extraordinary array of submerged relics. While the human and ecological toll of the dry spell is severe — straining water supplies, disrupting agriculture, and threatening aquatic biodiversity — the receding waters have also uncovered unexpected archaeological and historical treasures. Among the most striking finds are the skeletal remains of woolly mammoths, unearthed from riverbeds where they had lain undisturbed for millennia. These specimens are providing palaeontologists with rare insights into the distribution and behaviour of megafauna in prehistoric Europe. Simultaneously, the low waters have laid bare the rusting hulks of warships from the Second World War, including Nazi German military vessels that sank in European rivers during the conflict. These ghostly remnants are drawing curious visitors to riverbanks that would normally be deep underwater. Scientists are unequivocal in linking the severity of the drought to accelerating climate change, which is intensifying the frequency and magnitude of extreme weather events across the continent. While the unearthed discoveries capture public imagination, researchers caution that they are symptomatic of a deeply troubling environmental trajectory. European policymakers face mounting pressure to implement ambitious decarbonisation strategies and invest in water resilience, as the gap between climate commitments and real-world outcomes grows ever more apparent.",
+          "vocabularyB2": [
+            {
+              "word": "plummet",
+              "definition": "To fall or drop very quickly and steeply to a much lower level"
+            },
+            {
+              "word": "relics",
+              "definition": "Objects or remains that have survived from an earlier time in history"
+            },
+            {
+              "word": "palaeontologists",
+              "definition": "Scientists who study ancient life through the examination of fossils and bones"
+            },
+            {
+              "word": "unequivocal",
+              "definition": "Completely clear and leaving no doubt or possibility of misunderstanding"
+            },
+            {
+              "word": "decarbonisation",
+              "definition": "The process of reducing or eliminating carbon dioxide emissions from an economy or system"
+            }
+          ],
+          "questionB2": "Given that the unearthed relics are simultaneously scientifically valuable and symptomatic of environmental crisis, how should governments and the media balance public fascination with the urgency of the underlying climate emergency?"
+        },
+        {
+          "id": "178694592250988rg",
+          "title": "Europe’s biggest Virgin Mary statue – taller than Rio’s Christ the Redeemer – unveiled in Polish village",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/08/15/europes-biggest-virgin-mary-statue-taller-than-rios-christ-the-redeemer-unveiled-in-polish-village/",
+          "category": "culture",
+          "date": "2026-08-15",
+          "summaryB1": "A giant statue of the Virgin Mary has been unveiled in a small village in Poland. The statue is 55.6 metres tall, which makes it the biggest statue of the Virgin Mary in Europe. It is even taller than the famous Christ the Redeemer statue in Rio de Janeiro, Brazil, which stands at about 38 metres. The Polish statue towers over the surrounding countryside, and people can see it from many kilometres away. The monument was paid for by a local couple who have a lot of money. They wanted to do something special for their community and for their Catholic faith. Poland is a deeply religious country, and the Catholic Church plays a big role in everyday life there. Many Poles feel a strong connection to the Virgin Mary, who is sometimes called the Queen of Poland. Large religious monuments are not unusual in Poland. For example, a giant statue of Jesus Christ was built in the town of Świebodzin in 2010. The new statue has attracted a lot of attention both inside and outside Poland. Some people admire the dedication of the couple who funded it. Others wonder whether such a large monument was the best way to spend that money. The statue was unveiled on 15 August, which is a national holiday in Poland celebrating the Virgin Mary.",
+          "vocabularyB1": [
+            {
+              "word": "unveiled",
+              "definition": "Officially shown to the public for the first time"
+            },
+            {
+              "word": "monument",
+              "definition": "A large structure built to remember a person or event"
+            },
+            {
+              "word": "towers over",
+              "definition": "Is much taller than everything around it"
+            },
+            {
+              "word": "funded",
+              "definition": "Paid for something, usually a large or public project"
+            },
+            {
+              "word": "faith",
+              "definition": "Strong belief in a religion or in God"
+            }
+          ],
+          "questionB1": "The monument was funded by a wealthy couple. Do you think private individuals should pay for large religious structures in public spaces? Why?",
+          "summaryB2": "Poland has unveiled what is now Europe's tallest statue of the Virgin Mary, a towering 55.6-metre monument erected in a rural village and funded entirely by a wealthy local couple. The structure surpasses the globally renowned Christ the Redeemer in Rio de Janeiro, which stands at roughly 38 metres, immediately drawing international media attention and sparking debate about the role of private patronage in shaping public religious spaces.\n\nPoland has long maintained a deep and visible devotion to Marian tradition — the Virgin Mary holds a quasi-national status, widely referred to as the Queen of Poland — and large-scale religious monuments are not without precedent. The Jesus Christ statue in Świebodzin, completed in 2010, similarly captured global headlines and stirred controversy at home.\n\nThe new statue was unveiled on 15 August, the Feast of the Assumption, a public holiday in Poland that carries both religious and historical resonance, commemorating the 1920 Battle of Warsaw as well as Marian devotion.\n\nReactions have been mixed. Supporters view the monument as a bold expression of collective piety and a potential draw for religious tourism. Critics, however, question whether the expenditure reflects sound priorities, particularly in a rural area where public infrastructure may be underfunded. The fact that it was privately commissioned rather than state-funded adds another layer to the discussion, raising questions about how personal wealth intersects with communal identity and shared public space.",
+          "vocabularyB2": [
+            {
+              "word": "patronage",
+              "definition": "Financial support given by a wealthy person to fund a project or cause"
+            },
+            {
+              "word": "precedent",
+              "definition": "An earlier example that makes a later similar action seem normal or acceptable"
+            },
+            {
+              "word": "resonance",
+              "definition": "The quality of having deep meaning or emotional importance for many people"
+            },
+            {
+              "word": "piety",
+              "definition": "Strong religious devotion and respect for one's faith"
+            },
+            {
+              "word": "commissioned",
+              "definition": "Officially ordered and paid for a piece of work, such as a building or statue"
+            }
+          ],
+          "questionB2": "Given that the statue was privately commissioned rather than state-funded, to what extent should personal patronage determine what becomes a permanent feature of a community's shared public space?"
+        },
+        {
+          "id": "1786945942471uxhv",
+          "title": "Poland hit by theft of 19 million patients’ data from medical platform",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/08/13/poland-hit-by-theft-of-19-million-patients-data-from-medical-platform/",
+          "category": "technology",
+          "date": "2026-08-13",
+          "summaryB1": "In August 2025, Poland experienced a major data breach. Hackers stole personal information belonging to about 19 million patients from a medical platform. This is one of the largest incidents of its kind in Poland's history. The digital affairs minister made this statement publicly, showing how serious the situation is.\n\nThe stolen data came from a platform that stores medical records. This kind of platform collects sensitive information, such as names, addresses, and health details. When this information falls into the wrong hands, it can be used for fraud or blackmail.\n\nData breaches like this are a growing problem across Europe. Many countries are working to protect their citizens' personal information. In Poland, this incident has shocked many people because of how large it is. Nineteen million records is a very high number — it represents almost half of Poland's total population.\n\nThe authorities are now investigating how the breach happened. They want to find out if the platform had enough security measures in place. Patients who may have been affected are being advised to stay alert for any suspicious activity related to their personal details.\n\nThis event reminds us how important it is to keep our data safe online. Both governments and private companies must take steps to protect the information they store on behalf of ordinary people.",
+          "vocabularyB1": [
+            {
+              "word": "data breach",
+              "definition": "When private information is stolen or accessed by someone without permission"
+            },
+            {
+              "word": "sensitive",
+              "definition": "Private and personal; information that could cause harm if shared publicly"
+            },
+            {
+              "word": "fraud",
+              "definition": "Dishonest activity done to trick people and steal money or advantages"
+            },
+            {
+              "word": "authorities",
+              "definition": "Official organisations or people, such as the police or government, with power to act"
+            },
+            {
+              "word": "suspicious",
+              "definition": "Making you feel that something is wrong or dishonest"
+            }
+          ],
+          "questionB1": "After a data breach like this, what should ordinary people do to protect their sensitive personal information?",
+          "summaryB2": "Poland has suffered what officials are describing as one of the gravest cybersecurity incidents in the country's history, after hackers successfully exfiltrated personal data belonging to approximately 19 million patients from a medical platform. The scale of the theft is staggering: 19 million records represents nearly half of Poland's entire population, meaning the potential for widespread harm is enormous.\n\nThe digital affairs minister went on record to characterise the breach as one of the largest of its kind ever recorded in Poland, a statement that reflects both the severity of the attack and the vulnerability of health data infrastructure to malicious actors. Medical platforms typically hold some of the most confidential information individuals possess — including diagnoses, prescriptions, and contact details — making such records particularly attractive targets for cybercriminals seeking to exploit them for identity theft, extortion, or sale on illicit markets.\n\nThe incident comes amid growing scrutiny of how healthcare providers and digital health platforms across Europe safeguard patient data. Under GDPR regulations, organisations that fail to adequately protect personal information face substantial financial penalties, and affected individuals are legally entitled to be notified of risks to their data.\n\nInvestigations are now under way to establish how the perpetrators gained access and whether adequate safeguards were in place prior to the attack. This case will almost certainly intensify pressure on both public institutions and private operators to reassess their cybersecurity protocols and invest more heavily in digital defences.",
+          "vocabularyB2": [
+            {
+              "word": "exfiltrated",
+              "definition": "Secretly removed or stolen data from a system without authorisation"
+            },
+            {
+              "word": "vulnerability",
+              "definition": "A weakness that makes something or someone open to attack or damage"
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Very careful and detailed examination or attention by others"
+            },
+            {
+              "word": "perpetrators",
+              "definition": "People who carry out a harmful, illegal, or criminal act"
+            },
+            {
+              "word": "protocols",
+              "definition": "Official sets of rules or procedures followed in a particular situation"
+            }
+          ],
+          "questionB2": "Given the vulnerability of health data systems exposed by this breach, what responsibilities do governments and private operators share in protecting citizens' medical information, and how should perpetrators be held accountable?"
+        },
+        {
+          "id": "1786945963707a7z5",
+          "title": "How—and how much—should central banks talk?",
+          "source": "The Economist Finance",
+          "originalUrl": "https://www.economist.com/finance-and-economics/2026/08/06/how-and-how-much-should-central-banks-talk",
+          "category": "business",
+          "date": "2026-08-06",
+          "summaryB1": "Central banks are powerful institutions that control interest rates and money supply in a country. In recent years, they have started to communicate much more with the public. They give speeches, publish reports, and hold press conferences regularly. But is this a good thing? The question is how much central banks should talk and what they should say. When a central bank speaks clearly, people and businesses can make better financial decisions. For example, if a bank signals that interest rates will rise, companies can plan ahead. However, too much communication can cause problems. If bank officials send mixed messages, it can confuse investors and create uncertainty in financial markets. There is also the risk that central banks promise things they cannot deliver. This damages their credibility, which is the trust that people place in them. Experts argue that the best approach is balance. A central bank should explain its decisions and give guidance about the future, but it should not say too much or make promises that are too specific. The article compares this to an art form — saying enough to be helpful, but not so much that it creates new problems. For Polish savers and businesses, this matters because decisions made by major central banks affect interest rates and economic conditions across Europe and the world.",
+          "vocabularyB1": [
+            {
+              "word": "interest rates",
+              "definition": "The percentage charged for borrowing money or earned on savings."
+            },
+            {
+              "word": "credibility",
+              "definition": "The quality of being trusted and believed by other people."
+            },
+            {
+              "word": "uncertainty",
+              "definition": "A situation where you do not know what will happen in the future."
+            },
+            {
+              "word": "guidance",
+              "definition": "Information or advice that helps people make decisions or plan ahead."
+            },
+            {
+              "word": "signal",
+              "definition": "To give a hint or indirect message about future plans or actions."
+            }
+          ],
+          "questionB1": "How much guidance do you think central banks should give to the public about future interest rates, and why?",
+          "summaryB2": "Central banks have undergone a dramatic transformation in how they communicate with the outside world. Once famously secretive — the former Federal Reserve chair Alan Greenspan was said to pride himself on deliberate obscurity — these institutions now flood markets with speeches, forward guidance, and detailed policy statements. The question is whether this torrent of communication has gone too far. The core argument is that transparency, while broadly desirable, carries diminishing returns. When central banks articulate their intentions clearly, businesses, investors, and households can make well-informed decisions, reducing volatility in financial markets. Forward guidance — the practice of signalling future policy moves — became especially popular after the 2008 financial crisis, when interest rates hit zero and central banks needed new tools to steer expectations. Yet the pitfalls of over-communication are equally real. Officials who speak too frequently or with excessive specificity can inadvertently box themselves in, leaving little room for pragmatic adjustment when economic conditions shift unexpectedly. Conflicting statements from different bank officials can also erode market confidence, sending contradictory signals that amplify rather than calm investor anxiety. There is also a deeper accountability problem: the more central banks promise, the more exposed they become when those promises prove untenable. The article frames the challenge as an art — calibrating the volume and precision of communication to maximise clarity without sacrificing the institutional flexibility that sound policymaking demands. For economies integrated into global capital flows, the stakes of getting this balance wrong are considerable.",
+          "vocabularyB2": [
+            {
+              "word": "forward guidance",
+              "definition": "Official statements from a central bank about its likely future policy decisions."
+            },
+            {
+              "word": "volatility",
+              "definition": "Frequent and unpredictable changes in prices or values in financial markets."
+            },
+            {
+              "word": "inadvertently",
+              "definition": "Without intending to; accidentally doing something as an unplanned side effect."
+            },
+            {
+              "word": "untenable",
+              "definition": "Impossible to defend or maintain; no longer able to be supported or justified."
+            },
+            {
+              "word": "calibrating",
+              "definition": "Carefully adjusting something to achieve exactly the right level or balance."
+            }
+          ],
+          "questionB2": "Given the risks of over-promising, how should central banks balance the need for forward guidance with the flexibility required to respond to rapidly changing economic conditions?"
+        },
+        {
+          "id": "17869459841251zhp",
+          "title": "Trump envoy Kushner arrives in Israel after rare Hamas talks on Gaza peace plan",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-08-17",
+          "summaryB1": "Jared Kushner, the son-in-law of US President Donald Trump, has travelled to Israel to meet Prime Minister Benjamin Netanyahu. The visit comes after Kushner held rare talks with Hamas, the group that controls the Gaza Strip. These discussions are part of an effort to find a peace plan for the region.\n\nThe conflict in Gaza began in October 2023, when Hamas attacked Israel. Since then, the fighting has caused enormous suffering for people living in Gaza. Many countries and international organisations have been trying to negotiate a ceasefire, which means an agreement to stop the fighting.\n\nKushner played a major role in Middle East diplomacy during Trump's first time as president. He helped create the Abraham Accords, a set of agreements between Israel and several Arab countries. Now, with Trump back in the White House, Kushner has returned to the region as an envoy, which is a person sent by a government to represent it in talks with other countries or groups.\n\nThe fact that Kushner met with Hamas before arriving in Israel is considered unusual. Hamas is regarded as a terrorist organisation by the United States and several other countries. Many people are watching these talks closely, hoping that they might lead to a ceasefire and the release of hostages still held in Gaza.",
+          "vocabularyB1": [
+            {
+              "word": "ceasefire",
+              "definition": "An agreement between two sides in a conflict to stop fighting for a period of time"
+            },
+            {
+              "word": "envoy",
+              "definition": "A person officially sent by a government to represent it in talks or negotiations"
+            },
+            {
+              "word": "negotiate",
+              "definition": "To discuss something formally in order to reach an agreement between two or more sides"
+            },
+            {
+              "word": "hostages",
+              "definition": "People held prisoner by a group, often to be exchanged for something the group wants"
+            },
+            {
+              "word": "rare",
+              "definition": "Something that does not happen very often and is therefore unusual or surprising"
+            }
+          ],
+          "questionB1": "Why do you think it is rare for a US envoy to negotiate directly with a group like Hamas, and what difficulties might this cause?",
+          "summaryB2": "Jared Kushner, serving as an informal envoy for his father-in-law President Donald Trump, arrived in Israel on Monday for a scheduled meeting with Prime Minister Benjamin Netanyahu. The visit follows a striking development: Kushner had already held direct talks with Hamas, the Palestinian militant group that governs the Gaza Strip — a move that signals a potentially unconventional approach to resolving one of the world's most entrenched conflicts.\n\nHamas is designated a terrorist organisation by the United States, the European Union, and several other governments, making high-level American contact with the group highly contentious. Critics argue that engaging directly with Hamas risks legitimising the organisation, while proponents suggest that any realistic path to a ceasefire and the release of hostages must involve talking to the parties who actually hold power on the ground.\n\nKushner was a central architect of Middle East policy during Trump's first administration, most notably brokering the Abraham Accords — a series of normalisation agreements between Israel and Arab states including the UAE and Bahrain. His re-emergence on the diplomatic stage suggests that the Trump administration intends to pursue its own distinct framework for resolving the Gaza conflict, potentially bypassing traditional multilateral channels.\n\nThe outcome of Kushner's talks with Netanyahu remains to be seen, but the sequence of events — Hamas first, Israel second — has already drawn considerable attention from analysts and diplomats watching the region closely.",
+          "vocabularyB2": [
+            {
+              "word": "entrenched",
+              "definition": "Deeply established and very difficult to change, often referring to conflicts or attitudes"
+            },
+            {
+              "word": "contentious",
+              "definition": "Causing strong disagreement or argument among people with opposing views"
+            },
+            {
+              "word": "legitimising",
+              "definition": "Making something appear acceptable, legal, or officially recognised by treating it seriously"
+            },
+            {
+              "word": "brokering",
+              "definition": "Arranging or negotiating a deal or agreement between two or more parties"
+            },
+            {
+              "word": "multilateral",
+              "definition": "Involving three or more countries or groups working together on a shared issue"
+            }
+          ],
+          "questionB2": "To what extent does Kushner's decision to meet Hamas before Netanyahu suggest a deliberate shift in US strategy, and could legitimising such contact ultimately help or hinder prospects for a lasting ceasefire?"
+        },
+        {
+          "id": "17869460053790ws7",
+          "title": "Ebola outbreak in DR Congo becomes deadliest in its history",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cvgll74vvydo?at_medium=RSS&at_campaign=rss",
+          "category": "environment",
+          "date": "2026-08-17",
+          "summaryB1": "The Democratic Republic of Congo (DRC) is facing its deadliest Ebola outbreak ever recorded. Ebola is a serious disease that spreads through contact with the blood or body fluids of infected people. This current outbreak has killed more people than any previous one in the country's history, making it a major health emergency. What makes this situation especially alarming is that it is also the fastest growing outbreak on record. The disease spreading now is caused by a rare species of Ebola called Bundibugyo, which is not the most common type. The DRC has suffered many Ebola outbreaks before, so health workers there have experience dealing with this disease. However, the speed and scale of this outbreak are putting enormous pressure on the healthcare system. International health organisations are working to contain the spread and treat those who are infected. People living in affected areas are being warned to avoid contact with sick individuals and to seek medical help quickly if they feel unwell. The situation is being closely monitored by the World Health Organisation. Outbreaks like this one remind us how quickly a dangerous disease can spread and why strong public health systems matter so much for communities around the world.",
+          "vocabularyB1": [
+            {
+              "word": "outbreak",
+              "definition": "A sudden start or increase of a disease affecting many people in one area."
+            },
+            {
+              "word": "alarming",
+              "definition": "Causing worry or fear because something seems dangerous or serious."
+            },
+            {
+              "word": "rare",
+              "definition": "Not common; something that does not happen or exist very often."
+            },
+            {
+              "word": "contain",
+              "definition": "To stop something from spreading or getting bigger."
+            },
+            {
+              "word": "affected",
+              "definition": "Changed or harmed by something, such as a disease or disaster."
+            }
+          ],
+          "questionB1": "Why do you think it is so difficult to contain an outbreak of a dangerous disease like Ebola in some parts of the world?",
+          "summaryB2": "The Democratic Republic of Congo is grappling with the deadliest Ebola outbreak in its history, a grim milestone that has sent shockwaves through the global health community. The current crisis, driven by the Bundibugyo strain — a rare and less frequently studied species of the Ebola virus — has also been classified as the fastest growing outbreak on record, compounding fears about the country's capacity to mount an effective response. The DRC has long been considered one of the most Ebola-prone nations in the world, having endured multiple outbreaks over several decades. Despite this accumulated experience, the sheer velocity of the current surge is overwhelming already strained health infrastructure. Aid agencies and international bodies, including the World Health Organisation, are mobilising resources to support containment efforts, though logistical challenges in remote regions continue to hamper progress. The Bundibugyo strain was first identified in Uganda in 2007 and is associated with lower fatality rates than the more notorious Zaire strain, yet its rapid proliferation in this instance has prompted urgent concern among epidemiologists. The outbreak also exposes persistent vulnerabilities in public health systems across conflict-affected regions, where access to medical care remains severely restricted. As the death toll mounts, the international community faces renewed pressure to address the structural inequalities that allow such epidemics to take hold and escalate unchecked.",
+          "vocabularyB2": [
+            {
+              "word": "grappling",
+              "definition": "Struggling to deal with a difficult or complex problem or situation."
+            },
+            {
+              "word": "compounding",
+              "definition": "Making an already bad or difficult situation worse by adding more problems."
+            },
+            {
+              "word": "proliferation",
+              "definition": "A rapid increase or spread of something, especially something harmful."
+            },
+            {
+              "word": "epidemiologists",
+              "definition": "Scientists who study how diseases spread through populations and how to control them."
+            },
+            {
+              "word": "vulnerabilities",
+              "definition": "Weaknesses that make a person, system, or place likely to be harmed or damaged."
+            }
+          ],
+          "questionB2": "To what extent do the structural vulnerabilities exposed by this outbreak reflect failures of international health policy, and what systemic changes might prevent such rapid proliferation of disease in conflict-affected regions?"
+        },
+        {
+          "id": "1786946026509wj2b",
+          "title": "Four 'extraordinary' Renaissance paintings stolen from Italian museum",
+          "source": "BBC News World",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cqjxx2gzd9qo?at_medium=RSS&at_campaign=rss",
+          "category": "culture",
+          "date": "2026-08-16",
+          "summaryB1": "Four paintings from the Renaissance period have been stolen from a museum in Italy. The theft happened at night, and the thieves managed to take the works without triggering any alarms. Because of this, police believe the robbery was carefully planned by professionals. The paintings are described as 'extraordinary' and are considered very valuable, both artistically and historically. Renaissance art was created in Europe between roughly the 14th and 17th centuries and is highly prized around the world. Museums in Italy hold some of the finest collections of this type of art. When a theft like this occurs without any alarms going off, it often suggests that the criminals had inside knowledge or specialist equipment. Investigators are now trying to find out who took the paintings and where they might be. Art theft is a serious crime because stolen works are often hidden for many years and may never be recovered. Italy has experienced art thefts before, and the authorities have dedicated teams that deal with these crimes. Cases like this remind us how difficult it can be to protect cultural treasures, even in secure buildings. The public and the art world are watching closely, hoping the paintings will be found and returned safely.",
+          "vocabularyB1": [
+            {
+              "word": "theft",
+              "definition": "The act of stealing something from a person or place."
+            },
+            {
+              "word": "trigger",
+              "definition": "To cause something to start or happen, for example an alarm."
+            },
+            {
+              "word": "prized",
+              "definition": "Considered very valuable or special by people."
+            },
+            {
+              "word": "recovered",
+              "definition": "Found and returned after being lost or stolen."
+            },
+            {
+              "word": "treasures",
+              "definition": "Very valuable objects, often with cultural or historical importance."
+            }
+          ],
+          "questionB1": "Why do you think some stolen treasures are never recovered, even when police investigate the theft for many years?",
+          "summaryB2": "Four Renaissance paintings, described by officials as 'extraordinary', have been taken from an Italian museum in what investigators suspect was a meticulously orchestrated professional heist. The thieves carried out the operation overnight, managing to bypass the building's security systems entirely without triggering a single alarm — a detail that has fuelled suspicion of highly trained perpetrators with possible insider knowledge or access to sophisticated equipment. Renaissance works, produced during one of Europe's most celebrated cultural and artistic periods, command enormous sums on the black market precisely because they are so rarely available through legitimate channels. Italy, home to an unrivalled concentration of such masterpieces, has long been a target for organised art crime. The country's Carabinieri TPC — a specialist unit dedicated to protecting cultural heritage — is expected to lead the investigation. Art stolen in professional heists of this kind frequently disappears into private collections or is used as collateral in criminal negotiations, making recovery exceptionally difficult. The incident has reignited debate about the adequacy of security measures in smaller regional museums, which often lack the resources to match the protection afforded to larger, more prominent institutions. For the art world, the loss of even a single Renaissance work represents an irreplaceable gap in the shared cultural record — four such pieces disappearing simultaneously is, by any measure, a deeply troubling development.",
+          "vocabularyB2": [
+            {
+              "word": "orchestrated",
+              "definition": "Carefully planned and organised, often involving many coordinated steps."
+            },
+            {
+              "word": "perpetrators",
+              "definition": "People who carry out a crime or harmful act."
+            },
+            {
+              "word": "collateral",
+              "definition": "Something used as a guarantee or bargaining tool, especially in criminal dealings."
+            },
+            {
+              "word": "reignited",
+              "definition": "Caused something — a debate, conflict or feeling — to start again strongly."
+            },
+            {
+              "word": "irreplaceable",
+              "definition": "Impossible to replace because nothing else is equivalent or of equal value."
+            }
+          ],
+          "questionB2": "Given that the thieves apparently bypassed all security systems without triggering any alarms, what does this orchestrated operation suggest about the perpetrators, and what obligations does it place on museums and governments?"
+        },
+        {
+          "id": "1786946049016qcdf",
+          "title": "Spanish nanomaterial cools surfaces by 12.9°C without electricity",
+          "source": "Euronews",
+          "originalUrl": "http://www.euronews.com/next/2026/08/17/spanish-nanomaterial-cools-surfaces-by-129c-without-electricity",
+          "category": "technology",
+          "date": "2026-08-17",
+          "summaryB1": "Scientists in Spain have created a special material that can cool buildings, cars, and electronic devices without using any electricity. The material was developed by researchers at CSIC, a large scientific organisation in Spain.\n\nThe material is made from a polymer, which is a type of substance built from long chains of molecules. It works by releasing heat upward into space rather than letting it stay trapped near a surface. The energy used to do this comes from sunlight, so no power source is needed.\n\nIn tests, the material was able to reduce surface temperatures by up to 12.9 degrees Celsius. This is a remarkable result because it happens passively, meaning the material does not need a machine or engine to work.\n\nThis technology could be very useful in hot countries or during summer heatwaves. Air conditioning systems use a lot of electricity and produce greenhouse gases, so finding alternatives is a priority for scientists and governments. A material that can dissipate heat naturally could help reduce energy bills and lower carbon emissions.\n\nThe researchers believe this nanostructure could be applied to rooftops, vehicle surfaces, and electronic equipment. If the technology moves from the laboratory to real-world use, it could make a genuine difference to how we cool our homes and reduce our dependence on traditional air conditioning systems.",
+          "vocabularyB1": [
+            {
+              "word": "polymer",
+              "definition": "A material made from long chains of molecules, used in plastics and many other products"
+            },
+            {
+              "word": "passively",
+              "definition": "Working automatically without needing extra energy, effort, or a machine to operate"
+            },
+            {
+              "word": "dissipate",
+              "definition": "To spread and release something, like heat, so it disappears or moves away"
+            },
+            {
+              "word": "heatwaves",
+              "definition": "Periods of unusually hot weather that last for several days or longer"
+            },
+            {
+              "word": "dependence",
+              "definition": "The state of needing something regularly and not being able to manage without it"
+            }
+          ],
+          "questionB1": "Do you think materials that passively cool buildings could reduce our dependence on air conditioning in Polish summers? Why or why not?",
+          "summaryB2": "A team of researchers at Spain's CSIC institute has developed a polymer nanostructure capable of lowering surface temperatures by up to 12.9 degrees Celsius without consuming any electricity. The technology works through a process called radiative cooling, in which the material dissipates thermal energy directly into outer space by exploiting solar radiation. Because it operates entirely passively, it requires no mechanical systems, making it a potentially low-cost and low-maintenance solution for thermal management.\n\nThe implications of this breakthrough are far-reaching. Conventional air conditioning accounts for a substantial and growing share of global electricity consumption, and its widespread use contributes to urban heat islands as well as greenhouse gas emissions. A material that can mitigate surface heat without drawing on the power grid could ease pressure on energy infrastructure, particularly during peak summer demand.\n\nThe researchers envision applications across several sectors, including architecture, the automotive industry, and consumer electronics. Coating rooftops or vehicle exteriors with such a nanostructure could reduce the need for active cooling systems, thereby cutting both energy costs and carbon footprints.\n\nCritics may question whether the material can maintain its efficacy under real-world conditions such as dust accumulation, humidity, or prolonged exposure to ultraviolet radiation. Scaling up production from laboratory samples to commercially viable quantities also remains a challenge. Nevertheless, the CSIC findings represent a noteworthy step toward sustainable, electricity-free cooling at a time when demand for innovative thermal solutions continues to grow.",
+          "vocabularyB2": [
+            {
+              "word": "radiative cooling",
+              "definition": "A process where a surface releases heat as radiation into space, naturally lowering its temperature"
+            },
+            {
+              "word": "mitigate",
+              "definition": "To reduce the harmful effects of something, making a problem less serious"
+            },
+            {
+              "word": "urban heat islands",
+              "definition": "Areas in cities that are significantly hotter than surrounding rural areas due to human activity"
+            },
+            {
+              "word": "efficacy",
+              "definition": "The ability of something to produce the intended result effectively under real conditions"
+            },
+            {
+              "word": "commercially viable",
+              "definition": "Able to be produced and sold successfully at a large enough scale to make a profit"
+            }
+          ],
+          "questionB2": "Given the questions surrounding the long-term efficacy of new materials under real-world conditions, how realistic is it to expect radiative cooling technology to replace conventional air conditioning at scale?"
+        },
+        {
+          "id": "17869460699781ghe",
+          "title": "Latest news bulletin | August 17th, 2026 – Morning",
+          "source": "Euronews",
+          "originalUrl": "http://www.euronews.com/video/2026/08/17/latest-news-bulletin-august-17th-2026-morning",
+          "category": "politics",
+          "date": "2026-08-17",
+          "summaryB1": "Catch up with the most important stories from around Europe and beyond this August 17th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+          "vocabularyB1": [],
+          "questionB1": "",
+          "summaryB2": "Catch up with the most important stories from around Europe and beyond this August 17th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+          "vocabularyB2": [],
+          "questionB2": ""
+        },
+        {
+          "id": "1786946090363jxlm",
+          "title": "Portugal is home to hundreds of ancient olive trees, one may be over 3,700 years old",
+          "source": "Euronews",
+          "originalUrl": "http://www.euronews.com/2026/08/17/portugal-is-home-to-hundreds-of-ancient-olive-trees-one-may-be-over-3700-years-old",
+          "category": "environment",
+          "date": "2026-08-17",
+          "summaryB1": "Portugal is home to hundreds of very old olive trees, and scientists are now working to find out exactly how old they are. A team from the University of Trás-os-Montes and Alto Douro, known as UTAD, has developed a scientific method to date these ancient trees. Their work is taking place across the whole country.\n\nOne of the most exciting discoveries is in a town called Vidigueira. Scientists believe that an olive tree there may be over 3,700 years old. If this is correct, the tree was already alive during the Bronze Age, long before many modern civilisations existed.\n\nOlive trees are common in Portugal and are part of everyday life and culture. However, most people did not realise that some of these trees could be so ancient. The new method allows researchers to estimate the age of a tree more accurately than before.\n\nThis discovery matters for several reasons. Ancient trees are a natural heritage that connects us to the distant past. They also provide useful information about climate and the environment over thousands of years. Protecting these trees means preserving something rare and valuable.\n\nThe research shows that Portugal may have some of the oldest living olive trees in the world. Scientists hope that their method will help identify and protect more of these remarkable trees in the future.",
+          "vocabularyB1": [
+            {
+              "word": "ancient",
+              "definition": "Very old, existing for thousands of years"
+            },
+            {
+              "word": "method",
+              "definition": "A planned way of doing something to achieve a result"
+            },
+            {
+              "word": "estimate",
+              "definition": "To calculate an approximate number or amount, not exact"
+            },
+            {
+              "word": "heritage",
+              "definition": "Things, traditions or history passed down from the past"
+            },
+            {
+              "word": "remarkable",
+              "definition": "Unusual or special in a way that deserves attention"
+            }
+          ],
+          "questionB1": "Why do you think it is valuable to protect ancient trees that are part of a country's natural heritage?",
+          "summaryB2": "Portugal has long been associated with olive cultivation, but a groundbreaking scientific initiative is now revealing just how extraordinary the country's olive trees truly are. A research team from the University of Trás-os-Montes and Alto Douro has devised a dating methodology capable of determining the age of ancient olive trees with greater precision than conventional techniques. The project spans hundreds of trees across the country.\n\nThe most striking finding so far concerns a tree in Vidigueira, which researchers believe may be over 3,700 years old. If verified, this would place the tree's origins in the Bronze Age, predating many of the world's great ancient civilisations. Such a lifespan is extraordinary even by the standards of long-lived species, and the discovery has attracted considerable attention from the scientific community.\n\nBeyond the appeal of record-breaking ages, the research carries real ecological and historical weight. Ancient olive trees serve as living archives, potentially encoding within their rings and tissues data about past climates, droughts and human land use stretching back millennia. This makes them invaluable to environmental scientists and historians alike.\n\nThe project also prompts a conversation about conservation priorities. Portugal's ancient trees are largely unprotected, and many face threats from agricultural intensification and development. Establishing their age through rigorous scientific scrutiny could provide the evidence needed to advocate for stronger legal protection.\n\nUltimately, this research positions Portugal as a custodian of some of the world's oldest living organisms, reframing its ancient olive groves as irreplaceable natural monuments.",
+          "vocabularyB2": [
+            {
+              "word": "methodology",
+              "definition": "A system of methods and principles used in a particular field of study"
+            },
+            {
+              "word": "precision",
+              "definition": "The quality of being exact and accurate, with no errors or vagueness"
+            },
+            {
+              "word": "archive",
+              "definition": "A collection of historical records or, here, a store of long-term information"
+            },
+            {
+              "word": "scrutiny",
+              "definition": "Careful and detailed examination or investigation of something"
+            },
+            {
+              "word": "custodian",
+              "definition": "A person or organisation responsible for protecting and looking after something valuable"
+            }
+          ],
+          "questionB2": "Given that Portugal's ancient olive trees may lack legal protection, what criteria should policymakers use to prioritise conservation under rigorous scientific scrutiny?"
+        },
+        {
+          "id": "1786946111779gj09",
+          "title": "‘I’ve never done anything like this in my life’: Marina Abramović on making art with balloons",
+          "source": "The Guardian Culture",
+          "originalUrl": "https://www.theguardian.com/artanddesign/2026/aug/14/marina-abramovic-balloon-museum-show-interview",
+          "category": "culture",
+          "date": "2026-08-14",
+          "summaryB1": "Marina Abramović is a famous performance artist known for creating unusual and sometimes challenging art experiences. Her latest work is very different from anything she has done before. She has created an installation called 'Snowy/Windy/Spring on Planet Z' at the Balloon Museum in New York. This is described as the first permanent museum dedicated to inflatable art.\n\nVisitors walk through a glowing white room filled with oversized inflatable blades of grass that touch their faces. Small paper squares that look like snow blow through the air. The path curves, so you cannot see very far ahead, and the journey feels longer than expected.\n\nAbramović admitted that when she first received the assignment, she thought balloon art was 'kitschy' – meaning cheap and designed mainly for children. However, she began to contemplate the deeper meaning of balloons. She noticed a connection between balloons and her own art practice. A balloon is filled with air, and at some point that air disappears. This idea of something temporary and alive connects directly to her work.\n\nThe Balloon Museum recently opened in New York and gives inflatable art a permanent home. Abramović spoke about the project from her Manhattan apartment. Her willingness to explore a completely new type of art shows how creative artists can find inspiration in unexpected places.",
+          "vocabularyB1": [
+            {
+              "word": "installation",
+              "definition": "A type of artwork that fills a space and which visitors can walk through or experience."
+            },
+            {
+              "word": "inflatable",
+              "definition": "Something that is filled with air to make it bigger, like a balloon or air mattress."
+            },
+            {
+              "word": "assignment",
+              "definition": "A task or piece of work that someone is asked to do."
+            },
+            {
+              "word": "contemplate",
+              "definition": "To think carefully and seriously about something for a period of time."
+            },
+            {
+              "word": "permanent",
+              "definition": "Lasting for a very long time or forever; not temporary."
+            }
+          ],
+          "questionB1": "Abramović accepted this assignment even though she found balloon art 'kitschy' at first. Can you think of a time when you changed your opinion about something after contemplating it more carefully?",
+          "summaryB2": "Marina Abramović, the Serbian-born performance artist celebrated for decades of boundary-pushing work involving endurance and the human body, has taken a striking creative detour into the world of inflatable art. Her new installation, 'Snowy/Windy/Spring on Planet Z', is now on display at the Balloon Museum in New York – an institution that bills itself as the first permanent home dedicated exclusively to inflatable art.\n\nThe experience is deliberately disorienting. Visitors wind through a luminous white space where oversized inflatable blades of grass brush against their faces and paper snow swirls through the air. The curving path obscures what lies ahead, creating an uncanny sense that the journey stretches far beyond the room's actual dimensions.\n\nSpeaking via Zoom from her Manhattan apartment, Abramović described the project as unlike anything she had previously attempted. Her initial reaction to balloon art was one of scepticism – she dismissed it as kitschy and superficial, essentially the domain of children's entertainment. Yet the more she reflected on the medium, the more she discerned unexpected resonance with her longstanding artistic concerns. A balloon, she observed, is animated by air and ultimately defined by its own ephemerality – a quality central to performance art itself.\n\nThis willingness to engage with an ostensibly lowbrow medium and find within it genuine conceptual depth is characteristic of Abramović's career. The collaboration also signals how institutions like the Balloon Museum are striving to position inflatable art as a serious cultural form worthy of critical attention.",
+          "vocabularyB2": [
+            {
+              "word": "detour",
+              "definition": "A change from the usual or expected path, direction, or type of activity."
+            },
+            {
+              "word": "disorienting",
+              "definition": "Making you feel confused about where you are or what is happening around you."
+            },
+            {
+              "word": "uncanny",
+              "definition": "Strange and slightly unsettling in a way that is difficult to explain."
+            },
+            {
+              "word": "ephemerality",
+              "definition": "The quality of lasting only a very short time; the state of being temporary or fleeting."
+            },
+            {
+              "word": "ostensibly",
+              "definition": "Appearing to be one thing on the surface, but possibly different in reality."
+            }
+          ],
+          "questionB2": "Abramović found conceptual depth in an ostensibly lowbrow medium by focusing on ephemerality. To what extent should fine art institutions embrace popular or commercial art forms, and what are the risks of doing so?"
+        }
+      ]
+    },
+    {
       "generated": "2026-08-10T06:37:25.839Z",
       "week": "2026-W32",
       "articles": [
@@ -8297,684 +8933,6 @@
           ],
           "questionB1": "Do you think Netanyahu will accept a deal with Iran to bring stability to the region, or will tensions continue to grow?",
           "questionB2": "To what extent does Trump's unilateral assertion that he 'calls the shots' risk damaging the US-Israel alliance and reducing America's credibility as a diplomatic partner?"
-        }
-      ]
-    },
-    {
-      "generated": "2026-06-02T07:30:00Z",
-      "week": "2026-W23",
-      "articles": [
-        {
-          "id": "s001",
-          "title": "EU Plans Major Investment in Eastern European Transport Links",
-          "source": "Euronews",
-          "originalUrl": "https://www.euronews.com/my-europe",
-          "category": "politics",
-          "date": "2026-06-02",
-          "summaryB1": "The European Union is planning to spend a lot of money on roads and railways near its eastern borders. This will help countries like Poland, Lithuania and Romania to connect better with the rest of Europe. EU leaders agreed that better transport links are very important for the economy and for security. The money will come from a special EU fund. Work on the new roads and railways is expected to start next year. Many people who live near the border are happy about this decision. They hope that better infrastructure will also bring more jobs to their region. Poland will receive one of the largest shares of the total funding because it has a very long eastern border with Ukraine and Belarus. Local governments in Poland are already making detailed plans for how to use the money effectively.",
-          "vocabularyB1": [
-            {
-              "word": "infrastructure",
-              "definition": "The basic systems a country needs, like roads, railways and power supplies"
-            },
-            {
-              "word": "funding",
-              "definition": "Money given for a specific purpose"
-            },
-            {
-              "word": "transport links",
-              "definition": "Roads, railways and other connections that allow people to travel between places"
-            },
-            {
-              "word": "region",
-              "definition": "A large area of a country with particular characteristics"
-            },
-            {
-              "word": "effectively",
-              "definition": "In a way that works well and produces the right result"
-            }
-          ],
-          "summaryB2": "The European Commission has unveiled a comprehensive package to bolster transport and logistical infrastructure along the EU's eastern flank, with particular emphasis on Poland, the Baltic states and Romania. The initiative draws on the Cohesion Fund and newly established defence-linked financing instruments, aiming to dual-purpose civilian infrastructure for potential military mobility requirements — a concept increasingly central to NATO's strategic posture. Poland stands to receive a disproportionately large allocation given the considerable extent of its eastern border with Ukraine and Belarus. Critics have raised legitimate questions about procurement timelines and the adequacy of environmental impact assessments, while several MEPs have called for greater transparency in the tendering process. Proponents argue that the security and economic rationale is compelling, particularly in the context of ongoing geopolitical uncertainty in the region.",
-          "vocabularyB2": [
-            {
-              "word": "bolster",
-              "definition": "To strengthen or improve something significantly"
-            },
-            {
-              "word": "dual-purpose",
-              "definition": "Designed to serve two completely different functions at the same time"
-            },
-            {
-              "word": "disproportionately",
-              "definition": "To a degree that is larger or smaller than would normally be expected"
-            },
-            {
-              "word": "tendering process",
-              "definition": "The formal procedure of inviting and selecting competitive bids for a contract"
-            },
-            {
-              "word": "geopolitical",
-              "definition": "Relating to politics strongly influenced by geographical factors and international relations"
-            }
-          ],
-          "questionB1": "How do you think better transport links and infrastructure could change daily life for people living in border regions of Poland or Romania?",
-          "questionB2": "Given the dual-purpose nature of this infrastructure funding, how effectively can the EU balance genuine civilian development needs against its evolving geopolitical and military mobility priorities?"
-        },
-        {
-          "id": "s002",
-          "title": "Tech Giants Face New EU Digital Rules From Autumn",
-          "source": "Reuters",
-          "originalUrl": "https://www.reuters.com/technology",
-          "category": "technology",
-          "date": "2026-06-02",
-          "summaryB1": "Big technology companies like Google and Meta will have to follow new rules in Europe from this autumn. The rules are part of a plan to make the internet safer and more fair for everyone. Companies that break the rules can be fined a lot of money — up to ten percent of their total income worldwide. European countries, including Poland, have strongly supported these new regulations. Users will have more control over their personal information and how large companies use it. The new rules also mean that big companies cannot use unfair methods to stop smaller companies from competing with them. Poland's digital ministry has been one of the most active supporters of strict enforcement of these rules. Many Polish internet users say they feel better protected by these changes.",
-          "vocabularyB1": [
-            {
-              "word": "regulations",
-              "definition": "Official rules made by a government or authority that must be followed"
-            },
-            {
-              "word": "enforcement",
-              "definition": "The process of making sure that rules or laws are actually followed"
-            },
-            {
-              "word": "fined",
-              "definition": "Required to pay money as a punishment for breaking a rule or law"
-            },
-            {
-              "word": "competing",
-              "definition": "Trying to be more successful than others who are selling similar products or services"
-            },
-            {
-              "word": "protected",
-              "definition": "Kept safe from harm, danger or unfair treatment"
-            }
-          ],
-          "summaryB2": "The Digital Markets Act enforcement timeline has been accelerated, with the European Commission confirming that designated 'gatekeepers' — including Alphabet, Meta and Apple — must demonstrate full compliance by October. The regulation targets anti-competitive behaviour, mandatory interoperability between platforms, and greater algorithmic transparency. Poland's digital ministry has been notably vocal in pushing for stricter enforcement mechanisms, reflecting broader Central European frustration with the perceived dominance of American platforms in local media ecosystems. Non-compliance carries penalties of up to 10% of global annual turnover, with repeat offenders potentially facing structural remedies including forced divestiture. Legal analysts widely expect several major platforms to challenge specific provisions in the Court of Justice of the EU.",
-          "vocabularyB2": [
-            {
-              "word": "gatekeepers",
-              "definition": "Companies that control access to important digital markets or platforms"
-            },
-            {
-              "word": "interoperability",
-              "definition": "The ability of different digital systems or applications to work together seamlessly"
-            },
-            {
-              "word": "algorithmic transparency",
-              "definition": "Making it clear and understandable how automated computer systems make decisions"
-            },
-            {
-              "word": "divestiture",
-              "definition": "The forced sale or disposal of a part of a business, often required by regulators"
-            },
-            {
-              "word": "provisions",
-              "definition": "Specific conditions or requirements within a law or legal agreement"
-            }
-          ],
-          "questionB1": "If big companies are fined for breaking these regulations, do you think smaller companies will truly get a fair chance to compete online?",
-          "questionB2": "Given that gatekeepers may challenge key provisions in court, how realistic is it to expect full compliance and meaningful algorithmic transparency by October?"
-        },
-        {
-          "id": "s003",
-          "title": "Central European Cities Plant Thousands of Trees to Beat the Heat",
-          "source": "BBC News",
-          "originalUrl": "https://www.bbc.com/news/world/europe",
-          "category": "environment",
-          "date": "2026-06-01",
-          "summaryB1": "Cities in Central Europe, including Warsaw and Prague, are planting many new trees and building parks to deal with very hot summers. Scientists say that cities are getting hotter because of climate change. Green spaces help to cool the air and make life more comfortable for people living there. Local governments are spending large amounts of money on these projects. In Warsaw, the city plans to plant thousands of new trees along busy streets over the next three years. Prague is also creating several new parks in areas where there were previously only buildings and concrete. Both cities say that green areas are not just nice to look at — they are necessary for people's health during periods of extreme heat. Residents in both cities say they are happy that their local governments are taking this problem seriously.",
-          "vocabularyB1": [
-            {
-              "word": "climate change",
-              "definition": "Long-term changes in global temperatures and weather patterns, mainly caused by human activities"
-            },
-            {
-              "word": "extreme heat",
-              "definition": "Temperatures that are much higher than usual and can be dangerous to people's health"
-            },
-            {
-              "word": "residents",
-              "definition": "People who live permanently in a particular place or area"
-            },
-            {
-              "word": "concrete",
-              "definition": "A hard building material made from cement, sand and water, used for roads and buildings"
-            },
-            {
-              "word": "previously",
-              "definition": "At an earlier time; before the current situation existed"
-            }
-          ],
-          "summaryB2": "Municipal authorities across Central Europe are implementing so-called 'sponge city' strategies as urban heat islands intensify under accelerating climate projections. Warsaw's latest urban masterplan earmarks 18% of all new development land for permeable surfaces and expanding tree canopy, while Kraków has introduced mandatory heat-resilience requirements into its building regulations. Urban planners acknowledge a fundamental tension between densification pressures — driven by acute housing shortages — and the ecological imperative to preserve green corridors that regulate urban microclimates. Research from the Warsaw University of Life Sciences suggests mature street trees can reduce local temperatures by up to 8°C on peak summer days, lending considerable scientific weight to what critics had previously dismissed as a purely aesthetic concern.",
-          "vocabularyB2": [
-            {
-              "word": "urban heat islands",
-              "definition": "City areas significantly warmer than surrounding rural areas due to buildings, roads and human activity"
-            },
-            {
-              "word": "permeable surfaces",
-              "definition": "Ground surfaces that allow rainwater to pass through rather than run off into drains"
-            },
-            {
-              "word": "densification",
-              "definition": "The process of increasing the number of buildings and population density in an urban area"
-            },
-            {
-              "word": "microclimates",
-              "definition": "Climate conditions specific to a small local area, which may differ significantly from the wider region"
-            },
-            {
-              "word": "aesthetic",
-              "definition": "Relating to beauty and visual appearance rather than practical usefulness"
-            }
-          ],
-          "questionB1": "How do you think planting trees and creating green spaces can help residents stay healthy during periods of extreme heat in cities?",
-          "questionB2": "Given the tension between densification and preserving green corridors, how should city planners balance housing shortages with the need to reduce urban heat islands?"
-        },
-        {
-          "id": "s004",
-          "title": "European Central Bank Signals Cautious Approach to Interest Rates",
-          "source": "Financial Times",
-          "originalUrl": "https://www.ft.com/economics",
-          "category": "business",
-          "date": "2026-06-02",
-          "summaryB1": "The European Central Bank says it will be very careful about changing interest rates this year. Interest rates affect how much it costs to borrow money from a bank. When rates are high, people pay more for mortgages and business loans. The bank is worried about inflation, which means the prices of everyday things going up faster than usual. Poland is not part of the eurozone and uses the zloty, but decisions made by the European Central Bank still have an important effect on Poland's economy. Many Polish businesses borrow money in euros, so changes in European interest rates affect them directly. Economists say that the bank wants to be sure that inflation is really under control before it makes any big changes. This cautious approach means that borrowing will remain expensive for some time.",
-          "vocabularyB1": [
-            {
-              "word": "interest rates",
-              "definition": "The percentage charged by a bank for lending money, or paid on savings"
-            },
-            {
-              "word": "inflation",
-              "definition": "A general increase in prices over time, reducing what you can buy with the same amount of money"
-            },
-            {
-              "word": "mortgages",
-              "definition": "Loans taken from a bank to buy a house or flat, repaid over many years"
-            },
-            {
-              "word": "eurozone",
-              "definition": "The group of EU countries that use the euro as their currency"
-            },
-            {
-              "word": "cautious",
-              "definition": "Being careful and not taking risks; not acting too quickly"
-            }
-          ],
-          "summaryB2": "The ECB's governing council has signalled a more cautious approach to further monetary easing, citing persistent services inflation and wage growth that remains above pre-pandemic trends. The hawkish tone, communicated through President Christine Lagarde's carefully worded forward guidance, has prompted a modest repricing of rate expectations in European swap markets. For Poland and other non-eurozone Central European economies, the ECB's stance indirectly constrains the National Bank of Poland's room for manoeuvre, given the zloty's well-documented sensitivity to euro-area monetary conditions. Analysts at several Warsaw-based investment banks have consequently revised their forecasts for domestic rate cuts, pushing expected reductions further into the second half of the year.",
-          "vocabularyB2": [
-            {
-              "word": "monetary easing",
-              "definition": "Central bank policy of reducing interest rates to stimulate economic activity and borrowing"
-            },
-            {
-              "word": "hawkish",
-              "definition": "Favouring higher interest rates and tighter monetary policy to control inflation"
-            },
-            {
-              "word": "forward guidance",
-              "definition": "A central bank's communication about its likely future policy decisions to influence expectations"
-            },
-            {
-              "word": "repricing",
-              "definition": "Adjusting the expected value or cost of financial instruments based on new information"
-            },
-            {
-              "word": "room for manoeuvre",
-              "definition": "Freedom or flexibility to act or make independent choices within constraints"
-            }
-          ],
-          "questionB1": "If inflation is still high in Europe, do you think a cautious approach to changing interest rates is the right decision? Why?",
-          "questionB2": "Given the ECB's hawkish forward guidance, how much room for manoeuvre does the National Bank of Poland realistically have when deciding its own rate policy?"
-        },
-        {
-          "id": "s005",
-          "title": "Polish Film Industry Gains Growing International Recognition",
-          "source": "Notes from Poland",
-          "originalUrl": "https://notesfrompoland.com",
-          "category": "culture",
-          "date": "2026-06-01",
-          "summaryB1": "Polish films are becoming more popular and well-known around the world. Three Polish films have been selected for important international film festivals this year. Film-makers from Poland say they want to tell stories about Polish history and modern Polish life in ways that people from other countries can also understand and enjoy. Streaming services like Netflix are very interested in Polish content and are spending more money on Polish productions. More young people in Poland are now choosing to study film-making at university. Industry experts say that Polish cinema has a unique voice that audiences around the world are beginning to appreciate. Warsaw is becoming an increasingly important European centre for film and television production, attracting foreign productions that use Polish studios and local talent.",
-          "vocabularyB1": [
-            {
-              "word": "film festivals",
-              "definition": "Events where films from different countries are shown and sometimes given prizes"
-            },
-            {
-              "word": "productions",
-              "definition": "Films, TV shows or other media that have been made"
-            },
-            {
-              "word": "streaming services",
-              "definition": "Online platforms like Netflix where you can watch films and shows over the internet"
-            },
-            {
-              "word": "unique",
-              "definition": "Being the only one of its kind; unlike anything else"
-            },
-            {
-              "word": "talent",
-              "definition": "People with natural ability and skill in a particular area"
-            }
-          ],
-          "summaryB2": "Poland's cinematic output is attracting sustained international attention, with three features shortlisted for major festivals including Venice and Toronto. Analysts attribute this momentum partly to co-production frameworks with German and French broadcasters, and partly to a generational shift in domestic storytelling — younger directors are engaging with post-communist memory and contemporary Polish identity in formally adventurous and internationally accessible ways. Netflix's Warsaw-based content team has reportedly doubled its commissioning budget for Polish-language originals, signalling growing confidence that Polish narratives can translate successfully across diverse global markets. Warsaw is increasingly positioning itself as a significant Central European production hub.",
-          "vocabularyB2": [
-            {
-              "word": "cinematic output",
-              "definition": "The total number of films produced by a country or film-maker over a period of time"
-            },
-            {
-              "word": "shortlisted",
-              "definition": "Included in a small final group of candidates being considered for a prize or selection"
-            },
-            {
-              "word": "co-production frameworks",
-              "definition": "Formal agreements allowing companies from different countries to jointly finance and make films"
-            },
-            {
-              "word": "commissioning budget",
-              "definition": "Money set aside by a broadcaster or platform to order and pay for new original content"
-            },
-            {
-              "word": "post-communist",
-              "definition": "Relating to societies and culture in the period after communist rule ended in Eastern Europe"
-            }
-          ],
-          "questionB1": "Which types of stories from Polish history or modern life do you think streaming services would find most interesting for global audiences, and why?",
-          "questionB2": "To what extent do co-production frameworks risk shaping Polish cinematic output to suit foreign market expectations rather than authentically reflecting post-communist identity?"
-        },
-        {
-          "id": "s006",
-          "title": "AI Tools Reshape Hiring Practices Across Europe",
-          "source": "The Guardian",
-          "originalUrl": "https://www.theguardian.com/technology",
-          "category": "technology",
-          "date": "2026-05-31",
-          "summaryB1": "Many European companies are now using artificial intelligence to help them find new employees. AI tools can look through hundreds of job applications very quickly and identify the most suitable candidates. Some people are worried that AI is not always fair when it chooses which candidates to select for interviews. In Poland, companies in the IT and finance sectors are using these tools the most. Workers are strongly advised to write their CVs in ways that AI screening systems will score positively. Trade unions across Europe are calling for new laws to protect job seekers from being unfairly rejected by automated systems. Some countries are already introducing rules that require companies to tell applicants when AI has been used in their selection process.",
-          "vocabularyB1": [
-            {
-              "word": "artificial intelligence",
-              "definition": "Computer systems that can do tasks that normally require human intelligence, like making decisions"
-            },
-            {
-              "word": "candidates",
-              "definition": "People who are applying for a job or position"
-            },
-            {
-              "word": "CVs",
-              "definition": "Documents listing a person's education, work experience and skills, used when applying for jobs"
-            },
-            {
-              "word": "automated",
-              "definition": "Done by machines or computers without needing human involvement"
-            },
-            {
-              "word": "trade unions",
-              "definition": "Organisations that represent workers and protect their rights in the workplace"
-            }
-          ],
-          "summaryB2": "The adoption of AI-driven applicant tracking systems has accelerated sharply across European labour markets, with a recent survey indicating that 62% of companies with over 500 employees now deploy algorithmic screening at some stage of their recruitment process. The practice raises significant compliance questions under the EU AI Act's high-risk classification for employment-related AI applications, which mandates meaningful human oversight and regular bias auditing. Polish labour lawyers note a persistent gap between the regulation's stated intent and actual enforcement capacity, particularly among mid-sized firms that lack dedicated compliance functions. Meanwhile, trade union confederations in several EU member states are lobbying for more prescriptive transparency requirements, including mandatory disclosure of AI involvement to all unsuccessful applicants.",
-          "vocabularyB2": [
-            {
-              "word": "applicant tracking systems",
-              "definition": "Software used by employers to automatically collect, filter and rank job applications"
-            },
-            {
-              "word": "algorithmic screening",
-              "definition": "Using computer programs to automatically evaluate and filter candidates based on preset criteria"
-            },
-            {
-              "word": "bias auditing",
-              "definition": "Systematically examining a system to identify and correct patterns of unfair or discriminatory decision-making"
-            },
-            {
-              "word": "prescriptive",
-              "definition": "Giving detailed, specific instructions about exactly what must be done"
-            },
-            {
-              "word": "mandatory disclosure",
-              "definition": "A legal requirement to officially inform someone about something"
-            }
-          ],
-          "questionB1": "If a company uses automated tools to reject your CV without any human review, do you think that process is fair to candidates?",
-          "questionB2": "Given the persistent gap between the EU AI Act's intent and enforcement, how effective can mandatory disclosure of algorithmic screening realistically be in protecting job seekers?"
-        },
-        {
-          "id": "s007",
-          "title": "Poland Expands Renewable Energy Capacity With New Wind Farms",
-          "source": "Notes from Poland",
-          "originalUrl": "https://notesfrompoland.com",
-          "category": "environment",
-          "date": "2026-06-01",
-          "summaryB1": "Poland is building many new wind farms to produce more clean electricity. The government wants to reduce the country's dependence on coal, which Poland has used for energy for a very long time. New wind farms are being built both on land and in the Baltic Sea. The energy from these wind farms will be enough to power millions of Polish homes. Many people support this change because it will also help to reduce air pollution in Polish cities. However, some people who live near the new wind farms are concerned about the noise and the effect on the local landscape. The Polish government says that renewable energy will create thousands of new jobs in the coming years. Poland has set a goal to produce 50% of its electricity from renewable sources by 2035.",
-          "vocabularyB1": [
-            {
-              "word": "renewable energy",
-              "definition": "Energy from sources that are naturally replaced and never run out, like wind or sunlight"
-            },
-            {
-              "word": "dependence",
-              "definition": "The state of relying on something or someone too much"
-            },
-            {
-              "word": "coal",
-              "definition": "A black rock used as fuel, burned to produce heat and electricity"
-            },
-            {
-              "word": "air pollution",
-              "definition": "Harmful substances in the air, caused by burning fuels and industrial activity"
-            },
-            {
-              "word": "landscape",
-              "definition": "The visible features of an area of land, such as hills, forests and fields"
-            }
-          ],
-          "summaryB2": "Poland is accelerating its offshore and onshore wind capacity in a significant pivot away from its historically coal-dependent energy mix. Several large-scale Baltic Sea wind projects have recently received government approval, with combined capacity sufficient to power an estimated four million households. The transition carries both economic and geopolitical dimensions — reducing dependence on imported fossil fuels while positioning Poland to meet its EU climate commitments under the revised Fit for 55 package. Industry analysts note that the rapid expansion will require substantial investment in grid infrastructure and storage capacity to manage intermittency. Local opposition movements, particularly in rural Mazovia and Pomerania, continue to contest planning decisions on aesthetic and ecological grounds.",
-          "vocabularyB2": [
-            {
-              "word": "offshore",
-              "definition": "Located in the sea, at a distance from the coast"
-            },
-            {
-              "word": "energy mix",
-              "definition": "The combination of different energy sources a country uses to meet its total power needs"
-            },
-            {
-              "word": "geopolitical dimensions",
-              "definition": "Aspects of a situation that relate to international relations and the influence of geography on politics"
-            },
-            {
-              "word": "intermittency",
-              "definition": "The characteristic of renewable energy sources like wind that do not produce power continuously"
-            },
-            {
-              "word": "ecological grounds",
-              "definition": "Reasons related to the protection of the natural environment and living organisms"
-            }
-          ],
-          "questionB1": "Do you think reducing dependence on coal is worth the concerns of people living near wind farms? Why?",
-          "questionB2": "Given the geopolitical dimensions of energy independence, how should Poland balance rapid offshore wind expansion with the ecological grounds cited by local opposition movements?"
-        },
-        {
-          "id": "s008",
-          "title": "Rising Food Prices Put Pressure on European Households",
-          "source": "BBC Business",
-          "originalUrl": "https://www.bbc.com/news/business",
-          "category": "business",
-          "date": "2026-06-02",
-          "summaryB1": "Food prices across Europe have been rising for several months, and families are finding it harder to afford their weekly shopping. In Poland, the prices of basic products like bread, milk and vegetables have gone up significantly. Economists say that bad weather affecting crops, higher transport costs and global supply problems are all contributing to the problem. Many families in Poland are changing their shopping habits — buying fewer luxury items and looking for cheaper alternatives to their usual products. Food banks in major Polish cities report that more people are coming to them for help than at any time in the past five years. The Polish government has announced some measures to help lower-income families cope with the higher prices, including an expansion of the food assistance programme.",
-          "vocabularyB1": [
-            {
-              "word": "afford",
-              "definition": "To have enough money to be able to buy or pay for something"
-            },
-            {
-              "word": "crops",
-              "definition": "Plants grown by farmers for food, like wheat, potatoes or vegetables"
-            },
-            {
-              "word": "supply problems",
-              "definition": "Difficulties in getting enough goods to the places where they are needed"
-            },
-            {
-              "word": "luxury items",
-              "definition": "Things that are nice to have but not essential for everyday life"
-            },
-            {
-              "word": "food banks",
-              "definition": "Places that collect food donations and give them free to people who cannot afford to buy food"
-            }
-          ],
-          "summaryB2": "Persistent food price inflation is compounding cost-of-living pressures for households across the EU, with Poland among the member states experiencing above-average increases in staple food categories. A convergence of factors — including severe drought conditions affecting southern European agricultural output, elevated logistics costs, and residual supply chain disruptions — has sustained upward price pressure despite broader headline inflation easing. Polish consumer confidence indices have declined for the third consecutive quarter, with discretionary spending contracting sharply. NGOs operating food assistance networks in Warsaw and Kraków report a marked increase in first-time users, suggesting that financial distress is penetrating demographics not previously associated with food insecurity.",
-          "vocabularyB2": [
-            {
-              "word": "compounding",
-              "definition": "Making an already difficult situation worse by adding further problems"
-            },
-            {
-              "word": "staple food categories",
-              "definition": "Basic, essential foods that form the main part of people's regular diet"
-            },
-            {
-              "word": "discretionary spending",
-              "definition": "Money spent on non-essential items that people can choose to cut back on"
-            },
-            {
-              "word": "food insecurity",
-              "definition": "The state of not having reliable access to sufficient affordable and nutritious food"
-            },
-            {
-              "word": "residual",
-              "definition": "Remaining after the main part of something has gone or been dealt with"
-            }
-          ],
-          "questionB1": "How do rising food prices change the way families shop, and have you ever chosen cheaper alternatives when you could not afford your usual products?",
-          "questionB2": "To what extent do declining consumer confidence and contracting discretionary spending reflect deeper structural vulnerabilities, and what policy responses could most effectively address food insecurity among first-time aid recipients?"
-        },
-        {
-          "id": "s009",
-          "title": "European Space Agency Selects New Astronaut Class Including Eastern Europeans",
-          "source": "BBC Science & Environment",
-          "originalUrl": "https://www.bbc.com/news/science-environment",
-          "category": "environment",
-          "date": "2026-05-31",
-          "summaryB1": "The European Space Agency has chosen a new group of astronauts, and for the first time the selection includes candidates from Central and Eastern European countries. This is seen as an important moment for the region. The new astronauts will spend years training before they can go to space. Training takes place at the ESA centre in Cologne, Germany, and also at NASA facilities in the United States. The ESA said it received more than 22,000 applications from across Europe, which is a new record. The selection of astronauts from Eastern Europe is part of a wider effort to make the space programme more representative of all EU member states. Young people across Poland and neighbouring countries have reacted with great excitement to the news.",
-          "vocabularyB1": [
-            {
-              "word": "astronauts",
-              "definition": "People who are trained to travel and work in space"
-            },
-            {
-              "word": "selection",
-              "definition": "The process of carefully choosing a person or thing from a larger group"
-            },
-            {
-              "word": "training",
-              "definition": "The process of learning the skills needed to do a particular job"
-            },
-            {
-              "word": "facilities",
-              "definition": "Buildings and equipment provided for a particular purpose"
-            },
-            {
-              "word": "representative",
-              "definition": "Including examples of all the different types that exist in a group or society"
-            }
-          ],
-          "summaryB2": "The European Space Agency's latest astronaut cohort marks a notable shift in the programme's geographical composition, with candidates from Central and Eastern European member states securing places for the first time in the agency's history. The selection, drawn from a record 22,500 applicants, reflects both ESA's strategic commitment to broadening institutional representation and growing political pressure from newer EU members to secure meaningful participation in flagship European scientific endeavours. The successful candidates will undergo an intensive two-year basic training curriculum at ESA's European Astronaut Centre in Cologne before becoming eligible for mission assignments. Space agency officials indicated that expanded collaboration agreements with NASA and JAXA will provide additional mission opportunities for the enlarged astronaut corps.",
-          "vocabularyB2": [
-            {
-              "word": "cohort",
-              "definition": "A group of people who share a particular characteristic or experience, especially selected together"
-            },
-            {
-              "word": "flagship",
-              "definition": "The most important or prestigious product, project or initiative of an organisation"
-            },
-            {
-              "word": "curriculum",
-              "definition": "A structured programme of study or training covering specific subjects and skills"
-            },
-            {
-              "word": "corps",
-              "definition": "A group of people engaged in a particular activity or profession, treated as a unit"
-            },
-            {
-              "word": "endeavours",
-              "definition": "Serious attempts or efforts to do something, particularly something ambitious"
-            }
-          ],
-          "questionB1": "If you applied for astronaut selection and got chosen, how would years of training in another country change your life?",
-          "questionB2": "To what extent does including Eastern European candidates in the astronaut corps reflect genuine institutional commitment to representation, or is it primarily a response to political pressure from newer EU members?"
-        },
-        {
-          "id": "s010",
-          "title": "Warsaw Emerges as Major European Start-Up Hub",
-          "source": "Politico Europe",
-          "originalUrl": "https://www.politico.eu",
-          "category": "business",
-          "date": "2026-06-01",
-          "summaryB1": "Warsaw is becoming one of the most important cities in Europe for new technology companies, known as start-ups. More and more young entrepreneurs from Poland and neighbouring countries are choosing Warsaw as the place to build their businesses. The city has good universities that produce talented graduates, and living costs are lower than in cities like London or Berlin. Several large international companies have recently opened technology offices in Warsaw. The Polish government has also introduced special programmes to help new businesses get started, including easier access to funding. Warsaw's growing reputation as a technology centre is attracting investors from across Europe and from the United States. Many tech workers who left Poland to work abroad are now returning to take advantage of the new opportunities available in their home city.",
-          "vocabularyB1": [
-            {
-              "word": "entrepreneurs",
-              "definition": "People who start and run their own businesses, taking financial risks to do so"
-            },
-            {
-              "word": "graduates",
-              "definition": "People who have successfully completed a university degree"
-            },
-            {
-              "word": "reputation",
-              "definition": "The opinion that people in general have about someone or something"
-            },
-            {
-              "word": "investors",
-              "definition": "People or organisations that put money into a business hoping to make a profit"
-            },
-            {
-              "word": "opportunities",
-              "definition": "Situations where it is possible to do something desirable or advantageous"
-            }
-          ],
-          "summaryB2": "Warsaw is consolidating its position as one of Central Europe's premier technology ecosystems, attracting venture capital inflows and talent at a pace that is beginning to rival established Western European hubs. The city's competitive advantages — a deep pool of technically skilled graduates from Polish universities, relatively low operational costs compared to Berlin or Amsterdam, and improving quality of urban life — are proving persuasive to founders and international corporations alike. Poland's favourable regulatory environment for early-stage companies, combined with EU single market access, has made Warsaw an increasingly attractive domicile for start-ups seeking pan-European scalability. A notable reverse migration trend has seen Polish tech professionals returning from London and Zurich, bringing international networks and experience back to the domestic ecosystem.",
-          "vocabularyB2": [
-            {
-              "word": "venture capital",
-              "definition": "Money invested in new or small companies with high growth potential but also high risk"
-            },
-            {
-              "word": "ecosystem",
-              "definition": "A community of interconnected businesses, institutions and individuals in a particular sector"
-            },
-            {
-              "word": "domicile",
-              "definition": "The country or place where a person or company is officially registered or based"
-            },
-            {
-              "word": "scalability",
-              "definition": "The ability of a business to grow and expand without proportionally increasing its costs"
-            },
-            {
-              "word": "reverse migration",
-              "definition": "The movement of people back to a place they previously left, often their country of origin"
-            }
-          ],
-          "questionB1": "What opportunities do you think attract entrepreneurs to Warsaw, and would you consider starting a business there?",
-          "questionB2": "To what extent does Warsaw's growing venture capital scene risk creating an ecosystem that benefits returning professionals more than locally trained graduates?"
-        },
-        {
-          "id": "s011",
-          "title": "UNESCO Adds New Central European Sites to World Heritage List",
-          "source": "BBC Culture",
-          "originalUrl": "https://www.bbc.com/culture",
-          "category": "culture",
-          "date": "2026-05-30",
-          "summaryB1": "UNESCO, the United Nations organisation that protects important cultural and natural places around the world, has added several new Central European sites to its World Heritage List. The list includes places that are considered to have outstanding value for all of humanity. One of the new sites is in Poland, and Poles are very proud of this recognition. Being on the UNESCO list helps to attract tourists and also brings money for restoration and protection work. Local communities near the new sites are preparing for more visitors. The Polish government has promised to invest in better facilities for tourists at the site. UNESCO experts praised the site for its exceptional historical significance and its excellent state of preservation. This is Poland's fifteenth entry on the prestigious World Heritage List.",
-          "vocabularyB1": [
-            {
-              "word": "heritage",
-              "definition": "Things from the past that are important and worth keeping for future generations"
-            },
-            {
-              "word": "outstanding",
-              "definition": "Extremely good or impressive; clearly better than others"
-            },
-            {
-              "word": "restoration",
-              "definition": "The process of repairing something old so it looks as it did originally"
-            },
-            {
-              "word": "preservation",
-              "definition": "Keeping something in its original condition and preventing it from being damaged"
-            },
-            {
-              "word": "prestigious",
-              "definition": "Respected and admired by people; having a high status"
-            }
-          ],
-          "summaryB2": "UNESCO's World Heritage Committee has inscribed several new Central European properties on its canonical list at its annual session, with Poland's latest nomination receiving particular acclaim for the exceptional integrity of its surviving fabric and its layered historical significance spanning multiple centuries. The inscription is expected to generate a measurable uplift in cultural tourism, though heritage management specialists have cautioned that increased visitor footfall must be carefully managed to avoid the site deterioration that has affected over-touristed World Heritage properties elsewhere in Europe. Polish conservation authorities have committed to developing a comprehensive visitor management strategy in consultation with local stakeholders. The listing represents Poland's fifteenth World Heritage inscription, reinforcing the country's considerable standing in European cultural patrimony.",
-          "vocabularyB2": [
-            {
-              "word": "inscribed",
-              "definition": "Officially added to an important list or register, especially of protected sites"
-            },
-            {
-              "word": "integrity",
-              "definition": "The state of being complete and undamaged; wholeness and authenticity"
-            },
-            {
-              "word": "visitor footfall",
-              "definition": "The number of people visiting a particular place over a given period of time"
-            },
-            {
-              "word": "stakeholders",
-              "definition": "People or groups who have an interest in or are affected by a particular decision or project"
-            },
-            {
-              "word": "patrimony",
-              "definition": "The cultural and historical heritage belonging to and defining a particular nation or people"
-            }
-          ],
-          "questionB1": "Why do you think preservation of heritage sites matters to local communities, and who should be responsible for protecting them?",
-          "questionB2": "Given that rising visitor footfall can threaten the integrity of World Heritage sites, how should countries balance tourism revenue with long-term conservation commitments?"
-        },
-        {
-          "id": "s012",
-          "title": "EU Summit Reaches Agreement on Migration Policy Reform",
-          "source": "Euronews",
-          "originalUrl": "https://www.euronews.com/my-europe",
-          "category": "politics",
-          "date": "2026-06-02",
-          "summaryB1": "European Union leaders have reached an agreement on new rules for managing the arrival of migrants and refugees in Europe. The negotiations were very difficult and took a long time because different countries have very different opinions on this issue. Poland and other Central European countries argued strongly for stricter border controls and for sharing the responsibility for migrants more fairly among all EU members. The new agreement includes plans to process asylum applications more quickly and to increase cooperation between EU countries on returns. Some human rights organisations have criticised the agreement, saying it does not do enough to protect vulnerable people. The EU leaders say the new system will be more efficient and more fair for everyone involved. The agreement still needs to be approved by the European Parliament before it can become law.",
-          "vocabularyB1": [
-            {
-              "word": "migrants",
-              "definition": "People who move from one country to another, often to find work or escape difficult conditions"
-            },
-            {
-              "word": "refugees",
-              "definition": "People who have been forced to leave their country because of war, violence or persecution"
-            },
-            {
-              "word": "asylum",
-              "definition": "Protection given by a country to someone who has left their home country as a refugee"
-            },
-            {
-              "word": "border controls",
-              "definition": "Checks carried out at a country's borders to decide who is allowed to enter"
-            },
-            {
-              "word": "vulnerable",
-              "definition": "In a weak position and easily harmed or in need of special protection"
-            }
-          ],
-          "summaryB2": "EU leaders have reached a qualified majority agreement on a sweeping reform of the bloc's migration and asylum architecture, ending years of institutional deadlock that had paralysed the Common European Asylum System. The compromise, which required significant concessions from both frontline Mediterranean states and Visegrad Group countries including Poland, introduces accelerated border procedures, a mandatory solidarity mechanism with financial opt-out provisions, and enhanced operational cooperation with third countries on readmission. Critics from humanitarian organisations argue that the expedited procedures risk undermining adequate due process safeguards, while Eurosceptic governments contend the solidarity mechanism still places disproportionate obligations on member states. Ratification by the European Parliament is expected to be contentious.",
-          "vocabularyB2": [
-            {
-              "word": "qualified majority",
-              "definition": "A voting system in the EU requiring support from a specific percentage of member states to pass a decision"
-            },
-            {
-              "word": "institutional deadlock",
-              "definition": "A situation where an organisation cannot make progress because of fundamental disagreement between its members"
-            },
-            {
-              "word": "solidarity mechanism",
-              "definition": "A system for sharing responsibilities or burdens fairly among members of a group or union"
-            },
-            {
-              "word": "readmission",
-              "definition": "The formal return of individuals to their country of origin or transit, agreed through international agreements"
-            },
-            {
-              "word": "due process",
-              "definition": "The legal requirement that all individuals must be treated fairly according to established rules and principles"
-            }
-          ],
-          "questionB1": "Should all EU countries share equal responsibility for asylum seekers, or should border countries carry more of the burden? Why?",
-          "questionB2": "Given the mandatory solidarity mechanism's financial opt-out provisions, can this reform truly resolve the institutional deadlock, or will member states simply avoid their obligations?"
         }
       ]
     }
