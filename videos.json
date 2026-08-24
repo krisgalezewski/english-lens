@@ -1,6 +1,341 @@
 {
   "editions": [
     {
+      "generated": "2026-08-24T07:30:57.629Z",
+      "videos": [
+        {
+          "videoId": "fwWrVHF93BE",
+          "title": "EU leaders rally behind International Criminal Court after fresh US sanctions",
+          "channel": "euronews",
+          "publishedAt": "2026-08-19T15:07:50Z",
+          "thumbnail": "https://i.ytimg.com/vi/fwWrVHF93BE/hqdefault.jpg",
+          "durationSeconds": 63,
+          "transcript": "EU leaders have expressed their support to the International Criminal Court after the United States announced it would sanction top officials investigating Israel's actions in Gaza. In a statement, the president of the European Commission, Ursula von der Leyen, and Council Chief, Antonio Costa, said that the ICC helps deliver justice to the victims of some of the world's most horrific crimes. They added that in order to carry out this essential work, its judges and officials must be able to act independently and without external pressure. The statement came after US Secretary of State Marco Rubio announced that the US would sanction the ICC's president, Japan's Tomoko Akane, and senior lawyer, Abdallah Issay of Senegal. The top officials have been tasked with probing war crimes allegedly committed by Israel in its war in Gaza. The ICC has described these sanctions as a flagrant attack on its independence.",
+          "category": "politics",
+          "summary": "EU leaders have expressed their support for the International Criminal Court (ICC) after the United States announced sanctions against its top officials. The sanctions target the ICC's president and a senior lawyer who are investigating alleged war crimes committed by Israel in Gaza. The ICC has condemned the US move as a direct attack on its independence.",
+          "multipleChoice": [
+            {
+              "question": "What reason did the EU leaders give for why ICC judges and officials must be able to act independently?",
+              "options": [
+                "To avoid conflict with the United States government",
+                "To carry out essential work delivering justice to victims of serious crimes",
+                "To maintain good relations with Israel",
+                "To protect the interests of EU member states"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Who is Tomoko Akane, according to the transcript?",
+              "options": [
+                "The US Secretary of State",
+                "A senior lawyer from Senegal",
+                "The president of the ICC",
+                "The EU Council Chief"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Which US official announced the sanctions against ICC officials?",
+              "options": [
+                "Ursula von der Leyen",
+                "Marco Rubio",
+                "Abdallah Issay",
+                "Antonio Costa"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Ursula von der Leyen and Antonio Costa issued a joint statement supporting the ICC.",
+              "answer": true
+            },
+            {
+              "statement": "Abdallah Issay is a senior ICC official from Japan.",
+              "answer": false
+            },
+            {
+              "statement": "The ICC described the US sanctions as a flagrant attack on its independence.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they were mentioned",
+            "items": [
+              "The US announced it would sanction top ICC officials investigating Israel's actions in Gaza.",
+              "Marco Rubio named the specific ICC officials to be sanctioned.",
+              "EU leaders released a statement expressing support for the ICC.",
+              "The ICC condemned the sanctions as an attack on its independence."
+            ]
+          }
+        },
+        {
+          "videoId": "KpBd3dRUGls",
+          "title": "Is irregular migration into Europe out of control? | FT #shorts",
+          "channel": "Financial Times",
+          "publishedAt": "2026-08-21T09:02:52Z",
+          "thumbnail": "https://i.ytimg.com/vi/KpBd3dRUGls/hqdefault.jpg",
+          "durationSeconds": 151,
+          "transcript": "Is a regular migration into Europe out of control? You'd be forgiven for thinking so. In July, about 72,000 undocumented people poured into Ceuta, Spanish territory on the coast of Morocco. Many later went home, but at least >> [music] >> 82 people died in the incident. Meanwhile, in Britain, a record 230 people packed onto this precarious dinghy in France and crossed the channel into the UK. More fodder for the highly charged global discourse about irregular migration, where far-right populists are setting much of the agenda, including Donald Trump, who said this about the Ceuta incident. >> You know, I saw Spain uh yesterday, and I watched the catastrophe that took place. It was a It looks like an invasion of a country by hundreds of thousands of people. >> In Britain, Nigel Farage's Reform UK vowed to deploy the Royal Navy to return small boats and the people in them to France. The recent pictures would appear alarming, but one reason we're seeing them, summer's the main time for irregular migration because of fairer weather and calmer seas. Here's a map showing some of the main migration routes into the EU, mostly by the Mediterranean, but also overland from the Balkans or Belarus, or from North Africa to Spain's Canary Islands. And here's what the numbers say. Irregular border crossings into the EU actually fell by more than a third in the first half of 2026. Brussels says that's thanks to its cooperation with countries along the migration routes. >> [music] >> And in the UK, small boat crossings were 45% lower as of mid-July than at the same point last year. Though, as often with migration, it's complicated. [music] Dig deeper into the UK figures and you'll see the number of people seeking asylum is falling, but remains high. That's people who say they're fleeing persecution, a subset of all migrants, only some of whom arrive on small boats. But as a group, they're highly visible in places like Britain's migrant hotels [music] and a target for protesters xenophobic attacks. This may be why half of Britons still think net migration is rising despite a headline fall. Though for anyone worried about the costs of undocumented migration, whether in government spending or human lives, any drop probably can't happen fast enough.",
+          "category": "business",
+          "summary": "This short video from the Financial Times examines whether irregular migration into Europe is truly out of control. It looks at recent high-profile incidents in Ceuta and the English Channel, then compares the dramatic media images with the actual statistics, which show a notable drop in irregular border crossings in both the EU and the UK in 2026.",
+          "multipleChoice": [
+            {
+              "question": "How many people died during the incident in Ceuta in July?",
+              "options": [
+                "72 people",
+                "At least 82 people",
+                "Hundreds of thousands of people",
+                "230 people"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "According to the video, why does irregular migration peak in summer?",
+              "options": [
+                "Because more asylum seekers are processed in summer",
+                "Because of fairer weather and calmer seas",
+                "Because border controls are reduced in summer",
+                "Because smuggling networks are more active in July"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "By how much did irregular border crossings into the EU fall in the first half of 2026?",
+              "options": [
+                "By more than a third",
+                "By almost half",
+                "By about a quarter",
+                "By 45%"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "A record 230 people crossed the English Channel on a single dinghy from France to the UK.",
+              "answer": true
+            },
+            {
+              "statement": "Nigel Farage's Reform UK proposed sending the Royal Navy to intercept small boats and escort them back to Spain.",
+              "answer": false
+            },
+            {
+              "statement": "Half of Britons still believe net migration is rising, despite official figures showing a fall.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or facts in the order they were mentioned in the video.",
+            "items": [
+              "About 72,000 undocumented people entered Ceuta, Spanish territory on the Moroccan coast",
+              "Donald Trump described the Ceuta incident as 'an invasion of a country'",
+              "A map of the main migration routes into the EU is shown",
+              "UK small boat crossings were reported to be 45% lower than at the same point the previous year"
+            ]
+          }
+        },
+        {
+          "videoId": "gN2fdqz-NM4",
+          "title": "Crypto and AI firms reshape spending on midterms",
+          "channel": "Reuters",
+          "publishedAt": "2026-08-21T01:15:50Z",
+          "thumbnail": "https://i.ytimg.com/vi/gN2fdqz-NM4/hqdefault.jpg",
+          "durationSeconds": 90,
+          "transcript": "So you're seeing tens of millions of dollars spent on these primaries whereas five years ago they would have drawn maybe a million dollars. So in years past you would see industries align heavily with Republicans or Democrats. But what you're seeing now is they are fairly transactional. If you support their cause, they will likely help you get elected to Congress. Political strategists from both parties say that some candidates are running scared. You see the progressives and the Democratic party kind of embracing this, refusing to take corporate money, but a lot of candidates are running scared because they don't want fair shake, the crypto pack to come after them. They don't want the open AI linked pack leading the future to come after them. So there are eight battleground states right now. Elon Musk just said they are going to put a hundred million to 120 million into getting the Republican vote out for some of these states. Meta has set aside $65 million alone just on state races. The money that we are aware of is just a fraction of the total amount of money that companies and billionaires are putting into these races. Voters will have to just be really discerning and actually look at the issues and figure out who they want to support when it comes to the elections.",
+          "category": "technology",
+          "summary": "This video discusses how technology and cryptocurrency companies are spending large sums of money to influence midterm elections. Political strategists explain that these industries are no longer tied to one political party, but instead support candidates who back their interests. Voters are urged to look closely at the issues and make informed choices.",
+          "multipleChoice": [
+            {
+              "question": "According to the video, how much money were primaries drawing about five years ago?",
+              "options": [
+                "Around fifty million dollars",
+                "Around ten million dollars",
+                "Around five million dollars",
+                "Around one million dollars"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "How much money has Meta set aside just for state races?",
+              "options": [
+                "$120 million",
+                "$65 million",
+                "$100 million",
+                "$30 million"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What does the video say about the money we are currently aware of?",
+              "options": [
+                "It is being spent only in battleground states",
+                "It covers most of the total spending",
+                "It comes mainly from progressive groups",
+                "It is just a fraction of the total amount being spent"
+              ],
+              "correctIndex": 3
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The video says that tech and crypto industries now tend to support candidates from both parties if those candidates support their cause.",
+              "answer": true
+            },
+            {
+              "statement": "Elon Musk announced he would put $65 million into getting the Republican vote out in battleground states.",
+              "answer": false
+            },
+            {
+              "statement": "Some progressive Democrats have chosen not to accept corporate money during the election campaign.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas in the order they were mentioned in the video.",
+            "items": [
+              "Spending on primaries has grown from about one million to tens of millions of dollars compared to five years ago.",
+              "Candidates from both parties are described as running scared of crypto and AI-linked PACs.",
+              "Elon Musk announces plans to spend between $100 million and $120 million in battleground states.",
+              "Voters are advised to be discerning and look at the issues when deciding who to support."
+            ]
+          }
+        },
+        {
+          "videoId": "DLtf2MwSEnY",
+          "title": "Untitled",
+          "channel": "euronews",
+          "publishedAt": "2026-08-12T16:05:20Z",
+          "thumbnail": "https://i.ytimg.com/vi/DLtf2MwSEnY/hqdefault.jpg",
+          "durationSeconds": 178,
+          "transcript": "Water scarcity is no longer a problem limited to southern Europe. This summer, member states across the block are facing droughts and [music] water scarcity. The European Environmental Agency warns that heat waves and droughts are expected to become more frequent and [music] intense across the block by 2050. Rising temperatures dry out soils and shrink [music] rivers, putting enormous pressure on Europe's water resources. The European Environmental Agency reports that approximately 20% of European territory and 30% of population is already affected by water scarcity. About 37% of Europe's surface waters are in good ecological condition. About 30% have good chemical status. The European Union reports that 2025 was the third warmest year on record with [music] 2023 and 2024 being the hottest years so far. To address water shortage, member states have already put in place several measures. [music] Measures include increasing the amount of waste water to water fields, limiting non-essential water consumption, expanding dissalination projects, building smart water management system such as sensorbased irrigation systems. By 2030, global water demand will exceed available resources by 40%, says the European Commission. Especially regions across southern Europe are set to experience longer droughts period and increasing groundwater depletion. Droughts already cost the European Union up to 9 billion per year and have reached 100 billion euros over the past 30 years. The European Commission launched a European water resilience strategy in June 2025 to improve water efficiency across the EU by 10% by 2030. The plan focuses on three priorities. Restoring and protecting the water cycle from source to sea. Building a water smart economy that balances water demand and water supply. Ensuring clean and affordable water for everyone. The strategy includes 50 actions of which 30 are crucial. [music] Last year the European Parliament and the European Council agreed on the [music] strategy stressing the importance of a Europeanwide action on water resilience. The European water resilience [music] strategy includes five main actions. an efficient implementation of European water legislation, more public and private investments in water infrastructures, increased use of AI in water management, more research and innovation in the water industry, stronger common preparedness to detect droughts and floods. In 2027, the European Commission will carry out a midterm [music] check to see if the strategy is working. The review will determine if the European Union and the member states are on [music] the right track to solve one of the fastest growing environmental and economic risks. For the full story, read our in-depth explainer on eurone.com.",
+          "category": "environment",
+          "summary": "This video reports on growing water scarcity across Europe, explaining how rising temperatures and droughts are putting pressure on water resources. It outlines key statistics on the scale of the problem and describes the measures being taken by the European Union, including the European Water Resilience Strategy launched in June 2025. The strategy sets out five main actions and aims to improve water efficiency by 10% by 2030, with a review planned for 2027.",
+          "multipleChoice": [
+            {
+              "question": "According to the video, what percentage of European territory is already affected by water scarcity?",
+              "options": [
+                "37%",
+                "20%",
+                "30%",
+                "40%"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "How much have droughts cost the European Union over the past 30 years?",
+              "options": [
+                "9 billion euros",
+                "50 billion euros",
+                "40 billion euros",
+                "100 billion euros"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "When does the European Commission plan to carry out a midterm check on the water resilience strategy?",
+              "options": [
+                "2026",
+                "2027",
+                "2030",
+                "2025"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The European Water Resilience Strategy was launched in June 2025.",
+              "answer": true
+            },
+            {
+              "statement": "About 50% of Europe's surface waters are in good ecological condition.",
+              "answer": false
+            },
+            {
+              "statement": "By 2030, global water demand is expected to exceed available resources by 40%.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or facts from the video in the order they were mentioned.",
+            "items": [
+              "Warning from the European Environmental Agency about more frequent heat waves and droughts by 2050",
+              "The European Commission reports that 2025 was the third warmest year on record",
+              "The European Commission launches the European Water Resilience Strategy in June 2025",
+              "The European Commission plans a midterm check on the strategy in 2027"
+            ]
+          }
+        },
+        {
+          "videoId": "kr2zixjNmgo",
+          "title": "Panda cubs Leni & Lotti turn two!",
+          "channel": "DW Euromaxx",
+          "publishedAt": "2026-08-22T20:45:32Z",
+          "thumbnail": "https://i.ytimg.com/vi/kr2zixjNmgo/hqdefault.jpg",
+          "durationSeconds": 43,
+          "transcript": "They grew up so fast. [music] Meng Meng and Lottie, the adorable panda sisters at Berlin Zoo, just turned two. And they got the sweetest birthday surprise, a special ice cake. [music] At birth, they weighed just 6 and 5 oz. Today, Meng Meng weighs over 155 lbs, while Lottie weighs 134 lbs. Their menu's changing, too. Less [music] milk, more bamboo. Even if they're becoming more independent, they're not quite ready to leave Mom Meng Meng yet. [music] Panda cubs usually start separating from their mothers at around 2 and 1/2 years. [music] With fewer than 2,000 giant pandas left in the wild, every little panda is pretty special. Happy second birthday, Meng Meng and Lottie.",
+          "category": "culture",
+          "summary": "This short video celebrates the second birthday of two giant panda cubs, Meng Meng and Lottie, at Berlin Zoo. It shares facts about how much they have grown since birth and how their diet is changing as they get older. The video also mentions that giant pandas are a rare species, with fewer than 2,000 left in the wild.",
+          "multipleChoice": [
+            {
+              "question": "How much does Lottie weigh now?",
+              "options": [
+                "155 lbs",
+                "5 oz",
+                "134 lbs",
+                "6 oz"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What special treat did the pandas receive for their birthday?",
+              "options": [
+                "A basket of bamboo",
+                "A pile of fruit",
+                "A special ice cake",
+                "A new enclosure"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "At approximately what age do panda cubs usually start separating from their mothers?",
+              "options": [
+                "2 years",
+                "3 years",
+                "1 year",
+                "2 and a half years"
+              ],
+              "correctIndex": 3
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The two panda cubs celebrated their second birthday at Berlin Zoo.",
+              "answer": true
+            },
+            {
+              "statement": "The pandas' diet is changing to include more milk and less bamboo.",
+              "answer": false
+            },
+            {
+              "statement": "There are fewer than 2,000 giant pandas left in the wild.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these facts and events from the video in the order they were mentioned.",
+            "items": [
+              "The pandas received a special ice cake as a birthday surprise.",
+              "Their birth weights of 6 oz and 5 oz were mentioned.",
+              "The video explained that their diet is changing to more bamboo.",
+              "The video noted that fewer than 2,000 giant pandas remain in the wild."
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-08-17T06:18:40.444Z",
       "videos": [
         {
