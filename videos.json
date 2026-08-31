@@ -1,6 +1,341 @@
 {
   "editions": [
     {
+      "generated": "2026-08-31T06:05:35.754Z",
+      "videos": [
+        {
+          "videoId": "ZciUA-_u6SY",
+          "title": "Mark Carney to address European Parliament as Canada turns to Brussels amid Trump’s tariff hammer",
+          "channel": "euronews",
+          "publishedAt": "2026-08-26T20:52:47Z",
+          "thumbnail": "https://i.ytimg.com/vi/ZciUA-_u6SY/hqdefault.jpg",
+          "durationSeconds": 40,
+          "transcript": "First, >> Canadian Prime Minister Mark Carney will address the European Parliament on September 17th as Canada and the EU see closer ties amid escalating tensions with the United States. >> Arrangement. >> Carney will also attend the European Commission President Uslaf Lion State of the Union speech on September the 16th. >> Then children, >> the visit follows the collapse of US Canada trade talks and Washington's decision to impose tariffs of up to 50% on 20 billion of Canadian goods. because I want to be >> Canada has vowed to respond with matching counter tariffs as Carne seeks closer partnership with the EU and so-called middle powers.",
+          "category": "politics",
+          "summary": "Canadian Prime Minister Mark Carney is set to visit Europe in September, addressing the European Parliament and attending the EU Commission President's State of the Union speech. This visit comes after US-Canada trade talks broke down and the United States imposed heavy tariffs on Canadian goods. Canada has announced it will respond with matching counter-tariffs and is seeking stronger ties with the EU and other middle powers.",
+          "multipleChoice": [
+            {
+              "question": "On what date will Mark Carney address the European Parliament?",
+              "options": [
+                "September 10th",
+                "September 20th",
+                "September 14th",
+                "September 17th"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What is the maximum level of tariffs the US decided to impose on Canadian goods?",
+              "options": [
+                "35%",
+                "50%",
+                "25%",
+                "20%"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which event will Mark Carney attend on September 16th?",
+              "options": [
+                "A meeting with NATO representatives",
+                "The EU Commission President's State of the Union speech",
+                "A press conference at the European Council",
+                "A bilateral trade summit with EU leaders"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Mark Carney will address the European Parliament on September 17th.",
+              "answer": true
+            },
+            {
+              "statement": "The United States imposed tariffs on 50 billion dollars worth of Canadian goods.",
+              "answer": false
+            },
+            {
+              "statement": "Canada has promised to respond to US tariffs with matching counter-tariffs.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they were mentioned",
+            "items": [
+              "Mark Carney plans to address the European Parliament",
+              "Carney attends the State of the Union speech on September 16th",
+              "US-Canada trade talks collapse and tariffs are imposed",
+              "Canada vows to respond with counter-tariffs and seeks EU partnership"
+            ]
+          }
+        },
+        {
+          "videoId": "eIlnq9__tF0",
+          "title": "Yuval Noah Harari: I didn’t recognise an AI deepfake of myself | The Economist",
+          "channel": "The Economist",
+          "publishedAt": "2026-08-21T10:03:31Z",
+          "thumbnail": "https://i.ytimg.com/vi/eIlnq9__tF0/hqdefault.jpg",
+          "durationSeconds": 70,
+          "transcript": "There are now AI fakes of me giving lectures and doing interviews about subjects like... Are they as good as you? They are extremely good So a couple of people sent me the same video, a 30-minute long lecture that I supposedly gave about the future with complaints about “you said this and you said that” and I kind of scratched my head I don't remember saying these things So they sent me the video and I opened it and it took me a minute and a half, a minute and a half to conclude this isn't me Now my sisters sent me this video My sisters have known me for 50 years and they felt something was off but they weren't sure They said “is this you?” And it took me a minute and a half I'm in a exposed position because there is so much of me online already So the AI... It's easy for the AI to know how I sound and what are ideas I talk about But this will soon be coming for everybody",
+          "category": "business",
+          "summary": "In this video, Yuval Noah Harari describes his personal experience with an AI-generated deepfake of himself. He explains how convincing the fake was — even his own sisters were unsure if it was real. He warns that while he is especially vulnerable due to his large online presence, this technology will soon affect everyone.",
+          "multipleChoice": [
+            {
+              "question": "How long was the fake lecture that people sent to Harari?",
+              "options": [
+                "15 minutes",
+                "An hour",
+                "30 minutes",
+                "45 minutes"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "How long did it take Harari to decide that the video was not really him?",
+              "options": [
+                "Several hours",
+                "About five minutes",
+                "A minute and a half",
+                "Almost immediately"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Why does Harari say he is particularly easy to create a deepfake of?",
+              "options": [
+                "Because he is a famous politician",
+                "Because he speaks many languages",
+                "Because he has many enemies",
+                "Because there is so much of him online already"
+              ],
+              "correctIndex": 3
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Harari's sisters were certain straight away that the video was a fake.",
+              "answer": false
+            },
+            {
+              "statement": "The fake video showed Harari speaking about the future.",
+              "answer": true
+            },
+            {
+              "statement": "Harari believes that AI deepfakes will eventually be a problem for ordinary people, not just public figures.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events in the order they are mentioned in the video.",
+            "items": [
+              "Several people sent Harari the same fake video with complaints about things he supposedly said.",
+              "Harari scratched his head because he did not remember saying those things.",
+              "Harari opened the video and spent a minute and a half deciding it was not him.",
+              "His sisters watched the video and asked him whether it was really him."
+            ]
+          }
+        },
+        {
+          "videoId": "m16hMayWfTs",
+          "title": "Fei-Fei Li on Silicon Valley's 'God Complex'",
+          "channel": "Bloomberg Originals",
+          "publishedAt": "2026-08-21T16:00:24Z",
+          "thumbnail": "https://i.ytimg.com/vi/m16hMayWfTs/hqdefault.jpg",
+          "durationSeconds": 91,
+          "transcript": "Some of the most powerful CEOs in AI right now have been accused of having god complexes because they seem to think they know what's best for humanity. What do you think of that term? >> I think it's dangerous for any individual to think they know better than everybody else. As a CEO, as an entrepreneur, our founding premise is we are here to contribute to the society and to empower people. It's not our position to make every single decision for people. >> But isn't that the path we're on? I mean, these are really powerful people. >> I think it's too early to tell, Emily. I'm not being naive. I know what you're talking about. I also have my concern. I don't think having god complex is constructive and I wouldn't want to do that myself, but we have a democratic society. This is another reason I think our civil society should not give up on AI. We need the voices. We need the collective governance. But let's not throw out the baby with the bathwater. The governance shouldn't be, \"Let's stop AI.\" because this is a technology that can discover cure for diseases, can empower students and teachers, can help our elderly. So, that's the baby here. But right now, we are in a very messy period. This is also why I feel personal responsibility to speak the truth I believe in as a scientist and an educator.",
+          "category": "technology",
+          "summary": "In this interview, AI scientist and entrepreneur Fei-Fei Li discusses the idea that some powerful AI CEOs have 'god complexes', believing they alone know what is best for humanity. She argues that this mindset is dangerous and that society needs collective governance over AI. At the same time, she warns against stopping AI development entirely, pointing to its potential benefits in medicine, education, and elder care.",
+          "multipleChoice": [
+            {
+              "question": "According to Fei-Fei Li, what is the founding premise of being a CEO or entrepreneur?",
+              "options": [
+                "To develop the most advanced technology possible",
+                "To contribute to society and empower people",
+                "To make every decision on behalf of society",
+                "To compete with other powerful leaders in the industry"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Which of the following does Fei-Fei Li mention as a potential benefit of AI?",
+              "options": [
+                "Replacing human governments",
+                "Reducing the cost of smartphones",
+                "Discovering cures for diseases",
+                "Improving international trade"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What does Fei-Fei Li mean when she says 'don't throw out the baby with the bathwater'?",
+              "options": [
+                "AI should be developed faster than it currently is",
+                "Scientists should have more power than politicians in AI decisions",
+                "Governing AI should not mean stopping it altogether",
+                "Civil society should focus only on regulating big tech companies"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Fei-Fei Li says she personally would not want to have a god complex.",
+              "answer": true
+            },
+            {
+              "statement": "Fei-Fei Li believes it is too late for civil society to have any influence over AI development.",
+              "answer": false
+            },
+            {
+              "statement": "Fei-Fei Li describes the current period of AI development as a very messy period.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas from the video in the order they were mentioned by Fei-Fei Li.",
+            "items": [
+              "She says it is dangerous for any individual to think they know better than everyone else.",
+              "She states that having a god complex is not constructive and she would not want that for herself.",
+              "She calls on civil society not to give up on AI and to support collective governance.",
+              "She explains her personal responsibility to speak the truth as a scientist and educator."
+            ]
+          }
+        },
+        {
+          "videoId": "5WL9jzwRQog",
+          "title": "Emergency crews struggle to bring wildfire burning for weeks in Serbia under control",
+          "channel": "euronews",
+          "publishedAt": "2026-08-21T06:48:55Z",
+          "thumbnail": "https://i.ytimg.com/vi/5WL9jzwRQog/hqdefault.jpg",
+          "durationSeconds": 64,
+          "transcript": "A Serbian wildfire that has been burning for weeks has forced evacuations as fire crews struggle to control the blaze in the Deliblatska Peščara nature reserve. The fire has burned through large areas of the forest reserve around 60 km east of Belgrade since early August. As temperatures reached 39° C, strong winds pushed flames towards homes, forcing the evacuation of a small hamlet of the reserve's edge. Following the evacuation, Russia sent an Ilyushin water bomber at Belgrade's request for assistance. The aircraft can carry 42,000 L of water and was used to douse parts of the fire. But Serbia's Interior Minister Ivica Dačić said the situation remained dangerous because of the sand, heat, and extreme temperatures. The blaze came as heatwave warnings covered much of the Balkans with dozens of fires reported across the region.",
+          "category": "environment",
+          "summary": "A wildfire in Serbia's Deliblatska Peščara nature reserve has been burning for weeks, forcing residents to evacuate as fire crews struggle to control the blaze. Russia provided an Ilyushin water bomber to help fight the fire following a request from Belgrade. The situation remains dangerous due to extreme heat, strong winds, and sandy terrain, with heatwaves affecting much of the Balkans.",
+          "multipleChoice": [
+            {
+              "question": "How far is the Deliblatska Peščara nature reserve from Belgrade?",
+              "options": [
+                "Around 60 km",
+                "Around 100 km",
+                "Around 80 km",
+                "Around 40 km"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "How much water can the Russian Ilyushin water bomber carry?",
+              "options": [
+                "24,000 litres",
+                "40,000 litres",
+                "42,000 litres",
+                "52,000 litres"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "According to Serbia's Interior Minister, why did the situation remain dangerous?",
+              "options": [
+                "Because of the sand, heat, and extreme temperatures",
+                "Because the aircraft ran out of water",
+                "Because more fires started nearby",
+                "Because firefighters were injured"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The wildfire forced the evacuation of a small hamlet on the edge of the reserve.",
+              "answer": true
+            },
+            {
+              "statement": "The fire started burning in the nature reserve in late August.",
+              "answer": false
+            },
+            {
+              "statement": "Heatwave warnings covered much of the Balkans at the time of the fire.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events from the video in the order they were mentioned.",
+            "items": [
+              "The wildfire started burning in the Deliblatska Peščara nature reserve in early August.",
+              "Strong winds pushed flames towards homes, forcing an evacuation.",
+              "Russia sent an Ilyushin water bomber to help fight the fire.",
+              "Serbia's Interior Minister warned that the situation remained dangerous."
+            ]
+          }
+        },
+        {
+          "videoId": "I1mvXFrxKq8",
+          "title": "Are strangers tracking your workout?",
+          "channel": "DW Euromaxx",
+          "publishedAt": "2026-08-30T12:00:23Z",
+          "thumbnail": "https://i.ytimg.com/vi/I1mvXFrxKq8/hqdefault.jpg",
+          "durationSeconds": 53,
+          "transcript": "You are tracking your workout, but who else [music] is? Users claim they have been contacted or even followed through fitness tracking apps like Strava. >> In some cases, activity data has been used to identify locations, routines, and some users. >> Here's how to protect yourself from Strava stalkers. >> Check whether your activities are visible to everyone, only your followers, or just you. >> Review your follower list and remove accounts you don't recognize. >> Enable privacy zones to hide the start and end points near places like your home or work. >> But, be aware [music] that isn't foolproof if you share your route after you're finished, not while you're still on the move. >> Turn off the flyby feature or adjust your settings. [music] It can reveal who was nearby, >> where and when you crossed paths. >> Review your past activities. [music] >> Older activities may reveal more than you think. >> What other tips do you have?",
+          "category": "culture",
+          "summary": "This video looks at how fitness tracking apps like Strava can be used to track users without their knowledge. It explains how activity data can reveal personal information such as locations and daily routines. The video offers several practical tips on how users can protect their privacy while using these apps.",
+          "multipleChoice": [
+            {
+              "question": "What kind of data from fitness apps has been used to identify users?",
+              "options": [
+                "Payment and subscription details",
+                "Locations, routines, and some users",
+                "Heart rate and health statistics",
+                "Friend lists and message history"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What does the 'flyby' feature on Strava reveal?",
+              "options": [
+                "How many calories a user burned during a workout",
+                "How fast a user was running or cycling",
+                "Which routes are the most popular in your area",
+                "Who was nearby and where and when paths crossed"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "According to the video, what is one limitation of using privacy zones?",
+              "options": [
+                "They cannot hide your profile picture",
+                "They are not foolproof if you share your route after finishing, not while moving",
+                "They do not work on mobile devices",
+                "They are only available to paid subscribers"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Users claim they have been contacted or followed through fitness tracking apps like Strava.",
+              "answer": true
+            },
+            {
+              "statement": "Privacy zones hide your location at all times, even when you share your route after finishing.",
+              "answer": false
+            },
+            {
+              "statement": "The video recommends reviewing your follower list and removing accounts you do not recognise.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these tips from the video in the order they were mentioned",
+            "items": [
+              "Check whether your activities are visible to everyone, only followers, or just you",
+              "Enable privacy zones to hide start and end points near your home or work",
+              "Turn off or adjust the flyby feature",
+              "Review your past activities, as older ones may reveal more than you think"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-08-24T07:30:57.629Z",
       "videos": [
         {
