@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lens: Videos — English Lens</title>
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="favicon.svg" />
+<meta name="theme-color" content="#08080a" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,75..125,400..900;1,75..125,400..900&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #08080a;
+    --ink: #f4efe6;
+    --ink-muted: #a8a29a;
+    --ink-dim: #8f8980;
+    --ink-faint: #6f6f77;
+    --surface: #111115;
+    --surface-deep: #0e0e12;
+    --surface-hover: #17171d;
+    --hairline: #1a1a1f;
+    --border: #1f1f26;
+    --border-strong: #26262c;
+    --backdrop: rgba(6,6,8,0.86);
+
+    /* Leading colour for this page — Amber Ember */
+    --fill: #a55c0c;
+    --fill-hover: #bd6d16;
+    --accent: #f6b860;
+    --dim: #452705;
+    --thumb-placeholder: #4f2c05;
+
+    /* The other page's light accent, for the cross-link */
+    --articles-accent: #b2bf63;
+    --articles-dim: #20260c;
+    --articles-fill: #394310;
+
+    --c-politics: #cf4f66;     --c-politics-fill: #96162f;
+    --c-business: #d9a520;     --c-business-fill: #8a6510;
+    --c-technology: #9fc4ce;   --c-technology-fill: #0e4655;
+    --c-environment: #7fb08d;  --c-environment-fill: #12632f;
+    --c-culture: #45a89b;      --c-culture-fill: #11736a;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Archivo', system-ui, sans-serif;
+    min-height: 100vh;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--ink); text-decoration: none; }
+  a:hover { color: #ffffff; }
+
+  ::selection { background: var(--fill); color: var(--ink); }
+
+  .wrap {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 clamp(12px, 2.5vw, 28px) 48px;
+  }
+
+  /* ── HEADER ── */
+  .site-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px 28px;
+    padding: 20px 6px 18px;
+    border-bottom: 1px solid var(--hairline);
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: clamp(12px, 2.5vw, 28px);
+    padding-right: clamp(12px, 2.5vw, 28px);
+  }
+  .brand {
+    font-size: 17px;
+    font-weight: 900;
+    font-stretch: 112%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+  .brand-sub {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-left: 6px;
+  }
+  .site-nav { display: flex; align-items: center; gap: 8px 22px; flex-wrap: wrap; }
+  .lens-link {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 3px;
+    transition: border-color .2s ease, color .2s ease;
+  }
+  .lens-current { color: var(--accent); border-color: var(--fill); }
+  .lens-other { color: var(--articles-accent); border-color: var(--articles-dim); }
+  .lens-other:hover { border-color: var(--articles-fill); color: var(--ink); }
+  .nav-quiet {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .nav-quiet:hover { color: var(--ink-muted); }
+
+  /* ── HERO ── */
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 34px 6px 26px;
+  }
+  .hero-left { max-width: 640px; }
+  .hero-eyebrow {
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+  .hero h1 {
+    font-size: clamp(38px, 5.4vw, 70px);
+    line-height: 0.93;
+    font-weight: 900;
+    font-stretch: 115%;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    text-wrap: balance;
+    margin-bottom: 16px;
+  }
+  .hero p {
+    font-size: clamp(15px, 1.15vw, 17px);
+    line-height: 1.55;
+    color: var(--ink-muted);
+    max-width: 48ch;
+    text-wrap: pretty;
+  }
+  .hero-stats { display: flex; flex-wrap: wrap; gap: 30px; }
+  .stat-figure { font-size: 34px; font-weight: 900; font-stretch: 110%; line-height: 1; }
+  .stat-label {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-top: 4px;
+  }
+
+  /* ── CONTROLS ── */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 34px;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    border-radius: 10px;
+    background: var(--surface);
+    border: 1px solid var(--border-strong);
+    cursor: pointer;
+    transition: background .2s ease, border-color .2s ease;
+    color: var(--ink-muted);
+  }
+  .chip[data-cat="all"] { color: var(--accent); }
+  .chip.active[data-cat="all"] { background: var(--fill); border-color: var(--fill); color: var(--ink); }
+  .chip[data-cat="politics"] { color: var(--c-politics); }
+  .chip[data-cat="business"] { color: var(--c-business); }
+  .chip[data-cat="technology"] { color: var(--c-technology); }
+  .chip[data-cat="environment"] { color: var(--c-environment); }
+  .chip[data-cat="culture"] { color: var(--c-culture); }
+  .chip.active[data-cat="politics"] { background: var(--c-politics-fill); border-color: var(--c-politics-fill); color: var(--ink); }
+  .chip.active[data-cat="business"] { background: var(--c-business-fill); border-color: var(--c-business-fill); color: var(--ink); }
+  .chip.active[data-cat="technology"] { background: var(--c-technology-fill); border-color: var(--c-technology-fill); color: var(--ink); }
+  .chip.active[data-cat="environment"] { background: var(--c-environment-fill); border-color: var(--c-environment-fill); color: var(--ink); }
+  .chip.active[data-cat="culture"] { background: var(--c-culture-fill); border-color: var(--c-culture-fill); color: var(--ink); }
+
+  .controls-right { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .search-input {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    background: var(--surface);
+    border: 1px solid var(--border-strong);
+    border-radius: 10px;
+    padding: 11px 18px;
+    color: var(--ink);
+    min-width: 220px;
+    outline: none;
+  }
+  .search-input::placeholder { color: var(--ink-dim); }
+  .search-input:focus { border-color: var(--accent); }
+
+  /* ── SECTION HEAD ── */
+  .section-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: clamp(20px, 2.1vw, 28px);
+    font-weight: 900;
+    font-stretch: 112%;
+    text-transform: uppercase;
+    text-wrap: balance;
+  }
+  .section-meta {
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .clear-btn {
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .clear-btn:hover { color: #ffffff; }
+
+  .edition-section { margin-bottom: 46px; }
+
+  /* ── FEATURE PANEL (Pick of the week) ── */
+  .feature-panel {
+    background: var(--fill);
+    border-radius: 22px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0;
+    cursor: pointer;
+    transition: background .2s ease;
+    margin-bottom: 14px;
+  }
+  .feature-panel:hover { background: var(--fill-hover); }
+  .feature-thumb-wrap {
+    position: relative;
+    aspect-ratio: 16/9;
+    background-color: var(--thumb-placeholder);
+    background-size: cover;
+    background-position: center;
+    min-height: 220px;
+  }
+  .feature-play {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 64px; height: 64px; border-radius: 999px;
+    background: rgba(244,239,230,0.92);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--fill); font-size: 22px; padding-left: 4px;
+  }
+  .feature-duration {
+    position: absolute; bottom: 10px; right: 10px;
+    background: rgba(8,8,10,0.82); color: var(--ink);
+    font-size: 12px; font-weight: 700; padding: 5px 10px; border-radius: 6px;
+  }
+  .feature-right { padding: clamp(22px, 2.6vw, 34px); display: flex; flex-direction: column; justify-content: center; }
+  .badge-row { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+  .badge-pick {
+    background: var(--ink); color: var(--fill);
+    font-size: 10.5px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+    padding: 4px 10px; border-radius: 7px;
+  }
+  .badge-cat { font-size: 11.5px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink); }
+  .feature-right h3 {
+    font-size: clamp(24px, 2.8vw, 38px);
+    line-height: 1.02;
+    font-weight: 900;
+    font-stretch: 112%;
+    text-transform: uppercase;
+    text-wrap: balance;
+    margin-bottom: 14px;
+  }
+  .feature-summary { font-size: 15px; line-height: 1.6; color: rgba(244,239,230,0.9); margin-bottom: 16px; }
+  .feature-cta .cta-line { font-size: 15px; font-weight: 800; color: var(--ink); }
+  .feature-cta .meta-line { font-size: 12.5px; color: var(--ink); opacity: .85; margin-top: 4px; }
+
+  /* ── CARD GRID (video cards) ── */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 14px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background .15s ease;
+  }
+  .card:hover { background: var(--surface-hover); }
+  .card-thumb-wrap {
+    position: relative;
+    aspect-ratio: 16/9;
+    background-color: #0d0d11;
+    background-size: cover;
+    background-position: center;
+  }
+  .card-duration {
+    position: absolute; bottom: 8px; right: 8px;
+    background: rgba(8,8,10,0.82); color: var(--ink);
+    font-size: 11px; font-weight: 700; padding: 4px 8px; border-radius: 6px;
+  }
+  .card-body { padding: 16px 18px 20px; display: flex; flex-direction: column; gap: 8px; }
+  .card-cat { font-size: 10.5px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; }
+  .cat-politics { color: var(--c-politics); }
+  .cat-business { color: var(--c-business); }
+  .cat-technology { color: var(--c-technology); }
+  .cat-environment { color: var(--c-environment); }
+  .cat-culture { color: var(--c-culture); }
+  .card-body h4 { font-size: 17px; line-height: 1.22; font-weight: 800; }
+  .card-bottom { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .card-channel { font-size: 11.5px; color: var(--ink-faint); }
+  .card-tasks { font-size: 11.5px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+  .card-date-slot { font-size: 11px; color: var(--ink-faint); white-space: nowrap; }
+
+  /* ── ARCHIVE ── */
+  .archive-sub { font-size: 13px; color: var(--ink-dim); margin-bottom: 24px; }
+  .archive-edition { border-top: 1px solid var(--hairline); padding-top: 18px; margin-bottom: 18px; }
+  .archive-date {
+    font-size: 11.5px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--ink-dim); margin-bottom: 10px;
+  }
+  .archive-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+  .archive-row {
+    display: flex; align-items: center; gap: 12px;
+    background: var(--surface-deep); border: 1px solid var(--hairline); border-radius: 14px;
+    padding: 12px; cursor: pointer; transition: background .15s ease;
+  }
+  .archive-row:hover { background: #15151b; }
+  .archive-thumb {
+    width: 82px; height: 48px; border-radius: 8px; flex-shrink: 0;
+    background-size: cover; background-position: center; background-color: #0d0d11;
+  }
+  .archive-cat { font-size: 10.5px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; display: block; margin-bottom: 3px; }
+  .archive-title { font-size: 13.5px; line-height: 1.3; font-weight: 700; }
+
+  .show-more-wrap { text-align: center; margin-top: 22px; }
+  .show-more-btn {
+    background: var(--fill); color: var(--ink); border: none; border-radius: 10px;
+    padding: 14px 26px; font-size: 12px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase;
+    cursor: pointer; transition: background .2s ease;
+  }
+  .show-more-btn:hover { background: var(--fill-hover); }
+
+  .empty-msg, .loading-msg {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: 40px; text-align: center; color: var(--ink-muted); font-size: 14px;
+  }
+  .loading-msg { color: var(--accent); animation: lensPulse 1.4s ease-in-out infinite; border: none; background: none; text-align: left; padding: 20px 0; }
+  @keyframes lensPulse { 0%,100% { opacity: .35; } 50% { opacity: .8; } }
+  .error-msg { border-color: var(--c-politics); }
+  .error-title { color: var(--c-politics); font-weight: 800; margin-bottom: 8px; }
+
+  /* ── MODAL ── */
+  .modal-overlay {
+    display: none; position: fixed; inset: 0; z-index: 60;
+    background: var(--backdrop); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    overflow-y: auto; padding: clamp(14px, 3vw, 46px) clamp(10px, 3vw, 28px);
+  }
+  .modal-overlay.open { display: block; }
+  .modal-inner { max-width: 880px; margin: 0 auto; }
+  .modal-topbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+  .modal-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+  .modal-close {
+    width: 38px; height: 38px; border-radius: 999px;
+    background: var(--surface); border: 1px solid var(--border-strong); color: var(--ink);
+    font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: background .15s ease, border-color .15s ease;
+  }
+  .modal-close:hover { background: var(--fill); border-color: var(--fill); }
+
+  .modal-card {
+    background: var(--surface-deep); border: 1px solid var(--border); border-radius: 22px; overflow: hidden;
+  }
+  .player-wrap { position: relative; width: 100%; aspect-ratio: 16/9; background: #000; }
+  .player-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .modal-content { padding: clamp(20px, 3vw, 36px); }
+  .modal-meta-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 18px; }
+  .modal-cat-badge { font-size: 10.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; padding: 4px 10px; border-radius: 7px; color: var(--ink); }
+  .modal-meta-item { font-size: 12px; color: var(--ink-faint); }
+  .modal-h1 { font-size: clamp(26px, 3.4vw, 44px); line-height: 1.02; font-weight: 900; font-stretch: 112%; text-transform: uppercase; text-wrap: balance; margin-bottom: 14px; }
+  .modal-summary { font-size: 16px; line-height: 1.6; color: #c9c3b8; max-width: 70ch; }
+
+  .comp-header {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+    border-top: 1px solid var(--hairline); margin: 44px 0 18px; padding-top: 24px; flex-wrap: wrap;
+  }
+  .comp-header h2 { font-size: clamp(20px, 2.1vw, 26px); }
+  .comp-meta { font-size: 11.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-faint); }
+  .part-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); margin: 22px 0 12px; }
+
+  .task-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: clamp(18px, 2vw, 24px); margin-bottom: 12px;
+  }
+  .task-q { font-size: 16px; line-height: 1.45; font-weight: 700; margin-bottom: 12px; }
+  .task-q .num { color: var(--accent); margin-right: 6px; }
+  .mc-options { display: flex; flex-direction: column; gap: 8px; }
+  .mc-opt {
+    width: 100%; text-align: left; background: var(--surface-deep); border: 1px solid var(--border-strong);
+    border-radius: 12px; padding: 13px 16px; font-size: 14.5px; line-height: 1.4; color: var(--ink);
+    cursor: pointer; transition: background .2s ease, border-color .2s ease;
+  }
+  .mc-opt .letter { font-weight: 800; margin-right: 8px; }
+  .mc-opt.selected { background: var(--fill); border-color: var(--fill); }
+  .mc-opt.correct { background: rgba(18,99,47,0.25); border-color: #3f8f56; }
+  .mc-opt.wrong { background: rgba(150,22,47,0.25); border-color: #b24054; }
+  .mc-opt.locked { cursor: default; }
+
+  .tf-item { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
+  .tf-item .task-q { flex: 1 1 320px; margin-bottom: 0; }
+  .tf-buttons { display: flex; gap: 8px; flex-shrink: 0; }
+  .tf-btn {
+    border-radius: 999px; padding: 11px 22px; font-size: 13px; font-weight: 800; letter-spacing: 0.08em;
+    background: var(--surface-deep); border: 1px solid var(--border-strong); color: var(--ink); cursor: pointer;
+    transition: background .2s ease, border-color .2s ease;
+  }
+  .tf-btn.selected { background: var(--fill); border-color: var(--fill); }
+  .tf-btn.correct { background: rgba(18,99,47,0.3); border-color: #3f8f56; }
+  .tf-btn.wrong { background: rgba(150,22,47,0.3); border-color: #b24054; }
+  .tf-btn.locked { cursor: default; }
+
+  .order-hint { font-size: 13px; line-height: 1.5; color: var(--ink-dim); margin-bottom: 14px; }
+  .order-list { display: flex; flex-direction: column; gap: 8px; }
+  .order-item {
+    width: 100%; display: flex; align-items: center; gap: 12px; text-align: left;
+    background: var(--surface-deep); border: 1px solid var(--border-strong); border-radius: 12px;
+    padding: 12px 16px; font-size: 14px; color: var(--ink); cursor: pointer;
+  }
+  .order-badge {
+    width: 26px; height: 26px; border-radius: 999px; background: rgba(244,239,230,0.12);
+    display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 800; flex-shrink: 0;
+  }
+  .order-item.selected { background: var(--fill); border-color: var(--fill); }
+  .order-item.selected .order-badge { background: rgba(244,239,230,0.3); }
+  .order-item.correct { border-color: #3f8f56; }
+  .order-item.correct .order-badge { background: rgba(18,99,47,0.4); }
+  .order-item.wrong-frame { background: var(--surface-deep); border-color: var(--c-politics); }
+  .order-item.wrong-frame .order-badge { background: rgba(207,79,102,0.2); color: var(--c-politics); }
+  .order-item.locked { cursor: default; }
+  @keyframes orderFlash {
+    0%   { box-shadow: 0 0 0 0 rgba(207,79,102,0); }
+    35%  { box-shadow: 0 0 0 5px rgba(207,79,102,0.5); }
+    100% { box-shadow: 0 0 0 0 rgba(207,79,102,0); }
+  }
+  .order-item.flash { animation: orderFlash .65s ease-out 1; }
+
+  .score-panel {
+    margin-top: 26px; border-radius: 18px; padding: clamp(20px, 2.4vw, 28px);
+    display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px;
+    background: var(--surface-deep);
+  }
+  .score-panel.all-correct { background: #12632f; }
+  .score-panel.close-enough { background: var(--fill); }
+  .score-panel.needs-work { background: #96162f; }
+  .score-eyebrow { font-size: 11.5px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink); margin-bottom: 6px; }
+  .score-line { font-size: clamp(22px, 2.6vw, 32px); font-weight: 900; font-stretch: 112%; text-transform: uppercase; color: var(--ink); }
+  .score-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+  .check-btn {
+    background: var(--ink); color: var(--fill); border: none; border-radius: 999px;
+    padding: 14px 26px; font-size: 13.5px; font-weight: 800; cursor: pointer;
+  }
+  .restart-btn {
+    background: rgba(244,239,230,0.12); border: 1px solid rgba(244,239,230,0.3); color: var(--ink);
+    border-radius: 999px; padding: 14px 26px; font-size: 13.5px; font-weight: 800; cursor: pointer;
+  }
+
+  .footer-cards { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 26px; }
+  .footer-card { flex: 1 1 260px; border-radius: 16px; padding: 22px; cursor: pointer; }
+  .footer-card .fc-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 8px; }
+  .footer-card .fc-title { font-size: 15px; font-weight: 800; }
+  .fc-watch { background: var(--surface-deep); border: 1px solid var(--border); transition: background .15s ease; }
+  .fc-watch:hover { background: #15151b; }
+  .fc-watch .fc-eyebrow { color: var(--accent); }
+  .fc-next { background: var(--fill); transition: background .2s ease; }
+  .fc-next:hover { background: var(--fill-hover); }
+  .fc-next .fc-eyebrow { color: var(--ink); }
+
+  footer {
+    display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px;
+    border-top: 1px solid var(--hairline); padding: 20px clamp(12px, 2.5vw, 28px);
+    font-size: 12.5px; color: var(--ink-faint); max-width: 1240px; margin: 0 auto;
+  }
+  footer .footer-right { font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">ENGLISH LENS<span class="brand-sub">with Kris</span></div>
+  <nav class="site-nav">
+    <a class="lens-link lens-other" href="index.html">Lens: Articles</a>
+    <span class="lens-link lens-current">Lens: Videos</span>
+    <a class="nav-quiet" href="https://krisgalezewski.github.io/english-games/">Games</a>
+    <a class="nav-quiet" href="https://krisgalezewski.github.io/english-quiz/index.html">Quiz</a>
+  </nav>
+</header>
+
+<div class="wrap">
+
+  <section class="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow">Watch · answer · check</div>
+      <h1>Lens:<br>Videos</h1>
+      <p>Five short news videos every week, one from each category, each with a full set of comprehension tasks. Watch on a break, check what you caught.</p>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-figure" id="stat-week" style="color:var(--accent)">–</div><div class="stat-label">This week</div></div>
+      <div><div class="stat-figure" id="stat-total" style="color:#d9a520">–</div><div class="stat-label">In the archive</div></div>
+      <div><div class="stat-figure" id="stat-tasks" style="color:#cf4f66">–</div><div class="stat-label">Tasks each</div></div>
+    </div>
+  </section>
+
+  <div class="controls">
+    <div class="chips" id="chips">
+      <button class="chip active" data-cat="all">All</button>
+      <button class="chip" data-cat="politics">Politics</button>
+      <button class="chip" data-cat="business">Business</button>
+      <button class="chip" data-cat="technology">Technology</button>
+      <button class="chip" data-cat="environment">Environment &amp; Wellbeing</button>
+      <button class="chip" data-cat="culture">Culture &amp; Lifestyle</button>
+    </div>
+    <div class="controls-right">
+      <input class="search-input" id="search-input" type="search" placeholder="Search videos…" aria-label="Search videos" />
+    </div>
+  </div>
+
+  <main id="main-content">
+    <div class="loading-msg" aria-live="polite">Loading this week's edition…</div>
+  </main>
+
+</div>
+
+<footer>
+  <span>Made with care by <strong>Kris</strong> · for Kris's students</span>
+  <span class="footer-right">English Voiced · Lens: Videos</span>
+</footer>
+
+<div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title-text">
+  <div class="modal-inner">
+    <div class="modal-topbar">
+      <span class="modal-eyebrow">Lens: Videos</span>
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-card" id="modal-card"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const CAT_LABELS = {
+    politics: 'Politics', business: 'Business', technology: 'Technology',
+    environment: 'Environment & Wellbeing', culture: 'Culture & Lifestyle'
+  };
+  const CAT_FILL = {
+    politics: '#96162f', business: '#8a6510', technology: '#0e4655',
+    environment: '#12632f', culture: '#11736a'
+  };
+
+  let editions = [];
+  let cat = 'all';
+  let query = '';
+  let archiveOpen = false;
+
+  const main = document.getElementById('main-content');
+  const shuffleCache = new Map();
+
+  function escHtml(str) {
+    return String(str == null ? '' : str)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  function escAttr(str) { return escHtml(str); }
+
+  function fmtEditionDate(iso) {
+    const d = new Date((iso || '').replace(/\+\d{2}:\d{2}$/, 'Z'));
+    if (isNaN(d.getTime())) return '';
+    return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+  function fmtDuration(seconds) {
+    seconds = seconds || 0;
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    return m + ':' + String(s).padStart(2, '0');
+  }
+  function fmtPublished(iso) {
+    if (!iso) return '';
+    return String(iso).slice(0, 10);
+  }
+  function thumbOf(v) {
+    return v.thumbnail || `https://i.ytimg.com/vi/${v.videoId}/hqdefault.jpg`;
+  }
+  function taskCount(v) {
+    return (v.multipleChoice || []).length + (v.trueFalse || []).length + ((v.ordering && v.ordering.items) || []).length;
+  }
+
+  async function load() {
+    try {
+      const res = await fetch('videos.json?v=' + Date.now());
+      const data = await res.json();
+      editions = (data.editions || []).filter(e => (e.videos || []).length);
+
+      const weekCount = editions[0] ? (editions[0].videos || []).length : 0;
+      const total = editions.reduce((n, e) => n + (e.videos || []).length, 0);
+      const tasks = editions[0] && editions[0].videos[0] ? taskCount(editions[0].videos[0]) : 0;
+      document.getElementById('stat-week').textContent = weekCount;
+      document.getElementById('stat-total').textContent = total;
+      document.getElementById('stat-tasks').textContent = tasks;
+
+      render();
+    } catch (e) {
+      main.innerHTML = `<div class="empty-msg error-msg"><div class="error-title">Could not load videos.json</div><div>${escHtml(e.message || String(e))}</div></div>`;
+    }
+  }
+
+  function matchesQuery(v, q) {
+    q = q.toLowerCase();
+    return (v.title || '').toLowerCase().includes(q) ||
+      (v.channel || '').toLowerCase().includes(q) ||
+      (v.summary || '').toLowerCase().includes(q);
+  }
+
+  function render() {
+    if (!editions.length) {
+      main.innerHTML = `<div class="loading-msg">Loading this week's edition…</div>`;
+      return;
+    }
+    const filtering = cat !== 'all' || query.trim().length > 0;
+    let html = '';
+    if (filtering) html += renderFilteredSection();
+    else html += renderCurrentEditionSection();
+    html += renderArchiveSection();
+    main.innerHTML = html;
+    bindInteractions();
+  }
+
+  function cardHtml(v, ei, opts) {
+    opts = opts || {};
+    const bottomRight = opts.showDate
+      ? `<span class="card-date-slot">${escHtml((editions[ei] && fmtEditionDate(editions[ei].generated)) || '')}</span>`
+      : `<span class="card-tasks">${taskCount(v)} tasks</span>`;
+    return `<article class="card" data-edition="${ei}" data-vid="${escAttr(v.videoId)}" tabindex="0" role="button" aria-label="Watch: ${escAttr(v.title)}">
+      <div class="card-thumb-wrap" style="background-image:url('${escAttr(thumbOf(v))}')">
+        <span class="card-duration">${fmtDuration(v.durationSeconds)}</span>
+      </div>
+      <div class="card-body">
+        <span class="card-cat cat-${escAttr(v.category)}">${CAT_LABELS[v.category] || v.category}</span>
+        <h4>${escHtml(v.title)}</h4>
+        <div class="card-bottom">
+          <span class="card-channel">${escHtml(v.channel)}</span>
+          ${bottomRight}
+        </div>
+      </div>
+    </article>`;
+  }
+
+  function renderCurrentEditionSection() {
+    const edition = editions[0];
+    const videos = edition.videos || [];
+    const feature = videos[0];
+    const rest = videos.slice(1);
+
+    let html = `<div class="edition-section">
+      <div class="section-head"><h2>This week's edition</h2><span class="section-meta">${escHtml(fmtEditionDate(edition.generated))}</span></div>`;
+
+    if (feature) {
+      html += `<div class="feature-panel" data-edition="0" data-vid="${escAttr(feature.videoId)}" tabindex="0" role="button" aria-label="Watch: ${escAttr(feature.title)}">
+        <div class="feature-thumb-wrap" style="background-image:url('${escAttr(thumbOf(feature))}')">
+          <div class="feature-play">▶</div>
+          <span class="feature-duration">${fmtDuration(feature.durationSeconds)}</span>
+        </div>
+        <div class="feature-right">
+          <div class="badge-row">
+            <span class="badge-pick">Pick of the week</span>
+            <span class="badge-cat">${CAT_LABELS[feature.category] || feature.category}</span>
+          </div>
+          <h3>${escHtml(feature.title)}</h3>
+          <p class="feature-summary">${escHtml(feature.summary || '')}</p>
+          <div class="feature-cta">
+            <div class="cta-line">Watch and practise →</div>
+            <div class="meta-line">${escHtml(feature.channel)}</div>
+          </div>
+        </div>
+      </div>`;
+    }
+
+    if (rest.length) {
+      html += `<div class="card-grid" style="margin-top:14px;">${rest.map(v => cardHtml(v, 0)).join('')}</div>`;
+    }
+    html += `</div>`;
+    return html;
+  }
+
+  function renderFilteredSection() {
+    const results = [];
+    editions.forEach((edition, ei) => {
+      (edition.videos || []).forEach(v => {
+        if (cat !== 'all' && v.category !== cat) return;
+        if (query.trim() && !matchesQuery(v, query.trim())) return;
+        results.push({ v, ei });
+      });
+    });
+
+    let html = `<div class="edition-section">
+      <div class="section-head">
+        <h2>${results.length} ${results.length === 1 ? 'video' : 'videos'}</h2>
+        <button class="clear-btn" id="clear-filters">Clear ×</button>
+      </div>`;
+    if (results.length) {
+      html += `<div class="card-grid">${results.map(r => cardHtml(r.v, r.ei, { showDate: true })).join('')}</div>`;
+    } else {
+      html += `<div class="empty-msg">No videos found${query.trim() ? ` matching &ldquo;${escHtml(query.trim())}&rdquo;` : ''}.</div>`;
+    }
+    html += `</div>`;
+    return html;
+  }
+
+  function renderArchiveSection() {
+    if (editions.length <= 1) return '';
+    const older = editions.slice(1);
+    const shown = archiveOpen ? older : older.slice(0, 2);
+    const remaining = older.length - shown.length;
+
+    let html = `<div class="edition-section">
+      <div class="section-head"><h2>The archive</h2></div>
+      <div class="archive-sub">The two previous editions</div>`;
+
+    shown.forEach(edition => {
+      const ei = editions.indexOf(edition);
+      html += `<div class="archive-edition">
+        <div class="archive-date">${escHtml(fmtEditionDate(edition.generated))}</div>
+        <div class="archive-grid">`;
+      (edition.videos || []).forEach(v => {
+        html += `<div class="archive-row" data-edition="${ei}" data-vid="${escAttr(v.videoId)}" tabindex="0" role="button" aria-label="Watch: ${escAttr(v.title)}">
+          <div class="archive-thumb" style="background-image:url('${escAttr(thumbOf(v))}')"></div>
+          <div>
+            <span class="archive-cat cat-${escAttr(v.category)}">${CAT_LABELS[v.category] || v.category}</span>
+            <div class="archive-title">${escHtml(v.title)}</div>
+          </div>
+        </div>`;
+      });
+      html += `</div></div>`;
+    });
+
+    if (older.length > 2) {
+      html += `<div class="show-more-wrap"><button class="show-more-btn" id="show-more-btn">${archiveOpen ? 'Hide older editions' : `Show previous editions (${remaining})`}</button></div>`;
+    }
+    html += `</div>`;
+    return html;
+  }
+
+  function bindInteractions() {
+    main.querySelectorAll('[data-vid]').forEach(el => {
+      const activate = () => openModal(+el.dataset.edition, el.dataset.vid);
+      el.addEventListener('click', activate);
+      el.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); } });
+    });
+    const clearBtn = document.getElementById('clear-filters');
+    if (clearBtn) clearBtn.addEventListener('click', () => {
+      cat = 'all'; query = '';
+      document.getElementById('search-input').value = '';
+      document.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.cat === 'all'));
+      render();
+    });
+    const showMoreBtn = document.getElementById('show-more-btn');
+    if (showMoreBtn) showMoreBtn.addEventListener('click', () => { archiveOpen = !archiveOpen; render(); });
+  }
+
+  document.querySelectorAll('.chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.chip').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      cat = btn.dataset.cat;
+      render();
+    });
+  });
+
+  const searchInput = document.getElementById('search-input');
+  searchInput.addEventListener('input', () => { query = searchInput.value; render(); });
+
+  // ── SEEDED SHUFFLE for ordering exercise ──
+  function seededShuffle(n, seedStr) {
+    let h = 0;
+    for (const ch of String(seedStr)) h = (h * 31 + ch.charCodeAt(0)) % 100000;
+    const arr = Array.from({ length: n }, (_, i) => i);
+    for (let i = arr.length - 1; i > 0; i--) {
+      h = (h * 9301 + 49297) % 233280;
+      const r = h / 233280;
+      const j = Math.floor(r * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+  function getShuffled(videoId, n) {
+    if (!shuffleCache.has(videoId)) shuffleCache.set(videoId, seededShuffle(n, videoId));
+    return shuffleCache.get(videoId);
+  }
+
+  // ── VIDEO MODAL ──
+  let vState = null; // { mc:{}, tf:{}, tapped:[], checked:false }
+
+  function openModal(editionIdx, videoId) {
+    const edition = editions[editionIdx];
+    if (!edition) return;
+    const v = (edition.videos || []).find(x => x.videoId === videoId);
+    if (!v) return;
+
+    vState = { mc: {}, tf: {}, tapped: [], checked: false };
+    renderModalBody(edition, editionIdx, v);
+
+    document.getElementById('modal-overlay').classList.add('open');
+    document.getElementById('modal-overlay').scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function renderModalBody(edition, editionIdx, v) {
+    const mc = v.multipleChoice || [];
+    const tf = v.trueFalse || [];
+    const orderItems = (v.ordering && v.ordering.items) || [];
+    const total = mc.length + tf.length + orderItems.length;
+
+    const mcHtml = mc.length ? `<div class="part-eyebrow">Part one · Multiple choice</div>${mc.map((q, qi) => `
+      <div class="task-card" data-mc="${qi}">
+        <div class="task-q"><span class="num">${qi + 1}</span>${escHtml(q.question)}</div>
+        <div class="mc-options">
+          ${q.options.map((opt, oi) => `<button class="mc-opt" data-qi="${qi}" data-oi="${oi}"><span class="letter">${String.fromCharCode(65 + oi)}</span>${escHtml(opt)}</button>`).join('')}
+        </div>
+      </div>`).join('')}` : '';
+
+    const tfStart = mc.length;
+    const tfHtml = tf.length ? `<div class="part-eyebrow">Part two · True or false</div>${tf.map((item, ti) => `
+      <div class="task-card tf-item" data-tf="${ti}">
+        <div class="task-q"><span class="num">${tfStart + ti + 1}</span>${escHtml(item.statement)}</div>
+        <div class="tf-buttons">
+          <button class="tf-btn" data-ti="${ti}" data-val="true">True</button>
+          <button class="tf-btn" data-ti="${ti}" data-val="false">False</button>
+        </div>
+      </div>`).join('')}` : '';
+
+    let orderHtml = '';
+    if (orderItems.length) {
+      const shuffled = getShuffled(v.videoId, orderItems.length);
+      orderHtml = `<div class="part-eyebrow">Part three · Put it in order</div>
+        <div class="task-card">
+          <div class="task-q" style="margin-bottom:6px;">${escHtml((v.ordering && v.ordering.instruction) || 'Put these events in the order they were mentioned.')}</div>
+          <div class="order-hint">Tap the events in the right order. Tap again to undo the last one.</div>
+          <div class="order-list" id="order-list">
+            ${shuffled.map(oi => `<button class="order-item" data-oi="${oi}">
+              <span class="order-badge" data-badge="${oi}">·</span><span>${escHtml(orderItems[oi])}</span>
+            </button>`).join('')}
+          </div>
+        </div>`;
+    }
+
+    const videos = edition.videos || [];
+    const curIdx = videos.findIndex(x => x.videoId === v.videoId);
+    let nextHtml = '';
+    if (videos.length > 1) {
+      const nextVid = videos[(curIdx + 1) % videos.length];
+      nextHtml = `<div class="footer-card fc-next" id="next-card" data-id="${escAttr(nextVid.videoId)}">
+        <div class="fc-eyebrow">Next in this edition</div><div class="fc-title">${escHtml(nextVid.title)}</div>
+      </div>`;
+    } else {
+      nextHtml = `<div class="footer-card fc-next" id="next-card" data-close="true">
+        <div class="fc-eyebrow">Next in this edition</div><div class="fc-title">Back to all videos</div>
+      </div>`;
+    }
+
+    document.getElementById('modal-card').innerHTML = `
+      <div class="player-wrap">
+        <iframe src="https://www.youtube.com/embed/${escAttr(v.videoId)}" title="${escAttr(v.title)}"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-content">
+        <div class="modal-meta-row">
+          <span class="modal-cat-badge" style="background:${CAT_FILL[v.category] || '#a55c0c'}">${CAT_LABELS[v.category] || v.category}</span>
+          <span class="modal-meta-item">${escHtml(v.channel)}</span>
+          <span class="modal-meta-item">${fmtDuration(v.durationSeconds)}</span>
+          <span class="modal-meta-item">${escHtml(fmtPublished(v.publishedAt))}</span>
+        </div>
+        <h1 class="modal-h1" id="modal-title-text">${escHtml(v.title)}</h1>
+        <p class="modal-summary">${escHtml(v.summary || '')}</p>
+
+        <div class="comp-header">
+          <h2>Comprehension</h2>
+          <span class="comp-meta">${total} tasks · check at the end</span>
+        </div>
+        ${mcHtml}
+        ${tfHtml}
+        ${orderHtml}
+
+        <div class="score-panel" id="score-panel">
+          <div>
+            <div class="score-eyebrow" id="score-eyebrow">Progress</div>
+            <div class="score-line" id="score-line">0 of ${total} answered</div>
+          </div>
+          <div class="score-actions">
+            <button class="check-btn" id="check-btn">Check my answers</button>
+            <button class="restart-btn" id="restart-btn" style="display:none;">Start again</button>
+          </div>
+        </div>
+
+        <div class="footer-cards">
+          <a class="footer-card fc-watch" href="https://www.youtube.com/watch?v=${escAttr(v.videoId)}" target="_blank" rel="noopener">
+            <div class="fc-eyebrow">Original ↗</div><div class="fc-title">Watch on ${escHtml(v.channel)}</div>
+          </a>
+          ${nextHtml}
+        </div>
+      </div>
+    `;
+
+    bindModalTasks(v, mc, tf, orderItems, total);
+
+    const nextCard = document.getElementById('next-card');
+    if (nextCard) nextCard.addEventListener('click', () => {
+      if (nextCard.dataset.close) { closeModal(); return; }
+      vState = { mc: {}, tf: {}, tapped: [], checked: false };
+      const nv = videos.find(x => x.videoId === nextCard.dataset.id);
+      renderModalBody(edition, editionIdx, nv);
+      document.getElementById('modal-overlay').scrollTop = 0;
+    });
+  }
+
+  function bindModalTasks(v, mc, tf, orderItems, total) {
+    document.querySelectorAll('.mc-opt').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (vState.checked) return;
+        const qi = +btn.dataset.qi, oi = +btn.dataset.oi;
+        vState.mc[qi] = oi;
+        document.querySelectorAll(`.mc-opt[data-qi="${qi}"]`).forEach(b => b.classList.toggle('selected', +b.dataset.oi === oi));
+        updateProgress(total);
+      });
+    });
+
+    document.querySelectorAll('.tf-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (vState.checked) return;
+        const ti = +btn.dataset.ti, val = btn.dataset.val === 'true';
+        vState.tf[ti] = val;
+        document.querySelectorAll(`.tf-btn[data-ti="${ti}"]`).forEach(b => b.classList.toggle('selected', (b.dataset.val === 'true') === val));
+        updateProgress(total);
+      });
+    });
+
+    document.querySelectorAll('.order-item').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (vState.checked) return;
+        const oi = +btn.dataset.oi;
+        const idx = vState.tapped.indexOf(oi);
+        if (idx !== -1) vState.tapped.splice(idx, 1);
+        else if (vState.tapped.length < orderItems.length) vState.tapped.push(oi);
+        renderOrderBadges();
+        updateProgress(total);
+      });
+    });
+
+    document.getElementById('check-btn').addEventListener('click', () => checkAnswers(v, mc, tf, orderItems, total));
+    document.getElementById('restart-btn').addEventListener('click', () => restart(v, mc, tf, orderItems, total));
+
+    renderOrderBadges();
+    updateProgress(total);
+  }
+
+  function renderOrderBadges() {
+    document.querySelectorAll('.order-item').forEach(btn => {
+      const oi = +btn.dataset.oi;
+      const pos = vState.tapped.indexOf(oi);
+      const badge = btn.querySelector('.order-badge');
+      badge.textContent = pos !== -1 ? String(pos + 1) : '·';
+      btn.classList.toggle('selected', pos !== -1 && !vState.checked);
+    });
+  }
+
+  function updateProgress(total) {
+    if (vState.checked) return;
+    const answered = Object.keys(vState.mc).length + Object.keys(vState.tf).length + vState.tapped.length;
+    document.getElementById('score-line').textContent = `${answered} of ${total} answered`;
+  }
+
+  function checkAnswers(v, mc, tf, orderItems, total) {
+    vState.checked = true;
+    let correct = 0;
+
+    document.querySelectorAll('.mc-opt').forEach(btn => btn.classList.add('locked'));
+    mc.forEach((q, qi) => {
+      const chosen = vState.mc[qi];
+      const isCorrect = chosen === q.correctIndex;
+      if (isCorrect) correct++;
+      document.querySelectorAll(`.mc-opt[data-qi="${qi}"]`).forEach(b => {
+        const oi = +b.dataset.oi;
+        b.classList.remove('selected');
+        if (oi === q.correctIndex) b.classList.add('correct');
+        else if (oi === chosen) b.classList.add('wrong');
+      });
+    });
+
+    document.querySelectorAll('.tf-btn').forEach(btn => btn.classList.add('locked'));
+    tf.forEach((item, ti) => {
+      const chosen = vState.tf[ti];
+      const isCorrect = chosen === item.answer;
+      if (isCorrect) correct++;
+      document.querySelectorAll(`.tf-btn[data-ti="${ti}"]`).forEach(b => {
+        const val = b.dataset.val === 'true';
+        b.classList.remove('selected');
+        if (val === item.answer) b.classList.add('correct');
+        else if (val === chosen) b.classList.add('wrong');
+      });
+    });
+
+    if (orderItems.length) {
+      const fullyCorrect = vState.tapped.length === orderItems.length && vState.tapped.every((oi, idx) => oi === idx);
+      const orderList = document.getElementById('order-list');
+      document.querySelectorAll('.order-item').forEach(btn => btn.classList.add('locked'));
+
+      if (fullyCorrect) {
+        correct += orderItems.length;
+        const buttons = [...document.querySelectorAll('.order-item')];
+        const byOi = {};
+        buttons.forEach(b => { byOi[+b.dataset.oi] = b; });
+        orderItems.forEach((_, oi) => {
+          const btn = byOi[oi];
+          btn.classList.remove('selected');
+          btn.classList.add('correct');
+          btn.querySelector('.order-badge').textContent = String(oi + 1);
+          orderList.appendChild(btn);
+        });
+      } else {
+        document.querySelectorAll('.order-item').forEach(btn => {
+          const oi = +btn.dataset.oi;
+          const pos = vState.tapped.indexOf(oi);
+          const itemCorrect = pos === oi;
+          btn.classList.remove('selected');
+          if (itemCorrect) {
+            correct++;
+            btn.classList.add('correct');
+          } else {
+            btn.classList.add('wrong-frame');
+            btn.classList.add('flash');
+          }
+        });
+      }
+    }
+
+    const scorePanel = document.getElementById('score-panel');
+    scorePanel.classList.remove('all-correct', 'close-enough', 'needs-work');
+    if (correct === total) scorePanel.classList.add('all-correct');
+    else if (total - correct <= 2) scorePanel.classList.add('close-enough');
+    else scorePanel.classList.add('needs-work');
+
+    document.getElementById('score-eyebrow').textContent = 'Your result';
+    document.getElementById('score-line').textContent = `${correct} of ${total} correct`;
+    document.getElementById('check-btn').textContent = 'Checked';
+    document.getElementById('check-btn').disabled = true;
+    document.getElementById('restart-btn').style.display = '';
+  }
+
+  function restart(v, mc, tf, orderItems, total) {
+    vState = { mc: {}, tf: {}, tapped: [], checked: false };
+    document.querySelectorAll('.mc-opt').forEach(b => b.classList.remove('selected', 'correct', 'wrong', 'locked'));
+    document.querySelectorAll('.tf-btn').forEach(b => b.classList.remove('selected', 'correct', 'wrong', 'locked'));
+    document.querySelectorAll('.order-item').forEach(b => b.classList.remove('selected', 'correct', 'wrong-frame', 'flash', 'locked'));
+    renderOrderBadges();
+    const scorePanel = document.getElementById('score-panel');
+    scorePanel.classList.remove('all-correct', 'close-enough', 'needs-work');
+    document.getElementById('score-eyebrow').textContent = 'Progress';
+    document.getElementById('check-btn').textContent = 'Check my answers';
+    document.getElementById('check-btn').disabled = false;
+    document.getElementById('restart-btn').style.display = 'none';
+    updateProgress(total);
+  }
+
+  function closeModal() {
+    const iframe = document.querySelector('#modal-card iframe');
+    if (iframe) iframe.src = '';
+    document.getElementById('modal-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+    vState = null;
+  }
+  document.getElementById('modal-close').addEventListener('click', closeModal);
+  document.getElementById('modal-overlay').addEventListener('click', e => {
+    if (e.target.id === 'modal-overlay') closeModal();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
+
+  load();
+})();
+</script>
+</body>
+</html>

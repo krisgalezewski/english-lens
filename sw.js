@@ -1,5 +1,5 @@
-const CACHE_NAME = 'english-lens-v1';
-const ASSETS = ['/', '/index.html', '/news.json', '/manifest.json'];
+const CACHE_NAME = 'english-lens-v2';
+const ASSETS = ['/', '/index.html', '/videos.html', '/news.json', '/videos.json', '/manifest.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS)));
@@ -16,7 +16,7 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
-  if (e.request.url.includes('news.json')) {
+  if (e.request.url.includes('news.json') || e.request.url.includes('videos.json')) {
     e.respondWith(
       fetch(e.request)
         .then(res => {
