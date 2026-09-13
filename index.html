@@ -536,7 +536,8 @@
   }
   .vocab-panel .summary-eyebrow { color: var(--ink); }
   .vocab-row {
-    padding: 14px 0;
+    padding: 14px 10px;
+    margin: 0 -10px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -574,19 +575,15 @@
   }
   .food-hint { font-size: 13px; line-height: 1.5; color: var(--ink-dim); }
 
-  /* ── LIGHT CONTRAST MODE (title, summary, food-for-thought) ── */
-  .modal-card.contrast-light .modal-h1 {
+  /* ── LIGHT CONTRAST MODE — whole popup, except the vocab panel and next-card ── */
+  .modal-card.contrast-light {
     background: #f4efe6;
-    color: #14140f;
-    padding: 16px 20px;
-    border-radius: 16px;
+    border-color: #ddd8cc;
   }
-  .modal-card.contrast-light .modal-columns > div:first-child {
-    background: #f4efe6;
-    border-radius: 18px;
-    padding: clamp(20px, 2.6vw, 32px);
-  }
-  .modal-card.contrast-light .modal-columns .summary-eyebrow { color: var(--fill); }
+  .modal-card.contrast-light .modal-source,
+  .modal-card.contrast-light .modal-date { color: #6b665c; }
+  .modal-card.contrast-light .modal-h1 { color: #14140f; }
+  .modal-card.contrast-light .modal-columns > div:first-child .summary-eyebrow { color: var(--fill); }
   .modal-card.contrast-light .summary-text { color: #2a2a24; }
   .modal-card.contrast-light .vocab-mark { color: #14140f; border-bottom-color: var(--fill); }
   .modal-card.contrast-light .vocab-mark.highlight-active {
@@ -600,12 +597,12 @@
   }
   .modal-card.contrast-light .original-link:hover { background: #efe9de; }
   .modal-card.contrast-light .food-panel {
-    background: #f4efe6;
-    border-color: #ddd8cc;
+    background: #ffffff;
+    border-color: #e4dfd2;
   }
   .modal-card.contrast-light .food-panel .summary-eyebrow { color: var(--fill); }
   .modal-card.contrast-light .food-question { color: #14140f; }
-  .modal-card.contrast-light .food-hint { color: #5c574f; }
+  .modal-card.contrast-light .food-hint { color: #6b665c; }
 
   .next-card {
     margin-top: 28px;
@@ -747,6 +744,26 @@
   }
   function escAttr(str) { return escHtml(str); }
 
+  function getBritishFemaleVoice() {
+    if (!('speechSynthesis' in window)) return null;
+    const voices = window.speechSynthesis.getVoices();
+    const preferred = [
+      'Google UK English Female',
+      'Microsoft Hazel Desktop - English (Great Britain)',
+      'Microsoft Susan Desktop - English (Great Britain)',
+      'Karen', 'Serena', 'Martha', 'Moira',
+    ];
+    for (const name of preferred) {
+      const match = voices.find(v => v.name === name);
+      if (match) return match;
+    }
+    const gbFemale = voices.find(v => v.lang === 'en-GB' && /female|woman/i.test(v.name));
+    if (gbFemale) return gbFemale;
+    const gb = voices.find(v => v.lang === 'en-GB');
+    if (gb) return gb;
+    return voices.find(v => v.lang.startsWith('en')) || null;
+  }
+
   function truncate(str, maxLen) {
     str = String(str || '').trim();
     if (str.length <= maxLen) return str;
@@ -800,15 +817,18 @@
       main.innerHTML = `<div class="loading-msg">Loading this week's edition…</div>`;
       return;
     }
-    const filtering = cat !== 'all' || query.trim().length > 0;
+    const hasQuery = query.trim().length > 0;
     let html = '';
 
-    if (filtering) {
+    if (hasQuery) {
       html += renderFilteredSection();
+      html += renderArchiveSection();
+    } else if (cat !== 'all') {
+      html += renderCategorySection(cat);
     } else {
       html += renderCurrentEditionSection();
+      html += renderArchiveSection();
     }
-    html += renderArchiveSection();
 
     main.innerHTML = html;
     bindInteractions();
@@ -896,20 +916,28 @@
 
   function renderArchiveSection() {
     if (editions.length <= 1) return '';
-    const older = editions.slice(1);
-    const shown = archiveOpen ? older : older.slice(0, 2);
-    const remaining = older.length - shown.length;
+    const groups = editions.slice(1).map((e, idx) => ({ ei: idx + 1, generated: e.generated, articles: e.articles || [] }));
+    return renderArchiveFromGroups(groups);
+  }
+
+  // Renders the dense edition-grouped archive list (and "show previous
+  // editions" toggle) for an arbitrary ordered list of {ei, generated, articles}
+  // groups — used both for the homepage archive (all categories) and for a
+  // single category's archive.
+  function renderArchiveFromGroups(groups) {
+    if (!groups.length) return '';
+    const shown = archiveOpen ? groups : groups.slice(0, 2);
+    const remaining = groups.length - shown.length;
 
     let html = `<div class="edition-section">
       <div class="section-head"><h2>The archive</h2></div>
       <div class="archive-sub">The two previous editions</div>`;
 
-    shown.forEach((edition, idx) => {
-      const ei = editions.indexOf(edition);
+    shown.forEach(g => {
       html += `<div class="archive-edition">
-        <div class="archive-date">${escHtml(fmtEditionDate(edition.generated))}</div>`;
-      (edition.articles || []).forEach(a => {
-        html += `<div class="archive-row" data-edition="${ei}" data-id="${escAttr(a.id)}" tabindex="0" role="button" aria-label="Read: ${escAttr(a.title)}">
+        <div class="archive-date">${escHtml(fmtEditionDate(g.generated))}</div>`;
+      g.articles.forEach(a => {
+        html += `<div class="archive-row" data-edition="${g.ei}" data-id="${escAttr(a.id)}" tabindex="0" role="button" aria-label="Read: ${escAttr(a.title)}">
           <span class="archive-cat cat-${escAttr(a.category)}">${CAT_LABELS[a.category] || a.category}</span>
           <span class="archive-title">${escHtml(a.title)}</span>
           <span class="archive-source">${escHtml(a.source)}</span>
@@ -918,10 +946,52 @@
       html += `</div>`;
     });
 
-    if (older.length > 2) {
+    if (groups.length > 2) {
       html += `<div class="show-more-wrap"><button class="show-more-btn" id="show-more-btn">${archiveOpen ? 'Hide older editions' : `Show previous editions (${remaining})`}</button></div>`;
     }
     html += `</div>`;
+    return html;
+  }
+
+  // Category view: instead of "this week's edition" (which may have very
+  // few articles in a given category), show the 8 most recent articles in
+  // the category — accumulating whole editions until that's reached, since
+  // categories don't have a fixed count per edition — then the next 2
+  // qualifying editions as an archive, then the rest behind "show previous".
+  function renderCategorySection(catKey) {
+    const groups = [];
+    editions.forEach((edition, ei) => {
+      const arts = (edition.articles || []).filter(a => a.category === catKey);
+      if (arts.length) groups.push({ ei, generated: edition.generated, articles: arts });
+    });
+
+    if (!groups.length) {
+      return `<div class="edition-section">
+        <div class="section-head"><h2>0 stories</h2><button class="clear-btn" id="clear-filters">Clear ×</button></div>
+        <div class="empty-msg">No stories found in this category.</div>
+      </div>`;
+    }
+
+    let count = 0, splitIdx = groups.length;
+    for (let i = 0; i < groups.length; i++) {
+      count += groups[i].articles.length;
+      if (count >= 8) { splitIdx = i + 1; break; }
+    }
+    const recentGroups = groups.slice(0, splitIdx);
+    const olderGroups = groups.slice(splitIdx);
+
+    const recentArticles = [];
+    recentGroups.forEach(g => g.articles.forEach(a => recentArticles.push({ a, ei: g.ei })));
+
+    let html = `<div class="edition-section">
+      <div class="section-head">
+        <h2>${recentArticles.length} recent ${recentArticles.length === 1 ? 'story' : 'stories'}</h2>
+        <button class="clear-btn" id="clear-filters">Clear ×</button>
+      </div>
+      <div class="card-grid">${recentArticles.map(r => cardHtml(r.a, r.ei, { showDate: true })).join('')}</div>
+    </div>`;
+
+    html += renderArchiveFromGroups(olderGroups);
     return html;
   }
 
@@ -933,7 +1003,7 @@
     });
     const clearBtn = document.getElementById('clear-filters');
     if (clearBtn) clearBtn.addEventListener('click', () => {
-      cat = 'all'; query = '';
+      cat = 'all'; query = ''; archiveOpen = false;
       document.getElementById('search-input').value = '';
       document.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.cat === 'all'));
       render();
@@ -947,12 +1017,13 @@
       document.querySelectorAll('.chip').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       cat = btn.dataset.cat;
+      archiveOpen = false;
       render();
     });
   });
 
   const searchInput = document.getElementById('search-input');
-  searchInput.addEventListener('input', () => { query = searchInput.value; render(); });
+  searchInput.addEventListener('input', () => { query = searchInput.value; archiveOpen = false; render(); });
 
   function setLevel(newLevel) {
     level = newLevel;
@@ -1030,7 +1101,6 @@
         </div>
         <div class="vocab-icons">
           <button class="icon-btn vocab-audio" data-word="${escAttr(v.word)}" title="Listen" aria-label="Hear pronunciation of ${escAttr(v.word)}">♪</button>
-          <button class="icon-btn vocab-find" data-idx="${idx}" title="Find in text" aria-label="Find ${escAttr(v.word)} in text">⌖</button>
         </div>
       </div>`).join('')}
     </div>` : '';
@@ -1079,7 +1149,7 @@
       ${nextHtml}
     `;
 
-    document.querySelectorAll('#modal-card .vocab-word-btn, #modal-card .vocab-find').forEach(btn => {
+    document.querySelectorAll('#modal-card .vocab-word-btn').forEach(btn => {
       btn.addEventListener('click', () => activateVocab(+btn.dataset.idx, vocab));
     });
 
@@ -1092,11 +1162,17 @@
             const utt = new SpeechSynthesisUtterance(btn.dataset.word);
             utt.lang = 'en-GB';
             utt.rate = 0.9;
-            document.querySelectorAll('.icon-btn.speaking').forEach(b => b.classList.remove('speaking'));
-            btn.classList.add('speaking');
-            utt.onend = () => btn.classList.remove('speaking');
-            utt.onerror = () => btn.classList.remove('speaking');
-            window.speechSynthesis.speak(utt);
+            const speak = () => {
+              const voice = getBritishFemaleVoice();
+              if (voice) utt.voice = voice;
+              document.querySelectorAll('.icon-btn.speaking').forEach(b => b.classList.remove('speaking'));
+              btn.classList.add('speaking');
+              utt.onend = () => btn.classList.remove('speaking');
+              utt.onerror = () => btn.classList.remove('speaking');
+              window.speechSynthesis.speak(utt);
+            };
+            if (window.speechSynthesis.getVoices().length) speak();
+            else window.speechSynthesis.onvoiceschanged = speak;
           } catch (err) { /* unsupported — fail silently */ }
         });
       });
