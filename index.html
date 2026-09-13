@@ -958,40 +958,84 @@
   // the category — accumulating whole editions until that's reached, since
   // categories don't have a fixed count per edition — then the next 2
   // qualifying editions as an archive, then the rest behind "show previous".
+  // Category view: exactly 8 most recent stories in that category (a flat
+  // recency-ordered slice — it can land mid-edition, since categories vary
+  // in count per edition and a whole-edition cutoff produced inconsistent
+  // totals across categories), then the next 8 stories as the archive
+  // (grouped by edition purely for the date headers), then the rest behind
+  // "Show previous stories (n)".
   function renderCategorySection(catKey) {
-    const groups = [];
+    const flat = [];
     editions.forEach((edition, ei) => {
-      const arts = (edition.articles || []).filter(a => a.category === catKey);
-      if (arts.length) groups.push({ ei, generated: edition.generated, articles: arts });
+      (edition.articles || []).forEach(a => {
+        if (a.category === catKey) flat.push({ a, ei });
+      });
     });
 
-    if (!groups.length) {
+    if (!flat.length) {
       return `<div class="edition-section">
         <div class="section-head"><h2>0 stories</h2><button class="clear-btn" id="clear-filters">Clear ×</button></div>
         <div class="empty-msg">No stories found in this category.</div>
       </div>`;
     }
 
-    let count = 0, splitIdx = groups.length;
-    for (let i = 0; i < groups.length; i++) {
-      count += groups[i].articles.length;
-      if (count >= 8) { splitIdx = i + 1; break; }
-    }
-    const recentGroups = groups.slice(0, splitIdx);
-    const olderGroups = groups.slice(splitIdx);
-
-    const recentArticles = [];
-    recentGroups.forEach(g => g.articles.forEach(a => recentArticles.push({ a, ei: g.ei })));
+    const recent = flat.slice(0, 8);
+    const rest = flat.slice(8);
 
     let html = `<div class="edition-section">
       <div class="section-head">
-        <h2>${recentArticles.length} recent ${recentArticles.length === 1 ? 'story' : 'stories'}</h2>
+        <h2>${recent.length} recent ${recent.length === 1 ? 'story' : 'stories'}</h2>
         <button class="clear-btn" id="clear-filters">Clear ×</button>
       </div>
-      <div class="card-grid">${recentArticles.map(r => cardHtml(r.a, r.ei, { showDate: true })).join('')}</div>
+      <div class="card-grid">${recent.map(r => cardHtml(r.a, r.ei, { showDate: true })).join('')}</div>
     </div>`;
 
-    html += renderArchiveFromGroups(olderGroups);
+    html += renderCategoryArchive(rest);
+    return html;
+  }
+
+  // Groups a flat, recency-ordered [{a, ei}, ...] list into
+  // [{ei, generated, articles: [a, ...]}, ...], merging consecutive entries
+  // that share the same edition index (the list is already edition-ordered,
+  // so same-edition entries are always contiguous).
+  function groupConsecutiveByEdition(flatList) {
+    const groups = [];
+    flatList.forEach(({ a, ei }) => {
+      const last = groups[groups.length - 1];
+      if (last && last.ei === ei) last.articles.push(a);
+      else groups.push({ ei, generated: editions[ei] ? editions[ei].generated : null, articles: [a] });
+    });
+    return groups;
+  }
+
+  function renderCategoryArchive(rest) {
+    if (!rest.length) return '';
+    const shownFlat = archiveOpen ? rest : rest.slice(0, 8);
+    const remaining = rest.length - shownFlat.length;
+    const groups = groupConsecutiveByEdition(shownFlat);
+    const subtitleCount = Math.min(rest.length, 8);
+
+    let html = `<div class="edition-section">
+      <div class="section-head"><h2>The archive</h2></div>
+      <div class="archive-sub">${subtitleCount} further ${subtitleCount === 1 ? 'story' : 'stories'}</div>`;
+
+    groups.forEach(g => {
+      html += `<div class="archive-edition">
+        <div class="archive-date">${escHtml(fmtEditionDate(g.generated))}</div>`;
+      g.articles.forEach(a => {
+        html += `<div class="archive-row" data-edition="${g.ei}" data-id="${escAttr(a.id)}" tabindex="0" role="button" aria-label="Read: ${escAttr(a.title)}">
+          <span class="archive-cat cat-${escAttr(a.category)}">${CAT_LABELS[a.category] || a.category}</span>
+          <span class="archive-title">${escHtml(a.title)}</span>
+          <span class="archive-source">${escHtml(a.source)}</span>
+        </div>`;
+      });
+      html += `</div>`;
+    });
+
+    if (rest.length > 8) {
+      html += `<div class="show-more-wrap"><button class="show-more-btn" id="show-more-btn">${archiveOpen ? 'Hide older stories' : `Show previous stories (${remaining})`}</button></div>`;
+    }
+    html += `</div>`;
     return html;
   }
 
