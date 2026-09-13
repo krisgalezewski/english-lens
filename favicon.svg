@@ -1,10 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- Dark background -->
-  <rect width="32" height="32" rx="6" fill="#0f0f0e"/>
-  <!-- Red accent bar at bottom, like the masthead -->
-  <rect x="0" y="27" width="32" height="3" rx="0" fill="#c84b2f"/>
-  <!-- "E" -->
-  <text x="3" y="23" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f7f5f0">E</text>
-  <!-- "L" in red accent -->
-  <text x="16" y="23" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#c84b2f">L</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#08080a"/>
+  <!-- Lens ring, split olive (articles) / amber (videos) -->
+  <path d="M 14 25 A 11 11 0 0 1 36 25" fill="none" stroke="#b2bf63" stroke-width="6.4" stroke-linecap="round"/>
+  <path d="M 14 25 A 11 11 0 0 0 36 25" fill="none" stroke="#f6b860" stroke-width="6.4" stroke-linecap="round"/>
+  <!-- Handle -->
+  <line x1="33.5" y1="33.5" x2="49" y2="49" stroke="#f4efe6" stroke-width="6.4" stroke-linecap="round"/>
 </svg>
