@@ -574,6 +574,39 @@
   }
   .food-hint { font-size: 13px; line-height: 1.5; color: var(--ink-dim); }
 
+  /* ── LIGHT CONTRAST MODE (title, summary, food-for-thought) ── */
+  .modal-card.contrast-light .modal-h1 {
+    background: #f4efe6;
+    color: #14140f;
+    padding: 16px 20px;
+    border-radius: 16px;
+  }
+  .modal-card.contrast-light .modal-columns > div:first-child {
+    background: #f4efe6;
+    border-radius: 18px;
+    padding: clamp(20px, 2.6vw, 32px);
+  }
+  .modal-card.contrast-light .modal-columns .summary-eyebrow { color: var(--fill); }
+  .modal-card.contrast-light .summary-text { color: #2a2a24; }
+  .modal-card.contrast-light .vocab-mark { color: #14140f; border-bottom-color: var(--fill); }
+  .modal-card.contrast-light .vocab-mark.highlight-active {
+    background: rgba(57,67,16,0.18);
+    box-shadow: 0 0 0 4px rgba(57,67,16,0.18);
+  }
+  .modal-card.contrast-light .original-link {
+    background: #ffffff;
+    border-color: #ddd8cc;
+    color: #14140f;
+  }
+  .modal-card.contrast-light .original-link:hover { background: #efe9de; }
+  .modal-card.contrast-light .food-panel {
+    background: #f4efe6;
+    border-color: #ddd8cc;
+  }
+  .modal-card.contrast-light .food-panel .summary-eyebrow { color: var(--fill); }
+  .modal-card.contrast-light .food-question { color: #14140f; }
+  .modal-card.contrast-light .food-hint { color: #5c574f; }
+
   .next-card {
     margin-top: 28px;
     background: var(--fill);
@@ -675,6 +708,10 @@
           <button class="level-btn" data-level="B1">B1</button>
           <button class="level-btn" data-level="B2">B2–C1</button>
         </div>
+        <div class="level-toggle" id="contrast-toggle">
+          <button class="level-btn" data-contrast="dark">Dark</button>
+          <button class="level-btn" data-contrast="light">Light</button>
+        </div>
       </div>
       <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
     </div>
@@ -697,6 +734,7 @@
   let cat = 'all';
   let query = '';
   let level = localStorage.getItem('lens-articles-level') === 'B2' ? 'B2' : 'B1';
+  let contrastLight = localStorage.getItem('lens-articles-contrast') === 'light';
   let archiveOpen = false;
   let detail = null; // {editionIdx, id}
   let active = -1; // active vocab index in open modal
@@ -708,6 +746,14 @@
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
   function escAttr(str) { return escHtml(str); }
+
+  function truncate(str, maxLen) {
+    str = String(str || '').trim();
+    if (str.length <= maxLen) return str;
+    const cut = str.slice(0, maxLen);
+    const lastSpace = cut.lastIndexOf(' ');
+    return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + '…';
+  }
 
   function fmtEditionDate(iso) {
     const d = new Date((iso || '').replace(/\+\d{2}:\d{2}$/, 'Z'));
@@ -779,7 +825,7 @@
         <span class="card-date">${fmtCardDate(a.date)}</span>
       </div>
       <h4>${escHtml(a.title)}</h4>
-      <p class="card-excerpt">${escHtml(summaryOf(a) || '')}</p>
+      <p class="card-excerpt">${escHtml(truncate(summaryOf(a), 190))}</p>
       <div class="card-bottom">
         <span class="card-source">${escHtml(a.source)}</span>
         ${bottomRight}
@@ -810,7 +856,7 @@
           </div>
         </div>
         <div class="feature-right">
-          <p class="feature-excerpt">${escHtml(summaryOf(feature) || '')}</p>
+          <p class="feature-excerpt">${escHtml(truncate(summaryOf(feature), 140))}</p>
           <div class="vocab-chips">${(vocabOf(feature) || []).map(v => `<span class="vocab-chip">${escHtml(v.word)}</span>`).join('')}</div>
         </div>
       </div>`;
@@ -908,15 +954,25 @@
   const searchInput = document.getElementById('search-input');
   searchInput.addEventListener('input', () => { query = searchInput.value; render(); });
 
-  function setLevel(newLevel, toggleEls) {
+  function setLevel(newLevel) {
     level = newLevel;
     localStorage.setItem('lens-articles-level', level);
-    document.querySelectorAll('.level-toggle .level-btn').forEach(b => b.classList.toggle('active', b.dataset.level === level));
+    document.querySelectorAll('#level-toggle .level-btn, #modal-level-toggle .level-btn').forEach(b => b.classList.toggle('active', b.dataset.level === level));
     render();
     if (detail) openModal(detail.editionIdx, detail.id, true);
   }
   document.querySelectorAll('#level-toggle .level-btn, #modal-level-toggle .level-btn').forEach(btn => {
     btn.addEventListener('click', () => setLevel(btn.dataset.level));
+  });
+
+  function setContrast(mode) {
+    contrastLight = mode === 'light';
+    localStorage.setItem('lens-articles-contrast', contrastLight ? 'light' : 'dark');
+    document.querySelectorAll('#contrast-toggle .level-btn').forEach(b => b.classList.toggle('active', b.dataset.contrast === mode));
+    document.getElementById('modal-card').classList.toggle('contrast-light', contrastLight);
+  }
+  document.querySelectorAll('#contrast-toggle .level-btn').forEach(btn => {
+    btn.addEventListener('click', () => setContrast(btn.dataset.contrast));
   });
 
   // ── MODAL ──
@@ -961,6 +1017,8 @@
     if (!keepActive) active = -1;
 
     document.querySelectorAll('#modal-level-toggle .level-btn').forEach(b => b.classList.toggle('active', b.dataset.level === level));
+    document.querySelectorAll('#contrast-toggle .level-btn').forEach(b => b.classList.toggle('active', b.dataset.contrast === (contrastLight ? 'light' : 'dark')));
+    document.getElementById('modal-card').classList.toggle('contrast-light', contrastLight);
 
     const vocab = vocabOf(a) || [];
     const vocabHtml = vocab.length ? `<div class="vocab-panel">
