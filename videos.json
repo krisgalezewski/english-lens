@@ -1,6 +1,341 @@
 {
   "editions": [
     {
+      "generated": "2026-09-14T06:55:00.576Z",
+      "videos": [
+        {
+          "videoId": "xZgXncLVh0o",
+          "title": "EU Chief Kallas warns of rising opposition to action on Russia",
+          "channel": "euronews",
+          "publishedAt": "2026-09-08T11:37:58Z",
+          "thumbnail": "https://i.ytimg.com/vi/xZgXncLVh0o/hqdefault.jpg",
+          "durationSeconds": 51,
+          "transcript": "What is worrying is the sign that the threats are coming actually closer to Europe. We saw the attacks on Leipzig and and we saw have seen this sabotage acts and and you know the threat really increasing in Europe. At the same time the parties that are sort of blind to this threat and say that we should not do anything with this because it's not our concern are gaining ground. So I'm just afraid that we might you know wake up in a situation where we haven't done enough to be able to deter the threats and defend ourselves. But of course it's up to the German people or as a democratic country to make their choices.",
+          "category": "politics",
+          "summary": "EU Chief Kallas expresses concern about growing security threats closer to Europe, referencing attacks and sabotage acts. She warns that some political parties are gaining support while dismissing these threats as not their concern. Kallas fears that Europe may not be adequately prepared to deter and defend against these threats.",
+          "multipleChoice": [
+            {
+              "question": "Which city does Kallas mention in connection with attacks?",
+              "options": [
+                "Warsaw",
+                "Leipzig",
+                "Brussels",
+                "Berlin"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "According to Kallas, what are some political parties saying about the threats?",
+              "options": [
+                "That the threats are coming from inside Europe",
+                "That Germany should lead the response to the threats",
+                "That Europe should not take action because it is not their concern",
+                "That Europe needs to spend more money on defence"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What is Kallas afraid might happen?",
+              "options": [
+                "That more sabotage acts will happen in Brussels",
+                "That Europe will wake up having not done enough to deter threats and defend itself",
+                "That European elections will be cancelled",
+                "That Germany will leave the EU"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Kallas says that threats are moving closer to Europe.",
+              "answer": true
+            },
+            {
+              "statement": "Kallas believes that European governments have already done enough to defend themselves.",
+              "answer": false
+            },
+            {
+              "statement": "Kallas acknowledges that it is ultimately up to the German people to make their own choices.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas from the video in the order they were mentioned by Kallas",
+            "items": [
+              "Kallas mentions that threats are coming closer to Europe",
+              "Kallas refers to attacks on Leipzig and sabotage acts",
+              "Kallas warns that parties ignoring the threats are gaining ground",
+              "Kallas says it is up to the German people to make their choices"
+            ]
+          }
+        },
+        {
+          "videoId": "ezIm_a9VU2s",
+          "title": "Why anxious French have cut back on spending",
+          "channel": "Reuters",
+          "publishedAt": "2026-09-11T07:59:22Z",
+          "thumbnail": "https://i.ytimg.com/vi/ezIm_a9VU2s/hqdefault.jpg",
+          "durationSeconds": 157,
+          "transcript": "French businesses are seeing customers play cautious on all sorts of things. Like when you go into a cafe, they say they're seeing customers uh share desserts and uh and starters and that sort of thing. They're cutting back on wine. Um, and what they say is that they feel that people are really being squeezed by higher energy prices, higher inflation, and there's also on top of that, there's just a general anxiety about the state of the economy and where it's going with a presidential election next year that at this point is still very much uncertain. Weak consumer spending in France is is an issue because the French economy is very much a consumerdriven uh economy. Consumer spending makes up about half of of GDP. And not only that, but it's also the biggest single source of of revenue for the government through the value added tax. Um so uh when consumer spending slows, that's less tax revenue for the government. And the government is desperately in need of all source of income that it can get its hands on at this point because it's has one of the highest budget deficits in the European Union. and it faces a very tumultuous passage of the 20 27 budget in the parliament in the coming weeks because the parliament is very divided amongst the very different parties. This could impact next year's presidential election. It can affect it in two ways. There's firstly um the the fact that nobody really knows where the country is going to be going uh after the election. That's a source of of uncertainty. People don't know how that will affect taxes, for example, and taxes are already very high in France. So any if there's an increase in tax or a decrease in tax, that will have a very big impact on people. And then secondly, that means that the the candidates, they all have to address the issue of declining purchasing power in their programs one way or another. Some are proposing tax cuts on payroll tax in particular, which are very high and which are one of the reasons why purchasing power is so reduced in France. And others are calling on on companies to just simply increase wages. But uh the fact is whatever is done, the government has very little leeway to uh reduce taxes or spend more to to improve people's purchasing power.",
+          "category": "business",
+          "summary": "This video examines why French consumers are spending less money, looking at the role of high energy prices, inflation, and economic uncertainty ahead of a presidential election. It explains how weak consumer spending creates problems for the French government, which relies heavily on VAT revenue and is already dealing with one of the highest budget deficits in the EU. Various political proposals to boost purchasing power are discussed, though the government has very limited room to act.",
+          "multipleChoice": [
+            {
+              "question": "According to the video, approximately what share of France's GDP comes from consumer spending?",
+              "options": [
+                "About one quarter",
+                "About half",
+                "About three quarters",
+                "About one third"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is the biggest single source of government revenue mentioned in the video?",
+              "options": [
+                "Corporate income tax",
+                "Value added tax on consumer spending",
+                "Personal income tax",
+                "Payroll tax collected from employers"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What do some presidential candidates propose doing to improve purchasing power in France?",
+              "options": [
+                "Cutting payroll taxes, which are described as very high",
+                "Introducing new energy subsidies for households",
+                "Increasing the value added tax rate",
+                "Asking the European Union for financial support"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "French café owners report that customers are sharing desserts and starters rather than ordering separately.",
+              "answer": true
+            },
+            {
+              "statement": "France has one of the lowest budget deficits in the European Union.",
+              "answer": false
+            },
+            {
+              "statement": "The video states that the French parliament is very divided among different parties, making the 2027 budget difficult to pass.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were discussed in the video.",
+            "items": [
+              "Examples of how French customers are cutting back, such as sharing food and reducing wine orders",
+              "The explanation that consumer spending makes up about half of French GDP",
+              "The challenge of passing the 2027 budget through a divided parliament",
+              "Political candidates' proposals to address declining purchasing power"
+            ]
+          }
+        },
+        {
+          "videoId": "lNDVmD_Gxhg",
+          "title": "Can markets put a price on AI doomsday?",
+          "channel": "Reuters",
+          "publishedAt": "2026-09-10T13:36:04Z",
+          "thumbnail": "https://i.ytimg.com/vi/lNDVmD_Gxhg/hqdefault.jpg",
+          "durationSeconds": 72,
+          "transcript": "Okay, so we got about two minutes to talk about the end of humanity. So, so, so no pressure. Um, look, we can't deal with the actual issues that he he raised obviously and and markets for sure cannot price the end of humanity. That that's not going to happen. Um, what they can price though uh is potentially the sort of regulation that I think these warnings are really pointing to. the um idea that AI uh will be you know a disaster for for workers or even some companies where it'll be um existential has been through markets and has been uh a factor even this week again we saw software stocks falling very sharply on the latest uh open AI um uh Astra uh model that was released um but uh you know this is much bigger than that this is going back to what we some of those scare stories that we heard earlier in the year that you know within two or three years there would be global depression because everyone would be out of work. You know that that that piece of research went viral um uh in the spring. Regulation is where markets will look for a reaction to this. And how likely is that in in a in the geopolitical world that we're in at the moment?",
+          "category": "technology",
+          "summary": "A financial commentator discusses whether markets can respond to warnings about AI's potential dangers. The speaker argues that while markets cannot price the 'end of humanity', they can react to AI-related regulation and job loss fears. The discussion also touches on a viral research report predicting global depression due to AI-driven unemployment.",
+          "multipleChoice": [
+            {
+              "question": "According to the speaker, what did software stocks do after the latest OpenAI model was released?",
+              "options": [
+                "They were suspended from trading",
+                "They rose sharply in value",
+                "They remained stable",
+                "They fell very sharply"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What did the viral piece of research mentioned by the speaker predict?",
+              "options": [
+                "Governments would ban AI development by the end of the decade",
+                "Stock markets would crash within one year",
+                "A global depression within two or three years because everyone would be out of work",
+                "AI would replace only factory workers within five years"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "According to the speaker, what is the main area where markets will look for a reaction to AI doomsday warnings?",
+              "options": [
+                "Regulation",
+                "New technology investment funds",
+                "Corporate merger activity",
+                "International trade agreements"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The speaker believes that markets can directly price the end of humanity.",
+              "answer": false
+            },
+            {
+              "statement": "The speaker mentions that the viral research about AI-driven depression spread in the spring.",
+              "answer": true
+            },
+            {
+              "statement": "The speaker says AI being a disaster for workers has already been a factor in markets.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics in the order they were mentioned in the video",
+            "items": [
+              "The claim that markets cannot price the end of humanity",
+              "Software stocks falling sharply after a new OpenAI model release",
+              "A viral research report predicting global depression due to AI unemployment",
+              "A question about whether regulation is likely given the current geopolitical situation"
+            ]
+          }
+        },
+        {
+          "videoId": "emnoRp30R0U",
+          "title": "El Nino is set to bring extreme-weather risks.",
+          "channel": "euronews",
+          "publishedAt": "2026-09-04T08:41:11Z",
+          "thumbnail": "https://i.ytimg.com/vi/emnoRp30R0U/hqdefault.jpg",
+          "durationSeconds": 56,
+          "transcript": "El Niño will peak towards the end of 2026, but its impacts will be felt long after that, including on global temperatures. The powerful 2023-2024 El Niño contributed to 2024 being the warmest year on record. We should not be surprised if this record is broken. This El Niño will deliver a major blow to communities, economies, and supply chains across the globe. So, many sectors will be affected. Agriculture trade fisheries health energy, transport, water resources, disaster management, to name but a few. We are already seeing disruption and devastation from droughts and floods and extreme weather.",
+          "category": "environment",
+          "summary": "This video reports on the expected peak of El Niño towards the end of 2026 and the wide-ranging effects it will have on global temperatures, communities, and economies. It highlights how the previous 2023-2024 El Niño contributed to 2024 being the warmest year on record. The video also warns that many sectors, from agriculture to disaster management, will be affected by extreme weather events such as droughts and floods.",
+          "multipleChoice": [
+            {
+              "question": "According to the video, when is El Niño expected to peak?",
+              "options": [
+                "In early 2027",
+                "At the beginning of 2026",
+                "Towards the end of 2026",
+                "In the middle of 2026"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Which year was described as the warmest year on record in the video?",
+              "options": [
+                "2026",
+                "2025",
+                "2023",
+                "2024"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "Which of the following sectors is NOT mentioned in the video as being affected by El Niño?",
+              "options": [
+                "Agriculture",
+                "Fisheries",
+                "Tourism",
+                "Transport"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The video says that El Niño's impacts will be felt long after it peaks.",
+              "answer": true
+            },
+            {
+              "statement": "According to the video, the 2023-2024 El Niño had very little effect on global temperatures.",
+              "answer": false
+            },
+            {
+              "statement": "The video mentions droughts and floods as examples of current disruption and devastation.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or ideas in the order they were mentioned in the video.",
+            "items": [
+              "El Niño peaks towards the end of 2026",
+              "The 2023-2024 El Niño contributed to record-breaking temperatures",
+              "A warning that El Niño will deliver a major blow to communities and economies",
+              "Examples of affected sectors such as agriculture, fisheries, and energy are listed"
+            ]
+          }
+        },
+        {
+          "videoId": "IYAmK7Wf5Cc",
+          "title": "Germany sees biggest far-right win since World War II",
+          "channel": "DW Euromaxx",
+          "publishedAt": "2026-09-07T16:27:34Z",
+          "thumbnail": "https://i.ytimg.com/vi/IYAmK7Wf5Cc/hqdefault.jpg",
+          "durationSeconds": 53,
+          "transcript": "Germany's AfD party is now closer to power than any far-right party has been since World War II. But, why should you care? The far-right Alternative for Germany party just got its best ever election result in the eastern German state of Saxony-Anhalt. That's more than double the numbers they were getting 5 years ago. Donald Trump, Elon Musk, and representatives of Vladimir Putin's team have all publicly posted the results or even congratulated the AfD, which makes sense considering they ran promising things like stricter immigration laws, warmer ties with Russia, and cut to the support of Ukraine. Leaders in France and Poland had opposite reactions. But, even with that big result, AfD still didn't reach the number of votes needed to govern alone. In this kind of election in Germany, if no party gets enough seats to have the absolute majority, the top parties have to team up to find a way to form a government together, which will be tricky here because most of the other parties generally refuse to work with the AfD. And in Saxony-Anhalt, AfD is officially classified as confirmed far-right extremist.",
+          "category": "culture",
+          "summary": "Germany's far-right AfD party achieved its best ever election result in the eastern state of Saxony-Anhalt, more than doubling its support from five years ago. The result drew reactions from international figures including Donald Trump, Elon Musk, and representatives of Vladimir Putin's team, who congratulated the AfD. Despite the strong showing, the AfD did not win enough seats to govern alone, and most other parties refuse to work with them.",
+          "multipleChoice": [
+            {
+              "question": "In which German state did the AfD achieve its best ever election result?",
+              "options": [
+                "Thuringia",
+                "Brandenburg",
+                "Bavaria",
+                "Saxony-Anhalt"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "Compared to five years ago, how did the AfD's result change?",
+              "options": [
+                "It more than doubled",
+                "It increased by about 10%",
+                "It nearly tripled",
+                "It stayed roughly the same"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "Why is forming a government after this election described as 'tricky'?",
+              "options": [
+                "Most other parties generally refuse to work with the AfD",
+                "Leaders from France and Poland blocked the process",
+                "Voter turnout was too low to count the results",
+                "The AfD won too many seats to need partners"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Elon Musk publicly posted or congratulated the AfD after the election result.",
+              "answer": true
+            },
+            {
+              "statement": "Leaders in France and Poland congratulated the AfD on their election result.",
+              "answer": false
+            },
+            {
+              "statement": "The AfD in Saxony-Anhalt is officially classified as a confirmed far-right extremist party.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or facts in the order they were mentioned in the video.",
+            "items": [
+              "The AfD achieves its best ever election result in Saxony-Anhalt",
+              "Donald Trump, Elon Musk, and Putin's representatives congratulate the AfD",
+              "Leaders in France and Poland react with opposite opinions",
+              "It is explained that the AfD still could not win enough seats to govern alone"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-09-07T06:27:31.698Z",
       "videos": [
         {
@@ -3684,341 +4019,6 @@
               "Train cancellations caused by sagging power lines in heat",
               "Rock and concrete in towns and cities absorbing and radiating heat",
               "The low percentage of UK homes with air conditioning"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "generated": "2026-06-24T10:28:23.024Z",
-      "videos": [
-        {
-          "videoId": "OFVVxZTRtDc",
-          "title": "Labour's Andy Burnham has won the Makerfield by-election. #UK #Labour #BBCNews",
-          "channel": "BBC News",
-          "publishedAt": "2026-06-19T08:00:38Z",
-          "thumbnail": "https://i.ytimg.com/vi/OFVVxZTRtDc/hqdefault.jpg",
-          "durationSeconds": 36,
-          "transcript": "This is the biggest bi-election I've ever covered. Why? Because one of the candidates on the ballot paper, Andy Bernham for Labour, was putting himself forward basically as a prospective prime minister. And he has won here and won big time in a place where reform did so, so well just a handful of weeks ago at the local elections. In Andy Bernham's victory speech, it was implicit, if not quite explicit, about what he would do were he to be running the country. So now what does the prime minister do? What does he say?",
-          "category": "politics",
-          "summary": "A BBC reporter covers the Makerfield by-election, where Labour's Andy Burnham won by a large margin. The reporter notes that Burnham positioned himself almost as a future prime minister during the campaign. The result raises questions about how the current prime minister will respond.",
-          "multipleChoice": [
-            {
-              "question": "Why does the reporter describe this as the biggest by-election they have ever covered?",
-              "options": [
-                "Because one candidate was presenting himself as a possible future prime minister",
-                "Because it had the highest voter turnout in history",
-                "Because it was held in the largest constituency in the UK",
-                "Because three major parties were competing closely against each other"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "question": "What had happened in Makerfield just a few weeks before this by-election?",
-              "options": [
-                "Labour had won a large majority in the local elections",
-                "The Reform party had performed very well in the local elections",
-                "Andy Burnham had announced his resignation from politics",
-                "The by-election had been postponed due to low interest"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "question": "How does the reporter describe Andy Burnham's victory speech?",
-              "options": [
-                "It was very direct and clearly stated his plans to lead the country",
-                "It suggested what he would do as leader of the country, without saying it openly",
-                "It focused entirely on local issues in Makerfield",
-                "It was a short speech that avoided any political statements"
-              ],
-              "correctIndex": 1
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "Andy Burnham won the Makerfield by-election by a large margin.",
-              "answer": true
-            },
-            {
-              "statement": "The Reform party had performed poorly in Makerfield at the recent local elections.",
-              "answer": false
-            },
-            {
-              "statement": "The reporter ends by questioning how the prime minister will react to the result.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these events in the order they were mentioned in the video.",
-            "items": [
-              "The reporter explains why this by-election is the biggest they have covered",
-              "Reform did well in Makerfield at the local elections",
-              "Andy Burnham wins the by-election",
-              "Andy Burnham gives a victory speech hinting at future leadership ambitions"
-            ]
-          }
-        },
-        {
-          "videoId": "gYPxvt7PjvM",
-          "title": "Bill Gates says he regrets 'every minute' he spent with Epstein",
-          "channel": "Reuters",
-          "publishedAt": "2026-02-05T15:30:17Z",
-          "thumbnail": "https://i.ytimg.com/vi/gYPxvt7PjvM/hqdefault.jpg",
-          "durationSeconds": 31,
-          "transcript": "every minute I spent with him, I I regret and I, you know, apologize that I did that. You know, it's factually true that I was only at dinners, you know, I never went to the island. I never met any women. And so, you know, the more that comes out, the more clear it'll be uh that although the time was a mistake, it had nothing to do with that kind of behavior. He knew a lot of very rich people and he was saying he could get them uh to give money to global health. You know, in retrospect, that was a a dead",
-          "category": "business",
-          "summary": "In this video, Bill Gates speaks about his past meetings with Jeffrey Epstein, expressing regret for the time he spent with him. Gates insists that his contact with Epstein was limited to dinners and denies visiting his island or meeting any women connected to him. He explains that Epstein had claimed he could help raise money from wealthy people for global health causes.",
-          "multipleChoice": [
-            {
-              "question": "What does Bill Gates say he regrets?",
-              "options": [
-                "Every minute he spent with Epstein",
-                "Donating money to global health causes",
-                "Speaking publicly about Epstein",
-                "Introducing Epstein to other rich people"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "question": "According to Gates, what did Epstein claim he could do?",
-              "options": [
-                "Invest money in technology companies",
-                "Get very rich people to donate money to global health",
-                "Introduce Gates to world leaders",
-                "Help Gates expand his business"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "question": "Which of the following does Gates say he never did?",
-              "options": [
-                "Apologized for spending time with Epstein",
-                "Heard about Epstein's behaviour",
-                "Visited Epstein's island",
-                "Met other wealthy people through Epstein"
-              ],
-              "correctIndex": 2
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "Bill Gates says he only met Epstein at dinners.",
-              "answer": true
-            },
-            {
-              "statement": "Bill Gates says he visited Epstein's island on one occasion.",
-              "answer": false
-            },
-            {
-              "statement": "Gates describes the time he spent with Epstein as a mistake.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these ideas from the video in the order they were mentioned by Bill Gates.",
-            "items": [
-              "Gates expresses regret and apologizes for spending time with Epstein",
-              "Gates states he only attended dinners and never visited the island",
-              "Gates explains that Epstein knew many very rich people",
-              "Gates says Epstein claimed he could raise money for global health"
-            ]
-          }
-        },
-        {
-          "videoId": "ROUZ_HdEMS4",
-          "title": "Behind the viral praying robot bridging AI and Emirati tradition",
-          "channel": "Reuters",
-          "publishedAt": "2026-06-17T23:15:07Z",
-          "thumbnail": "https://i.ytimg.com/vi/ROUZ_HdEMS4/hqdefault.jpg",
-          "durationSeconds": 55,
-          "transcript": "His name is Bu Sneider. We named him as a character to be close to the culture, the Emirati culture exactly. Our purpose of you know taking the Bu Sneider to greet the kids in the mosque and showing them you know how the traditional way of celebrating the Eid is [music] pure educational and we had success of that. They're understanding you know the tradition, how they greet the people, they greet the elders and all the whole ceremony you know of the Eid. Our robot is not cannot be Muslim or cannot be in a religion. It's a robot. We take it to improve our life. Robot is going to be everywhere. Not now but in a >> [music] >> decade or two kids will be grown up. So from now we want the Emirati kids, we want the people [music] of the UAE to be close to the robots.",
-          "category": "technology",
-          "summary": "The video introduces Bu Sneider, a robot designed to connect Emirati children with their cultural traditions. The robot visits mosques to demonstrate how people greet each other and celebrate Eid. Its creators hope that by introducing robots early, the people of the UAE will become comfortable with technology in the future.",
-          "multipleChoice": [
-            {
-              "question": "Where does Bu Sneider go to greet children?",
-              "options": [
-                "A school",
-                "A mosque",
-                "A shopping mall",
-                "A cultural centre"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "question": "What is the main purpose of taking Bu Sneider to meet children?",
-              "options": [
-                "To replace human teachers",
-                "To perform religious ceremonies",
-                "To teach children about traditional Eid customs",
-                "To sell robots to Emirati families"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "question": "According to the speaker, when will robots be everywhere?",
-              "options": [
-                "Right now",
-                "Within the next five years",
-                "In a decade or two",
-                "By the end of this century"
-              ],
-              "correctIndex": 2
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "The robot's name, Bu Sneider, was chosen to feel connected to Emirati culture.",
-              "answer": true
-            },
-            {
-              "statement": "The creators say the robot can be considered Muslim because it performs religious actions.",
-              "answer": false
-            },
-            {
-              "statement": "The creators want Emirati children to feel comfortable around robots in the future.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these ideas in the order they were mentioned in the video.",
-            "items": [
-              "The robot is introduced by name and explained as connected to Emirati culture.",
-              "The robot visits a mosque to show children how to greet elders during Eid.",
-              "The speaker states that the robot cannot be Muslim because it is a machine.",
-              "The speaker says children today will grow up in a world full of robots."
-            ]
-          }
-        },
-        {
-          "videoId": "kqQZVPbu-pk",
-          "title": "'Absolutely freezing' winter storm causes mass power outages in US. #Storm #Weather #BBCNews",
-          "channel": "BBC News",
-          "publishedAt": "2026-01-25T18:00:56Z",
-          "thumbnail": "https://i.ytimg.com/vi/kqQZVPbu-pk/hqdefault.jpg",
-          "durationSeconds": 51,
-          "transcript": "Well, there are not many people out and about as you can imagine this morning. Most people are hunkering down because this is an absolutely massive storm stretching some 1500 miles across the United States. Here in Washington DC, we're expecting up to a foot of snowfall today. But in other places, southern states for example, people are just having to hang tight. Power has been knocked out. In some states, some people are without ways to heat their homes right now. Other people, they're trying to find some fun where they can. They're out sledging. A few impromptu snowball fights springing up. But certainly, people are just hanging tight because we're expecting some record snowfall. And it's not just the snow. I've got to tell you, it is absolutely freezing here. And that really gets your bonus.",
-          "category": "environment",
-          "summary": "A reporter in Washington DC describes a massive winter storm stretching 1,500 miles across the United States. The storm has caused power outages in some states, leaving people without heating, while others are making the most of the snow by sledging and having snowball fights. Record snowfall and extremely cold temperatures are expected.",
-          "multipleChoice": [
-            {
-              "question": "How much snowfall is expected in Washington DC?",
-              "options": [
-                "Up to a foot of snow",
-                "Up to 1,500 inches of snow",
-                "A few centimetres of snow",
-                "No snowfall at all"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "question": "How far does the storm stretch across the United States?",
-              "options": [
-                "500 miles",
-                "1,000 miles",
-                "1,500 miles",
-                "2,000 miles"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "question": "What problem are some people in certain states facing because of the storm?",
-              "options": [
-                "They cannot find food",
-                "They have no way to heat their homes",
-                "Their cars have been buried in snow",
-                "They cannot contact emergency services"
-              ],
-              "correctIndex": 1
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "The storm is stretching approximately 1,500 miles across the United States.",
-              "answer": true
-            },
-            {
-              "statement": "The reporter says that most people are out enjoying the snow in Washington DC.",
-              "answer": false
-            },
-            {
-              "statement": "Some people are having impromptu snowball fights during the storm.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these details from the video in the order they were mentioned by the reporter.",
-            "items": [
-              "The reporter describes the storm stretching 1,500 miles across the US",
-              "The reporter mentions power outages leaving people without heating",
-              "The reporter talks about people sledging and having snowball fights",
-              "The reporter says it is absolutely freezing where they are standing"
-            ]
-          }
-        },
-        {
-          "videoId": "m2B9nhWvRls",
-          "title": "BTS reunion set to make $1bn as band announce world tour. #BTS #KPop #BBCNews",
-          "channel": "BBC News",
-          "publishedAt": "2026-01-13T19:14:50Z",
-          "thumbnail": "https://i.ytimg.com/vi/m2B9nhWvRls/hqdefault.jpg",
-          "durationSeconds": 36,
-          "transcript": "K-pop group BTS have announced a 79-day world tour and their reunion is expected to make a billion dollars. The band hasn't performed together for four years because the seven members have been completing their mandatory military service in South Korea with the last one, Sugar, finishing last June. The tour, which begins in April, will start in South Korea before setting off across Asia, Europe, and America. According to Billboard, the group and their record label stand to make more than a billion dollars. That's £740 million from their reunion from the concerts, merchandise, licensing, album sales, and streaming revenue. Their previous tour set records for a K-pop act, earning about $246 million at the global box",
-          "category": "culture",
-          "summary": "K-pop group BTS has announced a 79-day world tour after a four-year break during which all seven members completed mandatory military service in South Korea. The reunion tour is expected to generate over one billion dollars through concerts, merchandise, album sales, and other revenue streams. This would far surpass their previous record-breaking tour, which earned around $246 million.",
-          "multipleChoice": [
-            {
-              "question": "How long will the BTS world tour last?",
-              "options": [
-                "49 days",
-                "79 days",
-                "97 days",
-                "74 days"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "question": "Why did BTS not perform together for four years?",
-              "options": [
-                "They were recording a new album",
-                "They had personal disagreements",
-                "They were completing mandatory military service",
-                "They were on a planned hiatus agreed with their label"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "question": "According to the transcript, how much did BTS earn from their previous tour?",
-              "options": [
-                "About $1 billion",
-                "About $740 million",
-                "About $246 million",
-                "About $300 million"
-              ],
-              "correctIndex": 2
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "The BTS world tour will begin in South Korea in April.",
-              "answer": true
-            },
-            {
-              "statement": "All seven BTS members finished their military service at the same time.",
-              "answer": false
-            },
-            {
-              "statement": "Billboard reported that BTS and their record label could earn more than a billion dollars from the reunion.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these events in the order they were mentioned in the video.",
-            "items": [
-              "BTS members began completing their mandatory military service in South Korea.",
-              "Suga finished his military service last June.",
-              "BTS announced a 79-day world tour.",
-              "The tour is set to travel across Asia, Europe, and America."
             ]
           }
         }
