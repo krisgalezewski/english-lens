@@ -1,6 +1,341 @@
 {
   "editions": [
     {
+      "generated": "2026-09-21T05:14:26.519Z",
+      "videos": [
+        {
+          "videoId": "O5HFzYckYAM",
+          "title": "Canada welcomes EU ambition for it to become 'associate member', - Mark Carney. #BBCNews",
+          "channel": "BBC News",
+          "publishedAt": "2026-09-17T10:57:02Z",
+          "thumbnail": "https://i.ytimg.com/vi/O5HFzYckYAM/hqdefault.jpg",
+          "durationSeconds": 52,
+          "transcript": "Canada welcomes this ambition. I will tell you polling shows that an overwhelming majority of Canadians support much closer ties with Europe. We are not fair-weather allies. We do not pursue zero-sum deals. Our commitment to the rule of law and our unyielding defense of human dignity, individual freedom, and democracy share the same deep roots, the same unwavering dedication. Together, Canada and the European Union can anchor our ground to hold our values while forming a protective canopy under which our citizens can thrive. This is about sovereignty.",
+          "category": "politics",
+          "summary": "In this video, Canadian leader Mark Carney responds to the European Union's ambition for Canada to become an 'associate member'. He highlights strong public support in Canada for closer ties with Europe and emphasises shared values such as democracy, the rule of law, and human dignity. Carney frames the relationship as one of mutual protection and sovereignty.",
+          "multipleChoice": [
+            {
+              "question": "According to Mark Carney, what do polls show about Canadians' views on closer ties with Europe?",
+              "options": [
+                "Most Canadians are opposed to closer ties",
+                "Canadians are divided on the issue",
+                "An overwhelming majority support much closer ties",
+                "A small majority support closer ties"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "Which of the following values does Carney mention as shared between Canada and the EU?",
+              "options": [
+                "Military strength, security, and alliances",
+                "Environmental protection, science, and education",
+                "Individual freedom, democracy, and the rule of law",
+                "Economic growth, trade, and innovation"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "What metaphor does Carney use to describe the role Canada and the EU can play for their citizens?",
+              "options": [
+                "A protective canopy under which citizens can thrive",
+                "A strong fortress that keeps enemies out",
+                "A common foundation built on trade agreements",
+                "A bridge connecting two continents"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Mark Carney says that Canada and the EU share the same deep roots and unwavering dedication to common values.",
+              "answer": true
+            },
+            {
+              "statement": "Carney describes Canada as a fair-weather ally that pursues zero-sum deals.",
+              "answer": false
+            },
+            {
+              "statement": "Carney states that the relationship between Canada and the EU is about sovereignty.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas from the video in the order in which Mark Carney mentions them.",
+            "items": [
+              "Carney welcomes the EU's ambition for Canada to become an associate member",
+              "He refers to polling showing overwhelming Canadian support for closer ties with Europe",
+              "He describes shared values such as the rule of law, human dignity, and democracy",
+              "He uses the image of a protective canopy and speaks about sovereignty"
+            ]
+          }
+        },
+        {
+          "videoId": "B7Rk41viNw8",
+          "title": "Mainland Europe seizes edge in global student race | FT #shorts",
+          "channel": "Financial Times",
+          "publishedAt": "2026-09-18T07:08:03Z",
+          "thumbnail": "https://i.ytimg.com/vi/B7Rk41viNw8/hqdefault.jpg",
+          "durationSeconds": 76,
+          "transcript": "Are you a British student who regrets the separation from Europe caused by Brexit? An American looking for cheaper courses abroad than available at home? Or a Chinese graduate with an international outlook but worried about anti-immigrant feelings in the US? If so, going to university in continental Europe is increasingly an option. Higher education institutions [music] in the anglophone countries of the US, UK, plus Canada, and Australia [music] have long dominated the market for international students. But a recent [music] survey suggests that's beginning to change with a drop in applications to all of [music] those countries. Mainland Europe and Asia outside Australia are the only ones reporting an uptick in demand. that reflects [music] the negative effect of anti-immigrant hostility, tougher visa controls, and rising prices from traditional providers, but also a growing interest in attracting students by universities elsewhere, especially at M's level. [music] There has been a surge in courses taught in English, and prices often remain modest. The UK, the US, and their peers remain dominant, but they're increasingly facing tougher competition from elsewhere.",
+          "category": "business",
+          "summary": "This video looks at how the global market for international students is shifting. While English-speaking countries like the US, UK, Canada, and Australia have traditionally led the way, a recent survey shows falling applications to all of them. Continental Europe and parts of Asia are now seeing growing demand, driven by lower costs, more English-taught courses, and a less hostile environment for international students.",
+          "multipleChoice": [
+            {
+              "question": "Which group of countries has traditionally dominated the market for international students?",
+              "options": [
+                "Continental Europe and Asia",
+                "China, Japan, and South Korea",
+                "Germany, France, and the Netherlands",
+                "The US, UK, Canada, and Australia"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "According to the video, what has happened to applications to traditional English-speaking study destinations?",
+              "options": [
+                "They have stayed the same as in previous years",
+                "They have risen due to new visa rules",
+                "They have dropped across all of those countries",
+                "They have shifted mainly to Canada and Australia"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "At which level of study does the video say universities outside the traditional destinations are especially keen to attract students?",
+              "options": [
+                "Undergraduate Bachelor's level",
+                "Primary and secondary level",
+                "Master's level",
+                "Distance learning and online courses"
+              ],
+              "correctIndex": 2
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The video mentions that there has been a surge in university courses taught in English in continental Europe.",
+              "answer": true
+            },
+            {
+              "statement": "According to the video, Asia outside Australia is reporting a fall in demand for international students.",
+              "answer": false
+            },
+            {
+              "statement": "The video states that anti-immigrant hostility and tougher visa controls are among the reasons students are looking away from traditional destinations.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas in the order they were mentioned in the video.",
+            "items": [
+              "Three types of international students who might consider continental Europe are introduced.",
+              "It is explained that anglophone countries have long dominated the international student market.",
+              "A recent survey showing a drop in applications to traditional destinations is mentioned.",
+              "The growth of English-taught courses and modest prices in Europe is highlighted."
+            ]
+          }
+        },
+        {
+          "videoId": "dNdFYu4udjA",
+          "title": "AI 'Cold War'? Anthropic's go-slow call has Beijing irked",
+          "channel": "Reuters",
+          "publishedAt": "2026-09-14T15:15:13Z",
+          "thumbnail": "https://i.ytimg.com/vi/dNdFYu4udjA/hqdefault.jpg",
+          "durationSeconds": 44,
+          "transcript": "There's a lot of mutual distrust between the US and China and how each side views the other's AI advancements. But the question is can both sides come together to mitigate AI safety risks. Obviously, you know, I don't really want to predict any sort of doomsday scenario which might occur. But I think because there is so much mutual distrust between both countries that um and a lot of the company the US companies have you know lobbyed quite aggressively against China and for the US to maintain export controls on semiconductors to China. So it might have to be like a third country or an independent you know AI safety evaluator that you know can prove that it's not being unduly influenced by either the US government or by China.",
+          "category": "technology",
+          "summary": "This video discusses the deep mutual distrust between the US and China over AI development and whether the two countries can work together on AI safety. A key concern is the aggressive lobbying by US companies to maintain export controls on semiconductors to China. The speaker suggests that a neutral third country or independent AI safety evaluator may be needed to bridge the gap.",
+          "multipleChoice": [
+            {
+              "question": "According to the speaker, what have US companies done regarding China and semiconductors?",
+              "options": [
+                "They have shared semiconductor technology with China",
+                "They have asked China to reduce its semiconductor production",
+                "They have invested heavily in Chinese semiconductor companies",
+                "They have lobbied aggressively to maintain export controls on semiconductors to China"
+              ],
+              "correctIndex": 3
+            },
+            {
+              "question": "What does the speaker suggest could help evaluate AI safety in a way that both sides trust?",
+              "options": [
+                "A third country or independent AI safety evaluator",
+                "The United Nations Security Council",
+                "A joint US-China government committee",
+                "A panel of tech company executives"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "question": "What does the speaker say about predicting a 'doomsday scenario'?",
+              "options": [
+                "They think both governments are already preparing for one",
+                "They say they do not really want to predict such a scenario",
+                "They strongly predict one will happen soon",
+                "They believe a doomsday scenario is very likely"
+              ],
+              "correctIndex": 1
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "The speaker says there is a lot of mutual distrust between the US and China over AI advancements.",
+              "answer": true
+            },
+            {
+              "statement": "The speaker believes the US and China are already successfully cooperating on AI safety.",
+              "answer": false
+            },
+            {
+              "statement": "The speaker suggests that an independent AI safety evaluator should not be unduly influenced by either the US government or China.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these ideas in the order they were mentioned in the video.",
+            "items": [
+              "The speaker mentions mutual distrust between the US and China over AI advancements.",
+              "The speaker raises the question of whether both sides can work together on AI safety risks.",
+              "The speaker refers to US companies lobbying aggressively for export controls on semiconductors to China.",
+              "The speaker proposes the idea of a third country or independent AI safety evaluator."
+            ]
+          }
+        },
+        {
+          "videoId": "BZvVve0Ylj8",
+          "title": "What does a ‘Super El Niño’ mean for winter? | BBC News",
+          "channel": "BBC News",
+          "publishedAt": "2026-09-15T17:30:09Z",
+          "thumbnail": "https://i.ytimg.com/vi/BZvVve0Ylj8/hqdefault.jpg",
+          "durationSeconds": 456,
+          "transcript": "Could we get extreme weather, storms, floods, or even heavy snow this winter? As summer gives way to autumn, people start asking us the same questions. How bad could the weather get? When might we see the first snow? And just how cold would it be? This year, though, there's an extra factor in the mix, El Nino. [music] It could make this autumn and winter a little bit more interesting, at least from a weather perspective. So, what is El Nino? How could it affect the UK's weather? And is it something any of us should actually be paying attention to? Let's get into some of the biggest questions. Well, the first thing to say is that El Nino isn't a storm system. It's not going to bring sudden or noticeable impacts to any one place. Instead, it's a natural climate pattern that develops in the tropical Pacific Ocean. Sea temperatures rise, winds change direction, and that can influence weather around the world. It occurs every 2 to 7 years and that extra warmth generated in the Pacific is being released into the atmosphere where it can influence weather patterns all over the world bringing droughts, floods, heat [music] waves, and wildfires to different areas. Over the last few months, El Nino has been strengthening with sea temperatures rising into uncharted territory. Scientists predict that it will most likely be a historic event, the strongest ever recorded in the modern era. And because of this, you may have even heard people calling it a super El Nino or even [music] a Godzilla El Nino. Well, the name El Nino comes from Spanish and means little boy or the Christ child. South American fishermen and sailors in Peru and Ecuador first used the term centuries [music] ago when they noticed unusually warm waters appearing along the Pacific coast around December. Those warmer waters often meant fewer fish affecting their catches. And because the phenomenon tended to arrive around Christmas, it became known as El Nino. El Nino normally starts to develop in the late northern hemisphere spring and can continue to strengthen through the summer and autumn. This El Nino is expected to reach its peak in November or December and will last well into 2027. We start to see the impacts of El Nino in some parts of the world during the summer, such as the reduction in Atlantic hurricanes, the increase in Pacific hurricanes, and wildfires in Southeast Asia. [music] But further away from the tropical Pacific, impacts may not be felt until the northern hemisphere autumn or winter. It's looking likely that El Nino will affect the weather in the UK. The Met Office says that from around November onwards, there's an increased chance of stormier conditions affecting the UK. Wetter and windier weather could increase the risk of flooding and potential disruption or damage from strong winds. Chances are that it will also be milder than normal, at least for the first half of winter. It's too far away to know what will happen during the rest of winter, but during past El Nino events, the UK has often been colder than average, [music] and this could therefore increase the chances of frosts and snow. [music] But it's far from certain this will actually happen this year. So, does El Nino mean we're more likely to see snow on Christmas Day? Unfortunately, it's still too early to say. [music] What we do know is that of the three strongest El Nino events since 1900, only one in 198283 brought significant snowfall [music] to the UK. So, while El Nino can influence weather patterns around the world, it doesn't automatically mean a white Christmas is on the way. El Nino [music] impacts to the UK aren't as clear-cut as other parts of the world, so it's really difficult to assess how El Nino has affected the UK before. This is because the UK is located quite a long way from the tropical Pacific and there are many other weather patterns that influence our weather in the autumn and winter. However, we've looked at storminess in the UK during the last two strong El Ninos in 2023 24 and 2015 16 and we noted that we saw more named storms. So, wet and windy weather that was severe enough to bring significant impacts [music] in these two years than any other year since we started naming storms in 2015. And since 2000, looking at snowfall, less than half of the El Nino years brought [music] any significant snow to the UK. El Nino is likely to last into spring next year before it weakens during the summer. While there will be lots of obvious impacts in certain areas of the world, one of the largest global impacts is actually on the global average temperature. If you think of the warming seas in the Pacific Ocean like a radiator, when it heats up, the atmosphere warms up and it essentially boosts the global average temperature. Estimates are that they can add 0.2° C of extra heat over the year. Scientists therefore predict that 2027 will be the hottest year on record, exceeding the previous hottest year of 2024, which also happened to be the last time we had a very strong El Nino. More regionally with an increase in rainfall and floods in some areas and droughts in others. Agriculture will be impacted leading to a decline in global food supplies. The UN's World Food Program have already warned that El Nino will sharply increase hunger in more vulnerable parts of the world by the end of [music] 2027. Higher food insecurity will also mean higher prices in our supermarkets. With a likely increase in stormy weather and the potential increase in impacts from wind, rain, and flooding, we should keep a closer eye on the weather forecasts and be prepared to take action if the Metal Office issue any severe weather warnings. The UK government have also said that households should stock up on some food supplies to prepare for extreme weather. The idea being that if you are impacted by severe weather and you have some food supplies, it can keep you going for [music] a while longer before the emergency services can get to you and you're going to be a lot better off than if you haven't got supplies. So, there you have it. El Nino is continuing to strengthen and it's likely to be the biggest in living memory. While it won't hit as a sudden storm or event, it shifts the odds for more extreme weather around the world. Impacts in the UK will be felt later this autumn and through the winter with a greater chance of stormier weather at times. Globally, it will lead to higher average global temperatures, adding more heat on top of our already warming climate. And if there's any other weather subjects that you'd like us to tackle next, let us know in the comments.",
+          "category": "environment",
+          "summary": "This BBC News video explains what El Niño is and how it works as a natural climate pattern in the tropical Pacific Ocean. It looks at how the current El Niño event — predicted to be the strongest ever recorded — could affect the UK's weather this autumn and winter. The video also covers wider global impacts, including rising temperatures, food shortages, and the risk of floods and storms.",
+          "multipleChoice": [
+            {
+              "question": "How often does El Niño naturally occur?",
+              "options": [
+                "Every 10 to 15 years",
+                "Every 1 to 3 years",
+                "Every 2 to 7 years",
+                "Every 5 to 10 years"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "question": "According to the Met Office, from around which month are stormier conditions more likely to affect the UK?",
+              "options": [
+                "January",
+                "November",
+                "October",
+                "September"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Of the three strongest El Niño events since 1900, how many brought significant snowfall to the UK?",
+              "options": [
+                "Only one of them",
+                "Two of them",
+                "All three of them",
+                "None of them"
+              ],
+              "correctIndex": 0
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "El Niño is a storm system that brings sudden impacts to specific places.",
+              "answer": false
+            },
+            {
+              "statement": "The term 'El Niño' was first used by South American fishermen in Peru and Ecuador.",
+              "answer": true
+            },
+            {
+              "statement": "Scientists predict that 2027 will be the hottest year on record.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these events or developments in the order they were mentioned in the video.",
+            "items": [
+              "El Niño develops in the tropical Pacific Ocean as sea temperatures rise",
+              "El Niño is expected to reach its peak in November or December",
+              "The UK sees a greater chance of stormier, wetter, and windier weather",
+              "El Niño weakens during the summer and global food supplies decline"
+            ]
+          }
+        },
+        {
+          "videoId": "YXVHcCrnJVk",
+          "title": "Bavarians go crazy for Weißwurst",
+          "channel": "DW Euromaxx",
+          "publishedAt": "2026-09-17T13:00:12Z",
+          "thumbnail": "https://i.ytimg.com/vi/YXVHcCrnJVk/hqdefault.jpg",
+          "durationSeconds": 42,
+          "transcript": "We are a baby on the mother breast. >> Yep, that's the traditional [music] way to eat Bavarian Weißwurst. You suck on it, zutschen in German. >> Die Haut muss. >> Because the sausage isn't properly boiled or fried, the skin stays tough. That's why people either suck the meat out or use a knife and fork, but that's not all that's unusual about these veal and pork sausages. They even have their own Weißwurst Queen. She serves as an ambassador [music] for traditional Bavarian food. Bavarians take their little white sausages very seriously. Officially, you should only eat [music] Weißwurst up until noon, though that's more of a leftover from the days before refrigerators. [music] However, many people still enjoy their Weißwurst with a late morning beer. Yes, I'm not joking. The Bavarian tradition called Frühschoppen.",
+          "category": "culture",
+          "summary": "This video explores the Bavarian tradition of eating Weißwurst, a type of white sausage made from veal and pork. It explains the unusual way people eat it, the role of the Weißwurst Queen, and the custom of enjoying it with a morning beer. The video highlights how seriously Bavarians take this local food tradition.",
+          "multipleChoice": [
+            {
+              "question": "Why is the skin of Weißwurst tough to eat?",
+              "options": [
+                "It is made from a different type of meat",
+                "The sausage is not properly boiled or fried",
+                "It is left on the sausage to add flavour",
+                "It is frozen before being served"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "What is the traditional Bavarian way of eating Weißwurst called in German?",
+              "options": [
+                "Die Haut",
+                "Zutschen",
+                "Frühschoppen",
+                "Weißwurst Queen"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "question": "Why do many people still eat Weißwurst only before noon?",
+              "options": [
+                "The sausage tastes better in the morning",
+                "It is required by Bavarian law",
+                "Restaurants only serve it at breakfast time",
+                "It is a leftover tradition from the time before refrigerators"
+              ],
+              "correctIndex": 3
+            }
+          ],
+          "trueFalse": [
+            {
+              "statement": "Weißwurst is made from veal and pork.",
+              "answer": true
+            },
+            {
+              "statement": "The Weißwurst Queen is responsible for making the sausages in Bavaria.",
+              "answer": false
+            },
+            {
+              "statement": "The Bavarian tradition of having a morning beer is called Frühschoppen.",
+              "answer": true
+            }
+          ],
+          "ordering": {
+            "instruction": "Put these topics from the video in the order they were mentioned",
+            "items": [
+              "The traditional way of eating Weißwurst by sucking the meat out",
+              "The reason why the sausage skin stays tough",
+              "The role of the Weißwurst Queen as an ambassador for Bavarian food",
+              "The tradition of drinking beer with Weißwurst in the late morning"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "generated": "2026-09-14T06:55:00.576Z",
       "videos": [
         {
@@ -3684,341 +4019,6 @@
               "A speaker mentions that Orbán is out of power",
               "Someone says the event feels more free and accessible",
               "A speaker expresses hope that the government will deliver on its promises"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "generated": "2026-06-30T19:40:03.074Z",
-      "videos": [
-        {
-          "videoId": "bDgAoQvYBFw",
-          "title": "Is Ireland ready to steer the EU council presidency?",
-          "channel": "euronews",
-          "publishedAt": "2026-06-30T08:03:52Z",
-          "thumbnail": "https://i.ytimg.com/vi/bDgAoQvYBFw/hqdefault.jpg",
-          "durationSeconds": 46,
-          "transcript": "A lot of preparation has gone into taking over this presidency. We're talking about years, years in the making, not just from the point of view of human resources in the Irish permanent representation, which is basically the civil service now on steroids out here in Brussels, but also in terms of resources like buildings and building up every level, whether it's making sure that the Irish language is fully recognized and fully to the forefront during the presidency because this is our first presidency since Ireland and Irish Gaelic has got its official status. >> But they maintain the focus on security and defense because that is vital. So, the teams of the Irish presidency are in alignment, very much in alignment with the Cypriot presidency because we are talking about competitiveness, we are talking about security and defense, and our third priority then is values.",
-          "category": "politics",
-          "summary": "The video discusses Ireland's preparations for taking over the EU Council presidency, highlighting years of planning and the significance of Irish Gaelic gaining official EU status. A spokesperson outlines the presidency's three main priorities: competitiveness, security and defense, and values. Ireland's agenda is described as closely aligned with the preceding Cypriot presidency.",
-          "multipleChoice": [
-            {
-              "question": "What does the speaker say about the Irish permanent representation in Brussels?",
-              "options": [
-                "It is described as the civil service on steroids",
-                "It has reduced its staff to save costs",
-                "It has been newly established for the presidency",
-                "It is run by volunteers from Ireland"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "question": "What is special about this EU Council presidency for the Irish language?",
-              "options": [
-                "Irish Gaelic will be used as the main working language of the EU",
-                "It is the first presidency since Irish Gaelic received official EU status",
-                "Ireland is pushing for Irish Gaelic to become an official EU language",
-                "Irish Gaelic translation services are being cut to reduce costs"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "question": "Which of the following is listed as one of the three priorities of the Irish presidency?",
-              "options": [
-                "Immigration reform",
-                "Values",
-                "Digital transformation",
-                "Climate change"
-              ],
-              "correctIndex": 1
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "The preparation for Ireland's EU Council presidency took years, not just a few months.",
-              "answer": true
-            },
-            {
-              "statement": "The Irish presidency's priorities are completely different from those of the Cypriot presidency.",
-              "answer": false
-            },
-            {
-              "statement": "Security and defense is mentioned as one of the key themes of the Irish presidency.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these topics in the order they were mentioned in the video.",
-            "items": [
-              "Years of preparation and human resources in Brussels",
-              "Recognition and promotion of the Irish language during the presidency",
-              "Alignment with the Cypriot presidency on shared themes",
-              "Values as the third priority of the Irish presidency"
-            ]
-          }
-        },
-        {
-          "videoId": "yPtH0qSukt0",
-          "title": "How has Brexit changed Britain’s economy?  | The Economist",
-          "channel": "The Economist",
-          "publishedAt": "2026-06-23T10:40:20Z",
-          "thumbnail": "https://i.ytimg.com/vi/yPtH0qSukt0/hqdefault.jpg",
-          "durationSeconds": 147,
-          "transcript": "How exactly has Brexit changed Britain's economy? It's been ten years since Britain decided to leave the European Union <i>The dawn is breaking</i> <i>on an independent</i> <i>United Kingdom</i> The country has been through six prime ministers since then and is now more divided, less influential and poorer than it otherwise might have been <i>Brexit was a huge mistake</i> Most economists agree that Brexit has damaged the economy Some say GDP per person is 8% lower, while others say it's only 2.5% We may not know the exact cost, but what we do know is that growth in most other big, rich countries has been faster than in Britain The effects are clearest in manufacturing Brexiteers promise to free Britain from the shackles of EU regulations They said that any trade losses with the EU would be more than made up for by greater trade with the rest of the world But that's not what's happened The value in real terms of goods traded with the EU has fallen by 7% since 2016 But trade with the rest of the world has also fallen by 6% Competition from China and high energy costs were already making life harder for British manufacturing But Brexit sped up its decline by introducing new barriers to trade with the EU, such as extra border checks and more paperwork Over 16,000 British businesses have given up exporting to the EU altogether— that's 14% of all exporters to the continent But it's not all doom and gloom Britain's exports of services have actually risen since 2016 by £62bn in the EU and £107bn in the rest of the world The biggest growth in output has been in industries with few trade barriers like IT services or advertising That has happened despite Brexit, not because of it Sectors where Brexit introduced new obstacles like financial services, they've done worse But Brexit alone can't be blamed for Britain's sluggish economy It fundamentally has the same strengths and the same weaknesses as before 2016— leaving the EU has just made everything a little bit harder",
-          "category": "business",
-          "summary": "This video marks ten years since Britain voted to leave the European Union and examines how Brexit has affected the British economy. It looks at the impact on trade, manufacturing, and services, drawing on economic data to assess what has changed since 2016. While Brexit has made some things harder, the video also notes that Britain's economic weaknesses existed before the vote.",
-          "multipleChoice": [
-            {
-              "question": "By how much has the value of goods traded with the EU fallen since 2016, in real terms?",
-              "options": [
-                "14%",
-                "7%",
-                "8%",
-                "6%"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "question": "How many British businesses have stopped exporting to the EU altogether since Brexit?",
-              "options": [
-                "Over 16,000",
-                "Over 60,000",
-                "Over 6,000",
-                "Over 1,600"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "question": "According to the video, which sectors have grown despite Brexit?",
-              "options": [
-                "IT services and advertising",
-                "Energy and advertising",
-                "Manufacturing and logistics",
-                "Financial services and manufacturing"
-              ],
-              "correctIndex": 0
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "Britain's exports of services have risen since 2016.",
-              "answer": true
-            },
-            {
-              "statement": "Trade with the rest of the world increased after Brexit, making up for losses with the EU.",
-              "answer": false
-            },
-            {
-              "statement": "High energy costs and competition from China were already putting pressure on British manufacturing before Brexit.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these events or developments in the order they are mentioned in the video.",
-            "items": [
-              "Britain votes to leave the European Union",
-              "New trade barriers such as extra border checks are introduced with the EU",
-              "Over 16,000 British businesses stop exporting to the EU",
-              "Britain's exports of services rise, with the biggest growth in IT and advertising"
-            ]
-          }
-        },
-        {
-          "videoId": "CLbnaAMDCTs",
-          "title": "South Korea unveils $576 billion AI chip investment",
-          "channel": "Reuters",
-          "publishedAt": "2026-06-29T12:37:29Z",
-          "thumbnail": "https://i.ytimg.com/vi/CLbnaAMDCTs/hqdefault.jpg",
-          "durationSeconds": 67,
-          "transcript": "South Korea rolled out sweeping chip and AI mega projects on Monday. >> President Lee Jang pledged investments worth more than $576 billion over several years. It's a move that aims to cement the nation's overwhelming industry leadership. Lee was joined for the announcement by the leaders of Samsung Electronics and SKH Highix. High bandwidth memory chips produced by both tech giants have become pivotal in the global race to build advanced AI systems. Lee said the world's two largest memory chip makers will invest around 518 billion with suppliers to build two new chip fabrication sites each in South Korea's southwest region. He announced plans for the southwest to host major chip production clusters drawing on abundant underused power. Lee defended these proposed new hubs over the weekend as a national survival strategy to ease regional imbalances and expand capacity for the AI era. Representatives of other firms including LG Electronics and HD Hyundai Robotics also attended.",
-          "category": "technology",
-          "summary": "South Korea has announced a massive investment plan worth over $576 billion in chip manufacturing and artificial intelligence. President Lee Jang made the announcement alongside leaders from Samsung Electronics and SK Hynix, outlining plans to build new chip fabrication sites in the country's southwest region. The initiative is described as a national survival strategy to boost capacity for the AI era and reduce regional imbalances.",
-          "multipleChoice": [
-            {
-              "question": "How much will Samsung Electronics and SK Hynix invest together with their suppliers?",
-              "options": [
-                "$576 billion",
-                "$500 billion",
-                "$518 billion",
-                "$657 billion"
-              ],
-              "correctIndex": 2
-            },
-            {
-              "question": "Where in South Korea are the new chip production clusters planned to be built?",
-              "options": [
-                "Near the border with North Korea",
-                "In the southwest region",
-                "In the northeast region",
-                "In the capital, Seoul"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "question": "Why did President Lee say the southwest region was chosen for the new chip hubs?",
-              "options": [
-                "Because it has abundant underused power",
-                "Because it has a large existing workforce",
-                "Because it already has many tech companies",
-                "Because it is close to major ports"
-              ],
-              "correctIndex": 0
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "President Lee Jang announced the investment plan together with leaders from Samsung Electronics and SK Hynix.",
-              "answer": true
-            },
-            {
-              "statement": "Each of the two chip companies will build three new fabrication sites in South Korea.",
-              "answer": false
-            },
-            {
-              "statement": "Representatives from LG Electronics and HD Hyundai Robotics were present at the announcement.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these events from the video in the order they were mentioned",
-            "items": [
-              "President Lee Jang pledged investments worth more than $576 billion",
-              "Lee announced that Samsung and SK Hynix would invest around $518 billion with suppliers",
-              "Lee announced plans for the southwest to host major chip production clusters",
-              "Lee defended the proposed new hubs as a national survival strategy over the weekend"
-            ]
-          }
-        },
-        {
-          "videoId": "vEf24xyFPmY",
-          "title": "Is getting a 2nd passport the hot new accessory?",
-          "channel": "DW Euromaxx",
-          "publishedAt": "2026-06-29T20:45:27Z",
-          "thumbnail": "https://i.ytimg.com/vi/vEf24xyFPmY/hqdefault.jpg",
-          "durationSeconds": 48,
-          "transcript": "I'm lucky to have two passports, and apparently more US Americans are catching on at record numbers. While claiming a second citizenship used to be about identity and nationality, it seems to have become more about having a backup plan, whether due to burnout from the American working culture, politics, fear of violence, [music] or the romanticization of the European lifestyle. >> For breakfast, we do something cool like have a cigarette, then we go for work for like 1 1/2 hour to 1/2 hour. >> common route is claiming citizenship via ancestry. Some countries have golden passport programs, where investing enough money into the economy can get you citizenship, [music] or through residency, living somewhere legally long enough to be eligible to apply. But, there is pushback. A bill was introduced in the US [music] Senate that would force Americans to hold only one passport. Though legal experts say it's almost [music] certainly unconstitutional and won't pass. Would you consider getting a second passport?",
-          "category": "culture",
-          "summary": "The video explores why growing numbers of Americans are seeking a second passport. It looks at reasons such as work culture burnout, politics, and attraction to the European lifestyle, as well as the main ways to obtain a second citizenship. It also mentions a US Senate bill that would limit Americans to one passport, though legal experts doubt it would pass.",
-          "multipleChoice": [
-            {
-              "question": "According to the video, what is one reason Americans are seeking a second citizenship?",
-              "options": [
-                "To escape burnout from American working culture",
-                "To travel without a visa to more countries",
-                "To retire earlier than US law allows",
-                "To avoid paying taxes abroad"
-              ],
-              "correctIndex": 0
-            },
-            {
-              "question": "What does a 'golden passport' programme allow people to do?",
-              "options": [
-                "Apply for citizenship after living somewhere for a set period",
-                "Gain citizenship by investing enough money into a country's economy",
-                "Receive a second passport automatically as a US citizen",
-                "Claim citizenship based on their family ancestry"
-              ],
-              "correctIndex": 1
-            },
-            {
-              "question": "What do legal experts say about the US Senate bill that would limit Americans to one passport?",
-              "options": [
-                "They say it needs more support before a vote",
-                "They say it is almost certainly unconstitutional and will not pass",
-                "They say it will pass quickly through Congress",
-                "They say it is already being enforced"
-              ],
-              "correctIndex": 1
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "One way to obtain a second citizenship mentioned in the video is through ancestry.",
-              "answer": true
-            },
-            {
-              "statement": "The US Senate bill limiting Americans to one passport has already been signed into law.",
-              "answer": false
-            },
-            {
-              "statement": "The video mentions fear of violence as one reason Americans consider getting a second passport.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these topics in the order they were mentioned in the video.",
-            "items": [
-              "Reasons why Americans want a second passport, such as burnout and politics",
-              "A humorous description of the relaxed European work lifestyle",
-              "Different ways to obtain a second citizenship, including ancestry and residency",
-              "A US Senate bill that would force Americans to hold only one passport"
-            ]
-          }
-        },
-        {
-          "videoId": "N518JerkQFQ",
-          "title": "Why is the UK not built for extreme heat? #Heatwave #UK #Weather #Climate #BBCNews",
-          "channel": "BBC News",
-          "publishedAt": "2026-06-23T18:00:31Z",
-          "thumbnail": "https://i.ytimg.com/vi/N518JerkQFQ/hqdefault.jpg",
-          "durationSeconds": 66,
-          "transcript": "Why is the UK just not built for extreme weather? We're just at the start of what's going to be an intense heat wave. But the reality is that the average summer temperature here is just about 16° C. With those mostly mild conditions, we're building for those conditions instead. But the future is going to be much hotter and much wetter. Large parts of our train network run on electricity and power lines sag in high temperatures. So that can mean trains get cancelled. We've also built our towns and cities with lots of rock and concrete. It absorbs the heat and then radiates it back out, making that heat even more unbearable. We're also building lots of shiny new apartments with lots of glass, which traps the heat, just like a greenhouse. And it may come as a surprise to those people not living here, but only about 5% of homes in the UK have air conditioning. All this means is that so far we haven't adapted our lives to extreme heat in the way many other countries already",
-          "category": "environment",
-          "summary": "This video explains why the UK is poorly prepared for extreme heat waves. It looks at how the country's infrastructure, buildings, and low rates of air conditioning make hot weather especially difficult to cope with. The video also points out that the UK will need to adapt as temperatures rise in the future.",
-          "multipleChoice": [
-            {
-              "question": "What is the average summer temperature in the UK, according to the video?",
-              "options": [
-                "About 24 degrees Celsius",
-                "About 12 degrees Celsius",
-                "About 20 degrees Celsius",
-                "About 16 degrees Celsius"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "question": "Why can high temperatures cause train cancellations in the UK?",
-              "options": [
-                "Stations become too crowded during heat waves",
-                "Train drivers refuse to work in hot weather",
-                "Train tracks melt and become dangerous",
-                "Power lines sag in the heat, affecting the electricity supply"
-              ],
-              "correctIndex": 3
-            },
-            {
-              "question": "Approximately what percentage of homes in the UK have air conditioning?",
-              "options": [
-                "About 15%",
-                "About 5%",
-                "About 25%",
-                "About 10%"
-              ],
-              "correctIndex": 1
-            }
-          ],
-          "trueFalse": [
-            {
-              "statement": "Rock and concrete in cities absorb heat and then radiate it back out, making conditions more unbearable.",
-              "answer": true
-            },
-            {
-              "statement": "The UK is well prepared for extreme heat because most homes have air conditioning.",
-              "answer": false
-            },
-            {
-              "statement": "New apartments with lots of glass can trap heat in a similar way to a greenhouse.",
-              "answer": true
-            }
-          ],
-          "ordering": {
-            "instruction": "Put these topics in the order they were mentioned in the video.",
-            "items": [
-              "The UK's average summer temperature and mild building conditions",
-              "Train cancellations caused by sagging power lines in heat",
-              "Rock and concrete in towns and cities absorbing and radiating heat",
-              "The low percentage of UK homes with air conditioning"
             ]
           }
         }
