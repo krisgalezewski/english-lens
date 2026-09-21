@@ -1,6 +1,684 @@
 {
   "editions": [
     {
+      "generated": "2026-09-21T05:05:17.356Z",
+      "week": "2026-W38",
+      "articles": [
+        {
+          "id": "17899668693906rdf",
+          "title": "Poland joins European Anti-Ballistic Missile Coalition",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/09/18/poland-joins-european-anti-ballistic-missile-coalition/",
+          "category": "politics",
+          "date": "2026-09-18",
+          "summaryB1": "Poland has joined a European coalition designed to protect countries from ballistic missile attacks. A ballistic missile is a powerful weapon that travels through the air at very high speed and can carry a large explosive. The news was announced by Polish Prime Minister Donald Tusk during a visit to Ukraine, where he met with Ukrainian President Volodymyr Zelensky. This meeting took place in Ukraine itself, which shows strong support for the country during its ongoing war with Russia. The coalition brings together several European nations that want to build a shared defence system against missile threats. By joining, Poland is taking a clear step to protect its own territory and to work more closely with its European partners. Poland shares a border with Ukraine and has been one of the strongest supporters of Kyiv since the Russian invasion began in 2022. For Poland, being part of this coalition means it can access better technology and share the cost of building missile defence systems with other countries. This kind of cooperation between allies is seen as a way to make Europe safer. The decision also sends a strong political message to Russia that European countries are united in defending themselves against potential attacks.",
+          "vocabularyB1": [
+            {
+              "word": "coalition",
+              "definition": "A group of different countries or people who work together for a shared purpose."
+            },
+            {
+              "word": "ballistic missile",
+              "definition": "A powerful weapon launched into the air that falls onto a target at high speed."
+            },
+            {
+              "word": "defence system",
+              "definition": "Equipment and methods used to protect a country from military attacks."
+            },
+            {
+              "word": "allies",
+              "definition": "Countries that have agreed to support and help each other, especially in times of conflict."
+            },
+            {
+              "word": "territory",
+              "definition": "The land that belongs to or is controlled by a particular country."
+            }
+          ],
+          "questionB1": "Why might Poland consider joining a missile defence coalition especially important for protecting its own territory and supporting its allies?",
+          "summaryB2": "Poland has formally joined a European anti-ballistic missile coalition, a move announced by Prime Minister Donald Tusk during a face-to-face meeting with Ukrainian President Volodymyr Zelensky on Ukrainian soil. The choice of location for the announcement was itself a pointed diplomatic gesture, signalling Warsaw's continued solidarity with Kyiv amid Russia's ongoing military aggression. Anti-ballistic missile systems are designed to intercept and destroy incoming ballistic missiles before they reach their targets, making membership in such a coalition a tangible reinforcement of a country's air defence capabilities. For Poland, a NATO member that shares a border with Ukraine and has consistently positioned itself as one of Kyiv's most vocal advocates within the European Union, this step represents a deepening of its commitment to collective continental security. The coalition model allows member states to pool resources, share intelligence, and jointly procure advanced technology, distributing costs that would be prohibitive for any single nation acting alone. The timing of the announcement is telling: as the war in Ukraine grinds on and missile strikes on civilian infrastructure have become a defining feature of the conflict, European governments face mounting pressure to demonstrate credible deterrence. Poland's accession to the coalition may well encourage other hesitant EU members to follow suit, gradually consolidating a more unified European approach to missile defence that operates alongside, rather than in competition with, existing NATO frameworks.",
+          "vocabularyB2": [
+            {
+              "word": "diplomatic gesture",
+              "definition": "An action by a government intended to send a political message to other countries."
+            },
+            {
+              "word": "solidarity",
+              "definition": "Support and agreement between people or countries who share the same goals or difficulties."
+            },
+            {
+              "word": "intercept",
+              "definition": "To stop or catch something, such as a missile, before it reaches its intended destination."
+            },
+            {
+              "word": "deterrence",
+              "definition": "The use of military power or threats to discourage an enemy from attacking."
+            },
+            {
+              "word": "accession",
+              "definition": "The formal act of joining or becoming a member of a group, treaty, or organisation."
+            }
+          ],
+          "questionB2": "To what extent does Poland's accession to a European missile coalition reflect a shift towards greater European strategic autonomy in defence, and how might this affect the solidarity among NATO allies?"
+        },
+        {
+          "id": "1789966889834s33s",
+          "title": "Moody’s cuts Poland’s credit rating to lowest level since 2002",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/09/19/moodys-cuts-polands-credit-rating-to-lowest-level-since-2002/",
+          "category": "business",
+          "date": "2026-09-19",
+          "summaryB1": "Moody's, one of the world's top credit rating agencies, has lowered Poland's credit rating to its lowest level since 2002. A credit rating is a score that shows how likely a country is to pay back its money to lenders. When this score goes down, it becomes more expensive for a country to borrow money.\n\nMoody's made this decision because it expects a sustained deterioration in Poland's fiscal strength. This means the agency believes Poland's public finances will get worse over a long period of time and will not quickly recover.\n\nPoland has been spending heavily in recent years, especially on defence and social programmes. This has led to a growing budget deficit, which means the government is spending more money than it receives in taxes.\n\nA lower credit rating can affect ordinary people too. When a government has to pay more to borrow money, there is less money available for schools, hospitals, and other public services.\n\nPoland is not alone in facing these challenges. Many European countries are dealing with similar financial pressures. However, this downgrade is a warning sign that Poland needs to find a better balance between spending and income. Economists will be watching closely to see how the Polish government responds to this rating cut in the coming months.",
+          "vocabularyB1": [
+            {
+              "word": "credit rating",
+              "definition": "A score that shows how safely a country or company can borrow money from others."
+            },
+            {
+              "word": "lenders",
+              "definition": "People or organisations that give money to others, expecting it to be paid back."
+            },
+            {
+              "word": "deterioration",
+              "definition": "The process of something becoming worse or of lower quality over time."
+            },
+            {
+              "word": "budget deficit",
+              "definition": "When a government spends more money than it collects, leaving a financial gap."
+            },
+            {
+              "word": "downgrade",
+              "definition": "An official reduction in a score or level, showing something is seen as less safe."
+            }
+          ],
+          "questionB1": "Why do you think a downgrade in a country's credit rating can affect ordinary citizens and everyday public services?",
+          "summaryB2": "Moody's, one of the world's leading credit rating agencies, has cut Poland's sovereign credit rating to its lowest point since 2002, citing expectations of a sustained deterioration in the country's fiscal strength. The decision reflects the agency's assessment that Poland's public finances are on a worsening trajectory that is unlikely to stabilise in the near term.\n\nPoland has significantly expanded its public spending in recent years, driven largely by substantial increases in defence expenditure — partly in response to Russia's war in Ukraine — as well as generous social welfare commitments. These outlays have widened the budget deficit considerably, raising questions about the government's capacity to restore fiscal discipline without painful trade-offs.\n\nA sovereign downgrade of this kind carries real consequences. It typically results in higher borrowing costs for the government, as investors demand greater returns to compensate for perceived risk. Over time, this can crowd out productive public investment and put additional pressure on an already stretched national budget.\n\nSome analysts argue that Poland's spending choices, particularly on defence, are strategically justified given the country's geopolitical position. Others caution that without a credible consolidation plan, the rating trajectory may worsen further. The Polish government has not yet outlined a clear path to reducing the deficit, and financial markets will be scrutinising any forthcoming fiscal announcements closely. This downgrade serves as a stark reminder that even economies with solid growth records are not immune to the consequences of prolonged fiscal imbalance.",
+          "vocabularyB2": [
+            {
+              "word": "sovereign credit rating",
+              "definition": "An official score given to a country showing how reliably it can repay its debts."
+            },
+            {
+              "word": "fiscal strength",
+              "definition": "The overall health and stability of a government's finances and its ability to manage debt."
+            },
+            {
+              "word": "outlays",
+              "definition": "Sums of money spent by a government or organisation on particular purposes."
+            },
+            {
+              "word": "consolidation plan",
+              "definition": "A formal strategy to reduce government debt and bring spending back under control."
+            },
+            {
+              "word": "scrutinising",
+              "definition": "Examining something very carefully and critically, looking for problems or important details."
+            }
+          ],
+          "questionB2": "To what extent do you think a government can justify rising outlays on defence and social programmes when doing so risks a sovereign credit rating downgrade and higher long-term borrowing costs?"
+        },
+        {
+          "id": "1789966917158ytap",
+          "title": "American Nobel laureate receives Polish citizenship",
+          "source": "Notes from Poland",
+          "originalUrl": "https://notesfrompoland.com/2026/09/18/american-nobel-laureate-receives-polish-citizenship/",
+          "category": "culture",
+          "date": "2026-09-18",
+          "summaryB1": "Victor Ambros is an American scientist who won the Nobel Prize in Physiology or Medicine in 2024. He shared this prize with Gary Ruvkun for their discovery of microRNA, tiny molecules that control how genes work inside living things. Recently, Ambros received Polish citizenship. This means he is now both an American and a Polish citizen.\n\nAmbros has connections to Poland. His family has Polish roots, which may be one reason he feels a bond with the country. After receiving citizenship, he said he wants to help improve the international position of Polish science. This means he hopes Polish research and scientists will become better known around the world.\n\nPoland has been working to raise its profile in global science. Having a Nobel laureate as a citizen could help attract attention and investment to Polish universities and research centres. A laureate is someone who has received a major award or prize.\n\nFor Poland, this is a proud moment. It shows that the country values science and wants to build strong links with top researchers worldwide. For Ambros, accepting citizenship is a way to honour his heritage and give something back.\n\nThis story matters because it connects scientific achievement with national identity. It also shows how science can bring different countries closer together through shared goals and values.",
+          "vocabularyB1": [
+            {
+              "word": "roots",
+              "definition": "Family or cultural connections to a place or country from the past"
+            },
+            {
+              "word": "citizen",
+              "definition": "A person who legally belongs to a particular country and has rights there"
+            },
+            {
+              "word": "laureate",
+              "definition": "A person who has received a special prize or award for great achievement"
+            },
+            {
+              "word": "heritage",
+              "definition": "Traditions, history, and values passed down from family or culture"
+            },
+            {
+              "word": "profile",
+              "definition": "The level of public attention or recognition that someone or something receives"
+            }
+          ],
+          "questionB1": "Why might having a Nobel laureate as a citizen help raise the profile of Polish science around the world?",
+          "summaryB2": "American biologist Victor Ambros, who was awarded the Nobel Prize in Physiology or Medicine in 2024 alongside Gary Ruvkun, has been granted Polish citizenship in a move that has drawn considerable attention to Poland's scientific ambitions. The two researchers were recognised for their groundbreaking discovery of microRNA, small molecules that play a fundamental role in regulating gene expression across living organisms.\n\nAmbros, who reportedly has Polish ancestry, stated that he wishes to help improve the international standing of Polish science — a goal that resonates with Poland's ongoing efforts to elevate its reputation in global research. The conferral of citizenship on a Nobel laureate can be seen as a symbolic gesture, yet it may also carry tangible benefits: associating a world-renowned scientist with Polish institutions could enhance the country's appeal to international collaborators and funding bodies.\n\nFrom a diplomatic and cultural perspective, the decision reflects a growing trend among nations to cultivate ties with distinguished figures in academia and science. Poland, like many Central European countries, is keen to assert itself as a serious contributor to global knowledge production rather than merely a recipient of Western expertise.\n\nFor Ambros himself, accepting citizenship appears to be both a personal acknowledgement of his heritage and a public commitment to a country he feels connected to. Whether his involvement will translate into concrete initiatives remains to be seen, but the gesture has already succeeded in drawing international media attention to Polish science.",
+          "vocabularyB2": [
+            {
+              "word": "conferral",
+              "definition": "The formal act of officially giving someone something, such as a title or honour"
+            },
+            {
+              "word": "tangible",
+              "definition": "Real and measurable; something you can clearly see or experience, not just theoretical"
+            },
+            {
+              "word": "cultivate",
+              "definition": "To carefully develop or build a relationship, skill, or situation over time"
+            },
+            {
+              "word": "assert",
+              "definition": "To state or show something with confidence, making clear it is true or deserved"
+            },
+            {
+              "word": "resonates",
+              "definition": "Feels meaningful or relevant to someone; connects with their feelings or experiences"
+            }
+          ],
+          "questionB2": "To what extent can the conferral of citizenship on distinguished scientists help a country assert its place in global research, and what are the potential limitations of such symbolic gestures?"
+        },
+        {
+          "id": "17899669417202j16",
+          "title": "Artificial intelligence now beats some of the best human forecasters",
+          "source": "The Economist Sci-Tech",
+          "originalUrl": "https://www.economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best-human-forecasters",
+          "category": "technology",
+          "date": "2026-09-16",
+          "summaryB1": "For a long time, people have tried to predict the future. Some experts, called forecasters, are very good at guessing what will happen in areas like politics, economics, and world events. Now, artificial intelligence (AI) is starting to do this job too — and it is doing it very well. According to a study reported in The Economist, AI systems based on large language models (LLMs) can now outperform some of the best human forecasters. This is surprising because top human forecasters spend years developing their skills. LLMs are computer programs trained on huge amounts of text. They can process information very quickly and look for patterns that humans might miss. Researchers tested AI systems against experienced human forecasters on hundreds of different questions about real-world events. The AI performed better in many cases. This matters because accurate predictions help governments, businesses, and organisations make better decisions. For example, knowing which conflicts might happen or how markets might move can help leaders plan ahead. However, experts warn that AI is not perfect. It can still make mistakes, especially with unusual or unexpected events. Some people also worry about relying too much on machines for important decisions. Still, these results show that AI is becoming a powerful tool for understanding what the future might hold.",
+          "vocabularyB1": [
+            {
+              "word": "forecaster",
+              "definition": "A person who predicts what will happen in the future, based on available information."
+            },
+            {
+              "word": "outperform",
+              "definition": "To do something better than another person or thing."
+            },
+            {
+              "word": "accurate",
+              "definition": "Correct and without mistakes; exactly right."
+            },
+            {
+              "word": "process",
+              "definition": "To handle or analyse information in a systematic way."
+            },
+            {
+              "word": "rely on",
+              "definition": "To depend on someone or something and trust that they will help you."
+            }
+          ],
+          "questionB1": "If AI can outperform human forecasters, should governments rely on AI to make big decisions about the future?",
+          "summaryB2": "The ancient dream of predicting the future has taken a striking technological turn. According to The Economist, AI systems powered by large language models (LLMs) have demonstrated an ability to outperform some of the world's most accomplished human forecasters — individuals who have spent years honing their predictive skills across domains ranging from geopolitics to financial markets. The findings emerge from structured evaluations in which AI models were pitted against seasoned forecasters on hundreds of real-world questions. In many instances, the AI delivered more accurate predictions, processing vast quantities of information and detecting subtle patterns that elude even experienced human analysts. This development carries considerable implications. Reliable forecasting underpins strategic decision-making in governments, international organisations, and the private sector alike. If AI can consistently match or surpass human performance, it could reshape how institutions anticipate crises, allocate resources, and formulate policy. Yet the picture is not entirely straightforward. Sceptics caution that LLMs remain susceptible to failure when confronted with genuinely novel or low-precedent events — precisely the situations where accurate foresight matters most. There are also ethical questions about algorithmic accountability: when an AI forecast shapes a consequential decision and proves wrong, it is far from clear who bears responsibility. Nonetheless, the results signal a tangible shift in the capabilities of AI, suggesting that machine intelligence is no longer merely a support tool but an emerging rival to expert human judgement.",
+          "vocabularyB2": [
+            {
+              "word": "honing",
+              "definition": "Gradually improving a skill or ability over time through practice and experience."
+            },
+            {
+              "word": "seasoned",
+              "definition": "Highly experienced and skilled, especially after many years of practice."
+            },
+            {
+              "word": "elude",
+              "definition": "To escape or avoid something; to be too difficult for someone to notice or achieve."
+            },
+            {
+              "word": "susceptible",
+              "definition": "Easily affected by something harmful or likely to be influenced by it."
+            },
+            {
+              "word": "algorithmic accountability",
+              "definition": "The idea that those who create or use AI systems should be responsible for the decisions those systems make."
+            }
+          ],
+          "questionB2": "Given that AI remains susceptible to error in unprecedented situations, how should institutions balance algorithmic accountability with the genuine predictive gains these systems appear to offer?"
+        },
+        {
+          "id": "1789966969540sm07",
+          "title": "A transplanted pig kidney buys time for a human one to become available",
+          "source": "The Economist Sci-Tech",
+          "originalUrl": "https://www.economist.com/science-and-technology/2026/09/09/a-transplanted-pig-kidney-buys-time-for-a-human-one-to-become-available",
+          "category": "environment",
+          "date": "2026-09-09",
+          "summaryB1": "Scientists have successfully used a pig kidney to keep a human patient alive while they waited for a human kidney to become available. This is called a xenotransplant, which means transplanting an organ from one species into another. The pig used in this case had its genes changed so that its organs would be more accepted by the human body. Without this pig kidney, the patient might have died before a human donor organ was found. Many people around the world need organ transplants, but there are not enough human donors. This means patients often wait for months or even years on transplant waiting lists. Some of them die while waiting. Using pig organs as a temporary solution could save many lives. The pig kidney worked well enough to buy the patient time until a human kidney became available. Doctors were able to remove the pig kidney and replace it with a human one. This case gives scientists more confidence that cross-species transplants can work safely. It also shows that animals with modified genes could help solve the shortage of donor organs. Many doctors and researchers believe this approach could become a standard part of medicine in the future, offering real hope to patients in need.",
+          "vocabularyB1": [
+            {
+              "word": "xenotransplant",
+              "definition": "A medical procedure where an organ from one animal species is put into another species"
+            },
+            {
+              "word": "donor",
+              "definition": "A person who gives something, such as an organ, to help another person"
+            },
+            {
+              "word": "genes",
+              "definition": "Tiny parts inside cells that control how a living thing looks and works"
+            },
+            {
+              "word": "shortage",
+              "definition": "A situation where there is not enough of something that is needed"
+            },
+            {
+              "word": "temporary",
+              "definition": "Lasting only for a short time, not permanent"
+            }
+          ],
+          "questionB1": "If there is a serious shortage of donor organs, do you think using animal organs as a temporary solution is a good idea? Why or why not?",
+          "summaryB2": "A landmark development in xenotransplantation has shown that a genetically modified pig kidney can serve as a viable bridge organ, keeping a human patient alive long enough for a suitable human kidney to become available. The pig used in the procedure had undergone extensive genetic editing to remove proteins that would normally trigger immediate immune rejection in humans. Once a compatible human donor organ was found, surgeons removed the pig kidney and successfully completed a conventional transplant. The patient survived the entire process.\n\nThis case carries considerable weight for the medical community. Tens of thousands of patients are on transplant waiting lists at any given time, and a substantial number die before a match is found. The chronic scarcity of human donor organs has long been one of medicine's most intractable problems, and xenotransplantation has for decades been proposed as a potential remedy. However, earlier attempts were plagued by complications, including aggressive immune responses and concerns about cross-species viral transmission.\n\nThe success of this case strengthens the argument that genetically engineered pig organs could be deployed not merely as a last resort, but as a deliberate, planned strategy to extend patients' lives during the waiting period. Ethicists and regulators will need to weigh the benefits against outstanding concerns about animal welfare and long-term patient outcomes. Nevertheless, proponents argue that the evidence is now compelling enough to accelerate clinical trials and move xenotransplantation closer to mainstream medical practice.",
+          "vocabularyB2": [
+            {
+              "word": "xenotransplantation",
+              "definition": "The medical practice of transplanting organs or tissues from one animal species into another"
+            },
+            {
+              "word": "immune rejection",
+              "definition": "When the body's defence system attacks and tries to destroy a transplanted foreign organ"
+            },
+            {
+              "word": "intractable",
+              "definition": "Extremely difficult to deal with or solve, despite many attempts"
+            },
+            {
+              "word": "scarcity",
+              "definition": "A situation in which something is rare or in very short supply"
+            },
+            {
+              "word": "proponents",
+              "definition": "People who actively support or advocate for a particular idea or course of action"
+            }
+          ],
+          "questionB2": "Given the persistent scarcity of donor organs and the ethical concerns surrounding animal use in medicine, how should regulators balance the urgency of patient need against the risks posed by wider xenotransplantation trials?"
+        },
+        {
+          "id": "1789966990228ohvf",
+          "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
+          "source": "BBC News Europe",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
+          "category": "politics",
+          "date": "2026-09-21",
+          "summaryB1": "German Chancellor Friedrich Merz has called recent state election results a 'disaster' for his party, the CDU. Exit polls showed that the CDU suffered heavy losses in two German states: Mecklenburg-Vorpommern and Berlin. Despite these poor results, Merz has promised to stay on as Chancellor and leader of his party. The CDU is a centre-right political party, which means it supports moderate conservative values. State elections in Germany are held separately from national elections and can show how voters feel about the party in power. When a ruling party loses support in regional votes, it is often seen as a warning sign about its popularity across the whole country. Merz became Chancellor earlier this year, so these early losses are a serious blow to his leadership. Many voters appear to be unhappy with the direction of the CDU. However, Merz is determined to continue in his role and has vowed not to step down. Political analysts will be watching closely to see whether these losses affect his ability to govern at the national level. For now, the Chancellor is trying to stay strong in the face of difficult news, even though his party has clearly taken a damaging hit in both regions.",
+          "vocabularyB1": [
+            {
+              "word": "disaster",
+              "definition": "Something very bad that causes serious problems or failure"
+            },
+            {
+              "word": "exit polls",
+              "definition": "Surveys taken just after people vote, used to predict election results"
+            },
+            {
+              "word": "losses",
+              "definition": "Situations where a party wins fewer votes or seats than before"
+            },
+            {
+              "word": "vowed",
+              "definition": "Made a serious and firm promise to do something"
+            },
+            {
+              "word": "ruling party",
+              "definition": "The political party that is currently in power and controls the government"
+            }
+          ],
+          "questionB1": "When a ruling party suffers heavy losses in regional elections, should its leader vowed to stay on, or consider resigning? Why?",
+          "summaryB2": "German Chancellor Friedrich Merz has publicly described the CDU's performance in two recent state elections as a 'disaster', after exit polls indicated severe losses for his centre-right party in both Mecklenburg-Vorpommern and Berlin. Despite the damaging setback, Merz has pledged to remain in office, signalling his intention to hold firm against mounting pressure on his leadership. The results represent an early and uncomfortable test for Merz, who assumed the chancellorship only recently. State-level elections in Germany are widely regarded as a barometer of national sentiment, offering a snapshot of how voters feel about the federal government's direction and competence. Consecutive poor showings at the regional level can erode a party's authority and embolden its political opponents, making it harder to push through legislative priorities. From one perspective, Merz's willingness to acknowledge the results openly and without deflection demonstrates a degree of political accountability rarely seen in such circumstances. Critics, however, argue that the CDU must undergo serious self-reflection and adapt its platform if it hopes to reverse its declining electoral fortunes. The losses also raise questions about whether internal party cohesion will hold, given that disappointing results often trigger dissent among senior figures. How the CDU responds to this setback in the coming weeks may well determine whether Merz can consolidate his position or faces further challenges to his authority.",
+          "vocabularyB2": [
+            {
+              "word": "barometer",
+              "definition": "Something that measures or reflects the state of public opinion or a situation"
+            },
+            {
+              "word": "erode",
+              "definition": "To gradually weaken or reduce something over time"
+            },
+            {
+              "word": "accountability",
+              "definition": "The responsibility to explain and accept consequences for one's decisions or actions"
+            },
+            {
+              "word": "cohesion",
+              "definition": "The quality of working together in a united and effective way"
+            },
+            {
+              "word": "electoral fortunes",
+              "definition": "A party's overall success or failure in winning elections"
+            }
+          ],
+          "questionB2": "To what extent can a leader's public accountability for poor electoral fortunes help to stabilise party cohesion, and when might such openness instead accelerate internal conflict?"
+        },
+        {
+          "id": "1789967013375cvzk",
+          "title": "How an oil-supply crisis could bring about an investment boom",
+          "source": "The Economist Business",
+          "originalUrl": "https://www.economist.com/business/2026/09/13/how-an-oil-supply-crisis-could-bring-about-an-investment-boom",
+          "category": "business",
+          "date": "2026-09-13",
+          "summaryB1": "A war in the Gulf region has caused oil prices to rise sharply. This has been very good news for oil companies. When oil prices go up, companies that produce and sell oil earn much more money than usual. This extra money is called a windfall – money that arrives suddenly and unexpectedly.\n\nOil companies have used this windfall in two main ways. First, they have strengthened their balance-sheets. A balance-sheet shows a company's financial health – its assets and its debts. When a company shores up its balance-sheet, it becomes more financially stable and secure. Second, they have enriched shareholders – the people who own shares in the company – by paying them larger dividends or buying back their shares.\n\nNow, analysts expect the next phase to begin: expansion. Oil companies are likely to start investing heavily in new projects, new equipment, and new capacity. This means they will spend money to produce even more oil in the future.\n\nThis matters for everyone, not just investors. More oil production can affect energy prices around the world. If companies expand and produce more oil, prices may eventually fall. However, expansion also takes time and money, so the effects will not be immediate. The situation shows how a crisis in one part of the world can quickly change business decisions everywhere.",
+          "vocabularyB1": [
+            {
+              "word": "windfall",
+              "definition": "A large amount of money received suddenly and unexpectedly, often due to good luck or good conditions"
+            },
+            {
+              "word": "balance-sheet",
+              "definition": "A financial document showing what a company owns, owes, and is worth at a specific time"
+            },
+            {
+              "word": "shareholder",
+              "definition": "A person who owns shares in a company and receives part of its profits"
+            },
+            {
+              "word": "expansion",
+              "definition": "The process of growing larger, producing more, or moving into new areas of business"
+            },
+            {
+              "word": "capacity",
+              "definition": "The maximum amount that a company or system is able to produce or handle"
+            }
+          ],
+          "questionB1": "When a company receives a windfall, do you think it should focus on expansion or on rewarding shareholders first? Why?",
+          "summaryB2": "The Gulf war has generated an unexpected financial boon for oil producers, with elevated crude prices swelling revenues far beyond normal operating levels. In the first phase of this windfall cycle, companies moved predictably to consolidate their positions: shoring up balance-sheets weakened by years of volatile markets and distributing generous returns to shareholders through buybacks and dividends. The enrichment of investors has been swift and substantial.\n\nYet analysts now anticipate a decisive shift in corporate strategy. With their financial foundations stabilised, major oil companies are expected to pivot toward capital expenditure – committing significant funds to new drilling projects, infrastructure upgrades, and production capacity. This anticipated investment boom reflects a pattern well-known in commodity industries: a supply shock drives up prices, companies accumulate profits, and those profits are eventually recycled into fresh output.\n\nThe implications are considerable. A surge in investment could, over time, increase global oil supply and exert downward pressure on prices, potentially undermining the very conditions that made the boom possible. Critics argue that pouring capital into fossil fuel expansion sits uncomfortably alongside climate commitments, while proponents contend that energy security concerns, sharpened by geopolitical instability, justify the expenditure.\n\nFor the broader investment community, the pattern also raises questions about timing. Oil markets are notoriously cyclical, and companies that over-commit during a price spike risk being caught with excess capacity when conditions soften. Disciplined capital allocation, rather than euphoric expansion, may ultimately determine which producers emerge strongest from this episode.",
+          "vocabularyB2": [
+            {
+              "word": "capital expenditure",
+              "definition": "Money a company spends on buying, improving, or expanding physical assets like equipment or infrastructure"
+            },
+            {
+              "word": "commodity",
+              "definition": "A raw material or basic good, such as oil, gas, or metals, that is bought and sold in large quantities"
+            },
+            {
+              "word": "cyclical",
+              "definition": "Following a repeated pattern of rises and falls, especially in relation to economic or market conditions"
+            },
+            {
+              "word": "geopolitical",
+              "definition": "Relating to the influence of geography and international politics on world events and power relations"
+            },
+            {
+              "word": "capital allocation",
+              "definition": "The process of deciding how a company distributes and invests its financial resources among different projects"
+            }
+          ],
+          "questionB2": "Given that oil markets are notoriously cyclical, how should companies approach capital allocation during a price boom to avoid being overexposed when conditions inevitably soften?"
+        },
+        {
+          "id": "178996703502124kn",
+          "title": "Which leader from history does the world need now?",
+          "source": "The Guardian Lifestyle",
+          "originalUrl": "https://www.theguardian.com/lifeandstyle/2026/sep/20/which-leader-from-history-does-the-world-need-now",
+          "category": "culture",
+          "date": "2026-09-20",
+          "summaryB1": "A popular Guardian series asks readers to answer interesting questions sent in by other readers. The questions can be about simple, fun topics or deep ideas about science and philosophy. This week's question comes from a reader called Bernard, who lives in Machynlleth. He asks: which leader from history does the world need most right now?\n\nBernard explains why he is asking. The world is facing many serious problems at the moment. The climate crisis is getting worse. Nationalism is on the rise in many countries. There is also a lot of political tension between powerful nations. On top of that, some people worry that artificial intelligence could become dangerous very soon.\n\nBecause of all these challenges, Bernard believes the world needs strong, ethical leadership. He wonders if a great leader from the past could help if we could bring them to the present day.\n\nReaders are invited to share their answers. They can post their ideas in the comments below the article or send them by email. The Guardian will choose the best replies and publish them the following Sunday.\n\nThis kind of question is thought-provoking because it makes us think about what qualities a good leader needs. It also helps us reflect on the problems we face today and whether history can teach us anything useful.",
+          "vocabularyB1": [
+            {
+              "word": "philosophy",
+              "definition": "The study of big questions about life, knowledge, right and wrong"
+            },
+            {
+              "word": "nationalism",
+              "definition": "Strong belief that your own country is better and more important than others"
+            },
+            {
+              "word": "ethical",
+              "definition": "Behaving in a way that is morally right and honest"
+            },
+            {
+              "word": "tension",
+              "definition": "A feeling of difficulty or conflict between people, groups or countries"
+            },
+            {
+              "word": "thought-provoking",
+              "definition": "Something that makes you think deeply about a topic or idea"
+            }
+          ],
+          "questionB1": "If you could bring one ethical leader from history to the present day, who would you choose and why?",
+          "summaryB2": "The Guardian's long-running reader Q&A series, in which members of the public pose questions for fellow readers to answer, has turned its attention to the subject of historical leadership. This week's question, submitted by a reader named Bernard from Machynlleth, asks which figure from the past the world would most benefit from having now — and why.\n\nThe question is framed against a backdrop of mounting global challenges. Bernard cites the worsening climate crisis, the resurgence of nationalism across numerous countries, geopolitical tumult between major powers, and the spectre of artificial intelligence posing an existential threat within this decade. Taken together, these pressures point, in his view, to a profound deficit of ethically astute and capable leadership in today's world.\n\nThe premise is a classic thought experiment: if you could timewarp a historical leader into the present, who would be most equipped to address the crises we face? The question implicitly invites readers to consider not just individual figures, but what qualities — vision, moral courage, diplomatic skill — are most lacking in contemporary politics.\n\nThe series, which covers topics ranging from lighthearted speculation to philosophical inquiry, publishes a curated selection of reader responses each Sunday. Readers can submit their answers in the comments section or via email. The question taps into a widespread sense of disillusionment with current leaders and a nostalgic, if contested, belief that history offers models worth revisiting.",
+          "vocabularyB2": [
+            {
+              "word": "geopolitical tumult",
+              "definition": "A period of great disorder and confusion in relations between countries"
+            },
+            {
+              "word": "resurgence",
+              "definition": "When something becomes strong or popular again after a quiet period"
+            },
+            {
+              "word": "ethically astute",
+              "definition": "Clever and skilled at understanding what is morally right in complex situations"
+            },
+            {
+              "word": "thought experiment",
+              "definition": "An imaginary scenario used to explore ideas or test how we think"
+            },
+            {
+              "word": "disillusionment",
+              "definition": "A feeling of disappointment after realising something is not as good as expected"
+            }
+          ],
+          "questionB2": "Given today's geopolitical tumult and the resurgence of nationalism, do you think any single historical leader could realistically offer a useful model for modern governance, or is that belief dangerously oversimplified?"
+        },
+        {
+          "id": "178996705680625wk",
+          "title": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+          "source": "BBC Business",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/cr5ye7p13jg7o?at_medium=RSS&at_campaign=rss",
+          "category": "technology",
+          "date": "2026-09-21",
+          "summaryB1": "Jensen Huang, the boss of Nvidia, a very successful technology company, has said that he does not believe artificial intelligence will cause the end of humanity. Some AI researchers have warned that AI could one day become so powerful that it might lead to human extinction. These warnings are sometimes called 'doomsday narratives' – stories about a terrible future where everything goes wrong. Huang strongly disagrees with this idea and thinks such fears are exaggerated. Nvidia is one of the most valuable companies in the world right now because it makes the computer chips that are needed to develop AI systems. This means Huang has a lot of influence in the AI industry. His comments have started a debate about how dangerous AI really is. Some experts think we should be careful and put limits on AI development. Others, like Huang, believe AI will bring great benefits to society and that we should not be afraid of it. The discussion about AI safety is not new, but it is becoming more public as AI technology develops faster and faster. It matters because the decisions made today about AI could affect everyone in the future. Understanding different opinions on this topic helps us think about what kind of future we want.",
+          "vocabularyB1": [
+            {
+              "word": "extinction",
+              "definition": "When every member of a species or group dies and no longer exists"
+            },
+            {
+              "word": "exaggerated",
+              "definition": "Described as bigger, worse, or more serious than it really is"
+            },
+            {
+              "word": "influence",
+              "definition": "The power to affect what other people think or do"
+            },
+            {
+              "word": "debate",
+              "definition": "A serious discussion between people who have different opinions"
+            },
+            {
+              "word": "doomsday narratives",
+              "definition": "Stories or ideas that predict a terrible disaster or the end of the world"
+            }
+          ],
+          "questionB1": "Do you think public debate about the dangers of AI is useful, or do doomsday narratives just make people unnecessarily afraid?",
+          "summaryB2": "Jensen Huang, chief executive of Nvidia – the semiconductor giant whose chips underpin much of the world's AI infrastructure – has publicly dismissed warnings that artificial intelligence poses an existential threat to humanity, labelling such warnings 'doomsday narratives.' His remarks push back against a growing chorus of AI researchers who contend that increasingly capable AI systems could, if left unchecked, ultimately contribute to human extinction. Huang's scepticism is notable given his position at the centre of the AI boom. Nvidia's graphics processing units have become indispensable to training large AI models, making the company one of the most highly valued in the world and giving Huang an unparalleled vantage point on how the technology actually develops in practice. Critics, however, argue that dismissing extinction-level risks as mere scaremongering is itself a form of complacency, particularly at a moment when governments and international bodies are still formulating regulatory frameworks for AI. Proponents of caution point out that some of the researchers raising alarms are not fringe voices but respected figures within the field. The disagreement reflects a fundamental tension in the AI debate: between those who view the technology primarily through the lens of its transformative potential and those who believe that potential must be weighed carefully against catastrophic risk. How societies reconcile these opposing viewpoints may well shape the trajectory of AI governance for decades to come.",
+          "vocabularyB2": [
+            {
+              "word": "existential threat",
+              "definition": "A danger so serious it could cause the complete destruction of humanity or a group"
+            },
+            {
+              "word": "scepticism",
+              "definition": "A doubtful attitude; a tendency to question whether something is true or right"
+            },
+            {
+              "word": "complacency",
+              "definition": "A relaxed, uncritical attitude that ignores possible dangers or problems"
+            },
+            {
+              "word": "regulatory frameworks",
+              "definition": "Sets of official rules and laws created to control or manage an industry or activity"
+            },
+            {
+              "word": "trajectory",
+              "definition": "The path or direction in which something develops or changes over time"
+            }
+          ],
+          "questionB2": "Given Huang's commercial stake in AI expansion, to what extent should his scepticism about existential threat be treated as an informed reassurance rather than a case of complacency?"
+        },
+        {
+          "id": "1789967077614wv2i",
+          "title": "Do you feel guilty when calling in sick at work? This might be why...",
+          "source": "BBC Health",
+          "originalUrl": "https://www.bbc.co.uk/news/articles/ce8e70x3pjzo?at_medium=RSS&at_campaign=rss",
+          "category": "environment",
+          "date": "2026-09-15",
+          "summaryB1": "Many people go to work even when they are sick. In fact, studies show that up to half of all workers do this. But why do so many people feel they cannot simply stay at home and rest when they are unwell?\n\nExperts say the reasons are complex. Some people feel guilty about letting their colleagues down. They worry that their work will not get done, or that their boss will think badly of them. This kind of pressure can be hard to ignore, even when a person feels terrible.\n\nIn some workplaces, there is a strong culture of always being present. Workers may feel that taking a sick day is a sign of weakness. They may also fear losing money if they do not get paid when they are absent.\n\nThis behaviour has a name: presenteeism. It means being at work physically, but not being able to perform well because of illness. Experts warn that presenteeism can actually make things worse. A sick person may recover more slowly, and they can also spread illness to others.\n\nHealth professionals say it is better to rest when you are unwell. Employers also have a responsibility to create an environment where staff feel comfortable taking time off when they need it. Looking after your health should always come first.",
+          "vocabularyB1": [
+            {
+              "word": "unwell",
+              "definition": "Feeling ill or not in good health."
+            },
+            {
+              "word": "colleague",
+              "definition": "A person you work with in the same job or office."
+            },
+            {
+              "word": "absent",
+              "definition": "Not present at work or school, especially due to illness."
+            },
+            {
+              "word": "presenteeism",
+              "definition": "Going to work when you are sick and cannot do your job well."
+            },
+            {
+              "word": "recover",
+              "definition": "To return to good health after being ill."
+            }
+          ],
+          "questionB1": "Have you ever gone to work while feeling unwell? What made you feel guilty about staying at home?",
+          "summaryB2": "Research suggests that as many as half of all employees continue working through illness, a phenomenon that experts describe as deeply rooted in workplace culture, economic necessity, and psychological pressure. Far from being a simple choice, the decision to show up sick is shaped by a web of overlapping factors that vary widely across industries and individuals.\n\nOne driving force is the fear of professional consequences. Many workers dread being perceived as unreliable or uncommitted, particularly in high-pressure environments where long hours and constant availability are implicitly rewarded. This anxiety is compounded in workplaces where a culture of stoicism prevails — where pushing through discomfort is treated as a virtue rather than a risk.\n\nFinancial insecurity also plays a considerable role. In jobs where sick pay is limited or non-existent, taking time off is simply not an affordable option for many people. This means lower-income workers are often disproportionately affected, as they face the starkest trade-off between their health and their income.\n\nExperts caution that presenteeism carries real costs — not only for the individual, who may face a prolonged recovery, but also for organisations, where reduced productivity and the spread of illness among colleagues can outweigh any short-term benefit of having someone physically present.\n\nHealth professionals argue that employers bear a shared responsibility for tackling this issue. Building a culture where employees genuinely feel supported in taking sick leave when needed is, they say, both an ethical obligation and a practical necessity.",
+          "vocabularyB2": [
+            {
+              "word": "stoicism",
+              "definition": "The practice of enduring pain or difficulty without complaining or showing emotion."
+            },
+            {
+              "word": "compounded",
+              "definition": "Made worse or more serious by an additional problem or factor."
+            },
+            {
+              "word": "disproportionately",
+              "definition": "To a degree that is larger or smaller than seems fair or reasonable."
+            },
+            {
+              "word": "prolonged",
+              "definition": "Lasting for a longer time than expected or desired."
+            },
+            {
+              "word": "tackling",
+              "definition": "Making a determined effort to deal with a difficult problem."
+            }
+          ],
+          "questionB2": "To what extent do you think employers are responsible for tackling presenteeism, and how might a culture of stoicism in certain professions make this especially difficult to address?"
+        },
+        {
+          "id": "1789967097321fr71",
+          "title": "US and China to seek 'AI dialogue' to communicate shared concerns",
+          "source": "Euronews",
+          "originalUrl": "https://www.euronews.com/2026/09/21/us-and-china-to-seek-ai-dialogue-to-communicate-shared-concerns",
+          "category": "politics",
+          "date": "2026-09-21",
+          "summaryB1": "The United States and China are two of the most powerful countries in the world. They often disagree on many topics, including trade, technology, and security. Recently, economic officials from both countries met to talk about artificial intelligence, or AI. AI is computer technology that can think and make decisions like humans. During their meeting on Sunday, the officials discussed creating a special communication channel. This channel would allow both countries to share their concerns about AI safely and clearly. The meeting was also a way to prepare for a bigger summit later in the week, where the top leaders of both countries plan to meet. Creating a channel for dialogue between the US and China is seen as a positive step. When two powerful nations talk to each other about technology, it can help prevent misunderstandings. AI is developing very fast, and many governments are worried about how to control it. Both countries seem to agree that they need to cooperate on this issue, even if they disagree on other things. This kind of open communication could help make AI safer for everyone in the world. It shows that even countries with different views can find common ground on serious topics.",
+          "vocabularyB1": [
+            {
+              "word": "communication channel",
+              "definition": "A system or method that allows people or groups to exchange information regularly"
+            },
+            {
+              "word": "concern",
+              "definition": "A worry or problem that people think is serious and needs attention"
+            },
+            {
+              "word": "summit",
+              "definition": "A formal meeting between the leaders of two or more countries"
+            },
+            {
+              "word": "dialogue",
+              "definition": "A conversation or discussion between two people or groups to solve problems"
+            },
+            {
+              "word": "cooperate",
+              "definition": "To work together with others towards a shared goal"
+            }
+          ],
+          "questionB1": "Why do you think it is useful for countries to have a regular dialogue about new technology, even when they have other concerns about each other?",
+          "summaryB2": "Senior economic officials from the United States and China held talks on Sunday aimed at establishing a dedicated communication channel to address mutual concerns surrounding artificial intelligence. The discussions served as a preparatory step ahead of a high-level summit between the two nations' top leaders scheduled for later in the week. The proposed AI dialogue reflects a cautious but notable willingness on both sides to engage on an issue that carries profound technological and geopolitical implications. The US and China are widely regarded as the two dominant powers in AI development, and their rivalry in this field has intensified in recent years, with Washington imposing sweeping export restrictions on advanced semiconductors and Beijing accelerating its own domestic AI programmes. Against this backdrop of strategic competition, the initiative to open a bilateral channel for AI communication represents a pragmatic acknowledgement that certain risks — such as AI systems being used in military applications or causing unintended escalation — may require coordinated oversight rather than unilateral action. Critics, however, caution that such diplomatic gestures can remain superficial unless backed by concrete agreements and enforcement mechanisms. Nonetheless, the willingness of both sides to even broach the subject of AI governance at the highest levels of government signals a potentially constructive shift in tone. Whether this dialogue will yield substantive outcomes remains to be seen.",
+          "vocabularyB2": [
+            {
+              "word": "bilateral",
+              "definition": "Involving two countries or groups working together on a shared matter"
+            },
+            {
+              "word": "pragmatic",
+              "definition": "Focused on practical solutions rather than ideals or theories"
+            },
+            {
+              "word": "geopolitical",
+              "definition": "Relating to how geography, power, and politics between countries interact"
+            },
+            {
+              "word": "broach",
+              "definition": "To raise or introduce a sensitive or difficult subject for the first time"
+            },
+            {
+              "word": "substantive",
+              "definition": "Having real meaning or practical effect, not just symbolic or superficial"
+            }
+          ],
+          "questionB2": "Given the deep strategic competition between the two nations, how realistic is it to expect that a bilateral AI dialogue could produce substantive agreements rather than merely symbolic gestures?"
+        },
+        {
+          "id": "17899671173567w79",
+          "title": "Nik Storonsky’s plan for Revolut: a global bank with ‘effectively zero risk’",
+          "source": "Financial Times",
+          "originalUrl": "https://www.ft.com/content/df52a49a-ab6a-4997-a609-169e830a26fa?syn-25a6b1a6=1",
+          "category": "business",
+          "date": "2026-09-21",
+          "summaryB1": "Nik Storonsky is the founder and CEO of Revolut, a financial technology company based in Europe. He was born in Russia and started Revolut to change the way people use banking services. Today, Revolut is the most valuable start-up in Europe. In a recent interview with the Financial Times, Storonsky explained his big plan for the company. He wants Revolut to become a global bank that operates with very low financial risk. This means he wants the company to grow into new countries while keeping its finances stable and safe. Revolut already offers services like currency exchange, money transfers, and savings accounts. Millions of people across the world use the app every day. Storonsky believes that traditional banks are slow and outdated, and that Revolut can offer something better. His goal is to expand the company's services to more customers around the world. However, building a global bank is not easy. Companies like Revolut must follow strict rules set by governments and financial regulators in each country. Getting the right licences and building customer trust takes time and money. Still, Storonsky seems confident about the future. His vision is to create a modern bank that works for everyone, everywhere, with almost no financial risk involved.",
+          "vocabularyB1": [
+            {
+              "word": "founder",
+              "definition": "A person who starts and creates a company or organisation."
+            },
+            {
+              "word": "start-up",
+              "definition": "A new company, usually in technology, that is growing quickly."
+            },
+            {
+              "word": "currency exchange",
+              "definition": "The process of changing money from one country's currency to another."
+            },
+            {
+              "word": "regulators",
+              "definition": "Official organisations that make rules and check that companies follow them."
+            },
+            {
+              "word": "licences",
+              "definition": "Official documents that give a company or person permission to do something."
+            }
+          ],
+          "questionB1": "Would you trust a start-up like Revolut with your money instead of a traditional bank? What would make you feel safe?",
+          "summaryB2": "Nik Storonsky, the Russian-born founder and CEO of Revolut, has sat down with the Financial Times to outline his ambitions for what has become Europe's most valuable start-up. At the heart of his vision is a deceptively simple proposition: to build a fully global bank that operates with, in his own words, 'effectively zero risk'. The interview offers a rare glimpse into the thinking of a founder who has transformed a currency exchange app into a sprawling financial services platform serving millions of customers worldwide. Storonsky's ambitions are sweeping in scale. He envisions Revolut expanding aggressively into new markets, competing head-on with established retail banks that he views as inefficient relics of a pre-digital era. Yet the path to becoming a genuine global bank is strewn with regulatory hurdles. Obtaining banking licences across multiple jurisdictions requires not only substantial capital but also the trust of financial authorities who scrutinise fintech companies with particular scepticism. Revolut has faced its share of controversy in the past, including scrutiny over its corporate governance and delayed financial accounts, which makes Storonsky's claim of near-zero risk all the more audacious. Whether his confidence reflects genuine financial prudence or entrepreneurial bravado remains an open question. What is clear is that Revolut's trajectory — from scrappy start-up to continental powerhouse — has reshaped expectations of what a European technology company can achieve on the world stage.",
+          "vocabularyB2": [
+            {
+              "word": "proposition",
+              "definition": "A plan, idea, or offer that is put forward for others to consider."
+            },
+            {
+              "word": "sprawling",
+              "definition": "Spreading over a large area or covering many different parts in a disorganised way."
+            },
+            {
+              "word": "jurisdictions",
+              "definition": "Areas or countries where a particular set of laws and rules officially applies."
+            },
+            {
+              "word": "audacious",
+              "definition": "Showing a willingness to take bold risks, sometimes shockingly so."
+            },
+            {
+              "word": "prudence",
+              "definition": "The quality of being careful and sensible, especially when managing money or risk."
+            }
+          ],
+          "questionB2": "Given Revolut's past controversies around corporate governance, how much weight should regulators give to Storonsky's claim that a global bank can operate with 'effectively zero risk'? Is such prudence achievable at scale?"
+        }
+      ]
+    },
+    {
       "generated": "2026-09-14T06:45:56.342Z",
       "week": "2026-W37",
       "articles": [
@@ -7289,628 +7967,6 @@
             }
           ],
           "questionB2": "Given the volatility of US AI policy, how might geopolitical rivals use this instability to accelerate their own AI programmes and challenge American technological dominance?"
-        }
-      ]
-    },
-    {
-      "generated": "2026-06-29T06:40:49.961Z",
-      "week": "2026-W26",
-      "articles": [
-        {
-          "id": "17827150230007h5d",
-          "title": "Poland records highest ever temperature as European heatwave moves east",
-          "source": "Notes from Poland",
-          "originalUrl": "https://notesfrompoland.com/2026/06/28/poland-records-highest-ever-temperature-as-european-heatwave-moves-east/",
-          "category": "politics",
-          "date": "2026-06-28",
-          "summaryB1": "On Sunday, 28 June 2026, Poland recorded its highest ever temperature. A reading of 40.5°C (104.9°F) was measured in Słubice, a town in western Poland on the border with Germany. This broke all previous records in the country's history.\n\nThe extreme heat is part of a large heatwave that has been moving across Europe from west to east. Many other European countries experienced dangerously high temperatures before Poland. Such heatwaves can be deadly, especially for elderly people, young children, and those with health problems.\n\nSlubice is a relatively small town, but its location in a flat, low-lying area may have contributed to the record temperature. Weather experts warned people to stay indoors during the hottest part of the day, drink plenty of water, and avoid direct sunlight.\n\nHigh temperatures like this put pressure on hospitals and emergency services. They also cause damage to crops and increase the risk of wildfires in forests and dry areas.\n\nScientists say that heatwaves are becoming more frequent and more intense because of climate change. Every year, new temperature records are broken somewhere in the world. Events like this remind us why reducing carbon emissions and protecting the environment remain urgent global challenges. Poland's record temperature is a clear sign that no country in Europe is protected from extreme weather.",
-          "vocabularyB1": [
-            {
-              "word": "heatwave",
-              "definition": "A long period of unusually hot weather that can be dangerous to people."
-            },
-            {
-              "word": "record",
-              "definition": "The highest or lowest level ever measured or achieved."
-            },
-            {
-              "word": "extreme",
-              "definition": "Much greater or more severe than usual; far beyond normal."
-            },
-            {
-              "word": "border",
-              "definition": "The official line that separates two countries or regions."
-            },
-            {
-              "word": "emissions",
-              "definition": "Gases or substances released into the air, especially from burning fuel."
-            }
-          ],
-          "questionB1": "Why do you think extreme heatwaves are becoming more common, and what can ordinary people do to reduce carbon emissions in daily life?",
-          "summaryB2": "Poland shattered its all-time temperature record on Sunday, 28 June 2026, when thermometers in the western border town of Słubice reached 40.5°C (104.9°F). The reading surpassed all previously documented highs in Polish meteorological history, marking a sobering milestone for a country not traditionally associated with Mediterranean-style heat.\n\nThe record came as an intense heatwave swept eastward across the continent, having already scorched large parts of Western and Central Europe in the days prior. Słubice, situated on the Oder River directly opposite the German town of Frankfurt an der Oder, sits in a low-lying region particularly susceptible to heat accumulation.\n\nThe public health ramifications of such temperatures are considerable. Authorities urged vulnerable groups — including the elderly, infants, and people with cardiovascular conditions — to limit outdoor exposure and maintain adequate hydration. Emergency services across affected regions reported surges in heat-related hospitalisations.\n\nBeyond immediate human welfare, prolonged heat events of this magnitude pose a serious threat to agriculture, water supplies, and forest ecosystems, with the risk of wildfires escalating sharply as vegetation dries out.\n\nClimate scientists attribute the rising frequency and severity of such episodes to anthropogenic climate change, noting that record-breaking temperatures are being documented with alarming regularity across Europe. Poland's new benchmark serves as a stark illustration of how rapidly the continent's climate is shifting, prompting fresh calls for accelerated action on emissions reduction and heat adaptation strategies.",
-          "vocabularyB2": [
-            {
-              "word": "surpassed",
-              "definition": "Went beyond a previous level or record; did better or more than before."
-            },
-            {
-              "word": "meteorological",
-              "definition": "Related to the science of weather and the atmosphere."
-            },
-            {
-              "word": "ramifications",
-              "definition": "The consequences or effects of an action or event, often complex or far-reaching."
-            },
-            {
-              "word": "anthropogenic",
-              "definition": "Caused or produced by human activity rather than natural processes."
-            },
-            {
-              "word": "benchmark",
-              "definition": "A standard or reference point used to measure or compare something."
-            }
-          ],
-          "questionB2": "Given that anthropogenic climate change is driving more frequent extremes, what ramifications might Poland's new temperature benchmark have for national policy on energy, public health, and urban planning?"
-        },
-        {
-          "id": "1782715045279la89",
-          "title": "China cracks down on rule-bending offshore investments",
-          "source": "The Economist Finance",
-          "originalUrl": "https://www.economist.com/finance-and-economics/2026/06/28/china-cracks-down-on-rule-bending-offshore-investments",
-          "category": "business",
-          "date": "2026-06-28",
-          "summaryB1": "China has introduced new rules to stop its citizens from putting money into foreign investments in ways that are not fully allowed by law. The government is especially worried about Chinese investors using special funds to buy shares in American technology companies. These funds, called QDII funds, are supposed to help Chinese people invest abroad legally. However, some investors have been bending the rules by paying extra money to get access to these funds beyond their official limits.\n\nThe Chinese government wants mainland investors to support Chinese technology companies instead. China has big dreams for its own tech industry and needs domestic investment to help these companies grow. Officials believe that money leaving the country to buy American tech stocks makes it harder to build a strong Chinese tech sector.\n\nThis crackdown is part of a wider effort by Beijing to control where Chinese money goes. The government regularly monitors capital flows, which means it watches how money moves in and out of the country. When too much money flows out, it can weaken the Chinese currency and reduce funds available for local businesses.\n\nFor ordinary Chinese investors, these new restrictions mean fewer chances to diversify their savings by buying foreign assets. Many people had hoped to benefit from the success of American tech giants. Now, the government is making it clear that it wants that investment to stay at home.",
-          "vocabularyB1": [
-            {
-              "word": "crackdown",
-              "definition": "Strong official action taken to stop something illegal or against the rules"
-            },
-            {
-              "word": "invest",
-              "definition": "To put money into something, hoping to make a profit later"
-            },
-            {
-              "word": "funds",
-              "definition": "Pools of money collected from many people and managed together"
-            },
-            {
-              "word": "domestic",
-              "definition": "Related to your own country, not to foreign countries"
-            },
-            {
-              "word": "diversify",
-              "definition": "To spread money across different types of investments to reduce risk"
-            }
-          ],
-          "questionB1": "Why might a government want domestic investors to keep their money inside the country instead of choosing to invest abroad?",
-          "summaryB2": "China is tightening its grip on offshore investment flows, targeting a practice in which mainland investors circumvent official quotas to gain exposure to foreign — particularly American — technology stocks. The mechanism at the centre of the crackdown is the Qualified Domestic Institutional Investor (QDII) scheme, a government-approved channel that allows Chinese citizens to invest in overseas markets within strictly defined limits. Some investors, however, have been paying premiums on the secondary market to acquire QDII fund units beyond their allocated quotas, effectively bypassing the regulatory framework.\n\nBeijing's move reflects a dual motivation. On one level, it is a routine exercise in capital controls, as authorities seek to limit outflows that could put downward pressure on the renminbi and drain liquidity from domestic markets. On another level, it signals a deliberate industrial policy ambition: Chinese regulators appear determined to channel private savings toward homegrown technology champions rather than rivals in Silicon Valley.\n\nThis tension between investor preference and state direction illustrates a recurring theme in China's financial system. Ordinary savers, frustrated by sluggish returns in domestic markets, have sought offshore exposure as a means of portfolio optimisation. The government, by contrast, views speculative outflows as a distraction from its strategic goal of building self-sufficient technology industries.\n\nThe implications for Chinese retail investors are tangible. Access to global markets will narrow further, limiting the ability to hedge against domestic economic uncertainty. Meanwhile, companies in China's tech sector stand to benefit from a more captive pool of investment capital.",
-          "vocabularyB2": [
-            {
-              "word": "circumvent",
-              "definition": "To find a clever way to avoid a rule or restriction without directly breaking it"
-            },
-            {
-              "word": "quotas",
-              "definition": "Official limits on the amount of something that is allowed"
-            },
-            {
-              "word": "capital controls",
-              "definition": "Government restrictions on how money can move in or out of a country"
-            },
-            {
-              "word": "speculative",
-              "definition": "Involving high financial risk in the hope of making a quick profit"
-            },
-            {
-              "word": "captive",
-              "definition": "Describing a market or group that has no real freedom to choose alternatives"
-            }
-          ],
-          "questionB2": "To what extent do China's capital controls reflect genuine financial stability concerns, and to what extent are they a tool to direct speculative investment toward state-preferred industries?"
-        },
-        {
-          "id": "1782715066876z4co",
-          "title": "Is too much sleep as bad as too little?",
-          "source": "The Economist Sci-Tech",
-          "originalUrl": "https://www.economist.com/science-and-technology/2026/06/26/is-too-much-sleep-as-bad-as-too-little",
-          "category": "technology",
-          "date": "2026-06-26",
-          "summaryB1": "Most people know that sleeping too little is bad for their health. But new research suggests that sleeping too much might also be harmful. Scientists are now trying to find out how much sleep is actually best for us.\n\nStudies show that adults who sleep for seven to eight hours a night tend to be the healthiest. People who regularly sleep for nine hours or more have a higher risk of serious health problems, including heart disease and diabetes. This pattern appears in many different countries and age groups.\n\nHowever, scientists are not sure whether too much sleep causes these problems, or whether people sleep more because they are already ill. This is a difficult question to answer. Some researchers think that long sleep is a symptom of other conditions, not the cause.\n\nThere is also the question of sleep quality. Deep, restful sleep is very different from light, broken sleep. Someone who spends ten hours in bed but wakes up many times may not actually be getting enough proper rest.\n\nUnderstanding the optimal amount of sleep is not simple. Our bodies are all different, and individual needs vary. Age, lifestyle, and genetics all play a role. Experts recommend that most adults aim for seven to nine hours of good-quality sleep each night to maintain their wellbeing.",
-          "vocabularyB1": [
-            {
-              "word": "harmful",
-              "definition": "Causing damage or injury to your body or health."
-            },
-            {
-              "word": "symptom",
-              "definition": "A sign that shows you may have an illness or health problem."
-            },
-            {
-              "word": "optimal",
-              "definition": "The best or most suitable amount or level of something."
-            },
-            {
-              "word": "restful",
-              "definition": "Relaxing and helping you to feel rested and refreshed."
-            },
-            {
-              "word": "wellbeing",
-              "definition": "The general state of being healthy, comfortable, and happy."
-            }
-          ],
-          "questionB1": "What changes could you make to your daily routine to get more restful sleep and improve your overall wellbeing?",
-          "summaryB2": "The conventional wisdom that sleep deprivation poses serious health risks is well established, but emerging research is complicating the picture by suggesting that excessive sleep may be equally detrimental. Scientists are now engaged in the tricky business of determining the optimal sleep window — and why straying beyond it in either direction appears to carry measurable consequences.\n\nEpidemiological data consistently link sleeping nine hours or more per night with elevated rates of cardiovascular disease, type 2 diabetes, and premature mortality. Yet researchers face a persistent methodological challenge: the direction of causality is far from clear. It remains plausible that prolonged sleep is not itself the culprit but rather a manifestation of underlying conditions — depression, chronic inflammation, or undiagnosed illness — that also happen to increase sleep duration.\n\nA further complication is the distinction between sleep quantity and sleep quality. Spending extended hours in bed does not guarantee restorative sleep; fragmented or shallow sleep may leave the body equally compromised, regardless of total duration. Wearable technology and polysomnography are beginning to give researchers more granular data, but translating laboratory findings into reliable public health guidance remains an ongoing challenge.\n\nThe emerging consensus points to seven to nine hours as the sweet spot for most adults, though individual variation driven by genetics and age means that blanket recommendations can only go so far. Understanding why the upper boundary exists may ultimately prove as revealing as decades of research into the harms of sleep deprivation.",
-          "vocabularyB2": [
-            {
-              "word": "detrimental",
-              "definition": "Causing harm or damage, especially in a gradual or indirect way."
-            },
-            {
-              "word": "causality",
-              "definition": "The relationship between a cause and its effect; whether one thing directly produces another."
-            },
-            {
-              "word": "manifestation",
-              "definition": "A visible or observable sign that something exists, especially a condition or problem."
-            },
-            {
-              "word": "restorative",
-              "definition": "Helping the body or mind to recover strength, energy, and good health."
-            },
-            {
-              "word": "granular",
-              "definition": "Detailed and precise, dealing with small individual parts of a larger topic."
-            }
-          ],
-          "questionB2": "Given the difficulty of establishing causality in sleep research, how should public health bodies communicate guidelines about sleep duration without overstating what the evidence can currently tell us?"
-        },
-        {
-          "id": "1782715087473gng9",
-          "title": "Cold feet: could putting your socks in the fridge help you through the heatwave?",
-          "source": "The Guardian Wellbeing",
-          "originalUrl": "https://www.theguardian.com/lifeandstyle/2026/jun/23/cold-feet-socks-in-fridge-help-heatwave",
-          "category": "environment",
-          "date": "2026-06-23",
-          "summaryB1": "When the weather is very hot, many people struggle to sleep and feel comfortable. One simple trick that experts are now recommending is putting your socks in the fridge before wearing them. According to the Red Cross, this method can actually help your body cool down during a heatwave. But why does it work? The answer is connected to how our bodies control temperature. Our feet have many blood vessels near the skin, so cooling them down can help reduce our overall body heat quite quickly. This is the same reason why putting your feet in cold water feels so refreshing on a hot day. The idea might sound strange at first, but health organisations say it is worth trying. Heatwaves are becoming more common in many parts of Europe, including countries that are not used to very high temperatures. People in these places often do not have air conditioning at home, so finding cheap and easy ways to stay cool is very useful. Keeping cold socks in the fridge costs nothing and needs no special equipment. Experts suggest wearing them for about twenty minutes before bed. It may not solve every problem caused by extreme heat, but it can make a real difference to how comfortable you feel.",
-          "vocabularyB1": [
-            {
-              "word": "heatwave",
-              "definition": "A period of unusually hot weather that lasts for several days"
-            },
-            {
-              "word": "blood vessels",
-              "definition": "Tubes inside the body that carry blood around"
-            },
-            {
-              "word": "refreshing",
-              "definition": "Making you feel cool, comfortable, and less tired"
-            },
-            {
-              "word": "air conditioning",
-              "definition": "A system that cools the air inside a building or car"
-            },
-            {
-              "word": "extreme heat",
-              "definition": "Temperatures that are much hotter than normal and can be dangerous"
-            }
-          ],
-          "questionB1": "Would you try wearing cold socks during a heatwave to stay cool, or do you prefer other ways to deal with extreme heat?",
-          "summaryB2": "As Europe endures increasingly severe summers, a somewhat unconventional piece of advice has emerged from an authoritative source: the Red Cross is advocating the practice of chilling your socks in the refrigerator before wearing them as a practical strategy for surviving a heatwave. The recommendation may initially strike readers as whimsical, yet there is genuine physiological reasoning behind it. The feet contain a dense network of blood vessels positioned close to the skin's surface, meaning that applying cold to this area can trigger a rapid reduction in core body temperature — a process known as peripheral cooling. This is the same mechanism that makes immersing your feet in cold water so immediately effective on a sweltering day. The article, published in a lighthearted question-and-answer format by The Guardian, takes a playful approach to what is, in reality, a pressing public health matter. Northern and central European countries, including those unaccustomed to prolonged periods of intense heat, face a particular challenge: the vast majority of households lack air conditioning, leaving residents to improvise with low-cost remedies. The chilled sock method requires no financial outlay and no specialist knowledge, making it genuinely accessible to vulnerable groups such as the elderly, who are disproportionately affected by heat-related illness. Whether such household tips can meaningfully offset the dangers of extreme temperatures remains an open question, but they represent a practical, immediate response while systemic solutions lag behind.",
-          "vocabularyB2": [
-            {
-              "word": "unconventional",
-              "definition": "Different from what is usual or expected; not traditional"
-            },
-            {
-              "word": "physiological",
-              "definition": "Related to the normal functions and processes of the human body"
-            },
-            {
-              "word": "peripheral cooling",
-              "definition": "Reducing body temperature by cooling the outer parts of the body, such as hands or feet"
-            },
-            {
-              "word": "financial outlay",
-              "definition": "Money that you spend, especially at the start of something"
-            },
-            {
-              "word": "disproportionately",
-              "definition": "To a degree that is larger or smaller than seems fair or expected"
-            }
-          ],
-          "questionB2": "Given that physiological methods like peripheral cooling are low-cost and accessible, why might governments and health systems still struggle to promote such unconventional strategies effectively during public health emergencies?"
-        },
-        {
-          "id": "1782715109256fv2v",
-          "title": "Going to a festival as a neurodivergent person can be tough - but there are ways to recharge",
-          "source": "BBC Culture",
-          "originalUrl": "https://www.bbc.co.uk/news/articles/cgl3ew1j64go?at_medium=RSS&at_campaign=rss",
-          "category": "culture",
-          "date": "2026-06-26",
-          "summaryB1": "Music festivals are exciting events, but they can be very difficult for people who are neurodivergent. Neurodivergent people have brains that work differently from most people. This includes people with autism, ADHD, or anxiety. At festivals, there is often loud music, large crowds, and bright lights. These things can feel overwhelming and cause great stress or discomfort for neurodivergent people.\n\nSome festivals are now trying to help. They are offering calm spaces where people can go to rest and recover from the noise and crowds. Some events are also providing noise-cancelling headphones, which block out loud sounds and make the environment more comfortable. These are devices you wear over your ears to reduce unwanted noise.\n\nHowever, many people think that festivals need to do much more. There are growing calls from disability advocates and neurodivergent communities for better support and more inclusive planning. They want festivals to think carefully about the needs of all visitors, not just those without disabilities.\n\nThis topic matters because millions of people around the world are neurodivergent. Everyone deserves the chance to enjoy live music and cultural events. Making festivals more accessible is a step towards a fairer society. Small changes, like quiet rooms and sensory-friendly options, can make a huge difference to people who might otherwise feel excluded from these popular events.",
-          "vocabularyB1": [
-            {
-              "word": "neurodivergent",
-              "definition": "A person whose brain works differently, for example someone with autism or ADHD"
-            },
-            {
-              "word": "overwhelming",
-              "definition": "Too much to deal with; causing strong feelings of stress or confusion"
-            },
-            {
-              "word": "calm spaces",
-              "definition": "Quiet areas at an event where people can rest and feel safe"
-            },
-            {
-              "word": "noise-cancelling headphones",
-              "definition": "Devices worn over the ears that block or reduce loud sounds around you"
-            },
-            {
-              "word": "accessible",
-              "definition": "Easy for everyone to use or enjoy, including people with disabilities"
-            }
-          ],
-          "questionB1": "What calm spaces or other changes would make festivals more accessible and enjoyable for neurodivergent people in your country?",
-          "summaryB2": "Music festivals have long been celebrated as communal experiences of joy and self-expression, yet for neurodivergent individuals — those with conditions such as autism, ADHD, or sensory processing differences — they can represent an ordeal of competing stimuli. Relentless noise, dense crowds, unpredictable schedules, and flashing lights create an environment that many find deeply distressing rather than exhilarating.\n\nIn response to growing awareness, some festival organisers have begun rolling out practical accommodations: dedicated calm spaces where attendees can decompress away from sensory overload, and noise-cancelling headphones available for loan. These provisions are welcomed by neurodivergent communities as a step in the right direction.\n\nNevertheless, advocates argue that such measures remain piecemeal and fall well short of genuine inclusion. There are vocal calls to go further — to embed neurodivergent-friendly design into the core planning of events, rather than treating it as an afterthought. This could include clearer visual guides, quieter viewing zones, and more transparent communication about what attendees can expect.\n\nThe debate reflects a wider cultural shift in how public events consider disability and difference. Proponents of more ambitious reform contend that accessibility should not be a bolt-on feature but a foundational principle. Given that neurodivergent people represent a substantial portion of the population, the argument is compelling: festivals that fail to accommodate diverse neurological needs risk excluding a significant number of potential attendees from cultural life altogether.",
-          "vocabularyB2": [
-            {
-              "word": "stimuli",
-              "definition": "Things in the environment, like sounds or lights, that affect the senses and cause reactions"
-            },
-            {
-              "word": "accommodations",
-              "definition": "Special arrangements or changes made to help people with particular needs"
-            },
-            {
-              "word": "piecemeal",
-              "definition": "Done in small, separate parts rather than as one complete, planned system"
-            },
-            {
-              "word": "sensory overload",
-              "definition": "A state where too much noise, light, or other input overwhelms a person's senses"
-            },
-            {
-              "word": "proponents",
-              "definition": "People who publicly support or argue in favour of a particular idea or plan"
-            }
-          ],
-          "questionB2": "To what extent should festival organisers be legally required to provide accommodations for neurodivergent attendees, and who should bear responsibility when such provisions remain piecemeal?"
-        },
-        {
-          "id": "1782715128189wo7g",
-          "title": "Europe's heatwave linked to 1,300 deaths, WHO says, as Germany hits record 41.7C",
-          "source": "BBC News World",
-          "originalUrl": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss",
-          "category": "politics",
-          "date": "2026-06-28",
-          "summaryB1": "Europe has been hit by a very dangerous heatwave, and the World Health Organization (WHO) says it has been linked to at least 1,300 deaths. The WHO chief, Tedros Adhanom Ghebreyesus, warned that Europe is not ready to deal with such extreme heat. Germany recorded its highest ever temperature of 41.7 degrees Celsius during this period, which is a serious public health emergency. A heatwave happens when temperatures stay much higher than normal for several days. Older people, young children, and those with health problems are especially at risk during these events. High temperatures can cause heatstroke, which happens when the body gets too hot and cannot cool itself down. Doctors advise people to drink plenty of water, stay in the shade, and avoid going outside during the hottest part of the day. Governments across Europe are being urged to take action to protect their citizens. Climate experts say that heatwaves are becoming more frequent and more deadly because of climate change. This means that countries need to prepare better systems to warn people about dangerous temperatures and to provide cool shelter for those who need it. The WHO warning is a clear sign that Europe must treat extreme heat as a serious threat to public health.",
-          "vocabularyB1": [
-            {
-              "word": "heatwave",
-              "definition": "A period of unusually hot weather lasting several days or longer"
-            },
-            {
-              "word": "linked to",
-              "definition": "Connected to something as a possible cause or result"
-            },
-            {
-              "word": "extreme heat",
-              "definition": "Temperatures that are dangerously much higher than normal"
-            },
-            {
-              "word": "heatstroke",
-              "definition": "A dangerous condition when the body becomes too hot and stops working properly"
-            },
-            {
-              "word": "shelter",
-              "definition": "A place that protects people from danger or bad weather"
-            }
-          ],
-          "questionB1": "What do you think governments should do to protect people from extreme heat during a heatwave?",
-          "summaryB2": "The World Health Organization has attributed at least 1,300 deaths across Europe to an intense heatwave, with WHO Director-General Tedros Adhanom Ghebreyesus issuing a stark warning that the continent is fundamentally ill-equipped to cope with soaring temperatures. The alarm was sounded as Germany shattered its all-time temperature record, reaching 41.7 degrees Celsius — a figure that alarmed meteorologists and public health officials alike. The WHO's assessment reflects a growing body of evidence that heatwaves represent one of the most lethal consequences of climate change, disproportionately affecting vulnerable populations such as the elderly, those with pre-existing medical conditions, and people without access to adequate cooling. Ghebreyesus's warning carries particular weight given Europe's historically temperate climate, which means that infrastructure, housing, and healthcare systems were simply not designed with prolonged extreme heat in mind. Unlike regions accustomed to high temperatures, much of northern and central Europe lacks air conditioning in homes, hospitals, and public buildings, leaving residents acutely exposed. Public health specialists argue that heat emergency plans, including early warning systems and the designation of cooling centres, must become standard policy across member states. The record-breaking temperatures in Germany serve as a sobering reminder that climate adaptation is no longer a distant priority but an immediate necessity, demanding coordinated action from governments, urban planners, and healthcare providers across the continent.",
-          "vocabularyB2": [
-            {
-              "word": "ill-equipped",
-              "definition": "Not having the necessary skills, tools, or systems to deal with a situation"
-            },
-            {
-              "word": "disproportionately",
-              "definition": "Affecting one group much more than others in a way that seems unfair or unequal"
-            },
-            {
-              "word": "temperate climate",
-              "definition": "A climate with mild temperatures, without extreme heat or cold"
-            },
-            {
-              "word": "acutely exposed",
-              "definition": "Placed in a situation of serious and immediate risk or danger"
-            },
-            {
-              "word": "climate adaptation",
-              "definition": "Changes made by societies or governments to prepare for the effects of climate change"
-            }
-          ],
-          "questionB2": "Given that Europe's temperate climate has historically shaped its infrastructure and healthcare systems, how should policymakers prioritise climate adaptation to protect populations disproportionately at risk from heatwaves?"
-        },
-        {
-          "id": "1782715148396dd50",
-          "title": "Trump threatens 100% tariff on European nations over tech tax",
-          "source": "BBC Business",
-          "originalUrl": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
-          "category": "business",
-          "date": "2026-06-27",
-          "summaryB1": "US President Donald Trump has threatened to put a 100% tariff on goods from European countries. A tariff is an extra tax that a country charges on products coming in from other countries. Trump made this threat because several European nations are thinking about creating a new tax on technology companies. Many of these companies are American, such as Google and Amazon. Trump says this kind of tax is unfair to the United States. If European countries bring in the tech tax, American products sold in Europe would become twice as expensive because of the 100% tariff. This would make it much harder for US companies to sell their goods in Europe. A trade dispute like this could affect businesses and consumers on both sides. Prices for many products could go up. European governments have not yet responded officially to Trump's warning. However, this is not the first time Trump has used tariffs as a way to put pressure on other countries. He has done the same with China and Canada. The situation shows how technology and trade are becoming connected in global politics. Both sides will need to find a way to talk and reach an agreement before the conflict gets worse.",
-          "vocabularyB1": [
-            {
-              "word": "tariff",
-              "definition": "A tax that a government puts on goods brought in from another country"
-            },
-            {
-              "word": "threat",
-              "definition": "A warning that you will do something harmful if someone does not obey"
-            },
-            {
-              "word": "dispute",
-              "definition": "A serious disagreement between two sides, often about money or rules"
-            },
-            {
-              "word": "consumers",
-              "definition": "People who buy goods or services for their own use"
-            },
-            {
-              "word": "pressure",
-              "definition": "Attempts to make someone do something by using threats or force"
-            }
-          ],
-          "questionB1": "Do you think using tariffs as pressure is a fair way for countries to solve disagreements, or should they find other solutions?",
-          "summaryB2": "President Donald Trump has escalated tensions with Europe by threatening to impose a 100% tariff on goods imported from European nations. The move came in response to discussions among several European governments about introducing a digital services tax targeting large technology corporations — most of which are American. Trump framed the proposed levy as discriminatory, arguing it unfairly singles out US firms operating in European markets. A 100% tariff would effectively double the cost of European exports to the United States, a retaliatory measure that could have serious economic consequences for both sides. Critics warn that such an aggressive stance risks triggering a full-scale trade war at a time when the global economy is already under strain. Supporters, however, argue that Trump is defending American commercial interests against what they see as protectionist policies from European governments. The digital services tax debate is not new — European countries have long argued that tech giants generate enormous profits on their soil while paying relatively little in local taxes. The OECD has been working on a multilateral framework to address this imbalance, but progress has been slow. Trump's threat adds fresh urgency to those talks, while simultaneously making diplomatic resolution more difficult. Whether the two sides can reach a compromise without further escalating the confrontation remains to be seen.",
-          "vocabularyB2": [
-            {
-              "word": "escalated",
-              "definition": "Became more serious, intense, or difficult, often quickly and in stages"
-            },
-            {
-              "word": "retaliatory",
-              "definition": "Done in response to a harmful action, as a form of punishment or revenge"
-            },
-            {
-              "word": "discriminatory",
-              "definition": "Treating one group unfairly differently from others, without a valid reason"
-            },
-            {
-              "word": "multilateral",
-              "definition": "Involving three or more countries or parties working together on an issue"
-            },
-            {
-              "word": "protectionist",
-              "definition": "Describing policies that protect a country's own industries by limiting foreign competition"
-            }
-          ],
-          "questionB2": "Given the slow progress of multilateral efforts to reform digital taxation, do you think Trump's retaliatory tariff threat is more likely to accelerate a solution or deepen the divide between the US and Europe?"
-        },
-        {
-          "id": "1782715168754o6tz",
-          "title": "Global warming has made Europe’s heatwave 2-4°C worse",
-          "source": "The Economist Sci-Tech",
-          "originalUrl": "https://www.economist.com/science-and-technology/2026/06/24/global-warming-has-made-europes-heatwave-2-4c-worse",
-          "category": "technology",
-          "date": "2026-06-24",
-          "summaryB1": "Europe is experiencing a severe heatwave in the summer of 2026. Scientists say that climate change has made this heatwave between 2 and 4 degrees Celsius hotter than it would have been without global warming. This finding comes from a field of science called attribution science, which tries to measure how much human-caused climate change affects extreme weather events.\n\nEurope is warming faster than any other continent on Earth. This means that heatwaves in Europe are becoming more frequent and more intense over time. High temperatures can be very dangerous, especially for older people and those with health problems. They can also damage crops and cause wildfires.\n\nScientists use climate models to compare what actually happened with what might have happened in a world without greenhouse gas emissions. By doing this, they can calculate how much worse a heatwave is because of human activity.\n\nThis matters because it shows a clear link between the burning of fossil fuels and extreme heat. Governments and individuals need to understand this connection. Reducing emissions could help limit future heatwaves. If the world does not act, temperatures will continue to rise, and extreme heat events will become even more dangerous. Europe must prepare for a hotter future by building better infrastructure and protecting vulnerable populations.",
-          "vocabularyB1": [
-            {
-              "word": "heatwave",
-              "definition": "A long period of unusually hot weather that can be dangerous to people."
-            },
-            {
-              "word": "emissions",
-              "definition": "Gases, especially carbon dioxide, released into the air by cars, factories, and burning fuel."
-            },
-            {
-              "word": "intense",
-              "definition": "Very strong or extreme in degree or force."
-            },
-            {
-              "word": "vulnerable",
-              "definition": "Easily harmed or at risk, for example because of age or poor health."
-            },
-            {
-              "word": "infrastructure",
-              "definition": "Basic systems a country needs to work, such as roads, buildings, and water supply."
-            }
-          ],
-          "questionB1": "How might more frequent and intense heatwaves affect vulnerable people in your country, and what should governments do about rising emissions?",
-          "summaryB2": "A powerful heatwave swept across Europe in June 2026, and scientists have now concluded that human-driven climate change made it between 2 and 4 degrees Celsius hotter than it would otherwise have been. The finding comes from rapid attribution studies, a methodology that has matured considerably over the past decade, allowing researchers to quantify the fingerprint of global warming on specific extreme weather events within days of their occurrence.\n\nThe conclusions are particularly alarming given that Europe is warming faster than any other continent, a trend that scientists attribute to a combination of geographical factors and shifts in atmospheric circulation patterns. This accelerated warming means that European populations are disproportionately exposed to heat stress compared with other parts of the world at similar latitudes.\n\nAttribution science works by running climate models thousands of times, both with and without observed greenhouse gas concentrations, then comparing outcomes statistically. The difference between these two scenarios reveals how much more extreme an event was made by anthropogenic emissions. Critics of the approach note that such models carry inherent uncertainties, but the scientific consensus strongly supports the general direction of the findings.\n\nThe implications extend well beyond public health. Agriculture, energy systems, and urban planning all face mounting pressure as extreme heat becomes more frequent. Policymakers are now under growing pressure to accelerate decarbonisation efforts and invest in adaptation strategies, recognising that mitigation alone may no longer be sufficient to protect European societies from the consequences of a rapidly warming planet.",
-          "vocabularyB2": [
-            {
-              "word": "attribution",
-              "definition": "The process of identifying what caused something, here linking climate change to a specific weather event."
-            },
-            {
-              "word": "anthropogenic",
-              "definition": "Caused or produced by human activity, especially pollution and greenhouse gas emissions."
-            },
-            {
-              "word": "disproportionately",
-              "definition": "To a degree that is larger or smaller than would normally be expected or considered fair."
-            },
-            {
-              "word": "decarbonisation",
-              "definition": "The process of reducing or eliminating carbon dioxide emissions from energy and industry."
-            },
-            {
-              "word": "mitigation",
-              "definition": "Actions taken to reduce the severity or harmful effects of something, such as climate change."
-            }
-          ],
-          "questionB2": "Given the inherent uncertainties in climate attribution studies, how should policymakers balance the urgent need for decarbonisation with the economic costs of rapid systemic change in Europe?"
-        },
-        {
-          "id": "1782715187654h0ik",
-          "title": "California’s landmark anti-plastics law sparks anger as 17 states move to sue",
-          "source": "The Guardian Environment",
-          "originalUrl": "https://www.theguardian.com/environment/2026/jun/26/california-single-use-plastic-law",
-          "category": "environment",
-          "date": "2026-06-26",
-          "summaryB1": "A new law in California is making big changes to how plastic packaging is made. The law was signed by Governor Gavin Newsom in 2022 but only came into effect in May 2025. It requires companies that make plastic packaging to use less single-use plastic. Single-use plastic is plastic that is used only once and then thrown away, like bottles or food wrappers. By 2032, all packaging must be either recyclable or compostable, meaning it can be broken down naturally in the ground. The main goal is to incentivize producers to think about what happens to their products after people use them. This should lead to better, more sustainable packaging in the future. However, the law is already causing anger. The chemicals industry does not like it because it will cost them money and change how they work. At the same time, environmental groups say the law does not go far enough and is too timid. To make things more complicated, 17 American states are planning to sue, which means they want to take legal action to stop the law. This story shows how difficult it can be to phase out old habits and materials, even when the goal is to protect the environment.",
-          "vocabularyB1": [
-            {
-              "word": "single-use",
-              "definition": "Used only once before being thrown away, not designed to be used again"
-            },
-            {
-              "word": "compostable",
-              "definition": "Able to break down naturally in the soil, becoming useful material for plants"
-            },
-            {
-              "word": "incentivize",
-              "definition": "To give someone a reason or reward to do something"
-            },
-            {
-              "word": "sustainable",
-              "definition": "Good for the environment and able to continue for a long time without causing harm"
-            },
-            {
-              "word": "phase out",
-              "definition": "To gradually stop using or producing something over a period of time"
-            }
-          ],
-          "questionB1": "Should governments incentivize companies to phase out single-use plastics, or should individual people change their habits first?",
-          "summaryB2": "California's ambitious legislation requiring plastic packaging producers to eliminate single-use plastics has ignited controversy from multiple sides just weeks after coming into force. Signed by Governor Gavin Newsom in 2022 but only enacted in May 2025, the law mandates that plastic and packaging companies reduce their reliance on single-use materials and ensure that all packaging is either recyclable or compostable by 2032. The underlying rationale is to compel producers to factor in the full lifecycle of their products, thereby driving innovation toward genuinely sustainable alternatives in bottles, containers and wrappings. Yet the law finds itself under fire from opposing camps. The chemicals industry has reacted with hostility, viewing the regulations as commercially damaging and overreaching, and seventeen US states are preparing to sue in an attempt to overturn or block the legislation. From the opposite direction, environmental groups have criticised the law as too timid, arguing that it does not go nearly far enough in tackling the scale of plastic pollution. This tension between industry opposition and environmentalist dissatisfaction reflects a familiar pattern in green policymaking: ambitious legislation often struggles to satisfy either side. California has long acted as a regulatory trailblazer in the United States, and the outcome of these legal challenges could have far-reaching consequences for how other states approach the contentious issue of plastic waste reduction.",
-          "vocabularyB2": [
-            {
-              "word": "enacted",
-              "definition": "When a law is officially put into practice and starts to be applied"
-            },
-            {
-              "word": "mandate",
-              "definition": "To officially require something by law or authority"
-            },
-            {
-              "word": "lifecycle",
-              "definition": "The complete series of stages a product goes through from creation to disposal"
-            },
-            {
-              "word": "trailblazer",
-              "definition": "A person, organisation or place that is the first to do something new and leads others"
-            },
-            {
-              "word": "contentious",
-              "definition": "Causing disagreement or argument between people with different opinions"
-            }
-          ],
-          "questionB2": "Given that the law is simultaneously criticised as too weak by environmentalists and too restrictive by industry, what does this tension reveal about the contentious nature of legislating for environmental change?"
-        },
-        {
-          "id": "17827152089711i26",
-          "title": "Europe’s foreign policy turf war",
-          "source": "Politico Europe",
-          "originalUrl": "https://www.politico.eu/podcast/brussels-playbook-podcast/europes-foreign-policy-turf-war/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "category": "politics",
-          "date": "2026-06-29",
-          "summaryB1": "The European Union has many people who work on foreign policy. But who is really in charge? This is a question that causes arguments inside the EU. Different institutions and officials all want to have power over how Europe deals with other countries. The European Commission, the Council of the EU, and individual member states often disagree about who should speak for Europe on the world stage. This is sometimes called a 'turf war' – a fight over who controls a particular area of work. For example, when Europe needs to respond to a crisis, different officials may give different messages. This can make the EU look weak or confused to other countries. The problem is that the EU's system of foreign policy is very complicated. There are many overlapping roles and it is not always clear who has the final say. For Polish citizens, this matters because Poland is an active EU member state that cares deeply about European security and its relationship with neighbours like Ukraine and Russia. If the EU cannot speak with one voice in foreign policy, it may struggle to protect European interests. Understanding how power is shared – and fought over – inside the EU helps us understand why European foreign policy sometimes moves slowly or sends mixed messages to the world.",
-          "vocabularyB1": [
-            {
-              "word": "institution",
-              "definition": "A large and established organisation, such as a government body or official group"
-            },
-            {
-              "word": "turf war",
-              "definition": "A fight or argument between groups about who controls a particular area or responsibility"
-            },
-            {
-              "word": "overlapping",
-              "definition": "When two or more things cover the same area or share the same responsibilities"
-            },
-            {
-              "word": "crisis",
-              "definition": "A time of serious danger or difficulty that needs urgent attention"
-            },
-            {
-              "word": "mixed messages",
-              "definition": "When different people or groups communicate different or contradictory information about the same thing"
-            }
-          ],
-          "questionB1": "When different institutions send mixed messages about foreign policy, what problems can this cause for the EU on the world stage?",
-          "summaryB2": "A simmering dispute over who holds authority in European Union foreign policy has once again come to the fore, exposing deep-seated tensions between the EU's competing power centres. The European Commission, the Council of the EU, and individual member states have long jostled for influence over how Europe presents itself to the world – a contest that critics argue undermines the bloc's credibility as a unified geopolitical actor. At the heart of the matter is an inherently ambiguous institutional architecture, in which multiple officials hold overlapping mandates with no clear hierarchy. The EU's High Representative for Foreign Affairs, the European Commission President, and national foreign ministers frequently operate on parallel tracks, occasionally contradicting one another in public. This fragmentation is more than a procedural inconvenience. In an era defined by Russia's war in Ukraine, strained transatlantic relations, and growing assertiveness from China, the EU's inability to project a coherent voice carries real strategic costs. Member states with strong national foreign policy traditions – including France and Germany – are often reluctant to cede ground to supranational bodies, further complicating efforts at coordination. For countries like Poland, which sits on NATO's eastern flank and has a direct stake in European security arrangements, the question of who speaks for Europe is far from abstract. The turf war at the top of EU diplomacy is, ultimately, a reflection of the unresolved tension between integration and sovereignty that has defined the European project since its inception.",
-          "vocabularyB2": [
-            {
-              "word": "fragmentation",
-              "definition": "The process of breaking into many separate, disconnected parts rather than working as one unified whole"
-            },
-            {
-              "word": "ambiguous",
-              "definition": "Unclear or open to more than one interpretation, making it difficult to know the exact meaning"
-            },
-            {
-              "word": "cede ground",
-              "definition": "To give up power, control, or advantage to someone else, often reluctantly"
-            },
-            {
-              "word": "supranational",
-              "definition": "Describing an authority or organisation that has power above and beyond individual nation states"
-            },
-            {
-              "word": "coherent",
-              "definition": "Logical, consistent, and clearly connected, so that different parts fit together well"
-            }
-          ],
-          "questionB2": "Given the fragmentation of EU foreign policy decision-making, is it realistic to expect member states to cede ground to supranational bodies, or is a unified European voice structurally impossible?"
-        },
-        {
-          "id": "1782715249961srun",
-          "title": "Social media bans go global: big tech faces a reckoning after Australia’s crackdown",
-          "source": "The Guardian Tech",
-          "originalUrl": "https://www.theguardian.com/news/ng-interactive/2026/jun/27/social-media-bans-go-global-big-tech-reckoning-australia-crackdown",
-          "category": "technology",
-          "date": "2026-06-27",
-          "summaryB1": "Many countries around the world are now trying to limit how much time children spend on social media. This movement started gaining serious attention after Australia introduced a ban on social media for people under the age of 16. The Australian law was one of the strictest of its kind, and it sent a clear message to big technology companies that governments are willing to act. Now other countries are looking at similar rules to protect young people online. Supporters of these bans say that social media can harm children's mental health and that companies have not done enough to keep young users safe. Critics, however, worry that bans are too difficult to enforce and may not actually solve the problem. Some people compare this moment to the fight against the tobacco industry, when governments finally stepped in to regulate something many people had enjoyed for years. The phrase 'big tobacco moment' suggests that technology companies may soon face the same kind of strict rules that cigarette makers had to follow. Whether these bans will work is still unclear, but it seems that governments around the world are no longer willing to ignore the issue. The pressure on tech companies to change how they operate is growing fast.",
-          "vocabularyB1": [
-            {
-              "word": "ban",
-              "definition": "An official rule that says something is not allowed"
-            },
-            {
-              "word": "enforce",
-              "definition": "To make sure a rule or law is followed by people"
-            },
-            {
-              "word": "regulate",
-              "definition": "To control something with official rules or laws"
-            },
-            {
-              "word": "protect",
-              "definition": "To keep someone or something safe from harm or danger"
-            },
-            {
-              "word": "pressure",
-              "definition": "A strong push or force that makes someone do something"
-            }
-          ],
-          "questionB1": "Do you think governments should ban children from using social media to protect them, or are there better ways to keep young people safe online?",
-          "summaryB2": "A growing number of governments worldwide are moving to rein in children's access to social media platforms, following Australia's landmark decision to prohibit users under 16 from joining these services. The Australian legislation, widely regarded as among the most sweeping of its kind, has emboldened other nations to consider comparable measures, signalling a potential turning point in how states relate to the tech industry. Observers have drawn a striking parallel with the reckoning that once confronted the tobacco industry — a moment when decades of largely unchecked corporate power eventually gave way to stringent government oversight. The analogy suggests that big tech may now face similarly far-reaching accountability. Proponents of social media restrictions argue that platforms have consistently failed to safeguard minors from harmful content, addictive design features, and documented damage to mental health. Opponents, however, contend that such bans are difficult to enforce in practice and risk infringing on young people's rights to information and free expression. There are also questions about whether blunt legislative tools can address the nuanced harms that researchers have identified. What is clear is that the political will to act appears to be hardening across multiple continents, and technology companies are under mounting scrutiny from regulators who seem less inclined than ever to accept self-regulation as a sufficient response.",
-          "vocabularyB2": [
-            {
-              "word": "rein in",
-              "definition": "To control or limit something that has been growing or getting out of hand"
-            },
-            {
-              "word": "reckoning",
-              "definition": "A time when the consequences of past actions must be faced and dealt with"
-            },
-            {
-              "word": "sweeping",
-              "definition": "Covering a very wide range; affecting many people or things at once"
-            },
-            {
-              "word": "stringent",
-              "definition": "Very strict and demanding exact compliance with rules or standards"
-            },
-            {
-              "word": "scrutiny",
-              "definition": "Close and careful examination or observation of someone or something"
-            }
-          ],
-          "questionB2": "Given the difficulty of enforcing sweeping social media bans and the risk of unintended consequences, do you think government regulation or industry self-regulation offers a more realistic path to protecting children online?"
         }
       ]
     }
