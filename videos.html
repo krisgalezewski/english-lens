@@ -26,9 +26,7 @@
 <meta name="theme-color" content="#08080a" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,75..125,400..900;1,75..125,400..900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/fonts/fonts.css">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -590,7 +588,7 @@
 </div>
 
 <footer>
-  <span>© English Voiced with Kris</span>
+  <span>© English Voiced with Kris · <a href="/privacy/" style="color:inherit;text-decoration:underline">Privacy</a></span>
   <span class="footer-right">English Voiced · Lens: Videos</span>
 </footer>
 
@@ -925,7 +923,7 @@
 
     document.getElementById('modal-card').innerHTML = `
       <div class="player-wrap">
-        <iframe src="https://www.youtube.com/embed/${escAttr(v.videoId)}" title="${escAttr(v.title)}"
+        <iframe src="https://www.youtube-nocookie.com/embed/${escAttr(v.videoId)}" title="${escAttr(v.title)}"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="modal-content">
