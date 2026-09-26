@@ -781,6 +781,49 @@
     return voices.find(v => v.lang.startsWith('en')) || null;
   }
 
+  // ── Pronunciation: pre-generated MP3 first (works on every phone),
+  //    browser speech only as a fallback for words without a file yet.
+  let currentAudio = null;
+  function markSpeaking(btn, on) {
+    document.querySelectorAll('.icon-btn.speaking').forEach(b => b.classList.remove('speaking'));
+    if (on && btn) btn.classList.add('speaking');
+  }
+  function stopPronunciation() {
+    if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+    if ('speechSynthesis' in window) { try { window.speechSynthesis.cancel(); } catch (e) {} }
+    markSpeaking(null, false);
+  }
+  function playPronunciation(v, btn) {
+    stopPronunciation();
+    if (v.audio) {
+      const audio = new Audio(v.audio);
+      currentAudio = audio;
+      markSpeaking(btn, true);
+      audio.onended = () => { if (currentAudio === audio) markSpeaking(null, false); };
+      // play() must be called straight from the tap for iOS to allow it
+      const p = audio.play();
+      if (p && p.catch) p.catch(() => { if (currentAudio === audio) speakWithBrowser(v.word, btn); });
+      return;
+    }
+    speakWithBrowser(v.word, btn);
+  }
+  function speakWithBrowser(word, btn) {
+    markSpeaking(null, false);
+    if (!('speechSynthesis' in window)) return;
+    try {
+      window.speechSynthesis.cancel();
+      const utt = new SpeechSynthesisUtterance(word);
+      utt.lang = 'en-GB';
+      utt.rate = 0.9;
+      const voice = getBritishFemaleVoice();
+      if (voice) utt.voice = voice;
+      utt.onend = utt.onerror = () => markSpeaking(null, false);
+      markSpeaking(btn, true);
+      // Speak immediately (not after onvoiceschanged) so iOS still counts it as part of the tap
+      window.speechSynthesis.speak(utt);
+    } catch (err) { /* unsupported — fail silently */ }
+  }
+
   function truncate(str, maxLen) {
     str = String(str || '').trim();
     if (str.length <= maxLen) return str;
@@ -1161,7 +1204,7 @@
           <div class="vocab-def">${escHtml(v.definition)}</div>
         </div>
         <div class="vocab-icons">
-          <button class="icon-btn vocab-audio" data-word="${escAttr(v.word)}" title="Listen" aria-label="Hear pronunciation of ${escAttr(v.word)}">♪</button>
+          <button class="icon-btn vocab-audio" data-idx="${idx}" data-word="${escAttr(v.word)}" title="Listen" aria-label="Hear pronunciation of ${escAttr(v.word)}">♪</button>
         </div>
       </div>`).join('')}
     </div>` : '';
@@ -1214,30 +1257,13 @@
       btn.addEventListener('click', () => activateVocab(+btn.dataset.idx, vocab));
     });
 
-    if ('speechSynthesis' in window) {
-      document.querySelectorAll('#modal-card .vocab-audio').forEach(btn => {
-        btn.addEventListener('click', e => {
-          e.stopPropagation();
-          try {
-            window.speechSynthesis.cancel();
-            const utt = new SpeechSynthesisUtterance(btn.dataset.word);
-            utt.lang = 'en-GB';
-            utt.rate = 0.9;
-            const speak = () => {
-              const voice = getBritishFemaleVoice();
-              if (voice) utt.voice = voice;
-              document.querySelectorAll('.icon-btn.speaking').forEach(b => b.classList.remove('speaking'));
-              btn.classList.add('speaking');
-              utt.onend = () => btn.classList.remove('speaking');
-              utt.onerror = () => btn.classList.remove('speaking');
-              window.speechSynthesis.speak(utt);
-            };
-            if (window.speechSynthesis.getVoices().length) speak();
-            else window.speechSynthesis.onvoiceschanged = speak;
-          } catch (err) { /* unsupported — fail silently */ }
-        });
+    document.querySelectorAll('#modal-card .vocab-audio').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        const v = vocab[+btn.dataset.idx] || { word: btn.dataset.word };
+        playPronunciation(v, btn);
       });
-    }
+    });
 
     const nextCard = document.getElementById('next-card');
     if (nextCard) nextCard.addEventListener('click', () => {
@@ -1275,6 +1301,7 @@
   }
 
   function closeModal() {
+    stopPronunciation();
     document.getElementById('modal-overlay').classList.remove('open');
     document.body.style.overflow = '';
     detail = null;
@@ -1285,6 +1312,8 @@
     if (e.target.id === 'modal-overlay') closeModal();
   });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  if ('speechSynthesis' in window) { try { window.speechSynthesis.getVoices(); } catch (e) {} }
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').catch(() => {});

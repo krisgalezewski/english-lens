@@ -16,6 +16,8 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
+  // Let the browser handle audio directly — Safari needs native range requests for MP3 playback
+  if (e.request.url.includes('/audio/') || e.request.url.endsWith('.mp3')) return;
   if (e.request.url.includes('news.json') || e.request.url.includes('videos.json')) {
     e.respondWith(
       fetch(e.request)

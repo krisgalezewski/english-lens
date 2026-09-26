@@ -1,21 +1,19 @@
-name: Weekly News Fetch
+name: Generate Vocabulary Audio
 
+# Manual run: creates any missing pronunciation MP3s for the whole news.json
+# archive (without fetching a new edition). The weekly workflow does this
+# automatically for new words; use this for the first backfill or after
+# changing the voice.
 on:
-  schedule:
-    # 05:30 UTC = 07:30 Warsaw (CEST, summer UTC+2)
-    # In winter (CET, UTC+1) this runs at 06:30 Warsaw — adjust if needed
-    - cron: '30 5 * * 1'
-
-  # Allow manual trigger from GitHub Actions tab (useful for testing)
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  fetch-and-deploy:
+  generate-audio:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
@@ -26,25 +24,17 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Fetch and summarise news
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node fetch-news.js
-
       - name: Generate vocabulary pronunciation audio
         env:
           GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
         run: node generate-audio.js
 
-      - name: Commit updated news.json and audio
+      - name: Commit audio and news.json
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "English Lens Bot"
           git add news.json audio/
-          git diff --staged --quiet || git commit -m "Weekly news update — $(date +'%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "Vocabulary audio — $(date +'%Y-%m-%d')"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
